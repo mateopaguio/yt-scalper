@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-10-21T22:32:50.735436+00:00",
+  "video_count": 3,
+  "videos": [
+    {
+      "video_id": "ZJoayvFU4Zo",
+      "title": "Coke's Struggle to Break Into the $500 Billion Global Coffee Market",
+      "channel": "Bloomberg Television",
+      "published": "2026-10-21T21:04:57+00:00",
+      "url": "https://www.youtube.com/watch?v=ZJoayvFU4Zo",
+      "tier": 1,
+      "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+      "source_type": "video",
+      "findings": null,
+      "skip_reason": "content too short"
+    },
+    {
+      "video_id": "1pB7zhFt_8Y",
+      "title": "Kuwait Petroleum Corporation CEO says oil output tops 2 million barrels a day",
+      "channel": "Bloomberg Television",
+      "published": "2026-10-21T20:53:06+00:00",
+      "url": "https://www.youtube.com/watch?v=1pB7zhFt_8Y",
+      "tier": 1,
+      "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+      "source_type": "video",
+      "findings": null,
+      "skip_reason": "content too short"
+    },
+    {
+      "video_id": "oaorVVccdWE",
+      "title": "Why avoid buying late in a bull market? See IBD’s 2026 Founder’s Club preview: investors.com/fcvegas",
+      "channel": "Investor's Business Daily",
+      "published": "2026-10-21T20:46:18+00:00",
+      "url": "https://www.youtube.com/watch?v=oaorVVccdWE",
+      "tier": 1,
+      "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
+      "source_type": "video",
+      "findings": null,
+      "skip_reason": "content too short"
+    }
+  ],
+  "aggregate": {
+    "tickers": [],
+    "multi_channel": [],
+    "speculative_only": [],
+    "total_tickers": 0
+  },
+  "catalysts": [
+    {
+      "event_id": "cat_ecc4ebe0ecf46b",
+      "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary  Medications Within Expiry Due to Potential Potency Issues",
+      "source": "FDA Drugs",
+      "published": "2026-10-21T16:51:51-04:00",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
+      "category": "regulatory",
+      "findings": {
+        "affected_sectors": [
+          "compounding pharmacy",
+          "veterinary pharmaceuticals"
+        ],
+        "companies": [
+          {
+            "company": "Wedgewood Pharmacy",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "event_type": "recall_safety",
+        "is_market_relevant": true,
+        "materiality": 2,
+        "summary": "Wedgewood Pharmacy announced a recall of certain compounded veterinary medications that are within their expiry date, citing potential potency issues. Only the headline was retrieved; no body text, scope, or affected lots were available.",
+        "scheduled_date": ""
+      }
+    },
+    {
+      "event_id": "cat_802f8fe00cdec7",
+      "title": "CDER Leadership Bios",
+      "source": "FDA Drugs",
+      "published": "2026-10-21T14:54:39-04:00",
+      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-leadership-bios",
+      "category": "regulatory",
+      "findings": null
+    },
+    {
+      "event_id": "cat_b7ccac5a714b83",
+      "title": "Over-The-Counter Monograph Drug User Fee Program (OMUFA)",
+      "source": "FDA Drugs",
+      "published": "2026-10-21T14:41:40-04:00",
+      "url": "http://www.fda.gov/industry/fda-user-fee-programs/over-counter-monograph-drug-user-fee-program-omufa",
+      "category": "regulatory",
+      "findings": null
+    },
+    {
+      "event_id": "cat_e8403aff42d570",
+      "title": "VYJUVEK",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-21T14:36:39-04:00",
+      "url": "http://www.fda.gov/vaccines-blood-biologics/vyjuvek",
+      "category": "regulatory",
+      "findings": null
+    },
+    {
+      "event_id": "cat_3c3e82bc6cb61f",
+      "title": "What’s New for Biologics",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-21T14:30:20-04:00",
+      "url": "http://www.fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+      "category": "regulatory",
+      "findings": null
+    },
+    {
+      "event_id": "cat_0347ca07291aae",
+      "title": "Compounding Quality Center of Excellence | Discussion Series",
+      "source": "FDA Drugs",
+      "published": "2026-10-21T12:22:56-04:00",
+      "url": "http://www.fda.gov/drugs/compounding-quality-center-excellence/compounding-quality-center-excellence-discussion-series",
+      "category": "regulatory",
+      "findings": null
+    }
+  ],
+  "ledger": {},
+  "creator_stats": [],
+  "under_the_radar": [],
+  "tier4_candidates": [],
+  "calendar": [],
+  "orphan_catalysts": [],
+  "blocked_count": 1,
+  "skipped_count": 0,
+  "pending_count": 1
+}

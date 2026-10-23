@@ -1,0 +1,10 @@
+# Dependency set for Python 3.9 (what macOS ships).
+# The only real constraint is the Anthropic SDK: 1.x requires Python 3.10+,
+# while 0.125 supports 3.9 and exposes the identical Messages + tool-use API
+# this project uses. Everything else resolves normally.
+anthropic>=0.125.0,<1.0
+youtube-transcript-api>=1.2.0,<2.0
+requests>=2.31.0
+trafilatura>=2.0.0
+PyYAML>=6.0.1
+twilio>=9.0.0

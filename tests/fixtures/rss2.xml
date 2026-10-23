@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Market Wire</title>
+  <item>
+    <title>Semis rally into earnings week</title>
+    <link>https://example.com/semis-rally</link>
+    <pubDate>Mon, 19 Oct 2026 13:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Dollar strength pressures exporters</title>
+    <link>https://example.com/dollar-strength</link>
+    <pubDate>Sun, 18 Oct 2026 22:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Old news from last month</title>
+    <link>https://example.com/old</link>
+    <pubDate>Mon, 15 Sep 2026 10:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

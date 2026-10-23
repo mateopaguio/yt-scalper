@@ -1,0 +1,103 @@
+[
+  {
+    "video_id": "testAAA111",
+    "title": "3 AI Stocks I'm Buying Before Earnings Season",
+    "channel": "Value Lens",
+    "published": "2026-10-19T11:00:00+00:00",
+    "url": "https://www.youtube.com/watch?v=testAAA111",
+    "findings": {
+      "summary": "Walks through three semiconductor and infrastructure names ahead of Q3 earnings, leaning on data-center capex guidance and gross-margin trends. Spends most of the runtime on NVDA's supply commitments and argues AMD is the better risk-reward at current multiples.",
+      "overall_stance": "bullish",
+      "hype_level": 2,
+      "discloses_position": true,
+      "promotional": false,
+      "tickers": [
+        {
+          "ticker": "NVDA", "company": "Nvidia", "stance": "bullish",
+          "thesis": "Argues data-center backlog is already contracted through next year, so a guidance miss is unlikely even if the multiple compresses.",
+          "catalyst": "Q3 earnings", "price_target": "$210-230",
+          "timeframe": "next 2 quarters", "conviction": "high",
+          "evidence": "data", "timestamp": "4:12"
+        },
+        {
+          "ticker": "AMD", "company": "Advanced Micro Devices", "stance": "bullish",
+          "thesis": "Sees better risk-reward than NVDA because expectations are lower and the MI accelerator line is gaining named customers.",
+          "catalyst": "MI400 launch", "price_target": "",
+          "timeframe": "12 months", "conviction": "medium",
+          "evidence": "reasoned", "timestamp": "18:40"
+        },
+        {
+          "ticker": "INTC", "company": "Intel", "stance": "bearish",
+          "thesis": "Thinks foundry losses keep compounding and the turnaround timeline keeps slipping.",
+          "catalyst": "", "price_target": "", "timeframe": "",
+          "conviction": "medium", "evidence": "reasoned", "timestamp": "27:05"
+        }
+      ],
+      "macro_points": ["Expects the Fed to hold rates through year end"],
+      "red_flags": []
+    }
+  },
+  {
+    "video_id": "testBBB222",
+    "title": "THIS STOCK WILL 10X BY FRIDAY (ACT NOW)",
+    "channel": "Momentum Daily",
+    "published": "2026-10-19T09:30:00+00:00",
+    "url": "https://www.youtube.com/watch?v=testBBB222",
+    "findings": {
+      "summary": "A short, urgency-heavy video promoting a small-cap biotech, followed by a pitch for the host's paid Discord. Offers no financial detail about the company and does not discuss downside.",
+      "overall_stance": "bullish",
+      "hype_level": 5,
+      "discloses_position": false,
+      "promotional": true,
+      "tickers": [
+        {
+          "ticker": "NVDA", "company": "Nvidia", "stance": "bullish",
+          "thesis": "Mentions it as confirmation that the whole AI sector is going higher, without specific reasoning.",
+          "catalyst": "", "price_target": "$400", "timeframe": "weeks",
+          "conviction": "high", "evidence": "none", "timestamp": "1:20"
+        },
+        {
+          "ticker": "ABCD", "company": "Unnamed small-cap biotech", "stance": "bullish",
+          "thesis": "Claims an imminent announcement will revalue the company, without naming the catalyst or citing a filing.",
+          "catalyst": "unspecified announcement", "price_target": "10x",
+          "timeframe": "this week", "conviction": "high",
+          "evidence": "none", "timestamp": "0:45"
+        }
+      ],
+      "macro_points": [],
+      "red_flags": [
+        "Promises a 10x return in a specific, very short timeframe",
+        "No disclosure of whether the host holds the position",
+        "Video functions largely as an ad for a paid Discord",
+        "No discussion of downside or risk at any point"
+      ]
+    }
+  },
+  {
+    "video_id": "testCCC333",
+    "title": "Weekly Market Recap: Rates, Earnings, and the Dollar",
+    "channel": "Macro Notes",
+    "published": "2026-10-18T22:15:00+00:00",
+    "url": "https://www.youtube.com/watch?v=testCCC333",
+    "findings": {
+      "summary": "Macro-focused recap covering rate expectations and dollar strength. Touches on AMD only briefly as an example of sector rotation rather than as a recommendation.",
+      "overall_stance": "neutral",
+      "hype_level": 1,
+      "discloses_position": true,
+      "promotional": false,
+      "tickers": [
+        {
+          "ticker": "AMD", "company": "Advanced Micro Devices", "stance": "neutral",
+          "thesis": "Uses it to illustrate money rotating within semis rather than leaving the sector, and takes no directional view.",
+          "catalyst": "", "price_target": "", "timeframe": "",
+          "conviction": "low", "evidence": "reasoned", "timestamp": "9:02"
+        }
+      ],
+      "macro_points": [
+        "Expects one more hold before any cut is discussed",
+        "Dollar strength is pressuring multinational earnings"
+      ],
+      "red_flags": []
+    }
+  }
+]

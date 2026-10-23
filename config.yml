@@ -1,0 +1,414 @@
+channels:
+- name: Schwab Network
+  handle: '@SchwabNetwork'
+  channel_id: UCqoSrYgusd8ZddtMoWhjHYA
+  tier: 1
+  category: 1
+  verification: verified
+- name: Yahoo Finance
+  handle: '@YahooFinance'
+  channel_id: UCEAZeUIeJs0IjQiqTCdVSIg
+  tier: 1
+  category: 1
+  verification: corroborated
+- name: Bloomberg Television
+  handle: '@markets'
+  channel_id: UCIALMKvObZNtJ6AmdCLP7Lg
+  tier: 1
+  category: 1
+  verification: corroborated
+- name: CNBC Television
+  handle: '@CNBCtelevision'
+  channel_id: UCrp_UI8XtuYfpiqluWLD7Lw
+  tier: 1
+  category: 1
+  verification: corroborated
+- name: Investor's Business Daily
+  handle: '@investorsbusinessdaily'
+  channel_id: UC5fZv7bPcF5j2RsfO-9OiLA
+  tier: 1
+  category: 1
+  verification: supplied-verified
+- name: The Compound
+  handle: '@thecompoundnews'
+  channel_id: UCBRpqrzuuqE8TZcWw75JSdw
+  tier: 1
+  category: 1
+  verification: verified
+- name: Bloomberg Podcasts
+  handle: '@BloombergPodcasts'
+  channel_id: null
+  tier: 1
+  category: 1
+  verification: handle-confirmed-id-pending
+  needs_url: false
+- name: CNBC
+  handle: '@CNBC'
+  channel_id: UCvJJ_dzjViJCoLf5uKUTwoA
+  tier: 1
+  category: 1
+  verification: corroborated
+- name: MarketWatch
+  handle: '@MarketWatch'
+  channel_id: UCPaSu8qnjJhF1vkXVOGojBQ
+  tier: 1
+  category: 1
+  verification: verified
+- name: Barron's
+  handle: '@Barrons'
+  channel_id: UCOfQuCs1g5_wjr3GPKKYSoA
+  tier: 1
+  category: 1
+  verification: verified-via-google-profile
+- name: Joseph Carlson
+  handle: '@JosephCarlsonShow'
+  channel_id: UCbta0n8i6Rljh0obO7HzG9A
+  tier: 2
+  category: 2
+  verification: verified
+- name: Couch Investor
+  handle: '@CouchInvestor'
+  channel_id: UCrGLm-Drgv0vbbemwwHeXJw
+  tier: 2
+  category: 2
+  verification: verified
+- name: Sven Carlin
+  handle: '@Value-Investing'
+  channel_id: UCrTTBSUr0zhPU56UQljag5A
+  tier: 2
+  category: 2
+  verification: verified
+- name: Everything Money
+  handle: '@EverythingMoney'
+  channel_id: UChBVf9YnourrEDTsbbwJPRA
+  tier: 2
+  category: 2
+  verification: corroborated
+- name: Parkev Tatevosian, CFA
+  handle: '@parkevtatevosiancfa9544'
+  channel_id: UCwKB_00dPL3x5XmHF9IJCrg
+  tier: 2
+  category: 2
+  verification: supplied-verified
+- name: FAST Graphs
+  handle: '@FASTgraphs'
+  channel_id: UCJggpN5VY0PWKoOyBBT0R8A
+  tier: 2
+  category: 2
+  verification: verified
+- name: Chit Chat Stocks
+  handle: '@ChitChatStocks'
+  channel_id: UCG5Ni-SI-jyrEsoNUhqftNQ
+  tier: 2
+  category: 2
+  verification: corroborated
+- name: Dividend Talks
+  handle: '@DividendTalks'
+  channel_id: UClLyc3C2K3C-RAh7eEJAwyg
+  tier: 2
+  category: 2
+  verification: supplied-verified
+- name: Yet Another Value Podcast
+  handle: '@yetanothervaluepodcast'
+  channel_id: UCVCzUJIgjDKSdEOYpTqLScw
+  tier: 2
+  category: 2
+  verification: corroborated
+- name: The Swedish Investor
+  handle: '@TheSwedishInvestor'
+  channel_id: UCAeAB8ABXGoGMbXuYPmiu2A
+  tier: 2
+  category: 2
+  verification: verified
+- name: New Money
+  handle: '@NewMoneyYouTube'
+  channel_id: UCvSXMi2LebwJEM1s4bz5IBA
+  tier: 2
+  category: 2
+  verification: verified
+- name: The Investor's Podcast Network
+  handle: '@InvestorsPodcast'
+  channel_id: UCRxcqcFxMPOsjkEGih6F4zQ
+  tier: 2
+  category: 2
+  verification: verified
+- name: Focused Compounding
+  handle: '@FocusedCompounding'
+  channel_id: UCeXFg-8SYfqa2bF-2ERR1SA
+  tier: 2
+  category: 2
+  verification: verified
+- name: Morningstar
+  handle: '@morningstar'
+  channel_id: UChub1tZZuWn9YYHJZZYTbMg
+  tier: 2
+  category: 2
+  verification: verified
+- name: Learn to Invest (Jimmy)
+  handle: '@LearntoInvest'
+  channel_id: UCSglJMvX-zSgv3PEJIE_inw
+  tier: 2
+  category: 2
+  verification: verified
+- name: 'Ticker Symbol: YOU'
+  handle: '@tickersymbolyou'
+  channel_id: UC7kCeZ53sli_9XwuQeFxLqw
+  tier: 2
+  category: 3
+  verification: corroborated
+- name: Jose Najarro Stocks
+  handle: '@JoseNajarroStocks'
+  channel_id: UC5cEHfCr6WOE1R1zcohd1IA
+  tier: 2
+  category: 3
+  verification: corroborated
+- name: Mr. FIRED Up Wealth
+  handle: '@FiredUpWealth'
+  channel_id: UCqqHGGPbhISeKkpEx8676sw
+  tier: 2
+  category: 3
+  verification: supplied-verified
+- name: Asymmetric Investing
+  handle: '@AsymmetricInvesting'
+  channel_id: UCM2udYo4m-_uQfbfLGwf6mA
+  tier: 2
+  category: 3
+  verification: verified
+- name: Brian Feroldi
+  handle: '@brianferoldiYT'
+  channel_id: UCs60_Z83HU76uygzHRQl0kA
+  tier: 2
+  category: 3
+  verification: verified-via-own-website
+- name: Chip Stock Investor
+  handle: '@ChipStockInvestor'
+  channel_id: UC3aD-gfmHV_MhMmcwyIu1wA
+  tier: 2
+  category: 3
+  verification: verified
+- name: Stock Talk with Josh
+  handle: null
+  channel_id: null
+  tier: 2
+  category: 3
+  verification: UNRESOLVED
+  needs_url: true
+  review: closest match is the 'Stock Talk with Josh & Niko' podcast - no confirmed YouTube channel
+- name: Financial Education (Jeremy)
+  handle: '@FinancialEducation'
+  channel_id: UCnMn36GT_H0X-w5_ckLtlgQ
+  tier: 2
+  category: 3
+  verification: verified
+- name: Meet Kevin
+  handle: '@MeetKevin'
+  channel_id: UCUvvj5lwue7PspotMDjk5UA
+  tier: 2
+  category: 3
+  verification: corroborated
+- name: Felix & Friends
+  handle: '@FelixFriends'
+  channel_id: UCJtfma0mE_XrBAD9uakcjfA
+  tier: 2
+  category: 3
+  verification: verified
+- name: Unrivaled Investing
+  handle: '@UnrivaledInvesting'
+  channel_id: UCTFNtj7w0bRVh-36ITYBaEA
+  tier: 2
+  category: 3
+  verification: verified-name-anomaly
+  review: display name reads 'UNRIVALEDD INVESTING' (double D) — confirm
+- name: The Popular Investor
+  handle: null
+  channel_id: null
+  tier: 2
+  category: 3
+  verification: UNRESOLVED
+  needs_url: true
+  review: no matching YouTube channel found
+- name: Daniel Pronk
+  handle: '@DanielPronk'
+  channel_id: UCL-F-8nxFtFZ4M3RWkGn6Qw
+  tier: 2
+  category: 3
+  verification: verified
+- name: Stock Analysis on Net
+  handle: null
+  channel_id: null
+  tier: 2
+  category: 3
+  verification: UNRESOLVED
+  needs_url: true
+  review: confirmed a WEBSITE (stock-analysis-on.net), not a YouTube channel
+- name: Best of Us Investors
+  handle: '@BestofUsInvestors'
+  channel_id: UC-hq1OIl97y7h0DiJx45N3w
+  tier: 2
+  category: 3
+  verification: verified
+- name: Patrick Boyle
+  handle: '@PBoyle'
+  channel_id: UCASM0cgfkJxQ1ICmRilfHLw
+  tier: 3
+  category: 4
+  verification: verified
+- name: The Plain Bagel
+  handle: '@ThePlainBagel'
+  channel_id: UCFCEuCsyWP0YkP3CZ3Mr01Q
+  tier: 3
+  category: 4
+  verification: corroborated
+- name: Aswath Damodaran
+  handle: '@AswathDamodaranonValuation'
+  channel_id: UCLvnJL8htRR1T9cbSccaoVw
+  tier: 3
+  category: 4
+  verification: verified
+- name: Ben Felix
+  handle: '@BenFelixCSI'
+  channel_id: UCDXTQ8nWmx_EhZ2v-kp7QxA
+  tier: 3
+  category: 4
+  verification: verified
+- name: Steve Eisman's Real Eisman Playbook
+  handle: '@RealEismanPlaybook'
+  channel_id: UCzQ2FFVe7m8yIgzXMZtlSjg
+  tier: 3
+  category: 4
+  verification: corroborated
+- name: Real Vision Finance
+  handle: '@RealVisionFinance'
+  channel_id: UCGXWKlq1Oxr3ddEtmKhAkPg
+  tier: 3
+  category: 4
+  verification: verified
+- name: George Gammon
+  handle: '@GeorgeGammon'
+  channel_id: UCpvyOqtEc86X8w8_Se0t4-w
+  tier: 3
+  category: 4
+  verification: verified
+- name: Lyn Alden
+  handle: '@LynAldenMedia'
+  channel_id: UC26OTzxt9ixdrr3qdUJrYBQ
+  tier: 3
+  category: 4
+  verification: verified-via-own-website
+- name: Wealthion
+  handle: '@Wealthion'
+  channel_id: UCKMeK-HGHfUFFArZ91rzv5A
+  tier: 3
+  category: 4
+  verification: verified
+- name: Eurodollar University
+  handle: '@eurodollaruniversity'
+  channel_id: UCrXNkk4IESnqU-8GMad2vyA
+  tier: 3
+  category: 4
+  verification: verified
+sites: []
+lookback_hours: 6
+window_days: 3
+max_videos_per_run: 8
+min_transcript_words: 300
+pending_max_attempts: 12
+pending_give_up_hours: 30
+model: claude-haiku-5-5
+max_output_tokens: 4096
+notify:
+  sms: true
+  push: true
+  only_if_findings: true
+site_url: https://YOURNAME.github.io/yt-scalper/
+watchlist: []
+catalyst_feeds:
+- name: SEC Press Releases
+  category: regulatory
+  rss: https://www.sec.gov/news/pressreleases.rss
+  enabled: true
+- name: SEC Trading Suspensions
+  category: regulatory
+  rss: https://www.sec.gov/enforcement-litigation/trading-suspensions/rss
+  enabled: true
+- name: SEC Litigation Releases
+  category: regulatory
+  rss: https://www.sec.gov/enforcement-litigation/litigation-releases/rss
+  enabled: true
+- name: SEC Administrative Proceedings
+  category: regulatory
+  rss: https://www.sec.gov/enforcement-litigation/administrative-proceedings/rss
+  enabled: false
+- name: FDA Press Releases
+  category: regulatory
+  rss: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml
+  enabled: true
+- name: FDA Drugs
+  category: regulatory
+  rss: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml
+  enabled: true
+- name: FDA Biologics and Vaccines
+  category: regulatory
+  rss: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml
+  enabled: true
+- name: FDA MedWatch Safety Alerts
+  category: regulatory
+  rss: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml
+  enabled: true
+- name: FDA Recalls
+  category: regulatory
+  rss: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml
+  enabled: false
+- name: Fed Monetary Policy
+  category: macro
+  rss: https://www.federalreserve.gov/feeds/press_monetary.xml
+  enabled: true
+- name: Fed All Press Releases
+  category: macro
+  rss: https://www.federalreserve.gov/feeds/press_all.xml
+  enabled: false
+- name: Fed Enforcement Actions
+  category: regulatory
+  rss: https://www.federalreserve.gov/feeds/press_enforcement.xml
+  enabled: false
+- name: Fed Industrial Production (G.17)
+  category: macro
+  rss: https://www.federalreserve.gov/feeds/g17.xml
+  enabled: false
+- name: Fed Consumer Credit (G.19)
+  category: macro
+  rss: https://www.federalreserve.gov/feeds/g19.xml
+  enabled: false
+- name: Fed Selected Interest Rates (H.15)
+  category: macro
+  rss: https://www.federalreserve.gov/feeds/h15.xml
+  enabled: false
+- name: SEC Rules in Federal Register
+  category: regulatory
+  rss: https://www.federalregister.gov/articles/search.rss?conditions%5Bagency_ids%5D%5B%5D=466
+  enabled: false
+max_catalysts_per_run: 25
+catalyst_horizon_days: 30
+catalyst_alert_materiality: 4
+tiers:
+  1:
+    label: Market news & earnings
+    interval_hours: 1
+    counts_toward_consensus: true
+    priority: 1
+  2:
+    label: Stock research & growth
+    interval_hours: 1
+    counts_toward_consensus: true
+    priority: 2
+  3:
+    label: Macro, valuation & education
+    interval_hours: 24
+    counts_toward_consensus: true
+    priority: 3
+  4:
+    label: Speculative & opinion-heavy
+    interval_hours: 1
+    counts_toward_consensus: false
+    priority: 4
+request_delay_seconds: 4.0

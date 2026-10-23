@@ -1,0 +1,6 @@
+anthropic>=1.0.0
+youtube-transcript-api>=1.2.0
+requests>=2.31.0
+trafilatura>=1.8.0
+PyYAML>=6.0.1
+twilio>=9.0.0

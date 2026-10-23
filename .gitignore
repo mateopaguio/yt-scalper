@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+logs/
+# never commit credentials
+anthropic-key.txt
+byrde-proxy.env
+*.key
+.anthropic-key
+.proxy.env

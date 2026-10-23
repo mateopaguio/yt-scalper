@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Scalper Digest</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0d1117; --panel:#161b22; --panel-2:#1c232c; --line:#2a313c;
+  --ink:#e6edf3; --muted:#8b949e; --dim:#6e7681;
+  --up:#3fb950; --down:#f85149; --flat:#d29922; --accent:#58a6ff;
+  --good:#3fb950; --ok:#58a6ff; --weak:#d29922; --bad:#f85149;
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  padding:0 0 56px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line);padding:20px 0 14px;margin-bottom:18px}
+h1{margin:0;font-size:19px;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.stats{display:flex;gap:18px;margin-top:14px;flex-wrap:wrap}
+.stat b{display:block;font-size:21px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+  margin:26px 0 10px;font-weight:600}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  margin-bottom:10px;overflow:hidden}
+.card.flagged{border-color:#8a6d1f}
+.row{display:flex;align-items:baseline;gap:9px;padding:13px 14px;flex-wrap:wrap}
+.tkr{font-weight:700;font-size:17px;letter-spacing:.02em}
+.co{color:var(--muted);font-size:13px;flex:1;min-width:120px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pill{font-size:11px;padding:2px 8px;border-radius:999px;font-weight:600;
+  border:1px solid currentColor;white-space:nowrap}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+.count{color:var(--dim);font-size:12px;font-variant-numeric:tabular-nums}
+details{border-top:1px solid var(--line)}
+summary{padding:9px 14px;cursor:pointer;color:var(--accent);font-size:13px;
+  list-style:none;user-select:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ ";color:var(--dim)}
+details[open] summary::before{content:"▾ "}
+.take{padding:12px 14px;border-top:1px solid var(--line);background:var(--panel-2)}
+.take:first-of-type{border-top:none}
+.take .who{font-size:12px;color:var(--muted);margin-bottom:5px;
+  display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.take p{margin:0 0 8px}
+.meta{font-size:12px;color:var(--dim);display:flex;gap:12px;flex-wrap:wrap}
+.meta b{color:var(--muted);font-weight:500}
+.ev{font-size:10px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.ev.good{color:var(--good)} .ev.ok{color:var(--ok)}
+.ev.weak{color:var(--weak)} .ev.bad{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.vid{padding:12px 14px;border-bottom:1px solid var(--line)}
+.vid:last-child{border-bottom:none}
+.vid .t{font-weight:600;margin-bottom:3px;line-height:1.35}
+.vid .c{font-size:12px;color:var(--muted);margin-bottom:6px}
+.vid .s{font-size:13.5px;color:#c9d1d9}
+.kind{font-size:10px;text-transform:uppercase;letter-spacing:.07em;
+  padding:1px 6px;border-radius:4px;border:1px solid var(--line);
+  color:var(--dim);font-weight:700;margin-right:6px;vertical-align:1px}
+.flag{font-size:12px;color:var(--flat);margin-top:7px;padding-left:16px;
+  position:relative}
+.flag::before{content:"!";position:absolute;left:4px;font-weight:700}
+.cat{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  margin-bottom:8px;padding:12px 14px}
+.cat.hot{border-color:#6e3030}
+.cat .ch{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;margin-bottom:5px}
+.cat .et{font-size:10px;text-transform:uppercase;letter-spacing:.06em;
+  font-weight:700;color:var(--dim);border:1px solid var(--line);
+  padding:1px 6px;border-radius:4px}
+.cat .mt{font-size:11px;color:var(--dim);font-variant-numeric:tabular-nums}
+.cat .sm{font-size:13.5px;color:#c9d1d9;margin-top:4px}
+.cat .sr{font-size:12px;color:var(--muted);margin-top:6px}
+.cal{display:flex;gap:10px;padding:10px 14px;background:var(--panel);
+  border:1px solid var(--line);border-radius:8px;margin-bottom:7px;align-items:baseline}
+.cal .d{font-size:12px;color:var(--accent);font-weight:700;white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.catlink{font-size:12px;margin-top:7px;padding-top:7px;border-top:1px solid var(--line)}
+.catlink b{color:var(--muted);font-weight:600}
+.empty{color:var(--muted);text-align:center;padding:40px 16px;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px}
+footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--line);
+  color:var(--dim);font-size:12px;line-height:1.6}
+.note{background:#1c1908;border:1px solid #4d3d0e;color:#d8c272;
+  padding:11px 13px;border-radius:8px;font-size:13px;margin-bottom:16px}
+@media(max-width:400px){.co{display:none}}
+</style>
+</head><body><div class="wrap">
+<header>
+  <h1>Scalper Digest</h1>
+  <div class="sub">Updated Oct 21, 2026 at 22:32 UTC</div>
+  <div class="stats">
+    <div class="stat"><b>3</b><span>videos</span></div>
+    <div class="stat"><b>0</b><span>tickers</span></div>
+    <div class="stat"><b>0</b><span>overlapping</span></div>
+    <div class="stat"><b>1</b><span>catalysts</span></div>
+  </div>
+</header>
+<div class="note">1 transcript(s) could not be fetched — YouTube throttled the request. See the README on setting a proxy if this keeps happening.</div>
+
+<h2>Catalysts filed</h2><div class="cat"><div class="ch"><span class="down">-</span><span class="tkr">Wedgewood Pharmacy</span><span class="et">recall safety</span><span class="mt">materiality 2/5</span></div><div class="sm">Wedgewood Pharmacy announced a recall of certain compounded veterinary medications that are within their expiry date, citing potential potency issues. Only the headline was retrieved; no body text, scope, or affected lots were available.</div><div class="sr"><a href="http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due" target="_blank" rel="noopener">Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary  Medications Within Expiry Due to Potential Potency Issues</a> — FDA Drugs</div></div>
+
+<div class="empty">No tickers found in this run.<br>Either there were no new videos, or none discussed specific names.</div>
+<h2>Video breakdowns</h2><div class="card"><div class="vid"><div class="t"><span class="kind">video</span><a href="https://www.youtube.com/watch?v=ZJoayvFU4Zo" target="_blank" rel="noopener">Coke&#x27;s Struggle to Break Into the $500 Billion Global Coffee Market</a></div><div class="c">Bloomberg Television</div><div class="s">No summary available.</div></div></div><div class="card"><div class="vid"><div class="t"><span class="kind">video</span><a href="https://www.youtube.com/watch?v=1pB7zhFt_8Y" target="_blank" rel="noopener">Kuwait Petroleum Corporation CEO says oil output tops 2 million barrels a day</a></div><div class="c">Bloomberg Television</div><div class="s">No summary available.</div></div></div><div class="card"><div class="vid"><div class="t"><span class="kind">video</span><a href="https://www.youtube.com/watch?v=oaorVVccdWE" target="_blank" rel="noopener">Why avoid buying late in a bull market? See IBD’s 2026 Founder’s Club preview: investors.com/fcvegas</a></div><div class="c">Investor&#x27;s Business Daily</div><div class="s">No summary available.</div></div></div>
+<footer>
+  This page reports what these videos claimed. It is not investment advice,
+  not a recommendation, and not a judgment on whether any call is correct.
+  Evidence labels describe how well a claim was supported on the video, not
+  whether it is true. Catalyst entries are summaries of official filings and
+  announcements; the direction shown reflects only the plain nature of the
+  event, not a price forecast. Verify anything before acting on it.
+</footer>
+</div></body></html>

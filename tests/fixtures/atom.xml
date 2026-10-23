@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Analyst Notes</title>
+  <entry>
+    <title>Three names for Q4</title>
+    <link rel="alternate" href="https://notes.example.com/q4-names"/>
+    <published>2026-10-19T12:00:00Z</published>
+  </entry>
+  <entry>
+    <title>Rates and the long bond</title>
+    <link href="https://notes.example.com/rates"/>
+    <updated>2026-10-19T08:15:00+00:00</updated>
+  </entry>
+</feed>
