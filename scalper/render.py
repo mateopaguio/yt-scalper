@@ -137,8 +137,25 @@ def _ticker_card(entry: dict) -> str:
     nchan = len(channels)
     corroborating = entry.get("corroborating_channels") or []
     speculative = entry.get("speculative_channels") or []
-    if len(corroborating) > 1:
-        chan_note = f"{len(corroborating)} independent"
+    # "Independent" must mean the channel did its own work. Counting raw
+    # mentions labelled a name covered by three reprints of one wire
+    # story as "3 independent" - the exact overstatement this is for.
+    basis = entry.get("basis") or {}
+    indep = basis.get("independent_channels")
+    reprints = basis.get("reprint_channels") or []
+    if indep is not None:
+        if len(indep) > 1:
+            chan_note = f"{len(indep)} did own work"
+        elif indep:
+            chan_note = _esc(indep[0])
+        elif reprints:
+            chan_note = "reprints only"
+        else:
+            chan_note = f"{len(speculative)} speculative only"
+        if reprints:
+            chan_note += f" &middot; {len(reprints)} reprint"
+    elif len(corroborating) > 1:
+        chan_note = f"{len(corroborating)} channels"
     elif corroborating:
         chan_note = _esc(corroborating[0])
     else:
@@ -342,6 +359,128 @@ def _signals_html(sig: dict) -> str:
     return "".join(out)
 
 
+
+def _score_bar(entry: dict) -> str:
+    """Show WHY a ticker ranks where it does, component by component."""
+    sc = entry.get("score") or {}
+    comps = sc.get("components") or {}
+    parts = []
+    for key, c in sorted(comps.items(), key=lambda kv: -abs(kv[1]["contribution"])):
+        v = c["contribution"]
+        if not v:
+            continue
+        cls = "good" if v > 0 else "bad"
+        label = key.replace("_", " ")
+        parts.append(f'<span class="pill {cls}">{_esc(label)} {v:+.2f}</span>')
+    return " ".join(parts)
+
+
+def _trust_html(digest: dict) -> str:
+    """The parts that say how much the corroboration is worth."""
+    agg = digest.get("aggregate") or {}
+    out = []
+
+    ranked = agg.get("ranked") or []
+    if ranked:
+        rows = []
+        for e in ranked[:10]:
+            sc = e.get("score") or {}
+            # "unknown" alone reads as a failure; it means the story may
+            # predate all our data, so we decline to claim it is new.
+            fresh = {
+                "unknown": "age unknown",
+                "single_sighting": "seen once",
+                "forward_catalyst": "catalyst ahead",
+                "late_to_story": "after the move",
+                "running": "running days",
+            }.get((e.get("freshness") or {}).get("state", ""),
+                  (e.get("freshness") or {}).get("state", ""))
+            rows.append(
+                f'<div class="card"><div class="row">'
+                f'<b>{_esc(e["ticker"])}</b>'
+                f'<span class="weak">{sc.get("total", 0):+.2f} '
+                f'of {sc.get("max_possible", 0):.1f}</span>'
+                f'<span class="weak">{sc.get("independent_channels", 0)} '
+                f'did own work</span>'
+                f'<span class="weak">{_esc(fresh.replace("_", " "))}</span>'
+                f'</div><div class="row">{_score_bar(e)}</div></div>'
+            )
+        out.append(
+            "<h2>Research priority</h2>"
+            '<div class="note">Order to look at these in, not a trade signal. '
+            "Price, volume, liquidity and options data are not wired in, so "
+            "they are excluded from the score rather than assumed neutral. "
+            "No component has been validated against outcomes yet.</div>"
+            + "".join(rows)
+        )
+
+    echo = agg.get("echo_chamber") or []
+    if echo:
+        rows = []
+        for e in echo:
+            b = e.get("basis") or {}
+            rows.append(
+                f'<div class="card"><div class="row"><b>{_esc(e["ticker"])}</b>'
+                f'<span class="weak">{len(e.get("corroborating_channels") or [])}'
+                f' channels covered it</span>'
+                f'<span class="pill bad">{len(b.get("independent_channels") or [])}'
+                f' did own work</span></div>'
+                f'<div class="weak">reprinting: '
+                f'{_esc(", ".join(b.get("reprint_channels") or []))}</div></div>'
+            )
+        out.append(
+            "<h2>Looks corroborated, isn&rsquo;t</h2>"
+            '<div class="note">Several channels carried these, but not two of '
+            "them did their own work &mdash; the rest are reprints of one "
+            "report. Counting them as agreement overstates it.</div>"
+            + "".join(rows)
+        )
+
+    shared = agg.get("shared_events") or []
+    if shared:
+        rows = []
+        for ev in shared:
+            wire = '<span class="pill bad">wire-driven</span>' if ev.get("wire_driven") else ""
+            rows.append(
+                f'<div class="card"><div class="row">'
+                f'<b>{_esc(" + ".join(ev["tickers"]))}</b>{wire}'
+                f'<span class="weak">{ev["mentions"]} mentions, '
+                f'{len(ev["channels"])} channels</span></div>'
+                f'<div class="weak">{_esc(ev.get("representative_thesis", "")[:220])}</div>'
+                f'</div>'
+            )
+        out.append(
+            "<h2>One story, several tickers</h2>"
+            '<div class="note">These moved together on the same event. Four '
+            "names reacting to one report is one event, not four signals.</div>"
+            + "".join(rows)
+        )
+
+    orig = agg.get("channel_originality") or []
+    if orig:
+        rows = []
+        for a in orig:
+            if not a.get("total"):
+                continue
+            pct = int(round(a["derivative_share"] * 100))
+            cls = "bad" if pct >= 25 else ("flat" if pct else "good")
+            rows.append(
+                f'<div class="row"><span class="pill {cls}">{pct}%</span>'
+                f'<b>{_esc(a["channel"])}</b>'
+                f'<span class="weak">{a["total"]} claims</span></div>'
+            )
+        out.append(
+            "<h2>How much each channel reprints</h2>"
+            '<div class="note">Share of claims that restate someone '
+            "else&rsquo;s reporting. A news desk doing this is doing its job "
+            "&mdash; it matters only because reprints must not count as "
+            "independent confirmation.</div>"
+            '<div class="card">' + "".join(rows) + "</div>"
+        )
+
+    return "".join(out)
+
+
 def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Path:
     out_dir = out_dir or DOCS_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -394,6 +533,7 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
         )
 
     signals_html = _signals_html(digest.get("signals") or {})
+    trust_html = _trust_html(digest)
     catalyst_events = digest.get("catalysts") or []
     cat_cards = [c for c in (_catalyst_card(e) for e in catalyst_events) if c]
     catalyst_html = (
@@ -428,11 +568,12 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
   <div class="stats">
     <div class="stat"><b>{len(videos)}</b><span>videos</span></div>
     <div class="stat"><b>{len(tickers)}</b><span>tickers</span></div>
-    <div class="stat"><b>{len(multi)}</b><span>overlapping</span></div>
+    <div class="stat"><b>{len(multi)}</b><span>corroborated</span></div>
     <div class="stat"><b>{len(cat_cards)}</b><span>catalysts</span></div>
   </div>
 </header>
 {note}
+{trust_html}
 {signals_html}
 {calendar_html}
 {catalyst_html}

@@ -22,8 +22,13 @@ from scalper import (
     catalysts as cat,
     config as cfgmod,
     feeds,
+    freshness,
+    narratives,
     notify,
+    rank as ranking,
     render,
+    signal_log,
+    signals,
     sites,
     store,
     track,
@@ -36,12 +41,37 @@ def build_digest(
     cfg,
     stats: dict | None = None,
     catalyst_events: list[dict] | None = None,
+    record_signals: bool = True,
 ) -> dict:
+    """Build the digest.
+
+    record_signals MUST be False for any partial-video digest. The alert
+    path calls this with only the newly-processed videos; recording from
+    that thinner evidence base would read as a material change and expire
+    the good full-window signal, replacing a well-supported decision with
+    a worse one derived from a subset. Only the full digest records.
+    """
     stats = stats or {}
     catalyst_events = catalyst_events or []
     aggregate = analyze.aggregate(
         videos, cfg.watchlist, cfgmod.consensus_tiers(cfg)
     )
+
+    # Trustworthiness layer, in dependency order. Each step annotates the
+    # aggregate in place and the next one reads what the last wrote.
+    #   narratives -> classifies every claim as derivative/primary/original,
+    #                 then rebuilds consensus from channels that did their
+    #                 OWN work, so one wire story stops counting as five
+    #                 independent confirmations.
+    #   freshness  -> separates genuinely new information from commentary
+    #                 on a move that already happened.
+    #   ranking    -> explainable score with components recorded separately
+    #                 and veto rules; market-data components are declared
+    #                 unavailable rather than defaulted to neutral.
+    narratives.annotate(aggregate)
+    freshness.annotate(aggregate, videos)
+    ranking.rank(aggregate)
+
     ledger = track.build_ledger(videos)
 
     # Join catalysts onto the tickers creators are discussing. A name that
@@ -60,6 +90,19 @@ def build_digest(
         "creator_stats": track.creator_stats(ledger),
         "under_the_radar": track.under_the_radar(aggregate, ledger),
         "signals": signals.compute(videos, aggregate, events_by_ticker),
+        # Written to data/signals.json before anything is displayed or
+        # sent. Rejected signals are recorded too: without them, any
+        # later claim that the vetoes work is untestable, because the
+        # surviving sample is selected on the variable under test.
+        "signal_log": signal_log.record(aggregate) if record_signals else None,
+        "ranked": [e["ticker"] for e in aggregate.get("ranked", [])],
+        "vetoed": [{"ticker": e["ticker"], "reasons": e["score"]["vetoes"]}
+                   for e in aggregate.get("vetoed", [])],
+        "echo_chamber": [e["ticker"] for e in aggregate.get("echo_chamber", [])],
+        "shared_events": aggregate.get("shared_events", []),
+        "channel_originality": aggregate.get("channel_originality", []),
+        "freshness_meta": aggregate.get("freshness_meta", {}),
+        "rank_meta": aggregate.get("rank_meta", {}),
         "tier4_candidates": [
             c for c in track.tier4_candidates(videos) if c["nominated"]
         ],
@@ -221,7 +264,8 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
         print("\nNothing new to alert on.")
         return
 
-    alert = build_digest(fresh, cfg, None, catalyst_events)
+    # record_signals=False: `fresh` is a subset, see build_digest docstring
+    alert = build_digest(fresh, cfg, None, catalyst_events, record_signals=False)
     message = sig_msg or notify.build_sms(alert, cfg.site_url, new_only=True)
 
     if hot:

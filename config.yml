@@ -377,7 +377,7 @@ notify:
   sms: true
   push: true
   only_if_findings: true
-site_url: https://YOURNAME.github.io/yt-scalper/
+site_url: https://mateopaguio.github.io/yt-scalper/
 watchlist: []
 catalyst_feeds:
 - name: SEC Press Releases
