@@ -284,6 +284,64 @@ def _calendar_row(event: dict) -> str:
     )
 
 
+def _signals_html(sig: dict) -> str:
+    if not sig:
+        return ""
+    out = []
+
+    mom = [d for d in (sig.get("momentum") or []) if d["lift"] > 0][:10]
+    if mom:
+        rows = []
+        for d in mom:
+            tag = '<span class="pill up">new</span>' if d["is_new"] else ""
+            rows.append(
+                '<div class="cal"><span class="d">%s</span>'
+                '<span>%dx in 24h (was %.1f/day) &middot; %d channel(s) &middot; '
+                'quality %.1f</span>%s</div>'
+                % (_esc(d["ticker"]), d["recent_mentions"], d["prior_per_day"],
+                   len(d["channels"]), d["quality"], tag))
+        out.append("<h2>Heating up</h2>" + "".join(rows))
+
+    nl = sig.get("news_linked") or []
+    if nl:
+        rows = []
+        for d in nl[:8]:
+            ev = d["events"][0] if d["events"] else {}
+            rows.append(
+                '<div class="cat"><div class="ch"><span class="tkr">%s</span>'
+                '<span class="et">%s</span><span class="mt">materiality %s/5</span></div>'
+                '<div class="sm">%s</div></div>'
+                % (_esc(d["ticker"]),
+                   _esc(str(ev.get("event_type","")).replace("_"," ")),
+                   _esc(d["max_materiality"]), _esc(ev.get("summary",""))))
+        out.append("<h2>Discussed on video AND filed as news</h2>" + "".join(rows))
+
+    emg = sig.get("emerging") or []
+    if emg:
+        rows = []
+        for d in emg[:8]:
+            rows.append(
+                '<div class="cal"><span class="d">%s</span>'
+                '<span>%s &mdash; first seen via %s &middot; quality %.1f</span></div>'
+                % (_esc(d["ticker"]), _esc(d.get("company","")),
+                   _esc(d.get("channel","")), d["quality"]))
+        out.append("<h2>Newly appearing, with support</h2>" + "".join(rows))
+
+    sec = [d for d in (sig.get("sectors") or []) if d["quality"] > 0][:8]
+    if sec:
+        rows = []
+        for d in sec:
+            cls = {"bullish":"up","bearish":"down"}.get(d["tilt"], "flat")
+            rows.append(
+                '<div class="cal"><span class="d %s">%s</span>'
+                '<span>%d mentions &middot; %d names &middot; %d channel(s) &middot; %s</span></div>'
+                % (cls, _esc(d["sector"]), d["mentions"], len(d["tickers"]),
+                   d["channels"], _esc(d["tilt"])))
+        out.append("<h2>Where attention is concentrating</h2>" + "".join(rows))
+
+    return "".join(out)
+
+
 def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Path:
     out_dir = out_dir or DOCS_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -335,6 +393,7 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
             "Either there were no new videos, or none discussed specific names.</div>"
         )
 
+    signals_html = _signals_html(digest.get("signals") or {})
     catalyst_events = digest.get("catalysts") or []
     cat_cards = [c for c in (_catalyst_card(e) for e in catalyst_events) if c]
     catalyst_html = (
@@ -374,6 +433,7 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
   </div>
 </header>
 {note}
+{signals_html}
 {calendar_html}
 {catalyst_html}
 {radar_html}

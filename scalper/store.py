@@ -99,7 +99,10 @@ def queue_pending(record: dict, reason: str, count_attempt: bool = True) -> None
             if count_attempt:
                 item["attempts"] += 1
             else:
+                # Throttled: we never got to try. Push the age clock forward
+                # so a long block can't silently expire a healthy video.
                 item["throttled"] = item.get("throttled", 0) + 1
+                item["eligible_since"] = now
             item["last_attempt"] = now
             item["reason"] = reason
             save_pending(items)
@@ -110,6 +113,7 @@ def queue_pending(record: dict, reason: str, count_attempt: bool = True) -> None
         "attempts": 1 if count_attempt else 0,
         "throttled": 0 if count_attempt else 1,
         "first_seen": now,
+        "eligible_since": now,
         "last_attempt": now,
         "reason": reason,
     })
@@ -130,10 +134,12 @@ def due_pending(max_attempts: int = 12, give_up_hours: int = 30) -> tuple[list[d
     retry, expired = [], []
 
     for item in load_pending():
-        first_seen = item.get("first_seen", "")
+        # Age is measured from when we could last actually attempt a fetch,
+        # not from first sight - otherwise an outage expires good videos.
+        clock = item.get("eligible_since") or item.get("first_seen", "")
         too_old = False
         try:
-            too_old = datetime.fromisoformat(first_seen) < cutoff
+            too_old = datetime.fromisoformat(clock) < cutoff
         except ValueError:
             too_old = True
 

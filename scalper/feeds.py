@@ -221,6 +221,22 @@ def find_new_videos(
     if checked:
         store.mark_checked(checked)
 
+    # Cap per channel so one prolific feed can't crowd out the rest.
+    if cfg.max_per_channel_per_run > 0:
+        per: dict[str, int] = {}
+        capped: list[Video] = []
+        for v in sorted(found, key=lambda x: -x.published.timestamp()):
+            k = v.channel_id or v.channel
+            if per.get(k, 0) >= cfg.max_per_channel_per_run:
+                continue
+            per[k] = per.get(k, 0) + 1
+            capped.append(v)
+        dropped = len(found) - len(capped)
+        if dropped:
+            print(f"  - capped {dropped} video(s): max "
+                  f"{cfg.max_per_channel_per_run} per channel per run")
+        found = capped
+
     # Newest first within tier, tiers in priority order.
     found.sort(
         key=lambda v: (

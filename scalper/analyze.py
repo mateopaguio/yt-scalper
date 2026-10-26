@@ -75,7 +75,14 @@ EXTRACTION_TOOL: dict[str, Any] = {
                     "properties": {
                         "ticker": {
                             "type": "string",
-                            "description": "Symbol in caps. Empty string if not stated.",
+                            "description": (
+                                "Symbol in caps, ONLY for companies listed on a public "
+                                "exchange. Empty string for private companies (SpaceX, "
+                                "Anthropic, Bose, OpenAI and the like), for subsidiaries "
+                                "that do not trade separately, and for sector or index "
+                                "commentary. Never invent a plausible-looking symbol for "
+                                "something that is not publicly traded."
+                            ),
                         },
                         "company": {"type": "string"},
                         "stance": {
@@ -123,6 +130,26 @@ EXTRACTION_TOOL: dict[str, Any] = {
                             "type": "string",
                             "description": "Transcript timestamp where this starts, e.g. '12:40'.",
                         },
+                        "sector": {
+                            "type": "string",
+                            "description": (
+                                "Broad sector in lowercase, chosen from: technology, "
+                                "semiconductors, software, ai infrastructure, healthcare, "
+                                "biotech, energy, financials, industrials, consumer "
+                                "discretionary, consumer staples, utilities, materials, "
+                                "real estate, communication, transport, crypto, other. "
+                                "Empty if the video does not make it clear."
+                            ),
+                        },
+                        "breakout_signal": {
+                            "type": "string",
+                            "enum": ["none", "new_coverage", "price_move", "catalyst_driven",
+                                     "guidance_change", "unusual_volume"],
+                            "description": (
+                                "Only if the video explicitly says so: is this name moving "
+                                "on something specific right now? 'none' is the normal answer."
+                            ),
+                        },
                     },
                     "required": [
                         "ticker", "company", "stance", "thesis",
@@ -168,6 +195,9 @@ say so through the `evidence` field rather than by editorializing in the thesis.
 - Do not add analysis, context, or price information the video did not contain.
 - A ticker belongs in the list only if the video expressed some view on it. \
 Companies named only in passing do not count.
+- Private companies still belong in the list when the video has a view on them, \
+but with an EMPTY ticker. Inventing a symbol for a company that does not trade \
+is worse than leaving it blank.
 - Be strict about `hype_level` and `red_flags`. Urgency language, promises of \
 guaranteed gains, and absent risk discussion are exactly what the reader needs \
 flagged.

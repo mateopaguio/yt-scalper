@@ -1,5 +1,175 @@
 [
   {
+    "generated_at": "2026-10-26T05:41:40.084019+00:00",
+    "video_count": 0,
+    "ticker_count": 70
+  },
+  {
+    "generated_at": "2026-10-26T04:41:33.237085+00:00",
+    "video_count": 0,
+    "ticker_count": 70
+  },
+  {
+    "generated_at": "2026-10-26T03:41:25.910626+00:00",
+    "video_count": 1,
+    "ticker_count": 70
+  },
+  {
+    "generated_at": "2026-10-26T02:40:54.071156+00:00",
+    "video_count": 0,
+    "ticker_count": 65
+  },
+  {
+    "generated_at": "2026-10-26T01:40:48.382463+00:00",
+    "video_count": 0,
+    "ticker_count": 65
+  },
+  {
+    "generated_at": "2026-10-26T00:40:38.751686+00:00",
+    "video_count": 1,
+    "ticker_count": 65
+  },
+  {
+    "generated_at": "2026-10-25T12:39:36.276410+00:00",
+    "video_count": 0,
+    "ticker_count": 65
+  },
+  {
+    "generated_at": "2026-10-25T11:39:29.991135+00:00",
+    "video_count": 7,
+    "ticker_count": 65
+  },
+  {
+    "generated_at": "2026-10-25T10:37:53.449133+00:00",
+    "video_count": 0,
+    "ticker_count": 60
+  },
+  {
+    "generated_at": "2026-10-25T09:37:42.623569+00:00",
+    "video_count": 0,
+    "ticker_count": 60
+  },
+  {
+    "generated_at": "2026-10-25T08:37:32.229880+00:00",
+    "video_count": 5,
+    "ticker_count": 60
+  },
+  {
+    "generated_at": "2026-10-25T07:36:24.655398+00:00",
+    "video_count": 0,
+    "ticker_count": 59
+  },
+  {
+    "generated_at": "2026-10-25T06:36:13.705786+00:00",
+    "video_count": 0,
+    "ticker_count": 59
+  },
+  {
+    "generated_at": "2026-10-25T05:36:02.700801+00:00",
+    "video_count": 0,
+    "ticker_count": 59
+  },
+  {
+    "generated_at": "2026-10-25T04:35:41.620012+00:00",
+    "video_count": 0,
+    "ticker_count": 59
+  },
+  {
+    "generated_at": "2026-10-25T03:35:30.415457+00:00",
+    "video_count": 0,
+    "ticker_count": 59
+  },
+  {
+    "generated_at": "2026-10-25T02:35:16.073263+00:00",
+    "video_count": 4,
+    "ticker_count": 59
+  },
+  {
+    "generated_at": "2026-10-24T22:40:25.059701+00:00",
+    "video_count": 0,
+    "ticker_count": 54
+  },
+  {
+    "generated_at": "2026-10-24T21:40:13.116291+00:00",
+    "video_count": 6,
+    "ticker_count": 54
+  },
+  {
+    "generated_at": "2026-10-24T20:38:58.833180+00:00",
+    "video_count": 2,
+    "ticker_count": 50
+  },
+  {
+    "generated_at": "2026-10-24T19:38:22.162873+00:00",
+    "video_count": 0,
+    "ticker_count": 47
+  },
+  {
+    "generated_at": "2026-10-24T18:38:14.929755+00:00",
+    "video_count": 7,
+    "ticker_count": 47
+  },
+  {
+    "generated_at": "2026-10-24T17:36:41.928524+00:00",
+    "video_count": 6,
+    "ticker_count": 40
+  },
+  {
+    "generated_at": "2026-10-24T15:25:53.157818+00:00",
+    "video_count": 8,
+    "ticker_count": 39
+  },
+  {
+    "generated_at": "2026-10-24T08:50:06.393649+00:00",
+    "video_count": 4,
+    "ticker_count": 36
+  },
+  {
+    "generated_at": "2026-10-24T05:17:40.433606+00:00",
+    "video_count": 2,
+    "ticker_count": 37
+  },
+  {
+    "generated_at": "2026-10-24T01:22:17.850309+00:00",
+    "video_count": 1,
+    "ticker_count": 37
+  },
+  {
+    "generated_at": "2026-10-23T20:13:57.455669+00:00",
+    "video_count": 7,
+    "ticker_count": 36
+  },
+  {
+    "generated_at": "2026-10-23T19:12:08.660331+00:00",
+    "video_count": 6,
+    "ticker_count": 31
+  },
+  {
+    "generated_at": "2026-10-23T17:21:44.857013+00:00",
+    "video_count": 8,
+    "ticker_count": 29
+  },
+  {
+    "generated_at": "2026-10-23T14:49:50.698615+00:00",
+    "video_count": 8,
+    "ticker_count": 26
+  },
+  {
+    "generated_at": "2026-10-23T12:09:06.676479+00:00",
+    "video_count": 8,
+    "ticker_count": 17
+  },
+  {
+    "generated_at": "2026-10-23T05:46:45.911929+00:00",
+    "video_count": 8,
+    "ticker_count": 8
+  },
+  {
+    "generated_at": "2026-10-23T05:44:09.559876+00:00",
+    "video_count": 1,
+    "ticker_count": 5
+  },
+  {
     "generated_at": "2026-10-21T22:32:50.735436+00:00",
     "video_count": 0,
     "ticker_count": 0

@@ -45,6 +45,7 @@ class Config:
     pending_give_up_hours: int = 30
     max_catalysts_per_run: int = 25
     request_delay_seconds: float = 4.0
+    max_per_channel_per_run: int = 3
     catalyst_horizon_days: int = 30
     tiers: dict[int, dict[str, Any]] = field(default_factory=dict)
     model: str = "claude-haiku-5-5"
@@ -111,6 +112,7 @@ def load(path: Path | None = None) -> Config:
         pending_give_up_hours=raw.get("pending_give_up_hours", 30),
         max_catalysts_per_run=raw.get("max_catalysts_per_run", 25),
         request_delay_seconds=float(raw.get("request_delay_seconds", 4.0)),
+        max_per_channel_per_run=int(raw.get("max_per_channel_per_run", 3)),
         catalyst_horizon_days=raw.get("catalyst_horizon_days", 30),
         tiers={int(k): v for k, v in (raw.get("tiers") or {}).items()},
         model=raw.get("model", "claude-haiku-5-5"),

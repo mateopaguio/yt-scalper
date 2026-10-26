@@ -18,6 +18,7 @@ from anthropic import Anthropic
 
 from scalper import (
     analyze,
+    briefs,
     catalysts as cat,
     config as cfgmod,
     feeds,
@@ -58,6 +59,7 @@ def build_digest(
         "ledger": ledger,
         "creator_stats": track.creator_stats(ledger),
         "under_the_radar": track.under_the_radar(aggregate, ledger),
+        "signals": signals.compute(videos, aggregate, events_by_ticker),
         "tier4_candidates": [
             c for c in track.tier4_candidates(videos) if c["nominated"]
         ],
@@ -106,9 +108,11 @@ def gather_work(cfg, args) -> list[dict]:
     for item in expired:
         record = item["video"]
         record["findings"] = None
+        att, thr = item.get("attempts", 0), item.get("throttled", 0)
         record["skip_reason"] = (
-            f"no captions after {item.get('attempts', 0)} attempts "
-            "— captions are probably disabled"
+            f"gave up after {att} caption attempt(s)"
+            + (f" and {thr} throttled attempt(s)" if thr else "")
+            + (" — captions are probably disabled" if att else " — never got a clean try")
         )
         store.add_videos([record])
         store.drop_pending(record["video_id"])
@@ -207,12 +211,18 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
         and c["event_id"] not in already
     ]
 
-    if not fresh and not hot:
+    # Signal-driven alerts: what is accelerating, newly supported, or
+    # corroborated by a filed event - no fixed watchlist required.
+    sig = digest.get("signals") or {}
+    sig_msg, sig_keys = notify.build_signal_alert(sig, cfg.site_url)
+    unseen = [k for k in sig_keys if k not in already]
+
+    if not fresh and not hot and not unseen:
         print("\nNothing new to alert on.")
         return
 
     alert = build_digest(fresh, cfg, None, catalyst_events)
-    message = notify.build_sms(alert, cfg.site_url, new_only=True)
+    message = sig_msg or notify.build_sms(alert, cfg.site_url, new_only=True)
 
     if hot:
         tickers = []
@@ -232,7 +242,7 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
     print(f"\nAlerting: {len(fresh)} item(s), {len(hot)} filing(s)")
     notify.dispatch(cfg, alert, message=message)
     store.mark_notified(
-        [r["video_id"] for r in fresh] + [c["event_id"] for c in hot]
+        [r["video_id"] for r in fresh] + [c["event_id"] for c in hot] + unseen
     )
 
 
@@ -362,6 +372,19 @@ def main() -> int:
 
     path = render.render(digest, store.load_digests())
     print(f"\nRendered {path}")
+
+    # Per-ticker briefs: a page per name, with bull and bear side by side.
+    brief_dir = cfgmod.DOCS_DIR / "ticker"
+    watch = set(cfg.watchlist)
+    made = []
+    for entry in digest["aggregate"]["tickers"]:
+        if watch and entry["ticker"] not in watch:
+            continue
+        b = briefs.build(entry)
+        briefs.render_page(b, brief_dir, cfg.site_url)
+        made.append(b)
+    if made:
+        print(f"Built {len(made)} ticker brief(s) in docs/ticker/")
 
     if tokens_in or tokens_out:
         cost = tokens_in / 1_000_000 * 0.10 + tokens_out / 1_000_000 * 0.50

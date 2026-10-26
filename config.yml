@@ -11,12 +11,6 @@ channels:
   tier: 1
   category: 1
   verification: corroborated
-- name: Bloomberg Television
-  handle: '@markets'
-  channel_id: UCIALMKvObZNtJ6AmdCLP7Lg
-  tier: 1
-  category: 1
-  verification: corroborated
 - name: CNBC Television
   handle: '@CNBCtelevision'
   channel_id: UCrp_UI8XtuYfpiqluWLD7Lw
@@ -307,9 +301,72 @@ channels:
   tier: 3
   category: 4
   verification: verified
+- name: Benzinga
+  handle: '@Benzinga'
+  channel_id: UCqQs28K2zj2dOsc5NfXUKEg
+  tier: 1
+  category: 1
+  verification: verified
+  note: market news + ideas, posts 5 days a week
+- name: Investor Center
+  handle: '@InvestorCenter'
+  channel_id: UC2cL3pI1H3tiozKif6A8fmA
+  tier: 2
+  category: 2
+  verification: verified
+  note: daily; interviews with Buffett, Munger, Marks, Dalio
+- name: Wall Street Millennial
+  handle: '@wallstreetmillennial'
+  channel_id: UCUyH4QfXX-5NOT0bULqG6lQ
+  tier: 2
+  category: 2
+  verification: verified
+  note: skeptical deep dives - good counterweight to hype
+- name: Compounding Quality
+  handle: '@CompoundingQuality'
+  channel_id: UCxUxD8PSFN_JofKFMRGz4hA
+  tier: 2
+  category: 2
+  verification: verified
+  note: quality-investing stock analysis, 350k subs
+- name: Hamish Hodder
+  handle: '@HamishHodder'
+  channel_id: UCODr9HUJ90xtWD-0Xoz4vPw
+  tier: 2
+  category: 2
+  verification: verified
+  note: value investing, Buffett-oriented
+- name: Excess Returns
+  handle: '@ExcessReturns'
+  channel_id: UCPYvx_y92dvI1PSdiho0ALw
+  tier: 3
+  category: 3
+  verification: verified
+  note: quant, factor and behavioural investing research
+- name: The Rational Reminder Podcast
+  handle: '@rationalreminder'
+  channel_id: UCOErWFfNOQzXsgE7f5S_ULw
+  tier: 3
+  category: 3
+  verification: verified
+  note: evidence-based investing; PWL Capital (Ben Felix)
+- name: Money & Macro
+  handle: '@MoneyMacro'
+  channel_id: UCCKpicnIwBP3VPxBAZWDeNA
+  tier: 3
+  category: 3
+  verification: verified
+  note: macroeconomics and global economy
+- name: StockedUp
+  handle: '@StockedUp'
+  channel_id: UC-m6zNItyoDk5lSykDlhE4Q
+  tier: 2
+  category: 3
+  verification: verified
+  note: posts every trading day; day/swing trading and options, promotes its own analysis software - watch the hype and promotional rates before trusting it
 sites: []
-lookback_hours: 6
-window_days: 3
+lookback_hours: 48
+window_days: 7
 max_videos_per_run: 8
 min_transcript_words: 300
 pending_max_attempts: 12
@@ -393,12 +450,12 @@ catalyst_alert_materiality: 4
 tiers:
   1:
     label: Market news & earnings
-    interval_hours: 1
+    interval_hours: 3
     counts_toward_consensus: true
     priority: 1
   2:
     label: Stock research & growth
-    interval_hours: 1
+    interval_hours: 3
     counts_toward_consensus: true
     priority: 2
   3:
@@ -408,7 +465,8 @@ tiers:
     priority: 3
   4:
     label: Speculative & opinion-heavy
-    interval_hours: 1
+    interval_hours: 3
     counts_toward_consensus: false
     priority: 4
 request_delay_seconds: 4.0
+max_per_channel_per_run: 3

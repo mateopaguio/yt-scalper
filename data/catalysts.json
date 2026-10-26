@@ -1,5 +1,461 @@
 [
   {
+    "event_id": "cat_bd4cad8e2c644e",
+    "title": "FDA Rare Disease Day 2027 - 03/05/2027",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T16:35:08-04:00",
+    "url": "http://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/fda-rare-disease-day-2027-03052027",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA announced a Rare Disease Day 2027 event scheduled for March 5, 2027. The notice is a conference listing with no body text retrieved.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false,
+      "scheduled_date": "2027-03-05"
+    }
+  },
+  {
+    "event_id": "cat_01e2e9bd4854aa",
+    "title": "What's New Related to Drugs",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T14:09:49-04:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs \"What's New\" index page was published with headline only; no body text was retrieved, so the specific drug-related update is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_dbf3128e30cd0f",
+    "title": "Notable Approvals | Drugs",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T14:04:04-04:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/notable-approvals-drugs",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs published a \"Notable Approvals\" page headline on 2026-10-23. No body text was retrieved, so no specific approval, company, or product is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_1c2a4463c14f3b",
+    "title": "FDA Approves First Once-Weekly Insulin for Type 2 Diabetes Mellitus in Pediatric Patients",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T14:03:25-04:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-once-weekly-insulin-type-2-diabetes-mellitus-pediatric-patients",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "regulatory_approval",
+      "summary": "FDA announced approval of a once-weekly insulin for pediatric patients with type 2 diabetes mellitus, per the headline only; no body text was retrieved, so the sponsor and product name are not identified.",
+      "companies": [],
+      "direction": "likely_positive",
+      "materiality": 3,
+      "is_market_relevant": true,
+      "affected_sectors": [
+        "pharmaceuticals",
+        "diabetes care"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_b00ad1c61d7949",
+    "title": "Pain and Arthritis Products Containing Hidden Ingredients",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T13:13:58-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/pain-and-arthritis-products-containing-hidden-ingredients",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "recall_safety",
+      "summary": "FDA published a notice headlined \"Pain and Arthritis Products Containing Hidden Ingredients,\" a health fraud notification. No body text was retrieved, so the specific products, ingredients, and companies are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false,
+      "affected_sectors": [
+        "consumer health",
+        "over-the-counter drugs"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_a44afd28724897",
+    "title": "Ultra Bon may be harmful due to hidden ingredient",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T13:13:19-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/ultra-bon-may-be-harmful-due-hidden-ingredient",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "recall_safety",
+      "summary": "FDA posted a medication health fraud notification stating that the product \"Ultra Bon\" may be harmful due to a hidden ingredient. Only the headline was retrieved; no body text, company name, or ticker was available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false,
+      "affected_sectors": [
+        "consumer health"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_baab0d1782e0f6",
+    "title": "Public Notification: Green Lumber contains hidden drug ingredient",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T12:18:22-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud/public-notification-green-lumber-contains-hidden-drug-ingredient",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "recall_safety",
+      "summary": "FDA issued a public notification that the product \"Green Lumber\" contains a hidden drug ingredient. Only the headline was retrieved; no body text, ingredient name, or company details are available.",
+      "companies": [
+        {
+          "company": "Green Lumber",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_908e946ba96d43",
+    "title": "Other | Cancer Accelerated Approvals",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T11:49:45-04:00",
+    "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs page titled \"Other | Cancer Accelerated Approvals\" was published with no body text retrieved, so the specific drugs, sponsors, and indications cannot be determined from this item.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_0499ec361083e0",
+    "title": "Registered Outsourcing Facilities",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T11:38:27-04:00",
+    "url": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a page titled \"Registered Outsourcing Facilities\" under its human drug compounding section. No body text was retrieved, so the content is unknown and no company or market effect can be identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_71394119aae314",
+    "title": "2026 Safety and Availability Communications",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-23T11:01:22-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/2026-safety-and-availability-communications",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines posted a 2026 Safety and Availability Communications index page. No body text was retrieved, so the specific safety or supply actions it covers are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_b74f7652e7222a",
+    "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+    "source": "SEC Press Releases",
+    "published": "2026-10-23T10:10:00-04:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "regulatory_action",
+      "summary": "The SEC announced its Fiscal Year 2027 examination priorities. No body text was retrieved, so only the headline is known.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_c0b889f14d15bc",
+    "title": "Generic Drug Research Priorities & Projects",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T09:53:07-04:00",
+    "url": "http://www.fda.gov/drugs/generic-drugs/generic-drug-research-priorities-projects",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA published a page titled \"Generic Drug Research Priorities & Projects\"; only the headline was retrieved, with no body text describing specific priorities or projects.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_11296a97a0ea32",
+    "title": "Drugs@FDA Data Files",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T09:39:20-04:00",
+    "url": "http://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+    "category": "regulatory",
+    "findings": {
+      "summary": "FDA published a Drugs@FDA data files page; the retrieved item contains only a headline with no body text, so no specific approval, company, or action is described.",
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_11296a97a0ea32",
+    "title": "Drugs@FDA Data Files",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-23T09:39:20-04:00",
+    "url": "http://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a Drugs@FDA Data Files page. The retrieved item has only a headline and no body text, so it names no specific drug action or company.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_520ff989eff55d",
+    "title": "October 30, 2026: Dermatologic and Ophthalmic Drugs Advisory Committee Meeting Announcement - 10/30/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T09:01:54-04:00",
+    "url": "http://www.fda.gov/advisory-committees/advisory-committee-calendar/october-30-2026-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-announcement-10302026",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "regulatory_action",
+      "summary": "FDA announced an October 30, 2026 meeting of its Dermatologic and Ophthalmic Drugs Advisory Committee. No body text was retrieved, so the agenda and products under review are not stated.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "scheduled_date": "2026-10-30",
+      "affected_sectors": [
+        "pharmaceuticals",
+        "dermatology",
+        "ophthalmology"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_efdf3bf684482b",
+    "title": "GDUFA Paid Facilities List",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T08:02:54-04:00",
+    "url": "http://www.fda.gov/industry/generic-drug-user-fee-amendments/gdufa-paid-facilities-list",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a GDUFA Paid Facilities List page. Only the headline was retrieved, with no body text describing its contents.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_2c0118b4729353",
+    "title": "Recently Issued Biologics Guidance Documents",
+    "source": "FDA Drugs",
+    "published": "2026-10-23T07:50:51-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/recently-issued-biologics-guidance-documents",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "regulatory_action",
+      "summary": "FDA posted a routine listing titled \"Recently Issued Biologics Guidance Documents.\" No body text was retrieved, so no specific guidance content or affected company is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_2c0118b4729353",
+    "title": "Recently Issued Biologics Guidance Documents",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-23T07:50:51-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/recently-issued-biologics-guidance-documents",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines posted a page headlined \"Recently Issued Biologics Guidance Documents.\" No body text was retrieved, so the specific guidance documents and their content are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_9d1cf1d163d8a5",
+    "title": "Patient Listening Session Summaries",
+    "source": "FDA Drugs",
+    "published": "2026-10-22T16:21:19-04:00",
+    "url": "http://www.fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a page titled \"Patient Listening Session Summaries\" on 2026-10-22. No body text was retrieved, so the content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_9d1cf1d163d8a5",
+    "title": "Patient Listening Session Summaries",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-22T16:21:19-04:00",
+    "url": "http://www.fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA posted a page titled \"Patient Listening Session Summaries\" under its patient listening sessions section. No body text was retrieved, so the content of the summaries is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_bb815b6a4ce676",
+    "title": "2026 Biological License Application Approvals",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-22T16:11:29-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/2026-biological-license-application-approvals",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA CBER published a page titled \"2026 Biological License Application Approvals\" on 2026-10-22. No body text was retrieved, so no specific approvals, products, or companies can be identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_056b17d2f3344d",
+    "title": "Accelerating Rare disease Cures (ARC) Program",
+    "source": "FDA Drugs",
+    "published": "2026-10-22T15:43:55-04:00",
+    "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/accelerating-rare-disease-cures-arc-program",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA CDER published a page titled \"Accelerating Rare disease Cures (ARC) Program\" on 2026-10-22. No body text was retrieved, so the content of any announcement is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_056b17d2f3344d",
+    "title": "Accelerating Rare disease Cures (ARC) Program",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-22T15:43:55-04:00",
+    "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/accelerating-rare-disease-cures-arc-program",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA published a page on its Accelerating Rare disease Cures (ARC) Program. Only the headline was retrieved; no body text describes specific actions, companies, or dates.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_f0dacc4bf6398a",
+    "title": "Rare Disease News & Events",
+    "source": "FDA Drugs",
+    "published": "2026-10-22T15:43:19-04:00",
+    "url": "http://www.fda.gov/about-fda/accelerating-rare-disease-cures-arc-program/rare-disease-news-events",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a generic 'Rare Disease News & Events' index page on 2026-10-22; no body text was retrieved, so no specific action, company, or product is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_5ea26d40a9291e",
+    "title": "Drug Alerts and Statements",
+    "source": "FDA Drugs",
+    "published": "2026-10-22T15:42:22-04:00",
+    "url": "http://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a generic index page titled \"Drug Alerts and Statements\" with no body text retrieved, so no specific drug, company, or action is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_c704248eaecf92",
+    "title": "The Center for Drug Evaluation and Research's ARC Program Releases its 2026 Annual Report",
+    "source": "FDA Drugs",
+    "published": "2026-10-22T15:41:40-04:00",
+    "url": "http://www.fda.gov/drugs/drug-alerts-and-statements/center-drug-evaluation-and-researchs-arc-program-releases-its-2026-annual-report",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA CDER's ARC Program released its 2026 Annual Report. No body text was retrieved, so the report's content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_f90d9dd47d4248",
+    "title": "Oncology (Cancer)/Hematologic Malignancies Approval Notifications",
+    "source": "FDA Drugs",
+    "published": "2026-10-22T14:57:05-04:00",
+    "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published its Oncology (Cancer)/Hematologic Malignancies Approval Notifications index page on 2026-10-22. The retrieved item contains only the headline, with no body text naming any specific approval, drug, or company.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
     "event_id": "cat_ecc4ebe0ecf46b",
     "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary  Medications Within Expiry Due to Potential Potency Issues",
     "source": "FDA Drugs",

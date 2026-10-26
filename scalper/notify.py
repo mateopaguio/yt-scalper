@@ -106,3 +106,54 @@ def dispatch(cfg: Config, digest: dict, message: str | None = None) -> None:
         send_push(cfg, digest, message)
     elif cfg.notify.get("push"):
         print("  - push enabled but NTFY_TOPIC is missing")
+
+
+def build_signal_alert(sig: dict, site_url: str = "",
+                       min_lift: float = 1.0,
+                       min_materiality: int = 3) -> tuple[str, list[str]]:
+    """Alert text built from what is actually moving, not a fixed watchlist.
+
+    Returns (message, alert_keys). The keys let the caller suppress a
+    repeat of the same signal on the next run.
+    """
+    lines, keys = [], []
+
+    hot = [d for d in (sig.get("momentum") or [])
+           if d["lift"] >= min_lift and d["quality"] > 0][:4]
+    if hot:
+        parts = []
+        for d in hot:
+            parts.append("%s %dx%s" % (d["ticker"], d["recent_mentions"],
+                                       " NEW" if d["is_new"] else ""))
+            keys.append("mom:%s:%d" % (d["ticker"], d["recent_mentions"]))
+        lines.append("Heating up: " + ", ".join(parts))
+
+    nl = [d for d in (sig.get("news_linked") or [])
+          if d["max_materiality"] >= min_materiality][:3]
+    if nl:
+        parts = []
+        for d in nl:
+            ev = d["events"][0] if d["events"] else {}
+            parts.append("%s (%s)" % (d["ticker"],
+                                      str(ev.get("event_type", "")).replace("_", " ")))
+            keys.append("news:%s:%s" % (d["ticker"], ev.get("url", "")))
+        lines.append("Filed news + chatter: " + ", ".join(parts))
+
+    emg = [d for d in (sig.get("emerging") or []) if d["quality"] >= 2][:3]
+    if emg:
+        parts = []
+        for d in emg:
+            parts.append(d["ticker"])
+            keys.append("new:%s" % d["ticker"])
+        lines.append("New with support: " + ", ".join(parts))
+
+    sec = [d for d in (sig.get("sectors") or []) if d["quality"] >= 3][:2]
+    if sec:
+        lines.append("Sectors: " + ", ".join(
+            "%s (%s)" % (d["sector"], d["tilt"]) for d in sec))
+
+    if not lines:
+        return "", []
+    if site_url:
+        lines.append(site_url)
+    return "\n".join(lines), keys

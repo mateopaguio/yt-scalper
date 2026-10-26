@@ -91,6 +91,13 @@ fi
   | grep -vi "warning\|already satisfied\|consider adding" | head -5
 echo "      done"
 
+# --- Notification settings (ntfy topic, Twilio creds) ---
+NOTIFYENV="$(dirname "$0")/.notify.env"
+if [ -s "$NOTIFYENV" ]; then
+  set -a; . "$NOTIFYENV"; set +a
+  [ -n "${NTFY_TOPIC:-}" ] && echo "      push notifications: ntfy topic loaded"
+fi
+
 # --- Optional: residential proxy credentials ---
 # Put them in ~/Downloads/byrde-proxy.env as:
 #   WEBSHARE_USER=xxxx
@@ -108,16 +115,20 @@ fi
 
 # --- 4. Run ---
 echo "[4/4] Running the pipeline against your 43 verified channels..."
-echo "      (--dry-run: nothing is texted to you)"
+if [ -n "${NTFY_TOPIC:-}" ]; then
+  echo "      notifications: ON (ntfy)"
+else
+  echo "      notifications: OFF (no NTFY_TOPIC)"
+fi
 echo
-"$PY" run.py --dry-run "$@"
+"$PY" run.py "$@"
 STATUS=$?
 
 echo
 echo "=============================================="
 if [ $STATUS -eq 0 ]; then
   echo " Finished. Your digest page:"
-  echo "   open ~/Downloads/yt-scalper/docs/index.html"
+  echo "   open $(pwd)/docs/index.html"
 else
   echo " Exited with status $STATUS — copy the output above into the chat."
 fi

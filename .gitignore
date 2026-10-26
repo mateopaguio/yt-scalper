@@ -10,3 +10,4 @@ byrde-proxy.env
 *.key
 .anthropic-key
 .proxy.env
+.notify.env
