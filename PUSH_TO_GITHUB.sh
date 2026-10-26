@@ -68,9 +68,18 @@ if git push -u origin main; then
   echo " 4. Actions tab -> Scalper Digest -> Run workflow (to test it)"
   echo "=============================================="
 else
+  RC=$?
   echo
-  echo "Push failed. Most likely the repo does not exist yet."
-  echo "Create it at:  https://github.com/new"
-  echo "  name: $REPO     visibility: Public     do NOT add a README"
-  echo "Then run this script again."
+  echo "Push failed (exit $RC). The two usual causes:"
+  echo
+  echo "1. AUTHENTICATION. GitHub stopped accepting account passwords for"
+  echo "   git in 2021. If you saw \"Password authentication is not"
+  echo "   supported\", the repo is fine - you need a Personal Access Token:"
+  echo "     - https://github.com/settings/tokens"
+  echo "     - Generate new token (classic), tick the  repo  scope"
+  echo "     - Run this script again; paste the TOKEN at the Password prompt"
+  echo "   (credential.helper is set to osxkeychain, so you do this once.)"
+  echo
+  echo "2. The repo really does not exist. Create it at https://github.com/new"
+  echo "     name: $REPO     visibility: Public     do NOT add a README"
 fi

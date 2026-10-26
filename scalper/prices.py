@@ -45,47 +45,134 @@ def _stooq_symbol(ticker: str) -> str:
     return ticker.lower().replace(".", "-") + ".us"
 
 
-def fetch_history(ticker: str, timeout: int = 25) -> list[dict] | None:
-    """Daily OHLCV for a ticker, oldest first. None if unavailable."""
+# A browser signature. Stooq began answering plain clients with a
+# JavaScript challenge ("This site requires JavaScript to verify your
+# browser"), which is HTML where CSV was expected. requests cannot run
+# JS, so that provider simply stops working and we move to the next one.
+BROWSER = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/129.0.0.0 Safari/537.36"),
+    "Accept": "text/csv,application/json,text/plain,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+YAHOO = "https://query1.finance.yahoo.com/v8/finance/chart/"
+
+
+def _looks_like_challenge(text: str) -> bool:
+    head = (text or "")[:400].lower()
+    return ("<!doctype html" in head or "<html" in head
+            or "requires javascript" in head or "enable javascript" in head)
+
+
+def _from_stooq(ticker: str, timeout: int) -> list[dict] | None:
     try:
         resp = requests.get(
-            STOOQ,
-            params={"s": _stooq_symbol(ticker), "i": "d"},
-            headers=UA,
-            timeout=timeout,
+            STOOQ, params={"s": _stooq_symbol(ticker), "i": "d"},
+            headers=BROWSER, timeout=timeout,
         )
         resp.raise_for_status()
     except requests.RequestException as exc:
-        print(f"    ! price fetch failed for {ticker}: {exc}")
+        print(f"    - stooq unavailable for {ticker}: {str(exc)[:70]}")
         return None
 
     text = resp.text.strip()
-    # Stooq answers an unknown symbol with a short plain-text message.
+    if _looks_like_challenge(text):
+        print(f"    - stooq served a browser challenge for {ticker}")
+        return None
     if not text or "," not in text.splitlines()[0]:
-        print(f"    ! no price data for {ticker} ({text[:60]!r})")
+        print(f"    - stooq has no data for {ticker}")
         return None
 
     reader = csv.DictReader(io.StringIO(text))
     if not reader.fieldnames:
         return None
-
-    cols = {name.strip().lower(): name for name in reader.fieldnames}
+    cols = {n.strip().lower(): n for n in reader.fieldnames}
     if "date" not in cols or "close" not in cols:
-        print(f"    ! unexpected price columns for {ticker}: {reader.fieldnames}")
+        print(f"    - stooq columns unusable for {ticker}: {reader.fieldnames[:2]}")
         return None
 
-    rows: list[dict] = []
+    rows = []
     for raw in reader:
         try:
-            rows.append({
+            row = {
                 "date": datetime.strptime(raw[cols["date"]], "%Y-%m-%d").date(),
                 "close": float(raw[cols["close"]]),
-            })
+            }
+            # Full OHLCV where available: the pattern scanner needs high,
+            # low and volume, and a close-only row silently breaks it.
+            for field in ("open", "high", "low"):
+                if field in cols and raw.get(cols[field]) not in (None, "", "-"):
+                    row[field] = float(raw[cols[field]])
+            if "volume" in cols and raw.get(cols["volume"]) not in (None, "", "-"):
+                row["volume"] = float(raw[cols["volume"]])
+            rows.append(row)
         except (ValueError, KeyError, TypeError):
             continue
-
     rows.sort(key=lambda r: r["date"])
     return rows or None
+
+
+def _from_yahoo(ticker: str, timeout: int, rng: str = "5y") -> list[dict] | None:
+    """Yahoo's chart endpoint. JSON, no API key, full OHLCV."""
+    try:
+        resp = requests.get(
+            YAHOO + ticker.upper(),
+            params={"range": rng, "interval": "1d"},
+            headers=BROWSER, timeout=timeout,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+    except (requests.RequestException, ValueError) as exc:
+        print(f"    - yahoo unavailable for {ticker}: {str(exc)[:70]}")
+        return None
+
+    chart = (payload or {}).get("chart") or {}
+    if chart.get("error"):
+        print(f"    - yahoo error for {ticker}: {str(chart['error'])[:70]}")
+        return None
+    results = chart.get("result") or []
+    if not results:
+        return None
+    res = results[0]
+    stamps = res.get("timestamp") or []
+    quote = ((res.get("indicators") or {}).get("quote") or [{}])[0]
+    closes = quote.get("close") or []
+    if not stamps or not closes:
+        return None
+
+    rows = []
+    for i, ts in enumerate(stamps):
+        c = closes[i] if i < len(closes) else None
+        if c is None:
+            continue                      # holiday / missing bar, never filled in
+        row = {"date": datetime.fromtimestamp(ts, tz=timezone.utc).date(),
+               "close": float(c)}
+        for field in ("open", "high", "low", "volume"):
+            seq = quote.get(field) or []
+            if i < len(seq) and seq[i] is not None:
+                row[field] = float(seq[i])
+        rows.append(row)
+    rows.sort(key=lambda r: r["date"])
+    return rows or None
+
+
+# Tried in order. One dying should degrade the system, not stop it -
+# which is exactly what happened when stooq put up a JS challenge.
+PROVIDERS = (("stooq", _from_stooq), ("yahoo", _from_yahoo))
+
+
+def fetch_history(ticker: str, timeout: int = 25) -> list[dict] | None:
+    """Daily OHLCV for a ticker, oldest first. None if no provider works."""
+    for name, fn in PROVIDERS:
+        rows = fn(ticker, timeout)
+        if rows:
+            if name != PROVIDERS[0][0]:
+                print(f"    (price data for {ticker} from {name})")
+            return rows
+    print(f"    ! no price data for {ticker} from any provider")
+    return None
 
 
 def _first_close_on_or_after(rows: list[dict], when) -> tuple[int, dict] | None:

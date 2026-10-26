@@ -51,6 +51,15 @@ RANGE_MAX_WIDTH = 0.06         # 20-day range under 6% = contraction
 VOLUME_MULTIPLE = 1.2
 
 
+def _has_ohlc(rows: list[dict], lo: int, hi: int) -> bool:
+    """These setups need highs and lows. A provider that returns
+    close-only bars must make the scanner stand down, not crash the run."""
+    for r in rows[max(0, lo): hi + 1]:
+        if r.get("high") is None or r.get("low") is None:
+            return False
+    return True
+
+
 def _sma(rows: list[dict], idx: int, n: int, key: str = "close") -> float | None:
     if idx + 1 < n:
         return None
@@ -65,6 +74,8 @@ def pullback_in_uptrend(rows: list[dict], i: int) -> dict | None:
     Uses only bars <= i.
     """
     if i < TREND_SLOW + SLOPE_LOOKBACK:
+        return None
+    if not _has_ohlc(rows, i - PULLBACK_WINDOW - 1, i):
         return None
     fast = _sma(rows, i, TREND_FAST)
     slow = _sma(rows, i, TREND_SLOW)
@@ -110,6 +121,8 @@ def pullback_in_uptrend(rows: list[dict], i: int) -> dict | None:
 def range_breakout(rows: list[dict], i: int) -> dict | None:
     """A tight 20-day range, then a close above it on heavier volume."""
     if i < RANGE_WINDOW + 1:
+        return None
+    if not _has_ohlc(rows, i - RANGE_WINDOW, i):
         return None
     prior = rows[i - RANGE_WINDOW: i]          # excludes bar i
     hi = max(r["high"] for r in prior)
