@@ -158,9 +158,61 @@ def _from_yahoo(ticker: str, timeout: int, rng: str = "5y") -> list[dict] | None
     return rows or None
 
 
+def _from_yfinance(ticker: str, timeout: int, period: str = "5y") -> list[dict] | None:
+    """Yahoo via yfinance, which handles the cookie/crumb handshake.
+
+    The raw chart endpoint now answers unauthenticated clients with 429
+    on the very first request: it wants a session cookie and a crumb.
+    Reimplementing that by hand means chasing a moving target, which is
+    the problem yfinance already solves and keeps solving.
+
+    Optional dependency. Absent, this provider stands aside quietly and
+    the others are tried.
+    """
+    try:
+        import yfinance
+    except ImportError:
+        return None
+
+    try:
+        df = yfinance.Ticker(ticker.upper()).history(period=period,
+                                                     interval="1d",
+                                                     auto_adjust=False)
+    except Exception as exc:  # noqa: BLE001 - library raises many types
+        print(f"    - yfinance failed for {ticker}: {str(exc)[:70]}")
+        return None
+
+    if df is None or df.empty:
+        return None
+
+    rows = []
+    for stamp, rec in df.iterrows():
+        try:
+            close = float(rec["Close"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if close != close:               # NaN - a missing bar, never filled in
+            continue
+        row = {"date": stamp.date() if hasattr(stamp, "date") else stamp,
+               "close": close}
+        for src, dst in (("Open", "open"), ("High", "high"),
+                         ("Low", "low"), ("Volume", "volume")):
+            try:
+                v = float(rec[src])
+                if v == v:
+                    row[dst] = v
+            except (KeyError, TypeError, ValueError):
+                pass
+        rows.append(row)
+    rows.sort(key=lambda r: r["date"])
+    return rows or None
+
+
 # Tried in order. One dying should degrade the system, not stop it -
 # which is exactly what happened when stooq put up a JS challenge.
-PROVIDERS = (("stooq", _from_stooq), ("yahoo", _from_yahoo))
+PROVIDERS = (("stooq", _from_stooq),
+             ("yfinance", _from_yfinance),
+             ("yahoo", _from_yahoo))
 
 
 def fetch_history(ticker: str, timeout: int = 25) -> list[dict] | None:
