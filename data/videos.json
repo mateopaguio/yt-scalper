@@ -1,5 +1,287 @@
 [
   {
+    "video_id": "xOTxS1IXGLw",
+    "title": "Market Open: Stocks Higher, Anthropic IPO Docs Posted, Neocloud Shares Struggle • 10/26/26",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T14:41:40+00:00",
+    "url": "https://www.youtube.com/watch?v=xOTxS1IXGLw",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "A CNBC market open update covering the start of the trading week: Anthropic's S-1 IPO filing (reported ticker ANT, possible listing before Thanksgiving per hosts), Meta's announced $95 billion stock offering to fund AI spending, and weakness in neocloud stocks after Elon Musk posted that many such companies face severe distress. Also brief notes on Verizon's better-than-expected quarter, JetBlue falling on a WSJ debt-restructuring report, and box office results. Mostly headline recap with little analysis or figures.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Iran war has pushed jet fuel prices higher, squeezing airline margins.",
+        "Commentary that AI funding is in an overfunding phase and funders will become more selective, with weak-balance-sheet firms hurt first.",
+        "Election-related economic coverage was promoted at the end of the segment (gas prices, housing, government and consumer spending, AI boom, data center backlash)."
+      ],
+      "red_flags": [
+        "Reported Anthropic ticker and IPO timing are repeated from news coverage, not verified against an actual listing; treat as unconfirmed.",
+        "Neocloud sell-off is attributed largely to a single social media post by Elon Musk with no supporting data in the segment."
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "company": "Meta Platforms",
+          "stance": "neutral",
+          "thesis": "Announced a $95 billion stock offering to fund AI expansion; shares were higher in early trading. Nvidia and AMD were reported as interested in buying some of the offered shares. No view offered on whether the raise is attractive.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "0:50",
+          "sector": "communication",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "$95 billion stock offering",
+          "timeframe": ""
+        },
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "neutral",
+          "thesis": "Filed initial IPO documents (S-1); hosts expect a listing in roughly three to four weeks under the reported ticker ANT, with the S-1 expected to show revenue. Private company until listing, so no ticker assigned here.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "0:01",
+          "sector": "software",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "IPO filing (S-1) and possible listing before Thanksgiving",
+          "timeframe": "next 3-4 weeks"
+        },
+        {
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "stance": "bearish",
+          "thesis": "Shares fell sharply after Elon Musk's post about neocloud companies facing severe distress. Segment gives no company-specific fundamentals; the bearish view comes from the market reaction and a commentator's general point about weak balance sheets.",
+          "conviction": "low",
+          "evidence": "speculation",
+          "timestamp": "2:22",
+          "sector": "ai infrastructure",
+          "breakout_signal": "price_move",
+          "catalyst": "Musk social media post on neocloud companies",
+          "timeframe": ""
+        },
+        {
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "stance": "bearish",
+          "thesis": "Shares fell sharply after Elon Musk's post on neocloud distress; no company-specific reasoning given.",
+          "conviction": "low",
+          "evidence": "speculation",
+          "timestamp": "2:22",
+          "sector": "ai infrastructure",
+          "breakout_signal": "price_move",
+          "catalyst": "Musk social media post on neocloud companies",
+          "timeframe": ""
+        },
+        {
+          "ticker": "VZ",
+          "company": "Verizon",
+          "stance": "bullish",
+          "thesis": "Shares rose after quarterly results beat expectations and the company raised its forecast. No figures given in the segment.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "2:29",
+          "sector": "communication",
+          "breakout_signal": "guidance_change",
+          "catalyst": "Quarterly earnings beat and raised forecast",
+          "timeframe": ""
+        },
+        {
+          "ticker": "JBLU",
+          "company": "JetBlue",
+          "stance": "bearish",
+          "thesis": "Shares fell about 7% at the open after a Wall Street Journal report that the airline is restructuring its debt and business amid higher jet fuel costs from the Iran war squeezing margins.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "2:33",
+          "sector": "transport",
+          "breakout_signal": "price_move",
+          "catalyst": "WSJ report on debt and business restructuring",
+          "timeframe": ""
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "j6ggREVGyt8",
+    "title": "Monday's First Moves: VZ Earnings, ROST Upgrade, FICO Downgrade",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T14:30:23+00:00",
+    "url": "https://www.youtube.com/watch?v=j6ggREVGyt8",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Schwab Network segment covering three stock moves on a Monday open: Verizon's mixed quarterly report (EPS beat, revenue miss, strong postpaid phone adds, shares reversed lower after premarket gains amid SpaceX competition worries), an upgrade of Ross Stores to buy from neutral by UBS with a $315 target, and a Wells Fargo downgrade of Fair Isaac (FICO) to equal weight with a cut target, tied to FICO holding mortgage score pricing steady. The host reports figures and analyst views without stating any personal position.",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Competitive threat to telecom from SpaceX/Elon Musk's plans is weighing on the telecom group.",
+        "Verizon and Amazon Web Services reportedly signed an AI infrastructure deal."
+      ],
+      "red_flags": [
+        "Analyst price targets and upgrade/downgrade calls are reported without the host discussing downside risk.",
+        "Transcript is auto-generated and contains mis-hearings; some figures (e.g., Verizon guidance and Ross target details) may be inaccurate and should be checked against primary sources."
+      ],
+      "tickers": [
+        {
+          "ticker": "VZ",
+          "company": "Verizon",
+          "stance": "neutral",
+          "thesis": "Host describes a mixed quarter: adjusted EPS of about $1.31 beat expectations, revenue of about $34.3 billion missed, and postpaid phone adds were far above what Wall Street expected, though broadband was softer. Shares reversed from premarket gains on concerns about competition from SpaceX. Full-year guidance was raised on EPS and free cash flow growth.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "0:13",
+          "timeframe": "",
+          "catalyst": "Quarterly earnings report",
+          "breakout_signal": "catalyst_driven",
+          "price_target": "",
+          "sector": "communication"
+        },
+        {
+          "ticker": "ROST",
+          "company": "Ross Stores",
+          "stance": "bullish",
+          "thesis": "Per the host reporting UBS's upgrade to buy, UBS believes sales momentum can continue beyond this year and that Ross has room to close its store-productivity gap with TJX, crediting management strategy. The host says the thesis remains to be tested. Stock was up more than 25% year to date and over 40% year over year.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "2:57",
+          "timeframe": "beyond this year",
+          "catalyst": "UBS upgrade",
+          "breakout_signal": "new_coverage",
+          "price_target": "$315 (UBS)",
+          "sector": "consumer discretionary"
+        },
+        {
+          "ticker": "FICO",
+          "company": "Fair Isaac",
+          "stance": "bearish",
+          "thesis": "Per the host reporting Wells Fargo's downgrade to equal weight, Fair Isaac's decision to hold mortgage score pricing steady is seen as capping earnings growth that Wells had expected from a pricing increase. Shares fell more than 6%.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "3:53",
+          "timeframe": "",
+          "catalyst": "Decision to hold mortgage score pricing steady",
+          "breakout_signal": "price_move",
+          "price_target": "cut from $800 (new target not stated)",
+          "sector": "technology"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "uuD3qF43DLU",
+    "title": "Apollo to buy nearly 10% stake in Abu Dhabi-backed Mubadala Capital",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T14:30:18+00:00",
+    "url": "https://www.youtube.com/watch?v=uuD3qF43DLU",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "xNX59DzK9rQ",
+    "title": "Stock Market Today: October 26, 2026",
+    "channel": "Investor's Business Daily",
+    "published": "2026-10-26T14:28:08+00:00",
+    "url": "https://www.youtube.com/watch?v=xNX59DzK9rQ",
+    "tier": 1,
+    "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "video unavailable (VideoUnplayable)"
+  },
+  {
+    "video_id": "o2YHmfgNBQw",
+    "title": "Anthropic files SEC prospectus, bringing AI lab a step closer to historic offering",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T14:15:22+00:00",
+    "url": "https://www.youtube.com/watch?v=o2YHmfgNBQw",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "rzIQgRW2_iY",
+    "title": "Anthropic Applies for Public Listing, Interest Rate Decision Clashes with Mag 7 Earnings",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T14:00:36+00:00",
+    "url": "https://www.youtube.com/watch?v=rzIQgRW2_iY",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Schwab Network market open segment previewing a heavy earnings week (roughly 160-178 S&P 500 and Nasdaq companies reporting, including Microsoft, Boeing, Coca-Cola, Starbucks, SanDisk) and a Fed meeting where no rate move is expected. The hosts walk through macro inputs: GDP and PCE inflation expectations, mortgage rates and housing data, and the ten-year yield back below 5%. Near the end they cover breaking news that Anthropic filed to list on the Nasdaq under the ticker ANT, with a reported valuation around $965 billion and an IPO expected around November or Thanksgiving. The transcript is auto-generated and partly garbled, so some figures may be mis-transcribed.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "macro_points": [
+        "Earnings and revenue have been beating expectations so far this season, but hosts note beats do not guarantee stock gains because expectations are already priced in.",
+        "Fed expected to hold at the upcoming meeting; CME FedWatch shows under 10% odds of a move, while odds of a hike by December were cited around 73%.",
+        "Ten-year yield fell back below 5% from about 5.3%, and the VIX is down but still elevated near 19.",
+        "Q3 GDP expected to accelerate from 2.2% to about 3.1%; PCE inflation expected to remain energy-driven with crude near $100.",
+        "Mortgage rates near 7% came down slightly, which the hosts see as a possible early housing sector revival if yields stay lower."
+      ],
+      "red_flags": [
+        "Anthropic IPO timing and valuation are based on reporting in the segment, not on company financial disclosure discussed in depth",
+        "Hosts speculate on the IPO timing (around Thanksgiving) and on the likely size of the offering without citing filing details"
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "neutral",
+          "thesis": "Private AI lab that has filed to list on the Nasdaq under the ticker ANT; hosts describe it as a big development and a step toward an IPO, with a latest valuation cited around $965 billion. They note it has pushed back its IPO timing and that reported revenue is lower than expected for a rival, though they give no clear investment view.",
+          "conviction": "low",
+          "evidence": "speculation",
+          "timestamp": "5:59",
+          "sector": "technology",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Public Nasdaq listing (ANT), expected around November or Thanksgiving",
+          "price_target": ""
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "jAncH1JCTZc",
+    "title": "China wants in on U.S. AI data center boom",
+    "channel": "CNBC",
+    "published": "2026-10-26T14:00:08+00:00",
+    "url": "https://www.youtube.com/watch?v=jAncH1JCTZc",
+    "tier": 1,
+    "channel_id": "UCvJJ_dzjViJCoLf5uKUTwoA",
+    "source_type": "video",
+    "findings": {
+      "summary": "CNBC segment on Brightray, a Singapore-registered firm whose sole manufacturer is Chinese prefab data center maker Prefab DC, which is pitching prefabricated/modular data centers to the US market. A Brightray executive argues US demand is stronger than China's, citing US vs. China data center counts and multi-year US build times, and says Chinese equipment (transformers, batteries, fiber) already feeds US data center supply chains. The segment does not address investment exposure or valuation; it is a company pitch with a brief nod to US security concerns.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "US data center buildout has produced supply shortages and backlogs, with US builds taking roughly 2 to 3 years on average.",
+        "China already exports electrical equipment such as transformers, batteries, and fiber optic cables that feed the US data center supply chain.",
+        "Chinese domestic data center demand is described as weak due to limited capital and overcapacity."
+      ],
+      "red_flags": [
+        "Company-side claims are unverified: the executive says prefab can cut deployment speed by at least half, with no supporting data shown.",
+        "Source-count comparison (5,427 US vs. 449 China data centers in 2025) is given without a cited origin.",
+        "US cybersecurity and supply-chain dependence concerns are raised but only briefly answered, with no regulatory discussion.",
+        "No listed-company or investment angle is identified; the Brightray and Prefab DC entities are not identified as publicly traded."
+      ],
+      "tickers": []
+    }
+  },
+  {
     "video_id": "j2yIHv38fkg",
     "title": "Consumers Remain Resilient As Gas Prices Rise 10/26/26",
     "channel": "CNBC Television",
