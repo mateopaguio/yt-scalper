@@ -18,6 +18,7 @@ Honesty constraints baked in here:
 from __future__ import annotations
 
 import csv
+import os
 import io
 from datetime import datetime, timedelta, timezone
 from typing import Any
@@ -208,10 +209,89 @@ def _from_yfinance(ticker: str, timeout: int, period: str = "5y") -> list[dict] 
     return rows or None
 
 
+ALPACA_DATA = "https://data.alpaca.markets/v2/stocks/"
+
+
+def alpaca_configured() -> bool:
+    return bool(os.environ.get("ALPACA_KEY_ID")
+                and os.environ.get("ALPACA_SECRET_KEY"))
+
+
+def _from_alpaca(ticker: str, timeout: int, years: int = 7,
+                 timeframe: str = "1Day") -> list[dict] | None:
+    """Alpaca market data. A real API with a key, not a scraped page.
+
+    Preferred when configured: stooq answers automated clients with a
+    JavaScript challenge and Yahoo's raw endpoint 429s them, because
+    neither wants to be read by a program. Alpaca does.
+
+    The free tier serves the IEX feed, which is one exchange and a small
+    share of total US volume. Fine for testing whether a pattern has
+    directional edge; NOT a basis for claiming a precise fill. That
+    distinction is recorded on every row via `feed` so a later analysis
+    cannot forget which data it was built on.
+
+    Keys come from the environment (.notify.env, gitignored). Absent,
+    this provider stands aside.
+    """
+    key = os.environ.get("ALPACA_KEY_ID")
+    secret = os.environ.get("ALPACA_SECRET_KEY")
+    if not (key and secret):
+        return None
+
+    feed = os.environ.get("ALPACA_FEED", "iex")
+    start = (datetime.now(timezone.utc) - timedelta(days=365 * years)).date()
+    headers = {"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": secret,
+               "Accept": "application/json"}
+
+    rows: list[dict] = []
+    page_token = None
+    for _ in range(40):                       # bounded: never loop forever
+        params = {"timeframe": timeframe, "start": start.isoformat(),
+                  "limit": 10000, "adjustment": "raw", "feed": feed}
+        if page_token:
+            params["page_token"] = page_token
+        try:
+            resp = requests.get(f"{ALPACA_DATA}{ticker.upper()}/bars",
+                                params=params, headers=headers, timeout=timeout)
+            if resp.status_code in (401, 403):
+                print(f"    - alpaca rejected the key ({resp.status_code}) "
+                      "- check ALPACA_KEY_ID / ALPACA_SECRET_KEY")
+                return None
+            resp.raise_for_status()
+            payload = resp.json()
+        except (requests.RequestException, ValueError) as exc:
+            print(f"    - alpaca unavailable for {ticker}: {str(exc)[:70]}")
+            return None
+
+        for b in payload.get("bars") or []:
+            try:
+                rows.append({
+                    "date": datetime.fromisoformat(
+                        b["t"].replace("Z", "+00:00")).date(),
+                    "open": float(b["o"]), "high": float(b["h"]),
+                    "low": float(b["l"]), "close": float(b["c"]),
+                    "volume": float(b.get("v") or 0),
+                    "feed": feed,
+                })
+            except (KeyError, ValueError, TypeError):
+                continue
+
+        page_token = payload.get("next_page_token")
+        if not page_token:
+            break
+
+    rows.sort(key=lambda r: r["date"])
+    return rows or None
+
+
 # Tried in order. One dying should degrade the system, not stop it -
 # which is exactly what happened when stooq put up a JS challenge.
-PROVIDERS = (("stooq", _from_stooq),
+# Alpaca first when configured: it is the only one of these that is
+# actually meant to be read by a program.
+PROVIDERS = (("alpaca", _from_alpaca),
              ("yfinance", _from_yfinance),
+             ("stooq", _from_stooq),
              ("yahoo", _from_yahoo))
 
 

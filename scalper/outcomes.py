@@ -141,6 +141,12 @@ def measure_all(data: dict | None = None, limit: int = 400,
             continue
 
         result = prices.measure(rows, when)
+        # Record which feed this was measured on. IEX is one exchange and
+        # a small share of volume; a later comparison must not silently
+        # mix it with full-market data as though they were the same.
+        feed = rows[0].get("feed") if rows else None
+        if feed:
+            result["feed"] = feed
         if result.get("error"):
             sig["outcome"] = {**result, "checked_at": now.isoformat()}
             stats["no_entry_day"] += 1

@@ -11,4 +11,4 @@ twilio>=9.0.0
 
 # optional: price history. Yahoo now requires a cookie/crumb handshake
 # that this library handles; without it the other providers are tried.
-yfinance>=0.2.40
+yfinance>=0.2.40,<1.0
