@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:07:33.033255+00:00",
+  "generated_at": "2026-10-26T16:33:16.360481+00:00",
   "video_count": 130,
   "videos": [
     {
@@ -6312,7 +6312,82 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 8,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 8
+          },
+          "detail": [
+            {
+              "claim": "$95 billion stock offering",
+              "channel": "CNBC Television",
+              "event_type": "offering_dilution",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Upcoming earnings and capex/guidance commentary",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Muse personal agent adoption and monetization rollout; expected 10x compute cost efficiency gain within the next year",
+              "channel": "Parkev Tatevosian, CFA",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings (already reported)",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Visibility on AI monetization; capex guidance raised to $135-145B",
+              "channel": "Yahoo Finance",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings call; planned share offerings",
+              "channel": "The Compound",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Post-earnings reaction on the next session and the CEO's call commentary.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report after the close",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NVDA",
@@ -6677,7 +6752,42 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Upcoming product cycles (Rubin ramp)",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Deliveries of DSX pod expected early 2027; pricing not yet disclosed",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TSLA",
@@ -6988,7 +7098,59 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 5,
+          "confirmed": 0,
+          "counts": {
+            "not_verifiable": 2,
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "EU-wide full self-driving approval expected in first half of 2027; US DOT approval progress; possible SpaceX merger committee recommendation",
+              "channel": "Schwab Network",
+              "event_type": "regulatory_approval",
+              "status": "not_verifiable",
+              "reason": "no filed event for this ticker in the window",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings (already reported); possible merger review",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Possible SpaceX-Tesla combination; ARK's recently updated Tesla model",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Possible SpaceX merger and shareholder vote; no timeline given",
+              "channel": "Yahoo Finance",
+              "event_type": "merger_acquisition",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Robotaxi regulatory approvals and expansion; upcoming earnings call commentary on robotaxi progress",
+              "channel": "Bloomberg Television",
+              "event_type": "regulatory_approval",
+              "status": "not_verifiable",
+              "reason": "no filed event for this ticker in the window",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRWV",
@@ -7197,7 +7359,34 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Musk social media post on neocloud companies",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Financing and debt structuring developments; how the company secures additional capital",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AAPL",
@@ -7468,7 +7657,66 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 6,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 6
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Early iPhone Duo sales",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Apple earnings report on November 2nd; holiday selling season; January restock of the foldable",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Fiscal earnings report, cited as November 2 or November 7 in the transcript; the foldable iPhone launch and iPhone 18 reviews",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Apple earnings on November 2",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Foldable iPhone launch and ramp",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "LRCX",
@@ -7643,7 +7891,42 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "December quarter outlook",
+              "channel": "Jose Najarro Stocks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings guidance (already reported)",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NFLX",
@@ -7817,7 +8100,34 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings report (just released; stock reported down slightly after hours)",
+              "channel": "The Compound",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report and guidance",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NBIS",
@@ -7992,7 +8302,26 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Musk social media post on neocloud companies",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MSFT",
@@ -8166,7 +8495,14 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "IBM",
@@ -8320,7 +8656,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMD",
@@ -8476,7 +8819,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GOOGL",
@@ -8631,7 +8981,26 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Q3 earnings on Oct 28 (per segment)",
+              "channel": "Yahoo Finance",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VZ",
@@ -8804,7 +9173,42 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings beat and raised forecast",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "T",
@@ -8977,7 +9381,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX entry into wireless services",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TMUS",
@@ -9150,7 +9581,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX entry into wireless services",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "WDC",
@@ -9316,7 +9774,50 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 4,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 4
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings beat and guidance; shares fell after results",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Next earnings / contract renewals; demand visibility through 2027-2028",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "First-generation HAMR shipments in 1H calendar 2027; 40TB EPM platform ramp (about 30% of shipments next quarter, about 50% the following); second-gen HAMR qual",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AXP",
@@ -9467,7 +9968,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings and 5% workforce reduction",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "BE",
@@ -9601,7 +10121,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "UBER",
@@ -9739,7 +10286,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Planned robotaxi launches in LA and San Francisco in first half of 2027",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NCLH",
@@ -9873,7 +10439,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HOOD",
@@ -10008,7 +10581,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMZN",
@@ -10143,7 +10723,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CVX",
@@ -10282,7 +10881,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Geopolitical developments and oil price moves",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ORCL",
@@ -10417,7 +11035,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "XOM",
@@ -10552,7 +11177,14 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TTWO",
@@ -10683,7 +11315,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "GTA 6 launch and subsequent fiscal 2027-2028 sales trajectory",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "GTA 6 launch",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "STX",
@@ -10814,7 +11473,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Seagate earnings next week",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SBUX",
@@ -10929,7 +11607,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings this Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "LLY",
@@ -11044,7 +11741,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings this Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "KO",
@@ -11159,7 +11875,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Tuesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "KLAC",
@@ -11274,7 +12009,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Wednesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CAT",
@@ -11389,7 +12143,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "V",
@@ -11504,7 +12277,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Tuesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SPGI",
@@ -11619,7 +12411,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ADP",
@@ -11734,7 +12545,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Wednesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VRT",
@@ -11849,7 +12679,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on October 28",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "COR",
@@ -11964,7 +12813,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on November 4",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CGNX",
@@ -12079,7 +12947,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on November 4",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NOK",
@@ -12194,7 +13081,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "AI-RAN pilot deployment end of this year; commercial availability in 2027",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CHPT",
@@ -12311,7 +13217,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SOFI",
@@ -12426,7 +13339,14 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RDDT",
@@ -12541,7 +13461,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NOW",
@@ -12656,7 +13583,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SNDK",
@@ -12771,7 +13705,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ETH",
@@ -12886,7 +13827,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Continued ETF inflows",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SMH",
@@ -13001,7 +13961,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "QS",
@@ -13116,7 +14083,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRWD",
@@ -13231,7 +14205,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CPAY",
@@ -13346,7 +14327,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MRNA",
@@ -13464,7 +14452,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "DECK",
@@ -13579,7 +14574,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NEM",
@@ -13694,7 +14696,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "OMC",
@@ -13809,7 +14830,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TXN",
@@ -13924,7 +14964,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "UAL",
@@ -14039,7 +15086,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Fuel price trajectory; pricing recapture in the coming quarters; next earnings",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SMCI",
@@ -14154,7 +15220,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Preliminary quarterly results",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "JBLU",
@@ -14272,7 +15357,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "WSJ report on debt and business restructuring",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ROST",
@@ -14389,7 +15493,26 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "UBS upgrade",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "FICO",
@@ -14504,7 +15627,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Decision to hold mortgage score pricing steady",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CLF",
@@ -14621,7 +15763,26 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Breakout past post-earnings high",
+              "channel": "StockedUp",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "BTC",
@@ -14736,7 +15897,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Continued institutional and ETF inflows; regulatory developments from SEC and CFTC",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GE",
@@ -14851,7 +16031,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PG",
@@ -14966,7 +16153,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ENPH",
@@ -15081,7 +16275,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PSKY",
@@ -15196,7 +16397,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Synergy realization",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SKHY",
@@ -15311,7 +16531,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CIEN",
@@ -15426,7 +16653,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PWR",
@@ -15541,7 +16775,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NDAQ",
@@ -15656,7 +16897,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Weekly close and follow-through; 23-hour trading starting in December",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MU",
@@ -15771,7 +17031,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TSM",
@@ -15886,7 +17153,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VST",
@@ -16001,7 +17275,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRM",
@@ -16118,7 +17399,26 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Next fiscal-year earnings are not due for months; the host noted the company just reported.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ADI",
@@ -16233,7 +17533,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Texas Instruments earnings after the close, which the host said could move ADI.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "QLYS",
@@ -16348,7 +17667,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings in about two weeks, referenced by the co-host.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "LNG",
@@ -16463,7 +17801,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMPL",
@@ -16578,7 +17923,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RKLB",
@@ -16693,7 +18045,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MELI",
@@ -16808,7 +18167,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AVGO",
@@ -16923,7 +18289,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PYPL",
@@ -17038,7 +18411,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "INTC",
@@ -17153,7 +18533,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MSTR",
@@ -17268,7 +18655,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "APLD",
@@ -17385,7 +18779,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "IREN",
@@ -17502,7 +18903,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RDW",
@@ -17619,7 +19027,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HIMS",
@@ -17736,7 +19151,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RBLX",
@@ -17853,7 +19275,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PLTR",
@@ -17971,7 +19400,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RDBX",
@@ -18088,7 +19524,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MRVL",
@@ -18205,7 +19648,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "earnings reported or better-than-expected earnings",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HYPE",
@@ -18322,7 +19784,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RTX",
@@ -18439,7 +19908,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "EQIX",
@@ -18556,7 +20032,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HAL",
@@ -18673,7 +20156,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SLB",
@@ -18790,7 +20280,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GM",
@@ -18908,7 +20405,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PANW",
@@ -19025,7 +20529,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Cybersecurity demand from AI-driven vulnerability discovery",
+              "channel": "Bloomberg Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "XLE",
@@ -19142,7 +20665,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VLO",
@@ -19259,7 +20789,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CCI",
@@ -19377,7 +20914,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX lease deal",
+              "channel": "Benzinga",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ELIS",
@@ -19494,7 +21050,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       }
     ],
     "multi_channel": [
@@ -19872,7 +21435,82 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 8,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 8
+          },
+          "detail": [
+            {
+              "claim": "$95 billion stock offering",
+              "channel": "CNBC Television",
+              "event_type": "offering_dilution",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Upcoming earnings and capex/guidance commentary",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Muse personal agent adoption and monetization rollout; expected 10x compute cost efficiency gain within the next year",
+              "channel": "Parkev Tatevosian, CFA",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings (already reported)",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Visibility on AI monetization; capex guidance raised to $135-145B",
+              "channel": "Yahoo Finance",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings call; planned share offerings",
+              "channel": "The Compound",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Post-earnings reaction on the next session and the CEO's call commentary.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report after the close",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NVDA",
@@ -20237,7 +21875,42 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Upcoming product cycles (Rubin ramp)",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Deliveries of DSX pod expected early 2027; pricing not yet disclosed",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TSLA",
@@ -20548,7 +22221,59 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 5,
+          "confirmed": 0,
+          "counts": {
+            "not_verifiable": 2,
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "EU-wide full self-driving approval expected in first half of 2027; US DOT approval progress; possible SpaceX merger committee recommendation",
+              "channel": "Schwab Network",
+              "event_type": "regulatory_approval",
+              "status": "not_verifiable",
+              "reason": "no filed event for this ticker in the window",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings (already reported); possible merger review",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Possible SpaceX-Tesla combination; ARK's recently updated Tesla model",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Possible SpaceX merger and shareholder vote; no timeline given",
+              "channel": "Yahoo Finance",
+              "event_type": "merger_acquisition",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Robotaxi regulatory approvals and expansion; upcoming earnings call commentary on robotaxi progress",
+              "channel": "Bloomberg Television",
+              "event_type": "regulatory_approval",
+              "status": "not_verifiable",
+              "reason": "no filed event for this ticker in the window",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRWV",
@@ -20757,7 +22482,34 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Musk social media post on neocloud companies",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Financing and debt structuring developments; how the company secures additional capital",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AAPL",
@@ -21028,7 +22780,66 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 6,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 6
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Early iPhone Duo sales",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Apple earnings report on November 2nd; holiday selling season; January restock of the foldable",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Fiscal earnings report, cited as November 2 or November 7 in the transcript; the foldable iPhone launch and iPhone 18 reviews",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Apple earnings on November 2",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Foldable iPhone launch and ramp",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "LRCX",
@@ -21203,7 +23014,42 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "December quarter outlook",
+              "channel": "Jose Najarro Stocks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings guidance (already reported)",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NFLX",
@@ -21377,7 +23223,34 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings report (just released; stock reported down slightly after hours)",
+              "channel": "The Compound",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report and guidance",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NBIS",
@@ -21552,7 +23425,26 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Musk social media post on neocloud companies",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MSFT",
@@ -21726,7 +23618,14 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "IBM",
@@ -21880,7 +23779,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMD",
@@ -22036,7 +23942,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GOOGL",
@@ -22191,7 +24104,26 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Q3 earnings on Oct 28 (per segment)",
+              "channel": "Yahoo Finance",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VZ",
@@ -22364,7 +24296,42 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings beat and raised forecast",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "WDC",
@@ -22530,7 +24497,50 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 4,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 4
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings beat and guidance; shares fell after results",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Next earnings / contract renewals; demand visibility through 2027-2028",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "First-generation HAMR shipments in 1H calendar 2027; 40TB EPM platform ramp (about 30% of shipments next quarter, about 50% the following); second-gen HAMR qual",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AXP",
@@ -22681,7 +24691,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings and 5% workforce reduction",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "BE",
@@ -22815,7 +24844,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NCLH",
@@ -22949,7 +25005,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HOOD",
@@ -23084,7 +25147,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMZN",
@@ -23219,7 +25289,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ORCL",
@@ -23354,7 +25443,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "XOM",
@@ -23489,7 +25585,14 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       }
     ],
     "speculative_only": [],
@@ -23734,7 +25837,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX entry into wireless services",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TMUS",
@@ -23907,7 +26037,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX entry into wireless services",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "UBER",
@@ -24045,7 +26202,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Planned robotaxi launches in LA and San Francisco in first half of 2027",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CVX",
@@ -24184,7 +26360,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Geopolitical developments and oil price moves",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       }
     ],
     "channel_originality": [
@@ -24707,7 +26902,82 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 8,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 8
+          },
+          "detail": [
+            {
+              "claim": "$95 billion stock offering",
+              "channel": "CNBC Television",
+              "event_type": "offering_dilution",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Upcoming earnings and capex/guidance commentary",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Muse personal agent adoption and monetization rollout; expected 10x compute cost efficiency gain within the next year",
+              "channel": "Parkev Tatevosian, CFA",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings (already reported)",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Visibility on AI monetization; capex guidance raised to $135-145B",
+              "channel": "Yahoo Finance",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings call; planned share offerings",
+              "channel": "The Compound",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Post-earnings reaction on the next session and the CEO's call commentary.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report after the close",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AAPL",
@@ -24978,7 +27248,66 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 6,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 6
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Early iPhone Duo sales",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Apple earnings report on November 2nd; holiday selling season; January restock of the foldable",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Fiscal earnings report, cited as November 2 or November 7 in the transcript; the foldable iPhone launch and iPhone 18 reviews",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Apple earnings on November 2",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Foldable iPhone launch and ramp",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NVDA",
@@ -25343,7 +27672,42 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Upcoming product cycles (Rubin ramp)",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Deliveries of DSX pod expected early 2027; pricing not yet disclosed",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TSLA",
@@ -25654,7 +28018,59 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 5,
+          "confirmed": 0,
+          "counts": {
+            "not_verifiable": 2,
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "EU-wide full self-driving approval expected in first half of 2027; US DOT approval progress; possible SpaceX merger committee recommendation",
+              "channel": "Schwab Network",
+              "event_type": "regulatory_approval",
+              "status": "not_verifiable",
+              "reason": "no filed event for this ticker in the window",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings (already reported); possible merger review",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Possible SpaceX-Tesla combination; ARK's recently updated Tesla model",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Possible SpaceX merger and shareholder vote; no timeline given",
+              "channel": "Yahoo Finance",
+              "event_type": "merger_acquisition",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Robotaxi regulatory approvals and expansion; upcoming earnings call commentary on robotaxi progress",
+              "channel": "Bloomberg Television",
+              "event_type": "regulatory_approval",
+              "status": "not_verifiable",
+              "reason": "no filed event for this ticker in the window",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "WDC",
@@ -25820,7 +28236,50 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 4,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 4
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings beat and guidance; shares fell after results",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Next earnings / contract renewals; demand visibility through 2027-2028",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "First-generation HAMR shipments in 1H calendar 2027; 40TB EPM platform ramp (about 30% of shipments next quarter, about 50% the following); second-gen HAMR qual",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NFLX",
@@ -25994,7 +28453,34 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings report (just released; stock reported down slightly after hours)",
+              "channel": "The Compound",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report and guidance",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GOOGL",
@@ -26149,7 +28635,26 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Q3 earnings on Oct 28 (per segment)",
+              "channel": "Yahoo Finance",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VZ",
@@ -26322,7 +28827,42 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings beat and raised forecast",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NBIS",
@@ -26497,7 +29037,26 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Musk social media post on neocloud companies",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMZN",
@@ -26632,7 +29191,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "upcoming earnings season",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AXP",
@@ -26783,7 +29361,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Quarterly earnings and 5% workforce reduction",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "BE",
@@ -26917,7 +29514,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRWV",
@@ -27126,7 +29750,34 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Musk social media post on neocloud companies",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Financing and debt structuring developments; how the company secures additional capital",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "IBM",
@@ -27280,7 +29931,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MSFT",
@@ -27454,7 +30112,14 @@
           },
           "freshness_state": "running"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "STX",
@@ -27585,7 +30250,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Seagate earnings next week",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SOFI",
@@ -27700,7 +30384,14 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SBUX",
@@ -27815,7 +30506,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings this Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "LLY",
@@ -27930,7 +30640,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings this Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "KO",
@@ -28045,7 +30774,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Tuesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "KLAC",
@@ -28160,7 +30908,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Wednesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CAT",
@@ -28275,7 +31042,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "V",
@@ -28390,7 +31176,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Tuesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SPGI",
@@ -28505,7 +31310,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Thursday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ADP",
@@ -28620,7 +31444,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on Wednesday",
+              "channel": "Dividend Talks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VRT",
@@ -28735,7 +31578,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on October 28",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "COR",
@@ -28850,7 +31712,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on November 4",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CGNX",
@@ -28965,7 +31846,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings on November 4",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NOK",
@@ -29080,7 +31980,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "AI-RAN pilot deployment end of this year; commercial availability in 2027",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ETH",
@@ -29195,7 +32114,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Continued ETF inflows",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NEM",
@@ -29310,7 +32248,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "OMC",
@@ -29425,7 +32382,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings report",
+              "channel": "Benzinga",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "UAL",
@@ -29540,7 +32516,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Fuel price trajectory; pricing recapture in the coming quarters; next earnings",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SMCI",
@@ -29655,7 +32650,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Preliminary quarterly results",
+              "channel": "Bloomberg Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HOOD",
@@ -29790,7 +32804,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TTWO",
@@ -29921,7 +32942,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "GTA 6 launch and subsequent fiscal 2027-2028 sales trajectory",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "GTA 6 launch",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RDDT",
@@ -30036,7 +33084,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NOW",
@@ -30151,7 +33206,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SNDK",
@@ -30266,7 +33328,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SMH",
@@ -30381,7 +33450,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "QS",
@@ -30496,7 +33572,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRWD",
@@ -30611,7 +33694,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CPAY",
@@ -30726,7 +33816,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "DECK",
@@ -30841,7 +33938,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TXN",
@@ -30956,7 +34060,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "FICO",
@@ -31071,7 +34182,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Decision to hold mortgage score pricing steady",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "BTC",
@@ -31186,7 +34316,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Continued institutional and ETF inflows; regulatory developments from SEC and CFTC",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PSKY",
@@ -31301,7 +34450,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Synergy realization",
+              "channel": "Yahoo Finance",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NDAQ",
@@ -31416,7 +34584,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Weekly close and follow-through; 23-hour trading starting in December",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ADI",
@@ -31531,7 +34718,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Texas Instruments earnings after the close, which the host said could move ADI.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "QLYS",
@@ -31646,7 +34852,26 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Earnings in about two weeks, referenced by the co-host.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "NCLH",
@@ -31780,7 +35005,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ORCL",
@@ -31915,7 +35147,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GE",
@@ -32030,7 +35269,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PG",
@@ -32145,7 +35391,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ENPH",
@@ -32260,7 +35513,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SKHY",
@@ -32375,7 +35635,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CIEN",
@@ -32490,7 +35757,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PWR",
@@ -32605,7 +35879,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MU",
@@ -32720,7 +36001,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TSM",
@@ -32835,7 +36123,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VST",
@@ -32950,7 +36245,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "XOM",
@@ -33085,7 +36387,14 @@
           },
           "freshness_state": "developing"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMPL",
@@ -33200,7 +36509,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RKLB",
@@ -33315,7 +36631,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MELI",
@@ -33430,7 +36753,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AVGO",
@@ -33545,7 +36875,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PYPL",
@@ -33660,7 +36997,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "INTC",
@@ -33775,7 +37119,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MSTR",
@@ -33890,7 +37241,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "LNG",
@@ -34005,7 +37363,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       }
     ],
     "vetoed": [
@@ -34182,7 +37547,42 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 3,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 3
+          },
+          "detail": [
+            {
+              "claim": "December quarter outlook",
+              "channel": "Jose Najarro Stocks",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Q3 earnings guidance (already reported)",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Quarterly earnings report.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "UBER",
@@ -34320,7 +37720,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Planned robotaxi launches in LA and San Francisco in first half of 2027",
+              "channel": "Ticker Symbol: YOU",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "AMD",
@@ -34476,7 +37895,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CHPT",
@@ -34593,7 +38019,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ROST",
@@ -34710,7 +38143,26 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "UBS upgrade",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CLF",
@@ -34827,7 +38279,26 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Breakout past post-earnings high",
+              "channel": "StockedUp",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CRM",
@@ -34944,7 +38415,26 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Next fiscal-year earnings are not due for months; the host noted the company just reported.",
+              "channel": "Investor's Business Daily",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "JBLU",
@@ -35062,7 +38552,26 @@
           },
           "freshness_state": "forward_catalyst"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "WSJ report on debt and business restructuring",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MRVL",
@@ -35179,7 +38688,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "earnings reported or better-than-expected earnings",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PANW",
@@ -35296,7 +38824,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Cybersecurity demand from AI-driven vulnerability discovery",
+              "channel": "Bloomberg Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "T",
@@ -35469,7 +39016,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX entry into wireless services",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "TMUS",
@@ -35642,7 +39216,34 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 2,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 2
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX entry into wireless services",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Reported SpaceX cell tower lease talks",
+              "channel": "CNBC Television",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CVX",
@@ -35781,7 +39382,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Geopolitical developments and oil price moves",
+              "channel": "Schwab Network",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "MRNA",
@@ -35899,7 +39519,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "APLD",
@@ -36016,7 +39643,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "IREN",
@@ -36133,7 +39767,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RBLX",
@@ -36250,7 +39891,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RDBX",
@@ -36367,7 +40015,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HYPE",
@@ -36484,7 +40139,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RTX",
@@ -36601,7 +40263,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "EQIX",
@@ -36718,7 +40387,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HAL",
@@ -36835,7 +40511,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "SLB",
@@ -36952,7 +40635,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "XLE",
@@ -37069,7 +40759,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "VLO",
@@ -37186,7 +40883,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "CCI",
@@ -37304,7 +41008,26 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Possible SpaceX lease deal",
+              "channel": "Benzinga",
+              "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "ELIS",
@@ -37421,7 +41144,14 @@
           },
           "freshness_state": "unknown"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "RDW",
@@ -37538,7 +41268,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "HIMS",
@@ -37655,7 +41392,14 @@
           },
           "freshness_state": "single_sighting"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "PLTR",
@@ -37773,7 +41517,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       },
       {
         "ticker": "GM",
@@ -37891,7 +41642,14 @@
           },
           "freshness_state": "late_to_story"
         },
-        "catalyst_events": []
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
       }
     ],
     "rank_meta": {
@@ -37910,6 +41668,36 @@
         "sector_alignment": "no sector index data configured"
       },
       "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
+    },
+    "verification_meta": {
+      "by_status": {
+        "outside_coverage": 50,
+        "no_claim": 52
+      },
+      "tickers_with_filed_events": 0,
+      "covered_event_types": [
+        "clinical_trial",
+        "enforcement",
+        "macro_data",
+        "macro_rates",
+        "recall_safety",
+        "regulatory_action",
+        "regulatory_approval",
+        "trading_suspension"
+      ],
+      "uncovered_event_types": [
+        "bankruptcy_distress",
+        "contract_award",
+        "earnings",
+        "guidance",
+        "leadership_change",
+        "merger_acquisition",
+        "offering_dilution",
+        "other",
+        "product_launch"
+      ],
+      "note": "'unconfirmed' means the configured feeds cover that event type but nothing matching was filed in the window - not that the claim is false. 'outside_coverage' means the feeds cannot see that kind of event at all (no 8-K/10-Q/earnings source is configured), so absence there proves nothing.",
+      "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
     }
   },
   "catalysts": [
@@ -41389,6 +45177,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Planned robotaxi launches in LA and San Francisco in first half of 2027",
+            "channel": "Ticker Symbol: YOU",
+            "event_type": "other",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Couch Investor",
       "first_seen": "2026-10-25T14:54:54+00:00",
       "_source_video_names": 1
@@ -41507,6 +45314,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Earnings on Wednesday",
+            "channel": "Dividend Talks",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Dividend Talks",
       "first_seen": "2026-10-25T19:57:45+00:00",
       "_source_video_names": 1
@@ -41625,6 +45451,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Earnings on October 28",
+            "channel": "Ticker Symbol: YOU",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Ticker Symbol: YOU",
       "first_seen": "2026-10-25T18:25:04+00:00",
       "_source_video_names": 2
@@ -41743,6 +45588,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Earnings on November 4",
+            "channel": "Ticker Symbol: YOU",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Ticker Symbol: YOU",
       "first_seen": "2026-10-25T18:25:04+00:00",
       "_source_video_names": 3
@@ -41861,6 +45725,13 @@
         "freshness_state": "forward_catalyst"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Couch Investor",
       "first_seen": "2026-10-25T14:54:54+00:00",
       "_source_video_names": 1
@@ -41979,6 +45850,13 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Couch Investor",
       "first_seen": "2026-10-25T14:54:54+00:00",
       "_source_video_names": 2
@@ -42097,6 +45975,13 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Couch Investor",
       "first_seen": "2026-10-25T14:54:54+00:00",
       "_source_video_names": 3
@@ -42215,6 +46100,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Continued ETF inflows",
+            "channel": "Schwab Network",
+            "event_type": "other",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-24T20:00:34+00:00",
       "_source_video_names": 1
@@ -42333,6 +46237,13 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Yahoo Finance",
       "first_seen": "2026-10-23T21:20:28+00:00",
       "_source_video_names": 1
@@ -42451,6 +46362,13 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "FAST Graphs",
       "first_seen": "2026-10-23T18:59:03+00:00",
       "_source_video_names": 1
@@ -42569,6 +46487,25 @@
         "freshness_state": "unknown"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Fuel price trajectory; pricing recapture in the coming quarters; next earnings",
+            "channel": "Bloomberg Television",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Bloomberg Television",
       "first_seen": "2026-10-21T21:09:52+00:00",
       "_source_video_names": 1
@@ -42687,6 +46624,25 @@
         "freshness_state": "unknown"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Preliminary quarterly results",
+            "channel": "Bloomberg Television",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Bloomberg Television",
       "first_seen": "2026-10-21T20:45:35+00:00",
       "_source_video_names": 1
@@ -42821,6 +46777,25 @@
         "freshness_state": "forward_catalyst"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Seagate earnings next week",
+            "channel": "Schwab Network",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-23T18:30:11+00:00",
       "_source_video_names": 1
@@ -42941,6 +46916,25 @@
         "freshness_state": "late_to_story"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "UBS upgrade",
+            "channel": "Schwab Network",
+            "event_type": "other",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-26T14:30:23+00:00",
       "_source_video_names": 1
@@ -43061,6 +47055,25 @@
         "freshness_state": "late_to_story"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Breakout past post-earnings high",
+            "channel": "StockedUp",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "StockedUp",
       "first_seen": "2026-10-25T22:00:07+00:00",
       "_source_video_names": 1
@@ -43179,6 +47192,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Continued institutional and ETF inflows; regulatory developments from SEC and CFTC",
+            "channel": "Schwab Network",
+            "event_type": "other",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-24T20:00:34+00:00",
       "_source_video_names": 2
@@ -43297,6 +47329,13 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-23T18:00:28+00:00",
       "_source_video_names": 1
@@ -43415,6 +47454,13 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-23T18:00:28+00:00",
       "_source_video_names": 2
@@ -43533,6 +47579,25 @@
         "freshness_state": "single_sighting"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Weekly close and follow-through; 23-hour trading starting in December",
+            "channel": "Schwab Network",
+            "event_type": "other",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Schwab Network",
       "first_seen": "2026-10-23T17:00:20+00:00",
       "_source_video_names": 1
@@ -43651,6 +47716,13 @@
         "freshness_state": "unknown"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "no_claim",
+        "checked": 0,
+        "confirmed": 0,
+        "detail": [],
+        "feed_has_ticker": false
+      },
       "first_channel": "Bloomberg Television",
       "first_seen": "2026-10-21T21:14:03+00:00",
       "_source_video_names": 1
@@ -43771,6 +47843,25 @@
         "freshness_state": "late_to_story"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Next fiscal-year earnings are not due for months; the host noted the company just reported.",
+            "channel": "Investor's Business Daily",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Investor's Business Daily",
       "first_seen": "2026-10-21T20:49:31+00:00",
       "_source_video_names": 1
@@ -43889,6 +47980,25 @@
         "freshness_state": "unknown"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Texas Instruments earnings after the close, which the host said could move ADI.",
+            "channel": "Investor's Business Daily",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Investor's Business Daily",
       "first_seen": "2026-10-21T20:49:31+00:00",
       "_source_video_names": 2
@@ -44007,6 +48117,25 @@
         "freshness_state": "unknown"
       },
       "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Earnings in about two weeks, referenced by the co-host.",
+            "channel": "Investor's Business Daily",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
       "first_channel": "Investor's Business Daily",
       "first_seen": "2026-10-21T20:49:31+00:00",
       "_source_video_names": 3
@@ -45119,6 +49248,39 @@
     "unchanged": 102,
     "total": 107
   },
+  "outcomes": {
+    "measured": 0,
+    "skipped": 0,
+    "fetch_failed": 3,
+    "no_entry_day": 0,
+    "tickers_fetched": 0,
+    "tickers_failed": [
+      "META",
+      "NVDA",
+      "TSLA"
+    ],
+    "circuit_open": true,
+    "note": "stopped after 3 consecutive fetch failures - price feed appears to be down",
+    "pending": 104
+  },
+  "price_health": {
+    "total_signals": 107,
+    "measured": 0,
+    "fetch_failed": 43,
+    "skipped_non_equity": 3,
+    "never_attempted": 61,
+    "resolved_by_horizon": {
+      "1": 0,
+      "7": 0,
+      "30": 0,
+      "90": 0,
+      "180": 0
+    },
+    "price_feed_healthy": false,
+    "last_run": "2026-10-26T16:33:16.439214+00:00",
+    "warning": "No signal has a measured price outcome. The price feed is unreachable, so performance cannot be evaluated. This is a broken data source, not an absence of results.",
+    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
+  },
   "ranked": [
     "META",
     "AAPL",
@@ -45603,6 +49765,36 @@
       "sector_alignment": "no sector index data configured"
     },
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
+  },
+  "verification_meta": {
+    "by_status": {
+      "outside_coverage": 50,
+      "no_claim": 52
+    },
+    "tickers_with_filed_events": 0,
+    "covered_event_types": [
+      "clinical_trial",
+      "enforcement",
+      "macro_data",
+      "macro_rates",
+      "recall_safety",
+      "regulatory_action",
+      "regulatory_approval",
+      "trading_suspension"
+    ],
+    "uncovered_event_types": [
+      "bankruptcy_distress",
+      "contract_award",
+      "earnings",
+      "guidance",
+      "leadership_change",
+      "merger_acquisition",
+      "offering_dilution",
+      "other",
+      "product_launch"
+    ],
+    "note": "'unconfirmed' means the configured feeds cover that event type but nothing matching was filed in the window - not that the claim is false. 'outside_coverage' means the feeds cannot see that kind of event at all (no 8-K/10-Q/earnings source is configured), so absence there proves nothing.",
+    "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
   },
   "tier4_candidates": [
     {

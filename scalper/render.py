@@ -380,6 +380,44 @@ def _trust_html(digest: dict) -> str:
     agg = digest.get("aggregate") or {}
     out = []
 
+    # A dead price feed must look like a dead price feed, not like
+    # "no results yet". Those are different facts and only one is fixable.
+    health = digest.get("price_health") or {}
+    if health and not health.get("price_feed_healthy") and health.get("total_signals"):
+        out.append(
+            '<div class="note"><b>Price feed unreachable.</b> '
+            f'{health.get("fetch_failed", 0)} of {health["total_signals"]} '
+            "recorded signals could not be priced, so none have a measured "
+            "outcome. Performance cannot be evaluated until this is fixed "
+            "&mdash; this is a broken data source, not an absence of "
+            "results.</div>"
+        )
+    elif health.get("resolved_by_horizon"):
+        by = health["resolved_by_horizon"]
+        out.append(
+            '<div class="note">Signals recorded: '
+            f'{health.get("total_signals", 0)}. With a measured 7-day '
+            f'return: {by.get("7", 0)}. Statistical conclusions need a few '
+            "hundred; until then this is a record, not evidence.</div>"
+        )
+
+    vm = digest.get("verification_meta") or {}
+    if vm.get("limitation"):
+        out.append(
+            '<div class="note"><b>Catalyst verification unavailable.</b> '
+            + _esc(vm["limitation"]) + "</div>"
+        )
+    elif vm.get("by_status"):
+        bs = vm["by_status"]
+        out.append(
+            '<div class="note">Catalyst claims checked against filings: '
+            f'{bs.get("confirmed", 0)} confirmed, '
+            f'{bs.get("unconfirmed", 0)} not found, '
+            f'{bs.get("outside_coverage", 0)} of a kind these feeds cannot see '
+            "(no earnings source is configured, so absence there proves "
+            "nothing).</div>"
+        )
+
     ranked = agg.get("ranked") or []
     if ranked:
         rows = []

@@ -24,6 +24,7 @@ from scalper import (
     feeds,
     freshness,
     narratives,
+    outcomes,
     notify,
     rank as ranking,
     render,
@@ -33,6 +34,7 @@ from scalper import (
     store,
     track,
     transcripts,
+    verify,
 )
 
 
@@ -80,6 +82,12 @@ def build_digest(
     for entry in aggregate["tickers"]:
         entry["catalyst_events"] = events_by_ticker.get(entry["ticker"], [])
 
+    # Check claimed catalysts against filed events. Distinguishes "no
+    # filing found" from "these feeds cannot see this kind of event" -
+    # no earnings source is configured, so an earnings claim is marked
+    # outside_coverage rather than being cast as unconfirmed.
+    verify.annotate(aggregate, events_by_ticker)
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "video_count": len(videos),
@@ -95,6 +103,11 @@ def build_digest(
         # later claim that the vetoes work is untestable, because the
         # surviving sample is selected on the variable under test.
         "signal_log": signal_log.record(aggregate) if record_signals else None,
+        # Measure realised outcomes for signals recorded on earlier runs.
+        # Only on the full digest, and only after recording, so a signal
+        # generated this run can be measured from the next one onward.
+        "outcomes": (outcomes.measure_all() if record_signals else None),
+        "price_health": (outcomes.diagnostics() if record_signals else None),
         "ranked": [e["ticker"] for e in aggregate.get("ranked", [])],
         "vetoed": [{"ticker": e["ticker"], "reasons": e["score"]["vetoes"]}
                    for e in aggregate.get("vetoed", [])],
@@ -103,6 +116,7 @@ def build_digest(
         "channel_originality": aggregate.get("channel_originality", []),
         "freshness_meta": aggregate.get("freshness_meta", {}),
         "rank_meta": aggregate.get("rank_meta", {}),
+        "verification_meta": aggregate.get("verification_meta", {}),
         "tier4_candidates": [
             c for c in track.tier4_candidates(videos) if c["nominated"]
         ],
