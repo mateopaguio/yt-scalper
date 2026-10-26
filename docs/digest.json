@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T16:33:16.360481+00:00",
-  "video_count": 130,
+  "generated_at": "2026-10-26T16:43:31.293641+00:00",
+  "video_count": 131,
   "videos": [
     {
       "video_id": "xOTxS1IXGLw",
@@ -212,6 +212,98 @@
       "source_type": "video",
       "findings": null,
       "skip_reason": "content too short"
+    },
+    {
+      "video_id": "QK0eEOV8M2Q",
+      "title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+      "channel": "Yahoo Finance",
+      "published": "2026-10-26T14:00:59+00:00",
+      "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+      "tier": 1,
+      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "source_type": "video",
+      "findings": {
+        "summary": "Morning market show covering Meta's plan to raise up to $95B via stock sales (including $5B committed by Nvidia, AMD, Broadcom), SpaceX confirming a $40B Nvidia-chip finance lease with Apollo backing, and the Anthropic S1 IPO filing that dropped during the show. Hosts were broadly skeptical about ROI on AI capex, rising credit spreads, and enterprise AI payoffs, citing an Apollo chief economist note and a Cloudera survey. The show also covered Brazil's election result and a Marissa Mayer app story, which were not really about specific investments.",
+        "overall_stance": "mixed",
+        "hype_level": 2,
+        "discloses_position": false,
+        "promotional": false,
+        "macro_points": [
+          "Tech has sold off over the past three weeks while consumer staples rose and Treasury yields fell; credit spreads widened as credit markets grow more skeptical of AI-related debt funding.",
+          "Citadel's CIO was cited as calling the credit and spending build-out a reconciliation rather than a crisis.",
+          "Apollo's chief economist wrote that AI has so far produced no financial payoff for corporate America outside tech; revenue per worker is rising in tech and flat elsewhere.",
+          "Hosts noted AI has become a midterm election issue with bipartisan pushback, and that a likely Democratic House could change the policy environment.",
+          "A poll cited by the hosts found a majority of Americans view AI as bad for society and about two-thirds oppose new data center construction.",
+          "Hosts expect the Fed to hold rates; Fed chair commentary on AI productivity and inflation was discussed as a factor in the rate-cut timeline."
+        ],
+        "red_flags": [
+          "Meta's raise is substantial dilution and debt-like cost: a mandatory convertible preferred reportedly carries a 6 to 6.5% dividend.",
+          "Anthropic's S1 showed an $80.7B net loss for the first half of 2026, mostly a non-cash charge tied to convertible instruments, and the company says it may not achieve or sustain profitability.",
+          "SpaceX's $40B lease has not yet priced; Bloomberg reportedly expected around 8% debt cost, and neocloud debt was cited at around 15% trading yields.",
+          "Anthropic's risk factors say it competes for compute with better-capitalized rivals and may fail to stay competitive if it cannot secure compute.",
+          "Hosts raised doubts about 'annualized run rate' style metrics used by private AI companies before they must report under SEC rules.",
+          "The Anthropic S1 includes doomsday/existential risk language that one guest called hype or a liability issue to price in.",
+          "Hosts discussed the Anthropic IPO being priced in a way that could see investor scrutiny; the valuation was reportedly cut from $2T to $1.5T in private talks."
+        ],
+        "tickers": [
+          {
+            "ticker": "META",
+            "company": "Meta Platforms",
+            "stance": "neutral",
+            "thesis": "Meta is raising up to $95B via common and preferred stock and an at-the-market program to fund AI spending. Hosts saw it as expected and questioned the return on the spending, which they said has raised investor concerns about overspending and models lagging peers.",
+            "conviction": "medium",
+            "evidence": "data",
+            "timestamp": "0:01",
+            "sector": "communication",
+            "timeframe": "",
+            "breakout_signal": "catalyst_driven",
+            "catalyst": "Equity and convertible offering filing",
+            "price_target": ""
+          },
+          {
+            "ticker": "NVDA",
+            "company": "Nvidia",
+            "stance": "neutral",
+            "thesis": "Mentioned as a supplier of GPUs in SpaceX's $40B lease and as a buyer of part of Meta's stock offering alongside AMD and Broadcom. No independent view was expressed.",
+            "conviction": "low",
+            "evidence": "none",
+            "timestamp": "1:01",
+            "sector": "semiconductors",
+            "timeframe": "",
+            "breakout_signal": "none",
+            "catalyst": "",
+            "price_target": ""
+          },
+          {
+            "ticker": "",
+            "company": "SpaceX",
+            "stance": "neutral",
+            "thesis": "Confirmed a $40B finance lease for Nvidia chips backed by Apollo. Hosts noted the debt has not priced yet and may cost around 8%, and Musk said neocloud debt markets are largely closed.",
+            "conviction": "medium",
+            "evidence": "reasoned",
+            "timestamp": "6:13",
+            "sector": "",
+            "timeframe": "",
+            "breakout_signal": "none",
+            "catalyst": "",
+            "price_target": ""
+          },
+          {
+            "ticker": "",
+            "company": "Anthropic",
+            "stance": "neutral",
+            "thesis": "S1 IPO filing dropped during the show. Hosts said it showed first-half revenue of $16.3B, an $80.7B net loss largely from non-cash charges, roughly $3.9B operating cash flow, and about 11,900 customers above $100K, but that it does not answer when returns will arrive. A guest said the IPO may be well-received initially but depends on pricing.",
+            "conviction": "medium",
+            "evidence": "data",
+            "timestamp": "30:14",
+            "sector": "",
+            "timeframe": "next few months",
+            "breakout_signal": "catalyst_driven",
+            "catalyst": "Anthropic IPO listing",
+            "price_target": "Private round reportedly valued it near $1.5T after talks from $2T"
+          }
+        ]
+      }
     },
     {
       "video_id": "rzIQgRW2_iY",
@@ -5941,15 +6033,15 @@
       {
         "ticker": "META",
         "company": "Meta Platforms",
-        "mentions": 15,
+        "mentions": 16,
         "channels": [
           "CNBC Television",
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "Schwab Network",
           "Couch Investor",
           "Parkev Tatevosian, CFA",
           "Excess Returns",
-          "Yahoo Finance",
           "Asymmetric Investing",
           "The Compound",
           "manual",
@@ -5958,12 +6050,12 @@
         ],
         "corroborating_channels": [
           "CNBC Television",
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "Schwab Network",
           "Couch Investor",
           "Parkev Tatevosian, CFA",
           "Excess Returns",
-          "Yahoo Finance",
           "Asymmetric Investing",
           "The Compound",
           "manual",
@@ -5973,10 +6065,10 @@
         "speculative_channels": [],
         "bullish": 7,
         "bearish": 3,
-        "neutral": 5,
+        "neutral": 6,
         "evidence_counts": {
           "none": 3,
-          "data": 6,
+          "data": 7,
           "reasoned": 5,
           "speculation": 1
         },
@@ -5996,6 +6088,22 @@
             "timeframe": "",
             "conviction": "low",
             "evidence": "none",
+            "basis": "primary"
+          },
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+            "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+            "timestamp": "0:01",
+            "stance": "neutral",
+            "thesis": "Meta is raising up to $95B via common and preferred stock and an at-the-market program to fund AI spending. Hosts saw it as expected and questioned the return on the spending, which they said has raised investor concerns about overspending and models lagging peers.",
+            "catalyst": "Equity and convertible offering filing",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "medium",
+            "evidence": "data",
             "basis": "primary"
           },
           {
@@ -6228,10 +6336,10 @@
         "basis": {
           "counts": {
             "derivative": 1,
-            "primary": 9,
+            "primary": 10,
             "original": 5
           },
-          "derivative_share": 0.07,
+          "derivative_share": 0.06,
           "independent_channels": [
             "Asymmetric Investing",
             "Bloomberg Television",
@@ -6307,7 +6415,7 @@
           "independent_channels": 11,
           "basis_counts": {
             "derivative": 1,
-            "primary": 9,
+            "primary": 10,
             "original": 5
           },
           "freshness_state": "unknown"
@@ -6315,15 +6423,23 @@
         "catalyst_events": [],
         "verification": {
           "status": "outside_coverage",
-          "checked": 8,
+          "checked": 9,
           "confirmed": 0,
           "counts": {
-            "outside_coverage": 8
+            "outside_coverage": 9
           },
           "detail": [
             {
               "claim": "$95 billion stock offering",
               "channel": "CNBC Television",
+              "event_type": "offering_dilution",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Equity and convertible offering filing",
+              "channel": "Yahoo Finance",
               "event_type": "offering_dilution",
               "status": "outside_coverage",
               "reason": "feeds do not carry this event type",
@@ -6392,8 +6508,9 @@
       {
         "ticker": "NVDA",
         "company": "Nvidia",
-        "mentions": 15,
+        "mentions": 16,
         "channels": [
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "StockedUp",
           "Schwab Network",
@@ -6401,10 +6518,10 @@
           "Couch Investor",
           "Excess Returns",
           "CNBC Television",
-          "Yahoo Finance",
           "Asymmetric Investing"
         ],
         "corroborating_channels": [
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "StockedUp",
           "Schwab Network",
@@ -6412,20 +6529,35 @@
           "Couch Investor",
           "Excess Returns",
           "CNBC Television",
-          "Yahoo Finance",
           "Asymmetric Investing"
         ],
         "speculative_channels": [],
         "bullish": 9,
         "bearish": 3,
-        "neutral": 3,
+        "neutral": 4,
         "evidence_counts": {
+          "none": 6,
           "reasoned": 7,
-          "none": 5,
           "data": 3
         },
         "on_watchlist": false,
         "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+            "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+            "timestamp": "1:01",
+            "stance": "neutral",
+            "thesis": "Mentioned as a supplier of GPUs in SpaceX's $40B lease and as a buyer of part of Meta's stock offering alongside AMD and Broadcom. No independent view was expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "none",
+            "basis": "original"
+          },
           {
             "channel": "Jose Najarro Stocks",
             "tier": 2,
@@ -6673,7 +6805,7 @@
           "counts": {
             "derivative": 0,
             "primary": 1,
-            "original": 14
+            "original": 15
           },
           "derivative_share": 0.0,
           "independent_channels": [
@@ -6748,7 +6880,7 @@
           "basis_counts": {
             "derivative": 0,
             "primary": 1,
-            "original": 14
+            "original": 15
           },
           "freshness_state": "unknown"
         },
@@ -21064,15 +21196,15 @@
       {
         "ticker": "META",
         "company": "Meta Platforms",
-        "mentions": 15,
+        "mentions": 16,
         "channels": [
           "CNBC Television",
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "Schwab Network",
           "Couch Investor",
           "Parkev Tatevosian, CFA",
           "Excess Returns",
-          "Yahoo Finance",
           "Asymmetric Investing",
           "The Compound",
           "manual",
@@ -21081,12 +21213,12 @@
         ],
         "corroborating_channels": [
           "CNBC Television",
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "Schwab Network",
           "Couch Investor",
           "Parkev Tatevosian, CFA",
           "Excess Returns",
-          "Yahoo Finance",
           "Asymmetric Investing",
           "The Compound",
           "manual",
@@ -21096,10 +21228,10 @@
         "speculative_channels": [],
         "bullish": 7,
         "bearish": 3,
-        "neutral": 5,
+        "neutral": 6,
         "evidence_counts": {
           "none": 3,
-          "data": 6,
+          "data": 7,
           "reasoned": 5,
           "speculation": 1
         },
@@ -21119,6 +21251,22 @@
             "timeframe": "",
             "conviction": "low",
             "evidence": "none",
+            "basis": "primary"
+          },
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+            "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+            "timestamp": "0:01",
+            "stance": "neutral",
+            "thesis": "Meta is raising up to $95B via common and preferred stock and an at-the-market program to fund AI spending. Hosts saw it as expected and questioned the return on the spending, which they said has raised investor concerns about overspending and models lagging peers.",
+            "catalyst": "Equity and convertible offering filing",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "medium",
+            "evidence": "data",
             "basis": "primary"
           },
           {
@@ -21351,10 +21499,10 @@
         "basis": {
           "counts": {
             "derivative": 1,
-            "primary": 9,
+            "primary": 10,
             "original": 5
           },
-          "derivative_share": 0.07,
+          "derivative_share": 0.06,
           "independent_channels": [
             "Asymmetric Investing",
             "Bloomberg Television",
@@ -21430,7 +21578,7 @@
           "independent_channels": 11,
           "basis_counts": {
             "derivative": 1,
-            "primary": 9,
+            "primary": 10,
             "original": 5
           },
           "freshness_state": "unknown"
@@ -21438,15 +21586,23 @@
         "catalyst_events": [],
         "verification": {
           "status": "outside_coverage",
-          "checked": 8,
+          "checked": 9,
           "confirmed": 0,
           "counts": {
-            "outside_coverage": 8
+            "outside_coverage": 9
           },
           "detail": [
             {
               "claim": "$95 billion stock offering",
               "channel": "CNBC Television",
+              "event_type": "offering_dilution",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Equity and convertible offering filing",
+              "channel": "Yahoo Finance",
               "event_type": "offering_dilution",
               "status": "outside_coverage",
               "reason": "feeds do not carry this event type",
@@ -21515,8 +21671,9 @@
       {
         "ticker": "NVDA",
         "company": "Nvidia",
-        "mentions": 15,
+        "mentions": 16,
         "channels": [
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "StockedUp",
           "Schwab Network",
@@ -21524,10 +21681,10 @@
           "Couch Investor",
           "Excess Returns",
           "CNBC Television",
-          "Yahoo Finance",
           "Asymmetric Investing"
         ],
         "corroborating_channels": [
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "StockedUp",
           "Schwab Network",
@@ -21535,20 +21692,35 @@
           "Couch Investor",
           "Excess Returns",
           "CNBC Television",
-          "Yahoo Finance",
           "Asymmetric Investing"
         ],
         "speculative_channels": [],
         "bullish": 9,
         "bearish": 3,
-        "neutral": 3,
+        "neutral": 4,
         "evidence_counts": {
+          "none": 6,
           "reasoned": 7,
-          "none": 5,
           "data": 3
         },
         "on_watchlist": false,
         "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+            "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+            "timestamp": "1:01",
+            "stance": "neutral",
+            "thesis": "Mentioned as a supplier of GPUs in SpaceX's $40B lease and as a buyer of part of Meta's stock offering alongside AMD and Broadcom. No independent view was expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "none",
+            "basis": "original"
+          },
           {
             "channel": "Jose Najarro Stocks",
             "tier": 2,
@@ -21796,7 +21968,7 @@
           "counts": {
             "derivative": 0,
             "primary": 1,
-            "original": 14
+            "original": 15
           },
           "derivative_share": 0.0,
           "independent_channels": [
@@ -21871,7 +22043,7 @@
           "basis_counts": {
             "derivative": 0,
             "primary": 1,
-            "original": 14
+            "original": 15
           },
           "freshness_state": "unknown"
         },
@@ -26429,6 +26601,15 @@
         "original_share": 0.59
       },
       {
+        "channel": "Yahoo Finance",
+        "derivative": 0,
+        "primary": 5,
+        "original": 21,
+        "total": 26,
+        "derivative_share": 0.0,
+        "original_share": 0.81
+      },
+      {
         "channel": "Jose Najarro Stocks",
         "derivative": 0,
         "primary": 1,
@@ -26445,15 +26626,6 @@
         "total": 6,
         "derivative_share": 0.0,
         "original_share": 1.0
-      },
-      {
-        "channel": "Yahoo Finance",
-        "derivative": 0,
-        "primary": 4,
-        "original": 20,
-        "total": 24,
-        "derivative_share": 0.0,
-        "original_share": 0.83
       },
       {
         "channel": "Asymmetric Investing",
@@ -26531,15 +26703,15 @@
       {
         "ticker": "META",
         "company": "Meta Platforms",
-        "mentions": 15,
+        "mentions": 16,
         "channels": [
           "CNBC Television",
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "Schwab Network",
           "Couch Investor",
           "Parkev Tatevosian, CFA",
           "Excess Returns",
-          "Yahoo Finance",
           "Asymmetric Investing",
           "The Compound",
           "manual",
@@ -26548,12 +26720,12 @@
         ],
         "corroborating_channels": [
           "CNBC Television",
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "Schwab Network",
           "Couch Investor",
           "Parkev Tatevosian, CFA",
           "Excess Returns",
-          "Yahoo Finance",
           "Asymmetric Investing",
           "The Compound",
           "manual",
@@ -26563,10 +26735,10 @@
         "speculative_channels": [],
         "bullish": 7,
         "bearish": 3,
-        "neutral": 5,
+        "neutral": 6,
         "evidence_counts": {
           "none": 3,
-          "data": 6,
+          "data": 7,
           "reasoned": 5,
           "speculation": 1
         },
@@ -26586,6 +26758,22 @@
             "timeframe": "",
             "conviction": "low",
             "evidence": "none",
+            "basis": "primary"
+          },
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+            "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+            "timestamp": "0:01",
+            "stance": "neutral",
+            "thesis": "Meta is raising up to $95B via common and preferred stock and an at-the-market program to fund AI spending. Hosts saw it as expected and questioned the return on the spending, which they said has raised investor concerns about overspending and models lagging peers.",
+            "catalyst": "Equity and convertible offering filing",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "medium",
+            "evidence": "data",
             "basis": "primary"
           },
           {
@@ -26818,10 +27006,10 @@
         "basis": {
           "counts": {
             "derivative": 1,
-            "primary": 9,
+            "primary": 10,
             "original": 5
           },
-          "derivative_share": 0.07,
+          "derivative_share": 0.06,
           "independent_channels": [
             "Asymmetric Investing",
             "Bloomberg Television",
@@ -26897,7 +27085,7 @@
           "independent_channels": 11,
           "basis_counts": {
             "derivative": 1,
-            "primary": 9,
+            "primary": 10,
             "original": 5
           },
           "freshness_state": "unknown"
@@ -26905,15 +27093,23 @@
         "catalyst_events": [],
         "verification": {
           "status": "outside_coverage",
-          "checked": 8,
+          "checked": 9,
           "confirmed": 0,
           "counts": {
-            "outside_coverage": 8
+            "outside_coverage": 9
           },
           "detail": [
             {
               "claim": "$95 billion stock offering",
               "channel": "CNBC Television",
+              "event_type": "offering_dilution",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            },
+            {
+              "claim": "Equity and convertible offering filing",
+              "channel": "Yahoo Finance",
               "event_type": "offering_dilution",
               "status": "outside_coverage",
               "reason": "feeds do not carry this event type",
@@ -27312,8 +27508,9 @@
       {
         "ticker": "NVDA",
         "company": "Nvidia",
-        "mentions": 15,
+        "mentions": 16,
         "channels": [
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "StockedUp",
           "Schwab Network",
@@ -27321,10 +27518,10 @@
           "Couch Investor",
           "Excess Returns",
           "CNBC Television",
-          "Yahoo Finance",
           "Asymmetric Investing"
         ],
         "corroborating_channels": [
+          "Yahoo Finance",
           "Jose Najarro Stocks",
           "StockedUp",
           "Schwab Network",
@@ -27332,20 +27529,35 @@
           "Couch Investor",
           "Excess Returns",
           "CNBC Television",
-          "Yahoo Finance",
           "Asymmetric Investing"
         ],
         "speculative_channels": [],
         "bullish": 9,
         "bearish": 3,
-        "neutral": 3,
+        "neutral": 4,
         "evidence_counts": {
+          "none": 6,
           "reasoned": 7,
-          "none": 5,
           "data": 3
         },
         "on_watchlist": false,
         "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+            "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+            "timestamp": "1:01",
+            "stance": "neutral",
+            "thesis": "Mentioned as a supplier of GPUs in SpaceX's $40B lease and as a buyer of part of Meta's stock offering alongside AMD and Broadcom. No independent view was expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "none",
+            "basis": "original"
+          },
           {
             "channel": "Jose Najarro Stocks",
             "tier": 2,
@@ -27593,7 +27805,7 @@
           "counts": {
             "derivative": 0,
             "primary": 1,
-            "original": 14
+            "original": 15
           },
           "derivative_share": 0.0,
           "independent_channels": [
@@ -27668,7 +27880,7 @@
           "basis_counts": {
             "derivative": 0,
             "primary": 1,
-            "original": 14
+            "original": 15
           },
           "freshness_state": "unknown"
         },
@@ -48145,21 +48357,42 @@
     "momentum": [
       {
         "ticker": "NVDA",
-        "recent_mentions": 4,
+        "recent_mentions": 5,
         "prior_per_day": 1.83,
-        "lift": 2.17,
+        "lift": 3.17,
         "channels": [
           "Jose Najarro Stocks",
           "Schwab Network",
           "StockedUp",
-          "Ticker Symbol: YOU"
+          "Ticker Symbol: YOU",
+          "Yahoo Finance"
         ],
         "evidence_counts": {
+          "none": 6,
           "reasoned": 7,
-          "none": 5,
           "data": 3
         },
-        "quality": 8.0,
+        "quality": 7.0,
+        "is_new": false
+      },
+      {
+        "ticker": "META",
+        "recent_mentions": 4,
+        "prior_per_day": 2.0,
+        "lift": 2.0,
+        "channels": [
+          "CNBC Television",
+          "Jose Najarro Stocks",
+          "Schwab Network",
+          "Yahoo Finance"
+        ],
+        "evidence_counts": {
+          "none": 3,
+          "data": 7,
+          "reasoned": 5,
+          "speculation": 1
+        },
+        "quality": 15.5,
         "is_new": false
       },
       {
@@ -48212,25 +48445,6 @@
           "reasoned": 1
         },
         "quality": 3.5,
-        "is_new": false
-      },
-      {
-        "ticker": "META",
-        "recent_mentions": 3,
-        "prior_per_day": 2.0,
-        "lift": 1.0,
-        "channels": [
-          "CNBC Television",
-          "Jose Najarro Stocks",
-          "Schwab Network"
-        ],
-        "evidence_counts": {
-          "none": 3,
-          "data": 6,
-          "reasoned": 5,
-          "speculation": 1
-        },
-        "quality": 13.5,
         "is_new": false
       },
       {
@@ -49006,27 +49220,6 @@
     "news_linked": [],
     "sectors": [
       {
-        "sector": "semiconductors",
-        "mentions": 8,
-        "tickers": [
-          "AMD",
-          "KLAC",
-          "LRCX",
-          "MRVL",
-          "NVDA"
-        ],
-        "channels": 4,
-        "bull": 4,
-        "bear": 2,
-        "evidence_counts": {
-          "reasoned": 4,
-          "data": 2,
-          "none": 2
-        },
-        "quality": 6.0,
-        "tilt": "bullish"
-      },
-      {
         "sector": "industrials",
         "mentions": 5,
         "tickers": [
@@ -49044,6 +49237,27 @@
           "data": 3
         },
         "quality": 6.0,
+        "tilt": "bullish"
+      },
+      {
+        "sector": "semiconductors",
+        "mentions": 9,
+        "tickers": [
+          "AMD",
+          "KLAC",
+          "LRCX",
+          "MRVL",
+          "NVDA"
+        ],
+        "channels": 5,
+        "bull": 4,
+        "bear": 2,
+        "evidence_counts": {
+          "none": 3,
+          "reasoned": 4,
+          "data": 2
+        },
+        "quality": 5.0,
         "tilt": "bullish"
       },
       {
@@ -49066,6 +49280,26 @@
         "tilt": "split"
       },
       {
+        "sector": "communication",
+        "mentions": 8,
+        "tickers": [
+          "META",
+          "RBLX",
+          "VZ"
+        ],
+        "channels": 6,
+        "bull": 3,
+        "bear": 1,
+        "evidence_counts": {
+          "none": 3,
+          "data": 3,
+          "reasoned": 1,
+          "speculation": 1
+        },
+        "quality": 3.5,
+        "tilt": "bullish"
+      },
+      {
         "sector": "consumer staples",
         "mentions": 1,
         "tickers": [
@@ -49079,26 +49313,6 @@
         },
         "quality": 2.0,
         "tilt": "bearish"
-      },
-      {
-        "sector": "communication",
-        "mentions": 7,
-        "tickers": [
-          "META",
-          "RBLX",
-          "VZ"
-        ],
-        "channels": 5,
-        "bull": 3,
-        "bear": 1,
-        "evidence_counts": {
-          "none": 3,
-          "data": 2,
-          "reasoned": 1,
-          "speculation": 1
-        },
-        "quality": 1.5,
-        "tilt": "bullish"
       },
       {
         "sector": "technology",
@@ -49277,9 +49491,27 @@
       "180": 0
     },
     "price_feed_healthy": false,
-    "last_run": "2026-10-26T16:33:16.439214+00:00",
+    "last_run": "2026-10-26T16:43:31.359284+00:00",
     "warning": "No signal has a measured price outcome. The price feed is unreachable, so performance cannot be evaluated. This is a broken data source, not an absence of results.",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
+  },
+  "setups": {
+    "hits": [],
+    "errors": [
+      {
+        "ticker": "SPY",
+        "reason": "no price history available"
+      },
+      {
+        "ticker": "QQQ",
+        "reason": "no price history available"
+      }
+    ],
+    "scanned": [
+      "SPY",
+      "QQQ"
+    ],
+    "note": "Paper signals on the underlying. Daily bars only, so no intraday setup is attempted. No option is priced."
   },
   "ranked": [
     "META",
@@ -49651,6 +49883,15 @@
       "original_share": 0.59
     },
     {
+      "channel": "Yahoo Finance",
+      "derivative": 0,
+      "primary": 5,
+      "original": 21,
+      "total": 26,
+      "derivative_share": 0.0,
+      "original_share": 0.81
+    },
+    {
       "channel": "Jose Najarro Stocks",
       "derivative": 0,
       "primary": 1,
@@ -49667,15 +49908,6 @@
       "total": 6,
       "derivative_share": 0.0,
       "original_share": 1.0
-    },
-    {
-      "channel": "Yahoo Finance",
-      "derivative": 0,
-      "primary": 4,
-      "original": 20,
-      "total": 24,
-      "derivative_share": 0.0,
-      "original_share": 0.83
     },
     {
       "channel": "Asymmetric Investing",
@@ -49800,19 +50032,19 @@
     {
       "channel": "Yahoo Finance",
       "current_tier": 1,
-      "videos": 11,
+      "videos": 12,
       "promotional": 2,
-      "red_flags": 57,
-      "claims": 34,
-      "unsupported_claims": 12,
-      "no_disclosure": 8,
-      "avg_hype": 2.36,
-      "promotional_rate": 0.18,
-      "red_flags_per_video": 5.18,
-      "unsupported_rate": 0.35,
+      "red_flags": 64,
+      "claims": 38,
+      "unsupported_claims": 13,
+      "no_disclosure": 9,
+      "avg_hype": 2.33,
+      "promotional_rate": 0.17,
+      "red_flags_per_video": 5.33,
+      "unsupported_rate": 0.34,
       "enough_data": true,
       "reasons": [
-        "5.18 red flags per video"
+        "5.33 red flags per video"
       ],
       "nominated": true
     },

@@ -21,7 +21,7 @@ than looking like "no signals have resolved yet".
 from __future__ import annotations
 
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from . import prices, signal_log, validate
@@ -38,6 +38,26 @@ def _parse(ts: str):
         return datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
     except (ValueError, TypeError):
         return None
+
+
+def _entry_reference(sig: dict) -> datetime | None:
+    """The earliest moment this signal could actually have been entered.
+
+    Creator signals: the generation time. prices.measure() then takes the
+    first close at or after it.
+
+    Technical signals: the day AFTER the signal bar. The pattern is
+    detected from a completed bar, so that bar's own close was already
+    gone by the time it was knowable - entering on it would be
+    look-ahead, and would silently disagree with backtest(), which enters
+    on the next bar. Passing signal_date + 1 makes the live path and the
+    backtest use the same rule.
+    """
+    if sig.get("engine") == signal_log.TECHNICAL_ENGINE and sig.get("signal_date"):
+        d = _parse(sig["signal_date"]) or _parse(sig["signal_date"] + "T00:00:00+00:00")
+        if d:
+            return d + timedelta(days=1)
+    return _parse(sig.get("generated_at"))
 
 
 def _needs_measuring(sig: dict) -> bool:
@@ -76,7 +96,7 @@ def measure_all(data: dict | None = None, limit: int = 400,
 
     for sig in todo:
         tk = (sig.get("ticker") or "").upper()
-        when = _parse(sig.get("generated_at"))
+        when = _entry_reference(sig)
         if not tk or not when:
             continue
 

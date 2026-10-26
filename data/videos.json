@@ -211,6 +211,98 @@
     "skip_reason": "content too short"
   },
   {
+    "video_id": "QK0eEOV8M2Q",
+    "title": "Meta raises $95 billion, SpaceX confirms $40 billion, and Anthropic files | The 8:30",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T14:00:59+00:00",
+    "url": "https://www.youtube.com/watch?v=QK0eEOV8M2Q",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": {
+      "summary": "Morning market show covering Meta's plan to raise up to $95B via stock sales (including $5B committed by Nvidia, AMD, Broadcom), SpaceX confirming a $40B Nvidia-chip finance lease with Apollo backing, and the Anthropic S1 IPO filing that dropped during the show. Hosts were broadly skeptical about ROI on AI capex, rising credit spreads, and enterprise AI payoffs, citing an Apollo chief economist note and a Cloudera survey. The show also covered Brazil's election result and a Marissa Mayer app story, which were not really about specific investments.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Tech has sold off over the past three weeks while consumer staples rose and Treasury yields fell; credit spreads widened as credit markets grow more skeptical of AI-related debt funding.",
+        "Citadel's CIO was cited as calling the credit and spending build-out a reconciliation rather than a crisis.",
+        "Apollo's chief economist wrote that AI has so far produced no financial payoff for corporate America outside tech; revenue per worker is rising in tech and flat elsewhere.",
+        "Hosts noted AI has become a midterm election issue with bipartisan pushback, and that a likely Democratic House could change the policy environment.",
+        "A poll cited by the hosts found a majority of Americans view AI as bad for society and about two-thirds oppose new data center construction.",
+        "Hosts expect the Fed to hold rates; Fed chair commentary on AI productivity and inflation was discussed as a factor in the rate-cut timeline."
+      ],
+      "red_flags": [
+        "Meta's raise is substantial dilution and debt-like cost: a mandatory convertible preferred reportedly carries a 6 to 6.5% dividend.",
+        "Anthropic's S1 showed an $80.7B net loss for the first half of 2026, mostly a non-cash charge tied to convertible instruments, and the company says it may not achieve or sustain profitability.",
+        "SpaceX's $40B lease has not yet priced; Bloomberg reportedly expected around 8% debt cost, and neocloud debt was cited at around 15% trading yields.",
+        "Anthropic's risk factors say it competes for compute with better-capitalized rivals and may fail to stay competitive if it cannot secure compute.",
+        "Hosts raised doubts about 'annualized run rate' style metrics used by private AI companies before they must report under SEC rules.",
+        "The Anthropic S1 includes doomsday/existential risk language that one guest called hype or a liability issue to price in.",
+        "Hosts discussed the Anthropic IPO being priced in a way that could see investor scrutiny; the valuation was reportedly cut from $2T to $1.5T in private talks."
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "company": "Meta Platforms",
+          "stance": "neutral",
+          "thesis": "Meta is raising up to $95B via common and preferred stock and an at-the-market program to fund AI spending. Hosts saw it as expected and questioned the return on the spending, which they said has raised investor concerns about overspending and models lagging peers.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "0:01",
+          "sector": "communication",
+          "timeframe": "",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Equity and convertible offering filing",
+          "price_target": ""
+        },
+        {
+          "ticker": "NVDA",
+          "company": "Nvidia",
+          "stance": "neutral",
+          "thesis": "Mentioned as a supplier of GPUs in SpaceX's $40B lease and as a buyer of part of Meta's stock offering alongside AMD and Broadcom. No independent view was expressed.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "1:01",
+          "sector": "semiconductors",
+          "timeframe": "",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": ""
+        },
+        {
+          "ticker": "",
+          "company": "SpaceX",
+          "stance": "neutral",
+          "thesis": "Confirmed a $40B finance lease for Nvidia chips backed by Apollo. Hosts noted the debt has not priced yet and may cost around 8%, and Musk said neocloud debt markets are largely closed.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "6:13",
+          "sector": "",
+          "timeframe": "",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": ""
+        },
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "neutral",
+          "thesis": "S1 IPO filing dropped during the show. Hosts said it showed first-half revenue of $16.3B, an $80.7B net loss largely from non-cash charges, roughly $3.9B operating cash flow, and about 11,900 customers above $100K, but that it does not answer when returns will arrive. A guest said the IPO may be well-received initially but depends on pricing.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "30:14",
+          "sector": "",
+          "timeframe": "next few months",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Anthropic IPO listing",
+          "price_target": "Private round reportedly valued it near $1.5T after talks from $2T"
+        }
+      ]
+    }
+  },
+  {
     "video_id": "rzIQgRW2_iY",
     "title": "Anthropic Applies for Public Listing, Interest Rate Decision Clashes with Mag 7 Earnings",
     "channel": "Schwab Network",

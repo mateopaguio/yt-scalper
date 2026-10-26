@@ -28,6 +28,7 @@ from scalper import (
     notify,
     rank as ranking,
     render,
+    scanner,
     signal_log,
     signals,
     sites,
@@ -108,6 +109,10 @@ def build_digest(
         # generated this run can be measured from the next one onward.
         "outcomes": (outcomes.measure_all() if record_signals else None),
         "price_health": (outcomes.diagnostics() if record_signals else None),
+        # Daily technical setups on SPY/QQQ, recorded as paper signals
+        # under their own engine so they are never pooled with the
+        # creator-consensus signals.
+        "setups": (scanner.run() if record_signals else None),
         "ranked": [e["ticker"] for e in aggregate.get("ranked", [])],
         "vetoed": [{"ticker": e["ticker"], "reasons": e["score"]["vetoes"]}
                    for e in aggregate.get("vetoed", [])],

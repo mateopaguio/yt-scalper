@@ -106,6 +106,11 @@ def _snapshot(entry: dict, aggregate: dict, run_id: str) -> dict[str, Any]:
         "id": signal_id(entry.get("ticker", "?"), ts),
         "ticker": entry.get("ticker", ""),
         "company": entry.get("company", ""),
+        # Engines are scored separately and never pooled: a technical
+        # setup on SPY and a creator thesis on a small cap are different
+        # claims with different base rates, and one leaderboard over both
+        # would be meaningless.
+        "engine": "creator_consensus",
         "generated_at": ts,
         "run_id": run_id,
         "status": _initial_status(entry),
@@ -259,3 +264,68 @@ def summary(data: dict | None = None) -> dict:
         "note": ("Outcomes require elapsed time. Statistical conclusions need "
                  "a few hundred resolved signals; see scripts/score_performance.py."),
     }
+
+
+TECHNICAL_ENGINE = "technical_daily"
+
+
+def record_pattern_signals(hits: list[dict], run_id: str | None = None,
+                           data: dict | None = None) -> dict:
+    """Record daily technical setups as paper signals.
+
+    Kept in the same log so outcomes accrue through the same path, but
+    under a separate engine so the two are never pooled.
+
+    These are signals on the UNDERLYING. No option is priced, because no
+    chain data is configured and a made-up spread would defeat the point
+    of measuring execution cost.
+    """
+    data = data if data is not None else load()
+    run_id = run_id or _now()
+    sigs = data["signals"]
+
+    # dedup: one signal per ticker+pattern+signal_date, ever
+    seen = {(s.get("ticker"), s.get("pattern"), s.get("signal_date"))
+            for s in sigs if s.get("engine") == TECHNICAL_ENGINE}
+
+    created = []
+    for h in hits:
+        key = (h.get("ticker"), h.get("pattern"), str(h.get("signal_date")))
+        if key in seen:
+            continue
+        ts = _now()
+        snap = {
+            "id": signal_id(f"{h.get('ticker','?')}-{h.get('pattern','?')}", ts),
+            "engine": TECHNICAL_ENGINE,
+            "ticker": h.get("ticker", ""),
+            "pattern": h.get("pattern", ""),
+            "direction": h.get("direction", "long"),
+            "signal_date": str(h.get("signal_date", "")),
+            "generated_at": ts,
+            "run_id": run_id,
+            "status": "SETUP_DETECTED",
+            "history": [{"at": ts, "status": "SETUP_DETECTED",
+                         "reason": "pattern detected on last completed bar"}],
+            "signal_close": h.get("signal_close"),
+            "invalidation": h.get("invalidation"),
+            "evidence": h.get("evidence", {}),
+            # Entry is the NEXT bar's close - the signal bar's close is not
+            # knowable in time to act on it.
+            "entry_rule": "close of the first session after the signal bar",
+            "paper_only": True,
+            "option_priced": False,
+            "option_note": ("no options chain configured - execution cost "
+                            "cannot be measured, only the underlying move"),
+            "times_seen": 1,
+            "last_seen": ts,
+            "entry_price": None,
+            "outcome": None,
+        }
+        sigs.append(snap)
+        seen.add(key)
+        created.append({"ticker": snap["ticker"], "pattern": snap["pattern"],
+                        "date": snap["signal_date"], "id": snap["id"]})
+
+    data["total_signals"] = len(sigs)
+    save(data)
+    return {"created": created, "total": len(sigs)}

@@ -401,6 +401,38 @@ def _trust_html(digest: dict) -> str:
             "hundred; until then this is a record, not evidence.</div>"
         )
 
+    setups = digest.get("setups") or {}
+    if setups.get("hits"):
+        rows = []
+        for h in setups["hits"]:
+            ev = ", ".join(f"{k.replace('_',' ')} {v}"
+                           for k, v in (h.get("evidence") or {}).items())
+            rows.append(
+                f'<div class="card"><div class="row">'
+                f'<b>{_esc(h.get("ticker",""))}</b>'
+                f'<span class="pill good">{_esc(h.get("pattern","").replace("_"," "))}</span>'
+                f'<span class="weak">close {h.get("signal_close")}</span>'
+                f'<span class="weak">invalidation {h.get("invalidation")}</span>'
+                f'</div><div class="weak">{_esc(ev)}</div></div>'
+            )
+        out.append(
+            "<h2>Daily setups (paper)</h2>"
+            '<div class="note">Paper signals on the underlying, recorded and '
+            "scored separately from the creator signals. Daily bars only, so "
+            "no intraday setup is attempted. <b>No option is priced</b> "
+            "&mdash; measuring execution cost needs chain data that is not "
+            "configured, and an invented spread would defeat the point. "
+            "Entry is the close of the session after the signal bar.</div>"
+            + "".join(rows)
+        )
+    elif setups.get("errors"):
+        out.append(
+            '<div class="note"><b>Setup scan unavailable.</b> '
+            + _esc("; ".join(f"{e['ticker']}: {e['reason']}"
+                             for e in setups["errors"]))
+            + "</div>"
+        )
+
     vm = digest.get("verification_meta") or {}
     if vm.get("limitation"):
         out.append(
