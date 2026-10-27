@@ -12,7 +12,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from . import patterns, prices, signal_log
+from . import patterns, prices, schemas, signal_log
 
 UNDERLYINGS = ("SPY", "QQQ")
 
@@ -39,9 +39,13 @@ def scan_underlyings(tickers: tuple[str, ...] = UNDERLYINGS) -> dict[str, Any]:
                                      f"insufficient history ({len(rows)} bars)"})
             continue
 
-        last = rows[-1]
-        missing = [f for f in ("open", "high", "low", "volume")
-                   if last.get(f) is None]
+        # Boundary check. A close-only series makes every detector stand
+        # down, which looked identical to a quiet market.
+        shape = schemas.check_price_bars(rows, need_ohlc=True)
+        if not shape["usable"]:
+            errors.append({"ticker": tk, "reason": shape["reason"]})
+            continue
+        missing = shape["missing_ohlc"]
         for h in patterns.scan(rows):
             hits.append({**h, "ticker": tk})
 

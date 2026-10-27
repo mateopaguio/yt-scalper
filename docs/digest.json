@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:29:44.281340+00:00",
+  "generated_at": "2026-10-27T07:43:27.153536+00:00",
   "video_count": 154,
   "videos": [
     {
@@ -57474,7 +57474,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-27T07:29:44.405017+00:00",
+    "last_run": "2026-10-27T07:43:27.314519+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },

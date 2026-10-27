@@ -322,6 +322,53 @@ def test_sizing_never_recommends():
                 f"for equity={equity}")
 
 
+
+# --------------------------------------------------------------------
+# SCHEMA BOUNDARY CHECKS. Each rule exists because its absence already
+# cost something: close-only bars that silenced the scanner, and the
+# directive's requirement that an unpriceable option is never faked.
+# --------------------------------------------------------------------
+def test_close_only_bars_are_reported_not_silently_useless():
+    from datetime import date
+    from scalper import schemas
+    rows = [{"date": date(2026, 1, i + 1), "close": 100.0} for i in range(5)]
+    r = schemas.check_price_bars(rows, need_ohlc=True)
+    assert not r["usable"]
+    assert "high" in r["reason"] or "low" in r["reason"], r["reason"]
+
+
+def test_full_ohlc_bars_pass():
+    from datetime import date
+    from scalper import schemas
+    rows = [{"date": date(2026, 1, i + 1), "open": 99.0, "high": 101.0,
+             "low": 98.0, "close": 100.0, "volume": 1e6} for i in range(5)]
+    assert schemas.check_price_bars(rows, need_ohlc=True)["usable"]
+
+
+def test_option_quote_without_timestamp_is_unpriceable():
+    from scalper import schemas
+    q = {"symbol": "SPY", "strike": 600, "expiry": "2026-11-21",
+         "kind": "call", "bid": 2.0, "ask": 2.1}      # no as_of
+    r = schemas.check_option_quote(q)
+    assert not r["priceable"], "a quote with no timestamp was treated as priceable"
+
+
+def test_stale_option_quote_is_rejected():
+    from scalper import schemas
+    q = {"symbol": "SPY", "strike": 600, "expiry": "2026-11-21", "kind": "call",
+         "bid": 2.0, "ask": 2.1, "as_of": "2026-10-27T03:00:00+00:00"}
+    r = schemas.check_option_quote(q, max_age_seconds=60,
+                                   now_iso="2026-10-27T04:00:00+00:00")
+    assert r["stale"] and not r["priceable"]
+
+
+def test_validate_never_raises():
+    """A malformed row must degrade one ticker, not kill the run."""
+    from scalper import schemas
+    for junk in ({}, {"date": None}, {"close": "not a number"}, {"x": 1}):
+        schemas.validate(junk, schemas.PRICE_BAR)      # must not raise
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -350,6 +397,13 @@ def main() -> int:
     check("sizing: passes a sane position", test_sizing_passes_a_sane_position)
     check("sizing: max loss is the whole premium", test_max_loss_is_the_whole_premium)
     check("sizing: emits no buy/sell advice", test_sizing_never_recommends)
+    check("schema: close-only bars are reported, not silently useless",
+          test_close_only_bars_are_reported_not_silently_useless)
+    check("schema: full OHLC bars pass", test_full_ohlc_bars_pass)
+    check("schema: option quote with no timestamp is unpriceable",
+          test_option_quote_without_timestamp_is_unpriceable)
+    check("schema: stale option quote is rejected", test_stale_option_quote_is_rejected)
+    check("schema: validate() never raises", test_validate_never_raises)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 
