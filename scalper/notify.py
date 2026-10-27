@@ -95,7 +95,11 @@ def dispatch(cfg: Config, digest: dict, message: str | None = None) -> None:
         print("  - nothing worth sending, staying quiet")
         return
 
-    message = build_sms(digest, cfg.site_url)
+    # Honour a caller-supplied message. This unconditionally overwrote
+    # the parameter, so the signal-specific alert built in
+    # run.notify_if_new -- and the catalyst tag prefixed to it -- were
+    # discarded on every send and replaced with the generic digest.
+    message = message or build_sms(digest, cfg.site_url)
 
     if cfg.sms_enabled():
         send_sms(cfg, message)
