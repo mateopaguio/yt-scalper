@@ -476,6 +476,119 @@ def test_security_master_discards_ambiguous_names():
     assert SM.normalise("Ambiguous Co") in d["rejected"]
 
 
+
+# --------------------------------------------------------------------
+# MILESTONE G. The recurring failure mode in performance work is a
+# number that flatters itself: raw returns in a rising market, a hit
+# rate on three calls, a score that reads as a probability.
+# --------------------------------------------------------------------
+def test_relative_return_is_negative_when_it_lags_the_index():
+    from datetime import datetime, timedelta, timezone
+    from scalper import outcomes
+    d0 = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    spy = [{"date": (d0 + timedelta(days=i)).date(), "close": 100 * (1.0042 ** i)}
+           for i in range(40)]
+    sig = {"ticker": "X", "generated_at": d0.isoformat(),
+           "outcome": {"returns": {"7": {"return_pct": 2.0}}}}
+    outcomes.attach_relative(sig, {"SPY": spy})
+    rel = sig["outcome"]["relative"]["7"]
+    assert rel["vs_spy"] < 0, (
+        f"+2% against a ~+3% index must be negative, got {rel['vs_spy']}")
+
+
+def test_creator_rates_withheld_on_small_samples():
+    """A 100% hit rate on one call is the most misleading number here."""
+    from scalper import creators
+    sigs = [{"ticker": "SOLO", "generated_at": "2026-05-01T00:00:00+00:00",
+             "sources": [{"channel": "Tiny", "basis": "original",
+                          "published": "2026-05-01T00:00:00+00:00"}],
+             "outcome": {"relative": {"7": {"vs_spy": 9.9}}}}]
+    board = creators.scoreboard(sigs)
+    tiny = [c for c in board["creators"] if c["channel"] == "Tiny"][0]
+    assert tiny["hit_rate_vs_spy"] is None, "a 1-call hit rate was published"
+    assert tiny["withheld_reason"]
+
+
+def test_creator_rates_appear_once_there_is_enough_data():
+    from scalper import creators
+    sigs = [{"ticker": f"T{i}", "generated_at": "2026-05-01T00:00:00+00:00",
+             "sources": [{"channel": "Big", "basis": "original",
+                          "published": "2026-05-01T00:00:00+00:00"}],
+             "outcome": {"relative": {"7": {"vs_spy": 1.0 if i % 2 else -1.0}}}}
+            for i in range(creators.MIN_RESOLVED + 2)]
+    board = creators.scoreboard(sigs)
+    big = [c for c in board["creators"] if c["channel"] == "Big"][0]
+    assert big["hit_rate_vs_spy"] is not None
+    assert big["sufficient_data"]
+
+
+def test_byrde_score_is_never_called_a_probability():
+    from scalper import rank
+    e = {"score": {"total": 5.0, "max_possible": 7.5,
+                   "components": {}, "unavailable_components": {}}}
+    r = rank.byrde_score(e)
+    assert 0 <= r["score"] <= 100
+    blob = (r["caveat"] + r["note"]).lower()
+    # The disclaimer must be present...
+    assert "not a probability" in blob, "no probability disclaimer"
+    # ...and nothing may assert the opposite. Banning the bare phrase
+    # "probability of profit" fails on the disclaimer itself, which is
+    # the same mistake the sizing test made: test the claim, not the
+    # substring.
+    import re as _re
+    affirms = _re.search(
+        r"(?<!not )(?<!never )(?:is|represents|indicates) (?:a |the )?"
+        r"(?:probability|chance|likelihood) of (?:profit|a win)", blob)
+    assert not affirms, f"score presented as a probability: {affirms.group(0)!r}"
+    # and no field should be NAMED like one
+    for k in (r.get("parts") or {}):
+        assert "prob" not in k.lower() and "odds" not in k.lower()
+
+
+def test_byrde_score_omits_reliability_when_unmeasured():
+    from scalper import rank
+    e = {"score": {"total": 5.0, "max_possible": 7.5,
+                   "components": {}, "unavailable_components": {}}}
+    assert rank.byrde_score(e)["parts"]["reliability"] is None
+    assert rank.byrde_score(e, 0.8)["parts"]["reliability"] == 80.0
+
+
+def test_funnel_explains_every_rejection():
+    from scalper import funnel
+    agg = {"tickers": [
+        {"ticker": "A", "basis": {"independent_channels": [],
+                                  "reprint_channels": ["CNBC"]},
+         "score": {"vetoed": False}, "catalyst_events": []},
+        {"ticker": "B", "basis": {"independent_channels": ["x", "y"]},
+         "score": {"vetoed": True, "vetoes": ["retrospective"]},
+         "catalyst_events": []},
+    ], "rejected_tickers": [{"ticker": "WAYMO", "reason": "not publicly traded",
+                             "company": "Waymo"}]}
+    f = funnel.build(agg)
+    for stage, drops in f["drops"].items():
+        for d in drops:
+            assert d.get("reason"), f"a {stage} rejection had no reason"
+    assert f["counts"]["mentioned"] == 3
+    assert any(d["ticker"] == "WAYMO" for d in f["drops"]["valid_symbol"])
+
+
+def test_critical_alert_carries_thesis_and_invalidation():
+    from scalper import alerts
+    agg = {"tickers": [{
+        "ticker": "PFE", "score": {"total": 5.2, "vetoed": False},
+        "basis": {"independent_channels": ["a", "b"]},
+        "catalyst_events": [{"materiality": 4, "title": "FDA approval"}],
+        "freshness": {"state": "forward_catalyst"},
+        "items": [{"basis": "original", "stance": "bullish", "evidence": "data",
+                   "channel": "a", "thesis": "label expansion", "price_target": "$34"}],
+    }]}
+    msgs = alerts.render(alerts.classify(agg), "https://x.test")
+    body = msgs[alerts.CRITICAL]["body"]
+    for need in ("why:", "catalyst:", "evidence:", "invalidation:"):
+        assert need in body, f"critical alert missing {need!r}"
+    assert "/ticker/PFE.html" in body, "no deep link to the opportunity card"
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -523,6 +636,20 @@ def main() -> int:
     check("master: never fuzzy-matches", test_security_master_never_fuzzy_matches)
     check("master: discards ambiguous names",
           test_security_master_discards_ambiguous_names)
+    check("G1: relative return is negative when it lags the index",
+          test_relative_return_is_negative_when_it_lags_the_index)
+    check("G4: creator rates withheld on small samples",
+          test_creator_rates_withheld_on_small_samples)
+    check("G4: creator rates appear once data suffices",
+          test_creator_rates_appear_once_there_is_enough_data)
+    check("G2: Byrde Score is never called a probability",
+          test_byrde_score_is_never_called_a_probability)
+    check("G2: Byrde Score omits unmeasured reliability",
+          test_byrde_score_omits_reliability_when_unmeasured)
+    check("G5: funnel explains every rejection",
+          test_funnel_explains_every_rejection)
+    check("G7: critical alert carries thesis and invalidation",
+          test_critical_alert_carries_thesis_and_invalidation)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 

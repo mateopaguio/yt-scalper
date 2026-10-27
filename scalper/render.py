@@ -30,6 +30,8 @@ EVIDENCE_LABEL = {
 }
 
 CSS = """
+h3.sub2{font-size:13px;color:var(--ink);margin:20px 0 9px;
+  font-weight:650}
 h2.sec{font-size:12px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--accent);border-bottom:1px solid var(--line);
   padding-bottom:7px;margin:26px 0 13px}
@@ -676,6 +678,88 @@ def _setups_html(digest: dict) -> str:
     return "".join(out)
 
 
+def _funnel_html(digest: dict) -> str:
+    """Where ideas died, with the reason attached to each loss."""
+    f = digest.get("funnel") or {}
+    counts = f.get("counts") or {}
+    if not counts:
+        return ""
+    top = max(counts.values()) or 1
+    label = {"mentioned": "Mentioned", "valid_symbol": "Valid symbol",
+             "researched": "Own research", "corroborated": "Independently corroborated",
+             "catalyst_backed": "Filed catalyst", "qualified": "Passed vetoes",
+             "alerted": "Alerted"}
+    bars = []
+    for st in f.get("stages", []):
+        n = counts.get(st, 0)
+        pct = max(1, int(100 * n / top))
+        drops = (f.get("drops") or {}).get(st) or []
+        reasons = ""
+        if drops:
+            seen, uniq = set(), []
+            for d in drops:
+                r = d.get("reason", "")
+                if r not in seen:
+                    seen.add(r)
+                    uniq.append(f"{len([x for x in drops if x.get('reason') == r])} &times; {_esc(r)}")
+            reasons = ('<div class="weak" style="margin-top:3px;font-size:12px">'
+                       + " &middot; ".join(uniq[:3]) + "</div>")
+        bars.append(
+            f'<div class="card" style="padding:10px 13px">'
+            f'<div class="row" style="padding:0">'
+            f'<b style="min-width:9ch">{n}</b>'
+            f'<span>{_esc(label.get(st, st))}</span></div>'
+            f'<div style="height:5px;border-radius:3px;background:#1b2330;'
+            f'margin-top:7px"><div style="height:5px;border-radius:3px;'
+            f'width:{pct}%;background:var(--accent)"></div></div>'
+            f'{reasons}</div>')
+    return ('<h3 class="sub2">Opportunity funnel</h3>'
+            '<div class="note">Every loss carries a reason. A funnel '
+            'without them is just a shrinking number.</div>'
+            + "".join(bars))
+
+
+def _creators_html(digest: dict) -> str:
+    """Creator scoreboard, entirely benchmark-relative."""
+    c = digest.get("creators") or {}
+    rows = c.get("creators") or []
+    if not rows:
+        return ""
+    ready = [r for r in rows if r.get("sufficient_data")]
+    out = [f'<h3 class="sub2">Creator intelligence</h3>'
+           f'<div class="note">{_esc(c.get("note", ""))}</div>']
+    if not ready:
+        out.append(f'<div class="empty">{_esc(c.get("status", ""))}<br>'
+                   "Timeliness and reprint share are shown where known; "
+                   "hit rate and edge need resolved outcomes.</div>")
+    body = []
+    for r in rows[:14]:
+        if r.get("sufficient_data"):
+            edge = r.get("edge_mean_pct")
+            cls = "good" if (edge or 0) > 0 else "bad"
+            metrics = (f'<span class="pill {cls}">{r["hit_rate_vs_spy"]}% beat SPY</span>'
+                       f'<span class="weak">edge {edge:+.2f}%</span>'
+                       f'<span class="weak">n={r["resolved"]}</span>')
+        else:
+            metrics = (f'<span class="weak">{_esc(r.get("withheld_reason", ""))}</span>')
+        extra = []
+        if r.get("timeliness_days") is not None:
+            d = r["timeliness_days"]
+            extra.append(f"{'early' if d > 0 else 'late'} by {abs(d):.1f}d")
+        if r.get("reprint_share") is not None:
+            extra.append(f"{int(r['reprint_share'] * 100)}% reprints")
+        if r.get("uniqueness") is not None:
+            extra.append(f"{int(r['uniqueness'] * 100)}% unique names")
+        body.append(
+            f'<div class="card"><div class="row"><b>{_esc(r["channel"])}</b>'
+            f'{metrics}</div>'
+            + (f'<div class="weak" style="padding:0 14px 11px">'
+               f'{_esc(" &middot; ".join(extra))}</div>' if extra else "")
+            + "</div>")
+    out.append("".join(body))
+    return "".join(out)
+
+
 def _perf_html(digest: dict) -> str:
     """Performance Lab: what has actually been measured, and what has not."""
     health = digest.get("price_health") or {}
@@ -806,7 +890,9 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
     intel_sec = _section("intel", "Intelligence",
                          trust_html + radar_html + ticker_html + video_html)
     radar_sec = _section("radar", "Catalyst Radar", calendar_html + catalyst_html)
-    perf_sec = _section("perf", "Performance Lab", _perf_html(digest))
+    perf_sec = _section("perf", "Performance Lab",
+                        _funnel_html(digest) + _creators_html(digest)
+                        + _perf_html(digest))
 
     page = f"""<!doctype html>
 <html lang="en"><head>

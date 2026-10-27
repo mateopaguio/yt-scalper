@@ -69,6 +69,45 @@ def _recent(sent: dict, key: str, hours: int, now: datetime) -> bool:
     return now - when < timedelta(hours=hours)
 
 
+def _card(entry: dict, events: list[dict]) -> dict:
+    """The facts a critical alert must carry.
+
+    A push saying only "NVDA is up" is useless at the moment it arrives:
+    the reader cannot tell what the claim is, what supports it, or what
+    would make it wrong. Thesis, evidence, catalyst and invalidation
+    travel WITH the alert so it can be judged without opening anything.
+    """
+    items = entry.get("items") or []
+    own = [i for i in items if i.get("basis") in ("primary", "original")]
+    rank = {"data": 3, "reasoned": 2, "speculation": 1}
+    best = max(own, key=lambda i: rank.get(i.get("evidence"), 0), default=None)
+
+    bulls = [i for i in own if (i.get("stance") or "").lower() == "bullish"]
+    bears = [i for i in own if (i.get("stance") or "").lower() == "bearish"]
+
+    inval = ""
+    for i in own:
+        if i.get("price_target"):
+            inval = f"thesis rests on {i['price_target']}"
+            break
+    if not inval and bears:
+        inval = f"counter-case: {(bears[0].get('thesis') or '')[:110]}"
+    if not inval:
+        inval = "no explicit invalidation stated on the source material"
+
+    return {
+        "thesis": (best.get("thesis") if best else "")[:220],
+        "evidence_grade": (best.get("evidence") if best else "none"),
+        "catalyst": (events[0].get("title", "")[:140] if events else
+                     (best.get("catalyst") if best else "")),
+        "sources": sorted({i.get("channel", "") for i in own if i.get("channel")}),
+        "disagreement": (f"{len(bulls)} bull / {len(bears)} bear among "
+                         f"independent sources" if bears and bulls else ""),
+        "invalidation": inval,
+        "freshness": (entry.get("freshness") or {}).get("state", ""),
+    }
+
+
 def classify(aggregate: dict, config: dict | None = None) -> list[dict]:
     """Build candidate alerts from the digest. Does not send anything."""
     out: list[dict] = []
@@ -101,6 +140,7 @@ def classify(aggregate: dict, config: dict | None = None) -> list[dict]:
                 "detail": (events[0].get("title", "")[:140] if events else ""),
                 "score": round(total, 2),
                 "key": key_for("crit", tk, f"{indep}|{top_mat}"),
+                "card": _card(e, events),
             })
             continue
 
@@ -159,11 +199,29 @@ def render(alerts: list[dict], site_url: str = "") -> dict[str, Any]:
         lines = []
         for a in rows:
             lines.append(a["headline"])
-            if a.get("detail"):
+            c = a.get("card")
+            if tier == CRITICAL and c:
+                # A critical alert must be judgeable without opening a page.
+                if c.get("thesis"):
+                    lines.append(f"  why: {c['thesis']}")
+                if c.get("catalyst"):
+                    lines.append(f"  catalyst: {c['catalyst']}")
+                lines.append(f"  evidence: {c.get('evidence_grade', 'none')}"
+                             + (f" | {c['freshness'].replace('_', ' ')}"
+                                if c.get("freshness") else ""))
+                if c.get("sources"):
+                    lines.append(f"  sources: {', '.join(c['sources'][:4])}")
+                if c.get("disagreement"):
+                    lines.append(f"  disagreement: {c['disagreement']}")
+                lines.append(f"  invalidation: {c['invalidation']}")
+            elif a.get("detail"):
                 lines.append(f"  {a['detail']}")
         body = "\n".join(lines)
         if site_url:
-            body += f"\n{site_url}"
+            if tier == CRITICAL and len(rows) == 1:
+                body += f"\n{site_url.rstrip('/')}/ticker/{rows[0]['ticker']}.html"
+            else:
+                body += f"\n{site_url}"
         out[tier] = {
             "title": {CRITICAL: "Confirmed setup",
                       WATCHLIST: "Worth a look",

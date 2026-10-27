@@ -154,3 +154,50 @@ def rank(aggregate: dict) -> dict:
                    "has been validated against realised outcomes yet."),
     }
     return aggregate
+
+
+# --- Byrde Score -------------------------------------------------------
+# A 0-100 presentation of the same components, because a raw sum is hard
+# to read at a glance. It is NOT a probability of profit and must never
+# be shown as one: no component has been validated against outcomes, and
+# a number that looks like a percentage invites being read as one.
+BYRDE_FLOOR = 0.0
+
+
+def byrde_score(entry: dict, reliability: float | None = None) -> dict:
+    """Scale the component total to 0-100 and name what is missing.
+
+    `reliability` is the measured, benchmark-relative hit rate of the
+    sources behind this name, in [0,1], or None when too few of their
+    calls have resolved. It is folded in ONLY when present - inventing a
+    prior would make the score look informed when it is not.
+    """
+    sc = entry.get("score") or {}
+    total = sc.get("total")
+    max_possible = sc.get("max_possible") or 0
+    if total is None or max_possible <= 0:
+        return {"score": None, "reason": "not scored"}
+
+    base = max(0.0, min(1.0, total / max_possible))
+    parts = {"components": round(base * 100, 1)}
+
+    if reliability is None:
+        score = base * 100
+        parts["reliability"] = None
+        note = ("no reliability input: too few of these sources' calls have "
+                "resolved against a benchmark")
+    else:
+        r = max(0.0, min(1.0, reliability))
+        score = (base * 0.75 + r * 0.25) * 100
+        parts["reliability"] = round(r * 100, 1)
+        note = "includes measured source reliability vs SPY"
+
+    return {
+        "score": round(score, 1),
+        "parts": parts,
+        "unvalidated": dict(UNAVAILABLE),
+        "note": note,
+        "caveat": ("Research priority on a 0-100 scale. NOT a probability "
+                   "of profit, and not a forecast - no component has been "
+                   "validated against realised outcomes."),
+    }

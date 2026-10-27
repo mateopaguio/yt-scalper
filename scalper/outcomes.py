@@ -158,10 +158,119 @@ def measure_all(data: dict | None = None, limit: int = 400,
     if stats.get("circuit_open"):
         stats["note"] = (f"stopped after {give_up_after} consecutive fetch "
                          "failures - price feed appears to be down")
+    # Benchmarks once per run, then relative returns on everything
+    # measured. Raw forward returns on a drifting market flatter every
+    # strategy; the relative figure is the one downstream code reads.
+    if stats["measured"]:
+        bench: dict[str, list] = {}
+        wanted = set(BENCHMARKS)
+        for e in {(s.get("sector") or "").strip().lower() for s in sigs}:
+            if e in SECTOR_ETF:
+                wanted.add(SECTOR_ETF[e])
+        for b in sorted(wanted):
+            rows = history.get(b) or prices.fetch_history(b)
+            if rows:
+                bench[b] = rows
+        if bench:
+            for sig in sigs:
+                if (sig.get("outcome") or {}).get("returns"):
+                    attach_relative(sig, bench, sig.get("sector", ""))
+            stats["benchmarked"] = sum(
+                1 for s in sigs if (s.get("outcome") or {}).get("relative"))
+            stats["benchmarks_used"] = sorted(bench)
+        else:
+            stats["benchmarked"] = 0
+            stats["benchmark_error"] = (
+                "benchmark prices unavailable - relative performance cannot "
+                "be computed, and raw returns must not be read as skill")
+
     data["outcomes_last_run"] = now.isoformat()
     signal_log.save(data)
     stats["pending"] = sum(1 for s in sigs if _needs_measuring(s))
     return stats
+
+
+
+# Sector proxies, used only when a ticker's sector is actually known.
+SECTOR_ETF = {
+    "technology": "XLK", "tech": "XLK", "semiconductors": "SMH",
+    "healthcare": "XLV", "health care": "XLV", "biotech": "XBI",
+    "financials": "XLF", "finance": "XLF", "energy": "XLE",
+    "industrials": "XLI", "consumer discretionary": "XLY",
+    "consumer staples": "XLP", "utilities": "XLU", "materials": "XLB",
+    "real estate": "XLRE", "communication services": "XLC",
+}
+BENCHMARKS = ("SPY", "QQQ")
+
+
+def _benchmark_return(rows: list[dict], when, horizon_key: str,
+                      entry_idx_cache: dict) -> float | None:
+    """Benchmark return over the SAME window, from the SAME entry rule."""
+    found = prices._first_close_on_or_after(rows, when.astimezone(timezone.utc).date())
+    if not found:
+        return None
+    i, entry = found
+    try:
+        h = int(horizon_key)
+    except (TypeError, ValueError):
+        return None
+    j = i + h
+    if j >= len(rows) or entry["close"] <= 0:
+        return None
+    return (rows[j]["close"] / entry["close"] - 1) * 100
+
+
+def attach_relative(sig: dict, bench_rows: dict[str, list[dict]],
+                    sector: str = "") -> None:
+    """Add benchmark-relative returns to a measured signal, in place.
+
+    THE REASON THIS EXISTS
+    A signal that returned +2% while SPY returned +3% LOST money in the
+    only sense that matters - you could have held the index and done
+    better with less work. Raw forward returns on a drifting market make
+    every strategy look good, which is exactly the error the pattern
+    backtest caught when win rate was compared against buy-and-hold.
+    Every performance number downstream - creator accuracy, strategy
+    expectancy, the Byrde Score's reliability input - is read from the
+    RELATIVE figure, never the raw one.
+    """
+    out = sig.get("outcome") or {}
+    returns = out.get("returns") or {}
+    if not returns:
+        return
+    when = _parse(sig.get("generated_at"))
+    if not when:
+        return
+
+    rel: dict[str, Any] = {}
+    for hk, r in returns.items():
+        if not r or r.get("return_pct") is None:
+            rel[hk] = None
+            continue
+        row = {"raw_pct": r["return_pct"]}
+        for b in BENCHMARKS:
+            rows = bench_rows.get(b)
+            if not rows:
+                continue
+            br = _benchmark_return(rows, when, hk, {})
+            if br is not None:
+                row[f"{b.lower()}_pct"] = round(br, 3)
+                row[f"vs_{b.lower()}"] = round(r["return_pct"] - br, 3)
+        etf = SECTOR_ETF.get((sector or "").strip().lower())
+        if etf and bench_rows.get(etf):
+            sr = _benchmark_return(bench_rows[etf], when, hk, {})
+            if sr is not None:
+                row["sector_etf"] = etf
+                row["sector_pct"] = round(sr, 3)
+                row["vs_sector"] = round(r["return_pct"] - sr, 3)
+        rel[hk] = row
+
+    out["relative"] = rel
+    out["benchmark_note"] = (
+        "vs_spy / vs_qqq are the return MINUS the benchmark over the same "
+        "window from the same entry rule. A positive raw return with a "
+        "negative vs_spy underperformed the index.")
+    sig["outcome"] = out
 
 
 def resolved(data: dict | None = None, horizon: str = "7") -> list[dict]:

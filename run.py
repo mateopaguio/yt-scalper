@@ -21,9 +21,11 @@ from scalper import (
     analyze,
     briefs,
     catalysts as cat,
+    creators,
     config as cfgmod,
     feeds,
     freshness,
+    funnel,
     narratives,
     outcomes,
     notify,
@@ -77,6 +79,19 @@ def build_digest(
     freshness.annotate(aggregate, videos)
     ranking.rank(aggregate)
 
+    # Byrde Score: the same components on 0-100, folded with measured
+    # source reliability ONLY where enough calls have resolved. Never a
+    # probability of profit.
+    board = creators.scoreboard(signal_log.load().get("signals", []))
+    rel_by_channel = {c["channel"]: (c["hit_rate_vs_spy"] / 100.0)
+                      for c in board["creators"]
+                      if c.get("hit_rate_vs_spy") is not None}
+    for entry in aggregate["tickers"]:
+        chans = (entry.get("basis") or {}).get("independent_channels") or []
+        rels = [rel_by_channel[c] for c in chans if c in rel_by_channel]
+        entry["byrde"] = ranking.byrde_score(
+            entry, sum(rels) / len(rels) if rels else None)
+
     ledger = track.build_ledger(videos)
 
     # Join catalysts onto the tickers creators are discussing. A name that
@@ -126,6 +141,12 @@ def build_digest(
         "channel_originality": aggregate.get("channel_originality", []),
         "freshness_meta": aggregate.get("freshness_meta", {}),
         "rank_meta": aggregate.get("rank_meta", {}),
+        # Where ideas died and why. A funnel without reasons is just a
+        # shrinking number.
+        "funnel": funnel.build(aggregate),
+        # Creator performance, every figure relative to SPY. Rates are
+        # withheld below 10 resolved calls rather than shown with a caveat.
+        "creators": creators.scoreboard(signal_log.load().get("signals", [])),
         "verification_meta": aggregate.get("verification_meta", {}),
         "tier4_candidates": [
             c for c in track.tier4_candidates(videos) if c["nominated"]
