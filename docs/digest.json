@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:09:10.015341+00:00",
+  "generated_at": "2026-10-27T07:29:44.281340+00:00",
   "video_count": 154,
   "videos": [
     {
@@ -57446,19 +57446,24 @@
     "total": 134
   },
   "outcomes": {
-    "measured": 47,
+    "measured": 0,
     "skipped": 0,
-    "fetch_failed": 0,
-    "no_entry_day": 4,
-    "tickers_fetched": 40,
-    "tickers_failed": [],
-    "deferred": 80,
+    "fetch_failed": 3,
+    "no_entry_day": 0,
+    "tickers_fetched": 0,
+    "tickers_failed": [
+      "META",
+      "NVDA",
+      "TSLA"
+    ],
+    "circuit_open": true,
+    "note": "stopped after 3 consecutive fetch failures - price feed appears to be down",
     "pending": 131
   },
   "price_health": {
     "total_signals": 134,
-    "measured": 47,
-    "fetch_failed": 4,
+    "measured": 44,
+    "fetch_failed": 7,
     "skipped_non_equity": 3,
     "never_attempted": 80,
     "resolved_by_horizon": {
@@ -57469,43 +57474,27 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-27T07:09:10.040959+00:00",
+    "last_run": "2026-10-27T07:29:44.405017+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
   "setups": {
     "hits": [],
-    "errors": [],
+    "errors": [
+      {
+        "ticker": "SPY",
+        "reason": "no price history available"
+      },
+      {
+        "ticker": "QQQ",
+        "reason": "no price history available"
+      }
+    ],
     "scanned": [
       "SPY",
       "QQQ"
     ],
-    "diagnostics": [
-      {
-        "ticker": "SPY",
-        "bars": 1254,
-        "range": "2021-10-27 .. 2026-10-26",
-        "missing_fields": [],
-        "usable": true,
-        "last_fired": {
-          "pullback_in_uptrend": "2026-10-21",
-          "range_breakout": "2026-08-04"
-        },
-        "feed": null
-      },
-      {
-        "ticker": "QQQ",
-        "bars": 1254,
-        "range": "2021-10-27 .. 2026-10-26",
-        "missing_fields": [],
-        "usable": true,
-        "last_fired": {
-          "pullback_in_uptrend": "2026-07-14",
-          "range_breakout": "2026-09-22"
-        },
-        "feed": null
-      }
-    ],
+    "diagnostics": [],
     "note": "Paper signals on the underlying. Daily bars only, so no intraday setup is attempted. No option is priced."
   },
   "ranked": [

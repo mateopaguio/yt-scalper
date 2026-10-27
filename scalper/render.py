@@ -30,6 +30,39 @@ EVIDENCE_LABEL = {
 }
 
 CSS = """
+/* --- terminal layout: decisions first, bulk collapsed --- */
+nav.jump{position:sticky;top:0;z-index:20;background:rgba(13,17,23,.94);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+  margin:0 -16px 14px;padding:9px 16px;display:flex;gap:14px;
+  overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+nav.jump::-webkit-scrollbar{display:none}
+nav.jump a{color:var(--muted);text-decoration:none;font-size:12.5px;
+  font-weight:600;white-space:nowrap;letter-spacing:.02em}
+nav.jump a:hover{color:var(--ink)}
+.lead{background:linear-gradient(180deg,#151b24,#11161d);
+  border:1px solid #243041;border-radius:12px;padding:14px;margin-bottom:14px}
+.lead h3{margin:0 0 3px;font-size:15px;letter-spacing:.01em}
+.lead .why{color:var(--muted);font-size:13px;line-height:1.45}
+.rank{display:inline-flex;align-items:center;justify-content:center;
+  width:21px;height:21px;border-radius:6px;background:#1d2733;
+  color:var(--muted);font-size:11.5px;font-weight:700;margin-right:8px}
+details.fold{border:1px solid var(--line);border-radius:10px;
+  margin-bottom:10px;background:var(--panel);overflow:hidden}
+details.fold>summary{cursor:pointer;padding:12px 14px;font-weight:650;
+  font-size:14px;list-style:none;display:flex;justify-content:space-between;
+  align-items:center;gap:10px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary::after{content:"+";color:var(--muted);font-weight:400;
+  font-size:17px;line-height:1}
+details.fold[open]>summary::after{content:"\2212"}
+details.fold>summary:hover{background:#151a21}
+details.fold .inner{padding:0 10px 10px}
+.count{color:var(--dim);font-weight:400;font-size:12.5px}
+@media (max-width:480px){
+  .lead{padding:12px}
+  nav.jump{gap:11px}
+}
+
 *,*::before,*::after{box-sizing:border-box}
 :root{
   --bg:#0d1117; --panel:#161b22; --panel-2:#1c232c; --line:#2a313c;
@@ -375,16 +408,81 @@ def _score_bar(entry: dict) -> str:
     return " ".join(parts)
 
 
+
+def _fold(title: str, body: str, count: str = "", open_by_default: bool = False) -> str:
+    """Collapse bulk detail. The page had 13 flat sections and 372 cards -
+    everything equally loud, which on a phone is an endless scroll. The
+    spec asks the home screen to lead with opportunities, so detail
+    stays available but folded rather than deleted."""
+    if not body:
+        return ""
+    o = " open" if open_by_default else ""
+    c = f'<span class="count">{_esc(count)}</span>' if count else ""
+    return (f'<details class="fold"{o}><summary>{_esc(title)}{c}</summary>'
+            f'<div class="inner">{body}</div></details>')
+
+
+def _lead_html(digest: dict) -> str:
+    """The decision surface: the few names worth a human's attention
+    first, each with the one line that says why."""
+    agg = digest.get("aggregate") or {}
+    ranked = (agg.get("ranked") or [])[:5]
+    if not ranked:
+        return ""
+
+    out = []
+    for n, e in enumerate(ranked, 1):
+        sc = e.get("score") or {}
+        basis = e.get("basis") or {}
+        fresh = {
+            "unknown": "age unknown", "single_sighting": "seen once",
+            "forward_catalyst": "catalyst ahead", "late_to_story": "after the move",
+            "running": "running days", "developing": "building",
+        }.get((e.get("freshness") or {}).get("state", ""),
+              (e.get("freshness") or {}).get("state", ""))
+        comps = sc.get("components") or {}
+        top = sorted((c for c in comps.items() if c[1]["contribution"]),
+                     key=lambda kv: -kv[1]["contribution"])[:2]
+        why = ", ".join(k.replace("_", " ") for k, _ in top)
+
+        indep = len(basis.get("independent_channels") or [])
+        bits = [f"{indep} channel{'s' if indep != 1 else ''} did own work"]
+        if fresh:
+            bits.append(fresh.replace("_", " "))
+        if e.get("catalyst_events"):
+            bits.append(f"{len(e['catalyst_events'])} filed event(s)")
+
+        out.append(
+            f'<div class="lead"><h3><span class="rank">{n}</span>'
+            f'{_esc(e["ticker"])}'
+            f'<span class="weak" style="font-weight:400;font-size:13px">'
+            f'  {sc.get("total", 0):+.2f}</span></h3>'
+            f'<div class="why">{" &middot; ".join(_esc(b) for b in bits)}</div>'
+            f'<div class="why" style="margin-top:4px">strongest: {_esc(why)}</div>'
+            f'</div>'
+        )
+    return ('<h2>Worth your attention</h2>'
+            '<div class="note">Research priority, not trade signals. '
+            'Ranked on independent sourcing, evidence grade, freshness and '
+            'catalyst presence. Price and liquidity are not in the score '
+            '&mdash; no market-data feed is wired into it.</div>'
+            + "".join(out))
+
+
 def _trust_html(digest: dict) -> str:
     """The parts that say how much the corroboration is worth."""
     agg = digest.get("aggregate") or {}
     out = []
+    # System-health notes are important but they are not decisions. Three
+    # stacked warnings above the first ticker pushed the actual content
+    # off the first screen, so they fold into one line.
+    status: list[str] = []
 
     # A dead price feed must look like a dead price feed, not like
     # "no results yet". Those are different facts and only one is fixable.
     health = digest.get("price_health") or {}
     if health and not health.get("price_feed_healthy") and health.get("total_signals"):
-        out.append(
+        status.append(
             '<div class="note"><b>Price feed unreachable.</b> '
             f'{health.get("fetch_failed", 0)} of {health["total_signals"]} '
             "recorded signals could not be priced, so none have a measured "
@@ -394,7 +492,7 @@ def _trust_html(digest: dict) -> str:
         )
     elif health.get("resolved_by_horizon"):
         by = health["resolved_by_horizon"]
-        out.append(
+        status.append(
             '<div class="note">Signals recorded: '
             f'{health.get("total_signals", 0)}. With a measured 7-day '
             f'return: {by.get("7", 0)}. Statistical conclusions need a few '
@@ -426,7 +524,7 @@ def _trust_html(digest: dict) -> str:
             + "".join(rows)
         )
     elif setups.get("errors"):
-        out.append(
+        status.append(
             '<div class="note"><b>Setup scan unavailable.</b> '
             + _esc("; ".join(f"{e['ticker']}: {e['reason']}"
                              for e in setups["errors"]))
@@ -435,13 +533,13 @@ def _trust_html(digest: dict) -> str:
 
     vm = digest.get("verification_meta") or {}
     if vm.get("limitation"):
-        out.append(
+        status.append(
             '<div class="note"><b>Catalyst verification unavailable.</b> '
             + _esc(vm["limitation"]) + "</div>"
         )
     elif vm.get("by_status"):
         bs = vm["by_status"]
-        out.append(
+        status.append(
             '<div class="note">Catalyst claims checked against filings: '
             f'{bs.get("confirmed", 0)} confirmed, '
             f'{bs.get("unconfirmed", 0)} not found, '
@@ -453,7 +551,7 @@ def _trust_html(digest: dict) -> str:
     ranked = agg.get("ranked") or []
     if ranked:
         rows = []
-        for e in ranked[:10]:
+        for e in ranked[5:15]:          # first five are already in the lead
             sc = e.get("score") or {}
             # "unknown" alone reads as a failure; it means the story may
             # predate all our data, so we decline to claim it is new.
@@ -475,14 +573,9 @@ def _trust_html(digest: dict) -> str:
                 f'<span class="weak">{_esc(fresh.replace("_", " "))}</span>'
                 f'</div><div class="row">{_score_bar(e)}</div></div>'
             )
-        out.append(
-            "<h2>Research priority</h2>"
-            '<div class="note">Order to look at these in, not a trade signal. '
-            "Price, volume, liquidity and options data are not wired in, so "
-            "they are excluded from the score rather than assumed neutral. "
-            "No component has been validated against outcomes yet.</div>"
-            + "".join(rows)
-        )
+        if rows:
+            out.append(_fold("Next in the research order",
+                             "".join(rows), f"{len(ranked)} ranked total"))
 
     echo = agg.get("echo_chamber") or []
     if echo:
@@ -540,14 +633,18 @@ def _trust_html(digest: dict) -> str:
                 f'<span class="weak">{a["total"]} claims</span></div>'
             )
         out.append(
-            "<h2>How much each channel reprints</h2>"
+            _fold("How much each channel reprints",
             '<div class="note">Share of claims that restate someone '
             "else&rsquo;s reporting. A news desk doing this is doing its job "
             "&mdash; it matters only because reprints must not count as "
             "independent confirmation.</div>"
-            '<div class="card">' + "".join(rows) + "</div>"
+            '<div class="card">' + "".join(rows) + "</div>",
+            f"{len(orig)} channels")
         )
 
+    if status:
+        out.append(_fold("System status", "".join(status),
+                         f"{len(status)} note(s)"))
     return "".join(out)
 
 
@@ -582,19 +679,18 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
     )
 
     if tickers:
+        rest = [t for t in tickers if t["ticker"] not in {m["ticker"] for m in multi}]
         ticker_html = (
             (
-                f"<h2>Mentioned by more than one channel</h2>"
+                f"<h2>Corroborated by independent work</h2>"
                 + "".join(_ticker_card(t) for t in multi)
                 if multi
                 else ""
             )
-            + "<h2>All tickers</h2>"
-            + "".join(
-                _ticker_card(t)
-                for t in tickers
-                if t["ticker"] not in {m["ticker"] for m in multi}
-            )
+            # 100+ cards is reference material, not a decision surface
+            + _fold("Every ticker mentioned",
+                    "".join(_ticker_card(t) for t in rest),
+                    f"{len(rest)}")
         )
     else:
         ticker_html = (
@@ -604,11 +700,23 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
 
     signals_html = _signals_html(digest.get("signals") or {})
     trust_html = _trust_html(digest)
+    lead_html = _lead_html(digest)
+
+    # Decisions first, reference material last. Anchors let a phone jump
+    # rather than scroll 400KB.
+    nav = (
+        '<nav class="jump">'
+        '<a href="#top">Top</a>'
+        '<a href="#radar">Catalysts</a>'
+        '<a href="#signals">Moving</a>'
+        '<a href="#quiet">Under the radar</a>'
+        '<a href="#all">All tickers</a>'
+        '</nav>'
+    )
     catalyst_events = digest.get("catalysts") or []
     cat_cards = [c for c in (_catalyst_card(e) for e in catalyst_events) if c]
-    catalyst_html = (
-        "<h2>Catalysts filed</h2>" + "".join(cat_cards) if cat_cards else ""
-    )
+    catalyst_html = _fold("Catalysts filed", "".join(cat_cards),
+                          f"{len(cat_cards)}") if cat_cards else ""
 
     calendar = digest.get("calendar") or []
     calendar_html = (
@@ -617,11 +725,11 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
         if calendar else ""
     )
 
-    video_html = (
-        "<h2>Video breakdowns</h2>" + "".join(_video_card(v) for v in videos)
-        if videos
-        else ""
-    )
+    video_html = _fold(
+        "Video breakdowns",
+        "".join(_video_card(v) for v in videos),
+        f"{len(videos)}",
+    ) if videos else ""
 
     page = f"""<!doctype html>
 <html lang="en"><head>
@@ -642,12 +750,19 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
     <div class="stat"><b>{len(cat_cards)}</b><span>catalysts</span></div>
   </div>
 </header>
+{nav}
 {note}
+<div id="top"></div>
+{lead_html}
 {trust_html}
-{signals_html}
+<div id="radar"></div>
 {calendar_html}
 {catalyst_html}
+<div id="signals"></div>
+{signals_html}
+<div id="quiet"></div>
 {radar_html}
+<div id="all"></div>
 {ticker_html}
 {video_html}
 <footer>
