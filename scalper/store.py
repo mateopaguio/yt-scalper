@@ -140,8 +140,15 @@ def due_pending(max_attempts: int = 12, give_up_hours: int = 30) -> tuple[list[d
         too_old = False
         try:
             too_old = datetime.fromisoformat(clock) < cutoff
-        except ValueError:
-            too_old = True
+        except (ValueError, TypeError):
+            # An unreadable or missing timestamp means UNKNOWN age, not old
+            # age. Expiring on a parse failure silently destroys a video we
+            # have simply lost the clock for - the same shape as the bug
+            # that dropped 20 good videos during the throttling incident.
+            # Keep it; attempts >= max_attempts still retires it eventually.
+            too_old = False
+            print(f"  ! unreadable retry timestamp for "
+                  f"{item.get('video_id', '?')} ({clock!r}) - keeping it")
 
         if item.get("attempts", 0) >= max_attempts or too_old:
             expired.append(item)

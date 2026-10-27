@@ -250,3 +250,19 @@ def backtest(rows: list[dict], horizons: tuple[int, ...] = (1, 5, 10, 20),
         "are obviously not working, not as evidence that one is."
     )
     return results
+
+
+def scan_history(rows: list[dict], ticker: str = "") -> list[dict]:
+    """Every signal across the whole series, for simulation.
+
+    Each carries its own invalidation level, so the simulator has a
+    real stop rather than an invented one. Uses only bars <= i, same as
+    live scanning.
+    """
+    out = []
+    for i in range(len(rows) - 1):
+        for fn in DETECTORS:
+            hit = fn(rows, i)
+            if hit:
+                out.append({**hit, "ticker": ticker})
+    return out

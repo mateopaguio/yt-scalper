@@ -148,6 +148,129 @@ def test_dispatch_still_falls_back_when_no_message():
     assert isinstance(sent["message"], str) and sent["message"].strip()
 
 
+
+# --------------------------------------------------------------------
+# BUG 3 (found 2026-10-27): store.due_pending() treated an unreadable
+# retry timestamp as "too old" and expired the item, destroying videos
+# whose clock was merely missing. Same shape as the throttling incident
+# that dropped 20 good videos.
+# --------------------------------------------------------------------
+def test_unreadable_timestamp_does_not_expire():
+    from scalper import store
+
+    original = store.load_pending
+    store.load_pending = lambda: [
+        {"video_id": "missing-clock", "attempts": 0},            # no timestamps
+        {"video_id": "empty-clock", "attempts": 0, "first_seen": ""},
+        {"video_id": "garbage-clock", "attempts": 0, "first_seen": "not-a-date"},
+    ]
+    try:
+        retry, expired = store.due_pending()
+    finally:
+        store.load_pending = original
+
+    dropped = {i["video_id"] for i in expired}
+    assert not dropped, f"unreadable timestamps were expired and lost: {dropped}"
+    assert len(retry) == 3, f"expected all 3 kept for retry, got {len(retry)}"
+
+
+def test_attempt_cap_still_retires():
+    """The fix must not make items immortal."""
+    from scalper import store
+
+    original = store.load_pending
+    store.load_pending = lambda: [
+        {"video_id": "exhausted", "attempts": 99, "first_seen": "not-a-date"},
+    ]
+    try:
+        retry, expired = store.due_pending()
+    finally:
+        store.load_pending = original
+
+    assert len(expired) == 1, "attempts cap no longer retires anything"
+
+
+
+# --------------------------------------------------------------------
+# PAPER SIM INVARIANTS. Not bugs that happened - properties that must
+# never break, because a simulator that flatters itself is worse than
+# none. The gap case especially: filling a gap at the stop price is the
+# most common way a paper result beats the real thing.
+# --------------------------------------------------------------------
+def _paper_bars():
+    from datetime import date, timedelta
+    d0 = date(2026, 1, 1)
+    def mk(specs):
+        return [{"date": d0 + timedelta(days=i), "open": o, "high": h,
+                 "low": l, "close": c, "volume": 1e6}
+                for i, (o, h, l, c) in enumerate(specs)]
+    return mk
+
+
+def test_gap_through_stop_fills_at_open_not_stop():
+    from scalper import paper
+    mk = _paper_bars()
+    rows = mk([(100,100,100,100), (100,100,100,100), (88,90,86,89)])
+    sig = [{"signal_date": rows[0]["date"], "invalidation": 95,
+            "ticker": "T", "pattern": "p"}]
+    res = paper.simulate(rows, sig, paper.Rules(), paper.Costs())
+    t = res["trade_log"][0]
+    assert t["exit_price"] == 88, (
+        f"gap filled at {t['exit_price']} - must be the open (88), not the stop")
+    assert t["r_multiple"] < -1.0, "a gap through the stop must lose MORE than 1R"
+
+
+def test_costs_charged_on_both_sides():
+    from scalper import paper
+    mk = _paper_bars()
+    rows = mk([(100,100,100,100), (100,100,100,100), (100,101,94,96)])
+    sig = [{"signal_date": rows[0]["date"], "invalidation": 95,
+            "ticker": "T", "pattern": "p"}]
+    priced = paper.simulate(rows, sig, paper.Rules(),
+                            paper.Costs(0.0, 0.01, 0.01))
+    free = paper.simulate(rows, sig, paper.Rules(), paper.Costs(0, 0, 0))
+    assert priced["costs_paid"] > 0, "no costs were charged"
+    shares = free["trade_log"][0]["shares"]
+    assert abs(priced["costs_paid"] - shares * 0.02 * 2) < 1e-6, (
+        "costs must be charged on entry AND exit")
+    assert priced["net_pnl"] < free["net_pnl"], "costs did not reduce P&L"
+
+
+def test_entry_is_the_bar_after_the_signal():
+    from scalper import paper
+    mk = _paper_bars()
+    rows = mk([(100,100,100,100), (100,100,100,100), (100,112,99,111)])
+    sig = [{"signal_date": rows[0]["date"], "invalidation": 95,
+            "ticker": "T", "pattern": "p"}]
+    t = paper.simulate(rows, sig, paper.Rules(), paper.Costs())["trade_log"][0]
+    assert str(t["entry_date"]) > str(t["signal_date"]), "entered on the signal bar"
+
+
+def test_open_position_is_not_counted_as_a_win():
+    from scalper import paper
+    mk = _paper_bars()
+    rows = mk([(100,100,100,100), (100,100,100,100), (100,102,99,101)])
+    sig = [{"signal_date": rows[0]["date"], "invalidation": 95,
+            "ticker": "T", "pattern": "p"}]
+    res = paper.simulate(rows, sig, paper.Rules(), paper.Costs())
+    assert res["still_open"] == 1
+    assert res["closed"] == 0
+    assert res["win_rate"] is None, "an unresolved trade was scored"
+
+
+def test_position_sizing_respects_risk():
+    from scalper import paper
+    mk = _paper_bars()
+    rows = mk([(100,100,100,100), (100,100,100,100), (100,101,94,96)])
+    sig = [{"signal_date": rows[0]["date"], "invalidation": 95,
+            "ticker": "T", "pattern": "p"}]
+    rules = paper.Rules(starting_equity=10_000, risk_per_trade=0.01)
+    t = paper.simulate(rows, sig, rules, paper.Costs(0, 0, 0))["trade_log"][0]
+    # $100 at risk over a $5 stop distance = 20 shares
+    assert t["shares"] == 20, f"sized {t['shares']}, expected 20"
+    assert abs(t["net_pnl"] + 100) < 1e-6, "a stop-out should cost exactly the risk"
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -157,6 +280,20 @@ def main() -> int:
           test_dispatch_preserves_custom_message)
     check("bug2: dispatch still falls back to build_sms",
           test_dispatch_still_falls_back_when_no_message)
+    check("bug3: unreadable timestamp is not treated as expired",
+          test_unreadable_timestamp_does_not_expire)
+    check("bug3: attempt cap still retires exhausted items",
+          test_attempt_cap_still_retires)
+    check("paper: gap through stop fills at the open, not the stop",
+          test_gap_through_stop_fills_at_open_not_stop)
+    check("paper: costs charged on entry and exit",
+          test_costs_charged_on_both_sides)
+    check("paper: entry is the bar after the signal",
+          test_entry_is_the_bar_after_the_signal)
+    check("paper: open position is not scored as a win",
+          test_open_position_is_not_counted_as_a_win)
+    check("paper: position sizing respects the risk budget",
+          test_position_sizing_respects_risk)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 

@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-27T06:42:33.264015+00:00",
- "outcomes_last_run": "2026-10-27T06:42:33.369029+00:00",
+ "last_run": "2026-10-27T07:09:10.020868+00:00",
+ "outcomes_last_run": "2026-10-27T07:09:10.040959+00:00",
  "signals": [
   {
    "basis_counts": {
@@ -75,9 +75,17 @@
    ],
    "last_seen": "2026-10-26T15:14:54.805934+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-27T06:42:33.369029+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
+    "entry_close": 630.56,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Couch Investor"
@@ -352,11 +360,19 @@
     "Ticker Symbol: YOU",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264112+00:00",
+   "last_seen": "2026-10-27T07:09:10.020966+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-27T06:42:33.369029+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
+    "entry_close": 216.0,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -566,7 +582,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "NVDA",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -640,11 +656,19 @@
     "Yahoo Finance",
     "manual"
    ],
-   "last_seen": "2026-10-27T06:42:33.264119+00:00",
+   "last_seen": "2026-10-27T07:09:10.020972+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-27T06:42:33.369029+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
+    "entry_close": 391.62,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -815,7 +839,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "TSLA",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -887,9 +911,9 @@
     "Jose Najarro Stocks",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264126+00:00",
+   "last_seen": "2026-10-27T07:09:10.020978+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 55.19,
     "entry_date": "2026-10-26",
     "returns": {
@@ -979,7 +1003,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CRWV",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1050,9 +1074,9 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264144+00:00",
+   "last_seen": "2026-10-27T07:09:10.020992+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 343.91,
     "entry_date": "2026-10-26",
     "returns": {
@@ -1207,7 +1231,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "AAPL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1278,9 +1302,9 @@
     "Schwab Network",
     "manual"
    ],
-   "last_seen": "2026-10-27T06:42:33.264151+00:00",
+   "last_seen": "2026-10-27T07:09:10.020996+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 237.5,
     "entry_date": "2026-10-26",
     "returns": {
@@ -1357,7 +1381,7 @@
    },
    "status": "PASS",
    "ticker": "LRCX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1430,9 +1454,9 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264156+00:00",
+   "last_seen": "2026-10-27T07:09:10.021001+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 63.9,
     "entry_date": "2026-10-26",
     "returns": {
@@ -1509,7 +1533,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "NFLX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1587,7 +1611,7 @@
    ],
    "last_seen": "2026-10-27T01:15:05.688902+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 532.6,
     "entry_date": "2026-10-26",
     "returns": {
@@ -1734,9 +1758,9 @@
     "The Compound",
     "manual"
    ],
-   "last_seen": "2026-10-27T06:42:33.264172+00:00",
+   "last_seen": "2026-10-27T07:09:10.021014+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 253.44,
     "entry_date": "2026-10-26",
     "returns": {
@@ -1800,7 +1824,7 @@
    },
    "status": "RESEARCH",
    "ticker": "IBM",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1877,7 +1901,7 @@
    ],
    "last_seen": "2026-10-26T15:14:54.806012+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2011,9 +2035,9 @@
     "Couch Investor",
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T06:42:33.264184+00:00",
+   "last_seen": "2026-10-27T07:09:10.021022+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 531.28,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2077,7 +2101,7 @@
    },
    "status": "PASS",
    "ticker": "AMD",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2149,9 +2173,9 @@
     "Couch Investor",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264189+00:00",
+   "last_seen": "2026-10-27T07:09:10.021026+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 316.8,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2215,7 +2239,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "GOOGL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2283,9 +2307,9 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264195+00:00",
+   "last_seen": "2026-10-27T07:09:10.021031+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 20.85,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2365,7 +2389,7 @@
    },
    "status": "PASS",
    "ticker": "T",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2435,9 +2459,9 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264199+00:00",
+   "last_seen": "2026-10-27T07:09:10.021034+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 146.93,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2517,7 +2541,7 @@
    },
    "status": "PASS",
    "ticker": "TMUS",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2588,9 +2612,9 @@
     "Benzinga",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264210+00:00",
+   "last_seen": "2026-10-27T07:09:10.021042+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 356.13,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2667,7 +2691,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "WDC",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2736,9 +2760,9 @@
     "CNBC Television",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264215+00:00",
+   "last_seen": "2026-10-27T07:09:10.021047+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 315.05,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2802,7 +2826,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AXP",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2871,9 +2895,9 @@
     "Benzinga",
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264220+00:00",
+   "last_seen": "2026-10-27T07:09:10.021050+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 203.92,
     "entry_date": "2026-10-26",
     "returns": {
@@ -2924,7 +2948,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BE",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2992,9 +3016,9 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T06:42:33.264230+00:00",
+   "last_seen": "2026-10-27T07:09:10.021058+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 66.13,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3047,7 +3071,7 @@
    },
    "status": "PASS",
    "ticker": "UBER",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3118,9 +3142,9 @@
     "Bloomberg Television",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264236+00:00",
+   "last_seen": "2026-10-27T07:09:10.021062+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 15.25,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3171,7 +3195,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NCLH",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3240,9 +3264,9 @@
     "Couch Investor",
     "The Compound"
    ],
-   "last_seen": "2026-10-27T06:42:33.264250+00:00",
+   "last_seen": "2026-10-27T07:09:10.021073+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 92.84,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3293,7 +3317,7 @@
    },
    "status": "RESEARCH",
    "ticker": "HOOD",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3369,7 +3393,7 @@
    ],
    "last_seen": "2026-10-26T22:26:42.878901+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3495,7 +3519,7 @@
    ],
    "last_seen": "2026-10-27T01:15:05.689041+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 232.01,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3620,9 +3644,9 @@
     "Asymmetric Investing",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264256+00:00",
+   "last_seen": "2026-10-27T07:09:10.021076+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 126.06,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3673,7 +3697,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ORCL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3748,7 +3772,7 @@
    ],
    "last_seen": "2026-10-26T15:14:54.806040+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
     "returns": {
@@ -3879,7 +3903,7 @@
    ],
    "last_seen": "2026-10-27T01:15:05.689001+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 184.54,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4005,7 +4029,7 @@
    ],
    "last_seen": "2026-10-26T22:26:42.878988+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4124,9 +4148,9 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264270+00:00",
+   "last_seen": "2026-10-27T07:09:10.021087+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 644.21,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4177,7 +4201,7 @@
    },
    "status": "RESEARCH",
    "ticker": "STX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4245,9 +4269,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264294+00:00",
+   "last_seen": "2026-10-27T07:09:10.021106+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 102.69,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4285,7 +4309,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SBUX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4353,9 +4377,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264299+00:00",
+   "last_seen": "2026-10-27T07:09:10.021110+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 1279.14,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4393,7 +4417,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LLY",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4461,9 +4485,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264303+00:00",
+   "last_seen": "2026-10-27T07:09:10.021113+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 92.7,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4501,7 +4525,7 @@
    },
    "status": "RESEARCH",
    "ticker": "KO",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4569,9 +4593,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264307+00:00",
+   "last_seen": "2026-10-27T07:09:10.021116+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 149.21,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4609,7 +4633,7 @@
    },
    "status": "RESEARCH",
    "ticker": "KLAC",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4677,9 +4701,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264312+00:00",
+   "last_seen": "2026-10-27T07:09:10.021120+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 692.13,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4717,7 +4741,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CAT",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4785,9 +4809,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264316+00:00",
+   "last_seen": "2026-10-27T07:09:10.021123+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 404.16,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4825,7 +4849,7 @@
    },
    "status": "RESEARCH",
    "ticker": "V",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4893,9 +4917,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264320+00:00",
+   "last_seen": "2026-10-27T07:09:10.021126+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 450.65,
     "entry_date": "2026-10-26",
     "returns": {
@@ -4933,7 +4957,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SPGI",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5001,9 +5025,9 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264324+00:00",
+   "last_seen": "2026-10-27T07:09:10.021129+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 301.12,
     "entry_date": "2026-10-26",
     "returns": {
@@ -5041,7 +5065,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ADP",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5116,7 +5140,7 @@
    ],
    "last_seen": "2026-10-26T18:45:21.900436+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
     "returns": {
@@ -5222,9 +5246,9 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T06:42:33.264328+00:00",
+   "last_seen": "2026-10-27T07:09:10.021133+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 330.0,
     "entry_date": "2026-10-26",
     "returns": {
@@ -5262,7 +5286,7 @@
    },
    "status": "RESEARCH",
    "ticker": "COR",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5330,9 +5354,9 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T06:42:33.264332+00:00",
+   "last_seen": "2026-10-27T07:09:10.021136+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 55.63,
     "entry_date": "2026-10-26",
     "returns": {
@@ -5370,7 +5394,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CGNX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5438,9 +5462,9 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T06:42:33.264335+00:00",
+   "last_seen": "2026-10-27T07:09:10.021139+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 8.64,
     "entry_date": "2026-10-26",
     "returns": {
@@ -5478,7 +5502,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NOK",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5546,9 +5570,9 @@
    "independent_channels": [
     "Parkev Tatevosian, CFA"
    ],
-   "last_seen": "2026-10-27T06:42:33.264339+00:00",
+   "last_seen": "2026-10-27T07:09:10.021143+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 8.24,
     "entry_date": "2026-10-26",
     "returns": {
@@ -5586,7 +5610,7 @@
    },
    "status": "PASS",
    "ticker": "CHPT",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5656,7 +5680,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264344+00:00",
+   "last_seen": "2026-10-27T07:09:10.021146+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5684,7 +5708,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SOFI",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5752,7 +5776,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264348+00:00",
+   "last_seen": "2026-10-27T07:09:10.021149+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5780,7 +5804,7 @@
    },
    "status": "RESEARCH",
    "ticker": "RDDT",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5848,7 +5872,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264353+00:00",
+   "last_seen": "2026-10-27T07:09:10.021153+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5876,7 +5900,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NOW",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5944,7 +5968,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264356+00:00",
+   "last_seen": "2026-10-27T07:09:10.021156+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5972,7 +5996,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SNDK",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6040,7 +6064,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264361+00:00",
+   "last_seen": "2026-10-27T07:09:10.021159+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -6072,7 +6096,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ETH",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6140,7 +6164,7 @@
    "independent_channels": [
     "Excess Returns"
    ],
-   "last_seen": "2026-10-27T06:42:33.264365+00:00",
+   "last_seen": "2026-10-27T07:09:10.021163+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6168,7 +6192,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SMH",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6236,7 +6260,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264370+00:00",
+   "last_seen": "2026-10-27T07:09:10.021167+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6264,7 +6288,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QS",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6433,7 +6457,7 @@
    "independent_channels": [
     "FAST Graphs"
    ],
-   "last_seen": "2026-10-27T06:42:33.264375+00:00",
+   "last_seen": "2026-10-27T07:09:10.021170+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6461,7 +6485,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CPAY",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6633,7 +6657,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264379+00:00",
+   "last_seen": "2026-10-27T07:09:10.021174+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6661,7 +6685,7 @@
    },
    "status": "RESEARCH",
    "ticker": "DECK",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6729,7 +6753,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-10-27T06:42:33.264384+00:00",
+   "last_seen": "2026-10-27T07:09:10.021178+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6757,7 +6781,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NEM",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6825,7 +6849,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-10-27T06:42:33.264388+00:00",
+   "last_seen": "2026-10-27T07:09:10.021182+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6853,7 +6877,7 @@
    },
    "status": "RESEARCH",
    "ticker": "OMC",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6921,7 +6945,7 @@
    "independent_channels": [
     "manual"
    ],
-   "last_seen": "2026-10-27T06:42:33.264392+00:00",
+   "last_seen": "2026-10-27T07:09:10.021186+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6949,7 +6973,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TXN",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7017,7 +7041,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264396+00:00",
+   "last_seen": "2026-10-27T07:09:10.021190+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7045,7 +7069,7 @@
    },
    "status": "RESEARCH",
    "ticker": "UAL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7212,7 +7236,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264400+00:00",
+   "last_seen": "2026-10-27T07:09:10.021194+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7240,7 +7264,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SMCI",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7308,7 +7332,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T06:42:33.264421+00:00",
+   "last_seen": "2026-10-27T07:09:10.021215+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7336,7 +7360,7 @@
    },
    "status": "PASS",
    "ticker": "CLF",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7406,7 +7430,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264425+00:00",
+   "last_seen": "2026-10-27T07:09:10.021219+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -7438,7 +7462,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BTC",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7506,7 +7530,7 @@
    "independent_channels": [
     "CNBC"
    ],
-   "last_seen": "2026-10-27T06:42:33.264429+00:00",
+   "last_seen": "2026-10-27T07:09:10.021223+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7534,7 +7558,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GE",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7602,7 +7626,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264433+00:00",
+   "last_seen": "2026-10-27T07:09:10.021227+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7630,7 +7654,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PG",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7698,7 +7722,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264437+00:00",
+   "last_seen": "2026-10-27T07:09:10.021231+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7726,7 +7750,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ENPH",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7794,7 +7818,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264441+00:00",
+   "last_seen": "2026-10-27T07:09:10.021235+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7822,7 +7846,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PSKY",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7890,7 +7914,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264445+00:00",
+   "last_seen": "2026-10-27T07:09:10.021239+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7918,7 +7942,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SKHY",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7986,7 +8010,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264449+00:00",
+   "last_seen": "2026-10-27T07:09:10.021242+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8014,7 +8038,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CIEN",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8082,7 +8106,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264453+00:00",
+   "last_seen": "2026-10-27T07:09:10.021246+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8110,7 +8134,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PWR",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8178,7 +8202,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264456+00:00",
+   "last_seen": "2026-10-27T07:09:10.021249+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8206,7 +8230,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NDAQ",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8274,7 +8298,7 @@
    "independent_channels": [
     "Asymmetric Investing"
    ],
-   "last_seen": "2026-10-27T06:42:33.264461+00:00",
+   "last_seen": "2026-10-27T07:09:10.021253+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8302,7 +8326,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MU",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8370,7 +8394,7 @@
    "independent_channels": [
     "Asymmetric Investing"
    ],
-   "last_seen": "2026-10-27T06:42:33.264466+00:00",
+   "last_seen": "2026-10-27T07:09:10.021257+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8398,7 +8422,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TSM",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8466,7 +8490,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264469+00:00",
+   "last_seen": "2026-10-27T07:09:10.021260+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8494,7 +8518,7 @@
    },
    "status": "RESEARCH",
    "ticker": "VST",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8658,7 +8682,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-27T06:42:33.264473+00:00",
+   "last_seen": "2026-10-27T07:09:10.021264+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8686,7 +8710,7 @@
    },
    "status": "PASS",
    "ticker": "CRM",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8756,7 +8780,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-27T06:42:33.264477+00:00",
+   "last_seen": "2026-10-27T07:09:10.021267+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8784,7 +8808,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ADI",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8852,7 +8876,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-27T06:42:33.264480+00:00",
+   "last_seen": "2026-10-27T07:09:10.021270+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8880,7 +8904,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QLYS",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8948,7 +8972,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T06:42:33.264488+00:00",
+   "last_seen": "2026-10-27T07:09:10.021277+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8976,7 +9000,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LNG",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9044,7 +9068,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T06:42:33.264492+00:00",
+   "last_seen": "2026-10-27T07:09:10.021281+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9072,7 +9096,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AMPL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9241,7 +9265,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264495+00:00",
+   "last_seen": "2026-10-27T07:09:10.021285+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9269,7 +9293,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MELI",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9337,7 +9361,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264500+00:00",
+   "last_seen": "2026-10-27T07:09:10.021289+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9365,7 +9389,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AVGO",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9433,7 +9457,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264503+00:00",
+   "last_seen": "2026-10-27T07:09:10.021292+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9461,7 +9485,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PYPL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9529,7 +9553,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264508+00:00",
+   "last_seen": "2026-10-27T07:09:10.021296+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9557,7 +9581,7 @@
    },
    "status": "RESEARCH",
    "ticker": "INTC",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9625,7 +9649,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264512+00:00",
+   "last_seen": "2026-10-27T07:09:10.021299+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9653,7 +9677,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MSTR",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9721,7 +9745,7 @@
    "independent_channels": [
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264550+00:00",
+   "last_seen": "2026-10-27T07:09:10.021335+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9749,7 +9773,7 @@
    },
    "status": "PASS",
    "ticker": "APLD",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9819,7 +9843,7 @@
    "independent_channels": [
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-27T06:42:33.264555+00:00",
+   "last_seen": "2026-10-27T07:09:10.021338+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9847,7 +9871,7 @@
    },
    "status": "PASS",
    "ticker": "IREN",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9917,7 +9941,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T06:42:33.264559+00:00",
+   "last_seen": "2026-10-27T07:09:10.021342+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9945,7 +9969,7 @@
    },
    "status": "PASS",
    "ticker": "RDW",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10015,7 +10039,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T06:42:33.264562+00:00",
+   "last_seen": "2026-10-27T07:09:10.021345+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10043,7 +10067,7 @@
    },
    "status": "PASS",
    "ticker": "HIMS",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10113,7 +10137,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T06:42:33.264567+00:00",
+   "last_seen": "2026-10-27T07:09:10.021348+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10141,7 +10165,7 @@
    },
    "status": "PASS",
    "ticker": "RBLX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10211,7 +10235,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T06:42:33.264570+00:00",
+   "last_seen": "2026-10-27T07:09:10.021352+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10239,7 +10263,7 @@
    },
    "status": "PASS",
    "ticker": "PLTR",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10310,7 +10334,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T06:42:33.264573+00:00",
+   "last_seen": "2026-10-27T07:09:10.021355+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10338,7 +10362,7 @@
    },
    "status": "PASS",
    "ticker": "RDBX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10408,7 +10432,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264577+00:00",
+   "last_seen": "2026-10-27T07:09:10.021359+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10436,7 +10460,7 @@
    },
    "status": "PASS",
    "ticker": "MRVL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10506,7 +10530,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264581+00:00",
+   "last_seen": "2026-10-27T07:09:10.021362+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -10538,7 +10562,7 @@
    },
    "status": "PASS",
    "ticker": "HYPE",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10608,7 +10632,7 @@
    "independent_channels": [
     "CNBC"
    ],
-   "last_seen": "2026-10-27T06:42:33.264584+00:00",
+   "last_seen": "2026-10-27T07:09:10.021365+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10636,7 +10660,7 @@
    },
    "status": "PASS",
    "ticker": "RTX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10706,7 +10730,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264588+00:00",
+   "last_seen": "2026-10-27T07:09:10.021370+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10734,7 +10758,7 @@
    },
    "status": "PASS",
    "ticker": "EQIX",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10804,7 +10828,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264592+00:00",
+   "last_seen": "2026-10-27T07:09:10.021374+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10832,7 +10856,7 @@
    },
    "status": "PASS",
    "ticker": "HAL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10902,7 +10926,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264596+00:00",
+   "last_seen": "2026-10-27T07:09:10.021377+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10930,7 +10954,7 @@
    },
    "status": "PASS",
    "ticker": "SLB",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11000,7 +11024,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264599+00:00",
+   "last_seen": "2026-10-27T07:09:10.021380+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11028,7 +11052,7 @@
    },
    "status": "PASS",
    "ticker": "GM",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11099,7 +11123,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264602+00:00",
+   "last_seen": "2026-10-27T07:09:10.021384+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11127,7 +11151,7 @@
    },
    "status": "PASS",
    "ticker": "PANW",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11197,7 +11221,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264606+00:00",
+   "last_seen": "2026-10-27T07:09:10.021388+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11225,7 +11249,7 @@
    },
    "status": "PASS",
    "ticker": "XLE",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11295,7 +11319,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264610+00:00",
+   "last_seen": "2026-10-27T07:09:10.021392+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11323,7 +11347,7 @@
    },
    "status": "PASS",
    "ticker": "VLO",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11391,7 +11415,7 @@
    ],
    "id": "CCI-7b2012f68fb0",
    "independent_channels": [],
-   "last_seen": "2026-10-27T06:42:33.264613+00:00",
+   "last_seen": "2026-10-27T07:09:10.021396+00:00",
    "outcome": null,
    "reprint_channels": [
     "Benzinga"
@@ -11421,7 +11445,7 @@
    },
    "status": "PASS",
    "ticker": "CCI",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11492,7 +11516,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264617+00:00",
+   "last_seen": "2026-10-27T07:09:10.021399+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11520,7 +11544,7 @@
    },
    "status": "PASS",
    "ticker": "ELIS",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11600,9 +11624,9 @@
     "Yahoo Finance",
     "manual"
    ],
-   "last_seen": "2026-10-27T06:42:33.264102+00:00",
+   "last_seen": "2026-10-27T07:09:10.020959+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 630.56,
     "entry_date": "2026-10-26",
     "returns": {
@@ -11825,7 +11849,7 @@
    "status": "WATCHLIST",
    "supersedes": "META-22f5bbab6c2e",
    "ticker": "META",
-   "times_seen": 19,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11903,7 +11927,7 @@
    ],
    "last_seen": "2026-10-26T18:45:21.900378+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
     "returns": {
@@ -12051,9 +12075,9 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264178+00:00",
+   "last_seen": "2026-10-27T07:09:10.021018+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
     "returns": {
@@ -12133,7 +12157,7 @@
    "status": "WATCHLIST",
    "supersedes": "VZ-726724e0f7e0",
    "ticker": "VZ",
-   "times_seen": 19,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12199,7 +12223,7 @@
    ],
    "id": "JBLU-26b6be8215f5",
    "independent_channels": [],
-   "last_seen": "2026-10-27T06:42:33.264484+00:00",
+   "last_seen": "2026-10-27T07:09:10.021273+00:00",
    "outcome": null,
    "reprint_channels": [
     "CNBC Television"
@@ -12229,7 +12253,7 @@
    },
    "status": "PASS",
    "ticker": "JBLU",
-   "times_seen": 19,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12300,7 +12324,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264414+00:00",
+   "last_seen": "2026-10-27T07:09:10.021208+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -12328,7 +12352,7 @@
    },
    "status": "PASS",
    "ticker": "ROST",
-   "times_seen": 19,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12398,7 +12422,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264417+00:00",
+   "last_seen": "2026-10-27T07:09:10.021211+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -12426,7 +12450,7 @@
    },
    "status": "RESEARCH",
    "ticker": "FICO",
-   "times_seen": 19,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12498,9 +12522,9 @@
     "Jose Najarro Stocks",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264132+00:00",
+   "last_seen": "2026-10-27T07:09:10.020983+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
     "returns": {
@@ -12591,7 +12615,7 @@
    "status": "WATCHLIST",
    "supersedes": "NBIS-5fe16239c300",
    "ticker": "NBIS",
-   "times_seen": 9,
+   "times_seen": 10,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12660,9 +12684,9 @@
     "Schwab Network",
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T06:42:33.264224+00:00",
+   "last_seen": "2026-10-27T07:09:10.021054+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
     "returns": {
@@ -12714,7 +12738,7 @@
    "status": "WATCHLIST",
    "supersedes": "VRT-fcd87cf22bd7",
    "ticker": "VRT",
-   "times_seen": 9,
+   "times_seen": 10,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12783,7 +12807,7 @@
     "Couch Investor",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T06:42:33.264245+00:00",
+   "last_seen": "2026-10-27T07:09:10.021069+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T18:45:21.900344+00:00",
@@ -12825,7 +12849,7 @@
    "status": "RESEARCH",
    "supersedes": "RKLB-212a1367515a",
    "ticker": "RKLB",
-   "times_seen": 9,
+   "times_seen": 10,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12902,7 +12926,7 @@
    ],
    "last_seen": "2026-10-27T01:15:05.688963+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
     "returns": {
@@ -13151,9 +13175,9 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264265+00:00",
+   "last_seen": "2026-10-27T07:09:10.021083+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
     "returns": {
@@ -13218,7 +13242,7 @@
    "status": "RESEARCH",
    "supersedes": "TTWO-b389a1b0d765",
    "ticker": "TTWO",
-   "times_seen": 6,
+   "times_seen": 7,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13286,7 +13310,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264539+00:00",
+   "last_seen": "2026-10-27T07:09:10.021328+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T22:26:42.878835+00:00",
@@ -13314,7 +13338,7 @@
    },
    "status": "PASS",
    "ticker": "EA",
-   "times_seen": 6,
+   "times_seen": 7,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13388,9 +13412,9 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264137+00:00",
+   "last_seen": "2026-10-27T07:09:10.020987+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "error": "no trading day at or after the recommendation date"
    },
    "reprint_channels": [],
@@ -13472,7 +13496,7 @@
    "status": "WATCHLIST",
    "supersedes": "MSFT-122c1fdcb2af",
    "ticker": "MSFT",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13543,9 +13567,9 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264162+00:00",
+   "last_seen": "2026-10-27T07:09:10.021005+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "error": "no trading day at or after the recommendation date"
    },
    "reprint_channels": [],
@@ -13614,7 +13638,7 @@
    "status": "WATCHLIST",
    "supersedes": "AMZN-9030100c4d9b",
    "ticker": "AMZN",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13684,7 +13708,7 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264167+00:00",
+   "last_seen": "2026-10-27T07:09:10.021009+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -13739,7 +13763,7 @@
    "status": "WATCHLIST",
    "supersedes": "CRWD-cab0b6e5e48b",
    "ticker": "CRWD",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13809,9 +13833,9 @@
     "CNBC Television",
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T06:42:33.264204+00:00",
+   "last_seen": "2026-10-27T07:09:10.021038+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "error": "no trading day at or after the recommendation date"
    },
    "reprint_channels": [],
@@ -13867,7 +13891,7 @@
    "status": "RESEARCH",
    "supersedes": "XOM-c63f7faec5c2",
    "ticker": "XOM",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13935,7 +13959,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264240+00:00",
+   "last_seen": "2026-10-27T07:09:10.021065+00:00",
    "outcome": null,
    "reprint_channels": [
     "Schwab Network"
@@ -13979,7 +14003,7 @@
    "status": "PASS",
    "supersedes": "MRNA-7deef3189e54",
    "ticker": "MRNA",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14050,9 +14074,9 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264260+00:00",
+   "last_seen": "2026-10-27T07:09:10.021080+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T06:07:55.402405+00:00",
+    "checked_at": "2026-10-27T07:09:10.040959+00:00",
     "error": "no trading day at or after the recommendation date"
    },
    "reprint_channels": [
@@ -14110,7 +14134,7 @@
    "status": "PASS",
    "supersedes": "CVX-0167d9dc84d1",
    "ticker": "CVX",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14181,7 +14205,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264275+00:00",
+   "last_seen": "2026-10-27T07:09:10.021091+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14209,7 +14233,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TMO",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14277,7 +14301,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264279+00:00",
+   "last_seen": "2026-10-27T07:09:10.021095+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14305,7 +14329,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BB",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14373,7 +14397,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264404+00:00",
+   "last_seen": "2026-10-27T07:09:10.021197+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14401,7 +14425,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GBCI",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14469,7 +14493,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264517+00:00",
+   "last_seen": "2026-10-27T07:09:10.021302+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14497,7 +14521,7 @@
    },
    "status": "PASS",
    "ticker": "AMAT",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14567,7 +14591,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264520+00:00",
+   "last_seen": "2026-10-27T07:09:10.021305+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14595,7 +14619,7 @@
    },
    "status": "PASS",
    "ticker": "CELH",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14665,7 +14689,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264525+00:00",
+   "last_seen": "2026-10-27T07:09:10.021308+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14693,7 +14717,7 @@
    },
    "status": "PASS",
    "ticker": "MNST",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14763,7 +14787,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264528+00:00",
+   "last_seen": "2026-10-27T07:09:10.021311+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14791,7 +14815,7 @@
    },
    "status": "PASS",
    "ticker": "QUBT",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14861,7 +14885,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264532+00:00",
+   "last_seen": "2026-10-27T07:09:10.021315+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14889,7 +14913,7 @@
    },
    "status": "PASS",
    "ticker": "USAR",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14959,7 +14983,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264535+00:00",
+   "last_seen": "2026-10-27T07:09:10.021318+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14987,7 +15011,7 @@
    },
    "status": "PASS",
    "ticker": "IBRX",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15057,7 +15081,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T06:42:33.264542+00:00",
+   "last_seen": "2026-10-27T07:09:10.021331+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -15085,7 +15109,7 @@
    },
    "status": "PASS",
    "ticker": "CSCO",
-   "times_seen": 5,
+   "times_seen": 6,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15155,7 +15179,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264283+00:00",
+   "last_seen": "2026-10-27T07:09:10.021099+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T03:31:41.055887+00:00",
@@ -15183,7 +15207,7 @@
    },
    "status": "RESEARCH",
    "ticker": "WHR",
-   "times_seen": 4,
+   "times_seen": 5,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15251,7 +15275,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264288+00:00",
+   "last_seen": "2026-10-27T07:09:10.021102+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T03:31:41.055887+00:00",
@@ -15279,7 +15303,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CVNA",
-   "times_seen": 4,
+   "times_seen": 5,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15345,7 +15369,7 @@
    ],
    "id": "DASH-243db777551d",
    "independent_channels": [],
-   "last_seen": "2026-10-27T06:42:33.264407+00:00",
+   "last_seen": "2026-10-27T07:09:10.021201+00:00",
    "outcome": null,
    "reprint_channels": [
     "Yahoo Finance"
@@ -15375,7 +15399,7 @@
    },
    "status": "PASS",
    "ticker": "DASH",
-   "times_seen": 4,
+   "times_seen": 5,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15446,7 +15470,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T06:42:33.264411+00:00",
+   "last_seen": "2026-10-27T07:09:10.021204+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T03:31:41.055887+00:00",
@@ -15474,7 +15498,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CART",
-   "times_seen": 4,
+   "times_seen": 5,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
