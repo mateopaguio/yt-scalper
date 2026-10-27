@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:48:38.449382+00:00",
+  "generated_at": "2026-10-27T23:04:21.198202+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -29,6 +29,18 @@
           "Assertions about Fed officials' motives and Chair Warsh's intentions are speculative."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -91,6 +103,18 @@
             "catalyst": "Recent earnings report (host said results were strong)"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -149,6 +173,18 @@
             "breakout_signal": "price_move"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -233,6 +269,18 @@
             "sector": "financials"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 4,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "4 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -275,6 +323,18 @@
             "timeframe": "2027 margin benefits"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -287,7 +347,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "1rgOKcmanV4",
@@ -329,6 +401,18 @@
             "breakout_signal": "catalyst_driven"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 1,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -361,6 +445,18 @@
           "Speculative elements such as how the Fed will word its statement and how yields may react."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 7,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -373,7 +469,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "mTb-Wu6Sjkc",
@@ -461,6 +569,18 @@
             "breakout_signal": "none"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 0,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -692,6 +812,18 @@
             "breakout_signal": "none"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 14,
+          "substantive_tickers": 13,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "13 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -704,7 +836,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "tDF_YA-qY3Q",
@@ -770,6 +914,18 @@
             "timeframe": "next month"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 2,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -816,6 +972,18 @@
             "timeframe": "Two to three years for the quantum threat, per the CEO"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -849,6 +1017,18 @@
           "Auto-generated transcript; several figures (e.g., the 103 level, the 80% flow figure) may be misheard"
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -987,6 +1167,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 8,
+          "substantive_tickers": 7,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "7 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -999,7 +1191,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "video unavailable (VideoUnplayable)"
+      "skip_reason": "video unavailable (VideoUnplayable)",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "ZCXVBHdDcwM",
@@ -1011,7 +1215,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "33WmjiWI4WY",
@@ -1023,7 +1239,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "nD7Gew5O4b4",
@@ -1107,6 +1335,18 @@
             "timestamp": "2:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 3,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1154,6 +1394,18 @@
             "catalyst": "Next earnings report around December 1; ongoing agentic AI threat activity"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1192,6 +1444,18 @@
             "catalyst": "Planned NASDAQ listing under the symbol ENT"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 1,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -1275,6 +1539,18 @@
             "timeframe": "next earnings"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 2,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1287,7 +1563,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "video unavailable (VideoUnplayable)"
+      "skip_reason": "video unavailable (VideoUnplayable)",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "rDneWrPeTmU",
@@ -1299,7 +1587,19 @@
       "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": false
+        },
+        "reason": "market commentary without a specific name"
+      }
     },
     {
       "video_id": "mZA6EkZhRGc",
@@ -1414,6 +1714,18 @@
             "timeframe": "next earnings"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 6,
+          "substantive_tickers": 5,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1458,6 +1770,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -1501,6 +1825,18 @@
             "sector": "other"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -1513,7 +1849,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "tYIq6Exhi00",
@@ -1525,7 +1873,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "qnM47O0BWlE",
@@ -1567,6 +1927,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1625,6 +1997,18 @@
             "sector": "consumer discretionary"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1668,6 +2052,18 @@
             "timeframe": "Five-year plan; year one is stabilization"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -1680,7 +2076,19 @@
       "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "_9O5ZAK-4wc",
@@ -1753,6 +2161,18 @@
             "sector": "industrials"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1859,6 +2279,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 6,
+          "substantive_tickers": 5,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1928,6 +2360,18 @@
             "sector": "technology"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -1940,7 +2384,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "xNX59DzK9rQ",
@@ -1952,7 +2408,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "video unavailable (VideoUnplayable)"
+      "skip_reason": "video unavailable (VideoUnplayable)",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "o2YHmfgNBQw",
@@ -1964,7 +2432,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "QK0eEOV8M2Q",
@@ -2056,6 +2536,18 @@
             "price_target": "Private round reportedly valued it near $1.5T after talks from $2T"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 2,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -2098,6 +2590,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -2127,6 +2631,18 @@
           "No listed-company or investment angle is identified; the Brightray and Prefab DC entities are not identified as publicly traded."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -2139,7 +2655,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "WCBrbbiIGKA",
@@ -2285,6 +2813,18 @@
             "catalyst": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 8,
+          "substantive_tickers": 7,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "7 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -2297,7 +2837,19 @@
       "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "video unavailable (VideoUnplayable)"
+      "skip_reason": "video unavailable (VideoUnplayable)",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "RtqY5FjAgA0",
@@ -2399,6 +2951,18 @@
             "breakout_signal": "none"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 5,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -2426,6 +2990,18 @@
           "No discussion of investment implications or how a viewer might position around these risks."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -2552,6 +3128,18 @@
             "breakout_signal": "unusual_volume"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 7,
+          "substantive_tickers": 7,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "7 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -2638,6 +3226,18 @@
             "breakout_signal": "none"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 4,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "4 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -2696,6 +3296,18 @@
             "timeframe": "next earnings"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -2844,6 +3456,18 @@
             "breakout_signal": "none"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 8,
+          "substantive_tickers": 8,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "8 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -2856,7 +3480,19 @@
       "channel_id": "UCrTTBSUr0zhPU56UQljag5A",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "NDCjUZKpZHA",
@@ -2967,6 +3603,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 7,
+          "substantive_tickers": 7,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "7 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3012,6 +3660,18 @@
             "catalyst": "Quarterly earnings beat and guidance; shares fell after results"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3057,6 +3717,18 @@
             "breakout_signal": "price_move"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3291,6 +3963,18 @@
             "timestamp": "26:47"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 22,
+          "substantive_tickers": 21,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "21 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3335,6 +4019,18 @@
             "timestamp": "0:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 1,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3389,6 +4085,18 @@
             "timestamp": "1:58"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 0,
+          "macro_points": 1,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -3507,6 +4215,18 @@
             "timeframe": "near term"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 6,
+          "substantive_tickers": 6,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "6 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3519,7 +4239,19 @@
       "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "rKF45OYyKcs",
@@ -3542,6 +4274,18 @@
         ],
         "macro_points": [],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "archive",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "analysed, but no companies and no macro content"
       }
     },
     {
@@ -3554,7 +4298,19 @@
       "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "rIg4iBkcHQU",
@@ -3583,6 +4339,18 @@
         ],
         "promotional": false,
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -3653,6 +4421,18 @@
             "timestamp": "3:37"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3673,6 +4453,18 @@
         "macro_points": [],
         "red_flags": [],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "archive",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "analysed, but no companies and no macro content"
       }
     },
     {
@@ -3702,6 +4494,18 @@
           "Thompson's views on the J-curve and the 'AI will improve productivity' outlook are asserted without hard data or sources."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -3746,6 +4550,18 @@
             "timestamp": "3:20"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3788,6 +4604,18 @@
             "catalyst": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3808,6 +4636,18 @@
         "macro_points": [],
         "red_flags": [],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "archive",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "analysed, but no companies and no macro content"
       }
     },
     {
@@ -3828,6 +4668,18 @@
         "macro_points": [],
         "red_flags": [],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "archive",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "analysed, but no companies and no macro content"
       }
     },
     {
@@ -3956,6 +4808,18 @@
             "timestamp": "27:05"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 10,
+          "substantive_tickers": 6,
+          "macro_points": 7,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "6 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -3968,7 +4832,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "eJk7F3E4SS0",
@@ -4018,6 +4894,18 @@
             "catalyst": "Committee recommendation on a potential merger with Tesla"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 1,
+          "macro_points": 1,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4030,7 +4918,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "j0F0ZmMC_ro",
@@ -4059,6 +4959,18 @@
           "Much of the content relies on interviews and anecdotes (a broker's client observations, residents' accounts) rather than systematic data."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -4071,7 +4983,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "77w1_D1k-BA",
@@ -4083,7 +5007,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "yiKknSMnKQc",
@@ -4095,7 +5031,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "dMS_umblaFU",
@@ -4131,6 +5079,18 @@
           "Speculative and unsupported macro claims, such as the military-background theory of congressional behavior and suggestions about the Fed 'rattling the sack', are opinion presented as analysis.",
           "Non-financial commentary (politics, personal anecdotes) takes up a large share of the runtime."
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -4143,7 +5103,19 @@
       "channel_id": "UCUvvj5lwue7PspotMDjk5UA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "wldMfxicWa4",
@@ -4195,6 +5167,18 @@
             "timestamp": "1:50"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 0,
+          "macro_points": 8,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -4276,6 +5260,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 4,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "4 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4302,6 +5298,18 @@
           "Ticket-versus-gold/stock comparison ignores that the ticket's value depends on the Brewers' playoff run and that any gain would need to be realized through resale or use, which the segment does not address."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -4314,7 +5322,19 @@
       "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "gave up after 12 caption attempt(s) — captions are probably disabled"
+      "skip_reason": "gave up after 12 caption attempt(s) — captions are probably disabled",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "Sb_wpDC7EPc",
@@ -4377,6 +5397,18 @@
             "timestamp": "1:19"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4389,7 +5421,19 @@
       "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "DFrmfARi0Z8",
@@ -4428,6 +5472,18 @@
             "timestamp": "0:21"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4457,6 +5513,18 @@
           "Claims like 'within arms reach of a million' rest entirely on the assumed return and time horizon."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -4469,7 +5537,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "teZeRgRwUQU",
@@ -4522,6 +5602,18 @@
             "timestamp": "1:40"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4701,6 +5793,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 12,
+          "substantive_tickers": 8,
+          "macro_points": 7,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "8 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4713,7 +5817,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "CSHHPcxp5uA",
@@ -4725,7 +5841,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "gave up after 12 caption attempt(s) — captions are probably disabled"
+      "skip_reason": "gave up after 12 caption attempt(s) — captions are probably disabled",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "rLP1r3CWw1Y",
@@ -4814,6 +5942,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 6,
+          "substantive_tickers": 3,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -4826,7 +5966,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "Zc-e04prg-Q",
@@ -4873,6 +6025,18 @@
             "timestamp": "1:29"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -4885,7 +6049,19 @@
       "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "a03IshYNudY",
@@ -4905,6 +6081,18 @@
         "macro_points": [],
         "red_flags": [],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "archive",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "analysed, but no companies and no macro content"
       }
     },
     {
@@ -4961,6 +6149,18 @@
             "timestamp": "2:55"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 1,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5050,6 +6250,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 5,
+          "substantive_tickers": 5,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5172,6 +6384,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 8,
+          "substantive_tickers": 8,
+          "macro_points": 7,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "8 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5211,6 +6435,18 @@
             "timestamp": "0:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -5251,6 +6487,18 @@
             "timeframe": "Next earnings through holiday season"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5263,7 +6511,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "p0tlM84dNSs",
@@ -5275,7 +6535,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "tNGclee8uvY",
@@ -5317,6 +6589,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5372,6 +6656,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5400,6 +6696,18 @@
           "Survey-based political forecasting presented with confident language (e.g., 'earthquake', 'substantial change') without margins of error or methodology discussed in the captions."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -5440,6 +6748,18 @@
             "catalyst": "Fiscal earnings report, cited as November 2 or November 7 in the transcript; the foldable iPhone launch and iPhone 18 reviews"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5487,6 +6807,18 @@
             "timestamp": "1:29"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5499,7 +6831,19 @@
       "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "L94jgrNLNXM",
@@ -5523,6 +6867,18 @@
           "Reporter notes missing features shoppers still want (telephoto lens, more compatible apps), which is a caveat, but no market impact is discussed"
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -5535,7 +6891,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "op4w9x9GQiM",
@@ -5601,6 +6969,18 @@
             "timestamp": "6:30"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 1,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5648,6 +7028,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5709,6 +7101,18 @@
             "timestamp": "07:20"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5721,7 +7125,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "sQ8IgYrokXQ",
@@ -5761,6 +7177,18 @@
             "catalyst": "Quarterly earnings report (just released; stock reported down slightly after hours)"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 1,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5823,6 +7251,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 2,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5835,7 +7275,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "video unavailable (VideoUnplayable)"
+      "skip_reason": "video unavailable (VideoUnplayable)",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "h7-2Pj_ouHc",
@@ -5884,6 +7336,18 @@
             "timestamp": "24:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5937,6 +7401,18 @@
             "catalyst": "Geopolitical developments and oil price moves"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -5949,7 +7425,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "xEIMgCDYxdA",
@@ -5961,7 +7449,19 @@
       "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "video unavailable (VideoUnplayable)"
+      "skip_reason": "video unavailable (VideoUnplayable)",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "dR8CQ1FJzyQ",
@@ -6076,6 +7576,18 @@
             "timestamp": "8:23"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 9,
+          "substantive_tickers": 9,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "9 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6088,7 +7600,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": false
+        },
+        "reason": "market commentary without a specific name"
+      }
     },
     {
       "video_id": "bU8DPUlDhKs",
@@ -6116,6 +7640,18 @@
           "Earnings and macro events are previewed without any stated valuation, expectations, or risk discussion for individual names."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -6128,7 +7664,19 @@
       "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "gave up after 12 caption attempt(s) — captions are probably disabled"
+      "skip_reason": "gave up after 12 caption attempt(s) — captions are probably disabled",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "0wIsoHybt4Q",
@@ -6166,6 +7714,18 @@
             "timestamp": "0:59"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6210,6 +7770,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6262,6 +7834,18 @@
             "timestamp": "4:50"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 3,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "3 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6274,7 +7858,19 @@
       "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "yST2hpDW0gw",
@@ -6382,6 +7978,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 7,
+          "substantive_tickers": 7,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "7 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6405,6 +8013,18 @@
         ],
         "red_flags": [],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -6417,7 +8037,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "B9GEeMS2wpk",
@@ -6534,6 +8166,18 @@
             "timestamp": "21:40"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 9,
+          "substantive_tickers": 9,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "9 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6617,6 +8261,18 @@
             "timestamp": "1:48"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 5,
+          "substantive_tickers": 5,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6645,6 +8301,18 @@
           "Video mentions Bitcoin price history but gives no investment recommendations, so no direct market risk is at stake, though the broad dismissal of crypto is a one-sided framing."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -6675,6 +8343,18 @@
           "No discussion of specific risks of the strategies described beyond general comments on volatility and behavior."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -6762,6 +8442,18 @@
             "timestamp": "2:28"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 5,
+          "substantive_tickers": 5,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6818,6 +8510,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6895,6 +8599,18 @@
             "timestamp": "17:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 5,
+          "substantive_tickers": 5,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -6949,6 +8665,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -6977,6 +8705,18 @@
           "No discussion of risks, such as competitive pressure, costs of the ongoing arena 'arms race,' or the arena's $800M-plus renovation financing."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -6989,7 +8729,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "no captions after 3 attempts — captions are probably disabled"
+      "skip_reason": "no captions after 3 attempts — captions are probably disabled",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "EI5pCxrSM7s",
@@ -7001,7 +8753,19 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "no captions after 3 attempts — captions are probably disabled"
+      "skip_reason": "no captions after 3 attempts — captions are probably disabled",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "QiRBaSExqOY",
@@ -7061,6 +8825,18 @@
             "timestamp": "2:14"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 3,
+          "substantive_tickers": 2,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7102,6 +8878,18 @@
             "timestamp": "0:17"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7129,6 +8917,18 @@
         "red_flags": [
           "Macro commentary from panelists is largely unquantified opinion; the UK-economy-needs-investment claim is offered without data and the speaker says it is outside their expertise."
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7157,6 +8957,18 @@
           "Segment is short and largely political commentary; no investment analysis or market data is provided, so it offers no basis for trading decisions."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7185,6 +8997,18 @@
           "Forecast that the bond market will force a Fed hike is hedged ('not guaranteeing') but still a directional call on an unpredictable event."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7225,6 +9049,18 @@
             "catalyst": "Fuel price trajectory; pricing recapture in the coming quarters; next earnings"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7254,6 +9090,18 @@
           "Not investment content: no ticker, price, or trading view is expressed, so no market-related promotion is present."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7266,7 +9114,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "RrP2jDSIuoI",
@@ -7318,6 +9178,18 @@
             "catalyst": "Integration into Bose portfolio; holiday season"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 0,
+          "macro_points": 3,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7369,6 +9241,18 @@
             "timestamp": "1:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 1,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7420,6 +9304,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 4,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7432,7 +9328,19 @@
       "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "iQi4H_rRx0Q",
@@ -7485,6 +9393,18 @@
             "timeframe": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 2,
+          "substantive_tickers": 2,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "2 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7583,6 +9503,18 @@
             "timestamp": "03:49"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 6,
+          "substantive_tickers": 5,
+          "macro_points": 5,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "5 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7595,7 +9527,19 @@
       "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
       "source_type": "video",
       "findings": null,
-      "skip_reason": "content too short"
+      "skip_reason": "content too short",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
     },
     {
       "video_id": "K2Su4WQ_BpA",
@@ -7672,6 +9616,18 @@
             "price_target": ""
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 4,
+          "substantive_tickers": 4,
+          "macro_points": 6,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "4 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7709,6 +9665,18 @@
             "timestamp": "0:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     },
     {
@@ -7741,6 +9709,18 @@
           "Transcript is auto-generated and some passages are unclear; figures are described qualitatively rather than with exact spread or yield numbers."
         ],
         "tickers": []
+      },
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 8,
+          "off_topic_title": false,
+          "macro_language": true,
+          "analysed": true
+        },
+        "reason": "market commentary without a specific name"
       }
     },
     {
@@ -7778,6 +9758,18 @@
             "timestamp": "0:00"
           }
         ]
+      },
+      "relevance": {
+        "bucket": "trade_relevant",
+        "signals": {
+          "tickers": 1,
+          "substantive_tickers": 1,
+          "macro_points": 2,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": true
+        },
+        "reason": "1 company claim(s) with a thesis or catalyst"
       }
     }
   ],
@@ -65822,20 +67814,6 @@
         "is_new": true
       },
       {
-        "ticker": "LMT",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "Schwab Network"
-        ],
-        "evidence_counts": {
-          "reasoned": 1
-        },
-        "quality": 1.0,
-        "is_new": true
-      },
-      {
         "ticker": "OKLO",
         "recent_mentions": 1,
         "prior_per_day": 0.0,
@@ -66004,23 +67982,6 @@
           "reasoned": 2
         },
         "quality": 0.0,
-        "is_new": false
-      },
-      {
-        "ticker": "TSLA",
-        "recent_mentions": 1,
-        "prior_per_day": 2.33,
-        "lift": -1.33,
-        "channels": [
-          "Schwab Network"
-        ],
-        "evidence_counts": {
-          "speculation": 3,
-          "none": 2,
-          "data": 7,
-          "reasoned": 3
-        },
-        "quality": 13.5,
         "is_new": false
       },
       {
@@ -66620,7 +68581,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-27T22:48:38.517234+00:00",
+    "last_run": "2026-10-27T23:04:21.300330+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },

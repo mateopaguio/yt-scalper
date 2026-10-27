@@ -951,6 +951,26 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
 </footer>
 </div></body></html>"""
 
+    # The single 400KB scrolling document is replaced by the tabbed shell.
+    # Everything else about this function is unchanged: same output dir,
+    # same digest.json, same .nojekyll, same deployment.
+    try:
+        from . import app_render, relevance, ticker_rows as _tr
+        relevance.annotate(videos)
+        rows = _tr.build(
+            agg,
+            under_radar=digest.get("under_the_radar"),
+            signals=digest.get("signals"),
+            setups=digest.get("setups"),
+            watchlist=list(getattr(digest.get("_cfg", None), "watchlist", []) or []),
+        )
+        page = app_render.build_page(digest, history, rows)
+    except Exception as exc:  # noqa: BLE001
+        # Never lose the page over a rendering change; fall back to the
+        # previous layout and say so rather than shipping nothing.
+        print(f"  ! new shell failed ({type(exc).__name__}: {exc}); "
+              "falling back to the previous layout")
+
     out_path = out_dir / "index.html"
     out_path.write_text(page, encoding="utf-8")
 
