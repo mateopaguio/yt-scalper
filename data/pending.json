@@ -10,11 +10,29 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video"
     },
-    "attempts": 1,
+    "attempts": 2,
     "throttled": 0,
     "first_seen": "2026-10-27T08:11:46.758261+00:00",
     "eligible_since": "2026-10-27T08:11:46.758261+00:00",
-    "last_attempt": "2026-10-27T08:11:46.758261+00:00",
+    "last_attempt": "2026-10-27T11:57:56.675382+00:00",
+    "reason": "no captions yet (TranscriptsDisabled)"
+  },
+  {
+    "video": {
+      "video_id": "4D9Ki-TCV2Q",
+      "title": "Brazil’s election rocks its stock market after Lula da Silva wins",
+      "channel": "Yahoo Finance",
+      "published": "2026-10-26T20:47:13+00:00",
+      "url": "https://www.youtube.com/watch?v=4D9Ki-TCV2Q",
+      "tier": 1,
+      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "source_type": "video"
+    },
+    "attempts": 1,
+    "throttled": 0,
+    "first_seen": "2026-10-27T12:00:33.396093+00:00",
+    "eligible_since": "2026-10-27T12:00:33.396093+00:00",
+    "last_attempt": "2026-10-27T12:00:33.396093+00:00",
     "reason": "no captions yet (TranscriptsDisabled)"
   }
 ]

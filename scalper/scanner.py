@@ -67,7 +67,9 @@ def scan_underlyings(tickers: tuple[str, ...] = UNDERLYINGS) -> dict[str, Any]:
             "missing_fields": missing,
             "usable": not missing,
             "last_fired": last_fired,
-            "feed": last.get("feed"),
+            # shape["feed"] comes from check_price_bars; the local `last`
+            # it used to read was removed when the boundary check went in.
+            "feed": shape.get("feed"),
         })
 
     return {"hits": hits, "errors": errors, "scanned": list(tickers),

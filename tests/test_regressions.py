@@ -589,6 +589,62 @@ def test_critical_alert_carries_thesis_and_invalidation():
     assert "/ticker/PFE.html" in body, "no deep link to the opportunity card"
 
 
+
+# --------------------------------------------------------------------
+# BUG 4 (2026-10-27): scanner.scan_underlyings() raised
+# NameError: name 'last' is not defined. The schema boundary check
+# removed the local that a later diagnostics line still read.
+#
+# The suite missed it because the build_digest test passes
+# record_signals=False to avoid the network - which also skips the
+# scanner. Removing flakiness removed coverage of the code that broke.
+# This exercises the real function with INJECTED bars: no network, full
+# code path.
+# --------------------------------------------------------------------
+def _fake_bars(n=120):
+    from datetime import date, timedelta
+    d0 = date(2026, 1, 1)
+    return [{"date": d0 + timedelta(days=i), "open": 100 + i * 0.1,
+             "high": 101 + i * 0.1, "low": 99 + i * 0.1,
+             "close": 100 + i * 0.1, "volume": 1_000_000, "feed": "test"}
+            for i in range(n)]
+
+
+def test_scanner_runs_end_to_end_without_network():
+    from scalper import prices, scanner
+    original = prices.fetch_history
+    prices.fetch_history = lambda tk, timeout=25: _fake_bars()
+    try:
+        r = scanner.scan_underlyings(("SPY", "QQQ"))
+    finally:
+        prices.fetch_history = original
+
+    assert r["errors"] == [], f"usable bars produced errors: {r['errors']}"
+    assert len(r["diagnostics"]) == 2, "diagnostics missing"
+    for d in r["diagnostics"]:
+        assert d["bars"] == 120
+        assert d["feed"] == "test", "feed provenance lost"
+        assert "last_fired" in d
+
+
+def test_scanner_reports_unusable_bars_instead_of_raising():
+    """Close-only bars must degrade the ticker, not kill the run."""
+    from datetime import date, timedelta
+    from scalper import prices, scanner
+    d0 = date(2026, 1, 1)
+    closeonly = [{"date": d0 + timedelta(days=i), "close": 100.0}
+                 for i in range(120)]
+    original = prices.fetch_history
+    prices.fetch_history = lambda tk, timeout=25: closeonly
+    try:
+        r = scanner.scan_underlyings(("SPY",))
+    finally:
+        prices.fetch_history = original
+    assert r["errors"], "unusable bars produced no error"
+    assert "high" in r["errors"][0]["reason"] or "low" in r["errors"][0]["reason"]
+
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -650,6 +706,13 @@ def main() -> int:
           test_funnel_explains_every_rejection)
     check("G7: critical alert carries thesis and invalidation",
           test_critical_alert_carries_thesis_and_invalidation)
+    check("bug4: scanner runs end to end (injected bars, no network)",
+          test_scanner_runs_end_to_end_without_network)
+    check("bug4: scanner reports unusable bars instead of raising",
+          test_scanner_reports_unusable_bars_instead_of_raising)
+    # (a full build_digest with recording on takes ~47s - too slow for a
+    #  suite people will actually run. The scanner test above catches the
+    #  same bug in 0.0s by injecting bars into the real function.)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 
