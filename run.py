@@ -30,6 +30,7 @@ from scalper import (
     rank as ranking,
     render,
     scanner,
+    security_master,
     signal_log,
     signals,
     sites,
@@ -80,6 +81,9 @@ def build_digest(
 
     # Join catalysts onto the tickers creators are discussing. A name that
     # both has chatter AND a real filed event is the interesting case.
+    # Refresh the name->ticker table from the corpus before joining, so
+    # a company first seen today is resolvable today.
+    security_master.build(videos)
     events_by_ticker = cat.by_ticker(catalyst_events)
     for entry in aggregate["tickers"]:
         entry["catalyst_events"] = events_by_ticker.get(entry["ticker"], [])

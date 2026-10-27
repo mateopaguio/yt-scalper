@@ -431,6 +431,51 @@ def test_tiers_render_as_separate_messages():
     assert msgs[alerts.CRITICAL]["priority"] > msgs[alerts.WATCHLIST]["priority"]
 
 
+
+# --------------------------------------------------------------------
+# SECURITY MASTER. 56 catalyst events produced ONE ticker because the
+# extractor is correctly told never to guess a symbol. A lookup either
+# knows a name or does not - but it must never fuzzy-match, which is
+# how "Apple Orchards LLC" would become AAPL.
+# --------------------------------------------------------------------
+def test_security_master_resolves_known_names():
+    from scalper import security_master as SM
+    d = {"map": {SM.normalise(k): v for k, v in SM.SEED.items()}}
+    assert SM.resolve("Pfizer", d) == "PFE"
+    assert SM.resolve("Walmart, Inc.", d) == "WMT"
+    assert SM.resolve("Takeda Pharmaceutical Company (Adzynma sponsor)", d) == "TAK"
+
+
+def test_security_master_never_fuzzy_matches():
+    from scalper import security_master as SM
+    d = {"map": {SM.normalise(k): v for k, v in SM.SEED.items()}}
+    for name in ("Apple Orchards LLC", "Metaverse Inc", "Greenwich Rx",
+                 "Pfizer Pharmaceuticals Holding Sub", "Walmart Neighborhood Co-op"):
+        got = SM.resolve(name, d)
+        assert got == "", f"{name!r} fuzzy-matched to {got!r}"
+
+
+def test_security_master_discards_ambiguous_names():
+    """A name seen with two symbols must resolve to neither."""
+    from scalper import security_master as SM
+    videos = [{"findings": {"tickers": [
+        {"company": "Ambiguous Co", "ticker": "AAA", "evidence": "data"},
+        {"company": "Ambiguous Co", "ticker": "BBB", "evidence": "data"},
+        {"company": "Clear Co", "ticker": "CCC", "evidence": "data"},
+    ]}}]
+    import tempfile, os, pathlib
+    orig = SM.PATH
+    SM.PATH = pathlib.Path(tempfile.mkdtemp()) / "sm.json"
+    try:
+        d = SM.build(videos)
+    finally:
+        SM.PATH = orig
+    assert SM.resolve("Ambiguous Co", d) == "", "ambiguous name was resolved"
+    assert SM.resolve("Clear Co", d) == "CCC"
+    # keys are normalised: "Ambiguous Co" -> "ambiguous"
+    assert SM.normalise("Ambiguous Co") in d["rejected"]
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -473,6 +518,11 @@ def main() -> int:
           test_identical_state_produces_identical_key)
     check("alerts: tiers render as separate messages",
           test_tiers_render_as_separate_messages)
+    check("master: resolves known company names",
+          test_security_master_resolves_known_names)
+    check("master: never fuzzy-matches", test_security_master_never_fuzzy_matches)
+    check("master: discards ambiguous names",
+          test_security_master_discards_ambiguous_names)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 

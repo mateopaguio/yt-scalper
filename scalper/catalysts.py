@@ -18,6 +18,7 @@ from anthropic import Anthropic, APIError
 
 from .analyze import clean_ticker
 from .sites import fetch_feed
+from . import security_master
 
 # SEC asks automated clients to declare who they are and stay under
 # 10 requests/second. We poll a handful of feeds hourly, far below that.
@@ -267,12 +268,21 @@ def upcoming(events: list[dict], days: int = 30) -> list[dict]:
 def by_ticker(events: list[dict]) -> dict[str, list[dict]]:
     """Group catalyst events by ticker so they can be joined to the digest."""
     grouped: dict[str, list[dict]] = {}
+    master = security_master._load()
     for event in events:
         findings = event.get("findings") or {}
         if not findings.get("is_market_relevant"):
             continue
         for company in findings.get("companies") or []:
             ticker = clean_ticker(company.get("ticker", ""))
+            if not ticker:
+                # The extractor is told never to guess a symbol, which is
+                # right - it is what stopped SpaceX being filed under
+                # SPCE - but it left well-known names unresolved and no
+                # catalyst could join to a ticker. A deterministic lookup
+                # either knows the name or does not; it never invents.
+                ticker = clean_ticker(
+                    security_master.resolve(company.get("company", ""), master))
             if not ticker:
                 continue
             grouped.setdefault(ticker, []).append({
