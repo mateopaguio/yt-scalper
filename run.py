@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 from anthropic import Anthropic
 
 from scalper import (
+    alerts as alerting,
     analyze,
     briefs,
     catalysts as cat,
@@ -297,10 +298,35 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
         tag = " ".join(f"!{t}" for t in tickers[:3]) or "!macro"
         message = f"{tag} {len(hot)} filing(s)\n{message}"
 
+    # --- tiered alerts -------------------------------------------------
+    # Critical/watchlist go out as their own pushes with their own ntfy
+    # priority, so an urgent one is never buried inside a digest. The
+    # cooldown log is on disk: without it every run is the first run and
+    # the same fact re-fires until the phone gets muted.
+    candidates = alerting.classify(digest.get("aggregate") or {}, cfg.raw)
+    picked = alerting.select(candidates, store.alert_log(), cfg.raw)
+    tier_msgs = alerting.render(picked["send"], cfg.site_url)
+
     if args.dry_run:
-        print(f"\n[dry run] would alert on {len(fresh)} item(s), {len(hot)} filing(s):")
+        print(f"\n[dry run] would alert on {len(fresh)} item(s), {len(hot)} filing(s)")
+        for tier, m in tier_msgs.items():
+            print(f"  [{tier}] priority {m['priority']}: {m['count']} item(s)")
+        if picked["suppressed"]:
+            print(f"  suppressed: {len(picked['suppressed'])} "
+                  f"({picked['suppressed'][0]['reason']})")
         print(message)
         return
+
+    if tier_msgs:
+        results = notify.send_tiered(cfg, tier_msgs)
+        fired = [k for tier, m in tier_msgs.items()
+                 if results.get(tier, {}).get("sent") for k in m["keys"]]
+        store.record_alerts(fired)
+        for tier, r in results.items():
+            print(f"  {tier}: {'sent' if r.get('sent') else r.get('reason')} "
+                  f"({r.get('count', 0)} item(s))")
+    if picked["suppressed"]:
+        print(f"  {len(picked['suppressed'])} alert(s) suppressed by cooldown/cap")
 
     print(f"\nAlerting: {len(fresh)} item(s), {len(hot)} filing(s)")
     notify.dispatch(cfg, alert, message=message)

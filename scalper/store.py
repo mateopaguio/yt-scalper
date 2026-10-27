@@ -255,3 +255,32 @@ def load_performance() -> list[dict]:
 
 def save_performance(records: list[dict]) -> None:
     _write(PERFORMANCE_PATH, records[:2000])
+
+
+# --- tiered alert cooldowns -------------------------------------------
+ALERT_LOG_PATH = DATA_DIR / "alert_log.json"
+
+
+def alert_log() -> dict:
+    """key -> ISO timestamp of when that alert last fired."""
+    return _read(ALERT_LOG_PATH, {})
+
+
+def record_alerts(keys: list[str], when: str | None = None) -> None:
+    """Persist fire times so a cooldown survives a restart.
+
+    Without this the cooldown lives only in memory and every run is the
+    first run, which is how an alerting system teaches its owner to
+    ignore it.
+    """
+    if not keys:
+        return
+    when = when or datetime.now(timezone.utc).isoformat()
+    log = alert_log()
+    for k in keys:
+        log[k] = when
+    # bounded: drop the oldest beyond 5000 rather than growing forever
+    if len(log) > 5000:
+        for k in sorted(log, key=lambda x: log[x])[: len(log) - 5000]:
+            log.pop(k, None)
+    _write(ALERT_LOG_PATH, log)

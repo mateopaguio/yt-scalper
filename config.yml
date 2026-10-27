@@ -470,3 +470,22 @@ tiers:
     priority: 4
 request_delay_seconds: 4.0
 max_per_channel_per_run: 3
+
+# Tiered notification thresholds. Tune here, not in code.
+#   critical  = independent work AND a filed event. Breaks through silent.
+#   watchlist = independent work, no filed event yet. Normal push.
+#   digest    = scheduled summary. Silent.
+alerts:
+  critical_min_independent: 2
+  critical_min_materiality: 4
+  critical_min_score: 4.0
+  watchlist_min_score: 3.0
+  watchlist_min_independent: 2
+  cooldown_hours:
+    critical: 12
+    watchlist: 24
+    digest: 6
+  max_per_run:
+    critical: 3
+    watchlist: 5
+    digest: 1

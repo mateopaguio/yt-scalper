@@ -1,5 +1,91 @@
 [
   {
+    "video_id": "vu5ukQ5RuNM",
+    "title": "Airfares May Actually Be At Bargain Levels 10/27/26",
+    "channel": "CNBC Television",
+    "published": "2026-10-27T07:00:02+00:00",
+    "url": "https://www.youtube.com/watch?v=vu5ukQ5RuNM",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "1rgOKcmanV4",
+    "title": "Berkshire's Strange AI Investment",
+    "channel": "The Compound",
+    "published": "2026-10-27T02:20:26+00:00",
+    "url": "https://www.youtube.com/watch?v=1rgOKcmanV4",
+    "tier": 1,
+    "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
+    "source_type": "video",
+    "findings": {
+      "summary": "Two hosts discuss Bending Spoons, a private company that buys declining consumer apps (AOL, Vimeo, Eventbrite, Evernote, WeTransfer, Meetup, Airtable), cuts staff, raises prices, and uses AI to run them for cash flow. They note Berkshire Hathaway's apparent involvement in Bending Spoons' IPO and a recent filing showing additional purchases, framing it as strange and not financially significant. Financial figures cited for Bending Spoons are presented without sourcing.",
+      "overall_stance": "neutral",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Berkshire's stake signals a notable shift as one of the first investments made without Buffett's direct involvement, though the hosts say the dollar amount is small."
+      ],
+      "red_flags": [
+        "Revenue and earnings figures for Bending Spoons (revenue $1.3B, 100% growth, operating income $613M) are stated without any source or filing reference.",
+        "Acquisition return thresholds (25% before debt, 65% after debt) are described without evidence of how they are measured or whether they are achieved.",
+        "Business model described involves mass layoffs and price increases on existing users, with the hosts acknowledging significant user anger; the long-term sustainability of this is not discussed.",
+        "No discussion of risks to the Berkshire position or to the valuation of the publicly traded holding."
+      ],
+      "tickers": [
+        {
+          "ticker": "BRK.B",
+          "company": "Berkshire Hathaway",
+          "stance": "unclear",
+          "thesis": "The hosts flag Berkshire's purchase of a newly public Bending Spoons-related stake, and a recent filing showing an added position, as strange and a signal of a changing approach. They say the position is too small to move Berkshire's results. No clear buy or sell view is stated.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "0:00",
+          "sector": "financials",
+          "price_target": "",
+          "timeframe": "",
+          "catalyst": "Recent SEC filing disclosing additional purchases",
+          "breakout_signal": "catalyst_driven"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "MkYI8wrjHNU",
+    "title": "Morgan Stanley's Michael Gapen: Fed will likely hold rates on Wednesday",
+    "channel": "CNBC Television",
+    "published": "2026-10-27T01:13:46+00:00",
+    "url": "https://www.youtube.com/watch?v=MkYI8wrjHNU",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "Morgan Stanley chief U.S. economist Michael Gapen, interviewed on CNBC ahead of the Fed's Wednesday rate decision, says he agrees with the market that the Fed will hold rates this week but will signal that policy rates are likely to rise later. He expects two dissents (versus three in July), says the Fed may lean on tighter financial conditions and equity volatility as reasons for a gradual pace, and flags energy-driven inflation risks from the Middle East conflict. He also says the economy can likely absorb roughly 75 to 100 basis points of total hikes. Analysis is qualitative and mostly unquantified beyond the dissent count and hike range.",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Fed expected to hold rates at the upcoming meeting, with a 'hawkish hold' message that further policy rate increases are still expected.",
+        "Market is reportedly pricing a pause now and favoring a hike at the December meeting.",
+        "Gapen expects about two dissents at the meeting, down from three in July; fewer dissents would read as more dovish.",
+        "Tighter financial conditions and equity volatility may give the Fed reason to move gradually; Gapen says the Fed may cite them.",
+        "Energy prices remain elevated due to the Middle East conflict and are not seen as transitory; Morgan Stanley is factoring some of this into its next-year inflation forecast.",
+        "Gapen says the economy can likely handle roughly 75 to 100 basis points of total hikes without a tremendous amount of damage.",
+        "Fed chair Kevin Warsh is expected to avoid explicit forward guidance, which may affect how the statement is worded."
+      ],
+      "red_flags": [
+        "No position disclosure; host's and guest's holdings not stated.",
+        "Macro forecasts (hike path, dissent count, 75-100bp range) are stated without detailed supporting data in the transcript.",
+        "Speculative elements such as how the Fed will word its statement and how yields may react."
+      ],
+      "tickers": []
+    }
+  },
+  {
     "video_id": "rqlvkSPkTIQ",
     "title": "AI's 2027 bill: about $1.2 trillion",
     "channel": "Yahoo Finance",
@@ -10,6 +96,94 @@
     "source_type": "video",
     "findings": null,
     "skip_reason": "content too short"
+  },
+  {
+    "video_id": "mTb-Wu6Sjkc",
+    "title": "Small Cap Bull Case & How Mag 7 Earnings, Fed Rate Decision Threaten Rally",
+    "channel": "Schwab Network",
+    "published": "2026-10-27T00:00:32+00:00",
+    "url": "https://www.youtube.com/watch?v=mTb-Wu6Sjkc",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Schwab Network segment with Gina Martin Adams, chief market strategist at B. Wealth, discussing a two-week market selloff, with small caps down about 10% into correction territory and semiconductors down roughly 18%. She attributes most of the selloff to rising Treasury yields and argues small-cap earnings outlook has not changed, so the case for a rebound depends on stable rates and upcoming earnings from small caps, big tech, and industrials. She also says large-cap earnings growth is strong (about 25% expected) but slowing, and that no 2027 reacceleration is yet confirmed.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Selloff in stocks is driven mostly by Treasury yields; the 10-year was near 4.99% with yields described as having peaked and started to stabilize.",
+        "Upcoming Fed rate decision is a key watch item for bond and equity markets this week.",
+        "Small-cap revenue growth over the next four quarters is expected to be near its long-term average pace, per the host.",
+        "Roughly 80% of companies have beaten expectations, with about 25% earnings growth expected, a slowdown from the first half of the year (nearly 30% growth, 85% beat rate in Q2).",
+        "Industrials face high diesel costs and rate sensitivity; potential AI-trade headwinds.",
+        "Anthropic IPO filing reportedly imminent and described as a potential part of the market story."
+      ],
+      "red_flags": [
+        "Claims that small-cap selloff is 'very exclusively' rate-driven are asserted without showing the supporting analysis.",
+        "Forward-looking earnings calls (2027 reacceleration) are stated as hopes contingent on data not yet seen; no downside scenario is laid out in detail.",
+        "Limited discussion of risks if yields rise further or if Fed tightens; treated as conditional rather than quantified."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Small-cap stocks (Russell 2000 style index, no single name)",
+          "stance": "neutral",
+          "thesis": "Host says small caps were hit hardest by rate-driven selling and are valued at a discount to large caps; recovery depends on stable rates and earnings acceleration into 2027. She calls the position a bit of a bravery bet given years of underperformance.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "0:10",
+          "sector": "",
+          "price_target": "",
+          "timeframe": "next few quarters",
+          "catalyst": "This week's small-cap earnings and the Fed decision",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "",
+          "company": "Semiconductor stocks (sector)",
+          "stance": "unclear",
+          "thesis": "Noted as hit hard, down about 18% against a benchmark, as part of the broader pullback; no view on direction given beyond calling the move part of a possibly healthy correction.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "0:30",
+          "sector": "semiconductors",
+          "price_target": "",
+          "timeframe": "",
+          "catalyst": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "",
+          "company": "Large-cap technology and communication companies (AI trade)",
+          "stance": "unclear",
+          "thesis": "Described as the recent weak spot tied to AI concerns; host says their earnings this week need careful watching, and that a 2027 earnings reacceleration is not yet confirmed.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "3:49",
+          "sector": "technology",
+          "price_target": "",
+          "timeframe": "this earnings week",
+          "catalyst": "Big-cap tech and communication earnings",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "",
+          "company": "Industrials (sector within small caps)",
+          "stance": "neutral",
+          "thesis": "Flagged as a critical small-cap sector to watch; it must show stability despite AI-trade headwinds and high diesel costs, and its earnings could signal whether small caps can re-accelerate in 2027.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "8:00",
+          "sector": "industrials",
+          "price_target": "",
+          "timeframe": "2027",
+          "catalyst": "Small-cap industrial earnings this week",
+          "breakout_signal": "none"
+        }
+      ]
+    }
   },
   {
     "video_id": "SAqhtP342V4",
@@ -253,6 +427,72 @@
     "source_type": "video",
     "findings": null,
     "skip_reason": "content too short"
+  },
+  {
+    "video_id": "tDF_YA-qY3Q",
+    "title": "Stock Market Today: TSLA & LMT Upgrades, Anthropic Files for IPO #shorts",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T23:00:11+00:00",
+    "url": "https://www.youtube.com/watch?v=tDF_YA-qY3Q",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A short market recap from Schwab Network covering the day's close (Nasdaq 100 up over 1%, most sectors positive, communications the laggard) and several stock-specific items: Barclays upgraded Tesla to overweight with a $450 target citing a possible SpaceX merger and core business outlook, and Morgan Stanley upgraded Lockheed Martin to overweight, citing an F-35 production agreement as reducing risk. It also reported Anthropic's IPO filing (planned Nasdaq listing under the symbol ENT) and a preview of Tuesday's economic data and earnings. The host offers no analysis of the upgrades beyond relaying the analysts' reasoning.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Nasdaq 100 gained more than 1% and seven of 11 S&P 500 sectors closed positive to start the week.",
+        "Tuesday's calendar includes durable goods, consumer confidence, new home sales, and earnings from Boeing, Coca-Cola, UPS, Seagate, and Visa."
+      ],
+      "red_flags": [
+        "Relays analyst upgrades without any risk discussion or counterpoints",
+        "Tesla merger with SpaceX is cited as a driver but is not explained or sourced; SpaceX is private, so any merger is speculative as presented"
+      ],
+      "tickers": [
+        {
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "stance": "bullish",
+          "thesis": "Barclays upgraded Tesla to overweight from equal weight, with a $450 price target, pointing to a potential merger opportunity with SpaceX and a stronger core business outlook. The host reports the analyst's view and notes the stock rose 5% on the day and is up 10% for the month.",
+          "conviction": "medium",
+          "evidence": "speculation",
+          "price_target": "$450 (Barclays)",
+          "timestamp": "0:20",
+          "breakout_signal": "price_move",
+          "catalyst": "Barclays rating upgrade",
+          "timeframe": ""
+        },
+        {
+          "ticker": "LMT",
+          "company": "Lockheed Martin",
+          "stance": "bullish",
+          "thesis": "Morgan Stanley upgraded Lockheed to overweight from equal weight, arguing that a government framework agreement for continued F-35 production removes significant risk from the stock. The shares closed at a six-month high. No numbers on the agreement or valuation were given.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "price_target": "",
+          "timestamp": "0:43",
+          "breakout_signal": "price_move",
+          "catalyst": "Morgan Stanley rating upgrade",
+          "timeframe": ""
+        },
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "neutral",
+          "thesis": "Anthropic filed for an IPO, planning to trade on the Nasdaq under the symbol ENT next month. The host reports the prospectus showed 1,000% revenue growth in 2025 and that the company does not expect comparable growth, and notes risks flagged in the filing. No view on valuation or investment merit was expressed.",
+          "conviction": "low",
+          "evidence": "data",
+          "price_target": "",
+          "timestamp": "0:59",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "IPO listing on Nasdaq next month",
+          "timeframe": "next month"
+        }
+      ]
+    }
   },
   {
     "video_id": "QiOhe3qCRlU",
@@ -675,6 +915,101 @@
         }
       ]
     }
+  },
+  {
+    "video_id": "bvqvkV2rP4o",
+    "title": "Monday's Final Takeaways: SPCX Secures $40B GPU Funding, Brazil Stocks Plunge",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T21:00:14+00:00",
+    "url": "https://www.youtube.com/watch?v=bvqvkV2rP4o",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Schwab Network closing-bell recap covering SpaceX's reported ~$40B binding financing commitment for Nvidia Vera Rubin chips for AI computing buildout, Elon Musk's warning of a shakeout among smaller AI cloud companies, and a sharp selloff in Brazilian stocks after Lula won a fourth term over the market-friendlier Bolsonaro-backed candidate. It also mentions two leveraged SK Hynix ETFs being liquidated and a busy earnings calendar. The hosts mostly report news and recap moves without offering their own valuation views.",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Brazilian election outcome (Lula's fourth term) triggered sharp selloff in Brazilian stocks and pressure on the real; the EWZ ETF reportedly fell about 15% overnight, its biggest one-day loss since 2008.",
+        "Musk warns of consolidation among cloud companies, with weaker players possibly shut out of debt markets, raising the question of whether AI cloud firms can generate cash to cover infrastructure spending.",
+        "Investor concern about debt financing for AI data centers and expensive chips."
+      ],
+      "red_flags": [
+        "Reported financing headline is company-described; the hosts do not independently verify the terms or payback claims (SpaceX CFO says payback under one year)."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "SpaceX",
+          "stance": "unclear",
+          "thesis": "Host reports SpaceX secured a binding commitment of roughly $40B to fund Nvidia Vera Rubin chips for its computing buildout, with the company claiming payback periods under a year on infrastructure investments. Hosts relay this without offering their own view.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "0:07",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Lease expected to close by year end; deliveries beginning first half of 2027",
+          "price_target": "",
+          "sector": "ai infrastructure",
+          "timeframe": "by year end 2026"
+        },
+        {
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "stance": "neutral",
+          "thesis": "Shares fell during the session amid investor worry about debt-funded data center buildouts; the host noted it recovered some losses intraday but was lower at the close. No view offered on the company's prospects.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "1:56",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": "",
+          "sector": "ai infrastructure",
+          "timeframe": ""
+        },
+        {
+          "ticker": "EWZ",
+          "company": "iShares MSCI Brazil ETF",
+          "stance": "bearish",
+          "thesis": "Brazil-focused ETF sold off sharply after Lula's election win, which the host framed as a reversal of earlier rally hopes for a Bolsonaro victory. Reported as biggest one-day loss since 2008.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "2:00",
+          "breakout_signal": "price_move",
+          "catalyst": "Brazilian presidential runoff result",
+          "price_target": "",
+          "sector": "other",
+          "timeframe": ""
+        },
+        {
+          "ticker": "",
+          "company": "SK Hynix",
+          "stance": "neutral",
+          "thesis": "Host notes shares are down over 50% from their record high amid valuation and funding concerns, and that two leveraged US-listed ETFs tied to it will be liquidated. Earnings are due the following night, but no view is offered on the stock itself.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "3:16",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Earnings report the next evening",
+          "price_target": "",
+          "sector": "semiconductors",
+          "timeframe": "next earnings"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "pyijqV6899Q",
+    "title": "Stock Market Today: October 27, 2026",
+    "channel": "Investor's Business Daily",
+    "published": "2026-10-26T20:57:07+00:00",
+    "url": "https://www.youtube.com/watch?v=pyijqV6899Q",
+    "tier": 1,
+    "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "video unavailable (VideoUnplayable)"
   },
   {
     "video_id": "rDneWrPeTmU",

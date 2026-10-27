@@ -161,3 +161,39 @@ def build_signal_alert(sig: dict, site_url: str = "",
     if site_url:
         lines.append(site_url)
     return "\n".join(lines), keys
+
+
+def send_tiered(cfg, tier_messages: dict, dry_run: bool = False) -> dict:
+    """Send one push per tier, each with its own ntfy priority.
+
+    Separate messages on purpose: a critical alert buried inside a digest
+    is a critical alert nobody reads. Priority 5 breaks through a silent
+    phone; priority 1 arrives without a sound.
+    """
+    topic = getattr(cfg, "ntfy_topic", None)
+    results = {}
+    for tier, m in (tier_messages or {}).items():
+        if dry_run or not topic:
+            results[tier] = {"sent": False,
+                             "reason": "dry run" if dry_run else "no NTFY_TOPIC",
+                             "count": m.get("count", 0)}
+            continue
+        headers = {
+            "Title": m["title"],
+            "Priority": str(m["priority"]),
+            "Tags": m["tags"],
+        }
+        if getattr(cfg, "site_url", ""):
+            headers["Click"] = cfg.site_url
+        try:
+            resp = requests.post(f"https://ntfy.sh/{topic}",
+                                 data=m["body"].encode("utf-8"),
+                                 headers=headers, timeout=15)
+            resp.raise_for_status()
+            results[tier] = {"sent": True, "count": m.get("count", 0)}
+        except requests.RequestException as exc:
+            # Never let a notification failure kill the run.
+            print(f"  ! {tier} push failed: {str(exc)[:70]}")
+            results[tier] = {"sent": False, "reason": str(exc)[:70],
+                             "count": m.get("count", 0)}
+    return results

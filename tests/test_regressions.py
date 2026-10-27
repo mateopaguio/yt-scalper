@@ -369,6 +369,68 @@ def test_validate_never_raises():
         schemas.validate(junk, schemas.PRICE_BAR)      # must not raise
 
 
+
+# --------------------------------------------------------------------
+# ALERT TIERING. A notifier that fires on everything gets muted, and a
+# muted notifier equals no notifier.
+# --------------------------------------------------------------------
+def _alert_fixture():
+    return {"tickers": [
+        {"ticker": "NVDA", "score": {"total": 5.6, "vetoed": False},
+         "basis": {"independent_channels": ["a", "b", "c"]},
+         "catalyst_events": [{"materiality": 4, "title": "8-K filed"}],
+         "freshness": {"state": "forward_catalyst"}},
+        {"ticker": "AMD", "score": {"total": 3.4, "vetoed": False},
+         "basis": {"independent_channels": ["a", "b"]},
+         "catalyst_events": [], "freshness": {"state": "developing"}},
+        {"ticker": "T", "score": {"total": -0.5, "vetoed": True},
+         "basis": {"independent_channels": ["a"]}, "catalyst_events": []},
+    ]}
+
+
+def test_vetoed_ticker_never_alerts():
+    from scalper import alerts
+    c = alerts.classify(_alert_fixture())
+    assert not any(a["ticker"] == "T" for a in c), "a vetoed signal raised an alert"
+
+
+def test_critical_requires_a_filed_event():
+    from scalper import alerts
+    c = alerts.classify(_alert_fixture())
+    crit = [a for a in c if a["tier"] == alerts.CRITICAL]
+    assert [a["ticker"] for a in crit] == ["NVDA"]
+    # AMD has independent support but no filed event -> watchlist, not critical
+    amd = [a for a in c if a["ticker"] == "AMD"]
+    assert amd and amd[0]["tier"] == alerts.WATCHLIST
+
+
+def test_cooldown_suppresses_a_repeat():
+    from datetime import datetime, timedelta, timezone
+    from scalper import alerts
+    c = alerts.classify(_alert_fixture())
+    now = datetime.now(timezone.utc)
+    sent = {c[0]["key"]: (now - timedelta(hours=2)).isoformat()}
+    r = alerts.select(c, sent, now=now)
+    assert all(a["key"] != c[0]["key"] for a in r["send"]), "fired inside cooldown"
+    assert any("cooldown" in x["reason"] for x in r["suppressed"])
+
+
+def test_identical_state_produces_identical_key():
+    """Keys must be content-based, or a re-run re-alerts the same fact."""
+    from scalper import alerts
+    a = alerts.classify(_alert_fixture())
+    b = alerts.classify(_alert_fixture())
+    assert [x["key"] for x in a] == [x["key"] for x in b]
+
+
+def test_tiers_render_as_separate_messages():
+    from scalper import alerts
+    c = alerts.classify(_alert_fixture())
+    msgs = alerts.render(c, "https://example.com")
+    assert alerts.CRITICAL in msgs and alerts.WATCHLIST in msgs
+    assert msgs[alerts.CRITICAL]["priority"] > msgs[alerts.WATCHLIST]["priority"]
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -404,6 +466,13 @@ def main() -> int:
           test_option_quote_without_timestamp_is_unpriceable)
     check("schema: stale option quote is rejected", test_stale_option_quote_is_rejected)
     check("schema: validate() never raises", test_validate_never_raises)
+    check("alerts: a vetoed ticker never alerts", test_vetoed_ticker_never_alerts)
+    check("alerts: critical requires a filed event", test_critical_requires_a_filed_event)
+    check("alerts: cooldown suppresses a repeat", test_cooldown_suppresses_a_repeat)
+    check("alerts: identical state gives an identical key",
+          test_identical_state_produces_identical_key)
+    check("alerts: tiers render as separate messages",
+          test_tiers_render_as_separate_messages)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 
