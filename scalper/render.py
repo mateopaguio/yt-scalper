@@ -30,6 +30,10 @@ EVIDENCE_LABEL = {
 }
 
 CSS = """
+h2.sec{font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);border-bottom:1px solid var(--line);
+  padding-bottom:7px;margin:26px 0 13px}
+section:first-of-type h2.sec{margin-top:8px}
 /* --- terminal layout: decisions first, bulk collapsed --- */
 nav.jump{position:sticky;top:0;z-index:20;background:rgba(13,17,23,.94);
   backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
@@ -499,38 +503,6 @@ def _trust_html(digest: dict) -> str:
             "hundred; until then this is a record, not evidence.</div>"
         )
 
-    setups = digest.get("setups") or {}
-    if setups.get("hits"):
-        rows = []
-        for h in setups["hits"]:
-            ev = ", ".join(f"{k.replace('_',' ')} {v}"
-                           for k, v in (h.get("evidence") or {}).items())
-            rows.append(
-                f'<div class="card"><div class="row">'
-                f'<b>{_esc(h.get("ticker",""))}</b>'
-                f'<span class="pill good">{_esc(h.get("pattern","").replace("_"," "))}</span>'
-                f'<span class="weak">close {h.get("signal_close")}</span>'
-                f'<span class="weak">invalidation {h.get("invalidation")}</span>'
-                f'</div><div class="weak">{_esc(ev)}</div></div>'
-            )
-        out.append(
-            "<h2>Daily setups (paper)</h2>"
-            '<div class="note">Paper signals on the underlying, recorded and '
-            "scored separately from the creator signals. Daily bars only, so "
-            "no intraday setup is attempted. <b>No option is priced</b> "
-            "&mdash; measuring execution cost needs chain data that is not "
-            "configured, and an invented spread would defeat the point. "
-            "Entry is the close of the session after the signal bar.</div>"
-            + "".join(rows)
-        )
-    elif setups.get("errors"):
-        status.append(
-            '<div class="note"><b>Setup scan unavailable.</b> '
-            + _esc("; ".join(f"{e['ticker']}: {e['reason']}"
-                             for e in setups["errors"]))
-            + "</div>"
-        )
-
     vm = digest.get("verification_meta") or {}
     if vm.get("limitation"):
         status.append(
@@ -648,6 +620,96 @@ def _trust_html(digest: dict) -> str:
     return "".join(out)
 
 
+
+SECTIONS = (
+    ("today", "Today"),
+    ("scalp", "Scalp Lab"),
+    ("intel", "Intelligence"),
+    ("radar", "Catalyst Radar"),
+    ("perf", "Performance Lab"),
+)
+
+
+def _section(anchor: str, title: str, body: str) -> str:
+    """One of the five areas. Empty sections render a short honest line
+    rather than vanishing - a missing section looks like a bug, and
+    "nothing qualified today" is information."""
+    inner = body or ('<div class="empty">Nothing here this run.</div>')
+    return (f'<section id="{anchor}"><h2 class="sec">{_esc(title)}</h2>'
+            f'{inner}</section>')
+
+
+def _setups_html(digest: dict) -> str:
+    """Daily setups, rendered into Scalp Lab."""
+    out = []
+    setups = digest.get("setups") or {}
+    if setups.get("hits"):
+        rows = []
+        for h in setups["hits"]:
+            ev = ", ".join(f"{k.replace('_',' ')} {v}"
+                           for k, v in (h.get("evidence") or {}).items())
+            rows.append(
+                f'<div class="card"><div class="row">'
+                f'<b>{_esc(h.get("ticker",""))}</b>'
+                f'<span class="pill good">{_esc(h.get("pattern","").replace("_"," "))}</span>'
+                f'<span class="weak">close {h.get("signal_close")}</span>'
+                f'<span class="weak">invalidation {h.get("invalidation")}</span>'
+                f'</div><div class="weak">{_esc(ev)}</div></div>'
+            )
+        out.append(
+            '<div class="note">Paper signals on the underlying, recorded and '
+            "scored separately from the creator signals. Daily bars only, so "
+            "no intraday setup is attempted. <b>No option is priced</b> "
+            "&mdash; measuring execution cost needs chain data that is not "
+            "configured, and an invented spread would defeat the point. "
+            "Entry is the close of the session after the signal bar.</div>"
+            + "".join(rows)
+        )
+    elif setups.get("errors"):
+        out.append(
+            '<div class="note"><b>Setup scan unavailable.</b> '
+            + _esc("; ".join(f"{e['ticker']}: {e['reason']}"
+                             for e in setups["errors"]))
+            + "</div>"
+        )
+
+    return "".join(out)
+
+
+def _perf_html(digest: dict) -> str:
+    """Performance Lab: what has actually been measured, and what has not."""
+    health = digest.get("price_health") or {}
+    sl = digest.get("signal_log") or {}
+    out = []
+
+    if health:
+        by = health.get("resolved_by_horizon") or {}
+        rows = "".join(
+            f'<div class="row"><b>{_esc(h)}d</b>'
+            f'<span class="weak">{n} signal(s) with a measured return</span></div>'
+            for h, n in sorted(by.items(), key=lambda kv: int(kv[0])))
+        out.append(
+            f'<div class="card">{rows}</div>'
+            f'<div class="note">{health.get("total_signals", 0)} signals recorded, '
+            f'{health.get("measured", 0)} priced. '
+            + (_esc(health.get("warning")) if health.get("warning") else
+               "Statistical conclusions need a few hundred resolved signals; "
+               "until then this is a record, not evidence.")
+            + "</div>")
+
+    if sl:
+        out.append(
+            f'<div class="note">This run: {len(sl.get("created") or [])} new signal(s), '
+            f'{len(sl.get("updated") or [])} materially changed, '
+            f'{sl.get("unchanged", 0)} unchanged.</div>')
+
+    out.append(
+        '<div class="note">No strategy here has been validated. The backtest '
+        'showed one pattern below buy-and-hold across 330 signals and the '
+        'other resting on 22 observations. Nothing on this page should be '
+        'read as a working edge.</div>')
+    return "".join(out)
+
 def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Path:
     out_dir = out_dir or DOCS_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -704,15 +766,9 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
 
     # Decisions first, reference material last. Anchors let a phone jump
     # rather than scroll 400KB.
-    nav = (
-        '<nav class="jump">'
-        '<a href="#top">Top</a>'
-        '<a href="#radar">Catalysts</a>'
-        '<a href="#signals">Moving</a>'
-        '<a href="#quiet">Under the radar</a>'
-        '<a href="#all">All tickers</a>'
-        '</nav>'
-    )
+    nav = ('<nav class="jump">'
+           + "".join(f'<a href="#{a}">{_esc(t)}</a>' for a, t in SECTIONS)
+           + '</nav>')
     catalyst_events = digest.get("catalysts") or []
     cat_cards = [c for c in (_catalyst_card(e) for e in catalyst_events) if c]
     catalyst_html = _fold("Catalysts filed", "".join(cat_cards),
@@ -730,6 +786,27 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
         "".join(_video_card(v) for v in videos),
         f"{len(videos)}",
     ) if videos else ""
+
+    # --- the five areas ------------------------------------------------
+    setups = digest.get("setups") or {}
+    setups_html = ""
+    if setups.get("hits") or setups.get("errors") or setups.get("diagnostics"):
+        # _trust_html already renders the setup block; pull it out so it
+        # lands in Scalp Lab rather than halfway down Intelligence.
+        setups_html = _setups_html(digest)
+
+    today_sec = _section("today", "Today", lead_html + signals_html)
+    scalp_sec = _section(
+        "scalp", "Scalp Lab",
+        setups_html
+        + '<div class="note">Paper only. No broker is connected and no order '
+          'can be placed &mdash; there is no execution code in this project. '
+          'Options are not priced: no chain data is configured, and an '
+          'invented spread would defeat the point of measuring cost.</div>')
+    intel_sec = _section("intel", "Intelligence",
+                         trust_html + radar_html + ticker_html + video_html)
+    radar_sec = _section("radar", "Catalyst Radar", calendar_html + catalyst_html)
+    perf_sec = _section("perf", "Performance Lab", _perf_html(digest))
 
     page = f"""<!doctype html>
 <html lang="en"><head>
@@ -752,19 +829,11 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
 </header>
 {nav}
 {note}
-<div id="top"></div>
-{lead_html}
-{trust_html}
-<div id="radar"></div>
-{calendar_html}
-{catalyst_html}
-<div id="signals"></div>
-{signals_html}
-<div id="quiet"></div>
-{radar_html}
-<div id="all"></div>
-{ticker_html}
-{video_html}
+{today_sec}
+{scalp_sec}
+{intel_sec}
+{radar_sec}
+{perf_sec}
 <footer>
   This page reports what these videos claimed. It is not investment advice,
   not a recommendation, and not a judgment on whether any call is correct.
