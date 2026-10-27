@@ -271,6 +271,57 @@ def test_position_sizing_respects_risk():
     assert abs(t["net_pnl"] + 100) < 1e-6, "a stop-out should cost exactly the risk"
 
 
+
+# --------------------------------------------------------------------
+# SIZING INVARIANTS. This module must never imply a trade is advisable,
+# and must never let an oversized position pass silently.
+# --------------------------------------------------------------------
+def test_sizing_flags_an_account_that_is_too_small():
+    from scalper import sizing
+    r = sizing.assess(sizing.Account(equity=50.0), 0.45, contracts=1)
+    assert not r["within_budget"], "a 90%-of-account position passed as within budget"
+    assert r["flags"], "no flags raised on a 90% position"
+    assert r["total_losses_survivable"] <= 1
+
+
+def test_sizing_passes_a_sane_position():
+    from scalper import sizing
+    # $10k account, $0.45 contract, 2% budget -> $200 budget, 4 contracts fit
+    r = sizing.assess(sizing.Account(equity=10_000.0), 0.45, contracts=1)
+    assert r["within_budget"], f"a 0.45% position was flagged: {r['flags']}"
+    assert r["contracts_within_budget"] >= 4
+
+
+def test_max_loss_is_the_whole_premium():
+    """Long options expire worthless. Max loss is never less than cost."""
+    from scalper import sizing
+    r = sizing.assess(sizing.Account(equity=10_000.0), 1.00, contracts=3)
+    assert r["max_loss"] == r["total_cost"] == 300.0
+
+
+def test_sizing_never_recommends():
+    """No OUTPUT may read as advice.
+
+    Checks what the module emits, not what its source says. The first
+    version scanned the source and failed on the docstring that explains
+    the module does not say "good buy" - testing prose rather than
+    behaviour.
+    """
+    from scalper import sizing
+    banned = ("good buy", "should buy", "recommend", "strong buy",
+              "buy signal", "worth buying", "go long", "take this trade")
+
+    for equity, price, n in ((50.0, 0.45, 1), (10_000.0, 0.45, 1),
+                             (250_000.0, 12.0, 5)):
+        r = sizing.assess(sizing.Account(equity=equity), price, contracts=n)
+        emitted = " ".join(str(v) for v in r.values()).lower()
+        emitted += " " + " ".join(r.get("flags") or []).lower()
+        for word in banned:
+            assert word not in emitted, (
+                f"sizing output contained advice language {word!r} "
+                f"for equity={equity}")
+
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -294,6 +345,11 @@ def main() -> int:
           test_open_position_is_not_counted_as_a_win)
     check("paper: position sizing respects the risk budget",
           test_position_sizing_respects_risk)
+    check("sizing: flags an account too small for the contract",
+          test_sizing_flags_an_account_that_is_too_small)
+    check("sizing: passes a sane position", test_sizing_passes_a_sane_position)
+    check("sizing: max loss is the whole premium", test_max_loss_is_the_whole_premium)
+    check("sizing: emits no buy/sell advice", test_sizing_never_recommends)
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 
