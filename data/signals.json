@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-26T16:43:31.300067+00:00",
- "outcomes_last_run": "2026-10-26T16:43:31.359284+00:00",
+ "last_run": "2026-10-27T03:31:41.055887+00:00",
+ "outcomes_last_run": "2026-10-27T03:31:41.084318+00:00",
  "signals": [
   {
    "basis_counts": {
@@ -43,6 +43,7 @@
    },
    "days_covered": 5,
    "derivative_share": 0.07,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -74,9 +75,17 @@
    ],
    "last_seen": "2026-10-26T15:14:54.805934+00:00",
    "outcome": {
-    "attempts": 9,
-    "checked_at": "2026-10-26T16:43:31.359284+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 630.56,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Couch Investor"
@@ -327,6 +336,7 @@
    },
    "days_covered": 5,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -350,11 +360,19 @@
     "Ticker Symbol: YOU",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300121+00:00",
+   "last_seen": "2026-10-27T03:31:41.055924+00:00",
    "outcome": {
-    "attempts": 9,
-    "checked_at": "2026-10-26T16:43:31.359284+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 216.0,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -564,7 +582,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "NVDA",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -616,6 +634,7 @@
    },
    "days_covered": 4,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -637,11 +656,19 @@
     "Yahoo Finance",
     "manual"
    ],
-   "last_seen": "2026-10-26T16:43:31.300139+00:00",
+   "last_seen": "2026-10-27T03:31:41.055928+00:00",
    "outcome": {
-    "attempts": 9,
-    "checked_at": "2026-10-26T16:43:31.359284+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 391.62,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -812,7 +839,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "TSLA",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -864,6 +891,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "running",
@@ -883,11 +911,19 @@
     "Jose Najarro Stocks",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300144+00:00",
+   "last_seen": "2026-10-27T03:31:41.055931+00:00",
    "outcome": {
-    "attempts": 2,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 55.19,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -967,7 +1003,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CRWV",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1019,6 +1055,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "forward_catalyst",
@@ -1037,11 +1074,19 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300148+00:00",
+   "last_seen": "2026-10-27T03:31:41.055938+00:00",
    "outcome": {
-    "attempts": 2,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 343.91,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1186,7 +1231,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "AAPL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1238,6 +1283,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "late_to_story",
@@ -1256,11 +1302,19 @@
     "Schwab Network",
     "manual"
    ],
-   "last_seen": "2026-10-26T16:43:31.300152+00:00",
+   "last_seen": "2026-10-27T03:31:41.055941+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 237.5,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1327,7 +1381,7 @@
    },
    "status": "PASS",
    "ticker": "LRCX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1381,6 +1435,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -1399,11 +1454,19 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300156+00:00",
+   "last_seen": "2026-10-27T03:31:41.055943+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 63.9,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1470,7 +1533,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "NFLX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1522,6 +1585,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "running",
@@ -1531,6 +1595,11 @@
      "at": "2026-10-26T09:12:01.560813+00:00",
      "reason": "first observation",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-10-27T01:15:05.688902+00:00",
+     "reason": "superseded: score moved +3.22 -> +4.49",
+     "status": "EXPIRED"
     }
    ],
    "id": "MSFT-122c1fdcb2af",
@@ -1540,11 +1609,19 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300162+00:00",
+   "last_seen": "2026-10-27T01:15:05.688902+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 532.6,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1609,9 +1686,9 @@
     "bullish": 3,
     "neutral": 1
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "ticker": "MSFT",
-   "times_seen": 15,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1663,6 +1740,7 @@
    },
    "days_covered": 2,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -1680,11 +1758,19 @@
     "The Compound",
     "manual"
    ],
-   "last_seen": "2026-10-26T16:43:31.300166+00:00",
+   "last_seen": "2026-10-27T03:31:41.055950+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 253.44,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1738,7 +1824,7 @@
    },
    "status": "RESEARCH",
    "ticker": "IBM",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1790,6 +1876,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "running",
@@ -1814,9 +1901,17 @@
    ],
    "last_seen": "2026-10-26T15:14:54.806012+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 153.27,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1922,6 +2017,7 @@
    },
    "days_covered": 2,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "late_to_story",
@@ -1939,11 +2035,19 @@
     "Couch Investor",
     "StockedUp"
    ],
-   "last_seen": "2026-10-26T16:43:31.300169+00:00",
+   "last_seen": "2026-10-27T03:31:41.055955+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 531.28,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1997,7 +2101,7 @@
    },
    "status": "PASS",
    "ticker": "AMD",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2051,6 +2155,7 @@
    },
    "days_covered": 2,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "developing",
@@ -2068,11 +2173,19 @@
     "Couch Investor",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300173+00:00",
+   "last_seen": "2026-10-27T03:31:41.055957+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 316.8,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2126,7 +2239,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "GOOGL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2178,6 +2291,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.75,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -2193,11 +2307,19 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300180+00:00",
+   "last_seen": "2026-10-27T03:31:41.055960+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 20.85,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -2267,7 +2389,7 @@
    },
    "status": "PASS",
    "ticker": "T",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2321,6 +2443,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.75,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -2336,11 +2459,19 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300182+00:00",
+   "last_seen": "2026-10-27T03:31:41.055962+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 146.93,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -2410,7 +2541,7 @@
    },
    "status": "PASS",
    "ticker": "TMUS",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2464,6 +2595,7 @@
    },
    "days_covered": 2,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "forward_catalyst",
@@ -2480,11 +2612,19 @@
     "Benzinga",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300186+00:00",
+   "last_seen": "2026-10-27T03:31:41.055966+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 356.13,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2551,7 +2691,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "WDC",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2603,6 +2743,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -2619,11 +2760,19 @@
     "CNBC Television",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300189+00:00",
+   "last_seen": "2026-10-27T03:31:41.055968+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 315.05,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2677,7 +2826,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AXP",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2729,6 +2878,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -2745,11 +2895,19 @@
     "Benzinga",
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300192+00:00",
+   "last_seen": "2026-10-27T03:31:41.055971+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 203.92,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2790,7 +2948,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BE",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2842,6 +3000,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.5,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -2857,11 +3016,19 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-26T16:43:31.300198+00:00",
+   "last_seen": "2026-10-27T03:31:41.055975+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 66.13,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Couch Investor"
@@ -2904,7 +3071,7 @@
    },
    "status": "PASS",
    "ticker": "UBER",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2958,6 +3125,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -2974,11 +3142,19 @@
     "Bloomberg Television",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300202+00:00",
+   "last_seen": "2026-10-27T03:31:41.055977+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 15.25,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3019,7 +3195,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NCLH",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3071,6 +3247,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -3087,11 +3264,19 @@
     "Couch Investor",
     "The Compound"
    ],
-   "last_seen": "2026-10-26T16:43:31.300205+00:00",
+   "last_seen": "2026-10-27T03:31:41.055983+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 92.84,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3132,7 +3317,7 @@
    },
    "status": "RESEARCH",
    "ticker": "HOOD",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3184,6 +3369,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "forward_catalyst",
@@ -3193,6 +3379,11 @@
      "at": "2026-10-26T09:12:01.560946+00:00",
      "reason": "first observation",
      "status": "WATCHLIST"
+    },
+    {
+     "at": "2026-10-26T22:26:42.878901+00:00",
+     "reason": "superseded: new independent channel: Yahoo Finance",
+     "status": "EXPIRED"
     }
    ],
    "id": "AMZN-499f30f2134b",
@@ -3200,11 +3391,19 @@
     "Couch Investor",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300208+00:00",
+   "last_seen": "2026-10-26T22:26:42.878901+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 249.09,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3243,9 +3442,9 @@
     "bullish": 2,
     "neutral": 0
    },
-   "status": "WATCHLIST",
+   "status": "EXPIRED",
    "ticker": "AMZN",
-   "times_seen": 15,
+   "times_seen": 19,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3297,6 +3496,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.5,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -3306,17 +3506,30 @@
      "at": "2026-10-26T09:12:01.560952+00:00",
      "reason": "first observation",
      "status": "PASS"
+    },
+    {
+     "at": "2026-10-27T01:15:05.689041+00:00",
+     "reason": "superseded: freshness state changed",
+     "status": "EXPIRED"
     }
    ],
    "id": "CVX-0167d9dc84d1",
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300211+00:00",
+   "last_seen": "2026-10-27T01:15:05.689041+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 232.01,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Schwab Network"
@@ -3357,9 +3570,9 @@
     "bullish": 1,
     "neutral": 0
    },
-   "status": "PASS",
+   "status": "EXPIRED",
    "ticker": "CVX",
-   "times_seen": 15,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3414,6 +3627,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -3430,11 +3644,19 @@
     "Asymmetric Investing",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300214+00:00",
+   "last_seen": "2026-10-27T03:31:41.055986+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 126.06,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3475,7 +3697,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ORCL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3527,6 +3749,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.5,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -3549,9 +3772,17 @@
    ],
    "last_seen": "2026-10-26T15:14:54.806040+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 43.1,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "CNBC Television"
@@ -3648,6 +3879,7 @@
    },
    "days_covered": 2,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "developing",
@@ -3657,6 +3889,11 @@
      "at": "2026-10-26T09:12:01.560972+00:00",
      "reason": "first observation",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-10-27T01:15:05.689001+00:00",
+     "reason": "superseded: new independent channel: CNBC Television",
+     "status": "EXPIRED"
     }
    ],
    "id": "XOM-c63f7faec5c2",
@@ -3664,11 +3901,19 @@
     "Bloomberg Television",
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300217+00:00",
+   "last_seen": "2026-10-27T01:15:05.689001+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 184.54,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3707,9 +3952,9 @@
     "bullish": 0,
     "neutral": 2
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "ticker": "XOM",
-   "times_seen": 15,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3761,6 +4006,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -3770,17 +4016,30 @@
      "at": "2026-10-26T09:12:01.560978+00:00",
      "reason": "first observation",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-10-26T22:26:42.878988+00:00",
+     "reason": "superseded: freshness state changed",
+     "status": "EXPIRED"
     }
    ],
    "id": "TTWO-b389a1b0d765",
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300220+00:00",
+   "last_seen": "2026-10-26T22:26:42.878988+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 203.35,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3819,9 +4078,9 @@
     "bullish": 0,
     "neutral": 1
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "ticker": "TTWO",
-   "times_seen": 15,
+   "times_seen": 19,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3873,6 +4132,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "forward_catalyst",
@@ -3888,11 +4148,19 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300223+00:00",
+   "last_seen": "2026-10-27T03:31:41.055992+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 644.21,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3933,7 +4201,7 @@
    },
    "status": "RESEARCH",
    "ticker": "STX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3985,6 +4253,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4000,11 +4269,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300225+00:00",
+   "last_seen": "2026-10-27T03:31:41.056030+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 102.69,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4032,7 +4309,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SBUX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4084,6 +4361,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4099,11 +4377,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300228+00:00",
+   "last_seen": "2026-10-27T03:31:41.056033+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 1279.14,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4131,7 +4417,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LLY",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4183,6 +4469,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4198,11 +4485,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300230+00:00",
+   "last_seen": "2026-10-27T03:31:41.056035+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 92.7,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4230,7 +4525,7 @@
    },
    "status": "RESEARCH",
    "ticker": "KO",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4282,6 +4577,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4297,11 +4593,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300232+00:00",
+   "last_seen": "2026-10-27T03:31:41.056037+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 149.21,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4329,7 +4633,7 @@
    },
    "status": "RESEARCH",
    "ticker": "KLAC",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4381,6 +4685,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4396,11 +4701,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300235+00:00",
+   "last_seen": "2026-10-27T03:31:41.056040+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 692.13,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4428,7 +4741,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CAT",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4480,6 +4793,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4495,11 +4809,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300237+00:00",
+   "last_seen": "2026-10-27T03:31:41.056042+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 404.16,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4527,7 +4849,7 @@
    },
    "status": "RESEARCH",
    "ticker": "V",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4579,6 +4901,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4594,11 +4917,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300240+00:00",
+   "last_seen": "2026-10-27T03:31:41.056044+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 450.65,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4626,7 +4957,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SPGI",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4678,6 +5009,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4693,11 +5025,19 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300242+00:00",
+   "last_seen": "2026-10-27T03:31:41.056046+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 301.12,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4725,7 +5065,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ADP",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4777,6 +5117,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4786,17 +5127,30 @@
      "at": "2026-10-26T09:12:01.561036+00:00",
      "reason": "first observation",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-10-26T18:45:21.900436+00:00",
+     "reason": "superseded: score moved +3.00 -> +4.14",
+     "status": "EXPIRED"
     }
    ],
    "id": "VRT-fcd87cf22bd7",
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-26T16:43:31.300245+00:00",
+   "last_seen": "2026-10-26T18:45:21.900436+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 199.78,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4822,9 +5176,9 @@
     "bullish": 1,
     "neutral": 0
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "ticker": "VRT",
-   "times_seen": 15,
+   "times_seen": 16,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4876,6 +5230,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4891,11 +5246,19 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-26T16:43:31.300247+00:00",
+   "last_seen": "2026-10-27T03:31:41.056048+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 330.0,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4923,7 +5286,7 @@
    },
    "status": "RESEARCH",
    "ticker": "COR",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4975,6 +5338,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -4990,11 +5354,19 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-26T16:43:31.300249+00:00",
+   "last_seen": "2026-10-27T03:31:41.056050+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 55.63,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5022,7 +5394,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CGNX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5074,6 +5446,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5089,11 +5462,19 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-26T16:43:31.300252+00:00",
+   "last_seen": "2026-10-27T03:31:41.056052+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 8.64,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5121,7 +5502,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NOK",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5173,6 +5554,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "late_to_story",
@@ -5188,11 +5570,19 @@
    "independent_channels": [
     "Parkev Tatevosian, CFA"
    ],
-   "last_seen": "2026-10-26T16:43:31.300254+00:00",
+   "last_seen": "2026-10-27T03:31:41.056054+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 8.24,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5220,7 +5610,7 @@
    },
    "status": "PASS",
    "ticker": "CHPT",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5274,6 +5664,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "forward_catalyst",
@@ -5289,7 +5680,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300257+00:00",
+   "last_seen": "2026-10-27T03:31:41.056056+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5317,7 +5708,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SOFI",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5369,6 +5760,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5384,7 +5776,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300260+00:00",
+   "last_seen": "2026-10-27T03:31:41.056058+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5412,7 +5804,7 @@
    },
    "status": "RESEARCH",
    "ticker": "RDDT",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5464,6 +5856,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5479,7 +5872,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300262+00:00",
+   "last_seen": "2026-10-27T03:31:41.056060+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5507,7 +5900,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NOW",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5559,6 +5952,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5574,7 +5968,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300265+00:00",
+   "last_seen": "2026-10-27T03:31:41.056062+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5602,7 +5996,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SNDK",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5654,6 +6048,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5669,7 +6064,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300267+00:00",
+   "last_seen": "2026-10-27T03:31:41.056064+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -5701,7 +6096,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ETH",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5753,6 +6148,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5768,7 +6164,7 @@
    "independent_channels": [
     "Excess Returns"
    ],
-   "last_seen": "2026-10-26T16:43:31.300270+00:00",
+   "last_seen": "2026-10-27T03:31:41.056066+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5796,7 +6192,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SMH",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5848,6 +6244,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5863,7 +6260,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300272+00:00",
+   "last_seen": "2026-10-27T03:31:41.056068+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5891,7 +6288,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QS",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5943,6 +6340,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -5952,13 +6350,18 @@
      "at": "2026-10-26T09:12:01.561101+00:00",
      "reason": "first observation",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-10-26T22:26:42.878954+00:00",
+     "reason": "superseded: score moved +2.00 -> +5.04",
+     "status": "EXPIRED"
     }
    ],
    "id": "CRWD-6d88b3f05811",
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300275+00:00",
+   "last_seen": "2026-10-26T22:26:42.878954+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5984,9 +6387,9 @@
     "bullish": 1,
     "neutral": 0
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "ticker": "CRWD",
-   "times_seen": 15,
+   "times_seen": 19,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6038,6 +6441,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -6053,7 +6457,7 @@
    "independent_channels": [
     "FAST Graphs"
    ],
-   "last_seen": "2026-10-26T16:43:31.300278+00:00",
+   "last_seen": "2026-10-27T03:31:41.056070+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6081,7 +6485,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CPAY",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6133,6 +6537,7 @@
    },
    "days_covered": 1,
    "derivative_share": 1.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -6142,11 +6547,16 @@
      "at": "2026-10-26T09:12:01.561112+00:00",
      "reason": "first observation",
      "status": "PASS"
+    },
+    {
+     "at": "2026-10-27T01:15:05.689025+00:00",
+     "reason": "superseded: score moved -1.00 -> +1.20",
+     "status": "EXPIRED"
     }
    ],
    "id": "MRNA-7deef3189e54",
    "independent_channels": [],
-   "last_seen": "2026-10-26T16:43:31.300280+00:00",
+   "last_seen": "2026-10-27T01:15:05.689025+00:00",
    "outcome": null,
    "reprint_channels": [
     "Schwab Network"
@@ -6174,9 +6584,9 @@
     "bullish": 0,
     "neutral": 0
    },
-   "status": "PASS",
+   "status": "EXPIRED",
    "ticker": "MRNA",
-   "times_seen": 15,
+   "times_seen": 20,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6231,6 +6641,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -6246,7 +6657,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300283+00:00",
+   "last_seen": "2026-10-27T03:31:41.056072+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6274,7 +6685,7 @@
    },
    "status": "RESEARCH",
    "ticker": "DECK",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6326,6 +6737,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -6341,7 +6753,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-10-26T16:43:31.300286+00:00",
+   "last_seen": "2026-10-27T03:31:41.056075+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6369,7 +6781,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NEM",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6421,6 +6833,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -6436,7 +6849,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-10-26T16:43:31.300288+00:00",
+   "last_seen": "2026-10-27T03:31:41.056077+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6464,7 +6877,7 @@
    },
    "status": "RESEARCH",
    "ticker": "OMC",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6516,6 +6929,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -6531,7 +6945,7 @@
    "independent_channels": [
     "manual"
    ],
-   "last_seen": "2026-10-26T16:43:31.300291+00:00",
+   "last_seen": "2026-10-27T03:31:41.056079+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6559,7 +6973,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TXN",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6611,6 +7025,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -6626,7 +7041,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300293+00:00",
+   "last_seen": "2026-10-27T03:31:41.056081+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6654,7 +7069,7 @@
    },
    "status": "RESEARCH",
    "ticker": "UAL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6706,6 +7121,7 @@
    },
    "days_covered": 1,
    "derivative_share": 1.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -6804,6 +7220,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -6819,7 +7236,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300296+00:00",
+   "last_seen": "2026-10-27T03:31:41.056083+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6847,7 +7264,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SMCI",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6899,6 +7316,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "late_to_story",
@@ -6914,7 +7332,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-26T16:43:31.300307+00:00",
+   "last_seen": "2026-10-27T03:31:41.056103+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6942,7 +7360,7 @@
    },
    "status": "PASS",
    "ticker": "CLF",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6996,6 +7414,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7011,7 +7430,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300309+00:00",
+   "last_seen": "2026-10-27T03:31:41.056105+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -7043,7 +7462,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BTC",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7095,6 +7514,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7110,7 +7530,7 @@
    "independent_channels": [
     "CNBC"
    ],
-   "last_seen": "2026-10-26T16:43:31.300312+00:00",
+   "last_seen": "2026-10-27T03:31:41.056107+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7138,7 +7558,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GE",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7190,6 +7610,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7205,7 +7626,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300314+00:00",
+   "last_seen": "2026-10-27T03:31:41.056109+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7233,7 +7654,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PG",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7285,6 +7706,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7300,7 +7722,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300317+00:00",
+   "last_seen": "2026-10-27T03:31:41.056111+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7328,7 +7750,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ENPH",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7380,6 +7802,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7395,7 +7818,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300319+00:00",
+   "last_seen": "2026-10-27T03:31:41.056113+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7423,7 +7846,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PSKY",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7475,6 +7898,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7490,7 +7914,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300322+00:00",
+   "last_seen": "2026-10-27T03:31:41.056116+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7518,7 +7942,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SKHY",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7570,6 +7994,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7585,7 +8010,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300325+00:00",
+   "last_seen": "2026-10-27T03:31:41.056117+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7613,7 +8038,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CIEN",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7665,6 +8090,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7680,7 +8106,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300327+00:00",
+   "last_seen": "2026-10-27T03:31:41.056119+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7708,7 +8134,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PWR",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7760,6 +8186,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7775,7 +8202,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300330+00:00",
+   "last_seen": "2026-10-27T03:31:41.056121+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7803,7 +8230,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NDAQ",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7855,6 +8282,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7870,7 +8298,7 @@
    "independent_channels": [
     "Asymmetric Investing"
    ],
-   "last_seen": "2026-10-26T16:43:31.300333+00:00",
+   "last_seen": "2026-10-27T03:31:41.056124+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7898,7 +8326,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MU",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7950,6 +8378,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -7965,7 +8394,7 @@
    "independent_channels": [
     "Asymmetric Investing"
    ],
-   "last_seen": "2026-10-26T16:43:31.300335+00:00",
+   "last_seen": "2026-10-27T03:31:41.056126+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7993,7 +8422,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TSM",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8045,6 +8474,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -8060,7 +8490,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300337+00:00",
+   "last_seen": "2026-10-27T03:31:41.056128+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8088,7 +8518,7 @@
    },
    "status": "RESEARCH",
    "ticker": "VST",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8140,6 +8570,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -8235,6 +8666,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "late_to_story",
@@ -8250,7 +8682,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-26T16:43:31.300340+00:00",
+   "last_seen": "2026-10-27T03:31:41.056130+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8278,7 +8710,7 @@
    },
    "status": "PASS",
    "ticker": "CRM",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8332,6 +8764,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -8347,7 +8780,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-26T16:43:31.300343+00:00",
+   "last_seen": "2026-10-27T03:31:41.056132+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8375,7 +8808,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ADI",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8427,6 +8860,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -8442,7 +8876,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-26T16:43:31.300345+00:00",
+   "last_seen": "2026-10-27T03:31:41.056134+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8470,7 +8904,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QLYS",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8522,6 +8956,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -8537,7 +8972,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-26T16:43:31.300348+00:00",
+   "last_seen": "2026-10-27T03:31:41.056138+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8565,7 +9000,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LNG",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8617,6 +9052,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -8632,7 +9068,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-26T16:43:31.300350+00:00",
+   "last_seen": "2026-10-27T03:31:41.056140+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8660,7 +9096,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AMPL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8712,6 +9148,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -8721,13 +9158,18 @@
      "at": "2026-10-26T09:12:01.561278+00:00",
      "reason": "first observation",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-10-26T18:45:21.900448+00:00",
+     "reason": "superseded: score moved -0.50 -> +3.14",
+     "status": "EXPIRED"
     }
    ],
    "id": "RKLB-212a1367515a",
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300352+00:00",
+   "last_seen": "2026-10-26T18:45:21.900448+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8753,9 +9195,9 @@
     "bullish": 1,
     "neutral": 0
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "ticker": "RKLB",
-   "times_seen": 15,
+   "times_seen": 16,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8807,6 +9249,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -8822,7 +9265,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300355+00:00",
+   "last_seen": "2026-10-27T03:31:41.056142+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8850,7 +9293,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MELI",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8902,6 +9345,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -8917,7 +9361,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300357+00:00",
+   "last_seen": "2026-10-27T03:31:41.056144+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8945,7 +9389,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AVGO",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8997,6 +9441,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9012,7 +9457,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300359+00:00",
+   "last_seen": "2026-10-27T03:31:41.056146+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9040,7 +9485,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PYPL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9092,6 +9537,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9107,7 +9553,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-26T16:43:31.300362+00:00",
+   "last_seen": "2026-10-27T03:31:41.056148+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9135,7 +9581,7 @@
    },
    "status": "RESEARCH",
    "ticker": "INTC",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9187,6 +9633,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9202,7 +9649,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300364+00:00",
+   "last_seen": "2026-10-27T03:31:41.056150+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9230,7 +9677,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MSTR",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9282,6 +9729,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9297,7 +9745,7 @@
    "independent_channels": [
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300367+00:00",
+   "last_seen": "2026-10-27T03:31:41.056168+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9325,7 +9773,7 @@
    },
    "status": "PASS",
    "ticker": "APLD",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9379,6 +9827,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9394,7 +9843,7 @@
    "independent_channels": [
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300370+00:00",
+   "last_seen": "2026-10-27T03:31:41.056170+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9422,7 +9871,7 @@
    },
    "status": "PASS",
    "ticker": "IREN",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9476,6 +9925,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9491,7 +9941,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-26T16:43:31.300373+00:00",
+   "last_seen": "2026-10-27T03:31:41.056173+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9519,7 +9969,7 @@
    },
    "status": "PASS",
    "ticker": "RDW",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9573,6 +10023,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9588,7 +10039,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-26T16:43:31.300375+00:00",
+   "last_seen": "2026-10-27T03:31:41.056174+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9616,7 +10067,7 @@
    },
    "status": "PASS",
    "ticker": "HIMS",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9670,6 +10121,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9685,7 +10137,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-26T16:43:31.300378+00:00",
+   "last_seen": "2026-10-27T03:31:41.056176+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9713,7 +10165,7 @@
    },
    "status": "PASS",
    "ticker": "RBLX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9767,6 +10219,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "late_to_story",
@@ -9782,7 +10235,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-26T16:43:31.300380+00:00",
+   "last_seen": "2026-10-27T03:31:41.056178+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9810,7 +10263,7 @@
    },
    "status": "PASS",
    "ticker": "PLTR",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9865,6 +10318,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9880,7 +10334,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-26T16:43:31.300382+00:00",
+   "last_seen": "2026-10-27T03:31:41.056181+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9908,7 +10362,7 @@
    },
    "status": "PASS",
    "ticker": "RDBX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9962,6 +10416,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -9977,7 +10432,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300385+00:00",
+   "last_seen": "2026-10-27T03:31:41.056183+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10005,7 +10460,7 @@
    },
    "status": "PASS",
    "ticker": "MRVL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10059,6 +10514,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10074,7 +10530,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300387+00:00",
+   "last_seen": "2026-10-27T03:31:41.056185+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -10106,7 +10562,7 @@
    },
    "status": "PASS",
    "ticker": "HYPE",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10160,6 +10616,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10175,7 +10632,7 @@
    "independent_channels": [
     "CNBC"
    ],
-   "last_seen": "2026-10-26T16:43:31.300390+00:00",
+   "last_seen": "2026-10-27T03:31:41.056187+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10203,7 +10660,7 @@
    },
    "status": "PASS",
    "ticker": "RTX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10257,6 +10714,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10272,7 +10730,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300393+00:00",
+   "last_seen": "2026-10-27T03:31:41.056189+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10300,7 +10758,7 @@
    },
    "status": "PASS",
    "ticker": "EQIX",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10354,6 +10812,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10369,7 +10828,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300395+00:00",
+   "last_seen": "2026-10-27T03:31:41.056191+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10397,7 +10856,7 @@
    },
    "status": "PASS",
    "ticker": "HAL",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10451,6 +10910,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10466,7 +10926,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300398+00:00",
+   "last_seen": "2026-10-27T03:31:41.056193+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10494,7 +10954,7 @@
    },
    "status": "PASS",
    "ticker": "SLB",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10548,6 +11008,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "late_to_story",
@@ -10563,7 +11024,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300400+00:00",
+   "last_seen": "2026-10-27T03:31:41.056195+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10591,7 +11052,7 @@
    },
    "status": "PASS",
    "ticker": "GM",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10646,6 +11107,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10661,7 +11123,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300403+00:00",
+   "last_seen": "2026-10-27T03:31:41.056196+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10689,7 +11151,7 @@
    },
    "status": "PASS",
    "ticker": "PANW",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10743,6 +11205,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10758,7 +11221,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300405+00:00",
+   "last_seen": "2026-10-27T03:31:41.056199+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10786,7 +11249,7 @@
    },
    "status": "PASS",
    "ticker": "XLE",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10840,6 +11303,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10855,7 +11319,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-26T16:43:31.300407+00:00",
+   "last_seen": "2026-10-27T03:31:41.056201+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10883,7 +11347,7 @@
    },
    "status": "PASS",
    "ticker": "VLO",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10937,6 +11401,7 @@
    },
    "days_covered": 1,
    "derivative_share": 1.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -10950,7 +11415,7 @@
    ],
    "id": "CCI-7b2012f68fb0",
    "independent_channels": [],
-   "last_seen": "2026-10-26T16:43:31.300410+00:00",
+   "last_seen": "2026-10-27T03:31:41.056203+00:00",
    "outcome": null,
    "reprint_channels": [
     "Benzinga"
@@ -10980,7 +11445,7 @@
    },
    "status": "PASS",
    "ticker": "CCI",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11035,6 +11500,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -11050,7 +11516,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300413+00:00",
+   "last_seen": "2026-10-27T03:31:41.056205+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11078,7 +11544,7 @@
    },
    "status": "PASS",
    "ticker": "ELIS",
-   "times_seen": 15,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11132,6 +11598,7 @@
    },
    "days_covered": 5,
    "derivative_share": 0.07,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": true,
    "freshness_state": "unknown",
@@ -11157,11 +11624,19 @@
     "Yahoo Finance",
     "manual"
    ],
-   "last_seen": "2026-10-26T16:43:31.300115+00:00",
+   "last_seen": "2026-10-27T03:31:41.055920+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 630.56,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Couch Investor"
@@ -11374,7 +11849,7 @@
    "status": "WATCHLIST",
    "supersedes": "META-22f5bbab6c2e",
    "ticker": "META",
-   "times_seen": 9,
+   "times_seen": 16,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11426,6 +11901,7 @@
    },
    "days_covered": 3,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "running",
@@ -11435,6 +11911,11 @@
      "at": "2026-10-26T15:14:54.806015+00:00",
      "reason": "score moved +2.88 -> +4.22",
      "status": "WATCHLIST"
+    },
+    {
+     "at": "2026-10-26T18:45:21.900378+00:00",
+     "reason": "superseded: new independent channel: Schwab Network",
+     "status": "EXPIRED"
     }
    ],
    "id": "NBIS-5fe16239c300",
@@ -11444,11 +11925,19 @@
     "Couch Investor",
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-26T16:43:31.300159+00:00",
+   "last_seen": "2026-10-26T18:45:21.900378+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 153.27,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -11513,10 +12002,10 @@
     "bullish": 1,
     "neutral": 1
    },
-   "status": "WATCHLIST",
+   "status": "EXPIRED",
    "supersedes": "NBIS-dd7c19a520cc",
    "ticker": "NBIS",
-   "times_seen": 9,
+   "times_seen": 10,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11568,6 +12057,7 @@
    },
    "days_covered": 2,
    "derivative_share": 0.25,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "developing",
@@ -11585,11 +12075,19 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-26T16:43:31.300176+00:00",
+   "last_seen": "2026-10-27T03:31:41.055953+00:00",
    "outcome": {
-    "attempts": 1,
-    "checked_at": "2026-10-26T16:22:44.823176+00:00",
-    "error": "no price data available"
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 43.1,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "CNBC Television"
@@ -11659,7 +12157,7 @@
    "status": "WATCHLIST",
    "supersedes": "VZ-726724e0f7e0",
    "ticker": "VZ",
-   "times_seen": 9,
+   "times_seen": 16,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11711,6 +12209,7 @@
    },
    "days_covered": 1,
    "derivative_share": 1.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "forward_catalyst",
@@ -11724,7 +12223,7 @@
    ],
    "id": "JBLU-26b6be8215f5",
    "independent_channels": [],
-   "last_seen": "2026-10-26T16:43:31.300299+00:00",
+   "last_seen": "2026-10-27T03:31:41.056136+00:00",
    "outcome": null,
    "reprint_channels": [
     "CNBC Television"
@@ -11754,7 +12253,7 @@
    },
    "status": "PASS",
    "ticker": "JBLU",
-   "times_seen": 9,
+   "times_seen": 16,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11809,6 +12308,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "late_to_story",
@@ -11824,7 +12324,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300301+00:00",
+   "last_seen": "2026-10-27T03:31:41.056099+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -11852,7 +12352,7 @@
    },
    "status": "PASS",
    "ticker": "ROST",
-   "times_seen": 9,
+   "times_seen": 16,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11906,6 +12406,7 @@
    },
    "days_covered": 1,
    "derivative_share": 0.0,
+   "engine": "creator_consensus",
    "entry_price": null,
    "freshness_censored": false,
    "freshness_state": "single_sighting",
@@ -11921,7 +12422,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-26T16:43:31.300304+00:00",
+   "last_seen": "2026-10-27T03:31:41.056101+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -11949,7 +12450,3055 @@
    },
    "status": "RESEARCH",
    "ticker": "FICO",
-   "times_seen": 9,
+   "times_seen": 16,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 5,
+    "primary": 0
+   },
+   "company": "Nebius",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": -0.45,
+     "measures": "new information vs. commentary on an old move",
+     "raw": -0.3,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.943,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.648,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 3,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "running",
+   "generated_at": "2026-10-26T18:45:21.900388+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T18:45:21.900388+00:00",
+     "reason": "new independent channel: Schwab Network",
+     "status": "WATCHLIST"
+    }
+   ],
+   "id": "NBIS-5bda5ea2021e",
+   "independent_channels": [
+    "Asymmetric Investing",
+    "CNBC Television",
+    "Couch Investor",
+    "Jose Najarro Stocks",
+    "Schwab Network"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055933+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 153.27,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-26T18:45:21.900344+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 4.493,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Schwab Network",
+     "evidence": "data",
+     "price_target": "Chart levels: support near 148 (key), resistance near 176 (200-day MA); longer-term retest of recent highs around $250-300 mentioned loosely.",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Guest calls Nebius a tier-one neocloud operator, citing management claims that 2027 capacity is nearly sold out, customers are asking about 2028, and customers are prepaying. He also cites about $8 billion in cash and expected prepayments, and says its inference platform fits growing AI workloads.",
+     "timeframe": "Not specified",
+     "url": "https://www.youtube.com/watch?v=_9O5ZAK-4wc",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "Musk social media post on neocloud companies",
+     "channel": "CNBC Television",
+     "evidence": "speculation",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "Shares fell sharply after Elon Musk's post on neocloud distress; no company-specific reasoning given.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=xOTxS1IXGLw",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Jose Najarro Stocks",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Host mentions Nebius's 3.5 billion financing facility as evidence that financing remains available selectively, while noting facilities are not fully drawn cash and carry risk.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=WCBrbbiIGKA",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Couch Investor",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host added shares at $160 and sees the pullback as bargain buying. He believes companies that show execution will rebound and others will be crushed; he cites CEO comments on long-term contracts and capacity.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=TXQ8h7gfyMY",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Asymmetric Investing",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "Host calls Nebius a major risk because its convertible debt has fallen below conversion prices and a recent September debt issue trades around 85 cents on the dollar, so repayment in cash could be needed.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=dR8CQ1FJzyQ",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 2,
+    "bullish": 2,
+    "neutral": 1
+   },
+   "status": "WATCHLIST",
+   "supersedes": "NBIS-5fe16239c300",
+   "ticker": "NBIS",
+   "times_seen": 6,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 2,
+    "primary": 0
+   },
+   "company": "Vertiv",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.3,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.2,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.837,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.279,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "developing",
+   "generated_at": "2026-10-26T18:45:21.900438+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T18:45:21.900438+00:00",
+     "reason": "score moved +3.00 -> +4.14",
+     "status": "WATCHLIST"
+    }
+   ],
+   "id": "VRT-6c9f4994ca33",
+   "independent_channels": [
+    "Schwab Network",
+    "Ticker Symbol: YOU"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055973+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 199.78,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-26T18:45:21.900344+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 4.137,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Schwab Network",
+     "evidence": "reasoned",
+     "price_target": "Chart levels only: support near 190, then 160-165 if broken; resistance around 250 on the weekly chart. No explicit target.",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Guest sees Vertiv as a leading way to play AI data center power and cooling needs, since each new GPU generation requires more power and heat removal, and Vertiv works with Nvidia on its latest system. He argues the recent pullback ignores that power is the scarce input.",
+     "timeframe": "Not specified; technical levels discussed on daily and weekly charts",
+     "url": "https://www.youtube.com/watch?v=_9O5ZAK-4wc",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "Earnings on October 28",
+     "channel": "Ticker Symbol: YOU",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host argues Vertiv makes power and cooling systems that are part of Nvidia's AI factory designs and DSX pods, and that its sales growth and raised revenue forecast support the pick. Thesis tied to AI factory buildout speed.",
+     "timeframe": "next earnings",
+     "url": "https://www.youtube.com/watch?v=NDCjUZKpZHA",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 2,
+    "neutral": 0
+   },
+   "status": "WATCHLIST",
+   "supersedes": "VRT-fcd87cf22bd7",
+   "ticker": "VRT",
+   "times_seen": 6,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 2,
+    "primary": 0
+   },
+   "company": "Rocket Lab",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.3,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.2,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.837,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.279,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "developing",
+   "generated_at": "2026-10-26T18:45:21.900450+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T18:45:21.900450+00:00",
+     "reason": "score moved -0.50 -> +3.14",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "RKLB-51e67a9e777f",
+   "independent_channels": [
+    "Couch Investor",
+    "Schwab Network"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055981+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-26T18:45:21.900344+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 3.137,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "Neutron launch delayed into 2027; Stage two testing at Wallops",
+     "channel": "Schwab Network",
+     "evidence": "reasoned",
+     "price_target": "Chart levels: support around 56-60 gap and 75 as a level to reclaim; about 100% upside to June highs mentioned if reached.",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Guest is bullish long term on the space economy and Rocket Lab's position in it. He treats the Neutron delay as a manufacturing issue that is fixable, compares it to SpaceX's Falcon 9 delays, and points to the Iridium-related connectivity business and its subscriber and revenue figures as growth drivers. He says the stock's drop reflects SpaceX IPO spillover plus the delay.",
+     "timeframe": "Long term; near-term bounce over next weeks to months",
+     "url": "https://www.youtube.com/watch?v=_9O5ZAK-4wc",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Couch Investor",
+     "evidence": "speculation",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Described as in a long-term buying zone in the low $50s, with an upside resistance near $55 and a larger one in the $70s. Host acknowledges some may wait for the Neutron launch.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=TXQ8h7gfyMY",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 2,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "supersedes": "RKLB-212a1367515a",
+   "ticker": "RKLB",
+   "times_seen": 6,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 3,
+    "primary": 0
+   },
+   "company": "Amazon",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 1.2,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.8,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.326,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.442,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "forward_catalyst",
+   "generated_at": "2026-10-26T22:26:42.878920+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T22:26:42.878920+00:00",
+     "reason": "new independent channel: Yahoo Finance",
+     "status": "WATCHLIST"
+    },
+    {
+     "at": "2026-10-27T01:15:05.688963+00:00",
+     "reason": "superseded: new independent channel: CNBC Television",
+     "status": "EXPIRED"
+    }
+   ],
+   "id": "AMZN-9030100c4d9b",
+   "independent_channels": [
+    "Couch Investor",
+    "Schwab Network",
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T01:15:05.688963+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 249.09,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-26T22:26:42.878835+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 4.526,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Used as a historical analogy: the guest argues that heavy AWS capex with no near-term profit paid off over three to four years, and that the market misjudged Amazon early on. Presented as a parallel for Anthropic rather than a view on Amazon's current stock.",
+     "timeframe": "3-4 years",
+     "url": "https://www.youtube.com/watch?v=nD7Gew5O4b4",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Couch Investor",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host expects AWS growth to accelerate and profitability to improve, citing Jassy's comments that AWS capacity is sold out for 2026 and largely for 2027. Host is wary of the mismatch between EPS flat and the thesis.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=TXQ8h7gfyMY",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "upcoming earnings season",
+     "channel": "Schwab Network",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host says his firm likes Amazon as a leadership name and is buying it with conviction.",
+     "timeframe": "through year-end",
+     "url": "https://www.youtube.com/watch?v=CHMZmzoCJ1o",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 3,
+    "neutral": 0
+   },
+   "status": "EXPIRED",
+   "supersedes": "AMZN-499f30f2134b",
+   "ticker": "AMZN",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 1
+   },
+   "company": "CrowdStrike",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 1.2,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.8,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.837,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.279,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "forward_catalyst",
+   "generated_at": "2026-10-26T22:26:42.878957+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T22:26:42.878957+00:00",
+     "reason": "score moved +2.00 -> +5.04",
+     "status": "WATCHLIST"
+    },
+    {
+     "at": "2026-10-27T01:15:05.688976+00:00",
+     "reason": "superseded: new independent channel: CNBC Television",
+     "status": "EXPIRED"
+    }
+   ],
+   "id": "CRWD-cab0b6e5e48b",
+   "independent_channels": [
+    "The Compound",
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T01:15:05.688976+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-26T22:26:42.878835+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 5.037,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "Next earnings report around December 1; ongoing agentic AI threat activity",
+     "channel": "The Compound",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Management argues AI agents create a large new market for security, shifting the category from keeping attackers out to enabling safe AI deployment. Cites Falcon Guardian agent detection, the Falcon Flex licensing model, Nvidia hardware-level collaboration, and a path to $10B ARR by fiscal 2030 and $20B by 2035. The host agrees and calls cybersecurity a long-term bull market.",
+     "timeframe": "fiscal 2030 and fiscal 2035 ARR targets",
+     "url": "https://www.youtube.com/watch?v=34wIIgpvT_k",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Jared Blicky notes cybersecurity names, including CrowdStrike, have led since March 30 amid AI-agent security demand; he presents this as observed price action rather than a recommendation.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=_kCK21gIOnI",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 2,
+    "neutral": 0
+   },
+   "status": "EXPIRED",
+   "supersedes": "CRWD-6d88b3f05811",
+   "ticker": "CRWD",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 3,
+    "primary": 0
+   },
+   "company": "Take-Two Interactive",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.3,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.2,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "developing",
+   "generated_at": "2026-10-26T22:26:42.878990+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T22:26:42.878990+00:00",
+     "reason": "freshness state changed",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "TTWO-2248654280fc",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055990+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "entry_close": 203.35,
+    "entry_date": "2026-10-26",
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-26T22:26:42.878835+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 2.3,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "GTA 6 release",
+     "channel": "Yahoo Finance",
+     "evidence": "speculation",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Guest, who sits on the Take-Two board, says success for GTA 6 would mean a large share of people who watched the preview buying the game, and frames games as bigger than movies. No financial figures or sales forecasts are given, and the guest's board seat is a potential conflict that is noted but not weighed.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=nD7Gew5O4b4",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "GTA 6 launch and subsequent fiscal 2027-2028 sales trajectory",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "mixed",
+     "thesis": "Host expects a strong GTA 6 launch-year sales spike, but says the stock's valuation depends on whether sales hold or grow in later years rather than falling after fiscal 2027. He calls the stock too expensive if sales decline, and fairly priced near $250 if they sustain.",
+     "timeframe": "next two years",
+     "url": "https://www.youtube.com/watch?v=DFrmfARi0Z8",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "GTA 6 launch",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Dolan expects a huge GTA 6 launch-year sales spike but is skeptical about sustained sales afterward; he says the stock is still possibly expensive unless sales hold up over the long term.",
+     "timeframe": "fiscal 2027 and after",
+     "url": "https://www.youtube.com/watch?v=_kCK21gIOnI",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 1
+   },
+   "status": "RESEARCH",
+   "supersedes": "TTWO-b389a1b0d765",
+   "ticker": "TTWO",
+   "times_seen": 3,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Electronic Arts",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-26T22:26:42.879125+00:00",
+   "history": [
+    {
+     "at": "2026-10-26T22:26:42.879125+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "EA-711fc1617140",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056164+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-26T22:26:42.878835+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Mentioned as a company the guest co-founded that dropped sharply after its IPO and later recovered. Used as evidence for his view on volatility, not as a stock call.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=nD7Gew5O4b4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 1
+   },
+   "status": "PASS",
+   "ticker": "EA",
+   "times_seen": 3,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 5,
+    "primary": 0
+   },
+   "company": "Microsoft",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": -0.45,
+     "measures": "new information vs. commentary on an old move",
+     "raw": -0.3,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.943,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.648,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 4,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "running",
+   "generated_at": "2026-10-27T01:15:05.688917+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.688917+00:00",
+     "reason": "score moved +3.22 -> +4.49",
+     "status": "WATCHLIST"
+    }
+   ],
+   "id": "MSFT-aaeef2113a5c",
+   "independent_channels": [
+    "CNBC Television",
+    "Couch Investor",
+    "Excess Returns",
+    "Schwab Network",
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055936+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "error": "no trading day at or after the recommendation date"
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 4.493,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "Voluntary buyout offer",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Offering voluntary buyouts to about 60,000 employees, which reportedly could be a quarter of its workforce. Described as a streamlining move; the report gives no assessment of its financial effect.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=mZA6EkZhRGc",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Couch Investor",
+     "evidence": "speculation",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host expects positive free cash flow from Microsoft versus negative for Google, and sees Azure growth as the key earnings item.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=TXQ8h7gfyMY",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Schwab Network",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Named among the leadership AI names the host's firm is buying with conviction for a potential rally.",
+     "timeframe": "through year-end",
+     "url": "https://www.youtube.com/watch?v=CHMZmzoCJ1o",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Excess Returns",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Cited as a company with strong quarterly cash flow that is a likely long-term winner in AI infrastructure, one of the cloud hyperscalers expected to be AI monopolies.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=bhYzjmyfaXQ",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Cited as an AAA-rated hyperscaler whose debt yields were used as a reference point; not a view on the stock itself.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=nOS5yJVcpPo",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 3,
+    "neutral": 2
+   },
+   "status": "WATCHLIST",
+   "supersedes": "MSFT-122c1fdcb2af",
+   "ticker": "MSFT",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 4,
+    "primary": 0
+   },
+   "company": "Amazon",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 1.2,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.8,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.674,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.558,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "forward_catalyst",
+   "generated_at": "2026-10-27T01:15:05.688965+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.688965+00:00",
+     "reason": "new independent channel: CNBC Television",
+     "status": "WATCHLIST"
+    }
+   ],
+   "id": "AMZN-f6efcf5bb3b1",
+   "independent_channels": [
+    "CNBC Television",
+    "Couch Investor",
+    "Schwab Network",
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055946+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "error": "no trading day at or after the recommendation date"
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 4.874,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Kramer notes Amazon raised roughly $100B in bonds this year to fund AI spending, and that bonds are at least not equity.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Used as a historical analogy: the guest argues that heavy AWS capex with no near-term profit paid off over three to four years, and that the market misjudged Amazon early on. Presented as a parallel for Anthropic rather than a view on Amazon's current stock.",
+     "timeframe": "3-4 years",
+     "url": "https://www.youtube.com/watch?v=nD7Gew5O4b4",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Couch Investor",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host expects AWS growth to accelerate and profitability to improve, citing Jassy's comments that AWS capacity is sold out for 2026 and largely for 2027. Host is wary of the mismatch between EPS flat and the thesis.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=TXQ8h7gfyMY",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "upcoming earnings season",
+     "channel": "Schwab Network",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host says his firm likes Amazon as a leadership name and is buying it with conviction.",
+     "timeframe": "through year-end",
+     "url": "https://www.youtube.com/watch?v=CHMZmzoCJ1o",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 3,
+    "neutral": 1
+   },
+   "status": "WATCHLIST",
+   "supersedes": "AMZN-9030100c4d9b",
+   "ticker": "AMZN",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 2,
+    "primary": 1
+   },
+   "company": "CrowdStrike",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 1.2,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.8,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.326,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.442,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "forward_catalyst",
+   "generated_at": "2026-10-27T01:15:05.688978+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.688978+00:00",
+     "reason": "new independent channel: CNBC Television",
+     "status": "WATCHLIST"
+    }
+   ],
+   "id": "CRWD-1e50436af341",
+   "independent_channels": [
+    "CNBC Television",
+    "The Compound",
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055948+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 5.526,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Kramer is a CrowdStrike CEO interview subject and CrowdStrike is an Investing Club holding. The CEO said its Falcon products cover PHP vulnerabilities and that the company is buying customers time, but Kramer's own view is that the threat is worse than he thought. The CEO was in a quiet period.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    },
+    {
+     "basis": "primary",
+     "catalyst": "Next earnings report around December 1; ongoing agentic AI threat activity",
+     "channel": "The Compound",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Management argues AI agents create a large new market for security, shifting the category from keeping attackers out to enabling safe AI deployment. Cites Falcon Guardian agent detection, the Falcon Flex licensing model, Nvidia hardware-level collaboration, and a path to $10B ARR by fiscal 2030 and $20B by 2035. The host agrees and calls cybersecurity a long-term bull market.",
+     "timeframe": "fiscal 2030 and fiscal 2035 ARR targets",
+     "url": "https://www.youtube.com/watch?v=34wIIgpvT_k",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Jared Blicky notes cybersecurity names, including CrowdStrike, have led since March 30 amid AI-agent security demand; he presents this as observed price action rather than a recommendation.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=_kCK21gIOnI",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 3,
+    "neutral": 0
+   },
+   "status": "WATCHLIST",
+   "supersedes": "CRWD-cab0b6e5e48b",
+   "ticker": "CRWD",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 2,
+    "primary": 1
+   },
+   "company": "Exxon",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -0.5,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.25,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": -0.45,
+     "measures": "new information vs. commentary on an old move",
+     "raw": -0.3,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.326,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.442,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 3,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "running",
+   "generated_at": "2026-10-27T01:15:05.689003+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689003+00:00",
+     "reason": "new independent channel: CNBC Television",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "XOM-9b696ab06a44",
+   "independent_channels": [
+    "Bloomberg Television",
+    "CNBC Television",
+    "Couch Investor"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055964+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "error": "no trading day at or after the recommendation date"
+   },
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 0.376,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Shares reportedly hit a fresh all-time high Monday amid elevated oil prices. No view on the stock's outlook is given.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=mZA6EkZhRGc",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Couch Investor",
+     "evidence": "speculation",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Host notes a rebound and sees $420 as possible support, but says the stock is not cheap and only gets less expensive over time.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=TXQ8h7gfyMY",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Bloomberg Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Mentioned only as a large component of the energy ETF that rose on the oil move; no independent view offered.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=13kWaQQ7_84",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 3
+   },
+   "status": "RESEARCH",
+   "supersedes": "XOM-c63f7faec5c2",
+   "ticker": "XOM",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 1,
+    "original": 0,
+    "primary": 1
+   },
+   "company": "Moderna",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 1.2,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.8,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.5,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "forward_catalyst",
+   "generated_at": "2026-10-27T01:15:05.689027+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689027+00:00",
+     "reason": "score moved -1.00 -> +1.20",
+     "status": "PASS"
+    }
+   ],
+   "id": "MRNA-f579605f4a26",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055979+00:00",
+   "outcome": null,
+   "reprint_channels": [
+    "Schwab Network"
+   ],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 1.2,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "earnings November 6",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "A caller asked whether to buy or sell ahead of a November 6 earnings report. Kramer said he likes the company but won't buy after a parabolic move, and suggested waiting.",
+     "timeframe": "next earnings (Nov 6)",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    },
+    {
+     "basis": "derivative",
+     "catalyst": "",
+     "channel": "Schwab Network",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Share drop attributed to a leak of late-stage melanoma vaccine data that looked positive versus Keytruda, but the stock had already run up heavily, so the news was seen as sell-the-news. Hosts did not clearly state a view on the stock's direction beyond describing the reaction.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=sgfc3siUVj8",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 1
+   },
+   "status": "PASS",
+   "supersedes": "MRNA-7deef3189e54",
+   "ticker": "MRNA",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "apparent multi-channel coverage is one story reprinted",
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 1,
+    "original": 1,
+    "primary": 1
+   },
+   "company": "Chevron",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.3,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.2,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.33,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "developing",
+   "generated_at": "2026-10-27T01:15:05.689043+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689043+00:00",
+     "reason": "freshness state changed",
+     "status": "PASS"
+    }
+   ],
+   "id": "CVX-c067d7467957",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055988+00:00",
+   "outcome": {
+    "checked_at": "2026-10-27T03:31:41.084318+00:00",
+    "error": "no trading day at or after the recommendation date"
+   },
+   "reprint_channels": [
+    "Schwab Network"
+   ],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -0.7,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Shares reportedly hit a fresh all-time high Monday amid oil above $100 a barrel. No view on the stock's outlook is given.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=mZA6EkZhRGc",
+     "video_id": ""
+    },
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Shares rose more than 3% on the day as oil prices jumped; the segment reports the move without offering a view on its fundamentals.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=-fQABjh0bI8",
+     "video_id": ""
+    },
+    {
+     "basis": "derivative",
+     "catalyst": "Geopolitical developments and oil price moves",
+     "channel": "Schwab Network",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Bowen and Greene like Chevron's multi-year uptrend, tied to the Venezuela oil story and oil above $100. Greene notes the stock is far above its 20-week average, so a pullback toward roughly 200 or 185 is possible, and says a breakdown would signal weakness in energy broadly.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=LjBUUpaQnlM",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 1
+   },
+   "status": "PASS",
+   "supersedes": "CVX-0167d9dc84d1",
+   "ticker": "CVX",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "apparent multi-channel coverage is one story reprinted",
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 0,
+    "primary": 1
+   },
+   "company": "Thermo Fisher Scientific",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689056+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689056+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "TMO-87cde62e4a4b",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055994+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 3.0,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "quarterly results and raised outlook",
+     "channel": "CNBC Television",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Kramer interviewed the CEO after a beat-and-raise quarter with 6% organic growth and 15% adjusted EPS growth. He sees biotech funding and semiconductor-related demand, plus a China rebound, supporting a multiyear run. The CEO's statements are management claims; Kramer's view is a reasoned endorsement.",
+     "timeframe": "multi-year",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "TMO",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "BlackBerry",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689061+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689061+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "BB-93c30878e500",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.055996+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 2.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Kramer interviewed the CEO, who cited QNX royalty backlog over $1.2B, about 20% growth, 87% gross margin on QNX, and expansion into auto, robotics, and Nvidia partnerships. Kramer praised the turnaround but noted the stock rose too far in a prior period, now back to where people should own it.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "BB",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Glacier Bancorp",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689118+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689118+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "GBCI-f5cffd45c621",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056085+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "reasoned",
+     "price_target": "45 possible retracement (not a target)",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "A caller pitched Glacier Bancorp citing a 4% net interest margin, low PEG, and insider buying. Kramer agreed, saying the stock at about $49 could retrace to $45 but has growth and a decent yield.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "GBCI",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Applied Materials",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689174+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689174+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "AMAT-c22eeb033b64",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056152+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "A caller said the stock fell over 40% from highs. Kramer attributed the drop to multiple contraction from higher rates and said the company is incredible, endorsing the caller's plan to buy in tranches, with the caller's chart pattern and levels as the reference.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "AMAT",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Celsius Holdings",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689179+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689179+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "CELH-3567d256a34a",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056154+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "In the lightning round Kramer called Celsius a second-rate Monster, implying it is inferior.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "CELH",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Monster Beverage",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689186+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689186+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "MNST-02796ab6a734",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056156+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Kramer told a caller to stick with Monster, which he treats as the stronger name compared with Celsius, without giving detailed reasoning.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "MNST",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Quantum-related IBM-backed company (ticker as spoken: Q&X mishearing)",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689191+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689191+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "QUBT-bb955b7f95f4",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056158+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "A caller averaging down from $67 in a company with no earnings. Kramer advised waiting until it approaches $30 and said it may not be ready for public markets. Ticker unclear from the auto-generated transcript, so left blank.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "QUBT",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "USA Rare Earth",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689195+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689195+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "USAR-2d5aa90e4827",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056160+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "A caller asked about the stock. Kramer told him not to touch it, describing the chart as a steep climb with no clear end.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "USAR",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "ImmunityBio",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689200+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689200+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "IBRX-cccc22727632",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056162+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "A caller asked about the stock. Kramer called it a good speculative position and said biotechs are being taken over, so one is worth owning.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "IBRX",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Cisco",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T01:15:05.689209+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T01:15:05.689209+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "CSCO-e85dfbd5a5b2",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056166+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T01:15:05.688852+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Mentioned only as the biggest gainer in the Monday rally, up about 3.5%, with no view offered on its prospects.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=mZA6EkZhRGc",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "CSCO",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 0,
+    "primary": 1
+   },
+   "company": "Whirlpool",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T03:31:41.056000+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T03:31:41.056000+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "WHR-787c88dd46eb",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056000+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T03:31:41.055887+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 3.0,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "Q3 earnings",
+     "channel": "Yahoo Finance",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "Reported a tough third quarter with revenue down nearly 9% on weak demand and rising costs; company plans a third price increase this year.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=BvT7aHe2kO4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "WHR",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Carvana",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T03:31:41.056020+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T03:31:41.056020+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "CVNA-f5f842350298",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056020+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T03:31:41.055887+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 2.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "A William Blair analyst says AI-driven shopping could benefit Carvana because 37% of survey respondents are more comfortable buying a used car unseen; the company is described as already growing rapidly.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=BvT7aHe2kO4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "CVNA",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 1,
+    "original": 0,
+    "primary": 0
+   },
+   "company": "DoorDash",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 1.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T03:31:41.056086+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T03:31:41.056086+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "DASH-243db777551d",
+   "independent_channels": [],
+   "last_seen": "2026-10-27T03:31:41.056086+00:00",
+   "outcome": null,
+   "reprint_channels": [
+    "Yahoo Finance"
+   ],
+   "run_id": "2026-10-27T03:31:41.055887+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "derivative",
+     "catalyst": "Possible deal announcement as soon as the week of the report",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Host reports a WSJ story that DoorDash is in advanced talks to acquire Instacart at about $17B; DoorDash shares fell about 6% on the report. Host frames it as a deal to watch, not a recommendation.",
+     "timeframe": "this week",
+     "url": "https://www.youtube.com/watch?v=BvT7aHe2kO4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "DASH",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no channel did its own work - every mention is a reprint",
+    "no original or primary-source claim at all"
+   ]
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Instacart",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T03:31:41.056092+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T03:31:41.056092+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "CART-4378049e5021",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T03:31:41.056092+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T03:31:41.055887+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 2.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "Reported DoorDash acquisition talks",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Host notes Instacart shares rose about 7% on the reported DoorDash takeover talks; the host sees it as a possible consolidation play in grocery delivery but does not give a view on value.",
+     "timeframe": "this week",
+     "url": "https://www.youtube.com/watch?v=BvT7aHe2kO4",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 1
+   },
+   "status": "RESEARCH",
+   "ticker": "CART",
+   "times_seen": 1,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11961,6 +15510,6 @@
    "vetoes": []
   }
  ],
- "total_signals": 107,
+ "total_signals": 134,
  "version": 1
 }

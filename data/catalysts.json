@@ -1,5 +1,213 @@
 [
   {
+    "event_id": "cat_f89920a7cb66e5",
+    "title": "Non-Compliance Letters under 505B(d)(1) of the Federal Food, Drug, and Cosmetic Act",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T16:47:10-04:00",
+    "url": "http://www.fda.gov/drugs/guidance-compliance-regulatory-information/non-compliance-letters-under-505bd1-federal-food-drug-and-cosmetic-act",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "summary": "FDA Drugs posted a page titled \"Non-Compliance Letters under 505B(d)(1) of the Federal Food, Drug, and Cosmetic Act,\" but no body text was retrieved, so the content and any named companies are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_754db5ff786141",
+    "title": "Walmart, Inc. - 736557 - 10/01/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T16:34:09-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/walmart-inc-736557-10012026",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "enforcement",
+      "is_market_relevant": true,
+      "summary": "FDA posted a warning letter (reference 736557, dated 10/01/2026) addressed to Walmart, Inc. The announcement text was not retrieved, so the specific violations cited are unknown.",
+      "companies": [
+        {
+          "company": "Walmart, Inc.",
+          "ticker": "WMT",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 2
+    }
+  },
+  {
+    "event_id": "cat_46abf8d9262621",
+    "title": "Multimedia Education Materials | Biosimilars",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T16:01:52-04:00",
+    "url": "http://www.fda.gov/drugs/biosimilars/multimedia-education-materials-biosimilars",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a page titled \"Multimedia Education Materials | Biosimilars\" on its Drugs site; no body text was retrieved, so the content is unknown. It appears to be an educational resource page with no identifiable company or market action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_e59da08d93d4fa",
+    "title": "9 Things to Know About Biosimilars and Interchangeable Biosimilars",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T16:01:12-04:00",
+    "url": "http://www.fda.gov/drugs/biosimilars/9-things-know-about-biosimilars-and-interchangeable-biosimilars",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs published an educational item titled \"9 Things to Know About Biosimilars and Interchangeable Biosimilars.\" No body text was retrieved, so no specific product, company, or regulatory action is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_cfddb7e5abc185",
+    "title": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Glutathione Due to Elevated Endotoxin Levels",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T14:23:53-04:00",
+    "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-glutathione-due-elevated-endotoxin-levels",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "recall_safety",
+      "is_market_relevant": true,
+      "materiality": 2,
+      "summary": "FDA posted a notice that Greenwich Rx is conducting a voluntary nationwide recall of compounded glutathione due to elevated endotoxin levels. Only the headline was retrieved; no body text describing the scope or affected lots was available.",
+      "companies": [
+        {
+          "company": "Greenwich Rx",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "affected_sectors": [
+        "compounding pharmacy",
+        "health care"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_3f13862c1b7957",
+    "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T12:36:30-04:00",
+    "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "regulatory_approval",
+      "is_market_relevant": true,
+      "summary": "FDA approved talazoparib (Talzenna) in combination with enzalutamide for metastatic hormone-sensitive or hormone-naive prostate cancer with HRR gene mutations, per the FDA Drugs headline; no body text was retrieved.",
+      "companies": [
+        {
+          "company": "Pfizer",
+          "ticker": "",
+          "role": "subject"
+        },
+        {
+          "company": "Astellas Pharma",
+          "ticker": "",
+          "role": "partner"
+        }
+      ],
+      "direction": "likely_positive",
+      "materiality": 4,
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals",
+        "oncology"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_791ac8b10a500e",
+    "title": "Neuroscience Advancement and Innovation Nexus (NAIN)",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T11:58:47-04:00",
+    "url": "http://www.fda.gov/industry/neuroscience-advancement-and-innovation-nexus-nain",
+    "category": "regulatory",
+    "findings": {
+      "summary": "FDA published a web page titled \"Neuroscience Advancement and Innovation Nexus (NAIN)\". No body text was retrieved, so the content and purpose of the announcement cannot be determined.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false,
+      "event_type": "other"
+    }
+  },
+  {
+    "event_id": "cat_791ac8b10a500e",
+    "title": "Neuroscience Advancement and Innovation Nexus (NAIN)",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-26T11:58:47-04:00",
+    "url": "http://www.fda.gov/industry/neuroscience-advancement-and-innovation-nexus-nain",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines published a page titled \"Neuroscience Advancement and Innovation Nexus (NAIN)\" on 2026-10-26. No body text was retrieved, so the content and purpose of the page cannot be determined.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_69a8d88b5e2db6",
+    "title": "Generic Drug Facilities, Sites and Organization Lists",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T11:54:22-04:00",
+    "url": "http://www.fda.gov/industry/generic-drug-user-fee-amendments/generic-drug-facilities-sites-and-organization-lists",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a page titled \"Generic Drug Facilities, Sites and Organization Lists\" under the Generic Drug User Fee Amendments section. No body text was retrieved, so the content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_f713c76bc78a3d",
+    "title": "FDA Drug Topics Webinars",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T11:50:40-04:00",
+    "url": "http://www.fda.gov/drugs/information-health-care-professionals-drugs/fda-drug-topics-webinars",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a general page headlined \"FDA Drug Topics Webinars\" with no body text retrieved. It appears to be an educational webinar listing with no specific company, product, or market action identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_9211ffe44bacb0",
+    "title": "Engaging with Stakeholders to Bring Nonprescription Drug Products to Market",
+    "source": "FDA Drugs",
+    "published": "2026-10-26T11:44:18-04:00",
+    "url": "http://www.fda.gov/drugs/over-counter-otc-nonprescription-drugs/engaging-stakeholders-bring-nonprescription-drug-products-market",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs published a headline-only item titled \"Engaging with Stakeholders to Bring Nonprescription Drug Products to Market\"; no body text was retrieved, and it describes no specific company, product action, or decision.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
     "event_id": "cat_d1a5dffdb98263",
     "title": "Statement on improving adverse event reporting of compounded drugs to protect patients",
     "source": "FDA Drugs",

@@ -1,5 +1,1148 @@
 [
   {
+    "video_id": "rqlvkSPkTIQ",
+    "title": "AI's 2027 bill: about $1.2 trillion",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-27T00:17:37+00:00",
+    "url": "https://www.youtube.com/watch?v=rqlvkSPkTIQ",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "SAqhtP342V4",
+    "title": "Mad Money 10/26/26 | Audio Only",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T23:53:32+00:00",
+    "url": "https://www.youtube.com/watch?v=SAqhtP342V4",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "Mad Money episode covering a broad AI-driven market rally, a warning about the flood of IPOs and equity/bond issuance (Anthropic S-1, Meta stock sale, SpaceX, Alphabet, Oracle, etc.) draining supply and liquidity, and a sequence of guest interviews. Kramer interviewed Thermo Fisher's CEO (strong Q3, pharma/biotech demand, China rebound), BlackBerry's CEO (QNX backlog above $1.2B, auto and robotics growth), and CrowdStrike's CEO on a PHP vulnerability wave linked to AI-discovered flaws. The show closed with a lightning round of caller questions and a tribute to a late writer. Most company views came from management interviews or Kramer's own opinion, with little quantified support.",
+      "overall_stance": "mixed",
+      "hype_level": 3,
+      "discloses_position": true,
+      "promotional": false,
+      "macro_points": [
+        "Kramer argues that heavy IPO, secondary, and bond issuance tied to AI spending is absorbing market liquidity, and compares it to the 2000 and 2022 setups.",
+        "Renaissance Capital figures cited: about $148B in US IPO proceeds so far this year, versus about $142B the prior year before 2022's bear market.",
+        "Kramer says 10-year Treasury yields near 5% make bonds a competitive alternative to stocks and that rate hikes could pressure the market.",
+        "Kramer cites a $50B-per-gigawatt data center build cost, attributed to Nvidia's CEO, and says AI capex funding needs are very large.",
+        "Kramer warns that smaller neocloud companies may not raise enough money and could consolidate, quoting a third party's view.",
+        "Kramer says the stock market goes lower when new supply is endless and buybacks are scarce."
+      ],
+      "red_flags": [
+        "Kramer explicitly says he is not calling a top, but the episode leans heavily on a supply-glut bear case without quantifying downside.",
+        "Lightning-round callers got one-line verdicts (e.g., 'buy', 'sell', 'don't touch') with no financial analysis, and some were sized or timed loosely (average down, 'wait till it goes to 30').",
+        "Kramer praised speculative names (a no-earnings company, a biotech 'spec') with 'you could look back and say I cleaned up' framing and no risk discussion.",
+        "Kramer advised a caller on Applied Materials to buy in tranches on a head-and-shoulders pattern and a price target-style level of 200s, with no risk discussion.",
+        "Kramer mentioned that Anthropic and SpaceX holdings exist in the CNBC Investing Club, and an upcoming IPO valuation, without disclosing that club holdings are being promoted.",
+        "Kramer's commentary about an AI-driven 'Black October' cyber threat is partly based on a guest's own company business, and the CrowdStrike CEO was in a quiet period, limiting disclosure."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "bullish",
+          "thesis": "Kramer says the company is exciting, with strong growth and reported profitability on an adjusted basis in the first half, and that he wants a stake after reading its S-1. He also notes it could raise tens of billions at a valuation of $1.5 to $2 trillion, which he says could make it the next Amazon.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "02:50",
+          "sector": "technology",
+          "timeframe": "",
+          "catalyst": "IPO / capital raise",
+          "price_target": "",
+          "breakout_signal": "catalyst_driven"
+        },
+        {
+          "ticker": "META",
+          "company": "Meta Platforms",
+          "stance": "bearish",
+          "thesis": "Kramer cites Meta's plan to raise up to $95B through stock sales as part of the broader supply glut that he fears could weigh on the market.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "03:35",
+          "sector": "communication",
+          "timeframe": "",
+          "catalyst": "stock issuance",
+          "price_target": "",
+          "breakout_signal": "catalyst_driven"
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "stance": "neutral",
+          "thesis": "Kramer notes Amazon raised roughly $100B in bonds this year to fund AI spending, and that bonds are at least not equity.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "03:25",
+          "sector": "consumer discretionary",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "MRNA",
+          "company": "Moderna",
+          "stance": "neutral",
+          "thesis": "A caller asked whether to buy or sell ahead of a November 6 earnings report. Kramer said he likes the company but won't buy after a parabolic move, and suggested waiting.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "06:50",
+          "sector": "healthcare",
+          "timeframe": "next earnings (Nov 6)",
+          "catalyst": "earnings November 6",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "AMAT",
+          "company": "Applied Materials",
+          "stance": "bullish",
+          "thesis": "A caller said the stock fell over 40% from highs. Kramer attributed the drop to multiple contraction from higher rates and said the company is incredible, endorsing the caller's plan to buy in tranches, with the caller's chart pattern and levels as the reference.",
+          "conviction": "medium",
+          "evidence": "none",
+          "timestamp": "07:20",
+          "sector": "semiconductors",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "TMO",
+          "company": "Thermo Fisher Scientific",
+          "stance": "bullish",
+          "thesis": "Kramer interviewed the CEO after a beat-and-raise quarter with 6% organic growth and 15% adjusted EPS growth. He sees biotech funding and semiconductor-related demand, plus a China rebound, supporting a multiyear run. The CEO's statements are management claims; Kramer's view is a reasoned endorsement.",
+          "conviction": "high",
+          "evidence": "data",
+          "timestamp": "10:00",
+          "sector": "healthcare",
+          "timeframe": "multi-year",
+          "catalyst": "quarterly results and raised outlook",
+          "price_target": "",
+          "breakout_signal": "guidance_change"
+        },
+        {
+          "ticker": "BB",
+          "company": "BlackBerry",
+          "stance": "bullish",
+          "thesis": "Kramer interviewed the CEO, who cited QNX royalty backlog over $1.2B, about 20% growth, 87% gross margin on QNX, and expansion into auto, robotics, and Nvidia partnerships. Kramer praised the turnaround but noted the stock rose too far in a prior period, now back to where people should own it.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "17:50",
+          "sector": "technology",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "CRWD",
+          "company": "CrowdStrike",
+          "stance": "bullish",
+          "thesis": "Kramer is a CrowdStrike CEO interview subject and CrowdStrike is an Investing Club holding. The CEO said its Falcon products cover PHP vulnerabilities and that the company is buying customers time, but Kramer's own view is that the threat is worse than he thought. The CEO was in a quiet period.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "25:00",
+          "sector": "software",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "CELH",
+          "company": "Celsius Holdings",
+          "stance": "bearish",
+          "thesis": "In the lightning round Kramer called Celsius a second-rate Monster, implying it is inferior.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "33:50",
+          "sector": "consumer staples",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "MNST",
+          "company": "Monster Beverage",
+          "stance": "bullish",
+          "thesis": "Kramer told a caller to stick with Monster, which he treats as the stronger name compared with Celsius, without giving detailed reasoning.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "34:05",
+          "sector": "consumer staples",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "QUBT",
+          "company": "Quantum-related IBM-backed company (ticker as spoken: Q&X mishearing)",
+          "stance": "bearish",
+          "thesis": "A caller averaging down from $67 in a company with no earnings. Kramer advised waiting until it approaches $30 and said it may not be ready for public markets. Ticker unclear from the auto-generated transcript, so left blank.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "34:31",
+          "sector": "technology",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "USAR",
+          "company": "USA Rare Earth",
+          "stance": "bearish",
+          "thesis": "A caller asked about the stock. Kramer told him not to touch it, describing the chart as a steep climb with no clear end.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "35:08",
+          "sector": "materials",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        },
+        {
+          "ticker": "GBCI",
+          "company": "Glacier Bancorp",
+          "stance": "bullish",
+          "thesis": "A caller pitched Glacier Bancorp citing a 4% net interest margin, low PEG, and insider buying. Kramer agreed, saying the stock at about $49 could retrace to $45 but has growth and a decent yield.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "36:00",
+          "sector": "financials",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "45 possible retracement (not a target)",
+          "breakout_signal": "price_move"
+        },
+        {
+          "ticker": "IBRX",
+          "company": "ImmunityBio",
+          "stance": "bullish",
+          "thesis": "A caller asked about the stock. Kramer called it a good speculative position and said biotechs are being taken over, so one is worth owning.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "36:34",
+          "sector": "biotech",
+          "timeframe": "",
+          "catalyst": "",
+          "price_target": "",
+          "breakout_signal": "none"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "AFkVZfvMC2E",
+    "title": "How does Chipotle afford rent in New York City?",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T23:30:52+00:00",
+    "url": "https://www.youtube.com/watch?v=AFkVZfvMC2E",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "QiOhe3qCRlU",
+    "title": "Why companies that wait on quantum will have to patch their security twice",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T23:00:07+00:00",
+    "url": "https://www.youtube.com/watch?v=QiOhe3qCRlU",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": {
+      "summary": "An interview with the CEO of Alvarand (a company offering quantum-resistant cryptography focused on digital assets) about quantum computing as a cybersecurity threat to financial institutions. The CEO argues quantum computers could eventually break current encryption, that upgrades are unavoidable and mandated in the US and Europe, and that demand for his company's services has risen sharply in the last few months. No financials, pricing, or market data are given, and the interview is largely qualitative.",
+      "overall_stance": "bullish",
+      "hype_level": 3,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Quantum computers may be two to three years away, or sooner, and could brute-force current encryption.",
+        "Government mandates in the US and Europe will require upgrades to encryption; agencies have a deadline to submit plans.",
+        "Cybersecurity budgets for 2027 reportedly already include quantum-related line items.",
+        "Companies may face competing priorities between AI-related security threats and quantum-resistance upgrades."
+      ],
+      "red_flags": [
+        "Interviewee is CEO of the company that sells the solution being discussed; no disclosure of financial relationship or stock ownership and no independent perspective.",
+        "No cost figures, timelines, or evidence for the quantum threat timeline; the 'two or three years' estimate is attributed to unspecified 'some'.",
+        "Claim that 'everything in our life' relies on 32-bit encryption is imprecise (common standards such as RSA and elliptic curve are the usual concern) and was not sourced.",
+        "Anecdotal evidence of rising demand ('people who didn't care are picking up our phone calls') with no numbers.",
+        "Host's framing of the upgrade costs and whether consumers pay was left unresolved."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Alvarand",
+          "stance": "bullish",
+          "thesis": "The CEO says the company provides quantum-resistant cryptography mainly for digital assets, that its own digital-asset ecosystem is already quantum secure, and that inbound interest has risen sharply. He expects demand from financial institutions to grow as mandates take effect. Support is anecdotal, with no revenue, customer, or pricing figures.",
+          "conviction": "high",
+          "evidence": "none",
+          "timestamp": "0:19",
+          "sector": "technology",
+          "breakout_signal": "none",
+          "catalyst": "Government mandates requiring encryption upgrades; federal agency plan deadline",
+          "price_target": "",
+          "timeframe": "Two to three years for the quantum threat, per the CEO"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "vFQz871iBys",
+    "title": "Why Crude Oil Bears Should Eye $90 & How Selloff Give Fed Lots of Breathing Room",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T22:00:37+00:00",
+    "url": "https://www.youtube.com/watch?v=vFQz871iBys",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "Two guests (Carley, a commodity strategist, and Sean O'Hara, president of Pacers ETFs) discuss crude oil and the broader market. Carley says Strait of Hormuz flows have recovered to roughly 80% of pre-war levels at higher shipping costs, that a recent oil squeeze and liquidation were partly technical, and that seasonality points to oil topping in early November and trading weaker into spring, with a possible drop below $90 and a first target around $70. O'Hara argues that falling oil would ease inflation and reduce pressure on the Fed, supporting equities, which he sees as resilient. Transcript is auto-generated and partly garbled, so some specifics may be misheard.",
+      "overall_stance": "bearish",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Strait of Hormuz oil flows reportedly back to about 80% of pre-war levels, with higher insurance and shipping costs",
+        "Oil output and demand destruction (estimated 2-3 million barrels per day in lower demand) reportedly offsetting supply concerns",
+        "Seasonality suggests crude tops around early November and trades weaker into spring",
+        "Stronger dollar seasonally expected over the next couple of months, which would weigh on oil",
+        "Lower oil seen as easing inflation and reducing the Fed's need to tighten, supporting equity valuations",
+        "Possible economic slowdown could push oil much lower, though the guest said he was not predicting one"
+      ],
+      "red_flags": [
+        "Price targets ($90 threshold, $70 first target, possibly 40s) given with no explicit probability or time frame beyond vague references to coming months",
+        "Seasonality argument acknowledged as unreliable recently ('hasn't worked perfectly') yet still used as a basis for a bearish call",
+        "No discussion of geopolitical risk reversal (renewed Strait disruption, Houthi or Saudi attacks) beyond brief mention",
+        "Guest says 'I think that's a line in the sand' and a 'floodgates' effect without supporting analysis",
+        "Auto-generated transcript; several figures (e.g., the 103 level, the 80% flow figure) may be misheard"
+      ],
+      "tickers": []
+    }
+  },
+  {
+    "video_id": "BvT7aHe2kO4",
+    "title": "Nasdaq rises as Anthropic files, with the Fed's last pre-midterm meeting | Yahoo Finance Live",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T21:55:54+00:00",
+    "url": "https://www.youtube.com/watch?v=BvT7aHe2kO4",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Yahoo Finance Live market recap covering the day Anthropic's IPO prospectus (S-1) went public, with stocks closing higher led by the Nasdaq and tech/AI names. Segments included Pitchbook's read on Anthropic's revenue (about $16.3B in H1 2026), compute efficiency, large accounting-driven losses, and IPO timing (roadshow around November 9, pricing before Thanksgiving); a preview of the Fed meeting expected to hold rates; a William Blair consumer AI survey; a quantum-threat-to-finance segment; Halloween candy and cocoa cost inflation; a report that DoorDash is in talks to acquire Instacart; and a Tuesday earnings preview. Most segments were analyst or guest commentary rather than the host's own positions.",
+      "overall_stance": "bullish",
+      "hype_level": 3,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Fed widely expected to hold rates at the upcoming meeting; a guest economist expects a possible hike at the December meeting, citing sticky inflation and energy price pressure.",
+        "Strategist Sam Stovall cites favorable midterm-year seasonality (October strength, strong Q4 and Q1 history) and says market breadth has improved, while urging investors not to sell on fear.",
+        "Consumer strain noted: rising credit card balances, buy-now-pay-later use, and hardship 401(k) withdrawals.",
+        "AI is reportedly eliminating entry-level jobs and pushing up unemployment for recent college grads.",
+        "Cocoa prices elevated due to West Africa drought and other factors; diesel and labor costs rising for retailers and farmers."
+      ],
+      "red_flags": [
+        "Anthropic S-1 valuation not yet disclosed in the video; hosts discussed a $1.5-2 trillion range without a source for the figure.",
+        "Pitchbook guest's sustainability view was qualified ('kind of iffy') and his own math on Q3 revenue was an estimate.",
+        "Large reported H1 2026 loss (~$80.7B) is mostly non-cash marks on convertible notes; the video's framing of operating loss depends on the guest's characterization.",
+        "DoorDash-Instacart deal is an unconfirmed WSJ report via sources; the host noted no guarantees.",
+        "Stovall's seasonal statistics are presented as favorable patterns without caveats about small sample size or regime change.",
+        "Anthropic IPO timing (November 9 roadshow, week of November 16) is speculation from guests and hosts."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "bullish",
+          "thesis": "Pitchbook guest reads the S-1 as showing rapid revenue growth and improving compute economics, though growth is slowing; the host and Stovall view the IPO as a likely success and a sentiment driver for AI and tech stocks. The S-1 figures cited are reported by the guests, not verified by the video.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "0:07",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "IPO pricing and roadshow, expected around November 9 to just before Thanksgiving",
+          "price_target": "",
+          "timeframe": "before Thanksgiving 2026"
+        },
+        {
+          "ticker": "DASH",
+          "company": "DoorDash",
+          "stance": "neutral",
+          "thesis": "Host reports a WSJ story that DoorDash is in advanced talks to acquire Instacart at about $17B; DoorDash shares fell about 6% on the report. Host frames it as a deal to watch, not a recommendation.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "1:15:50",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Possible deal announcement as soon as the week of the report",
+          "price_target": "",
+          "timeframe": "this week"
+        },
+        {
+          "ticker": "CART",
+          "company": "Instacart",
+          "stance": "neutral",
+          "thesis": "Host notes Instacart shares rose about 7% on the reported DoorDash takeover talks; the host sees it as a possible consolidation play in grocery delivery but does not give a view on value.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "1:15:50",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Reported DoorDash acquisition talks",
+          "price_target": "",
+          "timeframe": "this week"
+        },
+        {
+          "ticker": "NVDA",
+          "company": "Nvidia",
+          "stance": "bullish",
+          "thesis": "Mentioned as a leader in the AI-driven rally that day (up about 2%); no company-specific thesis given.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "1:02",
+          "breakout_signal": "price_move",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "stance": "bullish",
+          "thesis": "Shares rose about 5% on the day to a three-month high; host notes it flipped from among the worst Mag 7 stocks heading into October to among the best, without offering a fundamental reason.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "31:40",
+          "breakout_signal": "price_move",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "VZ",
+          "company": "Verizon",
+          "stance": "neutral",
+          "thesis": "Beat third-quarter estimates and raised full-year outlook, but shares closed down over 3%, which the segment attributes to competition concerns including SpaceX.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "48:40",
+          "breakout_signal": "guidance_change",
+          "catalyst": "Q3 earnings and raised full-year outlook",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "WHR",
+          "company": "Whirlpool",
+          "stance": "bearish",
+          "thesis": "Reported a tough third quarter with revenue down nearly 9% on weak demand and rising costs; company plans a third price increase this year.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "47:52",
+          "breakout_signal": "none",
+          "catalyst": "Q3 earnings",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "CVNA",
+          "company": "Carvana",
+          "stance": "bullish",
+          "thesis": "A William Blair analyst says AI-driven shopping could benefit Carvana because 37% of survey respondents are more comfortable buying a used car unseen; the company is described as already growing rapidly.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "25:02",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "uAMQlLmr_zM",
+    "title": "Playing Defense: How To Know When To Cool Your Jets",
+    "channel": "Investor's Business Daily",
+    "published": "2026-10-26T21:50:22+00:00",
+    "url": "https://www.youtube.com/watch?v=uAMQlLmr_zM",
+    "tier": 1,
+    "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "video unavailable (VideoUnplayable)"
+  },
+  {
+    "video_id": "ZCXVBHdDcwM",
+    "title": "What kills traders more than anything? Tom Basso on overcoming investing FOMO.",
+    "channel": "Investor's Business Daily",
+    "published": "2026-10-26T21:47:40+00:00",
+    "url": "https://www.youtube.com/watch?v=ZCXVBHdDcwM",
+    "tier": 1,
+    "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "33WmjiWI4WY",
+    "title": "5 risks investors should watch with Anthropic, following the company's IPO filing. 👀",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T21:24:45+00:00",
+    "url": "https://www.youtube.com/watch?v=33WmjiWI4WY",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "nD7Gew5O4b4",
+    "title": "An EA co-founder on why every IPO he touched fell 70%, then recovered | Sozzi Unleashed",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T21:00:24+00:00",
+    "url": "https://www.youtube.com/watch?v=nD7Gew5O4b4",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": {
+      "summary": "An interview with Bing Gordon (EA co-founder, Kleiner Perkins partner) covering Anthropic's possible IPO, the Amazon/AWS capex analogy, and advice on handling public-market volatility. Also covers GTA 6 (Take-Two) expectations, game design ideas like \"90% of the way to something\" loops, and how AI might change game development. Mostly anecdote and opinion; no financial figures are checked, and no position is disclosed.",
+      "overall_stance": "bullish",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Markets tend to be poor at valuing returns three or four years out, so long-horizon capex can look bad in the short run.",
+        "AI will let game makers produce more content in the same time and move outsourced work in-house to computers."
+      ],
+      "red_flags": [
+        "Host and guest discuss Anthropic's IPO valuation and timing with no risk discussion, and the guest's view is framed as a bet on long-term capex payoff.",
+        "Guest cites his own companies' post-IPO drops of 70%+ within two years as a pattern, which is anecdotal and not a risk assessment for any investor.",
+        "No disclosure of whether the guest or host owns any stock discussed (Anthropic, Take-Two, Amazon)."
+      ],
+      "tickers": [
+        {
+          "ticker": "TTWO",
+          "company": "Take-Two Interactive",
+          "stance": "bullish",
+          "thesis": "Guest, who sits on the Take-Two board, says success for GTA 6 would mean a large share of people who watched the preview buying the game, and frames games as bigger than movies. No financial figures or sales forecasts are given, and the guest's board seat is a potential conflict that is noted but not weighed.",
+          "conviction": "medium",
+          "evidence": "speculation",
+          "price_target": "",
+          "sector": "consumer discretionary",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "GTA 6 release",
+          "timeframe": "",
+          "timestamp": "5:20"
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "stance": "bullish",
+          "thesis": "Used as a historical analogy: the guest argues that heavy AWS capex with no near-term profit paid off over three to four years, and that the market misjudged Amazon early on. Presented as a parallel for Anthropic rather than a view on Amazon's current stock.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "price_target": "",
+          "sector": "software",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "timeframe": "3-4 years",
+          "timestamp": "0:30"
+        },
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "bullish",
+          "thesis": "Guest frames Anthropic's heavy spending as an investment in the future that could pay off over three to four years, like AWS. He also suggests the company should leave some upside for IPO buyers and cites a possible $1.5-2 trillion valuation range as a question posed by the host. Reasoning is analogy-based, with no revenue or spending figures given.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "price_target": "",
+          "sector": "ai infrastructure",
+          "breakout_signal": "none",
+          "catalyst": "IPO",
+          "timeframe": "3-4 years",
+          "timestamp": "0:00"
+        },
+        {
+          "ticker": "EA",
+          "company": "Electronic Arts",
+          "stance": "neutral",
+          "thesis": "Mentioned as a company the guest co-founded that dropped sharply after its IPO and later recovered. Used as evidence for his view on volatility, not as a stock call.",
+          "conviction": "low",
+          "evidence": "none",
+          "price_target": "",
+          "sector": "consumer discretionary",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "timeframe": "",
+          "timestamp": "2:00"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "34wIIgpvT_k",
+    "title": "How CrowdStrike Could Double ARR by 2030 | LFTC",
+    "channel": "The Compound",
+    "published": "2026-10-26T21:00:21+00:00",
+    "url": "https://www.youtube.com/watch?v=34wIIgpvT_k",
+    "tier": 1,
+    "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
+    "source_type": "video",
+    "findings": {
+      "summary": "An interview on The Compound with CrowdStrike co-founder and CEO George Kurtz, who argues AI expands the cybersecurity market: more AI agents need protection, and security is shifting from keeping attackers out to enabling safe AI use. He cites strong recent results (net new ARR up 51% in the August quarter, record quarters), new agent-detection product Falcon Guardian, an Nvidia partnership, the Falcon Flex licensing model, and a reaffirmed path to $10B ARR by fiscal 2030 and $20B by 2035. Figures are mostly company-reported and the host lets most claims go unchallenged; the host also says the video's audience holds the stock.",
+      "overall_stance": "bullish",
+      "hype_level": 4,
+      "discloses_position": true,
+      "promotional": true,
+      "macro_points": [
+        "AI adoption is creating an exponential rise in agentic attacks, per CrowdStrike's own research.",
+        "Cybersecurity is described as one of the only guaranteed bull markets, and AI as a multi-decade age rather than a trade.",
+        "Open-weight models with guardrails removed lower the barrier for less sophisticated attackers."
+      ],
+      "red_flags": [
+        "The CEO is the interviewee and the company is the subject; the host is a financial media host with a stated investment position in the company, and the channel directs viewers to the company website. The interview functions partly as promotion.",
+        "Host states his audience is invested alongside him and calls CrowdStrike's stock performance remarkable, with no discussion of valuation risk or downside.",
+        "Company-reported figures (ARR growth, threat-actor counts, exponential intrusion growth, $10B/$20B targets) are presented without independent verification or stated methodology.",
+        "The $10B and $20B ARR targets are management projections; the CEO says they rely on white-space math and tailwinds that may not materialize, and no risks beyond execution are discussed in detail.",
+        "Competitive risk (e.g., AI-native tools or frontier labs building in-house security) is raised only briefly and is answered by management.",
+        "Stock performance claims (up over 100% YTD, 15th best in the S&P 500) are presented as a sign of strength with no discussion of how much is already priced in.",
+        "The host ends with the stock's continued momentum and a long-term bull case; no bear case is presented."
+      ],
+      "tickers": [
+        {
+          "ticker": "CRWD",
+          "company": "CrowdStrike",
+          "stance": "bullish",
+          "thesis": "Management argues AI agents create a large new market for security, shifting the category from keeping attackers out to enabling safe AI deployment. Cites Falcon Guardian agent detection, the Falcon Flex licensing model, Nvidia hardware-level collaboration, and a path to $10B ARR by fiscal 2030 and $20B by 2035. The host agrees and calls cybersecurity a long-term bull market.",
+          "conviction": "high",
+          "evidence": "data",
+          "timestamp": "0:16",
+          "sector": "technology",
+          "timeframe": "fiscal 2030 and fiscal 2035 ARR targets",
+          "price_target": "",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Next earnings report around December 1; ongoing agentic AI threat activity"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "EI-SUg9t78o",
+    "title": "Everything we learned from Anthropic's S-1: Huge losses, massive growth and big risks",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T21:00:18+00:00",
+    "url": "https://www.youtube.com/watch?v=EI-SUg9t78o",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "CNBC segment on Anthropic's S-1 filing, which it plans to list on NASDAQ under the symbol ENT. The host reads out figures: first-half revenue of about $16.3B (up over 1300% year over year), gross margins above 80%, an operating loss of about $700M in the first half (narrowed from roughly $2B a year earlier), and a reported net loss of about $81B that the host attributes mostly to accounting around convertible debt. The segment also covers a founder-held special share giving the seven co-founders 50.1% of votes, projected compute costs that could reach $750B across Broadcom, Google, Amazon, Microsoft and SpaceX, and listed risk factors (political backlash, model misbehavior, compute and debt access, customer concentration, open source, pricing pressure).",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Anthropic's compute commitments are reported as potentially reaching $750B, tying the company closely to the broader tech sector before its IPO."
+      ],
+      "red_flags": [
+        "Anthropic is a private company, so the ENT ticker reflects a planned listing and is not a currently trading symbol; figures come from the filing as summarized on air rather than checked against the document.",
+        "Very large reported net loss (about $81B) driven mainly by accounting for convertible debt, which the video does not explain in detail.",
+        "Heavy dependence on a small set of compute suppliers and customers, plus founder super-voting control, both flagged as governance and concentration risks."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "unclear",
+          "thesis": "Summarizes the S-1 disclosures without giving a directional view. Notes strong revenue growth and a narrowing operating loss, alongside large compute commitments, a large accounting-driven net loss, founder voting control, and listed risks.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "0:00",
+          "timeframe": "IPO pending",
+          "catalyst": "Planned NASDAQ listing under the symbol ENT"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "rDneWrPeTmU",
+    "title": "Buffett's Worry About The US Dollar",
+    "channel": "Benzinga",
+    "published": "2026-10-26T20:34:32+00:00",
+    "url": "https://www.youtube.com/watch?v=rDneWrPeTmU",
+    "tier": 1,
+    "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "mZA6EkZhRGc",
+    "title": "Market Close: Stocks Higher, Anthropic IPO Buzz, Candy Sales Lag • 10/26/26",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T20:21:19+00:00",
+    "url": "https://www.youtube.com/watch?v=mZA6EkZhRGc",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "A CNBC market close/news update covering a higher Monday close led by Cisco, Anthropic's upcoming IPO (ticker reportedly ANT, possibly before Thanksgiving) and its risk disclosures, Microsoft offering buyouts to about 60,000 employees, record-high energy stocks with oil above $100, JetBlue shares falling on debt restructuring reports, and weak Halloween candy sales per Nielsen. It is a news roundup with quoted analysts rather than a stock-picking pitch, and the host does not give a personal view.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "AI bubble concerns are being discussed on Wall Street, with one quoted strategist saying froth may ease without a bust.",
+        "Oil prices are elevated, with US crude above $100 a barrel and Brent around $116, per the report.",
+        "Microsoft buyout offers could affect a large share of its workforce, following a similar July offer.",
+        "Halloween candy sales fell 6.7% in the month ending October 17 versus a year earlier, citing higher chocolate prices and affordability concerns.",
+        "The Fed begins a two-day rate meeting this week, with durable goods, home prices, and consumer confidence data also due."
+      ],
+      "red_flags": [
+        "Anthropic IPO hype: the report frames the listing as exciting market news without discussing valuation or risks of buying a new issue.",
+        "Some quoted commentary describes a volatile, fear-driven oil market with no detailed analysis of what drives it.",
+        "Quoted sources (Yardeni, Primack, Wagner) are commentary excerpts with no numbers behind their broader claims, and the segment itself offers no independent analysis."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "neutral",
+          "thesis": "Reported as planning a first public share offering possibly before Thanksgiving, with a ticker reportedly to be ANT. A quoted Axios editor said the IPO filing lists extensive AI risks alongside boilerplate financial risk language. The host itself does not weigh in.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "0:09",
+          "sector": "ai infrastructure",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Anthropic IPO, expected possibly before Thanksgiving",
+          "price_target": "",
+          "timeframe": "before Thanksgiving"
+        },
+        {
+          "ticker": "CSCO",
+          "company": "Cisco",
+          "stance": "unclear",
+          "thesis": "Mentioned only as the biggest gainer in the Monday rally, up about 3.5%, with no view offered on its prospects.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "0:19",
+          "sector": "technology",
+          "breakout_signal": "price_move",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "stance": "neutral",
+          "thesis": "Offering voluntary buyouts to about 60,000 employees, which reportedly could be a quarter of its workforce. Described as a streamlining move; the report gives no assessment of its financial effect.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "1:37",
+          "sector": "technology",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Voluntary buyout offer",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "CVX",
+          "company": "Chevron",
+          "stance": "neutral",
+          "thesis": "Shares reportedly hit a fresh all-time high Monday amid oil above $100 a barrel. No view on the stock's outlook is given.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "2:12",
+          "sector": "energy",
+          "breakout_signal": "price_move",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon",
+          "stance": "neutral",
+          "thesis": "Shares reportedly hit a fresh all-time high Monday amid elevated oil prices. No view on the stock's outlook is given.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "2:12",
+          "sector": "energy",
+          "breakout_signal": "price_move",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "JBLU",
+          "company": "JetBlue",
+          "stance": "bearish",
+          "thesis": "Shares fell about 13% Monday on reports it is working to restructure debt as high jet fuel costs squeeze margins. The report gives no detail beyond those reports.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "2:50",
+          "sector": "transport",
+          "breakout_signal": "price_move",
+          "catalyst": "Reported debt restructuring; upcoming earnings Tuesday",
+          "price_target": "",
+          "timeframe": "next earnings"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "jStvfEOYWg4",
+    "title": "Rapid Recap: How Wall Street is responding to Anthropic's IPO filing",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T20:13:05+00:00",
+    "url": "https://www.youtube.com/watch?v=jStvfEOYWg4",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "A CNBC rapid recap of Anthropic's publicly reported IPO filing, featuring panelists and a guest who are bullish on the company. They cite its enterprise customer counts from the filing (about 12,000 customers over $100K, 1,300 over $1M, 250 over $10M), the claim that most revenue comes from recent frontier models, and improving profitability. Several speakers argue retail investors should be able to buy in, since the company is seen as central to the AI trade. No hard financials beyond customer counts are given, and no valuation or risks are discussed.",
+      "overall_stance": "bullish",
+      "hype_level": 3,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "AI adoption is at an early stage and expected to transform how organizations operate",
+        "Open-source and open-weight models are coming, but speakers say frontier models still capture most revenue"
+      ],
+      "red_flags": [
+        "No valuation or price discussed for a company going public, so return expectations cannot be assessed",
+        "Almost no discussion of risks such as competition from open-weight models, cost of compute, or IPO-related dynamics",
+        "Speakers include a participant with a large stake (a venture investor describing being an early partner) who has a financial interest in a bullish view; the video does not clearly establish the commentator's own position beyond that",
+        "Strongly positive framing ('blockbuster', 'astronomical opportunity') with little counterargument",
+        "Claims that distillation is not a huge issue are asserted without supporting evidence"
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "bullish",
+          "thesis": "Speakers argue Anthropic is a leading frontier AI company with strong enterprise traction, a durable edge from staying at the frontier, and improving profitability early in the AI transformation. They frame it as one of the few ways to gain AI exposure beyond chip stocks. Support is mostly the customer counts from the filing and qualitative claims; no financial figures on revenue, losses, or valuation are given.",
+          "conviction": "high",
+          "evidence": "data",
+          "timestamp": "0:00",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Anthropic's public IPO filing",
+          "price_target": "",
+          "sector": "ai infrastructure",
+          "timeframe": ""
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "KQS_pg8woAk",
+    "title": "What Anthropic's S-1 Says About Claude Growth, Valuation into IPO #shorts",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T18:30:13+00:00",
+    "url": "https://www.youtube.com/watch?v=KQS_pg8woAk",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A short news clip about Anthropic's public S-1 filing ahead of a reported IPO as early as late November. It notes the planned Nasdaq listing under the ticker ENT, a valuation that is expected to be massive (estimates up to $2 trillion, reportedly lower in the latest filing), an $80 billion net loss disclosed in the filing, and risk factors including a catastrophic AI-related incident that could be uninsurable. The host offers no numbers beyond these headline figures and no analysis of the company's financials or valuation.",
+      "overall_stance": "neutral",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Anthropic's IPO timing may be earlier than some expected, possibly late 2026 rather than early 2027.",
+        "AI could carry further cost implications for the company, per the risk discussion in the filing."
+      ],
+      "red_flags": [
+        "Valuation figures are secondhand estimates ('floated', 'hush hush') rather than stated in the filing, with no source given.",
+        "No discussion of the $80 billion net loss beyond stating it; no analysis of what drives it.",
+        "Ticker ENT is stated by the host but the host gives no further detail on the listing; treat as reported, not verified here."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "neutral",
+          "thesis": "Host reports on Anthropic's S-1 filing and expected IPO, describing a likely record valuation and an $80 billion net loss, while noting risk factors such as a potential AI incident too large to insure. The host does not state a bullish or bearish view; the segment is informational.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "0:00",
+          "timing_note": "IPO expected as early as a week before Thanksgiving",
+          "price_target": "",
+          "timeframe": "IPO as early as late November 2026",
+          "catalyst": "IPO / public listing following S-1 filing",
+          "breakout_signal": "catalyst_driven",
+          "sector": "other"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "tcLqlcjwsN4",
+    "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T18:30:09+00:00",
+    "url": "https://www.youtube.com/watch?v=tcLqlcjwsN4",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "tYIq6Exhi00",
+    "title": "Bessemer's Byron Deeter says stake in Anthropic is largest investment in firm's history",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T18:15:15+00:00",
+    "url": "https://www.youtube.com/watch?v=tYIq6Exhi00",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "qnM47O0BWlE",
+    "title": "Display issues on iPhone duo",
+    "channel": "CNBC Television",
+    "published": "2026-10-26T18:11:02+00:00",
+    "url": "https://www.youtube.com/watch?v=qnM47O0BWlE",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "CNBC tech check on Apple's foldable iPhone (the \"Duo\") after its first weekend on shelves. Reporter Mackenzie Sigalos cites channel checks showing walk-in inventory largely gone in tracked markets and delivery waits around three months, IDC holding a 7 million unit estimate for the quarter, and JP Morgan saying the broader iPhone lineup's lead times are resilient. Negatives raised: China resale premiums reportedly down to about 10% versus an expected 50%, and some owners reporting display defects (bright lines, dead pixels, inner-screen failures near the hinge). Apple told the reporter it is aware of an issue affecting a small number of inner displays and directs affected users to AppleCare for replacement.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Supply bottlenecks are constraining foldable iPhone shipments, per IDC's estimate.",
+        "China is described as the largest market for the smartphone category and important for Apple's foldable launch."
+      ],
+      "red_flags": [
+        "Durability concern: reported inner-display failures after limited use, with Apple not disclosing how many units are affected.",
+        "Weak secondary-market signal: China resale premiums reportedly far below expectations.",
+        "Transcript is partial (cuts off mid-segment), so the full context of the report is not captured."
+      ],
+      "tickers": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple",
+          "stance": "mixed",
+          "thesis": "Reporter presents strong early demand signals (sold-out walk-in inventory, roughly three-month delivery waits, JP Morgan citing resilient iPhone lead times) alongside weaker signals (falling China resale premiums, reported display failures on the foldable that Apple acknowledges affect a small number of units). The host frames the durability question as especially important because the foldable is part of a broader product launch.",
+          "conviction": "low",
+          "evidence": "data",
+          "timestamp": "0:20",
+          "sector": "technology",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "First full weekend of foldable iPhone sales; Apple's acknowledged inner-display issue; broader product launch",
+          "price_target": "",
+          "timeframe": ""
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "mgnQidlEVKQ",
+    "title": "Jay Mehta's \"Cautious Optimism\" in MSFT, GOOGL, AMZN Earnings; Risks in Fed Rate Decision",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T18:00:03+00:00",
+    "url": "https://www.youtube.com/watch?v=mgnQidlEVKQ",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "Jay Mehta, co-founder and CEO of Barrage Investors, joins a Schwab Network morning segment ahead of a week with a Fed decision, big-tech earnings, and oil-driven inflation concerns. He describes a \"cautiously optimistic\" view: the economy is slowing but not breaking, AI spending should be judged on free cash flow and financing, and he sees technology, industrials, and financials as sectors to watch. No specific tickers are recommended, and the discussion is general rather than data-backed.",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "The Fed is expected to pause at its upcoming decision, but a pause is not seen as a pivot toward near-term cuts.",
+        "Elevated oil and energy prices, tied to Strait of Hormuz disruption, may squeeze corporate margins and get passed to consumers, creating a possible snowball effect on consumer strain.",
+        "Higher-for-longer rates are helping banks but only as long as credit quality holds and borrowing demand continues.",
+        "Economy is slowing in places but still holding up despite higher rates; corporate earnings described as strong.",
+        "Investors are becoming more selective about AI spending; the AI trade has seen a major sell-off and bubble talk has returned."
+      ],
+      "red_flags": [
+        "Risk factors are discussed (oil prices, Fed path, consumer strain, AI spending justification), so this is not one-sided, but no specific numbers are cited to support the outlook.",
+        "Sector calls (technology, industrials, financials) are given without valuation, price, or timeframe."
+      ],
+      "tickers": [
+        {
+          "ticker": "META",
+          "company": "Meta Platforms",
+          "stance": "neutral",
+          "thesis": "Mentioned as an example of how the market reacted to raised AI spending by punishing the stock, with investors wanting to see profitability and financing. The host does not give a view on the stock itself.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "1:36",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Earnings report this week",
+          "timeframe": "",
+          "price_target": "",
+          "sector": "communication"
+        },
+        {
+          "ticker": "TSLA",
+          "company": "Tesla",
+          "stance": "neutral",
+          "thesis": "Cited as an example of a stock falling after pulling back on spending, showing the market wants to see return on AI-related investment. No view on the stock itself.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "1:38",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Earnings report this week",
+          "timeframe": "",
+          "price_target": "",
+          "sector": "consumer discretionary"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "cDZ6tlGamck",
+    "title": "Millennials are keeping luxury retail alive: Saks Global CEO",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-26T18:00:01+00:00",
+    "url": "https://www.youtube.com/watch?v=cDZ6tlGamck",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": {
+      "summary": "An interview with Jafar Al-Mudhaf... (CEO of Saks Global/Exemplar Luxury Group, which owns Neiman Marcus, Saks Fifth Avenue and Burberry-style banner Bergdorf Goodman) on the company's post-Chapter 11 restructuring, store strategy, and luxury consumer trends. The CEO described cutting off-price Saks Off 5th stores to 12, a streamlined capital structure, a relationship-selling focus, and a claim that about a third of customers are millennials and Gen Z. Almost all numbers are management's own, unaudited in the video, and the interview is a company-friendly profile with no discussion of risks or competitors' weaknesses.",
+      "overall_stance": "bullish",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Host and CEO say US luxury consumer is resilient, with younger buyers entering through wealth transfer and tech-driven wealth.",
+        "CEO says the company is treating year one as a stabilization period and remains cautious."
+      ],
+      "red_flags": [
+        "Company-side interview with no independent verification of store profitability, customer mix, or liquidity figures.",
+        "No discussion of downside risks such as weak discretionary spending, competition, or the company's history of debt stress beyond the bankruptcy narrative.",
+        "Claims such as 'all Saks stores are profitable' and '16 times spend' from relationship shoppers are unsourced in the video.",
+        "Private-company-style financial figures (liquidity, interest, GMV) were stated without filings in the video; parent company is not identified as publicly traded in the transcript."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Exemplar Luxury Group (Saks Global / Neiman Marcus / Saks Fifth Avenue / Bergdorf Goodman)",
+          "stance": "bullish",
+          "thesis": "The CEO argues the post-bankruptcy company has a much better capital structure, lower costs, and a focus on luxury relationship selling after exiting off-price retail. He says the business is returning to profitability and that millennial and Gen Z shoppers are a growing share of customers. Support is management's own figures, such as about 900 million gross liquidity, store profitability, and customer share, with no independent data in the video.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "0:00",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": "",
+          "sector": "consumer discretionary",
+          "timeframe": "Five-year plan; year one is stabilization"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "HjXF294GBL0",
+    "title": "Anthropic IPO Update",
+    "channel": "Benzinga",
+    "published": "2026-10-26T17:30:13+00:00",
+    "url": "https://www.youtube.com/watch?v=HjXF294GBL0",
+    "tier": 1,
+    "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short"
+  },
+  {
+    "video_id": "_9O5ZAK-4wc",
+    "title": "The Big 3: VRT, NBIS, RKLB",
+    "channel": "Schwab Network",
+    "published": "2026-10-26T17:00:16+00:00",
+    "url": "https://www.youtube.com/watch?v=_9O5ZAK-4wc",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Schwab Network 'Big 3' segment where guest Shai (chief market strategist at Futurum Equities) reviews three stocks: Vertiv, Nebius, and Rocket Lab. He frames Vertiv as a play on AI power and cooling buildout, Nebius as a neocloud winner with strong demand and prepayments, and Rocket Lab as a long-term space-economy bet after a neutron delay. Each pick is paired with a technical chart walkthrough (support/resistance, RSI, MACD). The video contains no disclosure of his positions and no risk discussion beyond technical support levels.",
+      "overall_stance": "bullish",
+      "hype_level": 3,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Anthropic's IPO filing reportedly shows about $2 of revenue for each $1 of compute spend, which the guest sees as a rebuttal to AI bear arguments.",
+        "Power availability is a major constraint on AI buildout; AI labs are reportedly paying above-market prices for transformers and turbines.",
+        "Guest argues the market is underpricing the physical infrastructure needed for AI data centers."
+      ],
+      "red_flags": [
+        "No position disclosure from the guest.",
+        "Technical analysis presented as the basis for buy-zone calls with little discussion of downside scenarios beyond chart levels.",
+        "Rocket Lab thesis leans on long-term multi-trillion-dollar space economy framing and comparisons to SpaceX's past performance, which is hindsight-based reasoning.",
+        "Nebius thesis relies on management claims (sold-out 2027 capacity, customer prepayments) reported without independent verification in the video.",
+        "Guest calls all three names momentum stocks, and the segment frames them as favorable entry points after large drawdowns."
+      ],
+      "tickers": [
+        {
+          "ticker": "VRT",
+          "company": "Vertiv",
+          "stance": "bullish",
+          "thesis": "Guest sees Vertiv as a leading way to play AI data center power and cooling needs, since each new GPU generation requires more power and heat removal, and Vertiv works with Nvidia on its latest system. He argues the recent pullback ignores that power is the scarce input.",
+          "conviction": "high",
+          "evidence": "reasoned",
+          "price_target": "Chart levels only: support near 190, then 160-165 if broken; resistance around 250 on the weekly chart. No explicit target.",
+          "timeframe": "Not specified; technical levels discussed on daily and weekly charts",
+          "timestamp": "0:28",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "sector": "industrials"
+        },
+        {
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "stance": "bullish",
+          "thesis": "Guest calls Nebius a tier-one neocloud operator, citing management claims that 2027 capacity is nearly sold out, customers are asking about 2028, and customers are prepaying. He also cites about $8 billion in cash and expected prepayments, and says its inference platform fits growing AI workloads.",
+          "conviction": "high",
+          "evidence": "data",
+          "price_target": "Chart levels: support near 148 (key), resistance near 176 (200-day MA); longer-term retest of recent highs around $250-300 mentioned loosely.",
+          "timeframe": "Not specified",
+          "timestamp": "5:00",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "sector": "ai infrastructure"
+        },
+        {
+          "ticker": "RKLB",
+          "company": "Rocket Lab",
+          "stance": "bullish",
+          "thesis": "Guest is bullish long term on the space economy and Rocket Lab's position in it. He treats the Neutron delay as a manufacturing issue that is fixable, compares it to SpaceX's Falcon 9 delays, and points to the Iridium-related connectivity business and its subscriber and revenue figures as growth drivers. He says the stock's drop reflects SpaceX IPO spillover plus the delay.",
+          "conviction": "high",
+          "evidence": "reasoned",
+          "price_target": "Chart levels: support around 56-60 gap and 75 as a level to reclaim; about 100% upside to June highs mentioned if reached.",
+          "timeframe": "Long term; near-term bounce over next weeks to months",
+          "timestamp": "11:00",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Neutron launch delayed into 2027; Stage two testing at Wallops",
+          "sector": "industrials"
+        }
+      ]
+    }
+  },
+  {
     "video_id": "xOTxS1IXGLw",
     "title": "Market Open: Stocks Higher, Anthropic IPO Docs Posted, Neocloud Shares Struggle • 10/26/26",
     "channel": "CNBC Television",
