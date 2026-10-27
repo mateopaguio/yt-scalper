@@ -1,5 +1,386 @@
 [
   {
+    "event_id": "cat_532eef7991ab18",
+    "title": "Peripheral and Central Nervous System Drugs Advisory Committee Charter",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T17:52:50-04:00",
+    "url": "http://www.fda.gov/advisory-committees/peripheral-and-central-nervous-system-drugs-advisory-committee/peripheral-and-central-nervous-system-drugs-advisory-committee-charter",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "is_market_relevant": false,
+      "summary": "FDA published the charter for its Peripheral and Central Nervous System Drugs Advisory Committee. The announcement contains only a headline with no body text.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_cc341228df055c",
+    "title": "Amgen Inc. - 739641 - 08/12/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T15:32:15-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amgen-inc-739641-08122026",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "enforcement",
+      "summary": "FDA posted a warning letter addressed to Amgen Inc. (reference 739641, dated 08/12/2026, published 2026-10-27). Only the headline was retrieved; the letter body, cited violations, and scope are not available.",
+      "companies": [
+        {
+          "company": "Amgen Inc.",
+          "ticker": "AMGN",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 2,
+      "is_market_relevant": true
+    }
+  },
+  {
+    "event_id": "cat_fa476862124889",
+    "title": "Manual of Compliance Policy Guides",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T14:04:58-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "FDA posted a headline-only item titled \"Manual of Compliance Policy Guides\" on its compliance manuals page. No body text was retrieved, so the content and any specific company impact are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "affected_sectors": []
+    }
+  },
+  {
+    "event_id": "cat_fa476862124889",
+    "title": "Manual of Compliance Policy Guides",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-27T14:04:58-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a headline titled \"Manual of Compliance Policy Guides\" on its compliance manuals page; no body text was retrieved, so the content is unknown. It appears to be a routine reference-page update with no identifiable company or specific action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_4ebe25d7d08e1f",
+    "title": "Cellular & Gene Therapy Guidances",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-27T11:52:15-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines posted a page headlined \"Cellular & Gene Therapy Guidances\" on 2026-10-27. No body text was retrieved, so the specific guidance content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_79eda1c730c453",
+    "title": "ZUBB Dietary Supplement may be harmful due to hidden ingredient",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T11:14:02-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/zubb-dietary-supplement-may-be-harmful-due-hidden-ingredient",
+    "category": "regulatory",
+    "findings": {
+      "affected_sectors": [
+        "dietary supplements"
+      ],
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "recall_safety",
+      "is_market_relevant": true,
+      "materiality": 2,
+      "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
+    }
+  },
+  {
+    "event_id": "cat_01606e6659b297",
+    "title": "Weight Loss Product Notifications",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T11:09:36-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/weight-loss-product-notifications",
+    "category": "regulatory",
+    "findings": {
+      "summary": "FDA posted a 'Weight Loss Product Notifications' page under its medication health fraud notifications section. No body text was retrieved, so the specific products or actions are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "affected_sectors": []
+    }
+  },
+  {
+    "event_id": "cat_80ecfe151ded0a",
+    "title": "Demograss Premier may be harmful due to hidden ingredient",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T11:08:49-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/demograss-premier-may-be-harmful-due-hidden-ingredient",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "recall_safety",
+      "summary": "FDA issued a health fraud notification that the product Demograss Premier may be harmful due to a hidden ingredient. The announcement body text was not retrieved, so the ingredient and company are unspecified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_0e02ce5fdb657a",
+    "title": "Best Chinese Medicines LLC - 738556 - 10/23/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T09:20:07-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/best-chinese-medicines-llc-738556-10232026",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "enforcement",
+      "summary": "FDA posted a warning letter dated 10/23/2026 addressed to Best Chinese Medicines LLC. Only the headline was retrieved, so the violations cited are not known.",
+      "companies": [
+        {
+          "company": "Best Chinese Medicines LLC",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_59f6ab2a04cca9",
+    "title": "TSP Solutions Pte. Ltd. - 735071 - 10/22/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T09:20:07-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/tsp-solutions-pte-ltd-735071-10222026",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "enforcement",
+      "summary": "FDA posted a warning letter dated 10/22/2026 addressed to TSP Solutions Pte. Ltd. The announcement text was not retrieved, so the nature of the violations is unknown.",
+      "companies": [
+        {
+          "company": "TSP Solutions Pte. Ltd.",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_598edff6629535",
+    "title": "Sanrace Biotechnology Co., Ltd. - 737549 - 10/22/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T09:20:06-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/sanrace-biotechnology-co-ltd-737549-10222026",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "enforcement",
+      "is_market_relevant": true,
+      "materiality": 2,
+      "summary": "FDA posted a warning letter dated 10/22/2026 to Sanrace Biotechnology Co., Ltd. (file 737549). Only the headline was retrieved, so the specific violations are not known.",
+      "companies": [
+        {
+          "company": "Sanrace Biotechnology Co., Ltd.",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "affected_sectors": [
+        "pharmaceuticals",
+        "biotechnology"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_c619f73bb02581",
+    "title": "Northland Nuclear Medicine, LLC - 736893 - 10/22/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T09:20:06-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/northland-nuclear-medicine-llc-736893-10222026",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "enforcement",
+      "summary": "FDA posted a warning letter dated 10/22/2026 to Northland Nuclear Medicine, LLC. Only the headline was retrieved; no body text describes the specific violations.",
+      "companies": [
+        {
+          "company": "Northland Nuclear Medicine, LLC",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_97d8e87af1c600",
+    "title": "Calibrate IV Hydration - 729846 - 10/13/2026",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-27T09:20:06-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/calibrate-iv-hydration-729846-10132026",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "enforcement",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "FDA posted a warning letter headlined \"Calibrate IV Hydration - 729846 - 10/13/2026\" dated 10/13/2026. No body text was retrieved, so the specific violations are unknown.",
+      "companies": [
+        {
+          "company": "Calibrate IV Hydration",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear"
+    }
+  },
+  {
+    "event_id": "cat_4fd44e79665887",
+    "title": "Beaute Bounty - 729163 - 09/25/2026",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-27T09:20:05-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/beaute-bounty-729163-09252026",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "enforcement",
+      "summary": "FDA posted a warning letter to Beaute Bounty (dated 09/25/2026, published 2026-10-27), but no body text was retrieved, so the violations and any market relevance cannot be determined from the headline alone.",
+      "companies": [
+        {
+          "company": "Beaute Bounty",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_90087a20d328dc",
+    "title": "NeilMed Pharmaceuticals Inc. - 650263 - 10/19/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T09:20:03-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-10192026",
+    "category": "regulatory",
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "enforcement",
+      "summary": "FDA posted a warning letter dated 10/19/2026 to NeilMed Pharmaceuticals Inc. (reference 650263). Only the headline was retrieved, so the specific violations are not stated.",
+      "companies": [
+        {
+          "company": "NeilMed Pharmaceuticals Inc.",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 2
+    }
+  },
+  {
+    "event_id": "cat_cac20d08832a39",
+    "title": "NeilMed Pharmaceuticals Inc. - 650263 - 05/26/2023",
+    "source": "FDA Drugs",
+    "published": "2026-10-27T09:19:36-04:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-05262023",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "enforcement",
+      "is_market_relevant": true,
+      "summary": "FDA posted a warning letter to NeilMed Pharmaceuticals Inc., dated 05/26/2023 per the headline, based on an inspection. Only the headline was retrieved, so the specific violations are not known.",
+      "companies": [
+        {
+          "company": "NeilMed Pharmaceuticals Inc.",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 2
+    }
+  },
+  {
+    "event_id": "cat_78db511ed13223",
+    "title": "Electronic Submission Template for Investigational Device Exemption (IDE) Applications",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-27T09:02:07-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-submission-template-investigational-device-exemption-ide-applications",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines posted a notice titled \"Electronic Submission Template for Investigational Device Exemption (IDE) Applications.\" No body text was retrieved, so the content is unknown beyond the headline.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_23719750710537",
+    "title": "Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-27T08:53:57-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "regulatory_action",
+      "summary": "FDA Biologics and Vaccines published a guidance document headlined \"Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management.\" Only the headline was retrieved, so the document's content is not confirmed.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "is_market_relevant": true,
+      "affected_sectors": [
+        "biotechnology",
+        "gene therapy"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_25fadbd0985c15",
+    "title": "Early Alert: B. Braun Removes Streamline Bloodline Set for Dialog+",
+    "source": "FDA MedWatch Safety Alerts",
+    "published": "2026-10-27T00:00:00-04:00",
+    "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-removes-streamline-bloodline-set-dialog",
+    "category": "regulatory",
+    "findings": {
+      "event_type": "recall_safety",
+      "summary": "FDA posted an early alert that B. Braun is removing its Streamline Bloodline Set for Dialog+ from the market. Only the headline was retrieved; no body text describes the reason or scope.",
+      "companies": [
+        {
+          "company": "B. Braun",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 2,
+      "is_market_relevant": true,
+      "affected_sectors": [
+        "medical devices",
+        "dialysis"
+      ]
+    }
+  },
+  {
     "event_id": "cat_f89920a7cb66e5",
     "title": "Non-Compliance Letters under 505B(d)(1) of the Federal Food, Drug, and Cosmetic Act",
     "source": "FDA Drugs",

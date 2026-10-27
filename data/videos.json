@@ -1,5 +1,280 @@
 [
   {
+    "video_id": "_dCKQePDyyM",
+    "title": "Bank of America's Bhave: Fed should hike rates Wednesday",
+    "channel": "CNBC Television",
+    "published": "2026-10-27T22:00:03+00:00",
+    "url": "https://www.youtube.com/watch?v=_dCKQePDyyM",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "Bank of America's head of U.S. economics, Addis Ababa, argues the Fed should hike rates at its upcoming meeting despite market pricing for a hold. He cites hot inflation data (September numbers described as problematic), a committee already leaning toward two hikes this year, and the view that a hike would help end reliance on other officials' forward guidance. He expects roughly 75 basis points of hikes overall, with December and March as likely timing if the Fed skips this meeting, and expects inflation to stay above target into 2028 due to supply shocks and robust demand.",
+      "overall_stance": "hawkish",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Inflation has been running hot, with September data problematic in both headline and details.",
+        "The economy is described as hot with robust demand and repeated supply shocks keeping inflation above target through 2027 and into 2028.",
+        "Fed may face a choice between a hawkish hold and a dovish hike; market is pricing a hold.",
+        "Longer-term yields have been elevated; the host argues Fed rhetoric on term premium is asymmetric depending on yield direction.",
+        "Base effects in the first half of next year could let core PCE roll off significantly, allowing reassessment after about 75 bp of hikes."
+      ],
+      "red_flags": [
+        "Forecast of about 75 bp of hikes stated without shown model or detailed reasoning beyond inflation and demand narrative.",
+        "Assertions about Fed officials' motives and Chair Warsh's intentions are speculative."
+      ],
+      "tickers": []
+    }
+  },
+  {
+    "video_id": "gihaiosMW84",
+    "title": "Zook: Today \"Best Opportunity\" for Energy, Names OKLO & SPCX Top Stock Picks",
+    "channel": "Schwab Network",
+    "published": "2026-10-27T22:00:02+00:00",
+    "url": "https://www.youtube.com/watch?v=gihaiosMW84",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "Host Christopher Zook (founder/CIO of Cass Investments, Houston-based) discusses market pullbacks, the 10-year Treasury yield near 5%, and a bullish energy thesis based on supply-demand imbalance from AI and population growth. He names Oklo (small modular nuclear) as a top pick, arguing it is down roughly 80% from its 52-week high and will be a $100 stock within four years, and SpaceX (listed as SPCX in the title) as an opportunity tied to Starlink and post-lockup absorption. Support is mostly assertion; the Oklo and SpaceX cases rest on narrative with few specific numbers. The transcript is auto-generated and partly garbled, so some details may be off.",
+      "overall_stance": "bullish",
+      "hype_level": 4,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Host says the market is questioning whether AI-driven tech momentum is valid or a bubble, and that valuations are a concern.",
+        "Host views the 10-year Treasury yield as the key rate to watch; a move from about 5% pulling back is seen as positive, with concern above roughly 5.5% to 5.75%.",
+        "Host estimates energy supply could be 30% to 50% short of demand between now and 2030, citing AI and data center growth.",
+        "Host says oil is around $101 (as stated by the anchor)."
+      ],
+      "red_flags": [
+        "Price target of $100 for Oklo within four years with no stated methodology or financial basis; Oklo has no cash flow and the host acknowledges it is years from commercial development.",
+        "Host says the stock is down about 80% from its 52-week high and frames that as a great opportunity, without discussing why the decline occurred or downside risk.",
+        "Claims that SpaceX can do in 3 to 4 months what NASA took 30 to 40 years to do, and will create more bandwidth than the internet today, are unsupported by data in the segment.",
+        "Host acknowledges that pre-revenue stocks are volatile but does not give position sizing or risk limits.",
+        "The 30-50% supply shortfall estimate is attributed to unnamed 'estimates' with no source.",
+        "Host says his firm is buying private energy assets at four times cash flow, which is a claim without verifiable detail.",
+        "Host does not disclose whether he owns Oklo, SpaceX, or energy holdings."
+      ],
+      "tickers": [
+        {
+          "ticker": "OKLO",
+          "company": "Oklo",
+          "stance": "bullish",
+          "thesis": "Host sees small modular nuclear reactors as a way to meet data center power demand. He argues the stock, down sharply from its 52-week high, is a buying opportunity and could reach $100 within four years. He acknowledges it has no near-term cash flow and is still years from development.",
+          "conviction": "high",
+          "evidence": "speculation",
+          "price_target": "$100 within the next four years",
+          "sector": "energy",
+          "timeframe": "4 years",
+          "timestamp": "5:20",
+          "breakout_signal": "none",
+          "catalyst": ""
+        },
+        {
+          "ticker": "SPCX",
+          "company": "SpaceX",
+          "stance": "bullish",
+          "thesis": "Host believes SpaceX is an opportunity because it is absorbing post-lockup stock supply, reported strong earnings last week, and has large potential through Starlink satellite communications. Reasoning is qualitative, with the host citing capabilities rather than specific financials.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "price_target": "",
+          "sector": "communication",
+          "timeframe": "",
+          "timestamp": "6:35",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Recent earnings report (host said results were strong)"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "s5l3JjprpaM",
+    "title": "Market Close: Stocks Higher as Chipmakers Rally and Oil Pulls Back • 10/27/26",
+    "channel": "CNBC Television",
+    "published": "2026-10-27T21:07:47+00:00",
+    "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "A CNBC market news wrap covering Tuesday's session: the Dow, S&P 500 and Nasdaq closed higher, led by a chip stock rally. It includes a Fortress strategist arguing equity earnings yield barely beats bond yields and that investors should look for ways to protect portfolios, Boeing shares falling over 10% after management said 737 MAX production stabilization would run through early next year, consumer confidence rising more than expected, and new home sales falling as mortgage rates rose. It also notes oil pulling back below $100 on Iran war-ending talk and previews Wednesday's earnings slate.",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Equity risk premium is thin: a strategist said stocks offer only about a quarter point more yield than bonds, which yield about 5%, making equities less attractive at this stage of the cycle.",
+        "Consumer confidence came in at 91.67 versus a consensus near 81, the highest since June, per CNBC's economics reporter.",
+        "New home sales fell about 5.3% year-over-year in September as mortgage rates rose from about 6.8% to about 7.5% on the 30-year fixed.",
+        "Companies including Royal Caribbean, Coca-Cola and UPS report steady consumer spending despite high inflation, high fuel prices and rates, though concerns about slower Q3 consumer spending persist.",
+        "The Fed is expected to hold rates steady at its Wednesday announcement.",
+        "US crude fell back below $100 a barrel on reports Iranian officials discussed conditions for ending the US war."
+      ],
+      "red_flags": [
+        "Strategist's cautious call is a single quoted opinion with no specific price target or timeframe given"
+      ],
+      "tickers": [
+        {
+          "ticker": "BA",
+          "company": "Boeing",
+          "stance": "bearish",
+          "thesis": "Shares fell more than 10% after management said 737 MAX production stabilization would last through the rest of the year into early next year, with rate of 47 planes a month still pending. The report describes the drop; no host view is expressed beyond that.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "1:36",
+          "sector": "industrials",
+          "catalyst": "Q3 earnings call commentary on 737 MAX production pace",
+          "timeframe": "through early next year",
+          "price_target": "",
+          "breakout_signal": "price_move"
+        },
+        {
+          "ticker": "CBRS",
+          "company": "Cerebras",
+          "stance": "unclear",
+          "thesis": "Named among chip makers that rallied sharply on Tuesday; no reasoning given.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "0:30",
+          "sector": "semiconductors",
+          "catalyst": "",
+          "timeframe": "",
+          "price_target": "",
+          "breakout_signal": "price_move"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "7C8AsOqM9_A",
+    "title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-27T21:00:15+00:00",
+    "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Yahoo Finance segment with a reporter discussing her story that unvetted third-party AI agents are accessing consumer bank accounts at large US banks (Bank of America, Wells Fargo, Morgan Stanley), in some cases doing things customers did not request, such as calling a bank to complain. The panel discusses banks preparing for a worst-case scenario, the risk posed by API access into core financial infrastructure, and cybersecurity concentration risk at key institutions like DTCC, Fed Wire, and BNY Mellon, with a historical example of a small cyber incident involving a Chinese bank. The segment is general news and commentary, not investment advice, and it names no stock to buy or sell.",
+      "overall_stance": "neutral",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Cybersecurity risk at a few key financial infrastructure institutions (e.g., DTCC, Fed Wire, BNY Mellon) could be a systemic concern, per the panel.",
+        "Panelist argues central bank rate moves may matter less over time than central banks' role in protecting payments and user accounts from cyber risk.",
+        "JPMorgan's CEO has reportedly cited cybersecurity as a top existential risk, per a panelist."
+      ],
+      "red_flags": [
+        "Reporter's claims about agents accessing accounts rest on reporting with few specifics given in the segment; no numbers on how many accounts or incidents were involved.",
+        "Dramatic framing ('die hard fire sale', 'this is movie') used in discussion of worst-case scenarios that the reporter says have not yet happened."
+      ],
+      "tickers": [
+        {
+          "ticker": "BAC",
+          "company": "Bank of America",
+          "stance": "unclear",
+          "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. The host describes this as a security risk; no investment view is expressed.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "0:14",
+          "timeframe": "",
+          "price_target": "",
+          "catalyst": "",
+          "breakout_signal": "none",
+          "sector": "financials"
+        },
+        {
+          "ticker": "WFC",
+          "company": "Wells Fargo",
+          "stance": "unclear",
+          "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "0:14",
+          "timeframe": "",
+          "price_target": "",
+          "catalyst": "",
+          "breakout_signal": "none",
+          "sector": "financials"
+        },
+        {
+          "ticker": "MS",
+          "company": "Morgan Stanley",
+          "stance": "unclear",
+          "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "0:14",
+          "timeframe": "",
+          "price_target": "",
+          "catalyst": "",
+          "breakout_signal": "none",
+          "sector": "financials"
+        },
+        {
+          "ticker": "BK",
+          "company": "BNY Mellon",
+          "stance": "unclear",
+          "thesis": "Cited as one of a few key institutions whose failure or hacking could disrupt parts of the US financial system. Concentration risk point only; no investment view.",
+          "conviction": "low",
+          "evidence": "speculation",
+          "timestamp": "2:13",
+          "timeframe": "",
+          "price_target": "",
+          "catalyst": "",
+          "breakout_signal": "none",
+          "sector": "financials"
+        }
+      ]
+    }
+  },
+  {
+    "video_id": "uYA72co5DYE",
+    "title": "Tuesday's Final Takeaways: UPS Earnings Good for Economy, New Home Sales Fall",
+    "channel": "Schwab Network",
+    "published": "2026-10-27T21:00:02+00:00",
+    "url": "https://www.youtube.com/watch?v=uYA72co5DYE",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "A Schwab Network market wrap covering a soft U.S. new home sales report (September sales down about 0.6% to a 676,000 annualized pace, median new-home price down 3.9% year over year, builder confidence at a 14-year low) and UPS's third-quarter results, which beat expectations and led to a raised full-year outlook. The host previews the next day's Fed decision and a slate of earnings reports, and says markets expect the Fed to hold rates. The transcript is auto-generated and partly garbled, so some figures may be mis-transcribed.",
+      "overall_stance": "mixed",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "New home sales slipped in September as rising mortgage rates weighed, though sales came in above economist expectations.",
+        "Builders are cutting prices and offering mortgage rate incentives; builder confidence recently hit a 14-year low.",
+        "Markets expect the Federal Reserve to hold interest rates steady at its next decision, with focus on signals in light of inflation data.",
+        "Business demand appears to be holding up despite inflationary pressures, per UPS's results."
+      ],
+      "red_flags": [
+        "Transcript is auto-generated and partly garbled; specific figures should be checked against primary sources."
+      ],
+      "tickers": [
+        {
+          "ticker": "UPS",
+          "company": "United Parcel Service",
+          "stance": "bullish",
+          "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "0:06",
+          "sector": "transport",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Third-quarter earnings beat and raised full-year guidance",
+          "price_target": "",
+          "timeframe": "2027 margin benefits"
+        }
+      ]
+    }
+  },
+  {
     "video_id": "vu5ukQ5RuNM",
     "title": "Airfares May Actually Be At Bargain Levels 10/27/26",
     "channel": "CNBC Television",

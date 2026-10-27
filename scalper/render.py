@@ -30,6 +30,27 @@ EVIDENCE_LABEL = {
 }
 
 CSS = """
+/* --- responsive guards -------------------------------------------------
+   The reported symptom - text wrapping into one letter per line - has one
+   usual cause: a flex or grid CHILD defaults to min-width:auto, so it
+   refuses to shrink below its content, the sibling gets squeezed to a few
+   pixels, and the browser stacks letters vertically. It is invisible in
+   Chromium here but reproduces readily in WebKit, so the guard is applied
+   rather than waiting to reproduce it.
+   Nothing below hides content; it only lets boxes shrink and text break. */
+.row > *, .card > *, .lead > *, nav.jump > *, .stats > * { min-width: 0; }
+.row, .stats, nav.jump { min-width: 0; }
+.card, .lead, .row, .note, .empty, section { overflow-wrap: anywhere; }
+/* long unbroken strings: URLs, tickers like BRK.B, channel handles */
+.weak, .sm, .take, .meta, .who, .thesis, summary { overflow-wrap: anywhere; }
+a { word-break: break-word; }
+/* never let a child force the page wider than the phone */
+html, body { max-width: 100%; overflow-x: hidden; }
+img, svg, table, pre { max-width: 100%; }
+/* iPhone safe areas (Dynamic Island / home indicator) */
+.wrap { padding-left: max(16px, env(safe-area-inset-left));
+        padding-right: max(16px, env(safe-area-inset-right)); }
+
 h3.sub2{font-size:13px;color:var(--ink);margin:20px 0 9px;
   font-weight:650}
 h2.sec{font-size:12px;letter-spacing:.14em;text-transform:uppercase;
@@ -96,7 +117,7 @@ h2{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mute
 .tkr{font-weight:700;font-size:17px;letter-spacing:.02em}
 .co{color:var(--muted);font-size:13px;flex:1;min-width:120px;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.pill{font-size:11px;padding:2px 8px;border-radius:999px;font-weight:600;
+.pill{font-size:11.5px;padding:2px 8px;border-radius:999px;font-weight:600;
   border:1px solid currentColor;white-space:nowrap}
 .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
 .count{color:var(--dim);font-size:12px;font-variant-numeric:tabular-nums}
@@ -113,7 +134,7 @@ details[open] summary::before{content:"▾ "}
 .take p{margin:0 0 8px}
 .meta{font-size:12px;color:var(--dim);display:flex;gap:12px;flex-wrap:wrap}
 .meta b{color:var(--muted);font-weight:500}
-.ev{font-size:10px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.ev{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
 .ev.good{color:var(--good)} .ev.ok{color:var(--ok)}
 .ev.weak{color:var(--weak)} .ev.bad{color:var(--bad)}
 a{color:var(--accent);text-decoration:none}
@@ -123,7 +144,7 @@ a:hover{text-decoration:underline}
 .vid .t{font-weight:600;margin-bottom:3px;line-height:1.35}
 .vid .c{font-size:12px;color:var(--muted);margin-bottom:6px}
 .vid .s{font-size:13.5px;color:#c9d1d9}
-.kind{font-size:10px;text-transform:uppercase;letter-spacing:.07em;
+.kind{font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;
   padding:1px 6px;border-radius:4px;border:1px solid var(--line);
   color:var(--dim);font-weight:700;margin-right:6px;vertical-align:1px}
 .flag{font-size:12px;color:var(--flat);margin-top:7px;padding-left:16px;
@@ -133,7 +154,7 @@ a:hover{text-decoration:underline}
   margin-bottom:8px;padding:12px 14px}
 .cat.hot{border-color:#6e3030}
 .cat .ch{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;margin-bottom:5px}
-.cat .et{font-size:10px;text-transform:uppercase;letter-spacing:.06em;
+.cat .et{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;
   font-weight:700;color:var(--dim);border:1px solid var(--line);
   padding:1px 6px;border-radius:4px}
 .cat .mt{font-size:11px;color:var(--dim);font-variant-numeric:tabular-nums}

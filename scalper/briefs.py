@@ -137,7 +137,7 @@ h3.bull{color:var(--up)}h3.bear{color:var(--down)}h3.neutral{color:var(--flat)}
  padding:12px 14px;margin-bottom:9px}
 .case .who{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap;
  font-size:12px;color:var(--muted);margin-bottom:6px}
-.ev{font-size:10px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.ev{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
 .ev.data{color:var(--good)}.ev.reasoned{color:var(--ok)}
 .ev.speculation{color:var(--weak)}.ev.none{color:var(--bad)}
 .cv,.ts{color:var(--dim);font-size:11px}

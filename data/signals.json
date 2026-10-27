@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-27T08:30:29.529584+00:00",
- "outcomes_last_run": "2026-10-27T08:30:29.621439+00:00",
+ "last_run": "2026-10-27T22:48:38.452841+00:00",
+ "outcomes_last_run": "2026-10-27T22:48:38.517234+00:00",
  "signals": [
   {
    "basis_counts": {
@@ -75,8 +75,8 @@
    ],
    "last_seen": "2026-10-26T15:14:54.805934+00:00",
    "outcome": {
-    "attempts": 6,
-    "checked_at": "2026-10-27T08:30:29.621439+00:00",
+    "attempts": 3,
+    "checked_at": "2026-10-27T22:48:38.517234+00:00",
     "error": "no price data available"
    },
    "reprint_channels": [
@@ -352,10 +352,10 @@
     "Ticker Symbol: YOU",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529648+00:00",
+   "last_seen": "2026-10-27T22:48:38.452898+00:00",
    "outcome": {
-    "attempts": 6,
-    "checked_at": "2026-10-27T08:30:29.621439+00:00",
+    "attempts": 3,
+    "checked_at": "2026-10-27T22:48:38.517234+00:00",
     "error": "no price data available"
    },
    "reprint_channels": [],
@@ -566,7 +566,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "NVDA",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -647,8 +647,8 @@
    ],
    "last_seen": "2026-10-27T08:11:59.020461+00:00",
    "outcome": {
-    "attempts": 6,
-    "checked_at": "2026-10-27T08:30:29.621439+00:00",
+    "attempts": 3,
+    "checked_at": "2026-10-27T22:48:38.517234+00:00",
     "error": "no price data available"
    },
    "reprint_channels": [],
@@ -892,19 +892,39 @@
     "Jose Najarro Stocks",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529656+00:00",
+   "last_seen": "2026-10-27T22:48:38.452906+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 55.19,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 7.94,
+      "spy_pct": 0.561,
+      "vs_qqq": 6.669,
+      "vs_spy": 7.379
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 59.57,
+      "date": "2026-10-27",
+      "return_pct": 7.94
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -984,7 +1004,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CRWV",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1055,19 +1075,39 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529667+00:00",
+   "last_seen": "2026-10-27T22:48:38.452915+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 343.91,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 0.93,
+      "spy_pct": 0.561,
+      "vs_qqq": -0.341,
+      "vs_spy": 0.369
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 347.1,
+      "date": "2026-10-27",
+      "return_pct": 0.93
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1212,7 +1252,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "AAPL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1283,19 +1323,39 @@
     "Schwab Network",
     "manual"
    ],
-   "last_seen": "2026-10-27T08:30:29.529671+00:00",
+   "last_seen": "2026-10-27T22:48:38.452919+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 237.5,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.41,
+      "spy_pct": 0.561,
+      "vs_qqq": 0.139,
+      "vs_spy": 0.849
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 240.85,
+      "date": "2026-10-27",
+      "return_pct": 1.41
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1362,7 +1422,7 @@
    },
    "status": "PASS",
    "ticker": "LRCX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1435,19 +1495,39 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529675+00:00",
+   "last_seen": "2026-10-27T22:48:38.452922+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 63.9,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -2.16,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -2.16,
+      "spy_pct": 0.561,
+      "vs_qqq": -3.431,
+      "vs_spy": -2.721
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 62.52,
+      "date": "2026-10-27",
+      "return_pct": -2.16
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1514,7 +1594,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "NFLX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1592,17 +1672,37 @@
    ],
    "last_seen": "2026-10-27T01:15:05.688902+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 532.6,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -0.24,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -0.24,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.511,
+      "vs_spy": -0.801
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 531.33,
+      "date": "2026-10-27",
+      "return_pct": -0.24
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1739,19 +1839,39 @@
     "The Compound",
     "manual"
    ],
-   "last_seen": "2026-10-27T08:30:29.529685+00:00",
+   "last_seen": "2026-10-27T22:48:38.452931+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 253.44,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.26,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.26,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.531,
+      "vs_spy": -1.821
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 250.25,
+      "date": "2026-10-27",
+      "return_pct": -1.26
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1805,7 +1925,7 @@
    },
    "status": "RESEARCH",
    "ticker": "IBM",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -1882,17 +2002,37 @@
    ],
    "last_seen": "2026-10-26T15:14:54.806012+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 11.22,
+      "spy_pct": 0.561,
+      "vs_qqq": 9.949,
+      "vs_spy": 10.659
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 170.47,
+      "date": "2026-10-27",
+      "return_pct": 11.22
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2016,19 +2156,39 @@
     "Couch Investor",
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T08:30:29.529691+00:00",
+   "last_seen": "2026-10-27T22:48:38.452936+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 531.28,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 5.45,
+      "spy_pct": 0.561,
+      "vs_qqq": 4.179,
+      "vs_spy": 4.889
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 560.26,
+      "date": "2026-10-27",
+      "return_pct": 5.45
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2082,7 +2242,7 @@
    },
    "status": "PASS",
    "ticker": "AMD",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2154,19 +2314,39 @@
     "Couch Investor",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529695+00:00",
+   "last_seen": "2026-10-27T22:48:38.452939+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 316.8,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.19,
+      "spy_pct": 0.561,
+      "vs_qqq": -0.081,
+      "vs_spy": 0.629
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 320.58,
+      "date": "2026-10-27",
+      "return_pct": 1.19
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2220,7 +2400,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "GOOGL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2288,19 +2468,39 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529698+00:00",
+   "last_seen": "2026-10-27T22:48:38.452942+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 20.85,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 0.43,
+      "spy_pct": 0.561,
+      "vs_qqq": -0.841,
+      "vs_spy": -0.131
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 20.94,
+      "date": "2026-10-27",
+      "return_pct": 0.43
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -2370,7 +2570,7 @@
    },
    "status": "PASS",
    "ticker": "T",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2440,19 +2640,39 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529701+00:00",
+   "last_seen": "2026-10-27T22:48:38.452944+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 146.93,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -0.07,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -0.07,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.341,
+      "vs_spy": -0.631
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 146.83,
+      "date": "2026-10-27",
+      "return_pct": -0.07
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -2522,7 +2742,7 @@
    },
    "status": "PASS",
    "ticker": "TMUS",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2593,19 +2813,39 @@
     "Benzinga",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529708+00:00",
+   "last_seen": "2026-10-27T22:48:38.452949+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 356.13,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 6.95,
+      "spy_pct": 0.561,
+      "vs_qqq": 5.679,
+      "vs_spy": 6.389
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 380.88,
+      "date": "2026-10-27",
+      "return_pct": 6.95
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2672,7 +2912,7 @@
    },
    "status": "WATCHLIST",
    "ticker": "WDC",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2741,19 +2981,39 @@
     "CNBC Television",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529711+00:00",
+   "last_seen": "2026-10-27T22:48:38.452952+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 315.05,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -0.68,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -0.68,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.951,
+      "vs_spy": -1.241
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 312.91,
+      "date": "2026-10-27",
+      "return_pct": -0.68
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2807,7 +3067,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AXP",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2876,19 +3136,39 @@
     "Benzinga",
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529715+00:00",
+   "last_seen": "2026-10-27T22:48:38.452954+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 203.92,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 7.15,
+      "spy_pct": 0.561,
+      "vs_qqq": 5.879,
+      "vs_spy": 6.589
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 218.5,
+      "date": "2026-10-27",
+      "return_pct": 7.15
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2929,7 +3209,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BE",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -2997,19 +3277,39 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T08:30:29.529721+00:00",
+   "last_seen": "2026-10-27T22:48:38.452960+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 66.13,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -0.53,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -0.53,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.801,
+      "vs_spy": -1.091
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 65.78,
+      "date": "2026-10-27",
+      "return_pct": -0.53
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "Couch Investor"
@@ -3052,7 +3352,7 @@
    },
    "status": "PASS",
    "ticker": "UBER",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3123,19 +3423,39 @@
     "Bloomberg Television",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529724+00:00",
+   "last_seen": "2026-10-27T22:48:38.452963+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 15.25,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 3.28,
+      "spy_pct": 0.561,
+      "vs_qqq": 2.009,
+      "vs_spy": 2.719
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 15.75,
+      "date": "2026-10-27",
+      "return_pct": 3.28
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3176,7 +3496,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NCLH",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3245,19 +3565,39 @@
     "Couch Investor",
     "The Compound"
    ],
-   "last_seen": "2026-10-27T08:30:29.529744+00:00",
+   "last_seen": "2026-10-27T22:48:38.452970+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 92.84,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.85,
+      "spy_pct": 0.561,
+      "vs_qqq": 0.579,
+      "vs_spy": 1.289
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 94.56,
+      "date": "2026-10-27",
+      "return_pct": 1.85
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3298,7 +3638,7 @@
    },
    "status": "RESEARCH",
    "ticker": "HOOD",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3374,17 +3714,37 @@
    ],
    "last_seen": "2026-10-26T22:26:42.878901+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.61,
+      "spy_pct": 0.561,
+      "vs_qqq": 0.339,
+      "vs_spy": 1.049
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 253.1,
+      "date": "2026-10-27",
+      "return_pct": 1.61
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3500,17 +3860,37 @@
    ],
    "last_seen": "2026-10-27T01:15:05.689041+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 232.01,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.63,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.63,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.901,
+      "vs_spy": -2.191
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 228.23,
+      "date": "2026-10-27",
+      "return_pct": -1.63
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "Schwab Network"
@@ -3625,19 +4005,39 @@
     "Asymmetric Investing",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529748+00:00",
+   "last_seen": "2026-10-27T22:48:38.452973+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 126.06,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 3.55,
+      "spy_pct": 0.561,
+      "vs_qqq": 2.279,
+      "vs_spy": 2.989
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 130.53,
+      "date": "2026-10-27",
+      "return_pct": 3.55
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3678,7 +4078,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ORCL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -3753,17 +4153,37 @@
    ],
    "last_seen": "2026-10-26T15:14:54.806040+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.93,
+      "spy_pct": 0.561,
+      "vs_qqq": 0.659,
+      "vs_spy": 1.369
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 43.93,
+      "date": "2026-10-27",
+      "return_pct": 1.93
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "CNBC Television"
@@ -3884,17 +4304,37 @@
    ],
    "last_seen": "2026-10-27T01:15:05.689001+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 184.54,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -2.51,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -2.51,
+      "spy_pct": 0.561,
+      "vs_qqq": -3.781,
+      "vs_spy": -3.071
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 179.91,
+      "date": "2026-10-27",
+      "return_pct": -2.51
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4010,17 +4450,37 @@
    ],
    "last_seen": "2026-10-26T22:26:42.878988+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.02,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.02,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.291,
+      "vs_spy": -1.581
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 201.28,
+      "date": "2026-10-27",
+      "return_pct": -1.02
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4129,19 +4589,39 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529756+00:00",
+   "last_seen": "2026-10-27T22:48:38.452980+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 644.21,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 3.67,
+      "spy_pct": 0.561,
+      "vs_qqq": 2.399,
+      "vs_spy": 3.109
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 667.85,
+      "date": "2026-10-27",
+      "return_pct": 3.67
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4182,7 +4662,7 @@
    },
    "status": "RESEARCH",
    "ticker": "STX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4250,19 +4730,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529774+00:00",
+   "last_seen": "2026-10-27T22:48:38.452996+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 102.69,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 0.34,
+      "spy_pct": 0.561,
+      "vs_qqq": -0.931,
+      "vs_spy": -0.221
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 103.04,
+      "date": "2026-10-27",
+      "return_pct": 0.34
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4290,7 +4790,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SBUX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4358,19 +4858,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529777+00:00",
+   "last_seen": "2026-10-27T22:48:38.452998+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 1279.14,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 0.22,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.051,
+      "vs_spy": -0.341
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 1281.91,
+      "date": "2026-10-27",
+      "return_pct": 0.22
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4398,7 +4918,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LLY",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4466,19 +4986,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529780+00:00",
+   "last_seen": "2026-10-27T22:48:38.453000+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 92.7,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.64,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.64,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.911,
+      "vs_spy": -2.201
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 91.18,
+      "date": "2026-10-27",
+      "return_pct": -1.64
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4506,7 +5046,7 @@
    },
    "status": "RESEARCH",
    "ticker": "KO",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4574,19 +5114,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529782+00:00",
+   "last_seen": "2026-10-27T22:48:38.453002+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 149.21,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 2.98,
+      "spy_pct": 0.561,
+      "vs_qqq": 1.709,
+      "vs_spy": 2.419
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 153.66,
+      "date": "2026-10-27",
+      "return_pct": 2.98
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4614,7 +5174,7 @@
    },
    "status": "RESEARCH",
    "ticker": "KLAC",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4682,19 +5242,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529785+00:00",
+   "last_seen": "2026-10-27T22:48:38.453004+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 692.13,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 3.06,
+      "spy_pct": 0.561,
+      "vs_qqq": 1.789,
+      "vs_spy": 2.499
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 713.31,
+      "date": "2026-10-27",
+      "return_pct": 3.06
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4722,7 +5302,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CAT",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4790,19 +5370,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529788+00:00",
+   "last_seen": "2026-10-27T22:48:38.453006+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 404.16,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -0.57,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -0.57,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.841,
+      "vs_spy": -1.131
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 401.86,
+      "date": "2026-10-27",
+      "return_pct": -0.57
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4830,7 +5430,7 @@
    },
    "status": "RESEARCH",
    "ticker": "V",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -4898,19 +5498,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529791+00:00",
+   "last_seen": "2026-10-27T22:48:38.453008+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 450.65,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -0.38,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -0.38,
+      "spy_pct": 0.561,
+      "vs_qqq": -1.651,
+      "vs_spy": -0.941
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 448.93,
+      "date": "2026-10-27",
+      "return_pct": -0.38
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4938,7 +5558,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SPGI",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5006,19 +5626,39 @@
    "independent_channels": [
     "Dividend Talks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529794+00:00",
+   "last_seen": "2026-10-27T22:48:38.453010+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 301.12,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -2.66,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -2.66,
+      "spy_pct": 0.561,
+      "vs_qqq": -3.931,
+      "vs_spy": -3.221
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 293.11,
+      "date": "2026-10-27",
+      "return_pct": -2.66
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5046,7 +5686,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ADP",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5121,17 +5761,37 @@
    ],
    "last_seen": "2026-10-26T18:45:21.900436+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 4.39,
+      "spy_pct": 0.561,
+      "vs_qqq": 3.119,
+      "vs_spy": 3.829
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 208.56,
+      "date": "2026-10-27",
+      "return_pct": 4.39
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5227,19 +5887,39 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T08:30:29.529797+00:00",
+   "last_seen": "2026-10-27T22:48:38.453012+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 330.0,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.4,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.4,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.671,
+      "vs_spy": -1.961
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 325.37,
+      "date": "2026-10-27",
+      "return_pct": -1.4
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5267,7 +5947,7 @@
    },
    "status": "RESEARCH",
    "ticker": "COR",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5335,19 +6015,39 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T08:30:29.529800+00:00",
+   "last_seen": "2026-10-27T22:48:38.453013+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 55.63,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 4.66,
+      "spy_pct": 0.561,
+      "vs_qqq": 3.389,
+      "vs_spy": 4.099
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 58.22,
+      "date": "2026-10-27",
+      "return_pct": 4.66
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5375,7 +6075,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CGNX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5443,19 +6143,39 @@
    "independent_channels": [
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T08:30:29.529802+00:00",
+   "last_seen": "2026-10-27T22:48:38.453015+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 8.64,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 2.89,
+      "spy_pct": 0.561,
+      "vs_qqq": 1.619,
+      "vs_spy": 2.329
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 8.89,
+      "date": "2026-10-27",
+      "return_pct": 2.89
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5483,7 +6203,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NOK",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5551,19 +6271,39 @@
    "independent_channels": [
     "Parkev Tatevosian, CFA"
    ],
-   "last_seen": "2026-10-27T08:30:29.529805+00:00",
+   "last_seen": "2026-10-27T22:48:38.453017+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 8.24,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 5.95,
+      "spy_pct": 0.561,
+      "vs_qqq": 4.679,
+      "vs_spy": 5.389
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 8.73,
+      "date": "2026-10-27",
+      "return_pct": 5.95
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5591,7 +6331,7 @@
    },
    "status": "PASS",
    "ticker": "CHPT",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5661,7 +6401,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529809+00:00",
+   "last_seen": "2026-10-27T22:48:38.453019+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5689,7 +6429,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SOFI",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5757,7 +6497,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529811+00:00",
+   "last_seen": "2026-10-27T22:48:38.453021+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5785,7 +6525,7 @@
    },
    "status": "RESEARCH",
    "ticker": "RDDT",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5853,7 +6593,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529814+00:00",
+   "last_seen": "2026-10-27T22:48:38.453024+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5881,7 +6621,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NOW",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -5949,7 +6689,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529818+00:00",
+   "last_seen": "2026-10-27T22:48:38.453025+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5977,7 +6717,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SNDK",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6045,7 +6785,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529820+00:00",
+   "last_seen": "2026-10-27T22:48:38.453028+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -6077,7 +6817,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ETH",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6145,7 +6885,7 @@
    "independent_channels": [
     "Excess Returns"
    ],
-   "last_seen": "2026-10-27T08:30:29.529823+00:00",
+   "last_seen": "2026-10-27T22:48:38.453030+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6173,7 +6913,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SMH",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6241,7 +6981,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529826+00:00",
+   "last_seen": "2026-10-27T22:48:38.453032+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6269,7 +7009,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QS",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6438,7 +7178,7 @@
    "independent_channels": [
     "FAST Graphs"
    ],
-   "last_seen": "2026-10-27T08:30:29.529829+00:00",
+   "last_seen": "2026-10-27T22:48:38.453034+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6466,7 +7206,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CPAY",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6638,7 +7378,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529832+00:00",
+   "last_seen": "2026-10-27T22:48:38.453036+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6666,7 +7406,7 @@
    },
    "status": "RESEARCH",
    "ticker": "DECK",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6734,7 +7474,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-10-27T08:30:29.529834+00:00",
+   "last_seen": "2026-10-27T22:48:38.453038+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6762,7 +7502,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NEM",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6830,7 +7570,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-10-27T08:30:29.529837+00:00",
+   "last_seen": "2026-10-27T22:48:38.453040+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6858,7 +7598,7 @@
    },
    "status": "RESEARCH",
    "ticker": "OMC",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -6926,7 +7666,7 @@
    "independent_channels": [
     "manual"
    ],
-   "last_seen": "2026-10-27T08:30:29.529840+00:00",
+   "last_seen": "2026-10-27T22:48:38.453042+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6954,7 +7694,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TXN",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7022,7 +7762,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529843+00:00",
+   "last_seen": "2026-10-27T22:48:38.453044+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7050,7 +7790,7 @@
    },
    "status": "RESEARCH",
    "ticker": "UAL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7217,7 +7957,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529846+00:00",
+   "last_seen": "2026-10-27T22:48:38.453046+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7245,7 +7985,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SMCI",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7313,7 +8053,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T08:30:29.529871+00:00",
+   "last_seen": "2026-10-27T22:48:38.453072+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7341,7 +8081,7 @@
    },
    "status": "PASS",
    "ticker": "CLF",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7411,7 +8151,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529873+00:00",
+   "last_seen": "2026-10-27T22:48:38.453074+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -7443,7 +8183,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BTC",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7511,7 +8251,7 @@
    "independent_channels": [
     "CNBC"
    ],
-   "last_seen": "2026-10-27T08:30:29.529876+00:00",
+   "last_seen": "2026-10-27T22:48:38.453076+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7539,7 +8279,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GE",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7607,7 +8347,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529879+00:00",
+   "last_seen": "2026-10-27T22:48:38.453078+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7635,7 +8375,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PG",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7703,7 +8443,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529881+00:00",
+   "last_seen": "2026-10-27T22:48:38.453080+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7731,7 +8471,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ENPH",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7799,7 +8539,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529884+00:00",
+   "last_seen": "2026-10-27T22:48:38.453082+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7827,7 +8567,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PSKY",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7895,7 +8635,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529887+00:00",
+   "last_seen": "2026-10-27T22:48:38.453084+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -7923,7 +8663,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SKHY",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -7991,7 +8731,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529889+00:00",
+   "last_seen": "2026-10-27T22:48:38.453086+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8019,7 +8759,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CIEN",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8087,7 +8827,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529892+00:00",
+   "last_seen": "2026-10-27T22:48:38.453087+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8115,7 +8855,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PWR",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8183,7 +8923,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529894+00:00",
+   "last_seen": "2026-10-27T22:48:38.453089+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8211,7 +8951,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NDAQ",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8279,7 +9019,7 @@
    "independent_channels": [
     "Asymmetric Investing"
    ],
-   "last_seen": "2026-10-27T08:30:29.529897+00:00",
+   "last_seen": "2026-10-27T22:48:38.453091+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8307,7 +9047,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MU",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8375,7 +9115,7 @@
    "independent_channels": [
     "Asymmetric Investing"
    ],
-   "last_seen": "2026-10-27T08:30:29.529899+00:00",
+   "last_seen": "2026-10-27T22:48:38.453093+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8403,7 +9143,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TSM",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8471,7 +9211,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529902+00:00",
+   "last_seen": "2026-10-27T22:48:38.453095+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8499,7 +9239,7 @@
    },
    "status": "RESEARCH",
    "ticker": "VST",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8663,7 +9403,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-27T08:30:29.529905+00:00",
+   "last_seen": "2026-10-27T22:48:38.453097+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8691,7 +9431,7 @@
    },
    "status": "PASS",
    "ticker": "CRM",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8761,7 +9501,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-27T08:30:29.529908+00:00",
+   "last_seen": "2026-10-27T22:48:38.453099+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8789,7 +9529,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ADI",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8857,7 +9597,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-10-27T08:30:29.529910+00:00",
+   "last_seen": "2026-10-27T22:48:38.453102+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8885,7 +9625,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QLYS",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -8953,7 +9693,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T08:30:29.529916+00:00",
+   "last_seen": "2026-10-27T22:48:38.453110+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -8981,7 +9721,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LNG",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9049,7 +9789,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T08:30:29.529919+00:00",
+   "last_seen": "2026-10-27T22:48:38.453112+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9077,7 +9817,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AMPL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9246,7 +9986,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529921+00:00",
+   "last_seen": "2026-10-27T22:48:38.453114+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9274,7 +10014,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MELI",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9342,7 +10082,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529924+00:00",
+   "last_seen": "2026-10-27T22:48:38.453116+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9370,7 +10110,7 @@
    },
    "status": "RESEARCH",
    "ticker": "AVGO",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9438,7 +10178,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529926+00:00",
+   "last_seen": "2026-10-27T22:48:38.453118+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9466,7 +10206,7 @@
    },
    "status": "RESEARCH",
    "ticker": "PYPL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9534,7 +10274,7 @@
    "independent_channels": [
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529929+00:00",
+   "last_seen": "2026-10-27T22:48:38.453120+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9562,7 +10302,7 @@
    },
    "status": "RESEARCH",
    "ticker": "INTC",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9630,7 +10370,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529931+00:00",
+   "last_seen": "2026-10-27T22:48:38.453122+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9658,7 +10398,7 @@
    },
    "status": "RESEARCH",
    "ticker": "MSTR",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9726,7 +10466,7 @@
    "independent_channels": [
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529956+00:00",
+   "last_seen": "2026-10-27T22:48:38.453141+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9754,7 +10494,7 @@
    },
    "status": "PASS",
    "ticker": "APLD",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9824,7 +10564,7 @@
    "independent_channels": [
     "Jose Najarro Stocks"
    ],
-   "last_seen": "2026-10-27T08:30:29.529959+00:00",
+   "last_seen": "2026-10-27T22:48:38.453143+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9852,7 +10592,7 @@
    },
    "status": "PASS",
    "ticker": "IREN",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -9922,7 +10662,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T08:30:29.529961+00:00",
+   "last_seen": "2026-10-27T22:48:38.453145+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -9950,7 +10690,7 @@
    },
    "status": "PASS",
    "ticker": "RDW",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10020,7 +10760,7 @@
    "independent_channels": [
     "StockedUp"
    ],
-   "last_seen": "2026-10-27T08:30:29.529964+00:00",
+   "last_seen": "2026-10-27T22:48:38.453147+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10048,7 +10788,7 @@
    },
    "status": "PASS",
    "ticker": "HIMS",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10118,7 +10858,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T08:30:29.529967+00:00",
+   "last_seen": "2026-10-27T22:48:38.453149+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10146,7 +10886,7 @@
    },
    "status": "PASS",
    "ticker": "RBLX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10216,7 +10956,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T08:30:29.529970+00:00",
+   "last_seen": "2026-10-27T22:48:38.453151+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10244,7 +10984,7 @@
    },
    "status": "PASS",
    "ticker": "PLTR",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10315,7 +11055,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T08:30:29.529972+00:00",
+   "last_seen": "2026-10-27T22:48:38.453153+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10343,7 +11083,7 @@
    },
    "status": "PASS",
    "ticker": "RDBX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10413,7 +11153,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529975+00:00",
+   "last_seen": "2026-10-27T22:48:38.453155+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10441,7 +11181,7 @@
    },
    "status": "PASS",
    "ticker": "MRVL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10511,7 +11251,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529978+00:00",
+   "last_seen": "2026-10-27T22:48:38.453157+00:00",
    "outcome": {
     "checked_at": "2026-10-26T16:22:44.823176+00:00",
     "reason": "not a US equity - no price source configured",
@@ -10543,7 +11283,7 @@
    },
    "status": "PASS",
    "ticker": "HYPE",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10613,7 +11353,7 @@
    "independent_channels": [
     "CNBC"
    ],
-   "last_seen": "2026-10-27T08:30:29.529981+00:00",
+   "last_seen": "2026-10-27T22:48:38.453159+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10641,7 +11381,7 @@
    },
    "status": "PASS",
    "ticker": "RTX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10711,7 +11451,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529984+00:00",
+   "last_seen": "2026-10-27T22:48:38.453161+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10739,7 +11479,7 @@
    },
    "status": "PASS",
    "ticker": "EQIX",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10809,7 +11549,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529986+00:00",
+   "last_seen": "2026-10-27T22:48:38.453164+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10837,7 +11577,7 @@
    },
    "status": "PASS",
    "ticker": "HAL",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -10907,7 +11647,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529989+00:00",
+   "last_seen": "2026-10-27T22:48:38.453165+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -10935,7 +11675,7 @@
    },
    "status": "PASS",
    "ticker": "SLB",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11005,7 +11745,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529991+00:00",
+   "last_seen": "2026-10-27T22:48:38.453167+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11033,7 +11773,7 @@
    },
    "status": "PASS",
    "ticker": "GM",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11104,7 +11844,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529994+00:00",
+   "last_seen": "2026-10-27T22:48:38.453169+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11132,7 +11872,7 @@
    },
    "status": "PASS",
    "ticker": "PANW",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11202,7 +11942,7 @@
    "independent_channels": [
     "Bloomberg Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529997+00:00",
+   "last_seen": "2026-10-27T22:48:38.453171+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11230,7 +11970,7 @@
    },
    "status": "PASS",
    "ticker": "XLE",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11300,7 +12040,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.530000+00:00",
+   "last_seen": "2026-10-27T22:48:38.453173+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11328,7 +12068,7 @@
    },
    "status": "PASS",
    "ticker": "VLO",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11396,7 +12136,7 @@
    ],
    "id": "CCI-7b2012f68fb0",
    "independent_channels": [],
-   "last_seen": "2026-10-27T08:30:29.530003+00:00",
+   "last_seen": "2026-10-27T22:48:38.453175+00:00",
    "outcome": null,
    "reprint_channels": [
     "Benzinga"
@@ -11426,7 +12166,7 @@
    },
    "status": "PASS",
    "ticker": "CCI",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11497,7 +12237,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.530005+00:00",
+   "last_seen": "2026-10-27T22:48:38.453177+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -11525,7 +12265,7 @@
    },
    "status": "PASS",
    "ticker": "ELIS",
-   "times_seen": 38,
+   "times_seen": 42,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11605,19 +12345,39 @@
     "Yahoo Finance",
     "manual"
    ],
-   "last_seen": "2026-10-27T08:30:29.529641+00:00",
+   "last_seen": "2026-10-27T22:48:38.452893+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 630.56,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.64,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.64,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.911,
+      "vs_spy": -2.201
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 620.19,
+      "date": "2026-10-27",
+      "return_pct": -1.64
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "Couch Investor"
@@ -11830,7 +12590,7 @@
    "status": "WATCHLIST",
    "supersedes": "META-22f5bbab6c2e",
    "ticker": "META",
-   "times_seen": 32,
+   "times_seen": 36,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -11908,17 +12668,37 @@
    ],
    "last_seen": "2026-10-26T18:45:21.900378+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 11.22,
+      "spy_pct": 0.561,
+      "vs_qqq": 9.949,
+      "vs_spy": 10.659
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 170.47,
+      "date": "2026-10-27",
+      "return_pct": 11.22
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -12056,19 +12836,39 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529688+00:00",
+   "last_seen": "2026-10-27T22:48:38.452933+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.93,
+      "spy_pct": 0.561,
+      "vs_qqq": 0.659,
+      "vs_spy": 1.369
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 43.93,
+      "date": "2026-10-27",
+      "return_pct": 1.93
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [
     "CNBC Television"
@@ -12138,7 +12938,7 @@
    "status": "WATCHLIST",
    "supersedes": "VZ-726724e0f7e0",
    "ticker": "VZ",
-   "times_seen": 32,
+   "times_seen": 36,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12204,7 +13004,7 @@
    ],
    "id": "JBLU-26b6be8215f5",
    "independent_channels": [],
-   "last_seen": "2026-10-27T08:30:29.529913+00:00",
+   "last_seen": "2026-10-27T22:48:38.453104+00:00",
    "outcome": null,
    "reprint_channels": [
     "CNBC Television"
@@ -12234,7 +13034,7 @@
    },
    "status": "PASS",
    "ticker": "JBLU",
-   "times_seen": 32,
+   "times_seen": 36,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12305,7 +13105,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529865+00:00",
+   "last_seen": "2026-10-27T22:48:38.453067+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -12333,7 +13133,7 @@
    },
    "status": "PASS",
    "ticker": "ROST",
-   "times_seen": 32,
+   "times_seen": 36,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12403,7 +13203,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529867+00:00",
+   "last_seen": "2026-10-27T22:48:38.453070+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -12431,7 +13231,7 @@
    },
    "status": "RESEARCH",
    "ticker": "FICO",
-   "times_seen": 32,
+   "times_seen": 36,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12503,19 +13303,39 @@
     "Jose Najarro Stocks",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529660+00:00",
+   "last_seen": "2026-10-27T22:48:38.452909+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 11.22,
+      "spy_pct": 0.561,
+      "vs_qqq": 9.949,
+      "vs_spy": 10.659
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 170.47,
+      "date": "2026-10-27",
+      "return_pct": 11.22
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T18:45:21.900344+00:00",
@@ -12596,7 +13416,7 @@
    "status": "WATCHLIST",
    "supersedes": "NBIS-5fe16239c300",
    "ticker": "NBIS",
-   "times_seen": 22,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12665,19 +13485,39 @@
     "Schwab Network",
     "Ticker Symbol: YOU"
    ],
-   "last_seen": "2026-10-27T08:30:29.529718+00:00",
+   "last_seen": "2026-10-27T22:48:38.452957+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 4.39,
+      "spy_pct": 0.561,
+      "vs_qqq": 3.119,
+      "vs_spy": 3.829
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 208.56,
+      "date": "2026-10-27",
+      "return_pct": 4.39
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T18:45:21.900344+00:00",
@@ -12719,7 +13559,7 @@
    "status": "WATCHLIST",
    "supersedes": "VRT-fcd87cf22bd7",
    "ticker": "VRT",
-   "times_seen": 22,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12788,7 +13628,7 @@
     "Couch Investor",
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529742+00:00",
+   "last_seen": "2026-10-27T22:48:38.452968+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T18:45:21.900344+00:00",
@@ -12830,7 +13670,7 @@
    "status": "RESEARCH",
    "supersedes": "RKLB-212a1367515a",
    "ticker": "RKLB",
-   "times_seen": 22,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -12907,17 +13747,37 @@
    ],
    "last_seen": "2026-10-27T01:15:05.688963+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": 0.0,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": 1.61,
+      "spy_pct": 0.561,
+      "vs_qqq": 0.339,
+      "vs_spy": 1.049
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 253.1,
+      "date": "2026-10-27",
+      "return_pct": 1.61
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T22:26:42.878835+00:00",
@@ -13156,19 +14016,39 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529753+00:00",
+   "last_seen": "2026-10-27T22:48:38.452978+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "drawdown_window_days": 1,
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
-    "returns": {
-     "1": null,
+    "max_drawdown_pct": -1.02,
+    "relative": {
+     "1": {
+      "qqq_pct": 1.271,
+      "raw_pct": -1.02,
+      "spy_pct": 0.561,
+      "vs_qqq": -2.291,
+      "vs_spy": -1.581
+     },
      "180": null,
      "30": null,
      "7": null,
      "90": null
     },
-    "trading_days_available": 0
+    "returns": {
+     "1": {
+      "close": 201.28,
+      "date": "2026-10-27",
+      "return_pct": -1.02
+     },
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 1
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T22:26:42.878835+00:00",
@@ -13223,7 +14103,7 @@
    "status": "RESEARCH",
    "supersedes": "TTWO-b389a1b0d765",
    "ticker": "TTWO",
-   "times_seen": 19,
+   "times_seen": 23,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13291,7 +14171,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529950+00:00",
+   "last_seen": "2026-10-27T22:48:38.453137+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-26T22:26:42.878835+00:00",
@@ -13319,7 +14199,7 @@
    },
    "status": "PASS",
    "ticker": "EA",
-   "times_seen": 19,
+   "times_seen": 23,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13393,10 +14273,27 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529663+00:00",
+   "last_seen": "2026-10-27T22:48:38.452912+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
-    "error": "no trading day at or after the recommendation date"
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "entry_close": 531.33,
+    "entry_date": "2026-10-27",
+    "relative": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -13477,7 +14374,7 @@
    "status": "WATCHLIST",
    "supersedes": "MSFT-122c1fdcb2af",
    "ticker": "MSFT",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13548,10 +14445,27 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529678+00:00",
+   "last_seen": "2026-10-27T22:48:38.452925+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
-    "error": "no trading day at or after the recommendation date"
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "entry_close": 253.1,
+    "entry_date": "2026-10-27",
+    "relative": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -13619,7 +14533,7 @@
    "status": "WATCHLIST",
    "supersedes": "AMZN-9030100c4d9b",
    "ticker": "AMZN",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13689,7 +14603,7 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529681+00:00",
+   "last_seen": "2026-10-27T22:48:38.452928+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -13744,7 +14658,7 @@
    "status": "WATCHLIST",
    "supersedes": "CRWD-cab0b6e5e48b",
    "ticker": "CRWD",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13814,10 +14728,27 @@
     "CNBC Television",
     "Couch Investor"
    ],
-   "last_seen": "2026-10-27T08:30:29.529705+00:00",
+   "last_seen": "2026-10-27T22:48:38.452946+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
-    "error": "no trading day at or after the recommendation date"
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "entry_close": 179.91,
+    "entry_date": "2026-10-27",
+    "relative": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -13872,7 +14803,7 @@
    "status": "RESEARCH",
    "supersedes": "XOM-c63f7faec5c2",
    "ticker": "XOM",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -13940,7 +14871,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529738+00:00",
+   "last_seen": "2026-10-27T22:48:38.452965+00:00",
    "outcome": null,
    "reprint_channels": [
     "Schwab Network"
@@ -13984,7 +14915,7 @@
    "status": "PASS",
    "supersedes": "MRNA-7deef3189e54",
    "ticker": "MRNA",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14055,10 +14986,27 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529750+00:00",
+   "last_seen": "2026-10-27T22:48:38.452975+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
-    "error": "no trading day at or after the recommendation date"
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "entry_close": 228.23,
+    "entry_date": "2026-10-27",
+    "relative": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [
     "Schwab Network"
@@ -14115,7 +15063,7 @@
    "status": "PASS",
    "supersedes": "CVX-0167d9dc84d1",
    "ticker": "CVX",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14186,7 +15134,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529759+00:00",
+   "last_seen": "2026-10-27T22:48:38.452985+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14214,7 +15162,7 @@
    },
    "status": "RESEARCH",
    "ticker": "TMO",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14282,7 +15230,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529762+00:00",
+   "last_seen": "2026-10-27T22:48:38.452987+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14310,7 +15258,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BB",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14378,7 +15326,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529853+00:00",
+   "last_seen": "2026-10-27T22:48:38.453059+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14406,7 +15354,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GBCI",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14474,7 +15422,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529934+00:00",
+   "last_seen": "2026-10-27T22:48:38.453126+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14502,7 +15450,7 @@
    },
    "status": "PASS",
    "ticker": "AMAT",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14572,7 +15520,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529936+00:00",
+   "last_seen": "2026-10-27T22:48:38.453128+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14600,7 +15548,7 @@
    },
    "status": "PASS",
    "ticker": "CELH",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14670,7 +15618,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529939+00:00",
+   "last_seen": "2026-10-27T22:48:38.453130+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14698,7 +15646,7 @@
    },
    "status": "PASS",
    "ticker": "MNST",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14768,7 +15716,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529942+00:00",
+   "last_seen": "2026-10-27T22:48:38.453132+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14796,7 +15744,7 @@
    },
    "status": "PASS",
    "ticker": "QUBT",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14866,7 +15814,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529945+00:00",
+   "last_seen": "2026-10-27T22:48:38.453134+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14894,7 +15842,7 @@
    },
    "status": "PASS",
    "ticker": "USAR",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -14964,7 +15912,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529947+00:00",
+   "last_seen": "2026-10-27T22:48:38.453136+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -14992,7 +15940,7 @@
    },
    "status": "PASS",
    "ticker": "IBRX",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15062,7 +16010,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-10-27T08:30:29.529953+00:00",
+   "last_seen": "2026-10-27T22:48:38.453139+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -15090,7 +16038,7 @@
    },
    "status": "PASS",
    "ticker": "CSCO",
-   "times_seen": 18,
+   "times_seen": 22,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15160,7 +16108,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529765+00:00",
+   "last_seen": "2026-10-27T22:48:38.452989+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T03:31:41.055887+00:00",
@@ -15188,7 +16136,7 @@
    },
    "status": "RESEARCH",
    "ticker": "WHR",
-   "times_seen": 17,
+   "times_seen": 21,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15256,7 +16204,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529768+00:00",
+   "last_seen": "2026-10-27T22:48:38.452991+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T03:31:41.055887+00:00",
@@ -15284,7 +16232,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CVNA",
-   "times_seen": 17,
+   "times_seen": 21,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15350,7 +16298,7 @@
    ],
    "id": "DASH-243db777551d",
    "independent_channels": [],
-   "last_seen": "2026-10-27T08:30:29.529859+00:00",
+   "last_seen": "2026-10-27T22:48:38.453063+00:00",
    "outcome": null,
    "reprint_channels": [
     "Yahoo Finance"
@@ -15380,7 +16328,7 @@
    },
    "status": "PASS",
    "ticker": "DASH",
-   "times_seen": 17,
+   "times_seen": 21,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15451,7 +16399,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-10-27T08:30:29.529862+00:00",
+   "last_seen": "2026-10-27T22:48:38.453065+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T03:31:41.055887+00:00",
@@ -15479,7 +16427,7 @@
    },
    "status": "RESEARCH",
    "ticker": "CART",
-   "times_seen": 17,
+   "times_seen": 21,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15553,10 +16501,27 @@
     "Yahoo Finance",
     "manual"
    ],
-   "last_seen": "2026-10-27T08:30:29.529652+00:00",
+   "last_seen": "2026-10-27T22:48:38.452902+00:00",
    "outcome": {
-    "checked_at": "2026-10-27T08:11:59.035027+00:00",
-    "error": "no trading day at or after the recommendation date"
+    "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
+    "checked_at": "2026-10-27T22:12:31.814690+00:00",
+    "entry_close": 407.46,
+    "entry_date": "2026-10-27",
+    "relative": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "returns": {
+     "1": null,
+     "180": null,
+     "30": null,
+     "7": null,
+     "90": null
+    },
+    "trading_days_available": 0
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T08:11:59.020404+00:00",
@@ -15767,7 +16732,7 @@
    "status": "WATCHLIST",
    "supersedes": "TSLA-f8090c413dd5",
    "ticker": "TSLA",
-   "times_seen": 7,
+   "times_seen": 11,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15835,7 +16800,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529771+00:00",
+   "last_seen": "2026-10-27T22:48:38.452993+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T08:11:59.020404+00:00",
@@ -15863,7 +16828,7 @@
    },
    "status": "RESEARCH",
    "ticker": "EWZ",
-   "times_seen": 7,
+   "times_seen": 11,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -15931,7 +16896,7 @@
    "independent_channels": [
     "The Compound"
    ],
-   "last_seen": "2026-10-27T08:30:29.529850+00:00",
+   "last_seen": "2026-10-27T22:48:38.453057+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T08:11:59.020404+00:00",
@@ -15959,7 +16924,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BRK.B",
-   "times_seen": 7,
+   "times_seen": 11,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -16027,7 +16992,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-10-27T08:30:29.529856+00:00",
+   "last_seen": "2026-10-27T22:48:38.453061+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-27T08:11:59.020404+00:00",
@@ -16055,7 +17020,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LMT",
-   "times_seen": 7,
+   "times_seen": 11,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -16065,8 +17030,778 @@
    },
    "vetoed": false,
    "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 0,
+    "primary": 1
+   },
+   "company": "United Parcel Service",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797708+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797708+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "UPS-057334ccdabb",
+   "independent_channels": [
+    "Schwab Network"
+   ],
+   "last_seen": "2026-10-27T22:48:38.452983+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 3.0,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "Third-quarter earnings beat and raised full-year guidance",
+     "channel": "Schwab Network",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+     "timeframe": "2027 margin benefits",
+     "url": "https://www.youtube.com/watch?v=uYA72co5DYE",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "UPS",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 0,
+    "primary": 1
+   },
+   "company": "Boeing",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 1.2,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.8,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "forward_catalyst",
+   "generated_at": "2026-10-27T22:12:31.797854+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797854+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "BA-1b0af13b3c47",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453048+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 3.2,
+   "sources": [
+    {
+     "basis": "primary",
+     "catalyst": "Q3 earnings call commentary on 737 MAX production pace",
+     "channel": "CNBC Television",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "Shares fell more than 10% after management said 737 MAX production stabilization would last through the rest of the year into early next year, with rate of 47 planes a month still pending. The report describes the drop; no host view is expressed beyond that.",
+     "timeframe": "through early next year",
+     "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "BA",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Bank of America",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797863+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797863+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "BAC-83c5fe55c791",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453051+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. The host describes this as a security risk; no investment view is expressed.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "BAC",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Wells Fargo",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797871+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797871+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "WFC-8c54b1726692",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453053+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "WFC",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Morgan Stanley",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797877+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797877+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "MS-87265304e269",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453055+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "MS",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Oklo",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -0.5,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.25,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.8,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.4,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797949+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797949+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "OKLO-2b27bc879da4",
+   "independent_channels": [
+    "Schwab Network"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453106+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.3,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Schwab Network",
+     "evidence": "speculation",
+     "price_target": "$100 within the next four years",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host sees small modular nuclear reactors as a way to meet data center power demand. He argues the stock, down sharply from its 52-week high, is a buying opportunity and could reach $100 within four years. He acknowledges it has no near-term cash flow and is still years from development.",
+     "timeframe": "4 years",
+     "url": "https://www.youtube.com/watch?v=gihaiosMW84",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 1,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "OKLO",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "BNY Mellon",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -0.5,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.25,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797955+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797955+00:00",
+     "reason": "first observation",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "BK-58546ff1116b",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453108+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -0.5,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "speculation",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Cited as one of a few key institutions whose failure or hacking could disrupt parts of the US financial system. Concentration risk point only; no investment view.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "ticker": "BK",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Cerebras",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-10-27T22:12:31.797979+00:00",
+   "history": [
+    {
+     "at": "2026-10-27T22:12:31.797979+00:00",
+     "reason": "first observation",
+     "status": "PASS"
+    }
+   ],
+   "id": "CBRS-48ed7dcd11ad",
+   "independent_channels": [
+    "CNBC Television"
+   ],
+   "last_seen": "2026-10-27T22:48:38.453124+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-10-27T22:12:31.797540+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "CNBC Television",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "unclear",
+     "thesis": "Named among chip makers that rallied sharply on Tuesday; no reasoning given.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "ticker": "CBRS",
+   "times_seen": 4,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
   }
  ],
- "total_signals": 138,
+ "total_signals": 146,
  "version": 1
 }

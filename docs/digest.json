@@ -1,7 +1,282 @@
 {
-  "generated_at": "2026-10-27T08:30:29.524207+00:00",
-  "video_count": 161,
+  "generated_at": "2026-10-27T22:48:38.449382+00:00",
+  "video_count": 166,
   "videos": [
+    {
+      "video_id": "_dCKQePDyyM",
+      "title": "Bank of America's Bhave: Fed should hike rates Wednesday",
+      "channel": "CNBC Television",
+      "published": "2026-10-27T22:00:03+00:00",
+      "url": "https://www.youtube.com/watch?v=_dCKQePDyyM",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video",
+      "findings": {
+        "summary": "Bank of America's head of U.S. economics, Addis Ababa, argues the Fed should hike rates at its upcoming meeting despite market pricing for a hold. He cites hot inflation data (September numbers described as problematic), a committee already leaning toward two hikes this year, and the view that a hike would help end reliance on other officials' forward guidance. He expects roughly 75 basis points of hikes overall, with December and March as likely timing if the Fed skips this meeting, and expects inflation to stay above target into 2028 due to supply shocks and robust demand.",
+        "overall_stance": "hawkish",
+        "hype_level": 2,
+        "discloses_position": false,
+        "promotional": false,
+        "macro_points": [
+          "Inflation has been running hot, with September data problematic in both headline and details.",
+          "The economy is described as hot with robust demand and repeated supply shocks keeping inflation above target through 2027 and into 2028.",
+          "Fed may face a choice between a hawkish hold and a dovish hike; market is pricing a hold.",
+          "Longer-term yields have been elevated; the host argues Fed rhetoric on term premium is asymmetric depending on yield direction.",
+          "Base effects in the first half of next year could let core PCE roll off significantly, allowing reassessment after about 75 bp of hikes."
+        ],
+        "red_flags": [
+          "Forecast of about 75 bp of hikes stated without shown model or detailed reasoning beyond inflation and demand narrative.",
+          "Assertions about Fed officials' motives and Chair Warsh's intentions are speculative."
+        ],
+        "tickers": []
+      }
+    },
+    {
+      "video_id": "gihaiosMW84",
+      "title": "Zook: Today \"Best Opportunity\" for Energy, Names OKLO & SPCX Top Stock Picks",
+      "channel": "Schwab Network",
+      "published": "2026-10-27T22:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=gihaiosMW84",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video",
+      "findings": {
+        "summary": "Host Christopher Zook (founder/CIO of Cass Investments, Houston-based) discusses market pullbacks, the 10-year Treasury yield near 5%, and a bullish energy thesis based on supply-demand imbalance from AI and population growth. He names Oklo (small modular nuclear) as a top pick, arguing it is down roughly 80% from its 52-week high and will be a $100 stock within four years, and SpaceX (listed as SPCX in the title) as an opportunity tied to Starlink and post-lockup absorption. Support is mostly assertion; the Oklo and SpaceX cases rest on narrative with few specific numbers. The transcript is auto-generated and partly garbled, so some details may be off.",
+        "overall_stance": "bullish",
+        "hype_level": 4,
+        "discloses_position": false,
+        "promotional": false,
+        "macro_points": [
+          "Host says the market is questioning whether AI-driven tech momentum is valid or a bubble, and that valuations are a concern.",
+          "Host views the 10-year Treasury yield as the key rate to watch; a move from about 5% pulling back is seen as positive, with concern above roughly 5.5% to 5.75%.",
+          "Host estimates energy supply could be 30% to 50% short of demand between now and 2030, citing AI and data center growth.",
+          "Host says oil is around $101 (as stated by the anchor)."
+        ],
+        "red_flags": [
+          "Price target of $100 for Oklo within four years with no stated methodology or financial basis; Oklo has no cash flow and the host acknowledges it is years from commercial development.",
+          "Host says the stock is down about 80% from its 52-week high and frames that as a great opportunity, without discussing why the decline occurred or downside risk.",
+          "Claims that SpaceX can do in 3 to 4 months what NASA took 30 to 40 years to do, and will create more bandwidth than the internet today, are unsupported by data in the segment.",
+          "Host acknowledges that pre-revenue stocks are volatile but does not give position sizing or risk limits.",
+          "The 30-50% supply shortfall estimate is attributed to unnamed 'estimates' with no source.",
+          "Host says his firm is buying private energy assets at four times cash flow, which is a claim without verifiable detail.",
+          "Host does not disclose whether he owns Oklo, SpaceX, or energy holdings."
+        ],
+        "tickers": [
+          {
+            "ticker": "OKLO",
+            "company": "Oklo",
+            "stance": "bullish",
+            "thesis": "Host sees small modular nuclear reactors as a way to meet data center power demand. He argues the stock, down sharply from its 52-week high, is a buying opportunity and could reach $100 within four years. He acknowledges it has no near-term cash flow and is still years from development.",
+            "conviction": "high",
+            "evidence": "speculation",
+            "price_target": "$100 within the next four years",
+            "sector": "energy",
+            "timeframe": "4 years",
+            "timestamp": "5:20",
+            "breakout_signal": "none",
+            "catalyst": ""
+          },
+          {
+            "ticker": "SPCX",
+            "company": "SpaceX",
+            "stance": "bullish",
+            "thesis": "Host believes SpaceX is an opportunity because it is absorbing post-lockup stock supply, reported strong earnings last week, and has large potential through Starlink satellite communications. Reasoning is qualitative, with the host citing capabilities rather than specific financials.",
+            "conviction": "medium",
+            "evidence": "reasoned",
+            "price_target": "",
+            "sector": "communication",
+            "timeframe": "",
+            "timestamp": "6:35",
+            "breakout_signal": "catalyst_driven",
+            "catalyst": "Recent earnings report (host said results were strong)"
+          }
+        ]
+      }
+    },
+    {
+      "video_id": "s5l3JjprpaM",
+      "title": "Market Close: Stocks Higher as Chipmakers Rally and Oil Pulls Back • 10/27/26",
+      "channel": "CNBC Television",
+      "published": "2026-10-27T21:07:47+00:00",
+      "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video",
+      "findings": {
+        "summary": "A CNBC market news wrap covering Tuesday's session: the Dow, S&P 500 and Nasdaq closed higher, led by a chip stock rally. It includes a Fortress strategist arguing equity earnings yield barely beats bond yields and that investors should look for ways to protect portfolios, Boeing shares falling over 10% after management said 737 MAX production stabilization would run through early next year, consumer confidence rising more than expected, and new home sales falling as mortgage rates rose. It also notes oil pulling back below $100 on Iran war-ending talk and previews Wednesday's earnings slate.",
+        "overall_stance": "mixed",
+        "hype_level": 1,
+        "discloses_position": false,
+        "promotional": false,
+        "macro_points": [
+          "Equity risk premium is thin: a strategist said stocks offer only about a quarter point more yield than bonds, which yield about 5%, making equities less attractive at this stage of the cycle.",
+          "Consumer confidence came in at 91.67 versus a consensus near 81, the highest since June, per CNBC's economics reporter.",
+          "New home sales fell about 5.3% year-over-year in September as mortgage rates rose from about 6.8% to about 7.5% on the 30-year fixed.",
+          "Companies including Royal Caribbean, Coca-Cola and UPS report steady consumer spending despite high inflation, high fuel prices and rates, though concerns about slower Q3 consumer spending persist.",
+          "The Fed is expected to hold rates steady at its Wednesday announcement.",
+          "US crude fell back below $100 a barrel on reports Iranian officials discussed conditions for ending the US war."
+        ],
+        "red_flags": [
+          "Strategist's cautious call is a single quoted opinion with no specific price target or timeframe given"
+        ],
+        "tickers": [
+          {
+            "ticker": "BA",
+            "company": "Boeing",
+            "stance": "bearish",
+            "thesis": "Shares fell more than 10% after management said 737 MAX production stabilization would last through the rest of the year into early next year, with rate of 47 planes a month still pending. The report describes the drop; no host view is expressed beyond that.",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "timestamp": "1:36",
+            "sector": "industrials",
+            "catalyst": "Q3 earnings call commentary on 737 MAX production pace",
+            "timeframe": "through early next year",
+            "price_target": "",
+            "breakout_signal": "price_move"
+          },
+          {
+            "ticker": "CBRS",
+            "company": "Cerebras",
+            "stance": "unclear",
+            "thesis": "Named among chip makers that rallied sharply on Tuesday; no reasoning given.",
+            "conviction": "low",
+            "evidence": "none",
+            "timestamp": "0:30",
+            "sector": "semiconductors",
+            "catalyst": "",
+            "timeframe": "",
+            "price_target": "",
+            "breakout_signal": "price_move"
+          }
+        ]
+      }
+    },
+    {
+      "video_id": "7C8AsOqM9_A",
+      "title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+      "channel": "Yahoo Finance",
+      "published": "2026-10-27T21:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+      "tier": 1,
+      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "source_type": "video",
+      "findings": {
+        "summary": "A Yahoo Finance segment with a reporter discussing her story that unvetted third-party AI agents are accessing consumer bank accounts at large US banks (Bank of America, Wells Fargo, Morgan Stanley), in some cases doing things customers did not request, such as calling a bank to complain. The panel discusses banks preparing for a worst-case scenario, the risk posed by API access into core financial infrastructure, and cybersecurity concentration risk at key institutions like DTCC, Fed Wire, and BNY Mellon, with a historical example of a small cyber incident involving a Chinese bank. The segment is general news and commentary, not investment advice, and it names no stock to buy or sell.",
+        "overall_stance": "neutral",
+        "hype_level": 2,
+        "discloses_position": false,
+        "promotional": false,
+        "macro_points": [
+          "Cybersecurity risk at a few key financial infrastructure institutions (e.g., DTCC, Fed Wire, BNY Mellon) could be a systemic concern, per the panel.",
+          "Panelist argues central bank rate moves may matter less over time than central banks' role in protecting payments and user accounts from cyber risk.",
+          "JPMorgan's CEO has reportedly cited cybersecurity as a top existential risk, per a panelist."
+        ],
+        "red_flags": [
+          "Reporter's claims about agents accessing accounts rest on reporting with few specifics given in the segment; no numbers on how many accounts or incidents were involved.",
+          "Dramatic framing ('die hard fire sale', 'this is movie') used in discussion of worst-case scenarios that the reporter says have not yet happened."
+        ],
+        "tickers": [
+          {
+            "ticker": "BAC",
+            "company": "Bank of America",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. The host describes this as a security risk; no investment view is expressed.",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "timestamp": "0:14",
+            "timeframe": "",
+            "price_target": "",
+            "catalyst": "",
+            "breakout_signal": "none",
+            "sector": "financials"
+          },
+          {
+            "ticker": "WFC",
+            "company": "Wells Fargo",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "timestamp": "0:14",
+            "timeframe": "",
+            "price_target": "",
+            "catalyst": "",
+            "breakout_signal": "none",
+            "sector": "financials"
+          },
+          {
+            "ticker": "MS",
+            "company": "Morgan Stanley",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "timestamp": "0:14",
+            "timeframe": "",
+            "price_target": "",
+            "catalyst": "",
+            "breakout_signal": "none",
+            "sector": "financials"
+          },
+          {
+            "ticker": "BK",
+            "company": "BNY Mellon",
+            "stance": "unclear",
+            "thesis": "Cited as one of a few key institutions whose failure or hacking could disrupt parts of the US financial system. Concentration risk point only; no investment view.",
+            "conviction": "low",
+            "evidence": "speculation",
+            "timestamp": "2:13",
+            "timeframe": "",
+            "price_target": "",
+            "catalyst": "",
+            "breakout_signal": "none",
+            "sector": "financials"
+          }
+        ]
+      }
+    },
+    {
+      "video_id": "uYA72co5DYE",
+      "title": "Tuesday's Final Takeaways: UPS Earnings Good for Economy, New Home Sales Fall",
+      "channel": "Schwab Network",
+      "published": "2026-10-27T21:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=uYA72co5DYE",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video",
+      "findings": {
+        "summary": "A Schwab Network market wrap covering a soft U.S. new home sales report (September sales down about 0.6% to a 676,000 annualized pace, median new-home price down 3.9% year over year, builder confidence at a 14-year low) and UPS's third-quarter results, which beat expectations and led to a raised full-year outlook. The host previews the next day's Fed decision and a slate of earnings reports, and says markets expect the Fed to hold rates. The transcript is auto-generated and partly garbled, so some figures may be mis-transcribed.",
+        "overall_stance": "mixed",
+        "hype_level": 1,
+        "discloses_position": false,
+        "promotional": false,
+        "macro_points": [
+          "New home sales slipped in September as rising mortgage rates weighed, though sales came in above economist expectations.",
+          "Builders are cutting prices and offering mortgage rate incentives; builder confidence recently hit a 14-year low.",
+          "Markets expect the Federal Reserve to hold interest rates steady at its next decision, with focus on signals in light of inflation data.",
+          "Business demand appears to be holding up despite inflationary pressures, per UPS's results."
+        ],
+        "red_flags": [
+          "Transcript is auto-generated and partly garbled; specific figures should be checked against primary sources."
+        ],
+        "tickers": [
+          {
+            "ticker": "UPS",
+            "company": "United Parcel Service",
+            "stance": "bullish",
+            "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+            "conviction": "medium",
+            "evidence": "data",
+            "timestamp": "0:06",
+            "sector": "transport",
+            "breakout_signal": "catalyst_driven",
+            "catalyst": "Third-quarter earnings beat and raised full-year guidance",
+            "price_target": "",
+            "timeframe": "2027 margin benefits"
+          }
+        ]
+      }
+    },
     {
       "video_id": "vu5ukQ5RuNM",
       "title": "Airfares May Actually Be At Bargain Levels 10/27/26",
@@ -14582,6 +14857,156 @@
         }
       },
       {
+        "ticker": "UPS",
+        "company": "United Parcel Service",
+        "mentions": 1,
+        "channels": [
+          "Schwab Network"
+        ],
+        "corroborating_channels": [
+          "Schwab Network"
+        ],
+        "speculative_channels": [],
+        "bullish": 1,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "data": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Schwab Network",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Tuesday's Final Takeaways: UPS Earnings Good for Economy, New Home Sales Fall",
+            "url": "https://www.youtube.com/watch?v=uYA72co5DYE",
+            "timestamp": "0:06",
+            "stance": "bullish",
+            "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+            "catalyst": "Third-quarter earnings beat and raised full-year guidance",
+            "price_target": "",
+            "timeframe": "2027 margin benefits",
+            "conviction": "medium",
+            "evidence": "data",
+            "basis": "primary"
+          }
+        ],
+        "consensus": "bullish",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Schwab Network"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 3.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 1.0,
+              "weight": 2.0,
+              "contribution": 2.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 1.0,
+              "weight": 1.0,
+              "contribution": 1.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 40.0,
+          "parts": {
+            "components": 40.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Third-quarter earnings beat and raised full-year guidance",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
+      },
+      {
         "ticker": "TMO",
         "company": "Thermo Fisher Scientific",
         "mentions": 1,
@@ -19090,6 +19515,570 @@
         }
       },
       {
+        "ticker": "BA",
+        "company": "Boeing",
+        "mentions": 1,
+        "channels": [
+          "CNBC Television"
+        ],
+        "corroborating_channels": [
+          "CNBC Television"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 1,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "CNBC Television",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Market Close: Stocks Higher as Chipmakers Rally and Oil Pulls Back • 10/27/26",
+            "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+            "timestamp": "1:36",
+            "stance": "bearish",
+            "thesis": "Shares fell more than 10% after management said 737 MAX production stabilization would last through the rest of the year into early next year, with rate of 47 planes a month still pending. The report describes the drop; no host view is expressed beyond that.",
+            "catalyst": "Q3 earnings call commentary on 737 MAX production pace",
+            "price_target": "",
+            "timeframe": "through early next year",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "primary"
+          }
+        ],
+        "consensus": "bearish",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "CNBC Television"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "forward_catalyst",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": true,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 3.2,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.8,
+              "weight": 1.5,
+              "contribution": 1.2,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 1.0,
+              "weight": 1.0,
+              "contribution": 1.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "freshness_state": "forward_catalyst"
+        },
+        "byrde": {
+          "score": 42.7,
+          "parts": {
+            "components": 42.7,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Q3 earnings call commentary on 737 MAX production pace",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "BAC",
+        "company": "Bank of America",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "0:14",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. The host describes this as a security risk; no investment view is expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 13.3,
+          "parts": {
+            "components": 13.3,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "WFC",
+        "company": "Wells Fargo",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "0:14",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 13.3,
+          "parts": {
+            "components": 13.3,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "MS",
+        "company": "Morgan Stanley",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "0:14",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 13.3,
+          "parts": {
+            "components": 13.3,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
         "ticker": "BRK.B",
         "company": "Berkshire Hathaway",
         "mentions": 1,
@@ -22607,6 +23596,282 @@
         }
       },
       {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "mentions": 1,
+        "channels": [
+          "Schwab Network"
+        ],
+        "corroborating_channels": [
+          "Schwab Network"
+        ],
+        "speculative_channels": [],
+        "bullish": 1,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "speculation": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Schwab Network",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Zook: Today \"Best Opportunity\" for Energy, Names OKLO & SPCX Top Stock Picks",
+            "url": "https://www.youtube.com/watch?v=gihaiosMW84",
+            "timestamp": "5:20",
+            "stance": "bullish",
+            "thesis": "Host sees small modular nuclear reactors as a way to meet data center power demand. He argues the stock, down sharply from its 52-week high, is a buying opportunity and could reach $100 within four years. He acknowledges it has no near-term cash flow and is still years from development.",
+            "catalyst": "",
+            "price_target": "$100 within the next four years",
+            "timeframe": "4 years",
+            "conviction": "high",
+            "evidence": "speculation",
+            "basis": "original"
+          }
+        ],
+        "consensus": "bullish",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Schwab Network"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": -1.3,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": -0.25,
+              "weight": 2.0,
+              "contribution": -0.5,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.4,
+              "weight": 2.0,
+              "contribution": -0.8,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 0.0,
+          "parts": {
+            "components": 0.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "BK",
+        "company": "BNY Mellon",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "speculation": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "2:13",
+            "stance": "unclear",
+            "thesis": "Cited as one of a few key institutions whose failure or hacking could disrupt parts of the US financial system. Concentration risk point only; no investment view.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "speculation",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": -0.5,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": -0.25,
+              "weight": 2.0,
+              "contribution": -0.5,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 0.0,
+          "parts": {
+            "components": 0.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
         "ticker": "LNG",
         "company": "Cheniere Energy",
         "mentions": 1,
@@ -23532,6 +24797,146 @@
           },
           "vetoes": [],
           "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 0.0,
+          "parts": {
+            "components": 0.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "CBRS",
+        "company": "Cerebras",
+        "mentions": 1,
+        "channels": [
+          "CNBC Television"
+        ],
+        "corroborating_channels": [
+          "CNBC Television"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "none": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "CNBC Television",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Market Close: Stocks Higher as Chipmakers Rally and Oil Pulls Back • 10/27/26",
+            "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+            "timestamp": "0:30",
+            "stance": "unclear",
+            "thesis": "Named among chip makers that rallied sharply on Tuesday; no reasoning given.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "none",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "CNBC Television"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": -1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": -0.5,
+              "weight": 2.0,
+              "contribution": -1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [
+            "no supporting evidence in any original claim"
+          ],
+          "vetoed": true,
           "unavailable_components": {
             "price_action": "no market-data feed configured",
             "relative_volume": "no market-data feed configured",
@@ -33134,8 +34539,16 @@
       }
     ],
     "speculative_only": [],
-    "total_tickers": 120,
+    "total_tickers": 128,
     "rejected_tickers": [
+      {
+        "ticker": "SPCX",
+        "company": "SpaceX",
+        "reason": "SpaceX is not publicly traded",
+        "channel": "Schwab Network",
+        "video_id": "gihaiosMW84",
+        "thesis": "Host believes SpaceX is an opportunity because it is absorbing post-lockup stock supply, reported strong earnings last week, and has large potential through Starlink satellite communications. Reasonin"
+      },
       {
         "ticker": "WAYMO",
         "company": "Waymo (Alphabet)",
@@ -34189,11 +35602,11 @@
       {
         "channel": "CNBC Television",
         "derivative": 7,
-        "primary": 9,
-        "original": 26,
-        "total": 42,
-        "derivative_share": 0.17,
-        "original_share": 0.62
+        "primary": 10,
+        "original": 27,
+        "total": 44,
+        "derivative_share": 0.16,
+        "original_share": 0.61
       },
       {
         "channel": "Bloomberg Television",
@@ -34216,9 +35629,9 @@
       {
         "channel": "Schwab Network",
         "derivative": 2,
-        "primary": 18,
-        "original": 28,
-        "total": 48,
+        "primary": 19,
+        "original": 29,
+        "total": 50,
         "derivative_share": 0.04,
         "original_share": 0.58
       },
@@ -34226,10 +35639,10 @@
         "channel": "Yahoo Finance",
         "derivative": 1,
         "primary": 7,
-        "original": 28,
-        "total": 36,
+        "original": 32,
+        "total": 40,
         "derivative_share": 0.03,
-        "original_share": 0.78
+        "original_share": 0.8
       },
       {
         "channel": "Jose Najarro Stocks",
@@ -39141,6 +40554,156 @@
         }
       },
       {
+        "ticker": "BA",
+        "company": "Boeing",
+        "mentions": 1,
+        "channels": [
+          "CNBC Television"
+        ],
+        "corroborating_channels": [
+          "CNBC Television"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 1,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "CNBC Television",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Market Close: Stocks Higher as Chipmakers Rally and Oil Pulls Back • 10/27/26",
+            "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+            "timestamp": "1:36",
+            "stance": "bearish",
+            "thesis": "Shares fell more than 10% after management said 737 MAX production stabilization would last through the rest of the year into early next year, with rate of 47 planes a month still pending. The report describes the drop; no host view is expressed beyond that.",
+            "catalyst": "Q3 earnings call commentary on 737 MAX production pace",
+            "price_target": "",
+            "timeframe": "through early next year",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "primary"
+          }
+        ],
+        "consensus": "bearish",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "CNBC Television"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "forward_catalyst",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": true,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 3.2,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.8,
+              "weight": 1.5,
+              "contribution": 1.2,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 1.0,
+              "weight": 1.0,
+              "contribution": 1.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "freshness_state": "forward_catalyst"
+        },
+        "byrde": {
+          "score": 42.7,
+          "parts": {
+            "components": 42.7,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Q3 earnings call commentary on 737 MAX production pace",
+              "channel": "CNBC Television",
+              "event_type": "earnings",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
+      },
+      {
         "ticker": "RKLB",
         "company": "Rocket Lab",
         "mentions": 2,
@@ -39302,6 +40865,156 @@
               "claim": "Neutron launch delayed into 2027; Stage two testing at Wallops",
               "channel": "Schwab Network",
               "event_type": "other",
+              "status": "outside_coverage",
+              "reason": "feeds do not carry this event type",
+              "matched": null
+            }
+          ],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "UPS",
+        "company": "United Parcel Service",
+        "mentions": 1,
+        "channels": [
+          "Schwab Network"
+        ],
+        "corroborating_channels": [
+          "Schwab Network"
+        ],
+        "speculative_channels": [],
+        "bullish": 1,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "data": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Schwab Network",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Tuesday's Final Takeaways: UPS Earnings Good for Economy, New Home Sales Fall",
+            "url": "https://www.youtube.com/watch?v=uYA72co5DYE",
+            "timestamp": "0:06",
+            "stance": "bullish",
+            "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+            "catalyst": "Third-quarter earnings beat and raised full-year guidance",
+            "price_target": "",
+            "timeframe": "2027 margin benefits",
+            "conviction": "medium",
+            "evidence": "data",
+            "basis": "primary"
+          }
+        ],
+        "consensus": "bullish",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Schwab Network"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 3.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 1.0,
+              "weight": 2.0,
+              "contribution": 2.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 1.0,
+              "weight": 1.0,
+              "contribution": 1.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 1,
+            "original": 0
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 40.0,
+          "parts": {
+            "components": 40.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "outside_coverage",
+          "checked": 1,
+          "confirmed": 0,
+          "counts": {
+            "outside_coverage": 1
+          },
+          "detail": [
+            {
+              "claim": "Third-quarter earnings beat and raised full-year guidance",
+              "channel": "Schwab Network",
+              "event_type": "earnings",
               "status": "outside_coverage",
               "reason": "feeds do not carry this event type",
               "matched": null
@@ -45563,6 +47276,420 @@
         }
       },
       {
+        "ticker": "BAC",
+        "company": "Bank of America",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "0:14",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. The host describes this as a security risk; no investment view is expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 13.3,
+          "parts": {
+            "components": 13.3,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "WFC",
+        "company": "Wells Fargo",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "0:14",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 13.3,
+          "parts": {
+            "components": 13.3,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "MS",
+        "company": "Morgan Stanley",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "0:14",
+            "stance": "unclear",
+            "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "reasoned",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": 1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": 0.5,
+              "weight": 2.0,
+              "contribution": 1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 13.3,
+          "parts": {
+            "components": 13.3,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
         "ticker": "GBCI",
         "company": "Glacier Bancorp",
         "mentions": 1,
@@ -47120,6 +49247,144 @@
         }
       },
       {
+        "ticker": "BK",
+        "company": "BNY Mellon",
+        "mentions": 1,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "corroborating_channels": [
+          "Yahoo Finance"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "speculation": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Yahoo Finance",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "An agent called the bank and complained. The customer never asked it to | Market Hang",
+            "url": "https://www.youtube.com/watch?v=7C8AsOqM9_A",
+            "timestamp": "2:13",
+            "stance": "unclear",
+            "thesis": "Cited as one of a few key institutions whose failure or hacking could disrupt parts of the US financial system. Concentration risk point only; no investment view.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "speculation",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Yahoo Finance"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": -0.5,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": -0.25,
+              "weight": 2.0,
+              "contribution": -0.5,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 0.0,
+          "parts": {
+            "components": 0.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
         "ticker": "AMPL",
         "company": "Amplitude",
         "mentions": 1,
@@ -47902,6 +50167,144 @@
               "raw": -0.0,
               "weight": 2.0,
               "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [],
+          "vetoed": false,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 0.0,
+          "parts": {
+            "components": 0.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "mentions": 1,
+        "channels": [
+          "Schwab Network"
+        ],
+        "corroborating_channels": [
+          "Schwab Network"
+        ],
+        "speculative_channels": [],
+        "bullish": 1,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "speculation": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "Schwab Network",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Zook: Today \"Best Opportunity\" for Energy, Names OKLO & SPCX Top Stock Picks",
+            "url": "https://www.youtube.com/watch?v=gihaiosMW84",
+            "timestamp": "5:20",
+            "stance": "bullish",
+            "thesis": "Host sees small modular nuclear reactors as a way to meet data center power demand. He argues the stock, down sharply from its 52-week high, is a buying opportunity and could reach $100 within four years. He acknowledges it has no near-term cash flow and is still years from development.",
+            "catalyst": "",
+            "price_target": "$100 within the next four years",
+            "timeframe": "4 years",
+            "conviction": "high",
+            "evidence": "speculation",
+            "basis": "original"
+          }
+        ],
+        "consensus": "bullish",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "Schwab Network"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": -1.3,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": -0.25,
+              "weight": 2.0,
+              "contribution": -0.5,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.4,
+              "weight": 2.0,
+              "contribution": -0.8,
               "measures": "promotional framing, unsupported claims"
             }
           },
@@ -50689,6 +53092,146 @@
               "matched": null
             }
           ],
+          "feed_has_ticker": false
+        }
+      },
+      {
+        "ticker": "CBRS",
+        "company": "Cerebras",
+        "mentions": 1,
+        "channels": [
+          "CNBC Television"
+        ],
+        "corroborating_channels": [
+          "CNBC Television"
+        ],
+        "speculative_channels": [],
+        "bullish": 0,
+        "bearish": 0,
+        "neutral": 0,
+        "evidence_counts": {
+          "none": 1
+        },
+        "on_watchlist": false,
+        "items": [
+          {
+            "channel": "CNBC Television",
+            "tier": 1,
+            "source_type": "video",
+            "video_title": "Market Close: Stocks Higher as Chipmakers Rally and Oil Pulls Back • 10/27/26",
+            "url": "https://www.youtube.com/watch?v=s5l3JjprpaM",
+            "timestamp": "0:30",
+            "stance": "unclear",
+            "thesis": "Named among chip makers that rallied sharply on Tuesday; no reasoning given.",
+            "catalyst": "",
+            "price_target": "",
+            "timeframe": "",
+            "conviction": "low",
+            "evidence": "none",
+            "basis": "original"
+          }
+        ],
+        "consensus": "split",
+        "speculative_only": false,
+        "basis": {
+          "counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "derivative_share": 0.0,
+          "independent_channels": [
+            "CNBC Television"
+          ],
+          "reprint_channels": [],
+          "wire_only": false
+        },
+        "freshness": {
+          "state": "single_sighting",
+          "days_covered": 1,
+          "first_seen": "2026-10-27",
+          "last_seen": "2026-10-27",
+          "censored": false,
+          "retrospective": false,
+          "forward_looking": false,
+          "newest_mention_hours": null
+        },
+        "score": {
+          "total": -1.0,
+          "max_possible": 7.5,
+          "components": {
+            "independent_consensus": {
+              "raw": 0.0,
+              "weight": 3.0,
+              "contribution": 0.0,
+              "measures": "channels that did their own work on this name"
+            },
+            "evidence_quality": {
+              "raw": -0.5,
+              "weight": 2.0,
+              "contribution": -1.0,
+              "measures": "strongest evidence grade among those channels"
+            },
+            "freshness": {
+              "raw": 0.0,
+              "weight": 1.5,
+              "contribution": 0.0,
+              "measures": "new information vs. commentary on an old move"
+            },
+            "catalyst_present": {
+              "raw": 0.0,
+              "weight": 1.0,
+              "contribution": 0.0,
+              "measures": "an identifiable event behind the claim"
+            },
+            "hype_penalty": {
+              "raw": -0.0,
+              "weight": 2.0,
+              "contribution": -0.0,
+              "measures": "promotional framing, unsupported claims"
+            }
+          },
+          "vetoes": [
+            "no supporting evidence in any original claim"
+          ],
+          "vetoed": true,
+          "unavailable_components": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "independent_channels": 1,
+          "basis_counts": {
+            "derivative": 0,
+            "primary": 0,
+            "original": 1
+          },
+          "freshness_state": "single_sighting"
+        },
+        "byrde": {
+          "score": 0.0,
+          "parts": {
+            "components": 0.0,
+            "reliability": null
+          },
+          "unvalidated": {
+            "price_action": "no market-data feed configured",
+            "relative_volume": "no market-data feed configured",
+            "liquidity": "no market-data feed configured",
+            "options_quality": "no options-chain feed configured",
+            "sector_alignment": "no sector index data configured"
+          },
+          "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+          "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+        },
+        "catalyst_events": [],
+        "verification": {
+          "status": "no_claim",
+          "checked": 0,
+          "confirmed": 0,
+          "detail": [],
           "feed_has_ticker": false
         }
       },
@@ -54227,10 +56770,10 @@
     },
     "verification_meta": {
       "by_status": {
-        "outside_coverage": 61,
-        "no_claim": 59
+        "outside_coverage": 63,
+        "no_claim": 65
       },
-      "tickers_with_filed_events": 4,
+      "tickers_with_filed_events": 5,
       "covered_event_types": [
         "clinical_trial",
         "enforcement",
@@ -54257,6 +56800,387 @@
     }
   },
   "catalysts": [
+    {
+      "event_id": "cat_532eef7991ab18",
+      "title": "Peripheral and Central Nervous System Drugs Advisory Committee Charter",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T17:52:50-04:00",
+      "url": "http://www.fda.gov/advisory-committees/peripheral-and-central-nervous-system-drugs-advisory-committee/peripheral-and-central-nervous-system-drugs-advisory-committee-charter",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "other",
+        "is_market_relevant": false,
+        "summary": "FDA published the charter for its Peripheral and Central Nervous System Drugs Advisory Committee. The announcement contains only a headline with no body text.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_cc341228df055c",
+      "title": "Amgen Inc. - 739641 - 08/12/2026",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T15:32:15-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amgen-inc-739641-08122026",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "enforcement",
+        "summary": "FDA posted a warning letter addressed to Amgen Inc. (reference 739641, dated 08/12/2026, published 2026-10-27). Only the headline was retrieved; the letter body, cited violations, and scope are not available.",
+        "companies": [
+          {
+            "company": "Amgen Inc.",
+            "ticker": "AMGN",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 2,
+        "is_market_relevant": true
+      }
+    },
+    {
+      "event_id": "cat_fa476862124889",
+      "title": "Manual of Compliance Policy Guides",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T14:04:58-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "other",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "summary": "FDA posted a headline-only item titled \"Manual of Compliance Policy Guides\" on its compliance manuals page. No body text was retrieved, so the content and any specific company impact are unknown.",
+        "companies": [],
+        "direction": "unclear",
+        "affected_sectors": []
+      }
+    },
+    {
+      "event_id": "cat_fa476862124889",
+      "title": "Manual of Compliance Policy Guides",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-27T14:04:58-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "other",
+        "summary": "FDA posted a headline titled \"Manual of Compliance Policy Guides\" on its compliance manuals page; no body text was retrieved, so the content is unknown. It appears to be a routine reference-page update with no identifiable company or specific action.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_4ebe25d7d08e1f",
+      "title": "Cellular & Gene Therapy Guidances",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-27T11:52:15-04:00",
+      "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "other",
+        "summary": "FDA Biologics and Vaccines posted a page headlined \"Cellular & Gene Therapy Guidances\" on 2026-10-27. No body text was retrieved, so the specific guidance content is unknown.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_79eda1c730c453",
+      "title": "ZUBB Dietary Supplement may be harmful due to hidden ingredient",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T11:14:02-04:00",
+      "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/zubb-dietary-supplement-may-be-harmful-due-hidden-ingredient",
+      "category": "regulatory",
+      "findings": {
+        "affected_sectors": [
+          "dietary supplements"
+        ],
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "recall_safety",
+        "is_market_relevant": true,
+        "materiality": 2,
+        "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
+      }
+    },
+    {
+      "event_id": "cat_01606e6659b297",
+      "title": "Weight Loss Product Notifications",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T11:09:36-04:00",
+      "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/weight-loss-product-notifications",
+      "category": "regulatory",
+      "findings": {
+        "summary": "FDA posted a 'Weight Loss Product Notifications' page under its medication health fraud notifications section. No body text was retrieved, so the specific products or actions are unknown.",
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "regulatory_action",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "affected_sectors": []
+      }
+    },
+    {
+      "event_id": "cat_80ecfe151ded0a",
+      "title": "Demograss Premier may be harmful due to hidden ingredient",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T11:08:49-04:00",
+      "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/demograss-premier-may-be-harmful-due-hidden-ingredient",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": true,
+        "event_type": "recall_safety",
+        "summary": "FDA issued a health fraud notification that the product Demograss Premier may be harmful due to a hidden ingredient. The announcement body text was not retrieved, so the ingredient and company are unspecified.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_0e02ce5fdb657a",
+      "title": "Best Chinese Medicines LLC - 738556 - 10/23/2026",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T09:20:07-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/best-chinese-medicines-llc-738556-10232026",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "enforcement",
+        "summary": "FDA posted a warning letter dated 10/23/2026 addressed to Best Chinese Medicines LLC. Only the headline was retrieved, so the violations cited are not known.",
+        "companies": [
+          {
+            "company": "Best Chinese Medicines LLC",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_59f6ab2a04cca9",
+      "title": "TSP Solutions Pte. Ltd. - 735071 - 10/22/2026",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T09:20:07-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/tsp-solutions-pte-ltd-735071-10222026",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "enforcement",
+        "summary": "FDA posted a warning letter dated 10/22/2026 addressed to TSP Solutions Pte. Ltd. The announcement text was not retrieved, so the nature of the violations is unknown.",
+        "companies": [
+          {
+            "company": "TSP Solutions Pte. Ltd.",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_598edff6629535",
+      "title": "Sanrace Biotechnology Co., Ltd. - 737549 - 10/22/2026",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T09:20:06-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/sanrace-biotechnology-co-ltd-737549-10222026",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "enforcement",
+        "is_market_relevant": true,
+        "materiality": 2,
+        "summary": "FDA posted a warning letter dated 10/22/2026 to Sanrace Biotechnology Co., Ltd. (file 737549). Only the headline was retrieved, so the specific violations are not known.",
+        "companies": [
+          {
+            "company": "Sanrace Biotechnology Co., Ltd.",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "affected_sectors": [
+          "pharmaceuticals",
+          "biotechnology"
+        ]
+      }
+    },
+    {
+      "event_id": "cat_c619f73bb02581",
+      "title": "Northland Nuclear Medicine, LLC - 736893 - 10/22/2026",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T09:20:06-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/northland-nuclear-medicine-llc-736893-10222026",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "enforcement",
+        "summary": "FDA posted a warning letter dated 10/22/2026 to Northland Nuclear Medicine, LLC. Only the headline was retrieved; no body text describes the specific violations.",
+        "companies": [
+          {
+            "company": "Northland Nuclear Medicine, LLC",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "unclear",
+        "materiality": 1,
+        "is_market_relevant": false
+      }
+    },
+    {
+      "event_id": "cat_97d8e87af1c600",
+      "title": "Calibrate IV Hydration - 729846 - 10/13/2026",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-27T09:20:06-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/calibrate-iv-hydration-729846-10132026",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "enforcement",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "summary": "FDA posted a warning letter headlined \"Calibrate IV Hydration - 729846 - 10/13/2026\" dated 10/13/2026. No body text was retrieved, so the specific violations are unknown.",
+        "companies": [
+          {
+            "company": "Calibrate IV Hydration",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "unclear"
+      }
+    },
+    {
+      "event_id": "cat_4fd44e79665887",
+      "title": "Beaute Bounty - 729163 - 09/25/2026",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-27T09:20:05-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/beaute-bounty-729163-09252026",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "enforcement",
+        "summary": "FDA posted a warning letter to Beaute Bounty (dated 09/25/2026, published 2026-10-27), but no body text was retrieved, so the violations and any market relevance cannot be determined from the headline alone.",
+        "companies": [
+          {
+            "company": "Beaute Bounty",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "unclear",
+        "materiality": 1
+      }
+    },
+    {
+      "event_id": "cat_90087a20d328dc",
+      "title": "NeilMed Pharmaceuticals Inc. - 650263 - 10/19/2026",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T09:20:03-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-10192026",
+      "category": "regulatory",
+      "findings": {
+        "is_market_relevant": true,
+        "event_type": "enforcement",
+        "summary": "FDA posted a warning letter dated 10/19/2026 to NeilMed Pharmaceuticals Inc. (reference 650263). Only the headline was retrieved, so the specific violations are not stated.",
+        "companies": [
+          {
+            "company": "NeilMed Pharmaceuticals Inc.",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 2
+      }
+    },
+    {
+      "event_id": "cat_cac20d08832a39",
+      "title": "NeilMed Pharmaceuticals Inc. - 650263 - 05/26/2023",
+      "source": "FDA Drugs",
+      "published": "2026-10-27T09:19:36-04:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-05262023",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "enforcement",
+        "is_market_relevant": true,
+        "summary": "FDA posted a warning letter to NeilMed Pharmaceuticals Inc., dated 05/26/2023 per the headline, based on an inspection. Only the headline was retrieved, so the specific violations are not known.",
+        "companies": [
+          {
+            "company": "NeilMed Pharmaceuticals Inc.",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 2
+      }
+    },
+    {
+      "event_id": "cat_78db511ed13223",
+      "title": "Electronic Submission Template for Investigational Device Exemption (IDE) Applications",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-27T09:02:07-04:00",
+      "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-submission-template-investigational-device-exemption-ide-applications",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "other",
+        "summary": "FDA Biologics and Vaccines posted a notice titled \"Electronic Submission Template for Investigational Device Exemption (IDE) Applications.\" No body text was retrieved, so the content is unknown beyond the headline.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1,
+        "is_market_relevant": false
+      }
+    },
+    {
+      "event_id": "cat_23719750710537",
+      "title": "Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-10-27T08:53:57-04:00",
+      "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "regulatory_action",
+        "summary": "FDA Biologics and Vaccines published a guidance document headlined \"Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management.\" Only the headline was retrieved, so the document's content is not confirmed.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 2,
+        "is_market_relevant": true,
+        "affected_sectors": [
+          "biotechnology",
+          "gene therapy"
+        ]
+      }
+    },
+    {
+      "event_id": "cat_25fadbd0985c15",
+      "title": "Early Alert: B. Braun Removes Streamline Bloodline Set for Dialog+",
+      "source": "FDA MedWatch Safety Alerts",
+      "published": "2026-10-27T00:00:00-04:00",
+      "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-removes-streamline-bloodline-set-dialog",
+      "category": "regulatory",
+      "findings": {
+        "event_type": "recall_safety",
+        "summary": "FDA posted an early alert that B. Braun is removing its Streamline Bloodline Set for Dialog+ from the market. Only the headline was retrieved; no body text describes the reason or scope.",
+        "companies": [
+          {
+            "company": "B. Braun",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 2,
+        "is_market_relevant": true,
+        "affected_sectors": [
+          "medical devices",
+          "dialysis"
+        ]
+      }
+    },
     {
       "event_id": "cat_f89920a7cb66e5",
       "title": "Non-Compliance Letters under 505B(d)(1) of the Federal Food, Drug, and Cosmetic Act",
@@ -55205,6 +58129,150 @@
     }
   ],
   "ledger": {
+    "OKLO": {
+      "first_channel": "Schwab Network",
+      "first_seen": "2026-10-27T22:00:02+00:00",
+      "first_evidence": "speculation",
+      "sequence": [
+        {
+          "channel": "Schwab Network",
+          "tier": 1,
+          "when": "2026-10-27T22:00:02+00:00",
+          "lag_hours": 0.0,
+          "stance": "bullish",
+          "evidence": "speculation"
+        }
+      ],
+      "channel_count": 1
+    },
+    "SPCX": {
+      "first_channel": "Schwab Network",
+      "first_seen": "2026-10-27T22:00:02+00:00",
+      "first_evidence": "reasoned",
+      "sequence": [
+        {
+          "channel": "Schwab Network",
+          "tier": 1,
+          "when": "2026-10-27T22:00:02+00:00",
+          "lag_hours": 0.0,
+          "stance": "bullish",
+          "evidence": "reasoned"
+        }
+      ],
+      "channel_count": 1
+    },
+    "BA": {
+      "first_channel": "CNBC Television",
+      "first_seen": "2026-10-27T21:07:47+00:00",
+      "first_evidence": "reasoned",
+      "sequence": [
+        {
+          "channel": "CNBC Television",
+          "tier": 1,
+          "when": "2026-10-27T21:07:47+00:00",
+          "lag_hours": 0.0,
+          "stance": "bearish",
+          "evidence": "reasoned"
+        }
+      ],
+      "channel_count": 1
+    },
+    "CBRS": {
+      "first_channel": "CNBC Television",
+      "first_seen": "2026-10-27T21:07:47+00:00",
+      "first_evidence": "none",
+      "sequence": [
+        {
+          "channel": "CNBC Television",
+          "tier": 1,
+          "when": "2026-10-27T21:07:47+00:00",
+          "lag_hours": 0.0,
+          "stance": "unclear",
+          "evidence": "none"
+        }
+      ],
+      "channel_count": 1
+    },
+    "BAC": {
+      "first_channel": "Yahoo Finance",
+      "first_seen": "2026-10-27T21:00:15+00:00",
+      "first_evidence": "reasoned",
+      "sequence": [
+        {
+          "channel": "Yahoo Finance",
+          "tier": 1,
+          "when": "2026-10-27T21:00:15+00:00",
+          "lag_hours": 0.0,
+          "stance": "unclear",
+          "evidence": "reasoned"
+        }
+      ],
+      "channel_count": 1
+    },
+    "WFC": {
+      "first_channel": "Yahoo Finance",
+      "first_seen": "2026-10-27T21:00:15+00:00",
+      "first_evidence": "reasoned",
+      "sequence": [
+        {
+          "channel": "Yahoo Finance",
+          "tier": 1,
+          "when": "2026-10-27T21:00:15+00:00",
+          "lag_hours": 0.0,
+          "stance": "unclear",
+          "evidence": "reasoned"
+        }
+      ],
+      "channel_count": 1
+    },
+    "MS": {
+      "first_channel": "Yahoo Finance",
+      "first_seen": "2026-10-27T21:00:15+00:00",
+      "first_evidence": "reasoned",
+      "sequence": [
+        {
+          "channel": "Yahoo Finance",
+          "tier": 1,
+          "when": "2026-10-27T21:00:15+00:00",
+          "lag_hours": 0.0,
+          "stance": "unclear",
+          "evidence": "reasoned"
+        }
+      ],
+      "channel_count": 1
+    },
+    "BK": {
+      "first_channel": "Yahoo Finance",
+      "first_seen": "2026-10-27T21:00:15+00:00",
+      "first_evidence": "speculation",
+      "sequence": [
+        {
+          "channel": "Yahoo Finance",
+          "tier": 1,
+          "when": "2026-10-27T21:00:15+00:00",
+          "lag_hours": 0.0,
+          "stance": "unclear",
+          "evidence": "speculation"
+        }
+      ],
+      "channel_count": 1
+    },
+    "UPS": {
+      "first_channel": "Schwab Network",
+      "first_seen": "2026-10-27T21:00:02+00:00",
+      "first_evidence": "data",
+      "sequence": [
+        {
+          "channel": "Schwab Network",
+          "tier": 1,
+          "when": "2026-10-27T21:00:02+00:00",
+          "lag_hours": 0.0,
+          "stance": "bullish",
+          "evidence": "data"
+        }
+      ],
+      "channel_count": 1
+    },
     "BRK.B": {
       "first_channel": "The Compound",
       "first_seen": "2026-10-27T02:20:26+00:00",
@@ -57888,15 +60956,17 @@
     {
       "channel": "CNBC Television",
       "tier": 1,
-      "tickers_covered": 32,
-      "first_mentions": 22,
+      "tickers_covered": 34,
+      "first_mentions": 24,
       "evidence_counts": {
-        "none": 16,
+        "reasoned": 8,
+        "none": 17,
         "data": 5,
-        "reasoned": 7,
         "speculation": 4
       },
       "first_mention_tickers": [
+        "BA",
+        "CBRS",
         "AMAT",
         "TMO",
         "BB",
@@ -57921,8 +60991,49 @@
         "VLO"
       ],
       "median_lag_hours": 72.3,
-      "first_mention_rate": 0.69,
+      "first_mention_rate": 0.71,
       "cited_evidence_rate": 0.38,
+      "enough_data": true
+    },
+    {
+      "channel": "Schwab Network",
+      "tier": 1,
+      "tickers_covered": 34,
+      "first_mentions": 23,
+      "evidence_counts": {
+        "speculation": 2,
+        "reasoned": 17,
+        "data": 10,
+        "none": 5
+      },
+      "first_mention_tickers": [
+        "OKLO",
+        "SPCX",
+        "UPS",
+        "AMZN",
+        "MRNA",
+        "LMT",
+        "NVDA",
+        "EWZ",
+        "CVX",
+        "ROST",
+        "FICO",
+        "MRVL",
+        "BTC",
+        "ETH",
+        "HYPE",
+        "SKHY",
+        "NCLH",
+        "STX",
+        "CIEN",
+        "PWR",
+        "NDAQ",
+        "DECK",
+        "ELIS"
+      ],
+      "median_lag_hours": 44.7,
+      "first_mention_rate": 0.68,
+      "cited_evidence_rate": 0.79,
       "enough_data": true
     },
     {
@@ -57949,41 +61060,36 @@
       "enough_data": true
     },
     {
-      "channel": "Schwab Network",
+      "channel": "Yahoo Finance",
       "tier": 1,
-      "tickers_covered": 31,
-      "first_mentions": 20,
+      "tickers_covered": 26,
+      "first_mentions": 15,
       "evidence_counts": {
-        "data": 9,
-        "none": 5,
-        "reasoned": 16,
-        "speculation": 1
+        "reasoned": 14,
+        "speculation": 5,
+        "data": 4,
+        "none": 3
       },
       "first_mention_tickers": [
-        "AMZN",
-        "MRNA",
-        "LMT",
-        "NVDA",
-        "EWZ",
-        "CVX",
-        "ROST",
-        "FICO",
-        "MRVL",
-        "BTC",
-        "ETH",
-        "HYPE",
-        "SKHY",
-        "NCLH",
-        "STX",
-        "CIEN",
-        "PWR",
-        "NDAQ",
-        "DECK",
-        "ELIS"
+        "BAC",
+        "WFC",
+        "MS",
+        "BK",
+        "CRWD",
+        "DASH",
+        "CART",
+        "WHR",
+        "CVNA",
+        "TTWO",
+        "EA",
+        "MSFT",
+        "PSKY",
+        "MSTR",
+        "ORCL"
       ],
-      "median_lag_hours": 44.7,
-      "first_mention_rate": 0.65,
-      "cited_evidence_rate": 0.81,
+      "median_lag_hours": 0.1,
+      "first_mention_rate": 0.58,
+      "cited_evidence_rate": 0.69,
       "enough_data": true
     },
     {
@@ -58032,35 +61138,6 @@
       "median_lag_hours": 46.1,
       "first_mention_rate": 0.52,
       "cited_evidence_rate": 0.48,
-      "enough_data": true
-    },
-    {
-      "channel": "Yahoo Finance",
-      "tier": 1,
-      "tickers_covered": 22,
-      "first_mentions": 11,
-      "evidence_counts": {
-        "reasoned": 11,
-        "data": 4,
-        "speculation": 4,
-        "none": 3
-      },
-      "first_mention_tickers": [
-        "CRWD",
-        "DASH",
-        "CART",
-        "WHR",
-        "CVNA",
-        "TTWO",
-        "EA",
-        "MSFT",
-        "PSKY",
-        "MSTR",
-        "ORCL"
-      ],
-      "median_lag_hours": 0.1,
-      "first_mention_rate": 0.5,
-      "cited_evidence_rate": 0.68,
       "enough_data": true
     },
     {
@@ -58364,6 +61441,159 @@
       },
       "first_channel": "Couch Investor",
       "first_seen": "2026-10-25T14:54:54+00:00",
+      "_source_video_names": 1
+    },
+    {
+      "ticker": "UPS",
+      "company": "United Parcel Service",
+      "mentions": 1,
+      "channels": [
+        "Schwab Network"
+      ],
+      "corroborating_channels": [
+        "Schwab Network"
+      ],
+      "speculative_channels": [],
+      "bullish": 1,
+      "bearish": 0,
+      "neutral": 0,
+      "evidence_counts": {
+        "data": 1
+      },
+      "on_watchlist": false,
+      "items": [
+        {
+          "channel": "Schwab Network",
+          "tier": 1,
+          "source_type": "video",
+          "video_title": "Tuesday's Final Takeaways: UPS Earnings Good for Economy, New Home Sales Fall",
+          "url": "https://www.youtube.com/watch?v=uYA72co5DYE",
+          "timestamp": "0:06",
+          "stance": "bullish",
+          "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+          "catalyst": "Third-quarter earnings beat and raised full-year guidance",
+          "price_target": "",
+          "timeframe": "2027 margin benefits",
+          "conviction": "medium",
+          "evidence": "data",
+          "basis": "primary"
+        }
+      ],
+      "consensus": "bullish",
+      "speculative_only": false,
+      "basis": {
+        "counts": {
+          "derivative": 0,
+          "primary": 1,
+          "original": 0
+        },
+        "derivative_share": 0.0,
+        "independent_channels": [
+          "Schwab Network"
+        ],
+        "reprint_channels": [],
+        "wire_only": false
+      },
+      "freshness": {
+        "state": "single_sighting",
+        "days_covered": 1,
+        "first_seen": "2026-10-27",
+        "last_seen": "2026-10-27",
+        "censored": false,
+        "retrospective": false,
+        "forward_looking": false,
+        "newest_mention_hours": null
+      },
+      "score": {
+        "total": 3.0,
+        "max_possible": 7.5,
+        "components": {
+          "independent_consensus": {
+            "raw": 0.0,
+            "weight": 3.0,
+            "contribution": 0.0,
+            "measures": "channels that did their own work on this name"
+          },
+          "evidence_quality": {
+            "raw": 1.0,
+            "weight": 2.0,
+            "contribution": 2.0,
+            "measures": "strongest evidence grade among those channels"
+          },
+          "freshness": {
+            "raw": 0.0,
+            "weight": 1.5,
+            "contribution": 0.0,
+            "measures": "new information vs. commentary on an old move"
+          },
+          "catalyst_present": {
+            "raw": 1.0,
+            "weight": 1.0,
+            "contribution": 1.0,
+            "measures": "an identifiable event behind the claim"
+          },
+          "hype_penalty": {
+            "raw": -0.0,
+            "weight": 2.0,
+            "contribution": -0.0,
+            "measures": "promotional framing, unsupported claims"
+          }
+        },
+        "vetoes": [],
+        "vetoed": false,
+        "unavailable_components": {
+          "price_action": "no market-data feed configured",
+          "relative_volume": "no market-data feed configured",
+          "liquidity": "no market-data feed configured",
+          "options_quality": "no options-chain feed configured",
+          "sector_alignment": "no sector index data configured"
+        },
+        "independent_channels": 1,
+        "basis_counts": {
+          "derivative": 0,
+          "primary": 1,
+          "original": 0
+        },
+        "freshness_state": "single_sighting"
+      },
+      "byrde": {
+        "score": 40.0,
+        "parts": {
+          "components": 40.0,
+          "reliability": null
+        },
+        "unvalidated": {
+          "price_action": "no market-data feed configured",
+          "relative_volume": "no market-data feed configured",
+          "liquidity": "no market-data feed configured",
+          "options_quality": "no options-chain feed configured",
+          "sector_alignment": "no sector index data configured"
+        },
+        "note": "no reliability input: too few of these sources' calls have resolved against a benchmark",
+        "caveat": "Research priority on a 0-100 scale. NOT a probability of profit, and not a forecast - no component has been validated against realised outcomes."
+      },
+      "catalyst_events": [],
+      "verification": {
+        "status": "outside_coverage",
+        "checked": 1,
+        "confirmed": 0,
+        "counts": {
+          "outside_coverage": 1
+        },
+        "detail": [
+          {
+            "claim": "Third-quarter earnings beat and raised full-year guidance",
+            "channel": "Schwab Network",
+            "event_type": "earnings",
+            "status": "outside_coverage",
+            "reason": "feeds do not carry this event type",
+            "matched": null
+          }
+        ],
+        "feed_has_ticker": false
+      },
+      "first_channel": "Schwab Network",
+      "first_seen": "2026-10-27T21:00:02+00:00",
       "_source_video_names": 1
     },
     {
@@ -62452,142 +65682,18 @@
   "signals": {
     "momentum": [
       {
-        "ticker": "VZ",
-        "recent_mentions": 3,
-        "prior_per_day": 0.33,
-        "lift": 2.67,
-        "channels": [
-          "CNBC Television",
-          "Schwab Network",
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "data": 2,
-          "none": 1,
-          "speculation": 2
-        },
-        "quality": 2.0,
-        "is_new": false
-      },
-      {
-        "ticker": "JBLU",
-        "recent_mentions": 2,
+        "ticker": "UPS",
+        "recent_mentions": 1,
         "prior_per_day": 0.0,
-        "lift": 2.0,
-        "channels": [
-          "CNBC Television"
-        ],
-        "evidence_counts": {
-          "none": 1,
-          "reasoned": 1
-        },
-        "quality": 0.0,
-        "is_new": true
-      },
-      {
-        "ticker": "CRWD",
-        "recent_mentions": 2,
-        "prior_per_day": 0.17,
-        "lift": 1.83,
-        "channels": [
-          "CNBC Television",
-          "The Compound"
-        ],
-        "evidence_counts": {
-          "reasoned": 1,
-          "data": 2
-        },
-        "quality": 5.0,
-        "is_new": false
-      },
-      {
-        "ticker": "META",
-        "recent_mentions": 4,
-        "prior_per_day": 2.33,
-        "lift": 1.67,
-        "channels": [
-          "CNBC Television",
-          "Schwab Network",
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "reasoned": 6,
-          "none": 4,
-          "data": 7,
-          "speculation": 1
-        },
-        "quality": 15.5,
-        "is_new": false
-      },
-      {
-        "ticker": "AMZN",
-        "recent_mentions": 2,
-        "prior_per_day": 0.33,
-        "lift": 1.67,
-        "channels": [
-          "CNBC Television",
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "none": 2,
-          "reasoned": 2
-        },
-        "quality": 0.0,
-        "is_new": false
-      },
-      {
-        "ticker": "NBIS",
-        "recent_mentions": 2,
-        "prior_per_day": 0.5,
-        "lift": 1.5,
-        "channels": [
-          "CNBC Television",
-          "Schwab Network"
-        ],
-        "evidence_counts": {
-          "data": 2,
-          "speculation": 1,
-          "none": 1,
-          "reasoned": 1
-        },
-        "quality": 3.5,
-        "is_new": false
-      },
-      {
-        "ticker": "CRWV",
-        "recent_mentions": 2,
-        "prior_per_day": 0.83,
-        "lift": 1.17,
-        "channels": [
-          "CNBC Television",
-          "Schwab Network"
-        ],
-        "evidence_counts": {
-          "none": 1,
-          "speculation": 3,
-          "data": 2,
-          "reasoned": 1
-        },
-        "quality": 2.5,
-        "is_new": false
-      },
-      {
-        "ticker": "TSLA",
-        "recent_mentions": 3,
-        "prior_per_day": 2.0,
         "lift": 1.0,
         "channels": [
-          "Schwab Network",
-          "Yahoo Finance"
+          "Schwab Network"
         ],
         "evidence_counts": {
-          "speculation": 3,
-          "none": 2,
-          "data": 7,
-          "reasoned": 3
+          "data": 1
         },
-        "quality": 13.5,
-        "is_new": false
+        "quality": 2.0,
+        "is_new": true
       },
       {
         "ticker": "TMO",
@@ -62618,35 +65724,7 @@
         "is_new": true
       },
       {
-        "ticker": "WHR",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "data": 1
-        },
-        "quality": 2.0,
-        "is_new": true
-      },
-      {
-        "ticker": "CVNA",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "data": 1
-        },
-        "quality": 2.0,
-        "is_new": true
-      },
-      {
-        "ticker": "EWZ",
+        "ticker": "SPCX",
         "recent_mentions": 1,
         "prior_per_day": 0.0,
         "lift": 1.0,
@@ -62654,9 +65732,65 @@
           "Schwab Network"
         ],
         "evidence_counts": {
-          "data": 1
+          "reasoned": 1
         },
-        "quality": 2.0,
+        "quality": 1.0,
+        "is_new": true
+      },
+      {
+        "ticker": "BA",
+        "recent_mentions": 1,
+        "prior_per_day": 0.0,
+        "lift": 1.0,
+        "channels": [
+          "CNBC Television"
+        ],
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "quality": 1.0,
+        "is_new": true
+      },
+      {
+        "ticker": "BAC",
+        "recent_mentions": 1,
+        "prior_per_day": 0.0,
+        "lift": 1.0,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "quality": 1.0,
+        "is_new": true
+      },
+      {
+        "ticker": "WFC",
+        "recent_mentions": 1,
+        "prior_per_day": 0.0,
+        "lift": 1.0,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "quality": 1.0,
+        "is_new": true
+      },
+      {
+        "ticker": "MS",
+        "recent_mentions": 1,
+        "prior_per_day": 0.0,
+        "lift": 1.0,
+        "channels": [
+          "Yahoo Finance"
+        ],
+        "evidence_counts": {
+          "reasoned": 1
+        },
+        "quality": 1.0,
         "is_new": true
       },
       {
@@ -62702,35 +65836,7 @@
         "is_new": true
       },
       {
-        "ticker": "DASH",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "reasoned": 1
-        },
-        "quality": 1.0,
-        "is_new": true
-      },
-      {
-        "ticker": "CART",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "reasoned": 1
-        },
-        "quality": 1.0,
-        "is_new": true
-      },
-      {
-        "ticker": "ROST",
+        "ticker": "OKLO",
         "recent_mentions": 1,
         "prior_per_day": 0.0,
         "lift": 1.0,
@@ -62738,23 +65844,37 @@
           "Schwab Network"
         ],
         "evidence_counts": {
-          "reasoned": 1
+          "speculation": 1
         },
-        "quality": 1.0,
+        "quality": -0.5,
         "is_new": true
       },
       {
-        "ticker": "FICO",
+        "ticker": "BK",
         "recent_mentions": 1,
         "prior_per_day": 0.0,
         "lift": 1.0,
         "channels": [
-          "Schwab Network"
+          "Yahoo Finance"
         ],
         "evidence_counts": {
-          "reasoned": 1
+          "speculation": 1
         },
-        "quality": 1.0,
+        "quality": -0.5,
+        "is_new": true
+      },
+      {
+        "ticker": "CBRS",
+        "recent_mentions": 1,
+        "prior_per_day": 0.0,
+        "lift": 1.0,
+        "channels": [
+          "CNBC Television"
+        ],
+        "evidence_counts": {
+          "none": 1
+        },
+        "quality": -1.0,
         "is_new": true
       },
       {
@@ -62842,49 +65962,6 @@
         "is_new": true
       },
       {
-        "ticker": "EA",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "none": 1
-        },
-        "quality": -1.0,
-        "is_new": true
-      },
-      {
-        "ticker": "CSCO",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "CNBC Television"
-        ],
-        "evidence_counts": {
-          "none": 1
-        },
-        "quality": -1.0,
-        "is_new": true
-      },
-      {
-        "ticker": "VRT",
-        "recent_mentions": 1,
-        "prior_per_day": 0.17,
-        "lift": 0.83,
-        "channels": [
-          "Schwab Network"
-        ],
-        "evidence_counts": {
-          "reasoned": 1,
-          "data": 1
-        },
-        "quality": 3.0,
-        "is_new": false
-      },
-      {
         "ticker": "MRNA",
         "recent_mentions": 1,
         "prior_per_day": 0.17,
@@ -62900,143 +65977,83 @@
         "is_new": false
       },
       {
-        "ticker": "RKLB",
+        "ticker": "CRWD",
         "recent_mentions": 1,
-        "prior_per_day": 0.17,
-        "lift": 0.83,
+        "prior_per_day": 0.33,
+        "lift": 0.67,
+        "channels": [
+          "CNBC Television"
+        ],
+        "evidence_counts": {
+          "reasoned": 1,
+          "data": 2
+        },
+        "quality": 5.0,
+        "is_new": false
+      },
+      {
+        "ticker": "AMZN",
+        "recent_mentions": 1,
+        "prior_per_day": 0.5,
+        "lift": 0.5,
+        "channels": [
+          "CNBC Television"
+        ],
+        "evidence_counts": {
+          "none": 2,
+          "reasoned": 2
+        },
+        "quality": 0.0,
+        "is_new": false
+      },
+      {
+        "ticker": "TSLA",
+        "recent_mentions": 1,
+        "prior_per_day": 2.33,
+        "lift": -1.33,
         "channels": [
           "Schwab Network"
         ],
         "evidence_counts": {
-          "reasoned": 1,
-          "speculation": 1
-        },
-        "quality": 0.5,
-        "is_new": false
-      },
-      {
-        "ticker": "TTWO",
-        "recent_mentions": 1,
-        "prior_per_day": 0.33,
-        "lift": 0.67,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "speculation": 1,
-          "reasoned": 2
-        },
-        "quality": 1.5,
-        "is_new": false
-      },
-      {
-        "ticker": "CVX",
-        "recent_mentions": 1,
-        "prior_per_day": 0.33,
-        "lift": 0.67,
-        "channels": [
-          "CNBC Television"
-        ],
-        "evidence_counts": {
+          "speculation": 3,
           "none": 2,
-          "reasoned": 1
+          "data": 7,
+          "reasoned": 3
         },
-        "quality": -1.0,
+        "quality": 13.5,
         "is_new": false
       },
       {
-        "ticker": "XOM",
+        "ticker": "META",
         "recent_mentions": 1,
-        "prior_per_day": 0.33,
-        "lift": 0.67,
+        "prior_per_day": 2.83,
+        "lift": -1.83,
         "channels": [
           "CNBC Television"
         ],
         "evidence_counts": {
-          "none": 2,
-          "speculation": 1
-        },
-        "quality": -2.5,
-        "is_new": false
-      },
-      {
-        "ticker": "MSFT",
-        "recent_mentions": 1,
-        "prior_per_day": 0.67,
-        "lift": 0.33,
-        "channels": [
-          "CNBC Television"
-        ],
-        "evidence_counts": {
-          "none": 3,
-          "speculation": 1,
-          "data": 1
-        },
-        "quality": -1.5,
-        "is_new": false
-      },
-      {
-        "ticker": "NVDA",
-        "recent_mentions": 2,
-        "prior_per_day": 2.5,
-        "lift": -0.5,
-        "channels": [
-          "Yahoo Finance"
-        ],
-        "evidence_counts": {
-          "none": 7,
-          "reasoned": 7,
-          "data": 3
-        },
-        "quality": 6.0,
-        "is_new": false
-      },
-      {
-        "ticker": "AAPL",
-        "recent_mentions": 1,
-        "prior_per_day": 1.67,
-        "lift": -0.67,
-        "channels": [
-          "CNBC Television"
-        ],
-        "evidence_counts": {
-          "data": 2,
-          "none": 2,
           "reasoned": 6,
+          "none": 4,
+          "data": 7,
           "speculation": 1
         },
-        "quality": 7.5,
+        "quality": 15.5,
         "is_new": false
       }
     ],
     "emerging": [
       {
-        "ticker": "VRT",
-        "first_seen": "2026-10-25T18:25:04+00:00",
-        "quality": 3.0,
+        "ticker": "UPS",
+        "first_seen": "2026-10-27T21:00:02+00:00",
+        "quality": 2.0,
         "evidence_counts": {
-          "reasoned": 1,
           "data": 1
         },
-        "company": "Vertiv",
-        "sector": "",
-        "channel": "Ticker Symbol: YOU",
-        "thesis": "Host argues Vertiv makes power and cooling systems that are part of Nvidia's AI factory designs and DSX pods, and that its sales growth and raised revenue forecast support the pick. Thesis tied to AI factory buildout speed.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "UBER",
-        "first_seen": "2026-10-25T14:54:54+00:00",
-        "quality": 3.0,
-        "evidence_counts": {
-          "data": 1,
-          "reasoned": 1
-        },
-        "company": "Uber",
-        "sector": "",
-        "channel": "Couch Investor",
-        "thesis": "Host says a report that Uber was interested in buying Instacart was an overreaction. He argues Uber is cheap, taking share from Instacart, and generates strong free cash flow.",
-        "breakout_signal": "none"
+        "company": "United Parcel Service",
+        "sector": "transport",
+        "channel": "Schwab Network",
+        "thesis": "Host reads UPS's third-quarter beat and raised full-year outlook (revenue of about $92.6 billion and adjusted EPS of $7.28) as good news for the economy, with the stock up almost 6%. Investors are watching whether the company can improve margins as it phases out lower-margin Amazon deliveries, with a leaner network expected to show benefits in 2027.",
+        "breakout_signal": "catalyst_driven"
       },
       {
         "ticker": "TMO",
@@ -63104,211 +66121,68 @@
         "breakout_signal": "price_move"
       },
       {
-        "ticker": "SBUX",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
+        "ticker": "SPCX",
+        "first_seen": "2026-10-27T22:00:02+00:00",
+        "quality": 1.0,
         "evidence_counts": {
-          "data": 1
+          "reasoned": 1
         },
-        "company": "Starbucks",
-        "sector": "consumer discretionary",
-        "channel": "Dividend Talks",
-        "thesis": "Host sees the turnaround as visible but thinks the share price already prices in strong future earnings growth and a premium multiple. His DCF-style model puts value around $74, about 26% below the price cited, and he says the stock would need faster profit recovery than sales growth alone. Ranked as the strongest trim candidate.",
-        "breakout_signal": "none"
+        "company": "SpaceX",
+        "sector": "communication",
+        "channel": "Schwab Network",
+        "thesis": "Host believes SpaceX is an opportunity because it is absorbing post-lockup stock supply, reported strong earnings last week, and has large potential through Starlink satellite communications. Reasoning is qualitative, with the host citing capabilities rather than specific financials.",
+        "breakout_signal": "catalyst_driven"
       },
       {
-        "ticker": "LLY",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
+        "ticker": "BA",
+        "first_seen": "2026-10-27T21:07:47+00:00",
+        "quality": 1.0,
         "evidence_counts": {
-          "data": 1
+          "reasoned": 1
         },
-        "company": "Eli Lilly",
-        "sector": "healthcare",
-        "channel": "Dividend Talks",
-        "thesis": "Host acknowledges strong revenue growth and profitability, but says the price near 52-week highs needs continued exceptional cash growth. His central model value is about 25% below the cited price, and his high scenario only roughly matches today's price. Ranked second as a trim candidate.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "KO",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Coca-Cola",
-        "sector": "consumer staples",
-        "channel": "Dividend Talks",
-        "thesis": "Host sees a high-quality business but thinks a rally to near record highs leaves little valuation protection. His models put value around $70 to $86 against a price near $93, and the video cites a forward multiple above its historical average. Ranked third as a trim candidate.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "KLAC",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "KLA Corporation",
-        "sector": "semiconductors",
-        "channel": "Dividend Talks",
-        "thesis": "Host calls it a cautious hold after a large decline. His model value is roughly equal to the cited price, and he says the outlook depends on customer orders and the chip-equipment cycle. He notes analysts expect strong growth but says he would not treat their targets as protection.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "CAT",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Caterpillar",
+        "company": "Boeing",
         "sector": "industrials",
-        "channel": "Dividend Talks",
-        "thesis": "Host sees a strong backlog that roughly doubled, but says the price already leaves little margin for error. His model is roughly at the cited price, and he says the finance business complicates valuation. Ranked fifth as a hold with scope to trim a large position.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "V",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Visa",
-        "sector": "financials",
-        "channel": "Dividend Talks",
-        "thesis": "Host describes a strong business with high margins and cash generation, but his model puts fair value about 4% below the cited price. He calls it a hold near fair value and says the growth path matters more than the small valuation gap.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "SPGI",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "S&P Global",
-        "sector": "financials",
-        "channel": "Dividend Talks",
-        "thesis": "Host views the stock as near fair value in his model, with the forward multiple below its historical average. He notes AI disruption concerns for financial information services, but says the profit and cash delivery is what matters. Ranked seventh, a hold with less reason to sell.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "ADP",
-        "first_seen": "2026-10-25T19:57:45+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Automatic Data Processing",
-        "sector": "industrials",
-        "channel": "Dividend Talks",
-        "thesis": "Host is the least willing to sell among the eight and calls it his strongest hold, citing steady growth, stable cash flow and a multiple slightly below its historical average. His model suggests modest upside to a blended value of about $332, but he says it is not a bargain.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "COR",
-        "first_seen": "2026-10-25T18:25:04+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Coherent",
-        "sector": "",
-        "channel": "Ticker Symbol: YOU",
-        "thesis": "Host sees Coherent as supplying lasers and optics for Nvidia's co-packaged optics switches, cites a $2B Nvidia investment and purchase agreement, 34% revenue growth, and a forward PE of about 22 that he calls lower than several megacaps.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "CGNX",
-        "first_seen": "2026-10-25T18:25:04+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Cognex",
-        "sector": "",
-        "channel": "Ticker Symbol: YOU",
-        "thesis": "Host says Cognex's machine vision and new Jetson-based controller position it to benefit as factory robots get smarter. Cites record revenue of $291M, 17% growth, EPS up 80%, and no debt.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "NOK",
-        "first_seen": "2026-10-25T18:25:04+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Nokia",
-        "sector": "",
-        "channel": "Ticker Symbol: YOU",
-        "thesis": "Host sees Nokia as a beneficiary of AI-RAN turning telecom sites into AI compute, plus AI data center sales growth and an Nvidia $1B investment. Stock noted at around $8 versus $6 Nvidia entry price.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "CHPT",
-        "first_seen": "2026-10-25T15:45:02+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "ChargePoint",
-        "sector": "industrials",
-        "channel": "Parkev Tatevosian, CFA",
-        "thesis": "Host says revenue is recovering and cash burn was roughly flat last quarter, which is a milestone. However, he argues cash (about $95M) is low versus debt (about $227M), so further dilution or costly borrowing is likely before cash flow turns positive. His DCF gives a fair value of $529 versus an $8 price, so he still sees it as overvalued and not a buy yet.",
+        "channel": "CNBC Television",
+        "thesis": "Shares fell more than 10% after management said 737 MAX production stabilization would last through the rest of the year into early next year, with rate of 47 planes a month still pending. The report describes the drop; no host view is expressed beyond that.",
         "breakout_signal": "price_move"
       },
       {
-        "ticker": "SOFI",
-        "first_seen": "2026-10-25T14:54:54+00:00",
-        "quality": 2.0,
+        "ticker": "BAC",
+        "first_seen": "2026-10-27T21:00:15+00:00",
+        "quality": 1.0,
         "evidence_counts": {
-          "data": 1
+          "reasoned": 1
         },
-        "company": "SoFi",
-        "sector": "",
-        "channel": "Couch Investor",
-        "thesis": "Host sees a buying zone under $15 ahead of earnings, citing consensus growth in revenue (~31%) and EPS (~54%) as justifying a growth premium.",
+        "company": "Bank of America",
+        "sector": "financials",
+        "channel": "Yahoo Finance",
+        "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. The host describes this as a security risk; no investment view is expressed.",
         "breakout_signal": "none"
       },
       {
-        "ticker": "RDDT",
-        "first_seen": "2026-10-25T14:54:54+00:00",
-        "quality": 2.0,
+        "ticker": "WFC",
+        "first_seen": "2026-10-27T21:00:15+00:00",
+        "quality": 1.0,
         "evidence_counts": {
-          "data": 1
+          "reasoned": 1
         },
-        "company": "Reddit",
-        "sector": "",
-        "channel": "Couch Investor",
-        "thesis": "Host calls it cheap and in a buying zone, expects ARPU and AI licensing progress. Consensus revenue growth ~50% is cited.",
+        "company": "Wells Fargo",
+        "sector": "financials",
+        "channel": "Yahoo Finance",
+        "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
         "breakout_signal": "none"
       },
       {
-        "ticker": "NOW",
-        "first_seen": "2026-10-25T14:54:54+00:00",
-        "quality": 2.0,
+        "ticker": "MS",
+        "first_seen": "2026-10-27T21:00:15+00:00",
+        "quality": 1.0,
         "evidence_counts": {
-          "data": 1
+          "reasoned": 1
         },
-        "company": "ServiceNow",
-        "sector": "",
-        "channel": "Couch Investor",
-        "thesis": "Host notes EPS growth consensus of 6% and says whether revenue accelerates remains to be seen. No clear view.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "SNDK",
-        "first_seen": "2026-10-25T14:54:54+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Sandisk",
-        "sector": "",
-        "channel": "Couch Investor",
-        "thesis": "Host says the year-over-year growth is distorted by a small base, and the focus will be on outlook for memory demand into 2027-2030.",
+        "company": "Morgan Stanley",
+        "sector": "financials",
+        "channel": "Yahoo Finance",
+        "thesis": "Named as one of the institutions where unvetted third-party AI agents are reportedly accessing consumer accounts. No investment view is expressed.",
         "breakout_signal": "none"
       },
       {
@@ -63401,65 +66275,66 @@
         "channel": "Schwab Network",
         "thesis": "Per the host reporting Wells Fargo's downgrade to equal weight, Fair Isaac's decision to hold mortgage score pricing steady is seen as capping earnings growth that Wells had expected from a pricing increase. Shares fell more than 6%.",
         "breakout_signal": "price_move"
-      },
-      {
-        "ticker": "CLF",
-        "first_seen": "2026-10-25T22:00:07+00:00",
-        "quality": 1.0,
-        "evidence_counts": {
-          "reasoned": 1
-        },
-        "company": "Cleveland-Cliffs",
-        "sector": "materials",
-        "channel": "StockedUp",
-        "thesis": "Host sees the stock holding support around $12.80-13 after earnings and expects a breakout above the post-earnings high near $14.60 to push toward $15 and possibly $17, based on a chart downtrend break.",
-        "breakout_signal": "catalyst_driven"
-      },
-      {
-        "ticker": "HOOD",
-        "first_seen": "2026-10-25T14:54:54+00:00",
-        "quality": 1.0,
-        "evidence_counts": {
-          "none": 1,
-          "data": 1
-        },
-        "company": "Robinhood",
-        "sector": "",
-        "channel": "Couch Investor",
-        "thesis": "Host expects revenue growth to be modest and EPS to decline, with transaction-based revenue exposed to volatility and crypto weakness; he hopes diversification into banking and credit card will show.",
-        "breakout_signal": "none"
       }
     ],
     "news_linked": [],
     "sectors": [
       {
         "sector": "industrials",
-        "mentions": 8,
+        "mentions": 9,
         "tickers": [
           "ADP",
+          "BA",
           "CAT",
           "CHPT",
           "RDW",
           "RKLB",
           "VRT"
         ],
-        "channels": 4,
+        "channels": 5,
         "bull": 5,
-        "bear": 1,
+        "bear": 2,
         "evidence_counts": {
-          "reasoned": 4,
+          "reasoned": 5,
           "none": 1,
           "data": 3
         },
-        "quality": 9.0,
+        "quality": 10.0,
+        "tilt": "bullish"
+      },
+      {
+        "sector": "financials",
+        "mentions": 10,
+        "tickers": [
+          "BAC",
+          "BK",
+          "BRK.B",
+          "GBCI",
+          "HOOD",
+          "MS",
+          "SPGI",
+          "V",
+          "WFC"
+        ],
+        "channels": 5,
+        "bull": 2,
+        "bear": 1,
+        "evidence_counts": {
+          "reasoned": 6,
+          "speculation": 1,
+          "none": 1,
+          "data": 2
+        },
+        "quality": 8.5,
         "tilt": "bullish"
       },
       {
         "sector": "semiconductors",
-        "mentions": 12,
+        "mentions": 13,
         "tickers": [
           "AMAT",
           "AMD",
+          "CBRS",
           "KLAC",
           "LRCX",
           "MRVL",
@@ -63469,11 +66344,11 @@
         "bull": 5,
         "bear": 2,
         "evidence_counts": {
+          "none": 5,
           "data": 4,
-          "none": 4,
           "reasoned": 4
         },
-        "quality": 8.0,
+        "quality": 7.0,
         "tilt": "bullish"
       },
       {
@@ -63502,27 +66377,6 @@
         "tilt": "bullish"
       },
       {
-        "sector": "financials",
-        "mentions": 6,
-        "tickers": [
-          "BRK.B",
-          "GBCI",
-          "HOOD",
-          "SPGI",
-          "V"
-        ],
-        "channels": 4,
-        "bull": 2,
-        "bear": 1,
-        "evidence_counts": {
-          "reasoned": 3,
-          "none": 1,
-          "data": 2
-        },
-        "quality": 6.0,
-        "tilt": "bullish"
-      },
-      {
         "sector": "ai infrastructure",
         "mentions": 14,
         "tickers": [
@@ -63544,6 +66398,27 @@
         "tilt": "bullish"
       },
       {
+        "sector": "communication",
+        "mentions": 11,
+        "tickers": [
+          "META",
+          "RBLX",
+          "SPCX",
+          "VZ"
+        ],
+        "channels": 6,
+        "bull": 4,
+        "bear": 2,
+        "evidence_counts": {
+          "reasoned": 3,
+          "none": 4,
+          "data": 3,
+          "speculation": 1
+        },
+        "quality": 4.5,
+        "tilt": "bullish"
+      },
+      {
         "sector": "other",
         "mentions": 2,
         "tickers": [
@@ -63557,26 +66432,6 @@
         },
         "quality": 4.0,
         "tilt": "bearish"
-      },
-      {
-        "sector": "communication",
-        "mentions": 10,
-        "tickers": [
-          "META",
-          "RBLX",
-          "VZ"
-        ],
-        "channels": 6,
-        "bull": 3,
-        "bear": 2,
-        "evidence_counts": {
-          "reasoned": 2,
-          "none": 4,
-          "data": 3,
-          "speculation": 1
-        },
-        "quality": 3.5,
-        "tilt": "bullish"
       },
       {
         "sector": "healthcare",
@@ -63593,6 +66448,24 @@
         "evidence_counts": {
           "none": 2,
           "data": 2
+        },
+        "quality": 2.0,
+        "tilt": "bearish"
+      },
+      {
+        "sector": "transport",
+        "mentions": 3,
+        "tickers": [
+          "JBLU",
+          "UPS"
+        ],
+        "channels": 2,
+        "bull": 1,
+        "bear": 2,
+        "evidence_counts": {
+          "data": 1,
+          "none": 1,
+          "reasoned": 1
         },
         "quality": 2.0,
         "tilt": "bearish"
@@ -63631,22 +66504,6 @@
         },
         "quality": 0.0,
         "tilt": "split"
-      },
-      {
-        "sector": "transport",
-        "mentions": 2,
-        "tickers": [
-          "JBLU"
-        ],
-        "channels": 1,
-        "bull": 0,
-        "bear": 2,
-        "evidence_counts": {
-          "none": 1,
-          "reasoned": 1
-        },
-        "quality": 0.0,
-        "tilt": "bearish"
       },
       {
         "sector": "consumer discretionary",
@@ -63709,20 +66566,21 @@
       },
       {
         "sector": "energy",
-        "mentions": 3,
+        "mentions": 4,
         "tickers": [
           "CVX",
           "LNG",
+          "OKLO",
           "XOM"
         ],
-        "channels": 2,
-        "bull": 1,
+        "channels": 3,
+        "bull": 2,
         "bear": 0,
         "evidence_counts": {
-          "none": 2,
-          "speculation": 1
+          "speculation": 2,
+          "none": 2
         },
-        "quality": -2.5,
+        "quality": -3.0,
         "tilt": "bullish"
       }
     ]
@@ -63730,8 +66588,8 @@
   "signal_log": {
     "created": [],
     "updated": [],
-    "unchanged": 120,
-    "total": 138
+    "unchanged": 128,
+    "total": 146
   },
   "outcomes": {
     "measured": 0,
@@ -63746,23 +66604,23 @@
     ],
     "circuit_open": true,
     "note": "stopped after 3 consecutive fetch failures - price feed appears to be down",
-    "pending": 135
+    "pending": 143
   },
   "price_health": {
-    "total_signals": 138,
-    "measured": 44,
-    "fetch_failed": 8,
+    "total_signals": 146,
+    "measured": 49,
+    "fetch_failed": 3,
     "skipped_non_equity": 3,
-    "never_attempted": 83,
+    "never_attempted": 91,
     "resolved_by_horizon": {
-      "1": 0,
+      "1": 44,
       "7": 0,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-27T08:30:29.621439+00:00",
+    "last_run": "2026-10-27T22:48:38.517234+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -63805,7 +66663,9 @@
     "IBM",
     "STX",
     "SOFI",
+    "BA",
     "RKLB",
+    "UPS",
     "TMO",
     "WHR",
     "EWZ",
@@ -63848,6 +66708,9 @@
     "QLYS",
     "NCLH",
     "ORCL",
+    "BAC",
+    "WFC",
+    "MS",
     "GBCI",
     "GE",
     "PG",
@@ -63859,12 +66722,14 @@
     "TSM",
     "VST",
     "XOM",
+    "BK",
     "AMPL",
     "MELI",
     "AVGO",
     "PYPL",
     "INTC",
     "MSTR",
+    "OKLO",
     "LNG"
   ],
   "vetoed": [
@@ -63960,6 +66825,12 @@
       "reasons": [
         "no channel did its own work - every mention is a reprint",
         "no original or primary-source claim at all"
+      ]
+    },
+    {
+      "ticker": "CBRS",
+      "reasons": [
+        "no supporting evidence in any original claim"
       ]
     },
     {
@@ -64188,11 +67059,11 @@
     {
       "channel": "CNBC Television",
       "derivative": 7,
-      "primary": 9,
-      "original": 26,
-      "total": 42,
-      "derivative_share": 0.17,
-      "original_share": 0.62
+      "primary": 10,
+      "original": 27,
+      "total": 44,
+      "derivative_share": 0.16,
+      "original_share": 0.61
     },
     {
       "channel": "Bloomberg Television",
@@ -64215,9 +67086,9 @@
     {
       "channel": "Schwab Network",
       "derivative": 2,
-      "primary": 18,
-      "original": 28,
-      "total": 48,
+      "primary": 19,
+      "original": 29,
+      "total": 50,
       "derivative_share": 0.04,
       "original_share": 0.58
     },
@@ -64225,10 +67096,10 @@
       "channel": "Yahoo Finance",
       "derivative": 1,
       "primary": 7,
-      "original": 28,
-      "total": 36,
+      "original": 32,
+      "total": 40,
       "derivative_share": 0.03,
-      "original_share": 0.78
+      "original_share": 0.8
     },
     {
       "channel": "Jose Najarro Stocks",
@@ -64339,9 +67210,9 @@
   },
   "funnel": {
     "counts": {
-      "mentioned": 122,
-      "valid_symbol": 120,
-      "researched": 117,
+      "mentioned": 131,
+      "valid_symbol": 128,
+      "researched": 125,
       "corroborated": 24,
       "catalyst_backed": 0,
       "qualified": 22,
@@ -64350,6 +67221,11 @@
     "drops": {
       "mentioned": [],
       "valid_symbol": [
+        {
+          "ticker": "SPCX",
+          "reason": "SpaceX is not publicly traded",
+          "detail": "SpaceX"
+        },
         {
           "ticker": "WAYMO",
           "reason": "Waymo is not publicly traded",
@@ -64411,6 +67287,11 @@
         },
         {
           "ticker": "STX",
+          "reason": "only one source did its own work",
+          "detail": "Schwab Network"
+        },
+        {
+          "ticker": "UPS",
           "reason": "only one source did its own work",
           "detail": "Schwab Network"
         },
@@ -64570,6 +67451,26 @@
           "detail": "Bloomberg Television"
         },
         {
+          "ticker": "BA",
+          "reason": "only one source did its own work",
+          "detail": "CNBC Television"
+        },
+        {
+          "ticker": "BAC",
+          "reason": "only one source did its own work",
+          "detail": "Yahoo Finance"
+        },
+        {
+          "ticker": "WFC",
+          "reason": "only one source did its own work",
+          "detail": "Yahoo Finance"
+        },
+        {
+          "ticker": "MS",
+          "reason": "only one source did its own work",
+          "detail": "Yahoo Finance"
+        },
+        {
           "ticker": "BRK.B",
           "reason": "only one source did its own work",
           "detail": "The Compound"
@@ -64680,6 +67581,16 @@
           "detail": "Investor's Business Daily"
         },
         {
+          "ticker": "OKLO",
+          "reason": "only one source did its own work",
+          "detail": "Schwab Network"
+        },
+        {
+          "ticker": "BK",
+          "reason": "only one source did its own work",
+          "detail": "Yahoo Finance"
+        },
+        {
           "ticker": "LNG",
           "reason": "only one source did its own work",
           "detail": "StockedUp"
@@ -64713,6 +67624,11 @@
           "ticker": "MSTR",
           "reason": "only one source did its own work",
           "detail": "Yahoo Finance"
+        },
+        {
+          "ticker": "CBRS",
+          "reason": "only one source did its own work",
+          "detail": "CNBC Television"
         },
         {
           "ticker": "AMAT",
@@ -65101,7 +68017,7 @@
       "qualified",
       "alerted"
     ],
-    "total_rejected": 146,
+    "total_rejected": 155,
     "note": "Every rejection carries a reason. A funnel without them is just a shrinking number."
   },
   "creators": {
@@ -65123,11 +68039,11 @@
       },
       {
         "channel": "Schwab Network",
-        "calls": 56,
+        "calls": 58,
         "resolved": 0,
         "timeliness_days": -0.03,
-        "uniqueness": 0.484,
-        "reprint_share": 0.071,
+        "uniqueness": 0.515,
+        "reprint_share": 0.069,
         "sufficient_data": false,
         "confident": false,
         "hit_rate_vs_spy": null,
@@ -65175,11 +68091,11 @@
       },
       {
         "channel": "Yahoo Finance",
-        "calls": 44,
+        "calls": 48,
         "resolved": 0,
         "timeliness_days": 0.02,
-        "uniqueness": 0.364,
-        "reprint_share": 0.023,
+        "uniqueness": 0.462,
+        "reprint_share": 0.021,
         "sufficient_data": false,
         "confident": false,
         "hit_rate_vs_spy": null,
@@ -65279,11 +68195,11 @@
       },
       {
         "channel": "CNBC Television",
-        "calls": 41,
+        "calls": 43,
         "resolved": 0,
         "timeliness_days": -0.18,
-        "uniqueness": 0.531,
-        "reprint_share": 0.171,
+        "uniqueness": 0.559,
+        "reprint_share": 0.163,
         "sufficient_data": false,
         "confident": false,
         "hit_rate_vs_spy": null,
@@ -65350,10 +68266,10 @@
   },
   "verification_meta": {
     "by_status": {
-      "outside_coverage": 61,
-      "no_claim": 59
+      "outside_coverage": 63,
+      "no_claim": 65
     },
-    "tickers_with_filed_events": 4,
+    "tickers_with_filed_events": 5,
     "covered_event_types": [
       "clinical_trial",
       "enforcement",
@@ -65382,38 +68298,38 @@
     {
       "channel": "Yahoo Finance",
       "current_tier": 1,
-      "videos": 16,
+      "videos": 17,
       "promotional": 2,
-      "red_flags": 82,
-      "claims": 52,
-      "unsupported_claims": 18,
-      "no_disclosure": 13,
-      "avg_hype": 2.38,
+      "red_flags": 84,
+      "claims": 56,
+      "unsupported_claims": 19,
+      "no_disclosure": 14,
+      "avg_hype": 2.35,
       "promotional_rate": 0.12,
-      "red_flags_per_video": 5.12,
-      "unsupported_rate": 0.35,
+      "red_flags_per_video": 4.94,
+      "unsupported_rate": 0.34,
       "enough_data": true,
       "reasons": [
-        "5.12 red flags per video"
+        "4.94 red flags per video"
       ],
       "nominated": true
     },
     {
       "channel": "Schwab Network",
       "current_tier": 1,
-      "videos": 27,
+      "videos": 29,
       "promotional": 2,
-      "red_flags": 1272,
-      "claims": 68,
-      "unsupported_claims": 20,
-      "no_disclosure": 27,
-      "avg_hype": 2.04,
+      "red_flags": 1280,
+      "claims": 71,
+      "unsupported_claims": 21,
+      "no_disclosure": 29,
+      "avg_hype": 2.07,
       "promotional_rate": 0.07,
-      "red_flags_per_video": 47.11,
-      "unsupported_rate": 0.29,
+      "red_flags_per_video": 44.14,
+      "unsupported_rate": 0.3,
       "enough_data": true,
       "reasons": [
-        "47.11 red flags per video"
+        "44.14 red flags per video"
       ],
       "nominated": true
     },
@@ -65439,20 +68355,20 @@
     {
       "channel": "CNBC Television",
       "current_tier": 1,
-      "videos": 17,
+      "videos": 19,
       "promotional": 1,
-      "red_flags": 51,
-      "claims": 49,
-      "unsupported_claims": 29,
-      "no_disclosure": 16,
-      "avg_hype": 1.82,
-      "promotional_rate": 0.06,
-      "red_flags_per_video": 3.0,
+      "red_flags": 54,
+      "claims": 51,
+      "unsupported_claims": 30,
+      "no_disclosure": 18,
+      "avg_hype": 1.79,
+      "promotional_rate": 0.05,
+      "red_flags_per_video": 2.84,
       "unsupported_rate": 0.59,
       "enough_data": true,
       "reasons": [
         "59% of claims unsupported",
-        "3.0 red flags per video"
+        "2.84 red flags per video"
       ],
       "nominated": true
     },
@@ -65502,6 +68418,7 @@
     }
   ],
   "orphan_catalysts": [
+    "AMGN",
     "WMT",
     "PFE",
     "ALPMY",
