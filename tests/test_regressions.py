@@ -1988,7 +1988,8 @@ def test_alpaca_requests_adjusted_bars():
 
 def test_alpaca_parses_clean_bars_and_marks_the_feed():
     rows, report = _run_alpaca(_fixture("alpaca_clean"))
-    assert rows and len(rows) == 457
+    # One session fewer than before: 2025-01-09 is a closure.
+    assert rows and len(rows) == 456, len(rows)
     assert report["error"] == "ok"
     first = rows[0]
     for field in ("date", "open", "high", "low", "close", "volume"):
