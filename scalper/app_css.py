@@ -26,6 +26,39 @@ header.top{padding:16px 0 10px}
 header.top h1{margin:0;font-size:19px;letter-spacing:-.01em}
 header.top .sub{color:var(--dim);font-size:12.5px;margin-top:2px}
 
+
+/* --- data health --- */
+.health{display:flex;align-items:center;gap:9px;padding:10px 12px;
+  border:1px solid var(--line);border-radius:10px;margin:0 0 14px;
+  font-size:13px;line-height:1.35;background:var(--panel)}
+.health .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.health.ok{border-color:rgba(52,211,153,.35)}
+.health.ok .dot{background:var(--accent)}
+.health.warn{border-color:rgba(251,191,36,.45);background:rgba(251,191,36,.07)}
+.health.warn .dot{background:#fbbf24}
+.health.bad{border-color:rgba(248,113,113,.5);background:rgba(248,113,113,.08)}
+.health.bad .dot{background:#f87171}
+.health .hlink{margin-left:auto;color:var(--muted);font-size:12px;
+  text-decoration:underline;flex:0 0 auto;padding:4px 0}
+.hpanel{border:1px solid var(--line);border-radius:10px;background:var(--panel);
+  padding:4px 12px 12px}
+.hrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;
+  padding:9px 0;border-bottom:1px solid var(--line)}
+.hrow:last-of-type{border-bottom:0}
+.hk{color:var(--muted);font-size:12.5px;flex:0 0 42%;min-width:0}
+.hv{font-size:13.5px;font-weight:600;min-width:0;overflow-wrap:anywhere}
+.hn{color:var(--dim);font-size:11.5px;flex:1 1 100%}
+.herr{color:#fca5a5;font-size:12.5px;line-height:1.4;padding:8px 10px;
+  margin:8px 0;background:rgba(248,113,113,.09);
+  border-radius:8px;overflow-wrap:anywhere}
+.hruns{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.rchip{font-size:11px;padding:4px 8px;border-radius:999px;
+  border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.rchip.ok{border-color:rgba(52,211,153,.4);color:var(--accent)}
+.rchip.bad{border-color:rgba(248,113,113,.45);color:#fca5a5}
+.rchip.warn{border-color:rgba(251,191,36,.45);color:#fbbf24}
+.empty.bad{border-color:rgba(248,113,113,.4);color:var(--text)}
+
 /* --- bottom nav (phone) --- */
 nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;
   background:rgba(8,10,14,.96);backdrop-filter:blur(14px);

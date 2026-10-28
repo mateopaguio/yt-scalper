@@ -49,9 +49,20 @@ def save_videos(videos: list[dict]) -> None:
 
 
 def add_videos(new: list[dict]) -> list[dict]:
+    """Store newly processed items, stamped with when WE saw them.
+
+    `published` is when the source put it out; `ingested_at` is when it
+    entered this system. They are different questions and were being
+    answered by the same field - a three-day-old video processed this
+    morning looked three days stale, and a run that ingested nothing
+    looked identical to one that ingested everything.
+    """
     existing = load_videos()
     known = {v["video_id"] for v in existing}
-    merged = existing + [v for v in new if v["video_id"] not in known]
+    now = datetime.now(timezone.utc).isoformat()
+    fresh = [{**v, "ingested_at": v.get("ingested_at") or now}
+             for v in new if v["video_id"] not in known]
+    merged = existing + fresh
     save_videos(merged)
     return merged
 

@@ -22,6 +22,7 @@ from scalper import (
     analyze,
     catalysts as cat,
     changes,
+    health,
     creators,
     config as cfgmod,
     feeds,
@@ -110,7 +111,7 @@ def build_digest(
     # outside_coverage rather than being cast as unconfirmed.
     verify.annotate(aggregate, events_by_ticker)
 
-    return {
+    digest = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "video_count": len(videos),
         "videos": videos,
@@ -164,6 +165,10 @@ def build_digest(
         "skipped_count": stats.get("skipped", 0),
         "pending_count": stats.get("pending", 0),
     }
+    # Built last: it reads the finished digest (price feed state, scanner
+    # diagnostics, source timestamps) to answer "is any of this current?"
+    digest["health"] = health.snapshot(digest, videos)
+    return digest
 
 
 def gather_work(cfg, args) -> list[dict]:
@@ -518,6 +523,7 @@ def main() -> int:
     # Seen only after a page was produced; a crashed run
     # must not consume a catalyst's novelty.
     changes.commit(digest.get('catalysts') or [])
+    globals()["_LAST_INGESTED"] = len(processed)
     print(f"\nRendered {path}")
 
     if tokens_in or tokens_out:
@@ -529,5 +535,25 @@ def main() -> int:
     return 0
 
 
+def _guarded() -> int:
+    """Record every invocation, whatever happens to it.
+
+    The heartbeat is written before main() does anything, so a run that
+    dies on import or two lines in still leaves evidence that the
+    scheduler fired. A run with a start and no finish is a crash, and
+    the Data Health panel reports it as one.
+    """
+    rid = health.heartbeat(_trigger())
+    try:
+        code = main()
+    except BaseException as exc:                        # noqa: BLE001
+        health.finish(rid, False, f"{type(exc).__name__}: {exc}")
+        raise
+    ingested = globals().get("_LAST_INGESTED")
+    health.finish(rid, code == 0,
+                  "" if code == 0 else f"exit code {code}", ingested)
+    return code
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(_guarded())

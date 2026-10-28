@@ -22,8 +22,15 @@ from __future__ import annotations
 
 from typing import Any
 
+# A funnel is a sequence: each stage is drawn from the one before it,
+# so the counts can only fall. "catalyst_backed" was listed here but
+# computed from `corroborated`, the same set `qualified` is drawn
+# from - a side branch, not a stage. That is how the page came to show
+# 0 catalyst-backed followed by 22 qualified, which no funnel can do.
+# It is now reported separately, as what it always was: an attribute
+# of the corroborated set.
 STAGES = ("mentioned", "valid_symbol", "researched", "corroborated",
-          "catalyst_backed", "qualified", "alerted")
+          "qualified", "alerted")
 
 
 def build(aggregate: dict, alerts_sent: list[dict] | None = None) -> dict[str, Any]:
@@ -67,16 +74,16 @@ def build(aggregate: dict, alerts_sent: list[dict] | None = None) -> dict[str, A
                 "detail": indep[0] if indep else ""})
     counts["corroborated"] = len(corroborated)
 
-    backed = []
+    backed, unbacked = [], []
     for e in corroborated:
         if e.get("catalyst_events"):
             backed.append(e)
         else:
-            drops["catalyst_backed"].append({
+            unbacked.append({
                 "ticker": e["ticker"],
                 "reason": "no filed event behind the claim",
                 "detail": (e.get("verification") or {}).get("status", "")})
-    counts["catalyst_backed"] = len(backed)
+    # Not a stage. Reported under "independent" below.
 
     qualified = []
     for e in corroborated:              # vetoes apply to the corroborated set
@@ -98,11 +105,31 @@ def build(aggregate: dict, alerts_sent: list[dict] | None = None) -> dict[str, A
                 "detail": f"score {(e.get('score') or {}).get('total')}"})
     counts["alerted"] = len([e for e in qualified if e["ticker"] in alerted])
 
+    # A funnel that grows is a bug, not a finding. Catch it here rather
+    # than letting the page render an impossible shape.
+    inconsistent = [
+        f"{b} ({counts[b]}) > {a} ({counts[a]})"
+        for a, b in zip(STAGES, STAGES[1:])
+        if counts.get(b, 0) > counts.get(a, 0)
+    ]
+
     return {
         "counts": counts,
         "drops": drops,
         "stages": list(STAGES),
         "total_rejected": sum(len(v) for v in drops.values()),
+        "independent": {
+            "catalyst_backed": {
+                "of": "corroborated",
+                "n": len(backed),
+                "total": len(corroborated),
+                "dropped": unbacked,
+                "note": ("Whether a filed event sits behind the claim. "
+                         "Measured on the corroborated set, not a step "
+                         "between corroborated and qualified."),
+            },
+        },
+        "inconsistent": inconsistent,
         "note": ("Every rejection carries a reason. A funnel without them "
                  "is just a shrinking number."),
     }

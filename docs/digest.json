@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:18:33.720046+00:00",
+  "generated_at": "2026-10-28T02:55:23.318128+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -67758,20 +67758,6 @@
         "is_new": true
       },
       {
-        "ticker": "BRK.B",
-        "recent_mentions": 1,
-        "prior_per_day": 0.0,
-        "lift": 1.0,
-        "channels": [
-          "The Compound"
-        ],
-        "evidence_counts": {
-          "reasoned": 1
-        },
-        "quality": 1.0,
-        "is_new": true
-      },
-      {
         "ticker": "OKLO",
         "recent_mentions": 1,
         "prior_per_day": 0.0,
@@ -68393,7 +68379,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-28T02:18:33.824936+00:00",
+    "last_run": "2026-10-28T02:55:23.495864+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -70329,7 +70315,6 @@
       "valid_symbol": 128,
       "researched": 125,
       "corroborated": 24,
-      "catalyst_backed": 0,
       "qualified": 22,
       "alerted": 0
     },
@@ -70876,128 +70861,6 @@
           "detail": "Schwab Network"
         }
       ],
-      "catalyst_backed": [
-        {
-          "ticker": "META",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "NVDA",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "TSLA",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "CRWV",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "NBIS",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "MSFT",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "AAPL",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "LRCX",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "NFLX",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "AMZN",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "CRWD",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "IBM",
-          "reason": "no filed event behind the claim",
-          "detail": "no_claim"
-        },
-        {
-          "ticker": "VZ",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "AMD",
-          "reason": "no filed event behind the claim",
-          "detail": "no_claim"
-        },
-        {
-          "ticker": "GOOGL",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "XOM",
-          "reason": "no filed event behind the claim",
-          "detail": "no_claim"
-        },
-        {
-          "ticker": "WDC",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "AXP",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "BE",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "VRT",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "NCLH",
-          "reason": "no filed event behind the claim",
-          "detail": "no_claim"
-        },
-        {
-          "ticker": "RKLB",
-          "reason": "no filed event behind the claim",
-          "detail": "outside_coverage"
-        },
-        {
-          "ticker": "HOOD",
-          "reason": "no filed event behind the claim",
-          "detail": "no_claim"
-        },
-        {
-          "ticker": "ORCL",
-          "reason": "no filed event behind the claim",
-          "detail": "no_claim"
-        }
-      ],
       "qualified": [
         {
           "ticker": "LRCX",
@@ -71128,11 +70991,141 @@
       "valid_symbol",
       "researched",
       "corroborated",
-      "catalyst_backed",
       "qualified",
       "alerted"
     ],
-    "total_rejected": 155,
+    "total_rejected": 131,
+    "independent": {
+      "catalyst_backed": {
+        "of": "corroborated",
+        "n": 0,
+        "total": 24,
+        "dropped": [
+          {
+            "ticker": "META",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "NVDA",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "TSLA",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "CRWV",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "NBIS",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "MSFT",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "AAPL",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "LRCX",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "NFLX",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "AMZN",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "CRWD",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "IBM",
+            "reason": "no filed event behind the claim",
+            "detail": "no_claim"
+          },
+          {
+            "ticker": "VZ",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "AMD",
+            "reason": "no filed event behind the claim",
+            "detail": "no_claim"
+          },
+          {
+            "ticker": "GOOGL",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "XOM",
+            "reason": "no filed event behind the claim",
+            "detail": "no_claim"
+          },
+          {
+            "ticker": "WDC",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "AXP",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "BE",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "VRT",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "NCLH",
+            "reason": "no filed event behind the claim",
+            "detail": "no_claim"
+          },
+          {
+            "ticker": "RKLB",
+            "reason": "no filed event behind the claim",
+            "detail": "outside_coverage"
+          },
+          {
+            "ticker": "HOOD",
+            "reason": "no filed event behind the claim",
+            "detail": "no_claim"
+          },
+          {
+            "ticker": "ORCL",
+            "reason": "no filed event behind the claim",
+            "detail": "no_claim"
+          }
+        ],
+        "note": "Whether a filed event sits behind the claim. Measured on the corroborated set, not a step between corroborated and qualified."
+      }
+    },
+    "inconsistent": [],
     "note": "Every rejection carries a reason. A funnel without them is just a shrinking number."
   },
   "creators": {
@@ -71541,5 +71534,85 @@
   ],
   "blocked_count": 0,
   "skipped_count": 0,
-  "pending_count": 0
+  "pending_count": 0,
+  "health": {
+    "last_attempt": {
+      "at": "2026-10-28T02:55:22.975494+00:00",
+      "display": "Oct 27, 10:55 PM EDT",
+      "trigger": "scheduled",
+      "ok": null,
+      "error": "",
+      "age_hours": 0.001256453888888889
+    },
+    "last_success": {
+      "at": "2026-10-28T02:54:34.329829+00:00",
+      "display": "Oct 27, 10:54 PM EDT",
+      "trigger": "scheduled",
+      "age_hours": 0.014769138611111112,
+      "ingested": null
+    },
+    "stale": false,
+    "crashed_runs": 0,
+    "sources": {
+      "count": 166,
+      "channels": 21,
+      "newest_published": "2026-10-27T22:00:03+00:00",
+      "newest_published_display": "Oct 27, 6:00 PM EDT",
+      "newest_ingested": null,
+      "newest_ingested_display": "not recorded before this release"
+    },
+    "market_data": {
+      "attempted": "2026-10-28T02:55:23.495864+00:00",
+      "as_of": null,
+      "as_of_display": "unavailable - feed down",
+      "attempted_display": "Oct 27, 10:55 PM EDT",
+      "feed_healthy": true,
+      "scanned": 2,
+      "usable": 0,
+      "failed": [
+        "SPY",
+        "QQQ"
+      ],
+      "reasons": [
+        "no price history available"
+      ],
+      "blind": true,
+      "warning": ""
+    },
+    "recent": [
+      {
+        "started": "2026-10-28T02:55:22.975494+00:00",
+        "display": "Tue 10:55 PM EDT",
+        "trigger": "scheduled",
+        "ok": null,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T02:54:34.329829+00:00",
+        "display": "Tue 10:54 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T02:53:08.960723+00:00",
+        "display": "Tue 10:53 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T02:52:29.426380+00:00",
+        "display": "Tue 10:52 PM EDT",
+        "trigger": "manual-test",
+        "ok": true,
+        "error": "",
+        "ingested": 166
+      }
+    ],
+    "note": "published is when the source put it out; ingested is when this system saw it; market data is what the price feed is as of. They are three different clocks."
+  }
 }

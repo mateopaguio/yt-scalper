@@ -195,6 +195,16 @@ SCRIPT = """
   tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.tab);});});
   if(location.hash){var h=location.hash.slice(1);if(panels[h])show(h);}
 
+  // Any element carrying data-go jumps to that section. Without this
+  // the health strip's "details" link was inert - an affordance that
+  // looks clickable and does nothing is worse than no link at all.
+  document.addEventListener('click',function(ev){
+    var a=ev.target.closest&&ev.target.closest('[data-go]');
+    if(!a)return;
+    var k=a.getAttribute('data-go');
+    if(panels[k]){ev.preventDefault();show(k);window.scrollTo(0,0);}
+  });
+
   // Ticker filtering + sorting, no reload.
   // SCOPED to the intelligence panel. A global '.trow' query also matched
   // the catalyst and performance rows and hid them, which silently
@@ -309,6 +319,88 @@ def _changed_since(digest: dict, history: list[dict]) -> str:
             f'{detail}</div>')
 
 
+
+def _health_strip(h: dict) -> str:
+    """One line, at the top of Today: is any of this current?
+
+    The page used to look identical whether the pipeline had run ten
+    minutes ago or crashed on every firing for four days. This is the
+    first thing on the screen because staleness invalidates everything
+    below it.
+    """
+    if not h:
+        return ""
+    la, ls = h.get("last_attempt") or {}, h.get("last_success") or {}
+    stale = h.get("stale")
+    blind = (h.get("market_data") or {}).get("blind")
+
+    if stale:
+        cls, msg = "bad", f'No successful run since {ls.get("display", "never")}'
+    elif la.get("ok") is False:
+        cls, msg = "warn", f'Last run failed at {la.get("display", "")}'
+    elif blind:
+        cls, msg = "warn", "Running, but the price feed is down"
+    else:
+        cls, msg = "ok", f'Updated {ls.get("display", "")}'
+    return (f'<div class="health {cls}"><span class="dot"></span>'
+            f'<span>{e(msg)}</span>'
+            f'<a href="#" data-go="scalp" class="hlink">details</a></div>')
+
+
+def _health_panel(h: dict) -> str:
+    """The three clocks, the run record, and the errors behind them."""
+    if not h:
+        return '<div class="empty">No health record yet.</div>'
+    la, ls = h.get("last_attempt") or {}, h.get("last_success") or {}
+    src, md = h.get("sources") or {}, h.get("market_data") or {}
+
+    def row(label, value, note=""):
+        return (f'<div class="hrow"><span class="hk">{e(label)}</span>'
+                f'<span class="hv">{e(value)}</span>'
+                + (f'<span class="hn">{e(note)}</span>' if note else "")
+                + '</div>')
+
+    body = [
+        row("Last attempted", la.get("display") or "never",
+            (la.get("trigger") or "")),
+        row("Last successful", ls.get("display") or "never",
+            f'{ls.get("ingested")} ingested' if ls.get("ingested") is not None else ""),
+    ]
+    if la.get("error"):
+        body.append(f'<div class="herr">{e(la["error"])}</div>')
+    if h.get("crashed_runs"):
+        body.append(f'<div class="herr">{h["crashed_runs"]} run(s) started '
+                    'and never finished</div>')
+
+    # Three clocks, never merged.
+    body += [
+        row("Sources", f'{src.get("count", 0)} items / '
+                       f'{src.get("channels", 0)} channels'),
+        row("Newest published", src.get("newest_published_display") or "unknown",
+            "when the source put it out"),
+        row("Newest ingested", src.get("newest_ingested_display") or "unknown",
+            "when we saw it"),
+        row("Market data", md.get("as_of_display") or "unknown",
+            "price feed as of"),
+        row("Feed last tried", md.get("attempted_display") or "unknown",
+            f'{md.get("usable", 0)} of {md.get("scanned", 0)} underlyings usable'),
+    ]
+    if md.get("failed"):
+        body.append(f'<div class="herr">Price feed failed for '
+                    f'{e(", ".join(md["failed"]))}</div>')
+
+    recent = h.get("recent") or []
+    if recent:
+        chips = "".join(
+            f'<span class="rchip {"ok" if r.get("ok") else ("bad" if r.get("ok") is False else "warn")}"'
+            f' title="{e(r.get("error") or r.get("trigger") or "")}">'
+            f'{e(r.get("display", ""))}</span>' for r in recent)
+        body.append(f'<div class="hruns">{chips}</div>')
+
+    body.append(f'<div class="note">{e(h.get("note", ""))}</div>')
+    return '<div class="hpanel">' + "".join(body) + '</div>'
+
+
 def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
     agg = digest.get("aggregate") or {}
     gen = digest.get("generated_at", "")
@@ -340,8 +432,10 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
             f'<span style="color:var(--muted);font-size:13px">'
             f'{r["intelligence"] if r["intelligence"] is not None else "--"}</span></div>'
             f'<div class="why">{" &middot; ".join(e(w) for w in why)}</div></div>')
+    health = digest.get("health") or {}
     today = (
-        '<h2 class="sec">What changed</h2>' + _changed_since(digest, history)
+        _health_strip(health)
+        + '<h2 class="sec">What changed</h2>' + _changed_since(digest, history)
         + '<h2 class="sec">Top developments</h2>'
         + ("".join(lead) or '<div class="empty">Nothing qualified this run.</div>')
         + '<div class="note">Research priority, not trade signals. '
@@ -362,12 +456,30 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
             f'<b>{e(h.get("invalidation"))}</b></span></div></div></div>'
             for h in hits)
     else:
+        # "No setup" and "could not look" are different answers and
+        # must never share a message. The first is information; the
+        # second is an outage wearing the first one's clothes.
+        md = (digest.get("health") or {}).get("market_data") or {}
         errs = setups.get("errors") or []
-        scalp_body = ('<div class="empty">No setup today.' +
-                      (f'<br>{e("; ".join(x["reason"] for x in errs))}' if errs else "")
-                      + "</div>")
+        if md.get("blind"):
+            failed = ", ".join(md.get("failed") or []) or "every underlying"
+            scalp_body = (
+                '<div class="empty bad"><b>Could not scan.</b><br>'
+                f'No usable price history for {e(failed)}, so no pattern '
+                'could be evaluated. This is not a finding that there are '
+                'no setups &mdash; the scanner never got to look.'
+                + (f'<br><span class="hn">{e("; ".join(md.get("reasons") or []))}</span>'
+                   if md.get("reasons") else "")
+                + '</div>')
+        else:
+            scanned = md.get("scanned", 0)
+            scalp_body = (
+                '<div class="empty"><b>No setup today.</b><br>'
+                f'{scanned} underlying(s) scanned with usable data; none met '
+                'the pattern rules.</div>')
     scalp = (
         '<h2 class="sec">Paper setups</h2>' + scalp_body
+        + '<h2 class="sec">Data health</h2>' + _health_panel(digest.get("health") or {})
         + '<div class="note"><b>Paper only.</b> No broker is connected and '
           'no order can be placed. Options are not priced &mdash; no chain '
           'data is configured, and an invented spread would defeat the point '

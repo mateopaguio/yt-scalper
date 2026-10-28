@@ -922,6 +922,109 @@ def test_rendered_pages_are_not_labelled_utc():
         head = fh.read(4000)
     assert "UTC" not in head, "header still shows UTC"
 
+
+def test_funnel_counts_never_grow():
+    """A funnel that grows is a bug, not a finding.
+
+    catalyst_backed was listed as a stage but computed from the same
+    `corroborated` set that `qualified` is drawn from - a side branch,
+    not a step. The page rendered 0 catalyst-backed followed by 22
+    qualified, which no funnel can do. It is now reported as an
+    independent metric, and build() reports any remaining inversion.
+    """
+    from scalper import funnel
+
+    def tk(sym, indep, vetoed=False, events=None):
+        return {"ticker": sym,
+                "basis": {"independent_channels": indep, "reprint_channels": []},
+                "score": {"vetoed": vetoed, "vetoes": ["test"], "total": 50},
+                "catalyst_events": events or []}
+
+    agg = {"tickers": [tk("AAA", ["a", "b"]), tk("BBB", ["c", "d"], vetoed=True),
+                       tk("CCC", ["e"]), tk("DDD", [])],
+           "rejected_tickers": [{"ticker": "ZZZ", "reason": "not public"}]}
+    out = funnel.build(agg)
+    counts, stages = out["counts"], out["stages"]
+
+    assert "catalyst_backed" not in stages, "side branch is back in the sequence"
+    assert not out["inconsistent"], out["inconsistent"]
+    for a, b in zip(stages, stages[1:]):
+        assert counts[b] <= counts[a], f"{b}={counts[b]} > {a}={counts[a]}"
+
+    ind = out["independent"]["catalyst_backed"]
+    assert ind["total"] == counts["corroborated"], "measured on the wrong set"
+    assert ind["n"] <= ind["total"]
+
+
+def test_blind_price_feed_is_not_reported_as_no_setups():
+    """"Could not look" must never render as "nothing found"."""
+    from scalper import health
+
+    blind = {"price_health": {"last_run": "2026-10-28T02:00:00+00:00"},
+             "setups": {"scanned": ["SPY", "QQQ"], "diagnostics": [],
+                        "errors": [{"ticker": "SPY", "reason": "no price history available"},
+                                   {"ticker": "QQQ", "reason": "no price history available"}]},
+             "videos": []}
+    md = health.snapshot(blind)["market_data"]
+    assert md["blind"] is True
+    assert md["as_of"] is None, "claimed data it does not have"
+    assert "unavailable" in md["as_of_display"]
+    assert md["reasons"] == ["no price history available"], "reasons not deduped"
+
+    # Scanned with usable bars and no hits is a real finding, not an outage.
+    looked = {"price_health": {"last_run": "2026-10-28T02:00:00+00:00"},
+              "setups": {"scanned": ["SPY"], "errors": [],
+                         "diagnostics": [{"ticker": "SPY", "usable": True}]},
+              "videos": []}
+    md2 = health.snapshot(looked)["market_data"]
+    assert md2["blind"] is False
+    assert md2["as_of"] is not None
+
+
+def test_health_separates_publication_from_ingestion():
+    """Three clocks, never merged."""
+    from scalper import health
+
+    d = {"videos": [{"published": "2026-10-20T12:00:00+00:00",
+                     "ingested_at": "2026-10-27T23:00:00+00:00",
+                     "channel": "X"}],
+         "price_health": {"last_run": "2026-10-27T23:05:00+00:00"},
+         "setups": {"scanned": ["SPY"],
+                    "diagnostics": [{"ticker": "SPY", "usable": True}]}}
+    src = health.snapshot(d)["sources"]
+    assert src["newest_published"].startswith("2026-10-20")
+    assert src["newest_ingested"].startswith("2026-10-27")
+    assert src["newest_published"] != src["newest_ingested"], \
+        "a week-old item processed today must not look like today's news"
+
+
+def test_a_crashed_run_is_recorded_as_an_attempt():
+    """The scheduler fired for four days and the page never said so."""
+    import json as _json
+    import tempfile as _tf
+    from pathlib import Path as _P
+    from scalper import health
+
+    original = health.PATH
+    try:
+        health.PATH = _P(_tf.mkdtemp()) / "health.json"
+        rid = health.heartbeat("scheduled")
+        # run dies here: no finish() call
+        snap = health.snapshot({})
+        assert snap["last_attempt"]["at"] is not None, "attempt not recorded"
+        assert snap["last_success"]["at"] is None, "crash counted as success"
+        assert snap["stale"] is True
+
+        rid2 = health.heartbeat("scheduled")
+        health.finish(rid2, True, "", 12)
+        snap2 = health.snapshot({})
+        assert snap2["last_success"]["at"] is not None
+        assert snap2["last_success"]["ingested"] == 12
+        assert snap2["crashed_runs"] >= 1, "the earlier crash was forgotten"
+        assert _json.loads(health.PATH.read_text())["runs"]
+    finally:
+        health.PATH = original
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -1012,6 +1115,13 @@ def main() -> int:
           test_calendar_day_is_eastern_not_utc)
     check("time: rendered pages show market time",
           test_rendered_pages_are_not_labelled_utc)
+    check("P1: funnel counts never grow", test_funnel_counts_never_grow)
+    check("P0: blind feed is not reported as no setups",
+          test_blind_price_feed_is_not_reported_as_no_setups)
+    check("P2: publication and ingestion are separate clocks",
+          test_health_separates_publication_from_ingestion)
+    check("P0: a crashed run is recorded as an attempt",
+          test_a_crashed_run_is_recorded_as_an_attempt)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
