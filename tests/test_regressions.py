@@ -2319,6 +2319,28 @@ def test_observations_carry_their_session():
     raw = v.observations_by_day(sigs, "1", "raw")
     assert raw[0]["value"] == 3.0
 
+
+def test_ad_hoc_market_closures_are_known():
+    """Found by the quality layer, not by reading a holiday list.
+
+    Every one of 42 tickers reported exactly one missing session over
+    five years. Identical everywhere is the signature of a calendar
+    bug, not a data gap: the market closed on 2025-01-09 for President
+    Carter's funeral, which no recurring rule can derive.
+    """
+    from datetime import date
+    from scalper import market_calendar as mcal
+
+    assert not mcal.is_session(date(2025, 1, 9)), "Carter day of mourning"
+    assert not mcal.is_session(date(2018, 12, 5)), "Bush day of mourning"
+    assert not mcal.is_session(date(2012, 10, 30)), "Hurricane Sandy"
+    # The surrounding days are ordinary sessions.
+    assert mcal.is_session(date(2025, 1, 8))
+    assert mcal.is_session(date(2025, 1, 10))
+
+    # The count that caught it: five years against a real provider.
+    assert mcal.expected_count(date(2021, 10, 28), date(2026, 10, 27)) == 1254
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -2468,6 +2490,8 @@ def main() -> int:
           test_quality_flags_gaps_splits_and_short_series)
     check("B: holidays are not reported as missing data",
           test_holidays_are_not_reported_as_missing_data)
+    check("B: ad-hoc market closures are known",
+          test_ad_hoc_market_closures_are_known)
     check("B: feed entitlement is probed, not assumed",
           test_feed_entitlement_is_probed_not_assumed)
     check("C: signal states are never merged",

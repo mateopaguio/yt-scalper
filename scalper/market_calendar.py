@@ -15,6 +15,22 @@ from datetime import date, timedelta
 from functools import lru_cache
 
 
+# One-off closures no rule can derive: funerals, hurricanes, 9/11.
+# Found by the data-quality layer, which reported exactly one missing
+# session across all 42 tickers - identical everywhere, which is the
+# signature of a calendar bug rather than a data gap.
+AD_HOC_CLOSURES = frozenset({
+    date(2025, 1, 9),    # National Day of Mourning, President Carter
+    date(2018, 12, 5),   # National Day of Mourning, President Bush
+    date(2012, 10, 29),  # Hurricane Sandy
+    date(2012, 10, 30),  # Hurricane Sandy
+    date(2007, 1, 2),    # National Day of Mourning, President Ford
+    date(2004, 6, 11),   # National Day of Mourning, President Reagan
+    date(2001, 9, 11), date(2001, 9, 12),
+    date(2001, 9, 13), date(2001, 9, 14),
+})
+
+
 def _nth_weekday(year: int, month: int, weekday: int, n: int) -> date:
     d = date(year, month, 1)
     d += timedelta(days=(weekday - d.weekday()) % 7)
@@ -70,7 +86,9 @@ def holidays(year: int) -> frozenset:
 
 
 def is_session(d: date) -> bool:
-    return d.weekday() < 5 and d not in holidays(d.year)
+    return (d.weekday() < 5
+            and d not in holidays(d.year)
+            and d not in AD_HOC_CLOSURES)
 
 
 def sessions(start: date, end: date) -> list[date]:
