@@ -220,7 +220,48 @@ def alpaca_configured() -> bool:
                 and os.environ.get("ALPACA_SECRET_KEY"))
 
 
+ADJUSTED = "adjusted"      # for RETURNS: comparable across splits
+AS_TRADED = "as_traded"    # for EXECUTION: what the tape actually showed
+
 _ENTITLEMENT_CACHE: dict[str, str] = {}
+
+
+def fetch_pair(ticker: str, timeout: int = 25) -> dict:
+    """Both series, and whether a corporate action separates them.
+
+    They answer different questions and must not be swapped:
+
+      ADJUSTED prices make returns comparable across a split or a
+      dividend. A 2-for-1 split in an unadjusted series looks like a
+      50% loss that nobody suffered.
+
+      AS-TRADED prices are what you could actually have transacted at.
+      paper.py sizes a position as equity/price and charges spread and
+      slippage PER SHARE, so a pre-split $200 stock carried in an
+      adjusted series as $100 doubles the share count and doubles the
+      modelled cost - a fill at a price that never existed.
+
+    Where no corporate action falls inside the window the two series
+    are identical and the distinction costs nothing. Where one does,
+    using the wrong one manufactures an executable history.
+    """
+    adj = fetch_history(ticker, timeout=timeout, series=ADJUSTED)
+    raw = fetch_history(ticker, timeout=timeout, series=AS_TRADED,
+                        quality=False)
+    action = None
+    if adj and raw:
+        by_date = {r["date"]: r for r in raw}
+        diffs = [d for d in (r["date"] for r in adj)
+                 if d in by_date
+                 and abs(by_date[d]["close"]
+                         - next(x["close"] for x in adj if x["date"] == d))
+                 > 0.005 * max(by_date[d]["close"], 0.01)]
+        action = bool(diffs)
+    return {"adjusted": adj, "as_traded": raw,
+            "corporate_action_in_window": action,
+            "note": ("Returns are measured on the adjusted series; fills "
+                     "are simulated on the as-traded series. Where they "
+                     "differ, a corporate action falls inside the window.")}
 
 
 def alpaca_feed(timeout: int = 15, force: bool = False) -> tuple[str, str]:
@@ -267,7 +308,8 @@ def alpaca_feed(timeout: int = 15, force: bool = False) -> tuple[str, str]:
 
 def _from_alpaca(ticker: str, timeout: int, years: int = 7,
                  timeframe: str = "1Day",
-                 report: dict | None = None) -> list[dict] | None:
+                 report: dict | None = None,
+                 series: str = ADJUSTED) -> list[dict] | None:
     """Alpaca market data. A real API with a key, not a scraped page.
 
     Preferred when configured: stooq answers automated clients with a
@@ -302,7 +344,8 @@ def _from_alpaca(ticker: str, timeout: int, years: int = 7,
     page_token = None
     for _ in range(40):                       # bounded: never loop forever
         params = {"timeframe": timeframe, "start": start.isoformat(),
-                  "limit": 10000, "adjustment": "all", "feed": feed}
+                  "limit": 10000, "feed": feed,
+                  "adjustment": "all" if series == ADJUSTED else "raw"}
         if page_token:
             params["page_token"] = page_token
 
@@ -348,7 +391,8 @@ def _from_alpaca(ticker: str, timeout: int, years: int = 7,
                     "low": float(b["l"]), "close": float(b["c"]),
                     "volume": float(b.get("v") or 0),
                     "feed": feed,
-                    "adjusted": True,
+                    "series": series,
+                    "adjusted": series == ADJUSTED,
                 }
             except (KeyError, ValueError, TypeError):
                 # Counted, never repaired. A bar invented from its
@@ -393,7 +437,8 @@ LAST_QUALITY: dict[str, dict] = {}
 
 
 def fetch_history(ticker: str, timeout: int = 25,
-                  quality: bool = True) -> list[dict] | None:
+                  quality: bool = True,
+                  series: str = ADJUSTED) -> list[dict] | None:
     """Daily OHLCV for a ticker, oldest first. None if no provider works.
 
     Every attempt is classified, and the winning series is assessed
@@ -411,7 +456,7 @@ def fetch_history(ticker: str, timeout: int = 25,
     for name, fn in PROVIDERS:
         report: dict = {"provider": name}
         try:
-            rows = fn(ticker, timeout, report=report) \
+            rows = fn(ticker, timeout, report=report, series=series) \
                 if _accepts_report(fn) else fn(ticker, timeout)
         except Exception as exc:                        # noqa: BLE001
             report["error"] = dataquality.classify_error(exc=exc)
@@ -462,7 +507,7 @@ def fetch_history(ticker: str, timeout: int = 25,
 def _accepts_report(fn) -> bool:
     try:
         import inspect
-        return "report" in inspect.signature(fn).parameters
+        return "series" in inspect.signature(fn).parameters
     except (TypeError, ValueError):
         return False
 

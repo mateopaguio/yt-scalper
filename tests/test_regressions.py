@@ -2216,6 +2216,109 @@ def test_overlapping_signals_are_counted_as_dependent():
     assert o["examples"][0]["ticker"] == "AAA"
     assert o["independent_estimate"] == 2
 
+
+def test_execution_refuses_adjusted_prices():
+    """Fills must come from the tape, not from a rescaled series.
+
+    paper.py sizes a position as equity/price and charges spread and
+    slippage PER SHARE. A stock that traded at $200 before a 2-for-1
+    split is carried in an adjusted series at $100: twice the shares,
+    twice the modelled cost, at a price that was never quoted.
+    """
+    from scalper import paper
+
+    bar = {"date": "2026-01-02", "open": 100.0, "high": 101.0, "low": 99.0,
+           "close": 100.5, "volume": 1e6}
+
+    refused = paper.simulate([{**bar, "series": "adjusted"}], [])
+    assert refused.get("unpriceable") is True
+    assert "as-traded" in refused["reason"]
+    assert refused.get("closed", 0) == 0, "reported trades it refused to run"
+
+    ok = paper.simulate([{**bar, "series": "as_traded"}], [])
+    assert not ok.get("unpriceable"), "refused the correct series"
+
+
+def test_returns_and_execution_use_different_series():
+    """The two series answer different questions."""
+    import inspect
+    from scalper import prices
+
+    assert prices.ADJUSTED != prices.AS_TRADED
+    # Returns default to adjusted: a split must not read as a 50% loss.
+    assert inspect.signature(
+        prices.fetch_history).parameters["series"].default == prices.ADJUSTED
+    # Execution scripts must ask for the tape explicitly.
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    for name in ("paper_trade.py", "backtest_patterns.py"):
+        with open(os.path.join(root, "scripts", name), encoding="utf-8") as fh:
+            body = fh.read()
+        assert "AS_TRADED" in body, f"{name} simulates fills on adjusted bars"
+
+
+def test_clustered_interval_resamples_sessions_not_signals():
+    """Forty-four names on one day is one draw from the market.
+
+    Resampling the names treats it as forty-four and shrinks the
+    interval by roughly sqrt(44), which is how a single good session
+    becomes a demonstrated edge.
+    """
+    import random
+    from scalper import validation as v
+
+    rng = random.Random(3)
+    obs = []
+    for d in range(40):
+        day_move = rng.gauss(0.2, 1.5)          # the session's own regime
+        for _ in range(10):
+            obs.append({"day": f"2026-{1 + d // 28:02d}-{1 + d % 28:02d}",
+                        "value": day_move + rng.gauss(0, 0.3)})
+
+    clustered = v.cluster_bootstrap(obs)
+    naive = v.bootstrap([o["value"] for o in obs])
+
+    assert clustered["sessions"] == 40
+    assert clustered["observations"] == 400
+    width_c = clustered["high"] - clustered["low"]
+    width_n = naive["high"] - naive["low"]
+    assert width_c > 2 * width_n, \
+        f"clustered interval not wider: {width_c:.3f} vs {width_n:.3f}"
+    assert clustered["straddles_zero"] is True
+    assert naive["straddles_zero"] is False, \
+        "premise: the naive estimator would have claimed an edge here"
+
+
+def test_too_few_sessions_yields_no_interval_at_all():
+    """A number computed from two sessions is not a wide estimate."""
+    from scalper import validation as v
+
+    obs = [{"day": "2026-10-26", "value": 1.5 + i * 0.01} for i in range(44)]
+    out = v.cluster_bootstrap(obs)
+    assert out["sessions"] == 1
+    assert out["low"] is None and out["high"] is None, \
+        "produced an interval from a single session"
+    assert out["reportable"] is False
+    assert "session" in out["note"]
+    # The mean is still shown: it is what happened.
+    assert out["mean"] is not None
+    assert out["observations"] == 44
+
+
+def test_observations_carry_their_session():
+    from scalper import validation as v
+
+    sigs = [{"ticker": "AAA",
+             "outcome": {"entry_date": "2026-10-26",
+                         "returns": {"1": {"return_pct": 3.0}},
+                         "relative": {"1": {"vs_spy": 2.0}}}},
+            {"ticker": "BBB", "outcome": {"entry_date": "2026-10-27",
+                                          "returns": {"1": {}},
+                                          "relative": {"1": {}}}}]
+    rel = v.observations_by_day(sigs, "1", "vs_spy")
+    assert rel == [{"day": "2026-10-26", "value": 2.0, "ticker": "AAA"}], rel
+    raw = v.observations_by_day(sigs, "1", "raw")
+    assert raw[0]["value"] == 3.0
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -2377,6 +2480,16 @@ def main() -> int:
           test_out_of_sample_split_is_by_date_not_random)
     check("C: overlapping signals counted as dependent",
           test_overlapping_signals_are_counted_as_dependent)
+    check("C: execution refuses adjusted prices",
+          test_execution_refuses_adjusted_prices)
+    check("C: returns and execution use different series",
+          test_returns_and_execution_use_different_series)
+    check("C: clustered interval resamples sessions",
+          test_clustered_interval_resamples_sessions_not_signals)
+    check("C: too few sessions yields no interval",
+          test_too_few_sessions_yields_no_interval_at_all)
+    check("C: observations carry their session",
+          test_observations_carry_their_session)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0

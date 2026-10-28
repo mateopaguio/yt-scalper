@@ -34,7 +34,8 @@ def main() -> int:
     allout = {}
 
     for tk in tickers:
-        rows = prices.fetch_history(tk)
+        # Execution needs the tape, not the adjusted series.
+        rows = prices.fetch_history(tk, series=prices.AS_TRADED)
         if not rows or len(rows) < 120:
             print(f"{tk}: no usable price history "
                   f"({0 if not rows else len(rows)} bars) - skipped")

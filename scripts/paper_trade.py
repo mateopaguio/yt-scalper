@@ -40,7 +40,8 @@ def main() -> int:
     out = {}
 
     for tk in [t.strip().upper() for t in args.tickers.split(",") if t.strip()]:
-        rows = prices.fetch_history(tk)
+        # Execution needs the tape, not the adjusted series.
+        rows = prices.fetch_history(tk, series=prices.AS_TRADED)
         if not rows or len(rows) < 120:
             print(f"{tk}: no usable price history - skipped")
             continue

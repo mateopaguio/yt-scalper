@@ -281,3 +281,82 @@ def concentration(signals: list[dict]) -> dict[str, Any]:
                  "the number of distinct days than to the number of "
                  "signals."),
     }
+
+
+MIN_SESSIONS_FOR_INFERENCE = 20
+
+
+def cluster_bootstrap(observations: list[dict], iterations: int = 2000,
+                      seed: int = 7, z: float = 0.95) -> dict[str, Any]:
+    """Interval for a mean when observations cluster by session.
+
+    Resamples DAYS, not signals. Forty-four names bought on one
+    session share that session's market move, so resampling the names
+    treats one draw from the market as forty-four and shrinks the
+    interval by roughly sqrt(44).
+
+    Each observation is {"day": "YYYY-MM-DD", "value": float}. The day
+    is the unit: a resampled day brings all of its signals with it,
+    which is what keeps the within-day correlation intact.
+
+    Below MIN_SESSIONS_FOR_INFERENCE distinct days this returns no
+    interval at all. A number computed from two sessions is not a
+    wide estimate, it is not an estimate.
+    """
+    by_day: dict[str, list[float]] = {}
+    for o in observations:
+        d, v = o.get("day"), o.get("value")
+        if d and v is not None:
+            by_day.setdefault(str(d)[:10], []).append(float(v))
+
+    days = sorted(by_day)
+    k = len(days)
+    flat = [v for vs in by_day.values() for v in vs]
+    overall = (sum(flat) / len(flat)) if flat else None
+
+    if k < MIN_SESSIONS_FOR_INFERENCE:
+        return {
+            "mean": round(overall, 3) if overall is not None else None,
+            "low": None, "high": None,
+            "sessions": k, "observations": len(flat),
+            "reportable": False,
+            "note": (f"{k} distinct session(s); {MIN_SESSIONS_FOR_INFERENCE} "
+                     "are needed before a clustered interval means anything. "
+                     "The mean is shown because it is what happened, not "
+                     "because it supports inference."),
+        }
+
+    rng = random.Random(seed)
+    means = []
+    for _ in range(iterations):
+        picked = [rng.choice(days) for _ in range(k)]
+        vals = [v for d in picked for v in by_day[d]]
+        means.append(sum(vals) / len(vals))
+    means.sort()
+    lo = means[int((1 - z) / 2 * iterations)]
+    hi = means[int((1 + z) / 2 * iterations) - 1]
+    return {
+        "mean": round(overall, 3), "low": round(lo, 3), "high": round(hi, 3),
+        "sessions": k, "observations": len(flat), "reportable": True,
+        "straddles_zero": lo <= 0 <= hi,
+        "note": ("Resampled by session, so the interval reflects how many "
+                 "independent days were observed, not how many signals."),
+    }
+
+
+def observations_by_day(signals: list[dict], horizon: str = "1",
+                        field: str = "vs_spy") -> list[dict]:
+    """Pull {day, value} pairs for the clustered estimator."""
+    out = []
+    for s in signals:
+        o = s.get("outcome")
+        if not isinstance(o, dict):
+            continue
+        day = o.get("entry_date")
+        rel = (o.get("relative") or {}).get(horizon) or {}
+        ret = (o.get("returns") or {}).get(horizon) or {}
+        value = rel.get(field) if field != "raw" else ret.get("return_pct")
+        if day and value is not None:
+            out.append({"day": str(day)[:10], "value": float(value),
+                        "ticker": s.get("ticker")})
+    return out

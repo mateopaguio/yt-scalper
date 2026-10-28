@@ -205,6 +205,13 @@ def build_digest(
         "census": _census["counts"],
         "buckets": {k: v[:12] for k, v in _census["buckets"].items()},
         "concentration": _conc,
+        # Clustered by session is the headline. The naive figures are
+        # kept beside it, labelled, because the gap between them IS the
+        # finding: 44 names on one day is one draw from the market.
+        "vs_spy_clustered": validation.cluster_bootstrap(
+            validation.observations_by_day(_sigs, "1", "vs_spy")),
+        "raw_clustered": validation.cluster_bootstrap(
+            validation.observations_by_day(_sigs, "1", "raw")),
         "raw": validation.bootstrap(_raw),
         "vs_spy": validation.bootstrap(_rel),
         "beat_spy": validation.wilson(sum(1 for x in _rel if x > 0), len(_rel)),

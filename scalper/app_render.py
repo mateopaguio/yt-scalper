@@ -477,15 +477,35 @@ def _validation_html(v: dict) -> str:
                    f'<span class="hn">share price bars; not independent'
                    f'</span></div>')
 
-    for key, label in (("raw", "Mean return"), ("vs_spy", "Mean vs SPY")):
+    # Clustered first. The naive interval is shown underneath, marked,
+    # because the difference between them is the point.
+    for key, label in (("raw_clustered", "Mean return"),
+                       ("vs_spy_clustered", "Mean vs SPY")):
         b = v.get(key) or {}
-        if b.get("mean") is not None and b.get("low") is not None:
+        if b.get("mean") is None:
+            continue
+        if b.get("low") is None:
             out.append(
                 f'<div class="hrow"><span class="hk">{e(label)}</span>'
                 f'<span class="hv">{b["mean"]}%</span>'
-                f'<span class="hn">95% interval [{b["low"]}, {b["high"]}], '
-                f'n={b["n"]}{" - includes zero" if b.get("straddles_zero") else ""}'
+                f'<span class="hn">no interval: {e(b.get("note", ""))}</span>'
+                f'</div>')
+        else:
+            out.append(
+                f'<div class="hrow"><span class="hk">{e(label)}</span>'
+                f'<span class="hv">{b["mean"]}%</span>'
+                f'<span class="hn">95% session-clustered '
+                f'[{b["low"]}, {b["high"]}] over {b["sessions"]} session(s)'
+                f'{" - includes zero" if b.get("straddles_zero") else ""}'
                 f'</span></div>')
+
+    naive = v.get("vs_spy") or {}
+    if naive.get("low") is not None:
+        out.append(
+            f'<div class="hrow"><span class="hk">Unclustered</span>'
+            f'<span class="hv">[{naive["low"]}, {naive["high"]}]</span>'
+            f'<span class="hn">what the same data claims if every signal '
+            f'is treated as an independent trial - it is not</span></div>')
     w = v.get("beat_spy") or {}
     if w.get("rate") is not None:
         out.append(f'<div class="hrow"><span class="hk">Beat SPY</span>'

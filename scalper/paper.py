@@ -113,6 +113,30 @@ def simulate(rows: list[dict], signals: list[dict], rules: Rules | None = None,
     rules = rules or Rules()
     costs = costs or Costs()
 
+    # Fills must come from AS-TRADED prices.
+    #
+    # Position size is equity/price and spread and slippage are charged
+    # per share, so an adjusted series silently rescales both. A stock
+    # that changed hands at $200 before a 2-for-1 split is carried in
+    # an adjusted series at $100: twice the shares, twice the modelled
+    # cost, at a price the tape never printed.
+    #
+    # Refused rather than approximated. An unpriceable simulation is a
+    # correct answer; a plausible one computed from the wrong series is
+    # not.
+    series = {r.get("series") for r in rows if r.get("series")}
+    if series and series != {"as_traded"}:
+        return {
+            "unpriceable": True,
+            "reason": (f"bars are {'/'.join(sorted(series))}, not as-traded; "
+                       "fills cannot be simulated from a price that was "
+                       "never quoted"),
+            "trades": 0, "closed": 0,
+            "caveat": ("Returns may still be measured on an adjusted "
+                       "series - that is what adjustment is for. Only "
+                       "execution needs the as-traded tape."),
+        }
+
     by_date = {r["date"]: i for i, r in enumerate(rows)}
     equity = rules.starting_equity
     trades: list[Trade] = []
