@@ -181,7 +181,12 @@ def build(events: list[dict], now: datetime | None = None,
     for ev in by_key.values():
         verdict = classify(ev, now, master)
         ev["_radar"] = verdict
-        ev["_state"] = state.get(ev.get("event_id"), "seen")
+        # Preserve a state the caller already stamped. Defaulting to
+        # "seen" whenever no changes result is supplied would silently
+        # downgrade events that were classified upstream - and "seen"
+        # is the value that blocks a CRITICAL.
+        ev["_state"] = state.get(ev.get("event_id"),
+                                 ev.get("_state", "seen"))
         out[verdict["bucket"]].append(ev)
 
     out["upcoming"].sort(key=lambda e: (e.get("findings") or {})

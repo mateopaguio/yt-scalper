@@ -89,11 +89,25 @@ def send_push(cfg: Config, digest: dict, message: str) -> bool:
         return False
 
 
-def dispatch(cfg: Config, digest: dict, message: str | None = None) -> None:
+def dispatch(cfg: Config, digest: dict, message: str | None = None) -> dict:
+    """Send the legacy digest. Returns what actually happened.
+
+    This returned None, so the caller could not tell a delivered push
+    from a failed one - and marked every item notified either way. A
+    failed send therefore consumed the alert permanently: the items
+    were recorded as seen and never considered again.
+
+    `attempted` separates "we tried and it failed" from "there was
+    nothing to send". Only the first should hold back the state.
+    """
+    result = {"attempted": False, "delivered": False, "channels": {},
+              "reason": ""}
+
     has_findings = bool(digest.get("aggregate", {}).get("tickers"))
     if cfg.notify.get("only_if_findings") and not has_findings:
         print("  - nothing worth sending, staying quiet")
-        return
+        result["reason"] = "no findings worth sending"
+        return result
 
     # Honour a caller-supplied message. This unconditionally overwrote
     # the parameter, so the signal-specific alert built in
@@ -102,14 +116,23 @@ def dispatch(cfg: Config, digest: dict, message: str | None = None) -> None:
     message = message or build_sms(digest, cfg.site_url)
 
     if cfg.sms_enabled():
-        send_sms(cfg, message)
+        result["attempted"] = True
+        result["channels"]["sms"] = bool(send_sms(cfg, message))
     elif cfg.notify.get("sms"):
         print("  - SMS enabled but TWILIO_* secrets are missing")
+        result["reason"] = "TWILIO_* missing"
 
     if cfg.push_enabled():
-        send_push(cfg, digest, message)
+        result["attempted"] = True
+        result["channels"]["push"] = bool(send_push(cfg, digest, message))
     elif cfg.notify.get("push"):
         print("  - push enabled but NTFY_TOPIC is missing")
+        result["reason"] = "NTFY_TOPIC missing"
+
+    result["delivered"] = any(result["channels"].values())
+    if result["attempted"] and not result["delivered"]:
+        result["reason"] = "every enabled channel failed"
+    return result
 
 
 def build_signal_alert(sig: dict, site_url: str = "",

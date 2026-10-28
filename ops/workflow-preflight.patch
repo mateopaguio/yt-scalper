@@ -1,16 +1,14 @@
-diff --git a/.github/workflows/digest.yml b/.github/workflows/digest.yml
-index 42c2a35..8000b38 100644
---- a/.github/workflows/digest.yml
-+++ b/.github/workflows/digest.yml
-@@ -33,8 +33,46 @@ jobs:
+--- .github/workflows/digest.yml	2026-10-28 03:21:00.208372652 +0000
++++ ops/digest.yml.proposed	2026-10-28 04:53:35.585723757 +0000
+@@ -33,8 +33,47 @@
        - name: Install dependencies
          run: pip install -r requirements.txt
  
 +      # Names and presence only. A secret's VALUE is never printed, and
-+      # GitHub would mask it anyway. This exists so the cause of a
-+      # failure is visible in the log instead of inferred from an exit
-+      # code - eight runs failed in a row before anyone could say for
-+      # certain which input was missing.
++      # GitHub masks it anyway. This exists so the cause of a failure
++      # is visible in the log instead of inferred from an exit code:
++      # eight runs failed in a row before the cause could be stated
++      # with certainty.
 +      - name: Preflight - which inputs are present
 +        env:
 +          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -41,11 +39,12 @@ index 42c2a35..8000b38 100644
 +
        - name: Run digest
          env:
-+          # The cloud runner computes alerts but does not push them
-+          # unless it owns notifications; the Mac is the owner by
-+          # default. Without this both schedulers alert on the same
-+          # event and the phone buzzes twice.
++          # Explicit, and deliberately 'local' until this branch has run
++          # green here. The cloud runner computes alerts and records them
++          # as suppressed_not_owner; the Mac sends. Flip the repository
++          # variable BYRDE_NOTIFY_OWNER to github-actions to hand over.
 +          BYRDE_NOTIFY_OWNER: ${{ vars.BYRDE_NOTIFY_OWNER || 'local' }}
++          BYRDE_TRIGGER: github-actions
            ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
            # Optional - only needed if GitHub's datacenter IP gets blocked
            # by YouTube, which is likely without one of these.

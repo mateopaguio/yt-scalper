@@ -8,6 +8,12 @@
 # scheduled run from one a human started.
 export BYRDE_TRIGGER="${BYRDE_TRIGGER:-scheduled}"
 
+# Which runner is allowed to push notifications. Explicit on
+# BOTH runners on purpose: if each one only knew its own
+# identity, a misconfiguration would mean either two phones
+# buzzing or total silence, and neither announces itself.
+export BYRDE_NOTIFY_OWNER="${BYRDE_NOTIFY_OWNER:-local}"
+
 set -u
 cd "$(dirname "$0")" || exit 1
 HERE_KEY="$(pwd)/.anthropic-key"

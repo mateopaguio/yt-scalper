@@ -281,6 +281,7 @@ def process_catalysts(client, cfg, args) -> tuple[list[dict], int, int]:
         return [], 0, 0
 
     out: list[dict] = []
+    failed = 0
     tin = tout = 0
     for event in events:
         record = event.as_dict()
@@ -307,9 +308,20 @@ def process_catalysts(client, cfg, args) -> tuple[list[dict], int, int]:
                 print(f"    {findings.get('event_type')}: {names} "
                       f"(materiality {findings.get('materiality')}/5)")
         else:
-            record["findings"] = None
+            # An API error here is transient - auth, rate limit, outage.
+            # Storing the event anyway records its id, so catalyst_ids()
+            # skips it on every later run and the filing is lost for
+            # good. The video path already queues and retries; this one
+            # silently discarded. Leave it unrecorded and it comes back
+            # as new next run.
+            failed += 1
+            print(f"    ! analysis failed, will retry next run: "
+                  f"{record.get('title', '')[:60]}")
+            continue
         out.append(record)
 
+    if failed:
+        print(f"  {failed} catalyst(s) left unrecorded for retry")
     store.add_catalysts(out)
     return out, tin, tout
 
@@ -443,10 +455,18 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
     if legacy_due:
         print(f"\nAlerting: {len(fresh)} item(s), {len(hot)} filing(s)")
         alert, message = _legacy_message()
-        notify.dispatch(cfg, alert, message=message)
-        store.mark_notified(
-            [r["video_id"] for r in fresh] + [c["event_id"] for c in hot] + unseen
-        )
+        res = notify.dispatch(cfg, alert, message=message)
+        # Consume the ids only if something was actually delivered, or
+        # if there was nothing to deliver. A failed send used to mark
+        # them seen anyway, which lost the alert for good.
+        if res.get("delivered") or not res.get("attempted"):
+            store.mark_notified(
+                [r["video_id"] for r in fresh]
+                + [c["event_id"] for c in hot] + unseen
+            )
+        else:
+            print(f"  legacy digest not delivered ({res.get('reason')}) - "
+                  "ids left unconsumed, will retry next run")
 
     _ops_alert(cfg, digest, allowed)
 

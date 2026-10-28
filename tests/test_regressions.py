@@ -1559,17 +1559,33 @@ class _Args:
     dry_run = False
 
 
-class _Cfg:
-    site_url = "https://x.test/"
-    window_days = 7
-    ntfy_topic = "topic"
-    model = "m"
-    watchlist: list = []
-    tiers: dict = {}
-    channels: list = []
-    anthropic_key = "sk-" + "ant-stub"
+def _Cfg():
+    """The real config object, with sending disabled.
+
+    A hand-written stub kept diverging from what build_digest()
+    actually reads, and each divergence surfaced as an AttributeError
+    in the test rather than as a finding about the code. Loading the
+    real one means the integration tests exercise the real shape.
+    """
+    from scalper import config as cfgmod
+    cfg = cfgmod.load()
+    cfg.raw.setdefault("alerts", {})
+    cfg.raw["alerts"].update({"max_per_run": {"critical": 3, "watchlist": 5,
+                                              "digest": 1}})
+    return cfg
     raw = {"alerts": {"max_per_run": {"critical": 3, "watchlist": 5,
                                       "digest": 1}}}
+
+
+def _processed_video():
+    """One analysed video in the shape the real pipeline produces."""
+    return {"video_id": "v1", "title": "A video", "url": "http://v/1",
+            "channel": "c", "channel_id": "c1", "tier": 1,
+            "source_type": "video", "published": "2026-10-27T10:00:00+00:00",
+            "findings": {"tickers": [{"ticker": "PFE", "stance": "bullish",
+                                      "evidence": "data", "conviction": "high",
+                                      "thesis": "t", "timeframe": "weeks"}],
+                         "hype_level": 2, "summary": "s"}}
 
 
 def _notify_harness(monkey):
@@ -1646,7 +1662,10 @@ def test_notify_if_new_non_owner_sends_nothing_at_all():
         try:
             os.environ["BYRDE_NOTIFY_OWNER"] = "local"
             os.environ["GITHUB_ACTIONS"] = "true"      # this runner is NOT owner
-            processed = [{"video_id": "v1", "findings": {"tickers": ["PFE"]},
+            processed = [{"video_id": "v1", "findings": {"tickers": [{"ticker": "PFE", "stance": "bullish",
+                                      "evidence": "data",
+                                      "thesis": "t"}],
+                                   "hype_level": 2},
                           "channel": "c", "published": "2026-10-27T10:00:00+00:00"}]
             runmod.notify_if_new(_Cfg(), processed,
                                  _digest_with_verified_catalyst(), _Args(), [])
@@ -1720,6 +1739,149 @@ def test_notify_if_new_failed_delivery_starts_no_cooldown():
                 os.environ["BYRDE_NOTIFY_OWNER"] = was
 
     _notify_harness(body)
+
+
+def test_non_owner_cannot_send_any_of_the_three_channels():
+    """Tiered, legacy AND operational. All three, or the gate leaks.
+
+    P0-1 was the legacy digest escaping the gate. The operational
+    alert is a third path with its own call to send_tiered(), added
+    later, and nothing proved it was covered.
+    """
+    import tempfile as _tf
+    from pathlib import Path as _P
+    import run as runmod
+    from scalper import alert_state, notify, store
+
+    sent = []
+    saved = (notify.send_tiered, notify.dispatch, notify.build_signal_alert,
+             store.mark_notified, store.record_alerts, store.notified_ids,
+             alert_state.PATH)
+    was = os.environ.get("BYRDE_NOTIFY_OWNER")
+    ga = os.environ.get("GITHUB_ACTIONS")
+    try:
+        alert_state.PATH = _P(_tf.mkdtemp()) / "alert_log.json"
+        notify.send_tiered = lambda cfg, msgs, dry_run=False: (
+            sent.append(("tiered", sorted(msgs))) or
+            {t: {"sent": True, "count": 1} for t in msgs})
+        notify.dispatch = lambda *a, **k: (sent.append(("legacy", None))
+                                           or {"attempted": True,
+                                               "delivered": True})
+        notify.build_signal_alert = lambda *a, **k: ("", [])
+        store.mark_notified = lambda ids: sent.append(("marked", ids))
+        store.record_alerts = lambda ks: None
+        store.notified_ids = lambda: set()
+
+        os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+        os.environ["GITHUB_ACTIONS"] = "true"      # not the owner
+
+        digest = _digest_with_verified_catalyst()
+        # Health that would otherwise trigger the operational alert.
+        digest["health"] = {"consecutive_failures": 9, "stale": True,
+                            "stale_message": "no ingestion in 40h",
+                            "last_attempt": {"error": "boom"}}
+        processed = [_processed_video()]
+
+        runmod.notify_if_new(_Cfg(), processed, digest, _Args(), [])
+
+        kinds = {k for k, _ in sent}
+        assert "tiered" not in kinds, "non-owner sent tiered alerts"
+        assert "legacy" not in kinds, "non-owner sent the legacy digest"
+        assert "marked" not in kinds, "non-owner consumed the notified ids"
+
+        # The operational path, driven directly, must also refuse.
+        runmod._ops_alert(_Cfg(), digest, allowed=False)
+        assert not sent, f"non-owner sent an operational alert: {sent}"
+
+        # And as the owner, that same state DOES alert - otherwise this
+        # test would pass against a function that never sends anything.
+        runmod._ops_alert(_Cfg(), digest, allowed=True)
+        assert any(k == "tiered" for k, _ in sent), \
+            "the owner did not send the operational alert either"
+    finally:
+        (notify.send_tiered, notify.dispatch, notify.build_signal_alert,
+         store.mark_notified, store.record_alerts, store.notified_ids,
+         alert_state.PATH) = saved
+        os.environ.pop("GITHUB_ACTIONS", None)
+        if ga is not None:
+            os.environ["GITHUB_ACTIONS"] = ga
+        if was is None:
+            os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+        else:
+            os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+
+def test_failed_legacy_send_does_not_consume_the_ids():
+    """A failed send used to mark everything notified anyway.
+
+    dispatch() returned None, so the caller could not tell a delivered
+    push from a failed one and marked the ids either way - the alert
+    was consumed and never reconsidered.
+    """
+    import tempfile as _tf
+    from pathlib import Path as _P
+    import run as runmod
+    from scalper import alert_state, notify, store
+
+    marked = []
+    saved = (notify.send_tiered, notify.dispatch, notify.build_signal_alert,
+             store.mark_notified, store.record_alerts, store.notified_ids,
+             alert_state.PATH)
+    was = os.environ.get("BYRDE_NOTIFY_OWNER")
+    try:
+        alert_state.PATH = _P(_tf.mkdtemp()) / "alert_log.json"
+        notify.send_tiered = lambda cfg, msgs, dry_run=False: {
+            t: {"sent": True, "count": 1} for t in msgs}
+        notify.build_signal_alert = lambda *a, **k: ("", [])
+        store.mark_notified = lambda ids: marked.append(ids)
+        store.record_alerts = lambda ks: None
+        store.notified_ids = lambda: set()
+        os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+        os.environ.pop("GITHUB_ACTIONS", None)
+
+        processed = [_processed_video()]
+
+        # Every channel failed.
+        notify.dispatch = lambda *a, **k: {"attempted": True,
+                                           "delivered": False,
+                                           "reason": "ntfy 503"}
+        runmod.notify_if_new(_Cfg(), processed,
+                             _digest_with_verified_catalyst(), _Args(), [])
+        assert not marked, "a failed send consumed the ids"
+
+        # Nothing to send is not a failure: the ids may be consumed.
+        notify.dispatch = lambda *a, **k: {"attempted": False,
+                                           "delivered": False,
+                                           "reason": "no channel enabled"}
+        runmod.notify_if_new(_Cfg(), processed,
+                             _digest_with_verified_catalyst(), _Args(), [])
+        assert marked, "ids were held back when there was nothing to deliver"
+    finally:
+        (notify.send_tiered, notify.dispatch, notify.build_signal_alert,
+         store.mark_notified, store.record_alerts, store.notified_ids,
+         alert_state.PATH) = saved
+        if was is None:
+            os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+        else:
+            os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+
+def test_failed_catalyst_analysis_is_not_recorded_as_seen():
+    """A transient API error must not lose a filing forever.
+
+    The video path queues and retries. The catalyst path stored the
+    event with findings=None, which recorded its id, so catalyst_ids()
+    skipped it on every later run.
+    """
+    import inspect
+    import run as runmod
+
+    src = inspect.getsource(runmod.process_catalysts)
+    body = src.split("findings = cat.analyze_catalyst", 1)[1]
+    failure = body.split("else:", 1)[1].split("out.append", 1)[0]
+    assert "record[\"findings\"] = None" not in failure, \
+        "a failed analysis still stores the event"
+    assert "continue" in failure, "a failed analysis still falls through"
 
 def main() -> int:
     print("\nregression tests\n")
@@ -1852,6 +2014,12 @@ def main() -> int:
           test_notify_if_new_alerts_on_catalyst_with_no_new_video)
     check("P0 integration: failed delivery starts no cooldown",
           test_notify_if_new_failed_delivery_starts_no_cooldown)
+    check("owner: non-owner sends none of the three channels",
+          test_non_owner_cannot_send_any_of_the_three_channels)
+    check("state: a failed legacy send does not consume the ids",
+          test_failed_legacy_send_does_not_consume_the_ids)
+    check("state: a failed catalyst analysis is not recorded as seen",
+          test_failed_catalyst_analysis_is_not_recorded_as_seen)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
