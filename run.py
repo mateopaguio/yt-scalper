@@ -103,6 +103,21 @@ def build_digest(
     # Refresh the name->ticker table from the corpus before joining, so
     # a company first seen today is resolvable today.
     security_master.build(videos)
+
+    # Classify new / updated / seen BEFORE the join, and stamp each
+    # event with it. by_ticker() copies events onto the tickers, so
+    # anything not stamped by this point is invisible to the alert
+    # path downstream - it would read "seen" on every event and the
+    # freshness gate would block every CRITICAL forever.
+    catalyst_state = changes.classify(catalyst_events)
+    _state_by_id = {}
+    for _k in ("new", "updated"):
+        for _ev in catalyst_state.get(_k) or []:
+            if _ev.get("event_id"):
+                _state_by_id[_ev["event_id"]] = _k
+    for _ev in catalyst_events:
+        _ev["_state"] = _state_by_id.get(_ev.get("event_id"), "seen")
+
     events_by_ticker = cat.by_ticker(catalyst_events)
     for entry in aggregate["tickers"]:
         entry["catalyst_events"] = events_by_ticker.get(entry["ticker"], [])
@@ -149,7 +164,7 @@ def build_digest(
         # shrinking number.
         # New / updated / unchanged against our own stored record, not
         # against publication dates.
-        "catalyst_changes": changes.classify(catalyst_events),
+        "catalyst_changes": catalyst_state,
         "funnel": funnel.build(aggregate),
         # Creator performance, every figure relative to SPY. Rates are
         # withheld below 10 resolved calls rather than shown with a caveat.
@@ -300,11 +315,21 @@ def process_catalysts(client, cfg, args) -> tuple[list[dict], int, int]:
 
 
 def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
-    """Alert only on things never alerted on before.
+    """Decide what to send, then let exactly one runner send it.
 
-    Two independent triggers: a creator item carrying tickers, and a
-    high-materiality catalyst event. At 24 runs a day the page can show a
-    rolling window while texts stay strictly about what is new.
+    Structured so that every send goes through a single gate. Three
+    defects came out of having two notification systems side by side:
+
+      - the legacy dispatch ran unconditionally after the tiered block,
+        so a runner that did not own notifications still pushed;
+      - the function returned early when no new video, filing or signal
+        key had appeared, which skipped tiered evaluation entirely - a
+        newly verified catalyst could not alert on its own;
+      - the two systems could both push for the same underlying fact.
+
+    Tiered evaluation now happens first and unconditionally. The legacy
+    dispatch is one more thing the gate controls, not a parallel path
+    around it.
     """
     catalyst_events = catalyst_events or []
     already = store.notified_ids()
@@ -323,73 +348,83 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
         and c["event_id"] not in already
     ]
 
-    # Signal-driven alerts: what is accelerating, newly supported, or
-    # corroborated by a filed event - no fixed watchlist required.
     sig = digest.get("signals") or {}
     sig_msg, sig_keys = notify.build_signal_alert(sig, cfg.site_url)
     unseen = [k for k in sig_keys if k not in already]
 
-    if not fresh and not hot and not unseen:
-        print("\nNothing new to alert on.")
-        return
-
-    # record_signals=False: `fresh` is a subset, see build_digest docstring
-    alert = build_digest(fresh, cfg, None, catalyst_events, record_signals=False)
-    message = sig_msg or notify.build_sms(alert, cfg.site_url, new_only=True)
-
-    if hot:
-        tickers = []
-        for c in hot:
-            for company in (c["findings"].get("companies") or []):
-                t = (company.get("ticker") or "").upper()
-                if t and t not in tickers:
-                    tickers.append(t)
-        tag = " ".join(f"!{t}" for t in tickers[:3]) or "!macro"
-        message = f"{tag} {len(hot)} filing(s)\n{message}"
-
-    # --- tiered alerts -------------------------------------------------
-    # Critical/watchlist go out as their own pushes with their own ntfy
-    # priority, so an urgent one is never buried inside a digest. The
-    # cooldown log is on disk: without it every run is the first run and
-    # the same fact re-fires until the phone gets muted.
+    # --- tiered alerts, evaluated unconditionally ----------------------
+    # Not gated on fresh/hot/unseen. Those describe the legacy triggers;
+    # a catalyst that became verified since the last run is new
+    # information even when no video was processed this run.
     candidates = alerting.classify(digest.get("aggregate") or {}, cfg.raw)
-    # Catalyst-driven alerts are keyed by EVENT identity, so one event
-    # naming two companies is one alert, and a materially changed event
-    # alerts again while an unchanged one never does.
     candidates = alerting.merge(
         alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw), candidates)
     picked = alerting.select(candidates, alert_state.sent_map(), cfg.raw)
     tier_msgs = alerting.render(picked["send"], cfg.site_url)
 
-    # Only one runner may push. Both schedulers compute the same alerts
-    # from the same events; without this they both reach the phone.
+    # One gate, consulted before anything leaves this process.
     allowed, why = alert_state.may_send(cfg.raw)
 
+    legacy_due = bool(fresh or hot or unseen)
+    if not tier_msgs and not legacy_due:
+        print("\nNothing new to alert on.")
+        _ops_alert(cfg, digest, allowed)
+        return
+
+    def _legacy_message():
+        """Build the legacy digest text. Only called if it will be used.
+
+        Deliberately after the ownership check: a runner that may not
+        send should not spend an LLM-shaped rebuild on a message it is
+        about to throw away.
+        """
+        alert = build_digest(fresh, cfg, None, catalyst_events,
+                             record_signals=False)   # `fresh` is a subset
+        text = sig_msg or notify.build_sms(alert, cfg.site_url, new_only=True)
+        if hot:
+            tickers = []
+            for c in hot:
+                for company in (c["findings"].get("companies") or []):
+                    t = (company.get("ticker") or "").upper()
+                    if t and t not in tickers:
+                        tickers.append(t)
+            tag = " ".join(f"!{t}" for t in tickers[:3]) or "!macro"
+            text = f"{tag} {len(hot)} filing(s)\n{text}"
+        return alert, text
+
     if args.dry_run:
-        print(f"\n[dry run] would alert on {len(fresh)} item(s), {len(hot)} filing(s)")
+        print(f"\n[dry run] {len(fresh)} item(s), {len(hot)} filing(s)")
         print(f"  notifications: {'ALLOWED' if allowed else 'SUPPRESSED'} - {why}")
         for tier, m in tier_msgs.items():
             print(f"  [{tier}] priority {m['priority']}: {m['count']} item(s)")
             for line in m["body"].splitlines():
                 print(f"      {line}")
+        if legacy_due:
+            _, preview = _legacy_message()
+            print("  [legacy digest] would also send:\n      "
+                  + "\n      ".join((preview or "").splitlines()[:4]))
         for sup in picked["suppressed"][:8]:
-            print(f"  suppressed {sup.get('ticker', '')}: {sup.get('reason')}")
+            print(f"  held {sup.get('ticker', '')}: {sup.get('reason')}")
         alert_state.record(picked["send"], delivered=False, reason="dry run")
         return
 
     if not allowed:
-        # Computed, recorded, deliberately not sent. The owning runner
-        # will send it; recording it as sent here would start a cooldown
-        # that silences the alert everywhere.
+        # Computed and recorded, deliberately not sent - including the
+        # legacy digest, which used to go out regardless. Recording it
+        # as sent here would start a cooldown that silences the owner.
         print(f"\n  notifications suppressed: {why}")
         alert_state.record(picked["send"], delivered=False,
                            reason="suppressed_not_owner")
-    elif tier_msgs:
+        _ops_alert(cfg, digest, allowed)
+        return
+
+    if tier_msgs:
         results = notify.send_tiered(cfg, tier_msgs)
-        for tier, m in tier_msgs.items():
-            ok = results.get(tier, {}).get("sent")
+        for tier in tier_msgs:
+            ok = bool(results.get(tier, {}).get("sent"))
             rows = [a for a in picked["send"] if a["tier"] == tier]
-            alert_state.record(rows, delivered=bool(ok),
+            # Only an acknowledged delivery starts a cooldown.
+            alert_state.record(rows, delivered=ok,
                                reason="" if ok else
                                str(results.get(tier, {}).get("reason", "")))
         fired = [k for tier, m in tier_msgs.items()
@@ -398,14 +433,20 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
         for tier, r in results.items():
             print(f"  {tier}: {'sent' if r.get('sent') else r.get('reason')} "
                   f"({r.get('count', 0)} item(s))")
-    if picked["suppressed"]:
-        print(f"  {len(picked['suppressed'])} alert(s) suppressed by cooldown/cap")
 
-    print(f"\nAlerting: {len(fresh)} item(s), {len(hot)} filing(s)")
-    notify.dispatch(cfg, alert, message=message)
-    store.mark_notified(
-        [r["video_id"] for r in fresh] + [c["event_id"] for c in hot] + unseen
-    )
+    if picked["suppressed"]:
+        # Held, not consumed: nothing was written to the cooldown log
+        # for these, so they are eligible again on the next run.
+        print(f"  {len(picked['suppressed'])} alert(s) held "
+              "(cooldown or per-run cap) - still eligible next run")
+
+    if legacy_due:
+        print(f"\nAlerting: {len(fresh)} item(s), {len(hot)} filing(s)")
+        alert, message = _legacy_message()
+        notify.dispatch(cfg, alert, message=message)
+        store.mark_notified(
+            [r["video_id"] for r in fresh] + [c["event_id"] for c in hot] + unseen
+        )
 
     _ops_alert(cfg, digest, allowed)
 
@@ -511,11 +552,15 @@ def main() -> int:
             print(f"--- {tier.upper()} (ntfy priority {m['priority']}) ---")
             print(m["body"])
             print()
-        for a in picked["send"]:
-            if a.get("blocked"):
-                print(f"  {a['ticker']}: held at {a['tier']} - {a['reason']}")
+        dash = picked.get("dashboard_only") or []
+        if dash:
+            print(f"--- DASHBOARD ONLY ({len(dash)}) - shown, never pushed ---")
+            for a in dash:
+                print(f"  {a['ticker']}: {a['reason']}")
+            print()
         for sup in picked["suppressed"][:10]:
-            print(f"  suppressed {sup.get('ticker', '')}: {sup.get('reason')}")
+            print(f"  held {sup.get('ticker', '')}: {sup.get('reason')} "
+                  "(eligible next run)")
         return 0
 
     if args.rebuild:

@@ -378,7 +378,12 @@ def _alert_fixture():
     return {"tickers": [
         {"ticker": "NVDA", "score": {"total": 5.6, "vetoed": False},
          "basis": {"independent_channels": ["a", "b", "c"]},
-         "catalyst_events": [{"materiality": 4, "title": "8-K filed"}],
+         # has_body / _state are what the evidence gate reads. A filing
+         # nobody retrieved, or one seen on an earlier run, is not a
+         # reason to wake a phone.
+         "catalyst_events": [{"materiality": 4, "title": "8-K filed",
+                              "has_body": True, "body_chars": 5200,
+                              "event_id": "ev-nvda-1", "_state": "new"}],
          "freshness": {"state": "forward_catalyst"}},
         {"ticker": "AMD", "score": {"total": 3.4, "vetoed": False},
          "basis": {"independent_channels": ["a", "b"]},
@@ -577,7 +582,11 @@ def test_critical_alert_carries_thesis_and_invalidation():
     agg = {"tickers": [{
         "ticker": "PFE", "score": {"total": 5.2, "vetoed": False},
         "basis": {"independent_channels": ["a", "b"]},
-        "catalyst_events": [{"materiality": 4, "title": "FDA approval"}],
+        # Read, and new since the last run: the only shape that earns
+        # a CRITICAL push.
+        "catalyst_events": [{"materiality": 4, "title": "FDA approval",
+                             "has_body": True, "body_chars": 7100,
+                             "event_id": "ev-pfe-1", "_state": "new"}],
         "freshness": {"state": "forward_catalyst"},
         "items": [{"basis": "original", "stance": "bullish", "evidence": "data",
                    "channel": "a", "thesis": "label expansion", "price_target": "$34"}],
@@ -1241,11 +1250,19 @@ def test_headline_only_catalyst_never_reaches_critical():
 
     unread = alerts.catalyst_alerts(
         {"priority": [_radar_event("e2", "PFE", mat=4, body=False)]})
-    assert unread[0]["tier"] == alerts.WATCHLIST
+    assert unread[0]["tier"] == alerts.DASHBOARD, \
+        "a headline nobody read was pushed to the phone"
     assert "headline only" in unread[0]["reason"]
 
-    # And the message must never imply a trade.
-    body = alerts.render(unread)[alerts.WATCHLIST]["body"]
+    # Dashboard-only entries are shown, never sent, and never consume
+    # a per-run cap slot that a real alert could have used.
+    picked = alerts.select(unread, {}, None)
+    assert not picked["send"], "a dashboard-only entry was queued for sending"
+    assert picked["dashboard_only"], "it vanished instead of being displayed"
+    assert not alerts.render(picked["send"]), "rendered a message for nothing"
+
+    # A read, material, new catalyst still renders - and never as a trade.
+    body = alerts.render(read)[alerts.CRITICAL]["body"]
     assert "not a scalp entry" in body
     for word in ("buy", "entry at", "confirmed setup"):
         assert word not in body.lower(), f"alert implied a trade: {word}"
@@ -1444,6 +1461,266 @@ def test_no_real_secret_is_committed():
                 hits.append(rel)
     assert not hits, f"secret-shaped strings in tracked files: {hits}"
 
+
+def test_aggregate_critical_applies_the_evidence_gate():
+    """The second CRITICAL entry point had no gate at all.
+
+    catalyst_alerts() refused to promote a headline-only filing while
+    classify(), reading the same events through the aggregate, would
+    hand that filing a materiality score and wake the phone with it. A
+    gate on one of two entry points is not a gate.
+    """
+    import copy
+    from scalper import alerts
+
+    base = _alert_fixture()
+
+    def nvda(mutate):
+        agg = copy.deepcopy(base)
+        ev = agg["tickers"][0]["catalyst_events"][0]
+        mutate(ev)
+        got = [a for a in alerts.classify(agg) if a["ticker"] == "NVDA"]
+        assert got, "NVDA produced no alert at all"
+        return got[0]
+
+    # Read, new, material -> critical.
+    assert nvda(lambda e: None)["tier"] == alerts.CRITICAL
+
+    # Headline only -> held.
+    held = nvda(lambda e: e.update(has_body=False, body_chars=0))
+    assert held["tier"] == alerts.WATCHLIST
+    assert "headline only" in held["reason"]
+
+    # Retrieval never recorded -> treated as unread, not as read.
+    unknown = nvda(lambda e: e.pop("has_body"))
+    assert unknown["tier"] == alerts.WATCHLIST, \
+        "an event with no recorded body was treated as evidence"
+
+    # Seen on an earlier run -> held, however material.
+    repeated = nvda(lambda e: e.update(_state="seen"))
+    assert repeated["tier"] == alerts.WATCHLIST
+    assert "previously seen" in repeated["reason"]
+
+    # Unmapped: no filed event behind it at all.
+    agg = copy.deepcopy(base)
+    agg["tickers"][0]["catalyst_events"] = []
+    unmapped = [a for a in alerts.classify(agg) if a["ticker"] == "NVDA"]
+    assert all(a["tier"] != alerts.CRITICAL for a in unmapped), \
+        "critical without any filed event"
+
+    # And the title must not describe a trade.
+    rendered = alerts.render([nvda(lambda e: None)])
+    assert rendered[alerts.CRITICAL]["title"] == "Verified catalyst"
+
+
+def test_capped_alerts_stay_eligible_next_run():
+    """A per-run cap must defer an alert, never consume it."""
+    import tempfile as _tf
+    from pathlib import Path as _P
+    from scalper import alerts, alert_state
+
+    cands = [{"tier": alerts.WATCHLIST, "ticker": f"T{i}", "score": 10 - i,
+              "headline": f"T{i}", "key": f"watch:T{i}:x"} for i in range(8)]
+    cfg = {"alerts": {"max_per_run": {alerts.WATCHLIST: 3,
+                                      alerts.CRITICAL: 3, alerts.DIGEST: 1}}}
+    picked = alerts.select(cands, {}, cfg)
+    assert len(picked["send"]) == 3
+    capped = [a for a in picked["suppressed"] if "cap" in a["reason"]]
+    assert capped, "nothing was capped"
+
+    original = alert_state.PATH
+    try:
+        alert_state.PATH = _P(_tf.mkdtemp()) / "alert_log.json"
+        # Only what was actually delivered is recorded.
+        alert_state.record(picked["send"], delivered=True)
+        sent = alert_state.sent_map()
+        for a in capped:
+            assert a["key"] not in sent, \
+                f"{a['ticker']} was capped but recorded as sent - lost forever"
+        again = alerts.select(cands, sent, cfg)
+        assert {a["key"] for a in again["send"]} & {a["key"] for a in capped}, \
+            "a capped alert never became eligible again"
+    finally:
+        alert_state.PATH = original
+
+
+# --------------------------------------------------------------------
+# Integration: the real notify_if_new() path.
+#
+# Every P0 in the Milestone D review lived in the WIRING, not in the
+# helpers. classify(), catalyst_alerts() and may_send() were each
+# correct and individually tested while the function that calls them
+# sent a legacy push past the gate, and returned before tiered
+# evaluation whenever no new video had arrived. Testing helpers proved
+# nothing about any of that.
+# --------------------------------------------------------------------
+
+class _Args:
+    dry_run = False
+
+
+class _Cfg:
+    site_url = "https://x.test/"
+    window_days = 7
+    ntfy_topic = "topic"
+    model = "m"
+    watchlist: list = []
+    tiers: dict = {}
+    channels: list = []
+    anthropic_key = "sk-" + "ant-stub"
+    raw = {"alerts": {"max_per_run": {"critical": 3, "watchlist": 5,
+                                      "digest": 1}}}
+
+
+def _notify_harness(monkey):
+    """Run notify_if_new with sending stubbed and state isolated."""
+    import tempfile as _tf
+    from pathlib import Path as _P
+    import run as runmod
+    from scalper import alert_state, notify, store
+
+    calls = {"tiered": [], "dispatch": [], "marked": [], "recorded": []}
+
+    saved = {
+        "send_tiered": notify.send_tiered,
+        "dispatch": notify.dispatch,
+        "mark_notified": store.mark_notified,
+        "record_alerts": store.record_alerts,
+        "notified_ids": store.notified_ids,
+        "alert_path": alert_state.PATH,
+        "build_signal_alert": notify.build_signal_alert,
+    }
+    tmp = _P(_tf.mkdtemp())
+    alert_state.PATH = tmp / "alert_log.json"
+
+    def fake_tiered(cfg, msgs, dry_run=False):
+        calls["tiered"].append(msgs)
+        return {t: {"sent": True, "count": m.get("count", 0)}
+                for t, m in msgs.items()}
+
+    notify.send_tiered = fake_tiered
+    notify.dispatch = lambda *a, **k: calls["dispatch"].append(k or a)
+    notify.build_signal_alert = lambda *a, **k: ("", [])
+    store.mark_notified = lambda ids: calls["marked"].append(ids)
+    store.record_alerts = lambda ks: calls["recorded"].append(ks)
+    store.notified_ids = lambda: set()
+
+    monkey(runmod, notify, store, alert_state, calls, fake_tiered)
+    for k, v in saved.items():
+        if k == "alert_path":
+            alert_state.PATH = v
+        elif hasattr(notify, k):
+            setattr(notify, k, v)
+        else:
+            setattr(store, k, v)
+    return calls
+
+
+def _digest_with_verified_catalyst():
+    ev = {"materiality": 5, "title": "FDA approval", "has_body": True,
+          "body_chars": 8000, "event_id": "ev-1", "_state": "new"}
+    return {
+        "aggregate": {"tickers": [{
+            "ticker": "PFE", "score": {"total": 6.0, "vetoed": False},
+            "basis": {"independent_channels": ["a", "b", "c"]},
+            "catalyst_events": [ev], "freshness": {"state": "developing"},
+            "items": [{"basis": "original", "stance": "bullish",
+                       "evidence": "data", "channel": "a",
+                       "thesis": "approval", "price_target": "$1"}],
+        }]},
+        "signals": {}, "radar": {}, "health": {},
+    }
+
+
+def test_notify_if_new_non_owner_sends_nothing_at_all():
+    """P0-1: the legacy dispatch ran past the ownership gate.
+
+    notify.dispatch() sat after the tiered block with no condition on
+    it, so a runner that did not own notifications still pushed the
+    legacy digest - and the tiered system pushed from the owner. One
+    fact, two phones' worth of buzzing.
+    """
+    def body(runmod, notify, store, alert_state, calls, _ft):
+        was = os.environ.get("BYRDE_NOTIFY_OWNER")
+        ga = os.environ.get("GITHUB_ACTIONS")
+        try:
+            os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+            os.environ["GITHUB_ACTIONS"] = "true"      # this runner is NOT owner
+            processed = [{"video_id": "v1", "findings": {"tickers": ["PFE"]},
+                          "channel": "c", "published": "2026-10-27T10:00:00+00:00"}]
+            runmod.notify_if_new(_Cfg(), processed,
+                                 _digest_with_verified_catalyst(), _Args(), [])
+        finally:
+            os.environ.pop("GITHUB_ACTIONS", None)
+            if ga is not None:
+                os.environ["GITHUB_ACTIONS"] = ga
+            if was is None:
+                os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+            else:
+                os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+    calls = _notify_harness(body)
+    assert not calls["tiered"], "a non-owner sent tiered alerts"
+    assert not calls["dispatch"], "a non-owner sent the legacy digest"
+    assert not calls["marked"], "a non-owner consumed the notified ids"
+
+
+def test_notify_if_new_alerts_on_catalyst_with_no_new_video():
+    """P0-2: the early return skipped tiered evaluation entirely.
+
+    The function returned when fresh, hot and unseen were all empty -
+    which is the normal state on most runs. A catalyst that became
+    verified since the last run could never alert on its own, because
+    the code that would have noticed never ran.
+    """
+    def body(runmod, notify, store, alert_state, calls, _ft):
+        was = os.environ.get("BYRDE_NOTIFY_OWNER")
+        ga = os.environ.get("GITHUB_ACTIONS")
+        try:
+            os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+            os.environ.pop("GITHUB_ACTIONS", None)
+            # No processed videos, no catalyst events, no signal keys:
+            # every legacy trigger is empty.
+            runmod.notify_if_new(_Cfg(), [],
+                                 _digest_with_verified_catalyst(), _Args(), [])
+        finally:
+            if ga is not None:
+                os.environ["GITHUB_ACTIONS"] = ga
+            if was is None:
+                os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+            else:
+                os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+    calls = _notify_harness(body)
+    assert calls["tiered"], "no tiered alert without a new video"
+    tiers = {t for msgs in calls["tiered"] for t in msgs}
+    assert "critical" in tiers, f"verified catalyst did not reach critical: {tiers}"
+    assert not calls["dispatch"], "legacy digest fired with no legacy trigger"
+
+
+def test_notify_if_new_failed_delivery_starts_no_cooldown():
+    """Record a send only once the endpoint acknowledges it."""
+    def body(runmod, notify, store, alert_state, calls, _ft):
+        notify.send_tiered = lambda cfg, msgs, dry_run=False: {
+            t: {"sent": False, "reason": "ntfy 503", "count": 1} for t in msgs}
+        was = os.environ.get("BYRDE_NOTIFY_OWNER")
+        try:
+            os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+            os.environ.pop("GITHUB_ACTIONS", None)
+            runmod.notify_if_new(_Cfg(), [],
+                                 _digest_with_verified_catalyst(), _Args(), [])
+            assert not alert_state.sent_map(), \
+                "a failed delivery started a cooldown"
+            hist = alert_state.history(5)
+            assert hist and not hist[0]["delivered"], "failure not recorded"
+        finally:
+            if was is None:
+                os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+            else:
+                os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+    _notify_harness(body)
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -1565,6 +1842,16 @@ def main() -> int:
           test_secrets_are_redacted_before_they_are_written)
     check("secrets: nothing secret-shaped is committed",
           test_no_real_secret_is_committed)
+    check("P0-3: aggregate critical applies the evidence gate",
+          test_aggregate_critical_applies_the_evidence_gate)
+    check("P0: capped alerts stay eligible next run",
+          test_capped_alerts_stay_eligible_next_run)
+    check("P0-1 integration: non-owner sends nothing at all",
+          test_notify_if_new_non_owner_sends_nothing_at_all)
+    check("P0-2 integration: catalyst alerts without a new video",
+          test_notify_if_new_alerts_on_catalyst_with_no_new_video)
+    check("P0 integration: failed delivery starts no cooldown",
+          test_notify_if_new_failed_delivery_starts_no_cooldown)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0

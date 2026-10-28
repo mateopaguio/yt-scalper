@@ -298,5 +298,15 @@ def by_ticker(events: list[dict]) -> dict[str, list[dict]]:
                 "materiality": findings.get("materiality", 1),
                 "summary": findings.get("summary", ""),
                 "role": company.get("role", "subject"),
+                # Carried through so the alert path can tell a filing
+                # somebody read from a headline nobody did. Without
+                # these the evidence gate in alerts.classify() would
+                # see no evidence on any event and block every
+                # CRITICAL permanently - a gate that always says no is
+                # as wrong as one that always says yes.
+                "has_body": event.get("has_body"),
+                "body_chars": event.get("body_chars"),
+                "event_id": event.get("event_id"),
+                "_state": event.get("_state", "seen"),
             })
     return grouped

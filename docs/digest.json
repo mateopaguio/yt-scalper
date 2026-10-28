@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:19:50.217475+00:00",
+  "generated_at": "2026-10-28T04:20:09.030029+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -58809,7 +58809,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_cc341228df055c",
@@ -58834,7 +58835,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_fa476862124889",
@@ -58854,7 +58856,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_fa476862124889",
@@ -58873,7 +58876,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_4ebe25d7d08e1f",
@@ -58892,7 +58896,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_79eda1c730c453",
@@ -58914,7 +58919,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_01606e6659b297",
@@ -58934,7 +58940,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_80ecfe151ded0a",
@@ -58953,7 +58960,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_0e02ce5fdb657a",
@@ -58978,7 +58986,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_59f6ab2a04cca9",
@@ -59003,7 +59012,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_598edff6629535",
@@ -59032,7 +59042,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_c619f73bb02581",
@@ -59057,7 +59068,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_97d8e87af1c600",
@@ -59082,7 +59094,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_4fd44e79665887",
@@ -59107,7 +59120,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_90087a20d328dc",
@@ -59132,7 +59146,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_cac20d08832a39",
@@ -59157,7 +59172,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_78db511ed13223",
@@ -59176,7 +59192,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_23719750710537",
@@ -59199,7 +59216,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_25fadbd0985c15",
@@ -59228,7 +59246,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_f89920a7cb66e5",
@@ -59247,7 +59266,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_754db5ff786141",
@@ -59272,7 +59292,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_46abf8d9262621",
@@ -59291,7 +59312,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_e59da08d93d4fa",
@@ -59310,7 +59332,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_cfddb7e5abc185",
@@ -59339,7 +59362,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_3f13862c1b7957",
@@ -59374,7 +59398,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_791ac8b10a500e",
@@ -59393,7 +59418,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_791ac8b10a500e",
@@ -59412,7 +59438,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_69a8d88b5e2db6",
@@ -59431,7 +59458,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_f713c76bc78a3d",
@@ -59450,7 +59478,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_9211ffe44bacb0",
@@ -59469,7 +59498,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_d1a5dffdb98263",
@@ -59488,7 +59518,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_46ce063ed473d4",
@@ -59507,7 +59538,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_5563d5be74cdba",
@@ -59528,7 +59560,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_0f7bacdf3b6c60",
@@ -59551,7 +59584,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_803e539fa55d50",
@@ -59570,7 +59604,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_320d783720bddf",
@@ -59589,7 +59624,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_0ccd74916a1adb",
@@ -59614,7 +59650,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_4774828d886d07",
@@ -59638,7 +59675,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_787e9b6d5aebfd",
@@ -59657,7 +59695,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_8a58b79fa4a59e",
@@ -59677,7 +59716,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_3a330c6f9d79ea",
@@ -59696,7 +59736,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_3229df402dbd34",
@@ -59715,7 +59756,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_bd4cad8e2c644e",
@@ -59735,7 +59777,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_01e2e9bd4854aa",
@@ -59754,7 +59797,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_dbf3128e30cd0f",
@@ -59773,7 +59817,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_1c2a4463c14f3b",
@@ -59796,7 +59841,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_b00ad1c61d7949",
@@ -59819,7 +59865,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_a44afd28724897",
@@ -59841,7 +59888,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_baab0d1782e0f6",
@@ -59866,7 +59914,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_908e946ba96d43",
@@ -59885,7 +59934,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_0499ec361083e0",
@@ -59904,7 +59954,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_71394119aae314",
@@ -59923,7 +59974,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_b74f7652e7222a",
@@ -59942,7 +59994,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_c0b889f14d15bc",
@@ -59961,7 +60014,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_11296a97a0ea32",
@@ -59980,7 +60034,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_11296a97a0ea32",
@@ -59999,7 +60054,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_520ff989eff55d",
@@ -60024,7 +60080,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_efdf3bf684482b",
@@ -60043,7 +60100,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_2c0118b4729353",
@@ -60062,7 +60120,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "updated"
     },
     {
       "event_id": "cat_2c0118b4729353",
@@ -60081,7 +60140,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "updated"
     },
     {
       "event_id": "cat_9d1cf1d163d8a5",
@@ -60100,7 +60160,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_9d1cf1d163d8a5",
@@ -60119,7 +60180,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_bb815b6a4ce676",
@@ -60138,7 +60200,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_056b17d2f3344d",
@@ -60157,7 +60220,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_056b17d2f3344d",
@@ -60176,7 +60240,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_f0dacc4bf6398a",
@@ -60195,7 +60260,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_5ea26d40a9291e",
@@ -60214,7 +60280,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_c704248eaecf92",
@@ -60233,7 +60300,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_f90d9dd47d4248",
@@ -60252,7 +60320,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_ecc4ebe0ecf46b",
@@ -60282,7 +60351,8 @@
       },
       "has_body": false,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_802f8fe00cdec7",
@@ -60294,7 +60364,8 @@
       "findings": null,
       "has_body": true,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_b7ccac5a714b83",
@@ -60306,7 +60377,8 @@
       "findings": null,
       "has_body": true,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_e8403aff42d570",
@@ -60318,7 +60390,8 @@
       "findings": null,
       "has_body": true,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_3c3e82bc6cb61f",
@@ -60330,7 +60403,8 @@
       "findings": null,
       "has_body": true,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     },
     {
       "event_id": "cat_0347ca07291aae",
@@ -60342,7 +60416,8 @@
       "findings": null,
       "has_body": true,
       "body_chars": null,
-      "body_backfilled": true
+      "body_backfilled": true,
+      "_state": "seen"
     }
   ],
   "ledger": {
@@ -68604,7 +68679,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-28T03:19:50.312480+00:00",
+    "last_run": "2026-10-28T04:20:09.133254+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -69234,7 +69309,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_cc341228df055c",
@@ -69259,7 +69335,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_fa476862124889",
@@ -69279,7 +69356,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_fa476862124889",
@@ -69298,7 +69376,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_4ebe25d7d08e1f",
@@ -69317,7 +69396,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_79eda1c730c453",
@@ -69339,7 +69419,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_01606e6659b297",
@@ -69359,7 +69440,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_80ecfe151ded0a",
@@ -69378,7 +69460,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_0e02ce5fdb657a",
@@ -69403,7 +69486,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_59f6ab2a04cca9",
@@ -69428,7 +69512,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_598edff6629535",
@@ -69457,7 +69542,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_c619f73bb02581",
@@ -69482,7 +69568,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_97d8e87af1c600",
@@ -69507,7 +69594,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_4fd44e79665887",
@@ -69532,7 +69620,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_90087a20d328dc",
@@ -69557,7 +69646,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_cac20d08832a39",
@@ -69582,7 +69672,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_78db511ed13223",
@@ -69601,7 +69692,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_23719750710537",
@@ -69624,7 +69716,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_25fadbd0985c15",
@@ -69653,7 +69746,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_f89920a7cb66e5",
@@ -69672,7 +69766,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_754db5ff786141",
@@ -69697,7 +69792,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_46abf8d9262621",
@@ -69716,7 +69812,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_e59da08d93d4fa",
@@ -69735,7 +69832,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_cfddb7e5abc185",
@@ -69764,7 +69862,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_3f13862c1b7957",
@@ -69799,7 +69898,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_791ac8b10a500e",
@@ -69818,7 +69918,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_791ac8b10a500e",
@@ -69837,7 +69938,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_69a8d88b5e2db6",
@@ -69856,7 +69958,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_f713c76bc78a3d",
@@ -69875,7 +69978,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_9211ffe44bacb0",
@@ -69894,7 +69998,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_d1a5dffdb98263",
@@ -69913,7 +70018,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_46ce063ed473d4",
@@ -69932,7 +70038,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_5563d5be74cdba",
@@ -69953,7 +70060,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_0f7bacdf3b6c60",
@@ -69976,7 +70084,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_803e539fa55d50",
@@ -69995,7 +70104,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_320d783720bddf",
@@ -70014,7 +70124,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_0ccd74916a1adb",
@@ -70039,7 +70150,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_4774828d886d07",
@@ -70063,7 +70175,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_787e9b6d5aebfd",
@@ -70082,7 +70195,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_8a58b79fa4a59e",
@@ -70102,7 +70216,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_3a330c6f9d79ea",
@@ -70121,7 +70236,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_3229df402dbd34",
@@ -70140,7 +70256,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_bd4cad8e2c644e",
@@ -70160,7 +70277,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_01e2e9bd4854aa",
@@ -70179,7 +70297,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_dbf3128e30cd0f",
@@ -70198,7 +70317,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_1c2a4463c14f3b",
@@ -70221,7 +70341,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_b00ad1c61d7949",
@@ -70244,7 +70365,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_a44afd28724897",
@@ -70266,7 +70388,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_baab0d1782e0f6",
@@ -70291,7 +70414,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_908e946ba96d43",
@@ -70310,7 +70434,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_0499ec361083e0",
@@ -70329,7 +70454,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_71394119aae314",
@@ -70348,7 +70474,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_b74f7652e7222a",
@@ -70367,7 +70494,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_c0b889f14d15bc",
@@ -70386,7 +70514,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_11296a97a0ea32",
@@ -70405,7 +70534,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_11296a97a0ea32",
@@ -70424,7 +70554,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_520ff989eff55d",
@@ -70449,7 +70580,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_efdf3bf684482b",
@@ -70468,7 +70600,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_2c0118b4729353",
@@ -70487,7 +70620,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "updated"
       },
       {
         "event_id": "cat_9d1cf1d163d8a5",
@@ -70506,7 +70640,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_9d1cf1d163d8a5",
@@ -70525,7 +70660,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_bb815b6a4ce676",
@@ -70544,7 +70680,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_056b17d2f3344d",
@@ -70563,7 +70700,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_056b17d2f3344d",
@@ -70582,7 +70720,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_f0dacc4bf6398a",
@@ -70601,7 +70740,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_5ea26d40a9291e",
@@ -70620,7 +70760,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_c704248eaecf92",
@@ -70639,7 +70780,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_f90d9dd47d4248",
@@ -70658,7 +70800,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_ecc4ebe0ecf46b",
@@ -70688,7 +70831,8 @@
         },
         "has_body": false,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_802f8fe00cdec7",
@@ -70700,7 +70844,8 @@
         "findings": null,
         "has_body": true,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_b7ccac5a714b83",
@@ -70712,7 +70857,8 @@
         "findings": null,
         "has_body": true,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_e8403aff42d570",
@@ -70724,7 +70870,8 @@
         "findings": null,
         "has_body": true,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_3c3e82bc6cb61f",
@@ -70736,7 +70883,8 @@
         "findings": null,
         "has_body": true,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       },
       {
         "event_id": "cat_0347ca07291aae",
@@ -70748,7 +70896,8 @@
         "findings": null,
         "has_body": true,
         "body_chars": null,
-        "body_backfilled": true
+        "body_backfilled": true,
+        "_state": "seen"
       }
     ],
     "counts": {
@@ -71975,6 +72124,7 @@
       "has_body": false,
       "body_chars": null,
       "body_backfilled": true,
+      "_state": "seen",
       "_when": "2026-10-30"
     }
   ],
@@ -72015,6 +72165,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "priority",
           "reason": "",
@@ -72031,9 +72182,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.32475494497685187
-        },
-        "_state": "seen"
+          "age_days": 0.3666402274421296
+        }
       },
       {
         "event_id": "cat_754db5ff786141",
@@ -72059,6 +72209,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "priority",
           "reason": "",
@@ -72075,9 +72226,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.2817688338657407
-        },
-        "_state": "seen"
+          "age_days": 1.3236541163310185
+        }
       },
       {
         "event_id": "cat_3f13862c1b7957",
@@ -72113,6 +72263,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "priority",
           "reason": "",
@@ -72134,9 +72285,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 1.446803556087963
-        },
-        "_state": "seen"
+          "age_days": 1.4886888385532409
+        }
       },
       {
         "event_id": "cat_0ccd74916a1adb",
@@ -72162,6 +72312,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "priority",
           "reason": "",
@@ -72178,9 +72329,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.6052757783101852
-        },
-        "_state": "seen"
+          "age_days": 1.647161060775463
+        }
       }
     ],
     "archive": [
@@ -72202,6 +72352,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72212,9 +72363,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.22712763016203705
-        },
-        "_state": "seen"
+          "age_days": 0.2690129126273148
+        }
       },
       {
         "event_id": "cat_fa476862124889",
@@ -72235,6 +72385,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -72248,9 +72399,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.3853683709027778
-        },
-        "_state": "seen"
+          "age_days": 0.42725365336805554
+        }
       },
       {
         "event_id": "cat_4ebe25d7d08e1f",
@@ -72270,6 +72420,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72280,9 +72431,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.47753272275462966
-        },
-        "_state": "seen"
+          "age_days": 0.5194180052199074
+        }
       },
       {
         "event_id": "cat_79eda1c730c453",
@@ -72305,6 +72455,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72315,9 +72466,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.5040720746064815
-        },
-        "_state": "seen"
+          "age_days": 0.5459573570717593
+        }
       },
       {
         "event_id": "cat_01606e6659b297",
@@ -72338,6 +72488,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72348,9 +72499,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5071507783101852
-        },
-        "_state": "seen"
+          "age_days": 0.549036060775463
+        }
       },
       {
         "event_id": "cat_80ecfe151ded0a",
@@ -72370,6 +72520,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72380,9 +72531,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5076947597916667
-        },
-        "_state": "seen"
+          "age_days": 0.5495800422569445
+        }
       },
       {
         "event_id": "cat_0e02ce5fdb657a",
@@ -72408,6 +72558,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72418,9 +72569,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5831808709027778
-        },
-        "_state": "seen"
+          "age_days": 0.6250661533680555
+        }
       },
       {
         "event_id": "cat_59f6ab2a04cca9",
@@ -72446,6 +72596,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72456,9 +72607,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5831808709027778
-        },
-        "_state": "seen"
+          "age_days": 0.6250661533680555
+        }
       },
       {
         "event_id": "cat_598edff6629535",
@@ -72488,6 +72638,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72498,9 +72649,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.5831924449768519
-        },
-        "_state": "seen"
+          "age_days": 0.6250777274421296
+        }
       },
       {
         "event_id": "cat_c619f73bb02581",
@@ -72526,6 +72676,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72536,9 +72687,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5831924449768519
-        },
-        "_state": "seen"
+          "age_days": 0.6250777274421296
+        }
       },
       {
         "event_id": "cat_97d8e87af1c600",
@@ -72564,6 +72714,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72574,9 +72725,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5831924449768519
-        },
-        "_state": "seen"
+          "age_days": 0.6250777274421296
+        }
       },
       {
         "event_id": "cat_4fd44e79665887",
@@ -72602,6 +72752,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72612,9 +72763,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5832040190509259
-        },
-        "_state": "seen"
+          "age_days": 0.6250893015162037
+        }
       },
       {
         "event_id": "cat_90087a20d328dc",
@@ -72640,6 +72790,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72650,9 +72801,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.5832271671990741
-        },
-        "_state": "seen"
+          "age_days": 0.6251124496643519
+        }
       },
       {
         "event_id": "cat_cac20d08832a39",
@@ -72678,6 +72828,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72688,9 +72839,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.5835396671990741
-        },
-        "_state": "seen"
+          "age_days": 0.6254249496643518
+        }
       },
       {
         "event_id": "cat_78db511ed13223",
@@ -72710,6 +72860,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72720,9 +72871,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5956808709027778
-        },
-        "_state": "seen"
+          "age_days": 0.6375661533680556
+        }
       },
       {
         "event_id": "cat_23719750710537",
@@ -72746,6 +72896,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72756,9 +72907,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.601352167199074
-        },
-        "_state": "seen"
+          "age_days": 0.6432374496643518
+        }
       },
       {
         "event_id": "cat_25fadbd0985c15",
@@ -72788,6 +72938,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72798,9 +72949,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.9721507783101851
-        },
-        "_state": "seen"
+          "age_days": 1.014036060775463
+        }
       },
       {
         "event_id": "cat_f89920a7cb66e5",
@@ -72820,6 +72970,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72830,9 +72981,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2727294820138888
-        },
-        "_state": "seen"
+          "age_days": 1.3146147644791668
+        }
       },
       {
         "event_id": "cat_46abf8d9262621",
@@ -72852,6 +73002,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72862,9 +73013,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.3041878153472222
-        },
-        "_state": "seen"
+          "age_days": 1.3460730978125002
+        }
       },
       {
         "event_id": "cat_e59da08d93d4fa",
@@ -72884,6 +73034,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72894,9 +73045,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.3046507783101853
-        },
-        "_state": "seen"
+          "age_days": 1.346536060775463
+        }
       },
       {
         "event_id": "cat_cfddb7e5abc185",
@@ -72926,6 +73076,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -72936,9 +73087,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.3722317968287037
-        },
-        "_state": "seen"
+          "age_days": 1.4141170792939814
+        }
       },
       {
         "event_id": "cat_791ac8b10a500e",
@@ -72958,6 +73108,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -72971,9 +73122,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4729956857175925
-        },
-        "_state": "seen"
+          "age_days": 1.5148809681828705
+        }
       },
       {
         "event_id": "cat_69a8d88b5e2db6",
@@ -72993,6 +73143,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73003,9 +73154,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4760628153472222
-        },
-        "_state": "seen"
+          "age_days": 1.5179480978125002
+        }
       },
       {
         "event_id": "cat_f713c76bc78a3d",
@@ -73025,6 +73175,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73035,9 +73186,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4786322597916666
-        },
-        "_state": "seen"
+          "age_days": 1.5205175422569446
+        }
       },
       {
         "event_id": "cat_9211ffe44bacb0",
@@ -73057,6 +73207,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73067,9 +73218,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.483053556087963
-        },
-        "_state": "seen"
+          "age_days": 1.5249388385532407
+        }
       },
       {
         "event_id": "cat_d1a5dffdb98263",
@@ -73089,6 +73239,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73099,9 +73250,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5151831857175926
-        },
-        "_state": "seen"
+          "age_days": 1.5570684681828704
+        }
       },
       {
         "event_id": "cat_46ce063ed473d4",
@@ -73121,6 +73271,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73131,9 +73282,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.580877630162037
-        },
-        "_state": "seen"
+          "age_days": 1.6227629126273149
+        }
       },
       {
         "event_id": "cat_5563d5be74cdba",
@@ -73155,6 +73305,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73165,9 +73316,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.590067444976852
-        },
-        "_state": "seen"
+          "age_days": 1.6319527274421297
+        }
       },
       {
         "event_id": "cat_0f7bacdf3b6c60",
@@ -73191,6 +73341,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73201,9 +73352,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6046855005324074
-        },
-        "_state": "seen"
+          "age_days": 1.6465707829976852
+        }
       },
       {
         "event_id": "cat_803e539fa55d50",
@@ -73223,6 +73373,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73233,9 +73384,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6047433709027779
-        },
-        "_state": "seen"
+          "age_days": 1.6466286533680556
+        }
       },
       {
         "event_id": "cat_320d783720bddf",
@@ -73255,6 +73405,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73265,9 +73416,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.605241056087963
-        },
-        "_state": "seen"
+          "age_days": 1.6471263385532409
+        }
       },
       {
         "event_id": "cat_4774828d886d07",
@@ -73292,6 +73442,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73302,9 +73453,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.6053105005324073
-        },
-        "_state": "seen"
+          "age_days": 1.6471957829976853
+        }
       },
       {
         "event_id": "cat_787e9b6d5aebfd",
@@ -73324,6 +73474,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73334,9 +73485,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6096855005324073
-        },
-        "_state": "seen"
+          "age_days": 1.6515707829976853
+        }
       },
       {
         "event_id": "cat_8a58b79fa4a59e",
@@ -73357,6 +73507,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73367,9 +73518,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.614315130162037
-        },
-        "_state": "seen"
+          "age_days": 1.6562004126273149
+        }
       },
       {
         "event_id": "cat_3a330c6f9d79ea",
@@ -73389,6 +73539,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73399,9 +73550,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.618967907939815
-        },
-        "_state": "seen"
+          "age_days": 1.6608531904050927
+        }
       },
       {
         "event_id": "cat_3229df402dbd34",
@@ -73421,6 +73571,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73431,9 +73582,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6224748523842594
-        },
-        "_state": "seen"
+          "age_days": 1.6643601348495372
+        }
       },
       {
         "event_id": "cat_bd4cad8e2c644e",
@@ -73454,6 +73604,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73464,9 +73615,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.281085963495371
-        },
-        "_state": "seen"
+          "age_days": 4.322971245960648
+        }
       },
       {
         "event_id": "cat_01e2e9bd4854aa",
@@ -73486,6 +73636,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73496,9 +73647,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.382000315347223
-        },
-        "_state": "seen"
+          "age_days": 4.423885597812499
+        }
       },
       {
         "event_id": "cat_dbf3128e30cd0f",
@@ -73518,6 +73668,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73528,9 +73679,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.385993370902778
-        },
-        "_state": "seen"
+          "age_days": 4.427878653368055
+        }
       },
       {
         "event_id": "cat_1c2a4463c14f3b",
@@ -73554,6 +73704,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73564,9 +73715,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 4.386444759791667
-        },
-        "_state": "seen"
+          "age_days": 4.4283300422569445
+        }
       },
       {
         "event_id": "cat_b00ad1c61d7949",
@@ -73590,6 +73740,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73600,9 +73751,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.420785037569445
-        },
-        "_state": "seen"
+          "age_days": 4.4626703200347215
+        }
       },
       {
         "event_id": "cat_a44afd28724897",
@@ -73625,6 +73775,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73635,9 +73786,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.421236426458333
-        },
-        "_state": "seen"
+          "age_days": 4.463121708923611
+        }
       },
       {
         "event_id": "cat_baab0d1782e0f6",
@@ -73663,6 +73813,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73673,9 +73824,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.459396148680556
-        },
-        "_state": "seen"
+          "age_days": 4.501281431145833
+        }
       },
       {
         "event_id": "cat_908e946ba96d43",
@@ -73695,6 +73845,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73705,9 +73856,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.479268833865741
-        },
-        "_state": "seen"
+          "age_days": 4.521154116331018
+        }
       },
       {
         "event_id": "cat_0499ec361083e0",
@@ -73727,6 +73877,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73737,9 +73888,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.487116056087963
-        },
-        "_state": "seen"
+          "age_days": 4.529001338553241
+        }
       },
       {
         "event_id": "cat_71394119aae314",
@@ -73759,6 +73909,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73769,9 +73920,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.512868370902778
-        },
-        "_state": "seen"
+          "age_days": 4.5547536533680555
+        }
       },
       {
         "event_id": "cat_b74f7652e7222a",
@@ -73791,6 +73941,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73801,9 +73952,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.548539667199074
-        },
-        "_state": "seen"
+          "age_days": 4.590424949664351
+        }
       },
       {
         "event_id": "cat_c0b889f14d15bc",
@@ -73823,6 +73973,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73833,9 +73984,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.560264204236111
-        },
-        "_state": "seen"
+          "age_days": 4.602149486701388
+        }
       },
       {
         "event_id": "cat_11296a97a0ea32",
@@ -73855,6 +74005,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -73868,9 +74019,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.56983596349537
-        },
-        "_state": "seen"
+          "age_days": 4.611721245960648
+        }
       },
       {
         "event_id": "cat_520ff989eff55d",
@@ -73896,6 +74046,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73906,9 +74057,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.595831333865741
-        },
-        "_state": "seen"
+          "age_days": 4.637716616331018
+        }
       },
       {
         "event_id": "cat_efdf3bf684482b",
@@ -73928,6 +74078,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -73938,9 +74089,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.636803556087963
-        },
-        "_state": "seen"
+          "age_days": 4.67868883855324
+        }
       },
       {
         "event_id": "cat_2c0118b4729353",
@@ -73960,6 +74110,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "updated",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -73973,9 +74124,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.645171611643518
-        },
-        "_state": "updated"
+          "age_days": 4.687056894108796
+        }
       },
       {
         "event_id": "cat_9d1cf1d163d8a5",
@@ -73995,6 +74145,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -74008,9 +74159,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.2906808709027775
-        },
-        "_state": "seen"
+          "age_days": 5.332566153368055
+        }
       },
       {
         "event_id": "cat_bb815b6a4ce676",
@@ -74030,6 +74180,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74040,9 +74191,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.297509574606481
-        },
-        "_state": "seen"
+          "age_days": 5.339394857071759
+        }
       },
       {
         "event_id": "cat_056b17d2f3344d",
@@ -74062,6 +74212,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -74075,9 +74226,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.316653093125
-        },
-        "_state": "seen"
+          "age_days": 5.358538375590277
+        }
       },
       {
         "event_id": "cat_f0dacc4bf6398a",
@@ -74097,6 +74247,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74107,9 +74258,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.317069759791667
-        },
-        "_state": "seen"
+          "age_days": 5.3589550422569445
+        }
       },
       {
         "event_id": "cat_5ea26d40a9291e",
@@ -74129,6 +74279,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74139,9 +74290,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.317729482013889
-        },
-        "_state": "seen"
+          "age_days": 5.359614764479167
+        }
       },
       {
         "event_id": "cat_c704248eaecf92",
@@ -74161,6 +74311,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74171,9 +74322,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.318215593125
-        },
-        "_state": "seen"
+          "age_days": 5.360100875590278
+        }
       },
       {
         "event_id": "cat_f90d9dd47d4248",
@@ -74193,6 +74343,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74203,9 +74354,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.349176241273148
-        },
-        "_state": "seen"
+          "age_days": 5.391061523738426
+        }
       },
       {
         "event_id": "cat_ecc4ebe0ecf46b",
@@ -74236,6 +74386,7 @@
         "has_body": false,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74246,9 +74397,8 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.269477167199073
-        },
-        "_state": "seen"
+          "age_days": 6.311362449664352
+        }
       },
       {
         "event_id": "cat_802f8fe00cdec7",
@@ -74261,6 +74411,7 @@
         "has_body": true,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74271,9 +74422,8 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.350866056087963
-        },
-        "_state": "seen"
+          "age_days": 6.392751338553241
+        }
       },
       {
         "event_id": "cat_b7ccac5a714b83",
@@ -74286,6 +74436,7 @@
         "has_body": true,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74296,9 +74447,8 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.359882259791666
-        },
-        "_state": "seen"
+          "age_days": 6.401767542256945
+        }
       },
       {
         "event_id": "cat_e8403aff42d570",
@@ -74311,6 +74461,7 @@
         "has_body": true,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74321,9 +74472,8 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.363366056087962
-        },
-        "_state": "seen"
+          "age_days": 6.405251338553241
+        }
       },
       {
         "event_id": "cat_3c3e82bc6cb61f",
@@ -74336,6 +74486,7 @@
         "has_body": true,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74346,9 +74497,8 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.367752630162037
-        },
-        "_state": "seen"
+          "age_days": 6.409637912627315
+        }
       },
       {
         "event_id": "cat_0347ca07291aae",
@@ -74361,6 +74511,7 @@
         "has_body": true,
         "body_chars": null,
         "body_backfilled": true,
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -74371,9 +74522,8 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.456224852384259
-        },
-        "_state": "seen"
+          "age_days": 6.498110134849537
+        }
       }
     ],
     "counts": {
@@ -74391,18 +74541,18 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-10-28T03:19:50.027893+00:00",
-      "display": "Oct 27, 11:19 PM EDT",
+      "at": "2026-10-28T04:20:08.821613+00:00",
+      "display": "Oct 28, 12:20 AM EDT",
       "trigger": "scheduled",
       "ok": null,
       "error": "",
-      "age_hours": 0.0010557533333333334
+      "age_hours": 0.0010820736111111112
     },
     "last_success": {
-      "at": "2026-10-28T03:18:28.566443+00:00",
-      "display": "Oct 27, 11:18 PM EDT",
+      "at": "2026-10-28T04:18:06.156575+00:00",
+      "display": "Oct 28, 12:18 AM EDT",
       "trigger": "scheduled",
-      "age_hours": 0.02368393388888889,
+      "age_hours": 0.035155695277777774,
       "ingested": null
     },
     "stale": false,
@@ -74420,10 +74570,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-10-28T03:19:50.312480+00:00",
+      "attempted": "2026-10-28T04:20:09.133254+00:00",
       "as_of": null,
       "as_of_display": "unavailable - feed down",
-      "attempted_display": "Oct 27, 11:19 PM EDT",
+      "attempted_display": "Oct 28, 12:20 AM EDT",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 0,
@@ -74439,64 +74589,64 @@
     },
     "recent": [
       {
-        "started": "2026-10-28T03:19:50.027893+00:00",
-        "display": "Tue 11:19 PM EDT",
+        "started": "2026-10-28T04:20:08.821613+00:00",
+        "display": "Wed 12:20 AM EDT",
         "trigger": "scheduled",
         "ok": null,
         "error": "",
         "ingested": null
       },
       {
+        "started": "2026-10-28T04:18:06.156575+00:00",
+        "display": "Wed 12:18 AM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T04:17:51.467938+00:00",
+        "display": "Wed 12:17 AM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T04:17:39.586161+00:00",
+        "display": "Wed 12:17 AM EDT",
+        "trigger": "scheduled",
+        "ok": false,
+        "error": "ValueError: tuple.index(x): x not in tuple",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T04:17:31.317296+00:00",
+        "display": "Wed 12:17 AM EDT",
+        "trigger": "scheduled",
+        "ok": false,
+        "error": "ValueError: tuple.index(x): x not in tuple",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T04:16:23.309541+00:00",
+        "display": "Wed 12:16 AM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T03:19:50.027893+00:00",
+        "display": "Tue 11:19 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
         "started": "2026-10-28T03:18:28.566443+00:00",
         "display": "Tue 11:18 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T03:17:08.018145+00:00",
-        "display": "Tue 11:17 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T03:16:32.811582+00:00",
-        "display": "Tue 11:16 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T03:16:18.333990+00:00",
-        "display": "Tue 11:16 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T03:15:52.953246+00:00",
-        "display": "Tue 11:15 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T03:05:21.459039+00:00",
-        "display": "Tue 11:05 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T03:04:00.680772+00:00",
-        "display": "Tue 11:04 PM EDT",
         "trigger": "scheduled",
         "ok": true,
         "error": "",

@@ -30,7 +30,14 @@ CRITICAL = "critical"
 WATCHLIST = "watchlist"
 DIGEST = "digest"
 
+# Not a push. Computed, shown on the dashboard, never sent. A filing
+# that resolves to a ticker but that nobody read is information worth
+# displaying and not worth interrupting anyone for; sending it as
+# WATCHLIST is how a notifier earns itself a permanent mute.
+DASHBOARD = "dashboard"
+
 TIERS = (CRITICAL, WATCHLIST, DIGEST)
+ALL_TIERS = TIERS + (DASHBOARD,)
 
 # ntfy priorities. 5 breaks through a silent phone; 1 arrives quietly.
 NTFY_PRIORITY = {CRITICAL: 5, WATCHLIST: 3, DIGEST: 1}
@@ -51,6 +58,7 @@ DEFAULTS = {
     # of the four FDA events promoted to the radar was headline-only.
     "critical_require_primary_evidence": True,
     "critical_require_market_relevant": True,
+    "critical_require_new_or_updated": True,
     "catalyst_min_materiality": 3,
     "catalyst_allowed_freshness": ["new", "updated"],
 }
@@ -97,6 +105,31 @@ def _recent(sent: dict, key: str, hours: int, now: datetime) -> bool:
     except ValueError:
         return False
     return now - when < timedelta(hours=hours)
+
+
+def _any_primary(events: list[dict]) -> bool:
+    """Did anyone read the announcement behind ANY of these events?
+
+    An aggregate entry carries catalyst_events copied out of the event
+    record, so the structural flag travels with them. Absent the flag
+    the answer is no: an event whose retrieval was never recorded has
+    not been shown to have a body.
+    """
+    for ev in events or []:
+        if ev.get("has_body") is True:
+            return True
+        if (ev.get("evidence") or {}).get("primary") is True:
+            return True
+    return False
+
+
+def _any_fresh(events: list[dict], allowed) -> bool:
+    """Is any of this new or updated, rather than seen before?"""
+    allowed = set(allowed or ("new", "updated"))
+    for ev in events or []:
+        if ev.get("_state", ev.get("state", "seen")) in allowed:
+            return True
+    return False
 
 
 def _card(entry: dict, events: list[dict]) -> dict:
@@ -146,6 +179,9 @@ def classify(aggregate: dict, config: dict | None = None) -> list[dict]:
     min_crit = _cfg(config, "critical_min_score")
     min_watch = _cfg(config, "watchlist_min_score")
     min_watch_ind = _cfg(config, "watchlist_min_independent")
+    require_primary = _cfg(config, "critical_require_primary_evidence")
+    require_fresh = _cfg(config, "critical_require_new_or_updated")
+    allowed_states = _cfg(config, "catalyst_allowed_freshness")
 
     for e in aggregate.get("tickers", []):
         tk = e.get("ticker") or ""
@@ -160,15 +196,32 @@ def classify(aggregate: dict, config: dict | None = None) -> list[dict]:
         top_mat = max((ev.get("materiality") or 0 for ev in events), default=0)
         fresh = (e.get("freshness") or {}).get("state", "")
 
-        # CRITICAL: independent work AND a filed event behind it.
+        # CRITICAL: independent work AND a filed event SOMEBODY READ.
+        #
+        # This path had no evidence gate. catalyst_alerts() refused to
+        # promote a headline-only filing while this function, reading
+        # the same events through the aggregate, would hand the same
+        # filing a materiality score and wake the phone with it. A gate
+        # on one of two entry points is not a gate.
         if (indep >= min_ind and total >= min_crit and top_mat >= min_mat):
+            blocked = []
+            if require_primary and not _any_primary(events):
+                blocked.append("headline only")
+            if require_fresh and not _any_fresh(events, allowed_states):
+                blocked.append("previously seen")
+
+            tier = WATCHLIST if blocked else CRITICAL
             out.append({
-                "tier": CRITICAL,
+                "tier": tier,
                 "ticker": tk,
                 "headline": f"{tk} — {indep} independent, filed event "
                             f"(materiality {top_mat}/5)",
                 "detail": (events[0].get("title", "")[:140] if events else ""),
                 "score": round(total, 2),
+                "reason": ("; ".join(blocked) if blocked
+                           else f"{indep} independent, materiality "
+                                f"{top_mat}/5, body read"),
+                "blocked": blocked,
                 "key": key_for("crit", tk, f"{indep}|{top_mat}"),
                 "card": _card(e, events),
             })
@@ -188,7 +241,7 @@ def classify(aggregate: dict, config: dict | None = None) -> list[dict]:
                 "key": key_for("watch", tk, str(indep)),
             })
 
-    out.sort(key=lambda a: (TIERS.index(a["tier"]), -a["score"]))
+    out.sort(key=lambda a: (ALL_TIERS.index(a["tier"]), -a["score"]))
     return out
 
 
@@ -200,7 +253,7 @@ def merge(*groups: list[dict]) -> list[dict]:
     dropped.
     """
     out = [a for g in groups for a in g]
-    out.sort(key=lambda a: (TIERS.index(a["tier"]),
+    out.sort(key=lambda a: (ALL_TIERS.index(a["tier"]),
                             0 if a.get("is_catalyst") else 1,
                             -(a.get("score") or 0)))
     return out
@@ -218,8 +271,12 @@ def select(candidates: list[dict], already_sent: dict | None = None,
     suppressed: list[dict] = []
     per_tier: dict[str, int] = {t: 0 for t in TIERS}
 
+    dashboard_only: list[dict] = []
     for a in candidates:
         tier = a["tier"]
+        if tier == DASHBOARD:
+            dashboard_only.append(a)
+            continue
         hours = cooldowns.get(tier, 12)
         if _recent(sent, a["key"], hours, now):
             suppressed.append({**a, "reason": f"cooldown ({hours}h)"})
@@ -230,7 +287,8 @@ def select(candidates: list[dict], already_sent: dict | None = None,
         per_tier[tier] += 1
         chosen.append(a)
 
-    return {"send": chosen, "suppressed": suppressed, "counts": per_tier}
+    return {"send": chosen, "suppressed": suppressed, "counts": per_tier,
+            "dashboard_only": dashboard_only}
 
 
 def render(alerts: list[dict], site_url: str = "") -> dict[str, Any]:
@@ -282,7 +340,9 @@ def render(alerts: list[dict], site_url: str = "") -> dict[str, Any]:
             else:
                 body += f"\n{site_url}"
         out[tier] = {
-            "title": {CRITICAL: "Confirmed setup",
+            # "Confirmed setup" described a trade. Nothing here
+            # confirms a trade; these are research signals.
+            "title": {CRITICAL: "Verified catalyst",
                       WATCHLIST: "Worth a look",
                       DIGEST: "Digest"}[tier],
             "body": body,
@@ -340,7 +400,14 @@ def catalyst_alerts(radar_result: dict, config: dict | None = None) -> list[dict
         if state not in allowed_fresh:
             blocked.append(f"{state} information")
 
-        tier = WATCHLIST if blocked else CRITICAL
+        # A blocked catalyst is dashboard-only unless it is both read
+        # and material enough to be worth a quiet push on its own.
+        if not blocked:
+            tier = CRITICAL
+        elif evidence.get("primary") and mat >= min_mat:
+            tier = WATCHLIST
+        else:
+            tier = DASHBOARD
         reason = ("; ".join(blocked) if blocked
                   else f"materiality {mat}/5, body read, {state}")
 
@@ -366,5 +433,5 @@ def catalyst_alerts(radar_result: dict, config: dict | None = None) -> list[dict
             "is_catalyst": True,
         })
 
-    out.sort(key=lambda a: (TIERS.index(a["tier"]), -a["score"]))
+    out.sort(key=lambda a: (ALL_TIERS.index(a["tier"]), -a["score"]))
     return out

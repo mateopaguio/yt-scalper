@@ -161,6 +161,78 @@
       "ok": true,
       "error": "",
       "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:16:23.309508+00:00|8",
+      "started": "2026-10-28T04:16:23.309541+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:16:28.017077+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:17:31.317276+00:00|8",
+      "started": "2026-10-28T04:17:31.317296+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:17:35.342988+00:00",
+      "ok": false,
+      "error": "ValueError: tuple.index(x): x not in tuple",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:17:39.586139+00:00|6",
+      "started": "2026-10-28T04:17:39.586161+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:17:43.732098+00:00",
+      "ok": false,
+      "error": "ValueError: tuple.index(x): x not in tuple",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:17:51.467925+00:00|8",
+      "started": "2026-10-28T04:17:51.467938+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:17:55.232697+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:18:06.156536+00:00|7",
+      "started": "2026-10-28T04:18:06.156575+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:18:10.424085+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:20:08.821589+00:00|72",
+      "started": "2026-10-28T04:20:08.821613+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:20:13.182805+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:20:14.146186+00:00|108",
+      "started": "2026-10-28T04:20:14.146202+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:20:18.269027+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T04:20:19.257031+00:00|144",
+      "started": "2026-10-28T04:20:19.257046+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T04:20:23.196862+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
     }
   ]
 }
