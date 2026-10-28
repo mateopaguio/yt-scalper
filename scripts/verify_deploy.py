@@ -163,7 +163,8 @@ def main() -> int:
             gen_json = json.loads(digest.read_text())["generated_at"]
         except Exception:                               # noqa: BLE001
             problems.append("digest.json unreadable")
-    m = re.search(r"(\w{3} \d{2}, \d{2}:\d{2} UTC)", html)
+    # The page shows market time now, not UTC.
+    m = re.search(r"(\w{3} \d{1,2}, \d{1,2}:\d{2}\s*[AP]M\s*[A-Z]{2,4})", html)
     notes.append(f"index stamp   : {m.group(1) if m else '(none found)'}")
     notes.append(f"digest stamp  : {gen_json or '(none)'}")
 
