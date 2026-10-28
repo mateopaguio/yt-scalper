@@ -2110,6 +2110,112 @@ def test_feed_entitlement_is_probed_not_assumed():
             else:
                 os.environ[k] = v
 
+
+def test_signal_states_are_never_merged():
+    """Five different situations were all reported as "not a win"."""
+    from datetime import datetime, timedelta, timezone
+    from scalper import validation as v
+
+    now = datetime(2026, 10, 28, tzinfo=timezone.utc)
+
+    def sig(gen_days_ago, outcome):
+        return {"ticker": "X",
+                "generated_at": (now - timedelta(days=gen_days_ago)).isoformat(),
+                "outcome": outcome}
+
+    cases = {
+        v.RESOLVED: sig(3, {"returns": {"1": {"return_pct": 2.0}},
+                            "relative": {"1": {"vs_spy": 1.0}}}),
+        v.UNRESOLVED: sig(0, None),
+        v.STALE: sig(40, None),
+        v.UNPRICEABLE: sig(3, {"error": "no price data available"}),
+        v.FAILED: sig(3, {"error": "connection reset by peer"}),
+    }
+    for expected, signal in cases.items():
+        got = v.state(signal, "1", now)["state"]
+        assert got == expected, f"{expected} was reported as {got}"
+
+    c = v.census(list(cases.values()), "1", now)
+    assert c["counts"] == {v.RESOLVED: 1, v.UNRESOLVED: 1, v.STALE: 1,
+                           v.UNPRICEABLE: 1, v.FAILED: 1}, c["counts"]
+    # Unresolved and unpriceable are not zeros.
+    resolved = [b["return_pct"] for b in c["buckets"][v.RESOLVED]]
+    assert resolved == [2.0], "an unmeasured signal leaked into the returns"
+
+
+def test_calendar_concentration_outranks_sample_size():
+    """Forty-four signals from one session is one trial, seen 44 times.
+
+    This is the most overconfident number the system can produce: a
+    bootstrap over same-day observations assumes an independence that
+    does not exist and returns an interval several times too narrow.
+    """
+    from scalper import validation as v
+
+    same_day = [{"ticker": f"T{i}", "generated_at": "2026-10-26T12:00:00+00:00",
+                 "outcome": {"entry_date": "2026-10-26",
+                             "returns": {"1": {"return_pct": 2.0}}}}
+                for i in range(44)]
+    conc = v.concentration(same_day)
+    assert conc["distinct_days"] == 1
+    assert conc["effective_n"] == 1
+    assert conc["concentrated"] is True
+
+    # A tight, zero-excluding interval must still NOT become a claim.
+    tight = [1.5 + (i % 3) * 0.1 for i in range(44)]
+    bs = v.bootstrap(tight)
+    assert bs["straddles_zero"] is False, "premise: the interval excludes zero"
+    verdict = v.verdict(tight, {}, conc)
+    assert "No claim" in verdict["claim"], verdict["claim"]
+    assert verdict["is_edge_claim"] is False
+    assert "market day" in verdict["claim"]
+
+    # Spread over many sessions, the same data is allowed further.
+    spread = [{"ticker": "T", "generated_at": f"2026-0{1 + i % 9}-15T12:00:00+00:00",
+               "outcome": {"entry_date": f"2026-0{1 + i % 9}-15",
+                           "returns": {"1": {"return_pct": 1.0}}}}
+              for i in range(44)]
+    assert v.concentration(spread)["concentrated"] is False
+
+
+def test_small_samples_refuse_to_report_a_rate():
+    from scalper import validation as v
+
+    assert v.wilson(12, 20)["reportable"] is False
+    assert "below" in v.wilson(12, 20)["note"]
+    assert v.wilson(120, 200)["reportable"] is True
+    # The interval must widen as n shrinks, not stay put.
+    narrow = v.wilson(120, 200)
+    wide = v.wilson(12, 20)
+    assert (wide["high"] - wide["low"]) > (narrow["high"] - narrow["low"])
+    assert v.verdict([1.0] * 5, {})["is_edge_claim"] is False
+    assert "No claim" in v.verdict([1.0] * 5, {})["claim"]
+
+
+def test_out_of_sample_split_is_by_date_not_random():
+    """Shuffling price-derived observations lets the future inform the past."""
+    from scalper import validation as v
+
+    sigs = [{"ticker": "T", "generated_at": f"2026-10-{d:02d}T12:00:00+00:00"}
+            for d in range(1, 21)]
+    out = v.split(sigs, fraction=0.7)
+    ins, oos = out["in_sample"], out["out_of_sample"]
+    assert len(ins) == 14 and len(oos) == 6
+    assert max(s["generated_at"] for s in ins) < min(s["generated_at"] for s in oos), \
+        "an out-of-sample signal predates an in-sample one"
+
+
+def test_overlapping_signals_are_counted_as_dependent():
+    from scalper import validation as v
+
+    sigs = [{"ticker": "AAA", "generated_at": "2026-10-26T12:00:00+00:00"},
+            {"ticker": "AAA", "generated_at": "2026-10-27T12:00:00+00:00"},
+            {"ticker": "BBB", "generated_at": "2026-01-05T12:00:00+00:00"}]
+    o = v.overlap(sigs, hold_days=5)
+    assert o["overlapping"] == 1, o
+    assert o["examples"][0]["ticker"] == "AAA"
+    assert o["independent_estimate"] == 2
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -2261,6 +2367,16 @@ def main() -> int:
           test_holidays_are_not_reported_as_missing_data)
     check("B: feed entitlement is probed, not assumed",
           test_feed_entitlement_is_probed_not_assumed)
+    check("C: signal states are never merged",
+          test_signal_states_are_never_merged)
+    check("C: calendar concentration outranks sample size",
+          test_calendar_concentration_outranks_sample_size)
+    check("C: small samples refuse to report a rate",
+          test_small_samples_refuse_to_report_a_rate)
+    check("C: out-of-sample split is by date",
+          test_out_of_sample_split_is_by_date_not_random)
+    check("C: overlapping signals counted as dependent",
+          test_overlapping_signals_are_counted_as_dependent)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0

@@ -25,6 +25,7 @@ from scalper import (
     health,
     alert_state,
     prices,
+    validation,
     radar,
     creators,
     config as cfgmod,
@@ -188,6 +189,30 @@ def build_digest(
     # Per-ticker price-data status, not one global "feed healthy" flag
     # that stays true right up until it is not.
     digest["data_quality"] = prices.quality_report()
+
+    # What the record actually supports, stated so it cannot be
+    # overread. Separate from the signal log on purpose: the log says
+    # what happened, this says what may be concluded from it.
+    _sigs = signal_log.load().get("signals", [])
+    _census = validation.census(_sigs, "1")
+    _conc = validation.concentration(_sigs)
+    _rel = [b["relative"].get("vs_spy") for b in _census["buckets"]["resolved"]
+            if b.get("relative")]
+    _rel = [x for x in _rel if x is not None]
+    _raw = [b.get("return_pct") for b in _census["buckets"]["resolved"]
+            if b.get("return_pct") is not None]
+    digest["validation"] = {
+        "census": _census["counts"],
+        "buckets": {k: v[:12] for k, v in _census["buckets"].items()},
+        "concentration": _conc,
+        "raw": validation.bootstrap(_raw),
+        "vs_spy": validation.bootstrap(_rel),
+        "beat_spy": validation.wilson(sum(1 for x in _rel if x > 0), len(_rel)),
+        "overlap": validation.overlap(_sigs),
+        "split": {k: len(v) for k, v in validation.split(_sigs).items()
+                  if isinstance(v, list)},
+        "verdict": validation.verdict(_rel, _census["counts"], _conc),
+    }
     digest["radar"] = radar.build(
         catalyst_events or [], changes=digest.get("catalyst_changes"))
     digest["health"] = health.snapshot(

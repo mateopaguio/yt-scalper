@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:32:47.887710+00:00",
+  "generated_at": "2026-10-28T07:35:57.361091+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -68679,7 +68679,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-28T07:32:47.972802+00:00",
+    "last_run": "2026-10-28T07:35:57.483018+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -72205,6 +72205,411 @@
       }
     }
   },
+  "validation": {
+    "census": {
+      "resolved": 44,
+      "unresolved": 96,
+      "stale": 0,
+      "unpriceable": 6,
+      "failed": 0
+    },
+    "buckets": {
+      "resolved": [
+        {
+          "ticker": "CRWV",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 7.94,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 7.94,
+            "spy_pct": 0.561,
+            "vs_qqq": 6.669,
+            "vs_spy": 7.379
+          }
+        },
+        {
+          "ticker": "AAPL",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 0.93,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 0.93,
+            "spy_pct": 0.561,
+            "vs_qqq": -0.341,
+            "vs_spy": 0.369
+          }
+        },
+        {
+          "ticker": "LRCX",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 1.41,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 1.41,
+            "spy_pct": 0.561,
+            "vs_qqq": 0.139,
+            "vs_spy": 0.849
+          }
+        },
+        {
+          "ticker": "NFLX",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": -2.16,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": -2.16,
+            "spy_pct": 0.561,
+            "vs_qqq": -3.431,
+            "vs_spy": -2.721
+          }
+        },
+        {
+          "ticker": "MSFT",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": -0.24,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": -0.24,
+            "spy_pct": 0.561,
+            "vs_qqq": -1.511,
+            "vs_spy": -0.801
+          }
+        },
+        {
+          "ticker": "IBM",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": -1.26,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": -1.26,
+            "spy_pct": 0.561,
+            "vs_qqq": -2.531,
+            "vs_spy": -1.821
+          }
+        },
+        {
+          "ticker": "NBIS",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 11.22,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 11.22,
+            "spy_pct": 0.561,
+            "vs_qqq": 9.949,
+            "vs_spy": 10.659
+          }
+        },
+        {
+          "ticker": "AMD",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 5.45,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 5.45,
+            "spy_pct": 0.561,
+            "vs_qqq": 4.179,
+            "vs_spy": 4.889
+          }
+        },
+        {
+          "ticker": "GOOGL",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 1.19,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 1.19,
+            "spy_pct": 0.561,
+            "vs_qqq": -0.081,
+            "vs_spy": 0.629
+          }
+        },
+        {
+          "ticker": "T",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 0.43,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 0.43,
+            "spy_pct": 0.561,
+            "vs_qqq": -0.841,
+            "vs_spy": -0.131
+          }
+        },
+        {
+          "ticker": "TMUS",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": -0.07,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": -0.07,
+            "spy_pct": 0.561,
+            "vs_qqq": -1.341,
+            "vs_spy": -0.631
+          }
+        },
+        {
+          "ticker": "WDC",
+          "state": "resolved",
+          "why": "",
+          "age_days": 1,
+          "return_pct": 6.95,
+          "relative": {
+            "qqq_pct": 1.271,
+            "raw_pct": 6.95,
+            "spy_pct": 0.561,
+            "vs_qqq": 5.679,
+            "vs_spy": 6.389
+          }
+        }
+      ],
+      "unresolved": [
+        {
+          "ticker": "SOFI",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "RDDT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "NOW",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "SNDK",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "SMH",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "QS",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "CRWD",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "CPAY",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "MRNA",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "DECK",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "NEM",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        },
+        {
+          "ticker": "OMC",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 1
+        }
+      ],
+      "stale": [],
+      "unpriceable": [
+        {
+          "ticker": "META",
+          "state": "unpriceable",
+          "why": "no price data available",
+          "age_days": 1
+        },
+        {
+          "ticker": "NVDA",
+          "state": "unpriceable",
+          "why": "no price data available",
+          "age_days": 1
+        },
+        {
+          "ticker": "TSLA",
+          "state": "unpriceable",
+          "why": "no price data available",
+          "age_days": 1
+        },
+        {
+          "ticker": "ETH",
+          "state": "unpriceable",
+          "why": "not a US equity - no price source configured",
+          "age_days": 1
+        },
+        {
+          "ticker": "BTC",
+          "state": "unpriceable",
+          "why": "not a US equity - no price source configured",
+          "age_days": 1
+        },
+        {
+          "ticker": "HYPE",
+          "state": "unpriceable",
+          "why": "not a US equity - no price source configured",
+          "age_days": 1
+        }
+      ],
+      "failed": []
+    },
+    "concentration": {
+      "observations": 49,
+      "distinct_days": 2,
+      "by_day": {
+        "2026-10-26": 44,
+        "2026-10-27": 5
+      },
+      "largest_day_share": 0.898,
+      "effective_n": 2,
+      "concentrated": true,
+      "note": "Observations clustered on a few sessions share one market regime. The effective sample size is closer to the number of distinct days than to the number of signals."
+    },
+    "raw": {
+      "mean": 2.137,
+      "low": 1.137,
+      "high": 3.169,
+      "n": 44,
+      "reportable": true,
+      "straddles_zero": false,
+      "note": ""
+    },
+    "vs_spy": {
+      "mean": 1.576,
+      "low": 0.576,
+      "high": 2.608,
+      "n": 44,
+      "reportable": true,
+      "straddles_zero": false,
+      "note": ""
+    },
+    "beat_spy": {
+      "rate": 56.8,
+      "low": 42.2,
+      "high": 70.3,
+      "n": 44,
+      "reportable": true,
+      "note": ""
+    },
+    "overlap": {
+      "overlapping": 16,
+      "examples": [
+        {
+          "ticker": "META",
+          "first": "2026-10-26",
+          "second": "2026-10-26",
+          "days_apart": 0
+        },
+        {
+          "ticker": "TSLA",
+          "first": "2026-10-26",
+          "second": "2026-10-27",
+          "days_apart": 1
+        },
+        {
+          "ticker": "MSFT",
+          "first": "2026-10-26",
+          "second": "2026-10-27",
+          "days_apart": 1
+        },
+        {
+          "ticker": "NBIS",
+          "first": "2026-10-26",
+          "second": "2026-10-26",
+          "days_apart": 0
+        },
+        {
+          "ticker": "NBIS",
+          "first": "2026-10-26",
+          "second": "2026-10-26",
+          "days_apart": 0
+        },
+        {
+          "ticker": "AMZN",
+          "first": "2026-10-26",
+          "second": "2026-10-26",
+          "days_apart": 0
+        },
+        {
+          "ticker": "AMZN",
+          "first": "2026-10-26",
+          "second": "2026-10-27",
+          "days_apart": 1
+        },
+        {
+          "ticker": "CVX",
+          "first": "2026-10-26",
+          "second": "2026-10-27",
+          "days_apart": 1
+        }
+      ],
+      "independent_estimate": 130,
+      "note": "Signals closer together than the hold period share price bars, so they are not independent observations."
+    },
+    "split": {
+      "in_sample": 102,
+      "out_of_sample": 44
+    },
+    "verdict": {
+      "claim": "No claim. 44 resolved observation(s), but they span only 2 market day(s) - one regime observed many times, not many trials. The effective sample is the number of days.",
+      "resolved": 44,
+      "census": {
+        "resolved": 44,
+        "unresolved": 96,
+        "stale": 0,
+        "unpriceable": 6,
+        "failed": 0
+      },
+      "effective_n": 2,
+      "is_edge_claim": false
+    }
+  },
   "radar": {
     "upcoming": [],
     "priority": [
@@ -72249,7 +72654,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.5004235409375
+          "age_days": 0.5026317911689815
         }
       },
       {
@@ -72293,7 +72698,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.4574374298263888
+          "age_days": 1.4596456800578703
         }
       },
       {
@@ -72352,7 +72757,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 1.6224721520486112
+          "age_days": 1.6246804022800927
         }
       },
       {
@@ -72396,7 +72801,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.7809443742708333
+          "age_days": 1.7831526245023148
         }
       }
     ],
@@ -72430,7 +72835,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.4027962261226852
+          "age_days": 0.40500447635416664
         }
       },
       {
@@ -72466,7 +72871,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5610369668634259
+          "age_days": 0.5632452170949074
         }
       },
       {
@@ -72498,7 +72903,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6532013187152778
+          "age_days": 0.6554095689467593
         }
       },
       {
@@ -72533,7 +72938,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.6797406705671296
+          "age_days": 0.6819489207986111
         }
       },
       {
@@ -72566,7 +72971,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6828193742708333
+          "age_days": 0.6850276245023148
         }
       },
       {
@@ -72598,7 +73003,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6833633557523148
+          "age_days": 0.6855716059837963
         }
       },
       {
@@ -72636,7 +73041,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.7588494668634259
+          "age_days": 0.7610577170949074
         }
       },
       {
@@ -72674,7 +73079,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.7588494668634259
+          "age_days": 0.7610577170949074
         }
       },
       {
@@ -72716,7 +73121,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.7588610409375
+          "age_days": 0.7610692911689815
         }
       },
       {
@@ -72754,7 +73159,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.7588610409375
+          "age_days": 0.7610692911689815
         }
       },
       {
@@ -72792,7 +73197,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.7588610409375
+          "age_days": 0.7610692911689815
         }
       },
       {
@@ -72830,7 +73235,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.7588726150115741
+          "age_days": 0.7610808652430555
         }
       },
       {
@@ -72868,7 +73273,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.7588957631597222
+          "age_days": 0.7611040133912037
         }
       },
       {
@@ -72906,7 +73311,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.7592082631597222
+          "age_days": 0.7614165133912038
         }
       },
       {
@@ -72938,7 +73343,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.7713494668634259
+          "age_days": 0.7735577170949074
         }
       },
       {
@@ -72974,7 +73379,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.7770207631597222
+          "age_days": 0.7792290133912037
         }
       },
       {
@@ -73016,7 +73421,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.1478193742708334
+          "age_days": 1.1500276245023149
         }
       },
       {
@@ -73048,7 +73453,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.448398077974537
+          "age_days": 1.4506063282060184
         }
       },
       {
@@ -73080,7 +73485,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4798564113078703
+          "age_days": 1.4820646615393518
         }
       },
       {
@@ -73112,7 +73517,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4803193742708334
+          "age_days": 1.482527624502315
         }
       },
       {
@@ -73154,7 +73559,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.5479003927893518
+          "age_days": 1.5501086430208333
         }
       },
       {
@@ -73189,7 +73594,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6486642816782406
+          "age_days": 1.6508725319097222
         }
       },
       {
@@ -73221,7 +73626,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6517314113078703
+          "age_days": 1.6539396615393518
         }
       },
       {
@@ -73253,7 +73658,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.654300855752315
+          "age_days": 1.6565091059837962
         }
       },
       {
@@ -73285,7 +73690,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.658722152048611
+          "age_days": 1.6609304022800926
         }
       },
       {
@@ -73317,7 +73722,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6908517816782407
+          "age_days": 1.6930600319097222
         }
       },
       {
@@ -73349,7 +73754,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7565462261226852
+          "age_days": 1.7587544763541667
         }
       },
       {
@@ -73383,7 +73788,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7657360409375
+          "age_days": 1.7679442911689816
         }
       },
       {
@@ -73419,7 +73824,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7803540964930555
+          "age_days": 1.782562346724537
         }
       },
       {
@@ -73451,7 +73856,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.780411966863426
+          "age_days": 1.7826202170949075
         }
       },
       {
@@ -73483,7 +73888,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7809096520486112
+          "age_days": 1.7831179022800927
         }
       },
       {
@@ -73520,7 +73925,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.7809790964930556
+          "age_days": 1.783187346724537
         }
       },
       {
@@ -73552,7 +73957,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7853540964930554
+          "age_days": 1.787562346724537
         }
       },
       {
@@ -73585,7 +73990,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7899837261226852
+          "age_days": 1.7921919763541667
         }
       },
       {
@@ -73617,7 +74022,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.794636503900463
+          "age_days": 1.7968447541319446
         }
       },
       {
@@ -73649,7 +74054,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.7981434483449075
+          "age_days": 1.800351698576389
         }
       },
       {
@@ -73682,7 +74087,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.4567545594560185
+          "age_days": 4.4589628096875
         }
       },
       {
@@ -73714,7 +74119,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.5576689113078706
+          "age_days": 4.559877161539352
         }
       },
       {
@@ -73746,7 +74151,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.561661966863427
+          "age_days": 4.563870217094907
         }
       },
       {
@@ -73782,7 +74187,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 4.562113355752315
+          "age_days": 4.564321605983796
         }
       },
       {
@@ -73818,7 +74223,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.596453633530093
+          "age_days": 4.598661883761574
         }
       },
       {
@@ -73853,7 +74258,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.596905022418982
+          "age_days": 4.599113272650463
         }
       },
       {
@@ -73891,7 +74296,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.635064744641204
+          "age_days": 4.637272994872685
         }
       },
       {
@@ -73923,7 +74328,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.654937429826389
+          "age_days": 4.65714568005787
         }
       },
       {
@@ -73955,7 +74360,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.662784652048612
+          "age_days": 4.664992902280092
         }
       },
       {
@@ -73987,7 +74392,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.688536966863426
+          "age_days": 4.690745217094907
         }
       },
       {
@@ -74019,7 +74424,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.724208263159722
+          "age_days": 4.726416513391204
         }
       },
       {
@@ -74051,7 +74456,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.7359328001967596
+          "age_days": 4.738141050428241
         }
       },
       {
@@ -74086,7 +74491,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.745504559456019
+          "age_days": 4.7477128096875
         }
       },
       {
@@ -74124,7 +74529,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.77149992982639
+          "age_days": 4.77370818005787
         }
       },
       {
@@ -74156,7 +74561,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.812472152048612
+          "age_days": 4.814680402280093
         }
       },
       {
@@ -74191,7 +74596,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.820840207604167
+          "age_days": 4.8230484578356485
         }
       },
       {
@@ -74226,7 +74631,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.466349466863426
+          "age_days": 5.468557717094908
         }
       },
       {
@@ -74258,7 +74663,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.47317817056713
+          "age_days": 5.475386420798611
         }
       },
       {
@@ -74293,7 +74698,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.4923216890856486
+          "age_days": 5.49452993931713
         }
       },
       {
@@ -74325,7 +74730,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.492738355752315
+          "age_days": 5.494946605983796
         }
       },
       {
@@ -74357,7 +74762,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.493398077974537
+          "age_days": 5.495606328206018
         }
       },
       {
@@ -74389,7 +74794,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.493884189085648
+          "age_days": 5.496092439317129
         }
       },
       {
@@ -74421,7 +74826,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.524844837233797
+          "age_days": 5.527053087465278
         }
       },
       {
@@ -74464,7 +74869,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.445145763159722
+          "age_days": 6.4473540133912035
         }
       },
       {
@@ -74489,7 +74894,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.526534652048611
+          "age_days": 6.528742902280093
         }
       },
       {
@@ -74514,7 +74919,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.535550855752315
+          "age_days": 6.537759105983796
         }
       },
       {
@@ -74539,7 +74944,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.539034652048612
+          "age_days": 6.541242902280093
         }
       },
       {
@@ -74564,7 +74969,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.543421226122685
+          "age_days": 6.545629476354167
         }
       },
       {
@@ -74589,7 +74994,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.631893448344908
+          "age_days": 6.634101698576389
         }
       }
     ],
@@ -74608,18 +75013,18 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-10-28T07:32:47.729714+00:00",
-      "display": "Oct 28, 3:32 AM EDT",
+      "at": "2026-10-28T07:35:57.120236+00:00",
+      "display": "Oct 28, 3:35 AM EDT",
       "trigger": "scheduled",
       "ok": null,
       "error": "",
-      "age_hours": 0.0010738477777777777
+      "age_hours": 0.0014637516666666666
     },
     "last_success": {
-      "at": "2026-10-28T04:55:21.077519+00:00",
-      "display": "Oct 28, 12:55 AM EDT",
+      "at": "2026-10-28T07:32:47.729714+00:00",
+      "display": "Oct 28, 3:32 AM EDT",
       "trigger": "scheduled",
-      "age_hours": 2.6251439019444445,
+      "age_hours": 0.054072230000000006,
       "ingested": null
     },
     "stale": false,
@@ -74637,10 +75042,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-10-28T07:32:47.972802+00:00",
+      "attempted": "2026-10-28T07:35:57.483018+00:00",
       "as_of": null,
       "as_of_display": "unavailable - feed down",
-      "attempted_display": "Oct 28, 3:32 AM EDT",
+      "attempted_display": "Oct 28, 3:35 AM EDT",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 0,
@@ -74656,10 +75061,18 @@
     },
     "recent": [
       {
+        "started": "2026-10-28T07:35:57.120236+00:00",
+        "display": "Wed 3:35 AM EDT",
+        "trigger": "scheduled",
+        "ok": null,
+        "error": "",
+        "ingested": null
+      },
+      {
         "started": "2026-10-28T07:32:47.729714+00:00",
         "display": "Wed 3:32 AM EDT",
         "trigger": "scheduled",
-        "ok": null,
+        "ok": true,
         "error": "",
         "ingested": null
       },
@@ -74709,14 +75122,6 @@
         "trigger": "scheduled",
         "ok": true,
         "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T04:17:39.586161+00:00",
-        "display": "Wed 12:17 AM EDT",
-        "trigger": "scheduled",
-        "ok": false,
-        "error": "ValueError: tuple.index(x): x not in tuple",
         "ingested": null
       }
     ],

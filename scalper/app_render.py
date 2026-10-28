@@ -444,6 +444,62 @@ def _why_block(entry: dict, row: dict, new_ids: set, upd_ids: set) -> str:
 
 
 
+
+def _validation_html(v: dict) -> str:
+    """What the record supports - and, mostly, what it does not."""
+    if not v:
+        return ""
+    out = ['<h2 class="sec">What the record supports</h2>']
+    verdict = v.get("verdict") or {}
+    out.append(f'<div class="note" style="font-size:13px">'
+               f'{e(verdict.get("claim", ""))}</div>')
+
+    c = v.get("census") or {}
+    out.append('<div class="hpanel" style="margin-top:12px">')
+    labels = {"resolved": "Resolved", "unresolved": "Not yet due",
+              "stale": "Stale", "unpriceable": "Unpriceable",
+              "failed": "Measurement failed"}
+    for k, label in labels.items():
+        if c.get(k):
+            out.append(f'<div class="hrow"><span class="hk">{e(label)}</span>'
+                       f'<span class="hv">{c[k]}</span></div>')
+
+    conc = v.get("concentration") or {}
+    if conc.get("observations"):
+        out.append(f'<div class="hrow"><span class="hk">Market days</span>'
+                   f'<span class="hv">{conc.get("distinct_days")}</span>'
+                   f'<span class="hn">effective sample, not '
+                   f'{conc.get("observations")} signals</span></div>')
+    ov = v.get("overlap") or {}
+    if ov.get("overlapping"):
+        out.append(f'<div class="hrow"><span class="hk">Overlapping</span>'
+                   f'<span class="hv">{ov["overlapping"]}</span>'
+                   f'<span class="hn">share price bars; not independent'
+                   f'</span></div>')
+
+    for key, label in (("raw", "Mean return"), ("vs_spy", "Mean vs SPY")):
+        b = v.get(key) or {}
+        if b.get("mean") is not None and b.get("low") is not None:
+            out.append(
+                f'<div class="hrow"><span class="hk">{e(label)}</span>'
+                f'<span class="hv">{b["mean"]}%</span>'
+                f'<span class="hn">95% interval [{b["low"]}, {b["high"]}], '
+                f'n={b["n"]}{" - includes zero" if b.get("straddles_zero") else ""}'
+                f'</span></div>')
+    w = v.get("beat_spy") or {}
+    if w.get("rate") is not None:
+        out.append(f'<div class="hrow"><span class="hk">Beat SPY</span>'
+                   f'<span class="hv">{w["rate"]}%</span>'
+                   f'<span class="hn">[{w["low"]}, {w["high"]}], n={w["n"]}'
+                   f'{" - " + w["note"] if w.get("note") else ""}</span></div>')
+    out.append('</div>')
+    out.append('<div class="note">Research measurement, not a '
+               'recommendation. Intervals assume independent '
+               'observations; where signals cluster on one session they '
+               'are not, and the interval is too narrow.</div>')
+    return "".join(out)
+
+
 def _scalp_sections(digest: dict) -> str:
     """Watchlist, rejections, and what the simulator has actually closed.
 
@@ -845,9 +901,10 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
     radar = radar_body or '<div class="empty">No catalysts this run.</div>'
 
     # ---- Performance
+    perf_validation = _validation_html(digest.get("validation") or {})
     health = digest.get("price_health") or {}
     fn = digest.get("funnel") or {}
-    perf = []
+    perf = [perf_validation]
     if fn.get("counts"):
         top = max(fn["counts"].values()) or 1
         lbl = {"mentioned": "Mentioned", "valid_symbol": "Valid symbol",

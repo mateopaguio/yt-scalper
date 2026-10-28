@@ -251,6 +251,15 @@
       "ok": true,
       "error": "",
       "ingested": null
+    },
+    {
+      "id": "2026-10-28T07:35:57.120188+00:00|9",
+      "started": "2026-10-28T07:35:57.120236+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T07:36:02.984639+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
     }
   ]
 }
