@@ -28,6 +28,33 @@ STALE_DAYS = 7
 MIN_MATERIALITY = 2
 
 
+def primary_evidence(event: dict) -> dict:
+    """Did anyone actually read the announcement, or just its headline?
+
+    Resolving "Pfizer" to PFE proves the company is listed. It proves
+    nothing about what the filing says. All four events this gate was
+    written for were headline-only: the FDA pages were never fetched,
+    so "FDA posted a warning letter addressed to Amgen" is the whole
+    of what is known - not the violation, not the scope, not whether
+    it touches anything that moves the stock.
+
+    Headline-only events stay on the radar, because they are real
+    information. They are barred from waking a phone.
+    """
+    has_body = event.get("has_body")
+    if has_body is None:
+        return {"primary": False, "grade": "unknown",
+                "why": "body retrieval was not recorded for this event"}
+    if has_body:
+        n = event.get("body_chars")
+        return {"primary": True, "grade": "body read",
+                "why": f"{n} characters of announcement text" if n
+                       else "announcement text retrieved"}
+    return {"primary": False, "grade": "headline only",
+            "why": "the announcement body was never retrieved; only the "
+                   "headline is known"}
+
+
 def _dedup_key(event: dict) -> str:
     """Two events are the same story if they say the same thing."""
     title = re.sub(r"[^a-z0-9]+", " ",
@@ -64,6 +91,7 @@ def classify(event: dict, now: datetime | None = None,
     now = now or datetime.now(timezone.utc)
     findings = event.get("findings") or {}
     verified = verify_companies(event, master)
+    evidence = primary_evidence(event)
 
     try:
         materiality = int(findings.get("materiality") or 0)
@@ -86,13 +114,13 @@ def classify(event: dict, now: datetime | None = None,
     # if the filing that announced it is old, because the thing itself
     # has not happened yet.
     if upcoming and verified:
-        return {"bucket": "upcoming", "reason": "", "verified": verified,
+        return {"bucket": "upcoming", "reason": "", "verified": verified, "evidence": evidence,
                 "materiality": materiality, "age_days": age_days}
     if not verified:
         return {"bucket": "archive",
                 "reason": "no verified public company behind it",
-                "verified": [], "materiality": materiality,
-                "age_days": age_days}
+                "verified": [], "evidence": evidence,
+                "materiality": materiality, "age_days": age_days}
     if not findings.get("is_market_relevant"):
         return {"bucket": "archive", "reason": "not market relevant",
                 "verified": verified, "materiality": materiality,
@@ -108,10 +136,11 @@ def classify(event: dict, now: datetime | None = None,
                 "verified": verified, "materiality": materiality,
                 "age_days": age_days}
     if upcoming:
-        return {"bucket": "upcoming", "reason": "", "verified": verified,
+        return {"bucket": "upcoming", "reason": "", "verified": verified, "evidence": evidence,
                 "materiality": materiality, "age_days": age_days}
     return {"bucket": "priority", "reason": "", "verified": verified,
-            "materiality": materiality, "age_days": age_days}
+            "evidence": evidence, "materiality": materiality,
+            "age_days": age_days}
 
 
 def build(events: list[dict], now: datetime | None = None,
@@ -162,6 +191,10 @@ def build(events: list[dict], now: datetime | None = None,
                                    e.get("published") or ""), reverse=False)
         out[k].sort(key=lambda e: e.get("published") or "", reverse=True)
 
+    promoted = out["upcoming"] + out["priority"]
+    headline_only = [ev for ev in promoted
+                     if not ev["_radar"]["evidence"]["primary"]]
+
     reasons: dict[str, int] = {}
     for ev in out["archive"]:
         r = ev["_radar"]["reason"]
@@ -173,6 +206,8 @@ def build(events: list[dict], now: datetime | None = None,
         "archive": out["archive"],
         "counts": {k: len(v) for k, v in out.items()},
         "duplicates_collapsed": duplicates,
+        "headline_only_promoted": len(headline_only),
+        "primary_source_backed": len(promoted) - len(headline_only),
         "archive_reasons": reasons,
         "note": ("Promotion requires a company that resolves to a listed "
                  "ticker. Archived events are kept, with the reason they "

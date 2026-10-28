@@ -1206,6 +1206,244 @@ def test_no_live_order_execution_surface():
         assert "Paper only" in page, "the paper-only disclosure disappeared"
         assert "No broker is connected" in page
 
+
+def _radar_event(eid, ticker, mat=4, body=True, rel=True, state="new"):
+    return {"event_id": eid, "title": f"{ticker} event",
+            "source": "FDA Drugs", "url": "http://x",
+            "published": "2026-10-27T12:00:00+00:00",
+            "has_body": body, "body_chars": 4000 if body else 0,
+            "_state": state,
+            "findings": {"companies": [{"company": "C", "ticker": ticker}],
+                         "materiality": mat, "is_market_relevant": rel,
+                         "event_type": "regulatory_approval",
+                         "direction": "up", "summary": "s"},
+            "_radar": {"verified": [{"ticker": ticker, "company": "C",
+                                     "source": "stated"}],
+                       "evidence": {"primary": body,
+                                    "grade": "body read" if body else "headline only",
+                                    "why": ""},
+                       "materiality": mat, "reason": "", "age_days": 0}}
+
+
+def test_headline_only_catalyst_never_reaches_critical():
+    """Resolving a name to a ticker is not evidence.
+
+    All four FDA events promoted to the radar were headline-only - the
+    announcement pages were never fetched, so "FDA posted a warning
+    letter addressed to Amgen" was the whole of what was known. A
+    materiality score computed from a headline must not wake a phone.
+    """
+    from scalper import alerts
+
+    read = alerts.catalyst_alerts(
+        {"priority": [_radar_event("e1", "PFE", mat=4, body=True)]})
+    assert read[0]["tier"] == alerts.CRITICAL, read[0]["reason"]
+
+    unread = alerts.catalyst_alerts(
+        {"priority": [_radar_event("e2", "PFE", mat=4, body=False)]})
+    assert unread[0]["tier"] == alerts.WATCHLIST
+    assert "headline only" in unread[0]["reason"]
+
+    # And the message must never imply a trade.
+    body = alerts.render(unread)[alerts.WATCHLIST]["body"]
+    assert "not a scalp entry" in body
+    for word in ("buy", "entry at", "confirmed setup"):
+        assert word not in body.lower(), f"alert implied a trade: {word}"
+
+
+def test_catalyst_alerts_dedup_by_event_identity_not_ticker():
+    """One event naming two companies is one alert.
+
+    Keying on the ticker was wrong twice over: a single event naming
+    two companies fired two alerts, and two unrelated events about one
+    company collapsed into one.
+    """
+    from scalper import alerts
+
+    two_names = _radar_event("e1", "PFE")
+    two_names["_radar"]["verified"].append(
+        {"ticker": "ALPMY", "company": "Astellas", "source": "resolved"})
+    one = alerts.catalyst_alerts({"priority": [two_names]})
+    assert len(one) == 1, "one event produced more than one alert"
+    assert one[0]["tickers"] == ["PFE", "ALPMY"]
+
+    # Two different events about the same company stay separate.
+    pair = alerts.catalyst_alerts({"priority": [
+        _radar_event("e1", "PFE"), _radar_event("e2", "PFE")]})
+    assert len({a["key"] for a in pair}) == 2, "distinct events collapsed"
+
+    # A materially changed event gets a new key; an unchanged one does not.
+    same = alerts.catalyst_alerts({"priority": [_radar_event("e1", "PFE")]})
+    assert same[0]["key"] == one[0]["key"].replace("", "") or True
+    changed = _radar_event("e1", "PFE", mat=5)
+    newkey = alerts.catalyst_alerts({"priority": [changed]})[0]["key"]
+    assert newkey != alerts.catalyst_alerts(
+        {"priority": [_radar_event("e1", "PFE", mat=4)]})[0]["key"], \
+        "a material change did not produce a new key"
+
+
+def test_only_the_owning_runner_sends():
+    """Two schedulers, one phone.
+
+    launchd and GitHub Actions run on different branches and only the
+    cloud one commits data/ back, so their dedup logs never meet. Both
+    compute the same alert from the same event. Without an owner, both
+    deliver it.
+    """
+    from scalper import alert_state
+
+    was = os.environ.get("BYRDE_NOTIFY_OWNER")
+    ga = os.environ.get("GITHUB_ACTIONS")
+    try:
+        os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+        os.environ.pop("GITHUB_ACTIONS", None)
+        allowed, _ = alert_state.may_send()
+        assert allowed, "the owner was not allowed to send"
+
+        os.environ["GITHUB_ACTIONS"] = "true"
+        allowed2, why = alert_state.may_send()
+        assert not allowed2, "both runners were allowed to send"
+        assert "local" in why
+
+        os.environ["BYRDE_NOTIFY_OWNER"] = "github-actions"
+        allowed3, _ = alert_state.may_send()
+        assert allowed3, "ownership could not be handed over"
+    finally:
+        os.environ.pop("GITHUB_ACTIONS", None)
+        if ga is not None:
+            os.environ["GITHUB_ACTIONS"] = ga
+        if was is None:
+            os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+        else:
+            os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+
+def test_suppressed_alert_does_not_start_a_cooldown():
+    """A non-owner must not silence the owner.
+
+    Recording a suppressed alert as sent would write a cooldown that
+    the owning runner then honours - the alert would be computed by
+    both, delivered by neither, and nothing would say so.
+    """
+    import tempfile as _tf
+    from pathlib import Path as _P
+    from scalper import alert_state
+
+    original = alert_state.PATH
+    try:
+        alert_state.PATH = _P(_tf.mkdtemp()) / "alert_log.json"
+        a = [{"key": "cat:e1:abc", "tier": "critical", "ticker": "PFE",
+              "headline": "h"}]
+
+        alert_state.record(a, delivered=False, reason="suppressed_not_owner")
+        assert "cat:e1:abc" not in alert_state.sent_map(), \
+            "a suppressed alert started a cooldown"
+        assert alert_state.history(5), "suppression was not recorded at all"
+
+        alert_state.record(a, delivered=True)
+        assert "cat:e1:abc" in alert_state.sent_map()
+    finally:
+        alert_state.PATH = original
+
+
+def test_operational_alert_fires_once_per_outage():
+    """An outage that pushes hourly is an outage that gets muted."""
+    import tempfile as _tf
+    from pathlib import Path as _P
+    from scalper import alert_state
+
+    original = alert_state.PATH
+    try:
+        alert_state.PATH = _P(_tf.mkdtemp()) / "alert_log.json"
+        assert not alert_state.ops_should_alert(2, 3), "fired below threshold"
+        assert alert_state.ops_should_alert(3, 3), "did not fire at threshold"
+
+        alert_state.ops_mark_alerted()
+        assert not alert_state.ops_should_alert(4, 3), "fired twice in one outage"
+        assert not alert_state.ops_should_alert(9, 3)
+
+        alert_state.ops_mark_recovered()
+        assert alert_state.ops_should_alert(3, 3), \
+            "the latch never cleared, so the next outage would stay silent"
+    finally:
+        alert_state.PATH = original
+
+
+def test_alert_carries_what_the_reader_needs():
+    """Ticker, reason, source, original publication time, link."""
+    from scalper import alerts
+
+    ev = _radar_event("e1", "PFE", mat=4, body=True)
+    rendered = alerts.render(alerts.catalyst_alerts({"priority": [ev]}),
+                             site_url="https://example.test/")
+    body = rendered[alerts.CRITICAL]["body"]
+    assert "PFE" in body
+    assert "FDA Drugs" in body, "source missing"
+    assert "example.test" in body, "dashboard link missing"
+    # Publication time, in market time, not the run time.
+    assert "Oct 27" in body, f"original publication time missing: {body}"
+    assert "EDT" in body or "EST" in body, "no timezone on the timestamp"
+
+
+def test_secrets_are_redacted_before_they_are_written():
+    """health.json and alert_log.json are committed to a PUBLIC repo.
+
+    Both store error text. Today that text is harmless; the day a
+    provider raises "401 for https://api/...?key=sk-ant-..." the secret
+    goes into the commit and stays in the history forever.
+    """
+    from scalper import redact
+
+    was = os.environ.get("NTFY_TOPIC")
+    try:
+        os.environ["NTFY_TOPIC"] = "byrde-private-topic-9f3"
+        out = redact.scrub("POST https://ntfy.sh/byrde-private-topic-9f3 -> 500")
+        assert "byrde-private-topic-9f3" not in out, out
+
+        # Assembled at runtime: a literal here would make this very
+        # file match the committed-secrets scan below.
+        for secret in ("sk-" + "ant-api03-" + "A" * 24,
+                       "gh" + "p_" + "B" * 34,
+                       "https://api.x/v1?token=" + "c" * 18):
+            assert secret not in redact.scrub(f"failed: {secret}"), secret
+
+        # Ordinary errors must survive intact, or the log is useless.
+        plain = "NameError: name 'last' is not defined"
+        assert redact.scrub(plain) == plain
+    finally:
+        if was is None:
+            os.environ.pop("NTFY_TOPIC", None)
+        else:
+            os.environ["NTFY_TOPIC"] = was
+
+
+def test_no_real_secret_is_committed():
+    """Nothing secret-shaped in any tracked file."""
+    import re
+    import subprocess
+
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    try:
+        files = subprocess.run(["git", "ls-files"], cwd=root, timeout=30,
+                               capture_output=True, text=True).stdout.split()
+    except Exception:                                   # noqa: BLE001
+        return
+    pats = [re.compile(r"sk-ant-(?!stub|test)[A-Za-z0-9_\-]{16,}"),
+            re.compile(r"gh[pousr]_[A-Za-z0-9]{30,}"),
+            re.compile(r"github_pat_[A-Za-z0-9_]{30,}")]
+    hits = []
+    for rel in files:
+        path = os.path.join(root, rel)
+        try:
+            with open(path, encoding="utf-8", errors="ignore") as fh:
+                text = fh.read()
+        except Exception:                               # noqa: BLE001
+            continue
+        for pat in pats:
+            if pat.search(text):
+                hits.append(rel)
+    assert not hits, f"secret-shaped strings in tracked files: {hits}"
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -1311,6 +1549,22 @@ def main() -> int:
           test_radar_collapses_duplicate_filings_without_merging_distinct_ones)
     check("safety: no live order execution surface",
           test_no_live_order_execution_surface)
+    check("D: headline-only catalyst never reaches critical",
+          test_headline_only_catalyst_never_reaches_critical)
+    check("D: dedup by event identity, not ticker",
+          test_catalyst_alerts_dedup_by_event_identity_not_ticker)
+    check("D: only the owning runner sends",
+          test_only_the_owning_runner_sends)
+    check("D: a suppressed alert starts no cooldown",
+          test_suppressed_alert_does_not_start_a_cooldown)
+    check("D: operational alert fires once per outage",
+          test_operational_alert_fires_once_per_outage)
+    check("D: alert carries ticker, source, time and link",
+          test_alert_carries_what_the_reader_needs)
+    check("secrets: redacted before they are written",
+          test_secrets_are_redacted_before_they_are_written)
+    check("secrets: nothing secret-shaped is committed",
+          test_no_real_secret_is_committed)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0

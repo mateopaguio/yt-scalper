@@ -24,11 +24,13 @@ from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from . import clock
+from . import redact
 from .config import DATA_DIR
 
 PATH = DATA_DIR / "health.json"
 KEEP = 200
-STALE_HOURS = 6
+STALE_HOURS = 6          # default; override with alerts.expected_interval_hours
+OPS_FAILURE_THRESHOLD = 3
 
 
 def _load() -> dict:
@@ -72,7 +74,7 @@ def finish(rid: str, ok: bool, error: str = "", ingested: int | None = None) -> 
         if r.get("id") == rid:
             r["finished"] = datetime.now(timezone.utc).isoformat()
             r["ok"] = bool(ok)
-            r["error"] = (error or "")[:300]
+            r["error"] = redact.scrub(error or "")[:300]
             r["ingested"] = ingested
             break
     _save(data)
@@ -83,7 +85,35 @@ def _newest(values) -> str | None:
     return vals[-1] if vals else None
 
 
-def snapshot(digest: dict | None = None, videos: list[dict] | None = None) -> dict[str, Any]:
+def consecutive_failures() -> int:
+    """Finished-and-failed, or started-and-never-finished, most recent first."""
+    runs = (_load().get("runs") or [])[::-1]
+    n = 0
+    for r in runs:
+        if r.get("ok"):
+            break
+        if r.get("finished") is None and n == 0:
+            continue                 # the run calling this is still in flight
+        n += 1
+    return n
+
+
+def _alerting_state() -> dict[str, Any]:
+    """Which runner may push, so a silent phone has a visible reason."""
+    try:
+        from . import alert_state
+        allowed, why = alert_state.may_send()
+        return {"runner": alert_state.runner_id(),
+                "owner": alert_state.notify_owner(),
+                "may_send": allowed, "why": why,
+                "recent": alert_state.history(6)}
+    except Exception as exc:                            # noqa: BLE001
+        return {"runner": "?", "owner": "?", "may_send": None,
+                "why": f"unavailable: {exc}", "recent": []}
+
+
+def snapshot(digest: dict | None = None, videos: list[dict] | None = None,
+             expected_hours: float | None = None) -> dict[str, Any]:
     """Everything the Data Health panel needs, as plain facts."""
     data = _load()
     runs = data.get("runs") or []
@@ -114,8 +144,10 @@ def snapshot(digest: dict | None = None, videos: list[dict] | None = None) -> di
     usable = [d for d in (setups.get("diagnostics") or []) if d.get("usable")]
     market_blind = bool(scanned) and not usable
 
+    expected = float(expected_hours or STALE_HOURS)
     ok_age = age_h(succeeded["started"]) if succeeded else None
-    stale = ok_age is None or ok_age > STALE_HOURS
+    stale = ok_age is None or ok_age > expected
+    overdue_by = (ok_age - expected) if (ok_age and ok_age > expected) else 0.0
 
     return {
         "last_attempt": {
@@ -134,6 +166,14 @@ def snapshot(digest: dict | None = None, videos: list[dict] | None = None) -> di
             "ingested": succeeded.get("ingested") if succeeded else None,
         },
         "stale": stale,
+        "expected_hours": expected,
+        "overdue_hours": round(overdue_by, 1),
+        "stale_message": (
+            f"No successful ingestion in {ok_age:.1f}h - "
+            f"{overdue_by:.1f}h past the expected {expected:.0f}h schedule"
+            if stale and ok_age is not None else
+            ("No successful ingestion on record" if stale else "")),
+        "consecutive_failures": consecutive_failures(),
         "crashed_runs": len(crashed),
         "sources": {
             "count": len(videos),
@@ -175,6 +215,7 @@ def snapshot(digest: dict | None = None, videos: list[dict] | None = None) -> di
              "ingested": r.get("ingested")}
             for r in runs[-8:][::-1]
         ],
+        "alerting": _alerting_state(),
         "note": ("published is when the source put it out; ingested is when "
                  "this system saw it; market data is what the price feed is "
                  "as of. They are three different clocks."),

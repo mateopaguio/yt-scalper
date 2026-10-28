@@ -23,6 +23,7 @@ from scalper import (
     catalysts as cat,
     changes,
     health,
+    alert_state,
     radar,
     creators,
     config as cfgmod,
@@ -170,7 +171,10 @@ def build_digest(
     # diagnostics, source timestamps) to answer "is any of this current?"
     digest["radar"] = radar.build(
         catalyst_events or [], changes=digest.get("catalyst_changes"))
-    digest["health"] = health.snapshot(digest, videos)
+    digest["health"] = health.snapshot(
+        digest, videos,
+        expected_hours=((cfg.raw.get("alerts") or {})
+                        .get("expected_interval_hours")))
     return digest
 
 
@@ -266,6 +270,14 @@ def process_catalysts(client, cfg, args) -> tuple[list[dict], int, int]:
     for event in events:
         record = event.as_dict()
         body, _ = sites.fetch_article(record["url"])
+        # Whether we actually read the announcement, recorded as a fact
+        # rather than inferred later from the model's prose. All four
+        # promoted FDA events were headline-only; the summaries said so
+        # ("no body text was retrieved") but nothing downstream could
+        # act on a sentence. An event nobody read is not evidence.
+        record["body_chars"] = len((body or "").strip())
+        record["has_body"] = record["body_chars"] >= 200
+
         findings = cat.analyze_catalyst(client, record, body, model=cfg.model)
         if findings:
             usage = findings.pop("_usage", {})
@@ -341,21 +353,45 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
     # cooldown log is on disk: without it every run is the first run and
     # the same fact re-fires until the phone gets muted.
     candidates = alerting.classify(digest.get("aggregate") or {}, cfg.raw)
-    picked = alerting.select(candidates, store.alert_log(), cfg.raw)
+    # Catalyst-driven alerts are keyed by EVENT identity, so one event
+    # naming two companies is one alert, and a materially changed event
+    # alerts again while an unchanged one never does.
+    candidates = alerting.merge(
+        alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw), candidates)
+    picked = alerting.select(candidates, alert_state.sent_map(), cfg.raw)
     tier_msgs = alerting.render(picked["send"], cfg.site_url)
+
+    # Only one runner may push. Both schedulers compute the same alerts
+    # from the same events; without this they both reach the phone.
+    allowed, why = alert_state.may_send(cfg.raw)
 
     if args.dry_run:
         print(f"\n[dry run] would alert on {len(fresh)} item(s), {len(hot)} filing(s)")
+        print(f"  notifications: {'ALLOWED' if allowed else 'SUPPRESSED'} - {why}")
         for tier, m in tier_msgs.items():
             print(f"  [{tier}] priority {m['priority']}: {m['count']} item(s)")
-        if picked["suppressed"]:
-            print(f"  suppressed: {len(picked['suppressed'])} "
-                  f"({picked['suppressed'][0]['reason']})")
-        print(message)
+            for line in m["body"].splitlines():
+                print(f"      {line}")
+        for sup in picked["suppressed"][:8]:
+            print(f"  suppressed {sup.get('ticker', '')}: {sup.get('reason')}")
+        alert_state.record(picked["send"], delivered=False, reason="dry run")
         return
 
-    if tier_msgs:
+    if not allowed:
+        # Computed, recorded, deliberately not sent. The owning runner
+        # will send it; recording it as sent here would start a cooldown
+        # that silences the alert everywhere.
+        print(f"\n  notifications suppressed: {why}")
+        alert_state.record(picked["send"], delivered=False,
+                           reason="suppressed_not_owner")
+    elif tier_msgs:
         results = notify.send_tiered(cfg, tier_msgs)
+        for tier, m in tier_msgs.items():
+            ok = results.get(tier, {}).get("sent")
+            rows = [a for a in picked["send"] if a["tier"] == tier]
+            alert_state.record(rows, delivered=bool(ok),
+                               reason="" if ok else
+                               str(results.get(tier, {}).get("reason", "")))
         fired = [k for tier, m in tier_msgs.items()
                  if results.get(tier, {}).get("sent") for k in m["keys"]]
         store.record_alerts(fired)
@@ -370,6 +406,41 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
     store.mark_notified(
         [r["video_id"] for r in fresh] + [c["event_id"] for c in hot] + unseen
     )
+
+    _ops_alert(cfg, digest, allowed)
+
+
+def _ops_alert(cfg, digest: dict, allowed: bool) -> None:
+    """One alert when ingestion keeps failing. Not one per failure.
+
+    An outage that pushes hourly is an outage that gets muted, and a
+    muted notifier is the same as no notifier. The latch clears on the
+    first success, so the next outage alerts again.
+    """
+    h = digest.get("health") or {}
+    acfg = cfg.raw.get("alerts") or {}
+    threshold = int(acfg.get("ops_failure_threshold", 3))
+    fails = int(h.get("consecutive_failures") or 0)
+
+    if not fails and not h.get("stale"):
+        alert_state.ops_mark_recovered()
+        return
+    if not alert_state.ops_should_alert(fails, threshold,
+                                        int(acfg.get("ops_cooldown_hours", 12))):
+        return
+    if not allowed:
+        return
+
+    body = (f"Ingestion has failed {fails} run(s) in a row.\n"
+            f"{h.get('stale_message') or ''}\n"
+            f"Last error: {(h.get('last_attempt') or {}).get('error') or 'unknown'}")
+    msg = {"ops": {"title": "Byrde: ingestion failing",
+                   "body": body.strip(), "priority": 4,
+                   "tags": "warning", "count": 1, "keys": []}}
+    res = notify.send_tiered(cfg, msg)
+    if res.get("ops", {}).get("sent"):
+        alert_state.ops_mark_alerted()
+        print(f"  ops alert sent ({fails} consecutive failures)")
 
 
 def _trigger() -> str:
@@ -396,9 +467,56 @@ def main() -> int:
     parser.add_argument("--rebuild", action="store_true")
     parser.add_argument("--force", action="store_true",
                         help="poll every channel now, ignoring tier timers")
+    parser.add_argument("--test-notification", action="store_true",
+                        help="send one test push and exit, to prove the "
+                             "channel works without waiting for an event")
+    parser.add_argument("--alerts-dry-run", action="store_true",
+                        help="rebuild from stored data and print exactly what "
+                             "would be pushed, sending nothing")
     args = parser.parse_args()
 
     cfg = cfgmod.load()
+
+    if args.test_notification:
+        allowed, why = alert_state.may_send(cfg.raw)
+        print(f"runner      : {alert_state.runner_id()}")
+        print(f"owner       : {alert_state.notify_owner(cfg.raw)}")
+        print(f"may send    : {allowed} ({why})")
+        print(f"ntfy topic  : {'configured' if cfg.ntfy_topic else 'NOT SET'}")
+        if not allowed:
+            print("Not sending: this runner does not own notifications.")
+            return 0
+        res = notify.send_tiered(cfg, {"digest": {
+            "title": "Byrde test",
+            "body": "Test notification. If you can read this, the alert "
+                    "channel works.",
+            "priority": 3, "tags": "white_check_mark", "count": 1, "keys": []}})
+        ok = res.get("digest", {}).get("sent")
+        print("sent" if ok else f"not sent: {res.get('digest', {}).get('reason')}")
+        return 0 if ok else 1
+
+    if args.alerts_dry_run:
+        recent = store.recent_videos(days=cfg.window_days)
+        digest = build_digest(
+            recent, cfg, catalyst_events=store.recent_catalysts(days=cfg.window_days))
+        cands = alerting.classify(digest.get("aggregate") or {}, cfg.raw)
+        cands = alerting.merge(
+            alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw), cands)
+        picked = alerting.select(cands, alert_state.sent_map(), cfg.raw)
+        allowed, why = alert_state.may_send(cfg.raw)
+        print(f"\nnotifications: {'ALLOWED' if allowed else 'SUPPRESSED'} - {why}")
+        print(f"candidates: {len(cands)}  would send: {len(picked['send'])}  "
+              f"suppressed: {len(picked['suppressed'])}\n")
+        for tier, m in alerting.render(picked["send"], cfg.site_url).items():
+            print(f"--- {tier.upper()} (ntfy priority {m['priority']}) ---")
+            print(m["body"])
+            print()
+        for a in picked["send"]:
+            if a.get("blocked"):
+                print(f"  {a['ticker']}: held at {a['tier']} - {a['reason']}")
+        for sup in picked["suppressed"][:10]:
+            print(f"  suppressed {sup.get('ticker', '')}: {sup.get('reason')}")
+        return 0
 
     if args.rebuild:
         recent = store.recent_videos(days=cfg.window_days)

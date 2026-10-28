@@ -13,7 +13,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_cc341228df055c",
@@ -35,7 +38,10 @@
       "direction": "likely_negative",
       "materiality": 2,
       "is_market_relevant": true
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_fa476862124889",
@@ -52,7 +58,10 @@
       "companies": [],
       "direction": "unclear",
       "affected_sectors": []
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_fa476862124889",
@@ -68,7 +77,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_4ebe25d7d08e1f",
@@ -84,7 +96,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_79eda1c730c453",
@@ -103,7 +118,10 @@
       "is_market_relevant": true,
       "materiality": 2,
       "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_01606e6659b297",
@@ -120,7 +138,10 @@
       "is_market_relevant": false,
       "materiality": 1,
       "affected_sectors": []
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_80ecfe151ded0a",
@@ -136,7 +157,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_0e02ce5fdb657a",
@@ -158,7 +182,10 @@
       ],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_59f6ab2a04cca9",
@@ -180,7 +207,10 @@
       ],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_598edff6629535",
@@ -206,7 +236,10 @@
         "pharmaceuticals",
         "biotechnology"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_c619f73bb02581",
@@ -228,7 +261,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_97d8e87af1c600",
@@ -250,7 +286,10 @@
         }
       ],
       "direction": "unclear"
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_4fd44e79665887",
@@ -272,7 +311,10 @@
       ],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_90087a20d328dc",
@@ -294,7 +336,10 @@
       ],
       "direction": "likely_negative",
       "materiality": 2
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_cac20d08832a39",
@@ -316,7 +361,10 @@
       ],
       "direction": "likely_negative",
       "materiality": 2
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_78db511ed13223",
@@ -332,7 +380,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_23719750710537",
@@ -352,7 +403,10 @@
         "biotechnology",
         "gene therapy"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_25fadbd0985c15",
@@ -378,7 +432,10 @@
         "medical devices",
         "dialysis"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_f89920a7cb66e5",
@@ -394,7 +451,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_754db5ff786141",
@@ -416,7 +476,10 @@
       ],
       "direction": "likely_negative",
       "materiality": 2
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_46abf8d9262621",
@@ -432,7 +495,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_e59da08d93d4fa",
@@ -448,7 +514,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_cfddb7e5abc185",
@@ -474,11 +543,14 @@
         "compounding pharmacy",
         "health care"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_3f13862c1b7957",
-    "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations",
+    "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-na\u00efve or -sensitive prostate cancer with HRR gene mutations",
     "source": "FDA Drugs",
     "published": "2026-10-26T12:36:30-04:00",
     "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive",
@@ -506,7 +578,10 @@
         "pharmaceuticals",
         "oncology"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_791ac8b10a500e",
@@ -522,7 +597,10 @@
       "materiality": 1,
       "is_market_relevant": false,
       "event_type": "other"
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_791ac8b10a500e",
@@ -538,7 +616,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_69a8d88b5e2db6",
@@ -554,7 +635,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_f713c76bc78a3d",
@@ -570,7 +654,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_9211ffe44bacb0",
@@ -586,7 +673,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_d1a5dffdb98263",
@@ -602,7 +692,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_46ce063ed473d4",
@@ -618,7 +711,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_5563d5be74cdba",
@@ -636,7 +732,10 @@
       "direction": "unclear",
       "affected_sectors": [],
       "scheduled_date": ""
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_0f7bacdf3b6c60",
@@ -656,7 +755,10 @@
         "biologics",
         "healthcare"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_803e539fa55d50",
@@ -672,7 +774,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_320d783720bddf",
@@ -688,7 +793,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_0ccd74916a1adb",
@@ -710,7 +818,10 @@
       ],
       "direction": "likely_negative",
       "materiality": 3
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_4774828d886d07",
@@ -731,7 +842,10 @@
         "plasma-derived therapeutics",
         "healthcare"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_787e9b6d5aebfd",
@@ -747,7 +861,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_8a58b79fa4a59e",
@@ -764,7 +881,10 @@
       "materiality": 1,
       "is_market_relevant": false,
       "scheduled_date": "2026-10-26"
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_3a330c6f9d79ea",
@@ -780,7 +900,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_3229df402dbd34",
@@ -796,7 +919,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_bd4cad8e2c644e",
@@ -813,7 +939,10 @@
       "materiality": 1,
       "is_market_relevant": false,
       "scheduled_date": "2027-03-05"
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_01e2e9bd4854aa",
@@ -829,7 +958,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_dbf3128e30cd0f",
@@ -845,7 +977,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_1c2a4463c14f3b",
@@ -865,7 +1000,10 @@
         "pharmaceuticals",
         "diabetes care"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_b00ad1c61d7949",
@@ -885,7 +1023,10 @@
         "consumer health",
         "over-the-counter drugs"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_a44afd28724897",
@@ -904,7 +1045,10 @@
       "affected_sectors": [
         "consumer health"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_baab0d1782e0f6",
@@ -926,7 +1070,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_908e946ba96d43",
@@ -942,7 +1089,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_0499ec361083e0",
@@ -958,7 +1108,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_71394119aae314",
@@ -974,7 +1127,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_b74f7652e7222a",
@@ -990,7 +1146,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_c0b889f14d15bc",
@@ -1006,7 +1165,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_11296a97a0ea32",
@@ -1022,7 +1184,10 @@
       "event_type": "other",
       "is_market_relevant": false,
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_11296a97a0ea32",
@@ -1038,7 +1203,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_520ff989eff55d",
@@ -1060,7 +1228,10 @@
         "dermatology",
         "ophthalmology"
       ]
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_efdf3bf684482b",
@@ -1076,7 +1247,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_2c0118b4729353",
@@ -1092,7 +1266,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_2c0118b4729353",
@@ -1108,7 +1285,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_9d1cf1d163d8a5",
@@ -1124,7 +1304,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_9d1cf1d163d8a5",
@@ -1140,7 +1323,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_bb815b6a4ce676",
@@ -1156,7 +1342,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_056b17d2f3344d",
@@ -1172,7 +1361,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_056b17d2f3344d",
@@ -1188,7 +1380,10 @@
       "direction": "unclear",
       "materiality": 1,
       "is_market_relevant": false
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_f0dacc4bf6398a",
@@ -1204,7 +1399,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_5ea26d40a9291e",
@@ -1220,7 +1418,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_c704248eaecf92",
@@ -1236,7 +1437,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_f90d9dd47d4248",
@@ -1252,7 +1456,10 @@
       "companies": [],
       "direction": "unclear",
       "materiality": 1
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_ecc4ebe0ecf46b",
@@ -1279,7 +1486,10 @@
       "materiality": 2,
       "summary": "Wedgewood Pharmacy announced a recall of certain compounded veterinary medications that are within their expiry date, citing potential potency issues. Only the headline was retrieved; no body text, scope, or affected lots were available.",
       "scheduled_date": ""
-    }
+    },
+    "has_body": false,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_802f8fe00cdec7",
@@ -1288,7 +1498,10 @@
     "published": "2026-10-21T14:54:39-04:00",
     "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-leadership-bios",
     "category": "regulatory",
-    "findings": null
+    "findings": null,
+    "has_body": true,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_b7ccac5a714b83",
@@ -1297,7 +1510,10 @@
     "published": "2026-10-21T14:41:40-04:00",
     "url": "http://www.fda.gov/industry/fda-user-fee-programs/over-counter-monograph-drug-user-fee-program-omufa",
     "category": "regulatory",
-    "findings": null
+    "findings": null,
+    "has_body": true,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_e8403aff42d570",
@@ -1306,16 +1522,22 @@
     "published": "2026-10-21T14:36:39-04:00",
     "url": "http://www.fda.gov/vaccines-blood-biologics/vyjuvek",
     "category": "regulatory",
-    "findings": null
+    "findings": null,
+    "has_body": true,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_3c3e82bc6cb61f",
-    "title": "What’s New for Biologics",
+    "title": "What\u2019s New for Biologics",
     "source": "FDA Biologics and Vaccines",
     "published": "2026-10-21T14:30:20-04:00",
     "url": "http://www.fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
     "category": "regulatory",
-    "findings": null
+    "findings": null,
+    "has_body": true,
+    "body_chars": null,
+    "body_backfilled": true
   },
   {
     "event_id": "cat_0347ca07291aae",
@@ -1324,6 +1546,9 @@
     "published": "2026-10-21T12:22:56-04:00",
     "url": "http://www.fda.gov/drugs/compounding-quality-center-excellence/compounding-quality-center-excellence-discussion-series",
     "category": "regulatory",
-    "findings": null
+    "findings": null,
+    "has_body": true,
+    "body_chars": null,
+    "body_backfilled": true
   }
 ]

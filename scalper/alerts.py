@@ -44,7 +44,37 @@ DEFAULTS = {
     "watchlist_min_independent": 2,
     "cooldown_hours": {CRITICAL: 12, WATCHLIST: 24, DIGEST: 6},
     "max_per_run": {CRITICAL: 3, WATCHLIST: 5, DIGEST: 1},
+
+    # A catalyst may only wake the phone if somebody actually read the
+    # announcement. Resolving "Pfizer" to PFE proves the company is
+    # listed; it proves nothing about what the filing says. Every one
+    # of the four FDA events promoted to the radar was headline-only.
+    "critical_require_primary_evidence": True,
+    "critical_require_market_relevant": True,
+    "catalyst_min_materiality": 3,
+    "catalyst_allowed_freshness": ["new", "updated"],
 }
+
+
+def _clip(text: str, n: int) -> str:
+    """Trim on a word boundary; a hard slice reads as corrupted data."""
+    text = (text or "").strip()
+    if len(text) <= n:
+        return text
+    cut = text[:n]
+    sp = cut.rfind(" ")
+    if sp > n * 0.6:
+        cut = cut[:sp]
+    return cut.rstrip(" ,;:.-") + "\u2026"
+
+
+def _clock_stamp(iso: str) -> str:
+    """Original publication time, in market time, never the run time."""
+    try:
+        from . import clock
+        return clock.stamp(iso) or iso
+    except Exception:                                   # noqa: BLE001
+        return iso
 
 
 def _cfg(config: dict | None, key: str):
@@ -162,6 +192,20 @@ def classify(aggregate: dict, config: dict | None = None) -> list[dict]:
     return out
 
 
+def merge(*groups: list[dict]) -> list[dict]:
+    """Combine alert sources, filed events first within each tier.
+
+    A filed company event is a harder fact than "four channels talked
+    about it", so when the per-run cap bites, the chatter is what gets
+    dropped.
+    """
+    out = [a for g in groups for a in g]
+    out.sort(key=lambda a: (TIERS.index(a["tier"]),
+                            0 if a.get("is_catalyst") else 1,
+                            -(a.get("score") or 0)))
+    return out
+
+
 def select(candidates: list[dict], already_sent: dict | None = None,
            config: dict | None = None, now: datetime | None = None) -> dict:
     """Apply cooldowns and per-run caps. Returns what to send and why not."""
@@ -214,6 +258,21 @@ def render(alerts: list[dict], site_url: str = "") -> dict[str, Any]:
                 if c.get("disagreement"):
                     lines.append(f"  disagreement: {c['disagreement']}")
                 lines.append(f"  invalidation: {c['invalidation']}")
+            elif a.get("is_catalyst"):
+                # Everything needed to judge it without opening anything:
+                # what changed, why it is at this tier, who filed it,
+                # when they filed it, and where to read more.
+                if a.get("detail"):
+                    lines.append(f"  {a['detail']}")
+                if a.get("reason"):
+                    lines.append(f"  why: {a['reason']}")
+                if a.get("source"):
+                    lines.append(f"  source: {a['source']}")
+                if a.get("published"):
+                    lines.append(f"  published: {_clock_stamp(a['published'])}")
+                if a.get("state"):
+                    lines.append(f"  status: {a['state']} information")
+                lines.append("  paper research only - not a scalp entry")
             elif a.get("detail"):
                 lines.append(f"  {a['detail']}")
         body = "\n".join(lines)
@@ -232,4 +291,80 @@ def render(alerts: list[dict], site_url: str = "") -> dict[str, Any]:
             "keys": [a["key"] for a in rows],
             "count": len(rows),
         }
+    return out
+
+
+def catalyst_alerts(radar_result: dict, config: dict | None = None) -> list[dict]:
+    """Alerts from filed events, keyed by EVENT identity, not by ticker.
+
+    Keying on the ticker was wrong twice over: one event naming two
+    companies fired two alerts, and two unrelated events about one
+    company collapsed into one. The key is the event id plus a hash of
+    its material content, so a materially changed event alerts again
+    and an unchanged one never does.
+
+    The evidence gate is the point of this function. An event whose
+    announcement body was never retrieved cannot reach CRITICAL,
+    whatever its materiality says, because nothing has been read.
+    """
+    from .changes import fingerprint
+
+    require_primary = _cfg(config, "critical_require_primary_evidence")
+    require_rel = _cfg(config, "critical_require_market_relevant")
+    min_mat = _cfg(config, "catalyst_min_materiality")
+    allowed_fresh = _cfg(config, "catalyst_allowed_freshness")
+
+    out = []
+    promoted = (radar_result.get("upcoming") or []) + \
+               (radar_result.get("priority") or [])
+
+    for ev in promoted:
+        rd = ev.get("_radar") or {}
+        findings = ev.get("findings") or {}
+        verified = rd.get("verified") or []
+        evidence = rd.get("evidence") or {}
+        if not verified:
+            continue
+
+        mat = rd.get("materiality") or 0
+        state = ev.get("_state", "seen")
+        symbols = [v["ticker"] for v in verified]
+
+        blocked = []
+        if require_primary and not evidence.get("primary"):
+            blocked.append(evidence.get("grade") or "no primary source")
+        if require_rel and not findings.get("is_market_relevant"):
+            blocked.append("not market relevant")
+        if mat < min_mat:
+            blocked.append(f"materiality {mat}/5 below {min_mat}")
+        if state not in allowed_fresh:
+            blocked.append(f"{state} information")
+
+        tier = WATCHLIST if blocked else CRITICAL
+        reason = ("; ".join(blocked) if blocked
+                  else f"materiality {mat}/5, body read, {state}")
+
+        out.append({
+            "tier": tier,
+            "ticker": ", ".join(symbols),
+            "tickers": symbols,
+            "headline": f"{', '.join(symbols)} \u2014 "
+                        f"{(findings.get('event_type') or 'event').replace('_', ' ')}"
+                        f" (materiality {mat}/5)",
+            "detail": _clip(findings.get("summary") or ev.get("title", ""), 200),
+            "score": float(mat),
+            "state": state,
+            "reason": reason,
+            "blocked": blocked,
+            "evidence": evidence,
+            "source": ev.get("source") or "",
+            "published": ev.get("published") or "",
+            "url": ev.get("url") or "",
+            # Event identity, not ticker. Two tickers in one event share
+            # one alert; a material change produces a new key.
+            "key": f"cat:{ev.get('event_id', '?')}:{fingerprint(ev)[:8]}",
+            "is_catalyst": True,
+        })
+
+    out.sort(key=lambda a: (TIERS.index(a["tier"]), -a["score"]))
     return out

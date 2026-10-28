@@ -542,7 +542,9 @@ def _health_strip(h: dict) -> str:
     blind = (h.get("market_data") or {}).get("blind")
 
     if stale:
-        cls, msg = "bad", f'No successful run since {ls.get("display", "never")}'
+        cls = "bad"
+        msg = (h.get("stale_message")
+               or f'No successful run since {ls.get("display", "never")}')
     elif la.get("ok") is False:
         cls, msg = "warn", f'Last run failed at {la.get("display", "")}'
     elif blind:
@@ -595,6 +597,17 @@ def _health_panel(h: dict) -> str:
     if md.get("failed"):
         body.append(f'<div class="herr">Price feed failed for '
                     f'{e(", ".join(md["failed"]))}</div>')
+
+    al = h.get("alerting") or {}
+    if al.get("owner"):
+        body.append(row("Alerts", 
+                        "on" if al.get("may_send") else "suppressed here",
+                        al.get("why") or ""))
+    if h.get("consecutive_failures"):
+        body.append(f'<div class="herr">{h["consecutive_failures"]} '
+                    'consecutive failed run(s)</div>')
+    if h.get("stale") and h.get("stale_message"):
+        body.append(f'<div class="herr">{e(h["stale_message"])}</div>')
 
     recent = h.get("recent") or []
     if recent:
