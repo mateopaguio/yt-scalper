@@ -1152,6 +1152,60 @@ def test_radar_collapses_duplicate_filings_without_merging_distinct_ones():
     assert "Supplement Y may be harmful" in titles, \
         "two distinct stories were merged into one"
 
+
+def test_no_live_order_execution_surface():
+    """Paper only. No broker is connected and no order can be placed.
+
+    Deliberately precise about what counts. Reading prices from
+    data.alpaca.markets is market data and is allowed; posting to
+    api.alpaca.markets/v2/orders is order execution and is not. A
+    check that simply greps for "alpaca" flags the data feed and
+    teaches you to ignore it, which is worse than no check.
+    """
+    import glob
+    import re
+
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    files = (sorted(glob.glob(os.path.join(root, "scalper", "*.py")))
+             + sorted(glob.glob(os.path.join(root, "scripts", "*.py")))
+             + [os.path.join(root, "run.py")])
+
+    banned = [
+        r"api\.alpaca\.markets",              # the trading host
+        r"/v2/orders\b",
+        r"\bsubmit_order\b",
+        r"\bplace_order\b",
+        r"\bMarketOrderRequest\b",
+        r"\bLimitOrderRequest\b",
+        r"\bTradingClient\b",
+        r"\brobinhood\b",
+        r"\brobin_stocks\b",
+        r"\bib_insync\b",
+    ]
+    hits = []
+    for path in files:
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        for pat in banned:
+            for m in re.finditer(pat, text, re.I):
+                line = text[:m.start()].count("\n") + 1
+                src = text.splitlines()[line - 1].strip()
+                # A comment saying we do NOT do this is not doing it.
+                if src.startswith("#") or src.startswith('"""'):
+                    continue
+                hits.append(f"{os.path.basename(path)}:{line}  {src[:70]}")
+    assert not hits, "live order execution surface:\n  " + "\n  ".join(hits)
+
+    # And the page must keep saying so.
+    index = os.path.join(root, "docs", "index.html")
+    if os.path.exists(index):
+        with open(index, encoding="utf-8") as fh:
+            page = fh.read()
+        assert "Paper only" in page, "the paper-only disclosure disappeared"
+        assert "No broker is connected" in page
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -1255,6 +1309,8 @@ def main() -> int:
           test_radar_requires_a_verified_public_company)
     check("P2: duplicate filings collapse, distinct ones do not",
           test_radar_collapses_duplicate_filings_without_merging_distinct_ones)
+    check("safety: no live order execution surface",
+          test_no_live_order_execution_surface)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0

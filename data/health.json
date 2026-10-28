@@ -89,6 +89,24 @@
       "ok": true,
       "error": "",
       "ingested": null
+    },
+    {
+      "id": "2026-10-28T03:04:00.680756+00:00|10",
+      "started": "2026-10-28T03:04:00.680772+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T03:04:04.361563+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
+    },
+    {
+      "id": "2026-10-28T03:05:21.459025+00:00|7",
+      "started": "2026-10-28T03:05:21.459039+00:00",
+      "trigger": "scheduled",
+      "finished": "2026-10-28T03:05:25.167729+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": null
     }
   ]
 }

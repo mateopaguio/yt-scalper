@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:01:57.255553+00:00",
+  "generated_at": "2026-10-28T03:05:21.586798+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -68379,7 +68379,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-28T03:01:57.315038+00:00",
+    "last_run": "2026-10-28T03:05:21.646484+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -71570,7 +71570,7 @@
             }
           ],
           "materiality": 2,
-          "age_days": 0.3123313685069445
+          "age_days": 0.3146962286805556
         },
         "_state": "seen"
       },
@@ -71606,7 +71606,7 @@
             }
           ],
           "materiality": 2,
-          "age_days": 1.2693452573958333
+          "age_days": 1.2717101175694443
         },
         "_state": "seen"
       },
@@ -71657,7 +71657,7 @@
             }
           ],
           "materiality": 4,
-          "age_days": 1.4343799796180554
+          "age_days": 1.4367448397916667
         },
         "_state": "seen"
       },
@@ -71693,7 +71693,7 @@
             }
           ],
           "materiality": 3,
-          "age_days": 1.592852201840278
+          "age_days": 1.5952170620138888
         },
         "_state": "seen"
       }
@@ -71719,7 +71719,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.21470405369212964
+          "age_days": 0.21706891386574073
         },
         "_state": "seen"
       },
@@ -71747,7 +71747,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.3729447944328704
+          "age_days": 0.37530965460648147
         },
         "_state": "seen"
       },
@@ -71771,7 +71771,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.4651091462847222
+          "age_days": 0.46747400645833337
         },
         "_state": "seen"
       },
@@ -71798,7 +71798,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 0.4916484981365741
+          "age_days": 0.4940133583101852
         },
         "_state": "seen"
       },
@@ -71823,7 +71823,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.4947272018402778
+          "age_days": 0.49709206201388895
         },
         "_state": "seen"
       },
@@ -71847,7 +71847,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.4952711833217593
+          "age_days": 0.4976360434953704
         },
         "_state": "seen"
       },
@@ -71877,7 +71877,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.5707572944328704
+          "age_days": 0.5731221546064815
         },
         "_state": "seen"
       },
@@ -71907,7 +71907,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.5707572944328704
+          "age_days": 0.5731221546064815
         },
         "_state": "seen"
       },
@@ -71941,7 +71941,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 0.5707688685069444
+          "age_days": 0.5731337286805556
         },
         "_state": "seen"
       },
@@ -71971,7 +71971,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.5707688685069444
+          "age_days": 0.5731337286805556
         },
         "_state": "seen"
       },
@@ -72001,7 +72001,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.5707688685069444
+          "age_days": 0.5731337286805556
         },
         "_state": "seen"
       },
@@ -72031,7 +72031,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.5707804425810186
+          "age_days": 0.5731453027546297
         },
         "_state": "seen"
       },
@@ -72061,7 +72061,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 0.5708035907291666
+          "age_days": 0.5731684509027778
         },
         "_state": "seen"
       },
@@ -72091,7 +72091,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 0.5711160907291667
+          "age_days": 0.5734809509027778
         },
         "_state": "seen"
       },
@@ -72115,7 +72115,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 0.5832572944328703
+          "age_days": 0.5856221546064815
         },
         "_state": "seen"
       },
@@ -72143,7 +72143,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 0.5889285907291667
+          "age_days": 0.5912934509027779
         },
         "_state": "seen"
       },
@@ -72177,7 +72177,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 0.9597272018402777
+          "age_days": 0.9620920620138889
         },
         "_state": "seen"
       },
@@ -72201,7 +72201,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.2603059055439814
+          "age_days": 1.2626707657175926
         },
         "_state": "seen"
       },
@@ -72225,7 +72225,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.2917642388773147
+          "age_days": 1.294129099050926
         },
         "_state": "seen"
       },
@@ -72249,7 +72249,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.2922272018402776
+          "age_days": 1.2945920620138889
         },
         "_state": "seen"
       },
@@ -72283,7 +72283,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 1.3598082203587962
+          "age_days": 1.3621730805324073
         },
         "_state": "seen"
       },
@@ -72310,7 +72310,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.460572109247685
+          "age_days": 1.4629369694212961
         },
         "_state": "seen"
       },
@@ -72334,7 +72334,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.4636392388773147
+          "age_days": 1.466004099050926
         },
         "_state": "seen"
       },
@@ -72358,7 +72358,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.4662086833217591
+          "age_days": 1.4685735434953704
         },
         "_state": "seen"
       },
@@ -72382,7 +72382,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.4706299796180555
+          "age_days": 1.4729948397916666
         },
         "_state": "seen"
       },
@@ -72406,7 +72406,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5027596092476851
+          "age_days": 1.5051244694212962
         },
         "_state": "seen"
       },
@@ -72430,7 +72430,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5684540536921296
+          "age_days": 1.5708189138657407
         },
         "_state": "seen"
       },
@@ -72456,7 +72456,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5776438685069445
+          "age_days": 1.5800087286805555
         },
         "_state": "seen"
       },
@@ -72484,7 +72484,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5922619240625
+          "age_days": 1.594626784236111
         },
         "_state": "seen"
       },
@@ -72508,7 +72508,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5923197944328704
+          "age_days": 1.5946846546064815
         },
         "_state": "seen"
       },
@@ -72532,7 +72532,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5928174796180556
+          "age_days": 1.5951823397916667
         },
         "_state": "seen"
       },
@@ -72561,7 +72561,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 3,
-          "age_days": 1.5928869240625
+          "age_days": 1.5952517842361111
         },
         "_state": "seen"
       },
@@ -72585,7 +72585,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.5972619240625001
+          "age_days": 1.5996267842361112
         },
         "_state": "seen"
       },
@@ -72610,7 +72610,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.6018915536921297
+          "age_days": 1.6042564138657407
         },
         "_state": "seen"
       },
@@ -72634,7 +72634,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.6065443314699075
+          "age_days": 1.6089091916435185
         },
         "_state": "seen"
       },
@@ -72658,7 +72658,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 1.610051275914352
+          "age_days": 1.612416136087963
         },
         "_state": "seen"
       },
@@ -72683,7 +72683,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.268662387025463
+          "age_days": 4.271027247199074
         },
         "_state": "seen"
       },
@@ -72707,7 +72707,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.369576738877315
+          "age_days": 4.371941599050926
         },
         "_state": "seen"
       },
@@ -72731,7 +72731,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.37356979443287
+          "age_days": 4.375934654606481
         },
         "_state": "seen"
       },
@@ -72759,7 +72759,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 3,
-          "age_days": 4.3740211833217595
+          "age_days": 4.37638604349537
         },
         "_state": "seen"
       },
@@ -72787,7 +72787,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.408361461099537
+          "age_days": 4.410726321273148
         },
         "_state": "seen"
       },
@@ -72814,7 +72814,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.408812849988426
+          "age_days": 4.411177710162037
         },
         "_state": "seen"
       },
@@ -72844,7 +72844,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.446972572210648
+          "age_days": 4.449337432384259
         },
         "_state": "seen"
       },
@@ -72868,7 +72868,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.466845257395834
+          "age_days": 4.469210117569444
         },
         "_state": "seen"
       },
@@ -72892,7 +72892,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.474692479618056
+          "age_days": 4.477057339791666
         },
         "_state": "seen"
       },
@@ -72916,7 +72916,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.5004447944328705
+          "age_days": 4.502809654606481
         },
         "_state": "seen"
       },
@@ -72940,7 +72940,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.536116090729167
+          "age_days": 4.538480950902778
         },
         "_state": "seen"
       },
@@ -72964,7 +72964,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.547840627766204
+          "age_days": 4.550205487939815
         },
         "_state": "seen"
       },
@@ -72991,7 +72991,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.5574123870254635
+          "age_days": 4.559777247199074
         },
         "_state": "seen"
       },
@@ -73021,7 +73021,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 4.583407757395833
+          "age_days": 4.585772617569444
         },
         "_state": "seen"
       },
@@ -73045,7 +73045,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.624379979618055
+          "age_days": 4.626744839791667
         },
         "_state": "seen"
       },
@@ -73072,7 +73072,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 4.632748035173611
+          "age_days": 4.6351128953472225
         },
         "_state": "updated"
       },
@@ -73099,7 +73099,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.27825729443287
+          "age_days": 5.2806221546064815
         },
         "_state": "seen"
       },
@@ -73123,7 +73123,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.285085998136574
+          "age_days": 5.287450858310185
         },
         "_state": "seen"
       },
@@ -73150,7 +73150,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.304229516655092
+          "age_days": 5.306594376828704
         },
         "_state": "seen"
       },
@@ -73174,7 +73174,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.3046461833217595
+          "age_days": 5.30701104349537
         },
         "_state": "seen"
       },
@@ -73198,7 +73198,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.305305905543982
+          "age_days": 5.307670765717592
         },
         "_state": "seen"
       },
@@ -73222,7 +73222,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.305792016655093
+          "age_days": 5.308156876828703
         },
         "_state": "seen"
       },
@@ -73246,7 +73246,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 1,
-          "age_days": 5.336752664803241
+          "age_days": 5.339117524976852
         },
         "_state": "seen"
       },
@@ -73281,7 +73281,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 2,
-          "age_days": 6.257053590729167
+          "age_days": 6.2594184509027775
         },
         "_state": "seen"
       },
@@ -73298,7 +73298,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 0,
-          "age_days": 6.338442479618056
+          "age_days": 6.340807339791667
         },
         "_state": "seen"
       },
@@ -73315,7 +73315,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 0,
-          "age_days": 6.34745868332176
+          "age_days": 6.34982354349537
         },
         "_state": "seen"
       },
@@ -73332,7 +73332,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 0,
-          "age_days": 6.350942479618055
+          "age_days": 6.353307339791667
         },
         "_state": "seen"
       },
@@ -73349,7 +73349,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 0,
-          "age_days": 6.35532905369213
+          "age_days": 6.357693913865741
         },
         "_state": "seen"
       },
@@ -73366,7 +73366,7 @@
           "reason": "no verified public company behind it",
           "verified": [],
           "materiality": 0,
-          "age_days": 6.443801275914352
+          "age_days": 6.446166136087963
         },
         "_state": "seen"
       }
@@ -73384,18 +73384,18 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-10-28T03:01:57.135274+00:00",
-      "display": "Oct 27, 11:01 PM EDT",
+      "at": "2026-10-28T03:05:21.459039+00:00",
+      "display": "Oct 27, 11:05 PM EDT",
       "trigger": "scheduled",
       "ok": null,
       "error": "",
-      "age_hours": 0.0009156241666666667
+      "age_hours": 0.0009156458333333333
     },
     "last_success": {
-      "at": "2026-10-28T03:00:49.208327+00:00",
-      "display": "Oct 27, 11:00 PM EDT",
+      "at": "2026-10-28T03:04:00.680772+00:00",
+      "display": "Oct 27, 11:04 PM EDT",
       "trigger": "scheduled",
-      "age_hours": 0.019784220555555558,
+      "age_hours": 0.023354053333333333,
       "ingested": null
     },
     "stale": false,
@@ -73409,10 +73409,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-10-28T03:01:57.315038+00:00",
+      "attempted": "2026-10-28T03:05:21.646484+00:00",
       "as_of": null,
       "as_of_display": "unavailable - feed down",
-      "attempted_display": "Oct 27, 11:01 PM EDT",
+      "attempted_display": "Oct 27, 11:05 PM EDT",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 0,
@@ -73428,10 +73428,26 @@
     },
     "recent": [
       {
+        "started": "2026-10-28T03:05:21.459039+00:00",
+        "display": "Tue 11:05 PM EDT",
+        "trigger": "scheduled",
+        "ok": null,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T03:04:00.680772+00:00",
+        "display": "Tue 11:04 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
         "started": "2026-10-28T03:01:57.135274+00:00",
         "display": "Tue 11:01 PM EDT",
         "trigger": "scheduled",
-        "ok": null,
+        "ok": true,
         "error": "",
         "ingested": null
       },
@@ -73470,22 +73486,6 @@
       {
         "started": "2026-10-28T02:58:40.512989+00:00",
         "display": "Tue 10:58 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T02:55:22.975494+00:00",
-        "display": "Tue 10:55 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T02:54:34.329829+00:00",
-        "display": "Tue 10:54 PM EDT",
         "trigger": "scheduled",
         "ok": true,
         "error": "",

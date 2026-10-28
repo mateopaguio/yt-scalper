@@ -443,6 +443,90 @@ def _why_block(entry: dict, row: dict, new_ids: set, upd_ids: set) -> str:
     return "".join(out)
 
 
+
+def _scalp_sections(digest: dict) -> str:
+    """Watchlist, rejections, and what the simulator has actually closed.
+
+    Every number here comes from the recorded signal log. Where the
+    price feed could not resolve an outcome the row says so rather
+    than showing a blank, because an unmeasured trade and a trade that
+    went nowhere are not the same thing.
+    """
+    try:
+        from . import signal_log
+        log = signal_log.load()
+    except Exception as exc:                            # noqa: BLE001
+        return f'<div class="herr">Signal log unreadable: {e(exc)}</div>'
+
+    signals = log.get("signals") or []
+    out = []
+
+    watch = [s for s in signals
+             if s.get("status") == "WATCHLIST" and not s.get("vetoed")]
+    watch.sort(key=lambda s: -(s.get("score_total") or 0))
+    out.append('<h2 class="sec">Paper watchlist</h2>')
+    if watch:
+        out.append("".join(
+            f'<div class="trow"><div style="padding:11px 12px">'
+            f'<span class="sym">{e(s.get("ticker"))}</span> '
+            f'<span class="iscore">{s.get("score_total", 0):.1f}'
+            f'<span class="iunit">/{s.get("score_max_possible", 0):.1f}</span></span>'
+            f'<div class="meta" style="margin-top:6px">'
+            f'<span class="kv"><span>Seen</span><b>{s.get("times_seen", 0)}x</b></span>'
+            f'<span class="kv"><span>Since</span>'
+            f'<b>{e(clock.day(s.get("generated_at")))}</b></span>'
+            f'<span class="kv"><span>Entry ref</span>'
+            f'<b>{e(s.get("entry_price") if s.get("entry_price") is not None else "unpriced")}</b>'
+            f'</span></div></div></div>'
+            for s in watch[:12]))
+    else:
+        out.append('<div class="empty">Nothing on the paper watchlist.</div>')
+
+    rejected = [s for s in signals if s.get("vetoed") and s.get("vetoes")]
+    if rejected:
+        groups: dict[str, list] = {}
+        for s in rejected:
+            groups.setdefault(s["vetoes"][0], []).append(s["ticker"])
+        out.append(
+            f'<details class="vcard" style="margin-top:14px"><summary>'
+            f'<div class="vt">Rejected setups ({len(rejected)})</div>'
+            f'<div class="vmeta"><span>{len(groups)} distinct reason(s)</span>'
+            f'</div></summary><div class="inner">'
+            + "".join(
+                f'<div class="hrow"><span class="hk">{e(reason)}</span>'
+                f'<span class="hv">{len(syms)}</span>'
+                f'<span class="hn">{e(", ".join(sorted(syms)[:14]))}</span></div>'
+                for reason, syms in sorted(groups.items(),
+                                           key=lambda kv: -len(kv[1])))
+            + '</div></details>')
+
+    # Simulated history: only trades the simulator actually closed.
+    closed = [s for s in signals
+              if isinstance(s.get("outcome"), dict)
+              and s["outcome"].get("return_pct") is not None]
+    unresolved = [s for s in signals
+                  if isinstance(s.get("outcome"), dict)
+                  and s["outcome"].get("error")]
+    out.append('<h2 class="sec">Simulated trade history</h2>')
+    if closed:
+        out.append("".join(
+            f'<div class="trow"><div style="padding:11px 12px">'
+            f'<span class="sym">{e(s.get("ticker"))}</span> '
+            f'<span class="{"up" if (s["outcome"]["return_pct"] or 0) >= 0 else "down"}">'
+            f'{s["outcome"]["return_pct"]:+.2f}%</span>'
+            f'<div class="hn">{e(clock.day(s.get("generated_at")))}</div>'
+            f'</div></div>' for s in closed[:15]))
+    else:
+        why = ("the price feed could not resolve any of them"
+               if unresolved else "no signal has reached its horizon yet")
+        out.append(
+            f'<div class="empty"><b>No closed paper trades.</b><br>'
+            f'{len(unresolved)} signal(s) are waiting on an outcome and '
+            f'{e(why)}. Nothing is estimated &mdash; an unmeasured trade '
+            'and a trade that went nowhere are not the same thing.</div>')
+    return "".join(out)
+
+
 def _health_strip(h: dict) -> str:
     """One line, at the top of Today: is any of this current?
 
@@ -604,6 +688,7 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
                 'the pattern rules.</div>')
     scalp = (
         '<h2 class="sec">Paper setups</h2>' + scalp_body
+        + _scalp_sections(digest)
         + '<h2 class="sec">Data health</h2>' + _health_panel(digest.get("health") or {})
         + '<div class="note"><b>Paper only.</b> No broker is connected and '
           'no order can be placed. Options are not priced &mdash; no chain '
@@ -713,7 +798,8 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
                        f'{len(arch)} filing(s) came in with no verified public '
                        'company behind them.</div>')
     if arch:
-        reasons = ", ".join(f"{v} {k}" for k, v in
+        reasons = ", ".join(f"{v} with {k}" if k.startswith("no ")
+                            else f"{v}: {k}" for k, v in
                             sorted((rad.get("archive_reasons") or {}).items(),
                                    key=lambda x: -x[1]))
         radar_body += (
