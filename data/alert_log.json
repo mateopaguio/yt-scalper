@@ -1,7 +1,72 @@
 {
-  "watch:META:189a33e5c3": "2026-10-27T22:13:39.516304+00:00",
-  "watch:AAPL:4433340496": "2026-10-27T22:13:39.516304+00:00",
-  "watch:NVDA:26ebbb4f37": "2026-10-27T22:13:39.516304+00:00",
-  "watch:CRWD:aeb34e4b1c": "2026-10-27T22:13:39.516304+00:00",
-  "watch:WDC:b7576b365c": "2026-10-27T22:13:39.516304+00:00"
+  "sent": {
+    "watch:META:189a33e5c3": {
+      "at": "2026-10-27T22:13:39.516304+00:00"
+    },
+    "watch:AAPL:4433340496": {
+      "at": "2026-10-27T22:13:39.516304+00:00"
+    },
+    "watch:NVDA:26ebbb4f37": {
+      "at": "2026-10-27T22:13:39.516304+00:00"
+    },
+    "watch:CRWD:aeb34e4b1c": {
+      "at": "2026-10-27T22:13:39.516304+00:00"
+    },
+    "watch:WDC:b7576b365c": {
+      "at": "2026-10-27T22:13:39.516304+00:00"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-28T08:13:41.409397+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "AMZN \u2014 4 channels did own work, forward catalyst",
+      "key": "watch:AMZN:b1a1b3bbe9"
+    },
+    {
+      "at": "2026-10-28T08:13:41.409397+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NFLX",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NFLX \u2014 4 channels did own work",
+      "key": "watch:NFLX:42c976e74d"
+    },
+    {
+      "at": "2026-10-28T08:13:41.409397+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "VZ",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "VZ \u2014 3 channels did own work, developing",
+      "key": "watch:VZ:fc66d1dda7"
+    },
+    {
+      "at": "2026-10-28T08:13:41.409397+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "GOOGL \u2014 3 channels did own work, developing",
+      "key": "watch:GOOGL:0527b2761f"
+    },
+    {
+      "at": "2026-10-28T08:13:41.409397+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "TSLA",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "TSLA \u2014 7 channels did own work",
+      "key": "watch:TSLA:7ca8906d01"
+    }
+  ],
+  "ops": {}
 }

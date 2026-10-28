@@ -269,6 +269,15 @@
       "ok": true,
       "error": "",
       "ingested": null
+    },
+    {
+      "id": "2026-10-28T08:09:26.292941+00:00|2448",
+      "started": "2026-10-28T08:09:26.292958+00:00",
+      "trigger": "github-actions",
+      "finished": "2026-10-28T08:13:41.412732+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": 0
     }
   ]
 }
