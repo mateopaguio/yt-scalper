@@ -27,6 +27,29 @@ header.top h1{margin:0;font-size:19px;letter-spacing:-.01em}
 header.top .sub{color:var(--dim);font-size:12.5px;margin-top:2px}
 
 
+.tag.new{border-color:rgba(52,211,153,.5);color:var(--accent)}
+.tag.updated{border-color:rgba(251,191,36,.5);color:#fbbf24}
+.why2{display:flex;gap:8px;margin-top:9px;font-size:12.5px;line-height:1.45;
+  color:var(--text)}
+.why2 .wl{flex:0 0 52px;color:var(--dim);font-size:11px;font-weight:600;
+  text-transform:uppercase;letter-spacing:.04em;padding-top:2px}
+.why2 span:last-child{min-width:0;overflow-wrap:anywhere}
+.wsub{margin:3px 0 0 60px;color:var(--dim);font-size:11.5px}
+.iscore{color:var(--muted);font-size:13px;white-space:nowrap}
+.iunit{color:var(--dim);font-size:11px}
+.searchbar{position:relative;margin:0 0 9px}
+.searchbar input{width:100%;box-sizing:border-box;background:var(--panel);
+  border:1px solid var(--line);border-radius:10px;color:var(--text);
+  padding:12px 38px 12px 13px;font-family:inherit;font-size:15px;
+  min-height:46px;-webkit-appearance:none}
+.searchbar input:focus{outline:none;border-color:rgba(52,211,153,.5)}
+.searchbar button{position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  background:none;border:0;color:var(--muted);font-size:20px;line-height:1;
+  width:40px;height:40px;cursor:pointer}
+.controls.scroller{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:7px;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
+.controls.scroller::-webkit-scrollbar{display:none}
+.controls.scroller button{flex:0 0 auto;white-space:nowrap}
 /* --- data health --- */
 .health{display:flex;align-items:center;gap:9px;padding:10px 12px;
   border:1px solid var(--line);border-radius:10px;margin:0 0 14px;

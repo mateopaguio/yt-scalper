@@ -86,7 +86,8 @@ def ticker_row(r: dict) -> str:
         f'<details class="trow" data-ticker="{e(r["ticker"])}" '
         f'data-tags="{e(",".join(r["tags"]))}" data-sent="{e(r["sentiment"])}" '
         f'data-score="{score if score is not None else -1}" '
-        f'data-indep="{r["independent"]}" data-fresh="{e(r["freshness"])}">'
+        f'data-indep="{r["independent"]}" data-fresh="{e(r["freshness"])}" '
+        f'data-company="{e(r.get("company") or "")}">'
         f'<summary>'
         f'<span class="sym">{e(r["ticker"])}</span>'
         f'<span class="mid"><span class="dot {dot}"></span>'
@@ -193,6 +194,20 @@ SCRIPT = """
     try{history.replaceState(null,'','#'+k);}catch(e){}
   }
   tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.tab);});});
+
+  var q=document.getElementById('q'),qc=document.getElementById('qclear');
+  if(q){
+    q.addEventListener('input',function(){
+      state.q=q.value.trim().toLowerCase();
+      // Typing is an explicit request to see matches, so lift the
+      // five-row cap rather than hiding results behind "Show all".
+      state.limit=state.q?0:5;
+      if(qc)qc.hidden=!state.q;
+      apply();
+    });
+    if(qc)qc.addEventListener('click',function(){
+      q.value='';state.q='';state.limit=5;qc.hidden=true;apply();q.focus();});
+  }
   if(location.hash){var h=location.hash.slice(1);if(panels[h])show(h);}
 
   // Any element carrying data-go jumps to that section. Without this
@@ -211,11 +226,15 @@ SCRIPT = """
   // emptied those tabs.
   var intelPanel=document.getElementById('intel');
   var rows=intelPanel?[].slice.call(intelPanel.querySelectorAll('.trow')):[];
-  var state={tag:'',sent:'',sort:'score',limit:5};
+  var state={tag:'',sent:'',sort:'score',limit:5,q:''};
   function apply(){
     var vis=rows.filter(function(r){
       if(state.tag&&(r.dataset.tags||'').split(',').indexOf(state.tag)<0)return false;
       if(state.sent&&r.dataset.sent!==state.sent)return false;
+      if(state.q){
+        var hay=((r.dataset.ticker||'')+' '+(r.dataset.company||'')).toLowerCase();
+        if(hay.indexOf(state.q)<0)return false;
+      }
       return true;});
     vis.sort(function(a,b){
       if(state.sort==='indep')return (+b.dataset.indep)-(+a.dataset.indep);
@@ -320,6 +339,110 @@ def _changed_since(digest: dict, history: list[dict]) -> str:
 
 
 
+
+def _clip(text: str, n: int) -> str:
+    """Trim to a word boundary and say so.
+
+    A hard slice cuts mid-word - "a close below roughl" - which reads
+    as corrupted data rather than as an abbreviated sentence.
+    """
+    text = (text or "").strip()
+    if len(text) <= n:
+        return text
+    cut = text[:n]
+    space = cut.rfind(" ")
+    if space > n * 0.6:
+        cut = cut[:space]
+    return cut.rstrip(" ,;:.-") + "\u2026"
+
+
+_EVIDENCE_RANK = {"quoted": 3, "reasoned": 2, "asserted": 1, "none": 0}
+_FRESH_WORDS = {
+    "unknown": ("age unknown", "We have no record of when this story started."),
+    "single_sighting": ("seen once", "One sighting; nothing to compare it to yet."),
+    "forward_catalyst": ("catalyst ahead", "The event driving it has not happened yet."),
+    "late_to_story": ("after the move", "The coverage came after the move."),
+    "running": ("running days", "This has been running for days."),
+    "developing": ("building", "Coverage is building across sources."),
+}
+
+
+def _best_claim(entry: dict) -> dict | None:
+    """The single strongest thing anyone actually said about this name.
+
+    Ranked by how well the claim was supported, then by the source
+    doing its own work rather than reprinting, then by conviction.
+    "Why does this matter" deserves the best sentence available, not
+    whichever one happened to be stored first.
+    """
+    items = entry.get("items") or []
+    if not items:
+        return None
+
+    def rank(it):
+        basis = (it.get("basis") or "")
+        return (
+            _EVIDENCE_RANK.get((it.get("evidence") or "").lower(), 0),
+            1 if basis in ("original", "primary") else 0,
+            {"high": 3, "medium": 2, "low": 1}.get(
+                (it.get("conviction") or "").lower(), 0),
+            -int(it.get("tier") or 9),
+        )
+    return sorted(items, key=rank, reverse=True)[0]
+
+
+def _why_block(entry: dict, row: dict, new_ids: set, upd_ids: set) -> str:
+    """Why this name is here, what is verified, and whether it is new."""
+    out = []
+
+    claim = _best_claim(entry)
+    if claim and claim.get("thesis"):
+        who = claim.get("channel") or "a source"
+        ev = (claim.get("evidence") or "").lower()
+        qual = {"quoted": "quoting the source material",
+                "reasoned": "reasoned from evidence",
+                "asserted": "asserted without support"}.get(ev, ev or "")
+        out.append(
+            f'<div class="why2"><span class="wl">Why</span>'
+            f'<span>{e(_clip(claim["thesis"], 240))}</span></div>'
+            f'<div class="wsub">{e(who)}'
+            + (f' &middot; {e(qual)}' if qual else "") + '</div>')
+
+    # What is actually verified, as opposed to claimed.
+    events = entry.get("catalyst_events") or []
+    ver = entry.get("verification") or {}
+    if events:
+        ev0 = events[0]
+        f0 = ev0.get("findings") or {}
+        label = "Filed"
+        eid = ev0.get("event_id")
+        if eid in new_ids:
+            label = "Filed (new)"
+        elif eid in upd_ids:
+            label = "Filed (updated)"
+        out.append(
+            f'<div class="why2"><span class="wl">{e(label)}</span>'
+            f'<span>{e(_clip(f0.get("summary") or ev0.get("title", ""), 200))}</span></div>')
+    else:
+        status = (ver.get("status") or "").replace("_", " ")
+        reason = {
+            "outside coverage": "No filing feed covers this kind of claim, "
+                                "so it is neither confirmed nor denied.",
+            "unconfirmed": "No filing behind it yet.",
+            "confirmed": "Matched to a filed event.",
+        }.get(status, status or "Nothing filed behind it.")
+        out.append(f'<div class="why2"><span class="wl">Verified</span>'
+                   f'<span>{e(reason)}</span></div>')
+
+    # Genuinely new, or the same story again?
+    fresh = row.get("freshness")
+    word, explain = _FRESH_WORDS.get(fresh, (fresh or "", ""))
+    if word:
+        out.append(f'<div class="why2"><span class="wl">New?</span>'
+                   f'<span>{e(explain or word)}</span></div>')
+    return "".join(out)
+
+
 def _health_strip(h: dict) -> str:
     """One line, at the top of Today: is any of this current?
 
@@ -414,24 +537,26 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
     # vetoed rows produced fewer than five entries with gaps in the
     # numbering (1, 3, 5) whenever a rejected ticker scored highly.
     eligible = [r for r in rows if "vetoed" not in r["tags"]]
+    by_symbol = {t["ticker"]: t for t in (agg.get("tickers") or [])}
+    cc = digest.get("catalyst_changes") or {}
+    new_ids = {x.get("event_id") for x in (cc.get("new") or [])}
+    upd_ids = {x.get("event_id") for x in (cc.get("updated") or [])}
+
     lead = []
     for n, r in enumerate(eligible[:5], 1):
-        why = [f'{r["independent"]} independent']
+        entry = by_symbol.get(r["ticker"]) or {}
+        facts = [f'{r["independent"]} independent']
         if r["catalyst_count"]:
-            why.append(f'{r["catalyst_count"]} filed event')
-        if r["freshness"]:
-            why.append({
-                "unknown": "age unknown", "single_sighting": "seen once",
-                "forward_catalyst": "catalyst ahead",
-                "late_to_story": "after the move", "running": "running days",
-                "developing": "building",
-            }.get(r["freshness"], r["freshness"].replace("_", " ")))
+            facts.append(f'{r["catalyst_count"]} filed event')
         lead.append(
             f'<div class="lead"><div class="r"><span class="n">{n}</span>'
             f'<h3>{e(r["ticker"])}</h3>'
-            f'<span style="color:var(--muted);font-size:13px">'
-            f'{r["intelligence"] if r["intelligence"] is not None else "--"}</span></div>'
-            f'<div class="why">{" &middot; ".join(e(w) for w in why)}</div></div>')
+            f'<span class="iscore">'
+            f'{r["intelligence"] if r["intelligence"] is not None else "--"}'
+            f'<span class="iunit">/100</span></span></div>'
+            f'<div class="why">{" &middot; ".join(e(w) for w in facts)}</div>'
+            + _why_block(entry, r, new_ids, upd_ids)
+            + '</div>')
     health = digest.get("health") or {}
     today = (
         _health_strip(health)
@@ -487,23 +612,36 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
           'signal bar.</div>')
 
     # ---- Intelligence
+    # Search first: with 128 names, scrolling to one is the common
+    # action and six filter chips were the only way to narrow. The
+    # chips sit on one scrollable row beneath it rather than wrapping
+    # into three stacked rows of buttons.
     filters = (
-        '<div class="controls">'
+        '<div class="searchbar">'
+        '<input id="q" type="search" inputmode="search" autocomplete="off"'
+        ' placeholder="Search ticker or company" aria-label="Search tickers">'
+        '<button id="qclear" aria-label="Clear search" hidden>&times;</button>'
+        '</div>'
+        '<div class="controls scroller">'
         '<button data-filter="tag" data-value="corroborated" aria-pressed="false">Corroborated</button>'
         '<button data-filter="tag" data-value="under_radar" aria-pressed="false">Under radar</button>'
         '<button data-filter="tag" data-value="catalyst" aria-pressed="false">Catalyst</button>'
         '<button data-filter="tag" data-value="fresh" aria-pressed="false">New info</button>'
         '<button data-filter="sent" data-value="bullish" aria-pressed="false">Bullish</button>'
         '<button data-filter="sent" data-value="bearish" aria-pressed="false">Bearish</button>'
-        '<select id="sort" aria-label="Sort"><option value="score">Intelligence</option>'
-        '<option value="indep">Independent sources</option>'
-        '<option value="ticker">A-Z</option></select>'
+        '</div>'
+        '<div class="controls">'
+        '<select id="sort" aria-label="Sort">'
+        '<option value="score">Sort: Intelligence 0-100</option>'
+        '<option value="indep">Sort: independent sources</option>'
+        '<option value="ticker">Sort: A-Z</option></select>'
         '</div>'
         '<div class="meta" style="margin-bottom:9px">'
         '<span id="rowcount"></span>'
         '<button id="more" style="cursor:pointer;background:var(--panel2);'
         'color:var(--accent);border:1px solid var(--line);border-radius:8px;'
-        'padding:9px 13px;font:600 12.5px inherit;min-height:44px">Show all</button>'
+        'padding:9px 13px;font-family:inherit;font-weight:600;'
+        'font-size:12.5px;min-height:44px">Show all</button>'
         '</div>')
     videos = digest.get("videos") or []
     vfilter = (
@@ -521,33 +659,78 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
         + "".join(video_card(v) for v in videos))
 
     # ---- Catalyst Radar
-    cal = digest.get("calendar") or []
-    cats = digest.get("catalysts") or []
-    radar_body = ""
-    if cal:
-        radar_body += '<h3 class="sub2">Dated ahead</h3>' + "".join(
-            f'<div class="trow"><div style="padding:11px 12px">'
-            f'<b>{e(clock.day(c.get("_when") or c.get("date") or ""))}</b> '
-            f'<span style="color:var(--muted);font-size:13px">'
-            f'{e(((c.get("findings") or {}).get("summary") or c.get("title", ""))[:160])}'
-            f'</span></div></div>'
-            for c in cal[:12])
-    rel = [c for c in cats if (c.get("findings") or {}).get("is_market_relevant")]
-    if rel:
-        radar_body += '<h3 class="sub2">Filed</h3>' + "".join(
+    #
+    # Promotion requires a company that resolves to a listed ticker.
+    # The screen was 73 FDA notices out of 75 events, 55 of them
+    # materiality 1/5, two with a ticker: a recall of a supplement
+    # sold by a company nobody can buy shares in is a headline, not a
+    # catalyst. Nothing is deleted - the archive keeps every one of
+    # them with the reason it was archived.
+    rad = digest.get("radar") or {}
+
+    def _cat_card(c, show_state=True):
+        f = c.get("findings") or {}
+        rd = c.get("_radar") or {}
+        syms = " ".join(f'<span class="tag corroborated">{e(v["ticker"])}</span>'
+                        for v in (rd.get("verified") or []))
+        state = c.get("_state")
+        badge = ""
+        if show_state and state in ("new", "updated"):
+            badge = f'<span class="tag {state}">{state}</span>'
+        dupes = c.get("_duplicates") or []
+        dup = (f'<span class="hn">also filed {len(dupes)}x elsewhere</span>'
+               if dupes else "")
+        return (
             f'<details class="vcard"><summary><div class="vt">'
             f'{e(c.get("title", ""))}</div><div class="vmeta">'
-            f'<span>{e(c.get("source", ""))}</span>'
-            f'<span>{e(_ts(c.get("published", "")))}</span>'
+            f'{syms}{badge}'
             f'<span class="tag catalyst">materiality '
-            f'{e((c.get("findings") or {}).get("materiality"))}/5</span>'
+            f'{e(rd.get("materiality") or f.get("materiality"))}/5</span>'
+            f'<span>{e(c.get("source", ""))}</span>'
+            f'<span>{e(_ts(c.get("published", "")))}</span>{dup}'
             f'</div></summary><div class="inner">'
             f'<div style="color:var(--muted);font-size:12.5px;margin-top:9px">'
-            f'{e((c.get("findings") or {}).get("summary", ""))}</div></div></details>'
-            for c in rel[:20])
+            f'{e(f.get("summary", ""))}</div>'
+            + (f'<div class="hn" style="margin-top:8px">archived: '
+               f'{e(rd.get("reason"))}</div>' if rd.get("reason") else "")
+            + '</div></details>')
+
+    radar_body = ""
+    up, pri, arch = (rad.get("upcoming") or [], rad.get("priority") or [],
+                     rad.get("archive") or [])
+    if up:
+        radar_body += '<h3 class="sub2">Dated ahead</h3>' + "".join(
+            f'<div class="trow"><div style="padding:11px 12px">'
+            f'<b>{e(clock.day((c.get("findings") or {}).get("scheduled_date")))}</b> '
+            f'<span style="color:var(--muted);font-size:13px">'
+            f'{e(_clip((c.get("findings") or {}).get("summary") or c.get("title", ""), 160))}'
+            f'</span></div></div>' for c in up[:12])
+    if pri:
+        radar_body += ('<h3 class="sub2">Company events</h3>'
+                       + "".join(_cat_card(c) for c in pri[:20]))
+    if not up and not pri:
+        radar_body += ('<div class="empty"><b>No company events this run.</b><br>'
+                       f'{len(arch)} filing(s) came in with no verified public '
+                       'company behind them.</div>')
+    if arch:
+        reasons = ", ".join(f"{v} {k}" for k, v in
+                            sorted((rad.get("archive_reasons") or {}).items(),
+                                   key=lambda x: -x[1]))
+        radar_body += (
+            f'<details class="vcard" style="margin-top:14px">'
+            f'<summary><div class="vt">Archive ({len(arch)})</div>'
+            f'<div class="vmeta"><span>{e(reasons)}</span></div></summary>'
+            f'<div class="inner">'
+            + "".join(_cat_card(c, show_state=False) for c in arch[:40])
+            + '</div></details>')
+    if rad.get("duplicates_collapsed"):
+        radar_body += (f'<div class="note">{rad["duplicates_collapsed"]} '
+                       'duplicate filing(s) collapsed into the rows above.</div>')
     vm = digest.get("verification_meta") or {}
     if vm.get("limitation"):
         radar_body += f'<div class="note">{e(vm["limitation"])}</div>'
+    if rad.get("note"):
+        radar_body += f'<div class="note">{e(rad["note"])}</div>'
     radar = radar_body or '<div class="empty">No catalysts this run.</div>'
 
     # ---- Performance

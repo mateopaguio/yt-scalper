@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:55:23.318128+00:00",
+  "generated_at": "2026-10-28T03:01:57.255553+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -68379,7 +68379,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-28T02:55:23.495864+00:00",
+    "last_run": "2026-10-28T03:01:57.315038+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -71535,20 +71535,1867 @@
   "blocked_count": 0,
   "skipped_count": 0,
   "pending_count": 0,
+  "radar": {
+    "upcoming": [],
+    "priority": [
+      {
+        "event_id": "cat_cc341228df055c",
+        "title": "Amgen Inc. - 739641 - 08/12/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T15:32:15-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amgen-inc-739641-08122026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "enforcement",
+          "summary": "FDA posted a warning letter addressed to Amgen Inc. (reference 739641, dated 08/12/2026, published 2026-10-27). Only the headline was retrieved; the letter body, cited violations, and scope are not available.",
+          "companies": [
+            {
+              "company": "Amgen Inc.",
+              "ticker": "AMGN",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2,
+          "is_market_relevant": true
+        },
+        "_radar": {
+          "bucket": "priority",
+          "reason": "",
+          "verified": [
+            {
+              "ticker": "AMGN",
+              "company": "Amgen Inc.",
+              "source": "stated"
+            }
+          ],
+          "materiality": 2,
+          "age_days": 0.3123313685069445
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_754db5ff786141",
+        "title": "Walmart, Inc. - 736557 - 10/01/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T16:34:09-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/walmart-inc-736557-10012026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "enforcement",
+          "is_market_relevant": true,
+          "summary": "FDA posted a warning letter (reference 736557, dated 10/01/2026) addressed to Walmart, Inc. The announcement text was not retrieved, so the specific violations cited are unknown.",
+          "companies": [
+            {
+              "company": "Walmart, Inc.",
+              "ticker": "WMT",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2
+        },
+        "_radar": {
+          "bucket": "priority",
+          "reason": "",
+          "verified": [
+            {
+              "ticker": "WMT",
+              "company": "Walmart, Inc.",
+              "source": "stated"
+            }
+          ],
+          "materiality": 2,
+          "age_days": 1.2693452573958333
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_3f13862c1b7957",
+        "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T12:36:30-04:00",
+        "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "regulatory_approval",
+          "is_market_relevant": true,
+          "summary": "FDA approved talazoparib (Talzenna) in combination with enzalutamide for metastatic hormone-sensitive or hormone-naive prostate cancer with HRR gene mutations, per the FDA Drugs headline; no body text was retrieved.",
+          "companies": [
+            {
+              "company": "Pfizer",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Astellas Pharma",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_positive",
+          "materiality": 4,
+          "affected_sectors": [
+            "biotechnology",
+            "pharmaceuticals",
+            "oncology"
+          ]
+        },
+        "_radar": {
+          "bucket": "priority",
+          "reason": "",
+          "verified": [
+            {
+              "ticker": "PFE",
+              "company": "Pfizer",
+              "source": "resolved"
+            },
+            {
+              "ticker": "ALPMY",
+              "company": "Astellas Pharma",
+              "source": "resolved"
+            }
+          ],
+          "materiality": 4,
+          "age_days": 1.4343799796180554
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_0ccd74916a1adb",
+        "title": "FDA Takes Action on New Boxed Warning for Adzynma Enzyme Replacement Therapy for Congenital Thrombotic Thrombocytopenic Purpura (cTTP)",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T08:48:18-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-takes-action-new-boxed-warning-adzynma-enzyme-replacement-therapy-congenital-thrombotic",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "recall_safety",
+          "summary": "FDA announced action adding a new boxed warning to the labeling of Adzynma, an enzyme replacement therapy for congenital thrombotic thrombocytopenic purpura (cTTP). The announcement body text was not retrieved, so the nature of the warning is not specified.",
+          "companies": [
+            {
+              "company": "Takeda Pharmaceutical Company (Adzynma sponsor)",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 3
+        },
+        "_radar": {
+          "bucket": "priority",
+          "reason": "",
+          "verified": [
+            {
+              "ticker": "TAK",
+              "company": "Takeda Pharmaceutical Company (Adzynma sponsor)",
+              "source": "resolved"
+            }
+          ],
+          "materiality": 3,
+          "age_days": 1.592852201840278
+        },
+        "_state": "seen"
+      }
+    ],
+    "archive": [
+      {
+        "event_id": "cat_532eef7991ab18",
+        "title": "Peripheral and Central Nervous System Drugs Advisory Committee Charter",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T17:52:50-04:00",
+        "url": "http://www.fda.gov/advisory-committees/peripheral-and-central-nervous-system-drugs-advisory-committee/peripheral-and-central-nervous-system-drugs-advisory-committee-charter",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "is_market_relevant": false,
+          "summary": "FDA published the charter for its Peripheral and Central Nervous System Drugs Advisory Committee. The announcement contains only a headline with no body text.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.21470405369212964
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_fa476862124889",
+        "title": "Manual of Compliance Policy Guides",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T14:04:58-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA posted a headline-only item titled \"Manual of Compliance Policy Guides\" on its compliance manuals page. No body text was retrieved, so the content and any specific company impact are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "affected_sectors": []
+        },
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.3729447944328704
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_4ebe25d7d08e1f",
+        "title": "Cellular & Gene Therapy Guidances",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-27T11:52:15-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA Biologics and Vaccines posted a page headlined \"Cellular & Gene Therapy Guidances\" on 2026-10-27. No body text was retrieved, so the specific guidance content is unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.4651091462847222
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_79eda1c730c453",
+        "title": "ZUBB Dietary Supplement may be harmful due to hidden ingredient",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T11:14:02-04:00",
+        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/zubb-dietary-supplement-may-be-harmful-due-hidden-ingredient",
+        "category": "regulatory",
+        "findings": {
+          "affected_sectors": [
+            "dietary supplements"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 0.4916484981365741
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_01606e6659b297",
+        "title": "Weight Loss Product Notifications",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T11:09:36-04:00",
+        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/weight-loss-product-notifications",
+        "category": "regulatory",
+        "findings": {
+          "summary": "FDA posted a 'Weight Loss Product Notifications' page under its medication health fraud notifications section. No body text was retrieved, so the specific products or actions are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "regulatory_action",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "affected_sectors": []
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.4947272018402778
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_80ecfe151ded0a",
+        "title": "Demograss Premier may be harmful due to hidden ingredient",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T11:08:49-04:00",
+        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/demograss-premier-may-be-harmful-due-hidden-ingredient",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "recall_safety",
+          "summary": "FDA issued a health fraud notification that the product Demograss Premier may be harmful due to a hidden ingredient. The announcement body text was not retrieved, so the ingredient and company are unspecified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.4952711833217593
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_0e02ce5fdb657a",
+        "title": "Best Chinese Medicines LLC - 738556 - 10/23/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T09:20:07-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/best-chinese-medicines-llc-738556-10232026",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "enforcement",
+          "summary": "FDA posted a warning letter dated 10/23/2026 addressed to Best Chinese Medicines LLC. Only the headline was retrieved, so the violations cited are not known.",
+          "companies": [
+            {
+              "company": "Best Chinese Medicines LLC",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.5707572944328704
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_59f6ab2a04cca9",
+        "title": "TSP Solutions Pte. Ltd. - 735071 - 10/22/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T09:20:07-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/tsp-solutions-pte-ltd-735071-10222026",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "enforcement",
+          "summary": "FDA posted a warning letter dated 10/22/2026 addressed to TSP Solutions Pte. Ltd. The announcement text was not retrieved, so the nature of the violations is unknown.",
+          "companies": [
+            {
+              "company": "TSP Solutions Pte. Ltd.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.5707572944328704
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_598edff6629535",
+        "title": "Sanrace Biotechnology Co., Ltd. - 737549 - 10/22/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T09:20:06-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/sanrace-biotechnology-co-ltd-737549-10222026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "enforcement",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "summary": "FDA posted a warning letter dated 10/22/2026 to Sanrace Biotechnology Co., Ltd. (file 737549). Only the headline was retrieved, so the specific violations are not known.",
+          "companies": [
+            {
+              "company": "Sanrace Biotechnology Co., Ltd.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "affected_sectors": [
+            "pharmaceuticals",
+            "biotechnology"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 0.5707688685069444
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_c619f73bb02581",
+        "title": "Northland Nuclear Medicine, LLC - 736893 - 10/22/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T09:20:06-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/northland-nuclear-medicine-llc-736893-10222026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "enforcement",
+          "summary": "FDA posted a warning letter dated 10/22/2026 to Northland Nuclear Medicine, LLC. Only the headline was retrieved; no body text describes the specific violations.",
+          "companies": [
+            {
+              "company": "Northland Nuclear Medicine, LLC",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.5707688685069444
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_97d8e87af1c600",
+        "title": "Calibrate IV Hydration - 729846 - 10/13/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-27T09:20:06-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/calibrate-iv-hydration-729846-10132026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "enforcement",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA posted a warning letter headlined \"Calibrate IV Hydration - 729846 - 10/13/2026\" dated 10/13/2026. No body text was retrieved, so the specific violations are unknown.",
+          "companies": [
+            {
+              "company": "Calibrate IV Hydration",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear"
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.5707688685069444
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_4fd44e79665887",
+        "title": "Beaute Bounty - 729163 - 09/25/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-27T09:20:05-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/beaute-bounty-729163-09252026",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "enforcement",
+          "summary": "FDA posted a warning letter to Beaute Bounty (dated 09/25/2026, published 2026-10-27), but no body text was retrieved, so the violations and any market relevance cannot be determined from the headline alone.",
+          "companies": [
+            {
+              "company": "Beaute Bounty",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.5707804425810186
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_90087a20d328dc",
+        "title": "NeilMed Pharmaceuticals Inc. - 650263 - 10/19/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T09:20:03-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-10192026",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "enforcement",
+          "summary": "FDA posted a warning letter dated 10/19/2026 to NeilMed Pharmaceuticals Inc. (reference 650263). Only the headline was retrieved, so the specific violations are not stated.",
+          "companies": [
+            {
+              "company": "NeilMed Pharmaceuticals Inc.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 0.5708035907291666
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_cac20d08832a39",
+        "title": "NeilMed Pharmaceuticals Inc. - 650263 - 05/26/2023",
+        "source": "FDA Drugs",
+        "published": "2026-10-27T09:19:36-04:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-05262023",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "enforcement",
+          "is_market_relevant": true,
+          "summary": "FDA posted a warning letter to NeilMed Pharmaceuticals Inc., dated 05/26/2023 per the headline, based on an inspection. Only the headline was retrieved, so the specific violations are not known.",
+          "companies": [
+            {
+              "company": "NeilMed Pharmaceuticals Inc.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 0.5711160907291667
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_78db511ed13223",
+        "title": "Electronic Submission Template for Investigational Device Exemption (IDE) Applications",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-27T09:02:07-04:00",
+        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-submission-template-investigational-device-exemption-ide-applications",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA Biologics and Vaccines posted a notice titled \"Electronic Submission Template for Investigational Device Exemption (IDE) Applications.\" No body text was retrieved, so the content is unknown beyond the headline.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 0.5832572944328703
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_23719750710537",
+        "title": "Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-27T08:53:57-04:00",
+        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "regulatory_action",
+          "summary": "FDA Biologics and Vaccines published a guidance document headlined \"Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management.\" Only the headline was retrieved, so the document's content is not confirmed.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 2,
+          "is_market_relevant": true,
+          "affected_sectors": [
+            "biotechnology",
+            "gene therapy"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 0.5889285907291667
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_25fadbd0985c15",
+        "title": "Early Alert: B. Braun Removes Streamline Bloodline Set for Dialog+",
+        "source": "FDA MedWatch Safety Alerts",
+        "published": "2026-10-27T00:00:00-04:00",
+        "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-removes-streamline-bloodline-set-dialog",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "recall_safety",
+          "summary": "FDA posted an early alert that B. Braun is removing its Streamline Bloodline Set for Dialog+ from the market. Only the headline was retrieved; no body text describes the reason or scope.",
+          "companies": [
+            {
+              "company": "B. Braun",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2,
+          "is_market_relevant": true,
+          "affected_sectors": [
+            "medical devices",
+            "dialysis"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 0.9597272018402777
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_f89920a7cb66e5",
+        "title": "Non-Compliance Letters under 505B(d)(1) of the Federal Food, Drug, and Cosmetic Act",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T16:47:10-04:00",
+        "url": "http://www.fda.gov/drugs/guidance-compliance-regulatory-information/non-compliance-letters-under-505bd1-federal-food-drug-and-cosmetic-act",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "regulatory_action",
+          "is_market_relevant": false,
+          "summary": "FDA Drugs posted a page titled \"Non-Compliance Letters under 505B(d)(1) of the Federal Food, Drug, and Cosmetic Act,\" but no body text was retrieved, so the content and any named companies are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.2603059055439814
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_46abf8d9262621",
+        "title": "Multimedia Education Materials | Biosimilars",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T16:01:52-04:00",
+        "url": "http://www.fda.gov/drugs/biosimilars/multimedia-education-materials-biosimilars",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted a page titled \"Multimedia Education Materials | Biosimilars\" on its Drugs site; no body text was retrieved, so the content is unknown. It appears to be an educational resource page with no identifiable company or market action.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.2917642388773147
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_e59da08d93d4fa",
+        "title": "9 Things to Know About Biosimilars and Interchangeable Biosimilars",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T16:01:12-04:00",
+        "url": "http://www.fda.gov/drugs/biosimilars/9-things-know-about-biosimilars-and-interchangeable-biosimilars",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA Drugs published an educational item titled \"9 Things to Know About Biosimilars and Interchangeable Biosimilars.\" No body text was retrieved, so no specific product, company, or regulatory action is identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.2922272018402776
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_cfddb7e5abc185",
+        "title": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Glutathione Due to Elevated Endotoxin Levels",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T14:23:53-04:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-glutathione-due-elevated-endotoxin-levels",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "summary": "FDA posted a notice that Greenwich Rx is conducting a voluntary nationwide recall of compounded glutathione due to elevated endotoxin levels. Only the headline was retrieved; no body text describing the scope or affected lots was available.",
+          "companies": [
+            {
+              "company": "Greenwich Rx",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear",
+          "affected_sectors": [
+            "compounding pharmacy",
+            "health care"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 1.3598082203587962
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_791ac8b10a500e",
+        "title": "Neuroscience Advancement and Innovation Nexus (NAIN)",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T11:58:47-04:00",
+        "url": "http://www.fda.gov/industry/neuroscience-advancement-and-innovation-nexus-nain",
+        "category": "regulatory",
+        "findings": {
+          "summary": "FDA published a web page titled \"Neuroscience Advancement and Innovation Nexus (NAIN)\". No body text was retrieved, so the content and purpose of the announcement cannot be determined.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "event_type": "other"
+        },
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.460572109247685
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_69a8d88b5e2db6",
+        "title": "Generic Drug Facilities, Sites and Organization Lists",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T11:54:22-04:00",
+        "url": "http://www.fda.gov/industry/generic-drug-user-fee-amendments/generic-drug-facilities-sites-and-organization-lists",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted a page titled \"Generic Drug Facilities, Sites and Organization Lists\" under the Generic Drug User Fee Amendments section. No body text was retrieved, so the content is unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.4636392388773147
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_f713c76bc78a3d",
+        "title": "FDA Drug Topics Webinars",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T11:50:40-04:00",
+        "url": "http://www.fda.gov/drugs/information-health-care-professionals-drugs/fda-drug-topics-webinars",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted a general page headlined \"FDA Drug Topics Webinars\" with no body text retrieved. It appears to be an educational webinar listing with no specific company, product, or market action identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.4662086833217591
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_9211ffe44bacb0",
+        "title": "Engaging with Stakeholders to Bring Nonprescription Drug Products to Market",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T11:44:18-04:00",
+        "url": "http://www.fda.gov/drugs/over-counter-otc-nonprescription-drugs/engaging-stakeholders-bring-nonprescription-drug-products-market",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA Drugs published a headline-only item titled \"Engaging with Stakeholders to Bring Nonprescription Drug Products to Market\"; no body text was retrieved, and it describes no specific company, product action, or decision.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.4706299796180555
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_d1a5dffdb98263",
+        "title": "Statement on improving adverse event reporting of compounded drugs to protect patients",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T10:58:02-04:00",
+        "url": "http://www.fda.gov/news-events/press-announcements/statement-improving-adverse-event-reporting-compounded-drugs-protect-patients",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "regulatory_action",
+          "summary": "FDA published a press statement headlined as a plan to improve adverse event reporting for compounded drugs to protect patients. No body text was retrieved, so the specific measures are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5027596092476851
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_46ce063ed473d4",
+        "title": "GDUFA Type II API DMF Payment Receipts Report",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T09:23:26-04:00",
+        "url": "http://www.fda.gov/industry/fda-user-fee-programs/gdufa-type-ii-api-dmf-payment-receipts-report",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted a GDUFA Type II API Drug Master File payment receipts report. Only the headline was retrieved, with no body text describing contents.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5684540536921296
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_5563d5be74cdba",
+        "title": "FDA Roundtable: Strengthening the Supply Chain for Blood Manufacturing - 09/29/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T09:10:12-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/workshops-meetings-conferences-biologics/fda-roundtable-strengthening-supply-chain-blood-manufacturing-09292026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA Biologics and Vaccines posted a headline for a roundtable on strengthening the supply chain for blood manufacturing, dated 09/29/2026. No body text was retrieved, so no further details are available.",
+          "companies": [],
+          "direction": "unclear",
+          "affected_sectors": [],
+          "scheduled_date": ""
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5776438685069445
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_0f7bacdf3b6c60",
+        "title": "Expiration Date Extension for North American Coral Snake Antivenin (Micrurus fulvius) (Equine Origin) Lot CL6814 through June 30, 2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T08:49:09-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/expiration-date-extension-north-american-coral-snake-antivenin-micrurus-fulvius-equine-origin-lot-0",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "regulatory_action",
+          "summary": "FDA announced an expiration date extension for North American Coral Snake Antivenin (equine origin) lot CL6814, extending it through June 30, 2026. Only the headline was retrieved; no body text was available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "affected_sectors": [
+            "biologics",
+            "healthcare"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5922619240625
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_803e539fa55d50",
+        "title": "Expiration Date Extension for North American Coral Snake Antivenin (Micrurus fulvius) (Equine Origin) Lot CL6814 through December 31, 2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T08:49:04-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/expiration-date-extension-north-american-coral-snake-antivenin-micrurus-fulvius-equine-origin-lot-1",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "regulatory_action",
+          "summary": "FDA announced an expiration date extension through December 31, 2026 for lot CL6814 of North American Coral Snake Antivenin (Micrurus fulvius), equine origin. Only the headline was retrieved; no body text was available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5923197944328704
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_320d783720bddf",
+        "title": "Important Information for Human Cell, Tissue, and Cellular and Tissue-based Product (HCT/P) Establishments Regarding Ebola Disease and HCT/P Donation",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T08:48:21-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/important-information-human-cell-tissue-and-cellular-and-tissue-based-product-hctp-establishments-3",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "is_market_relevant": false,
+          "summary": "FDA Biologics and Vaccines posted a notice to human cell, tissue, and cellular and tissue-based product (HCT/P) establishments about Ebola disease and HCT/P donation. Only the headline was retrieved, so the notice's content and requirements are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5928174796180556
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_4774828d886d07",
+        "title": "Calendar Year 2026 | Voluntary Lot Withdrawals of Immune Globulin Intravenous (IGIV) and Immune Globulin Subcutaneous (IGSC) for Increased Reports of Allergic/Hypersensitivity Reactions",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T08:48:15-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/calendar-year-2026-voluntary-lot-withdrawals-immune-globulin-intravenous-igiv-and-immune-globulin",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 3,
+          "summary": "FDA posted a notice of voluntary lot withdrawals of immune globulin intravenous (IGIV) and immune globulin subcutaneous (IGSC) products due to increased reports of allergic/hypersensitivity reactions, per the headline only; no body text or named manufacturers were retrieved.",
+          "companies": [],
+          "direction": "likely_negative",
+          "affected_sectors": [
+            "biotechnology",
+            "plasma-derived therapeutics",
+            "healthcare"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 3,
+          "age_days": 1.5928869240625
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_787e9b6d5aebfd",
+        "title": "Complex Innovative Trial Design Meeting Program",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T08:41:57-04:00",
+        "url": "http://www.fda.gov/drugs/development-resources/complex-innovative-trial-design-meeting-program",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA Drugs published a page titled \"Complex Innovative Trial Design Meeting Program\" on 2026-10-26. The retrieved content contains only the headline, with no body text describing any specific action or company.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.5972619240625001
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_8a58b79fa4a59e",
+        "title": "Public Meeting on the Reauthorization of the Biosimilar User Fee Act (BsUFA) - 10/26/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-26T08:35:17-04:00",
+        "url": "http://www.fda.gov/drugs/news-events-human-drugs/public-meeting-reauthorization-biosimilar-user-fee-act-bsufa-10262026",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA announced a public meeting on the reauthorization of the Biosimilar User Fee Act (BsUFA), dated 10/26/2026. No body text was retrieved, so the meeting details are based on the headline only.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "scheduled_date": "2026-10-26"
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.6018915536921297
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_3a330c6f9d79ea",
+        "title": "CDER Small Business & Industry Assistance (SBIA)",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T08:28:35-04:00",
+        "url": "http://www.fda.gov/drugs/development-approval-process-drugs/cder-small-business-industry-assistance-sbia",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "is_market_relevant": false,
+          "summary": "FDA CDER Small Business & Industry Assistance (SBIA) page was published with headline only; no body text was retrieved, so no substantive announcement content is available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.6065443314699075
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_3229df402dbd34",
+        "title": "The Center for Drug Evaluation and Research's ARC Program Releases 2026 Annual Report",
+        "source": "FDA Drugs",
+        "published": "2026-10-26T08:23:32-04:00",
+        "url": "http://www.fda.gov/drugs/drug-alerts-and-statements/center-drug-evaluation-and-researchs-arc-program-releases-2026-annual-report",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA CDER's ARC Program released its 2026 annual report, per a headline-only notice with no body text retrieved.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 1.610051275914352
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_bd4cad8e2c644e",
+        "title": "FDA Rare Disease Day 2027 - 03/05/2027",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T16:35:08-04:00",
+        "url": "http://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/fda-rare-disease-day-2027-03052027",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA announced a Rare Disease Day 2027 event scheduled for March 5, 2027. The notice is a conference listing with no body text retrieved.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "scheduled_date": "2027-03-05"
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.268662387025463
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_01e2e9bd4854aa",
+        "title": "What's New Related to Drugs",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T14:09:49-04:00",
+        "url": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA Drugs \"What's New\" index page was published with headline only; no body text was retrieved, so the specific drug-related update is unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.369576738877315
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_dbf3128e30cd0f",
+        "title": "Notable Approvals | Drugs",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T14:04:04-04:00",
+        "url": "http://www.fda.gov/drugs/news-events-human-drugs/notable-approvals-drugs",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA Drugs published a \"Notable Approvals\" page headline on 2026-10-23. No body text was retrieved, so no specific approval, company, or product is identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.37356979443287
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_1c2a4463c14f3b",
+        "title": "FDA Approves First Once-Weekly Insulin for Type 2 Diabetes Mellitus in Pediatric Patients",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T14:03:25-04:00",
+        "url": "http://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-once-weekly-insulin-type-2-diabetes-mellitus-pediatric-patients",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "regulatory_approval",
+          "summary": "FDA announced approval of a once-weekly insulin for pediatric patients with type 2 diabetes mellitus, per the headline only; no body text was retrieved, so the sponsor and product name are not identified.",
+          "companies": [],
+          "direction": "likely_positive",
+          "materiality": 3,
+          "is_market_relevant": true,
+          "affected_sectors": [
+            "pharmaceuticals",
+            "diabetes care"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 3,
+          "age_days": 4.3740211833217595
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_b00ad1c61d7949",
+        "title": "Pain and Arthritis Products Containing Hidden Ingredients",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T13:13:58-04:00",
+        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/pain-and-arthritis-products-containing-hidden-ingredients",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "recall_safety",
+          "summary": "FDA published a notice headlined \"Pain and Arthritis Products Containing Hidden Ingredients,\" a health fraud notification. No body text was retrieved, so the specific products, ingredients, and companies are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "affected_sectors": [
+            "consumer health",
+            "over-the-counter drugs"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.408361461099537
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_a44afd28724897",
+        "title": "Ultra Bon may be harmful due to hidden ingredient",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T13:13:19-04:00",
+        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/ultra-bon-may-be-harmful-due-hidden-ingredient",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "recall_safety",
+          "summary": "FDA posted a medication health fraud notification stating that the product \"Ultra Bon\" may be harmful due to a hidden ingredient. Only the headline was retrieved; no body text, company name, or ticker was available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "affected_sectors": [
+            "consumer health"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.408812849988426
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_baab0d1782e0f6",
+        "title": "Public Notification: Green Lumber contains hidden drug ingredient",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T12:18:22-04:00",
+        "url": "http://www.fda.gov/drugs/medication-health-fraud/public-notification-green-lumber-contains-hidden-drug-ingredient",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "recall_safety",
+          "summary": "FDA issued a public notification that the product \"Green Lumber\" contains a hidden drug ingredient. Only the headline was retrieved; no body text, ingredient name, or company details are available.",
+          "companies": [
+            {
+              "company": "Green Lumber",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.446972572210648
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_908e946ba96d43",
+        "title": "Other | Cancer Accelerated Approvals",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T11:49:45-04:00",
+        "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/other-cancer-accelerated-approvals",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA Drugs page titled \"Other | Cancer Accelerated Approvals\" was published with no body text retrieved, so the specific drugs, sponsors, and indications cannot be determined from this item.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.466845257395834
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_0499ec361083e0",
+        "title": "Registered Outsourcing Facilities",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T11:38:27-04:00",
+        "url": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA published a page titled \"Registered Outsourcing Facilities\" under its human drug compounding section. No body text was retrieved, so the content is unknown and no company or market effect can be identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.474692479618056
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_71394119aae314",
+        "title": "2026 Safety and Availability Communications",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-23T11:01:22-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/2026-safety-and-availability-communications",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA Biologics and Vaccines posted a 2026 Safety and Availability Communications index page. No body text was retrieved, so the specific safety or supply actions it covers are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.5004447944328705
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_b74f7652e7222a",
+        "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+        "source": "SEC Press Releases",
+        "published": "2026-10-23T10:10:00-04:00",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "regulatory_action",
+          "summary": "The SEC announced its Fiscal Year 2027 examination priorities. No body text was retrieved, so only the headline is known.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.536116090729167
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_c0b889f14d15bc",
+        "title": "Generic Drug Research Priorities & Projects",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T09:53:07-04:00",
+        "url": "http://www.fda.gov/drugs/generic-drugs/generic-drug-research-priorities-projects",
+        "category": "regulatory",
+        "findings": {
+          "event_type": "other",
+          "summary": "FDA published a page titled \"Generic Drug Research Priorities & Projects\"; only the headline was retrieved, with no body text describing specific priorities or projects.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.547840627766204
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_11296a97a0ea32",
+        "title": "Drugs@FDA Data Files",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T09:39:20-04:00",
+        "url": "http://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+        "category": "regulatory",
+        "findings": {
+          "summary": "FDA published a Drugs@FDA data files page; the retrieved item contains only a headline with no body text, so no specific approval, company, or action is described.",
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1
+        },
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.5574123870254635
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_520ff989eff55d",
+        "title": "October 30, 2026: Dermatologic and Ophthalmic Drugs Advisory Committee Meeting Announcement - 10/30/2026",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T09:01:54-04:00",
+        "url": "http://www.fda.gov/advisory-committees/advisory-committee-calendar/october-30-2026-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-announcement-10302026",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "regulatory_action",
+          "summary": "FDA announced an October 30, 2026 meeting of its Dermatologic and Ophthalmic Drugs Advisory Committee. No body text was retrieved, so the agenda and products under review are not stated.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 2,
+          "scheduled_date": "2026-10-30",
+          "affected_sectors": [
+            "pharmaceuticals",
+            "dermatology",
+            "ophthalmology"
+          ]
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 4.583407757395833
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_efdf3bf684482b",
+        "title": "GDUFA Paid Facilities List",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T08:02:54-04:00",
+        "url": "http://www.fda.gov/industry/generic-drug-user-fee-amendments/gdufa-paid-facilities-list",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted a GDUFA Paid Facilities List page. Only the headline was retrieved, with no body text describing its contents.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.624379979618055
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_2c0118b4729353",
+        "title": "Recently Issued Biologics Guidance Documents",
+        "source": "FDA Drugs",
+        "published": "2026-10-23T07:50:51-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/recently-issued-biologics-guidance-documents",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "regulatory_action",
+          "summary": "FDA posted a routine listing titled \"Recently Issued Biologics Guidance Documents.\" No body text was retrieved, so no specific guidance content or affected company is identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 4.632748035173611
+        },
+        "_state": "updated"
+      },
+      {
+        "event_id": "cat_9d1cf1d163d8a5",
+        "title": "Patient Listening Session Summaries",
+        "source": "FDA Drugs",
+        "published": "2026-10-22T16:21:19-04:00",
+        "url": "http://www.fda.gov/patients/fda-patient-listening-sessions/patient-listening-session-summaries",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA published a page titled \"Patient Listening Session Summaries\" on 2026-10-22. No body text was retrieved, so the content is unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.27825729443287
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_bb815b6a4ce676",
+        "title": "2026 Biological License Application Approvals",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-22T16:11:29-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/2026-biological-license-application-approvals",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA CBER published a page titled \"2026 Biological License Application Approvals\" on 2026-10-22. No body text was retrieved, so no specific approvals, products, or companies can be identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.285085998136574
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_056b17d2f3344d",
+        "title": "Accelerating Rare disease Cures (ARC) Program",
+        "source": "FDA Drugs",
+        "published": "2026-10-22T15:43:55-04:00",
+        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/accelerating-rare-disease-cures-arc-program",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA CDER published a page titled \"Accelerating Rare disease Cures (ARC) Program\" on 2026-10-22. No body text was retrieved, so the content of any announcement is unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.304229516655092
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_f0dacc4bf6398a",
+        "title": "Rare Disease News & Events",
+        "source": "FDA Drugs",
+        "published": "2026-10-22T15:43:19-04:00",
+        "url": "http://www.fda.gov/about-fda/accelerating-rare-disease-cures-arc-program/rare-disease-news-events",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted a generic 'Rare Disease News & Events' index page on 2026-10-22; no body text was retrieved, so no specific action, company, or product is identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.3046461833217595
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_5ea26d40a9291e",
+        "title": "Drug Alerts and Statements",
+        "source": "FDA Drugs",
+        "published": "2026-10-22T15:42:22-04:00",
+        "url": "http://www.fda.gov/drugs/drug-safety-and-availability/drug-alerts-and-statements",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA published a generic index page titled \"Drug Alerts and Statements\" with no body text retrieved, so no specific drug, company, or action is identified.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.305305905543982
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_c704248eaecf92",
+        "title": "The Center for Drug Evaluation and Research's ARC Program Releases its 2026 Annual Report",
+        "source": "FDA Drugs",
+        "published": "2026-10-22T15:41:40-04:00",
+        "url": "http://www.fda.gov/drugs/drug-alerts-and-statements/center-drug-evaluation-and-researchs-arc-program-releases-its-2026-annual-report",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA CDER's ARC Program released its 2026 Annual Report. No body text was retrieved, so the report's content is unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.305792016655093
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_f90d9dd47d4248",
+        "title": "Oncology (Cancer)/Hematologic Malignancies Approval Notifications",
+        "source": "FDA Drugs",
+        "published": "2026-10-22T14:57:05-04:00",
+        "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
+        "category": "regulatory",
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA published its Oncology (Cancer)/Hematologic Malignancies Approval Notifications index page on 2026-10-22. The retrieved item contains only the headline, with no body text naming any specific approval, drug, or company.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 1,
+          "age_days": 5.336752664803241
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_ecc4ebe0ecf46b",
+        "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary  Medications Within Expiry Due to Potential Potency Issues",
+        "source": "FDA Drugs",
+        "published": "2026-10-21T16:51:51-04:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
+        "category": "regulatory",
+        "findings": {
+          "affected_sectors": [
+            "compounding pharmacy",
+            "veterinary pharmaceuticals"
+          ],
+          "companies": [
+            {
+              "company": "Wedgewood Pharmacy",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "summary": "Wedgewood Pharmacy announced a recall of certain compounded veterinary medications that are within their expiry date, citing potential potency issues. Only the headline was retrieved; no body text, scope, or affected lots were available.",
+          "scheduled_date": ""
+        },
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 2,
+          "age_days": 6.257053590729167
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_802f8fe00cdec7",
+        "title": "CDER Leadership Bios",
+        "source": "FDA Drugs",
+        "published": "2026-10-21T14:54:39-04:00",
+        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-leadership-bios",
+        "category": "regulatory",
+        "findings": null,
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 0,
+          "age_days": 6.338442479618056
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_b7ccac5a714b83",
+        "title": "Over-The-Counter Monograph Drug User Fee Program (OMUFA)",
+        "source": "FDA Drugs",
+        "published": "2026-10-21T14:41:40-04:00",
+        "url": "http://www.fda.gov/industry/fda-user-fee-programs/over-counter-monograph-drug-user-fee-program-omufa",
+        "category": "regulatory",
+        "findings": null,
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 0,
+          "age_days": 6.34745868332176
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_e8403aff42d570",
+        "title": "VYJUVEK",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-21T14:36:39-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/vyjuvek",
+        "category": "regulatory",
+        "findings": null,
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 0,
+          "age_days": 6.350942479618055
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_3c3e82bc6cb61f",
+        "title": "What’s New for Biologics",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-10-21T14:30:20-04:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+        "category": "regulatory",
+        "findings": null,
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 0,
+          "age_days": 6.35532905369213
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_0347ca07291aae",
+        "title": "Compounding Quality Center of Excellence | Discussion Series",
+        "source": "FDA Drugs",
+        "published": "2026-10-21T12:22:56-04:00",
+        "url": "http://www.fda.gov/drugs/compounding-quality-center-excellence/compounding-quality-center-excellence-discussion-series",
+        "category": "regulatory",
+        "findings": null,
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "materiality": 0,
+          "age_days": 6.443801275914352
+        },
+        "_state": "seen"
+      }
+    ],
+    "counts": {
+      "upcoming": 0,
+      "priority": 4,
+      "archive": 65
+    },
+    "duplicates_collapsed": 6,
+    "archive_reasons": {
+      "no verified public company behind it": 65
+    },
+    "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
+  },
   "health": {
     "last_attempt": {
-      "at": "2026-10-28T02:55:22.975494+00:00",
-      "display": "Oct 27, 10:55 PM EDT",
+      "at": "2026-10-28T03:01:57.135274+00:00",
+      "display": "Oct 27, 11:01 PM EDT",
       "trigger": "scheduled",
       "ok": null,
       "error": "",
-      "age_hours": 0.001256453888888889
+      "age_hours": 0.0009156241666666667
     },
     "last_success": {
-      "at": "2026-10-28T02:54:34.329829+00:00",
-      "display": "Oct 27, 10:54 PM EDT",
+      "at": "2026-10-28T03:00:49.208327+00:00",
+      "display": "Oct 27, 11:00 PM EDT",
       "trigger": "scheduled",
-      "age_hours": 0.014769138611111112,
+      "age_hours": 0.019784220555555558,
       "ingested": null
     },
     "stale": false,
@@ -71562,10 +73409,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-10-28T02:55:23.495864+00:00",
+      "attempted": "2026-10-28T03:01:57.315038+00:00",
       "as_of": null,
       "as_of_display": "unavailable - feed down",
-      "attempted_display": "Oct 27, 10:55 PM EDT",
+      "attempted_display": "Oct 27, 11:01 PM EDT",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 0,
@@ -71581,10 +73428,58 @@
     },
     "recent": [
       {
+        "started": "2026-10-28T03:01:57.135274+00:00",
+        "display": "Tue 11:01 PM EDT",
+        "trigger": "scheduled",
+        "ok": null,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T03:00:49.208327+00:00",
+        "display": "Tue 11:00 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T03:00:14.909879+00:00",
+        "display": "Tue 11:00 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T02:59:40.998680+00:00",
+        "display": "Tue 10:59 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T02:58:51.129378+00:00",
+        "display": "Tue 10:58 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
+        "started": "2026-10-28T02:58:40.512989+00:00",
+        "display": "Tue 10:58 PM EDT",
+        "trigger": "scheduled",
+        "ok": true,
+        "error": "",
+        "ingested": null
+      },
+      {
         "started": "2026-10-28T02:55:22.975494+00:00",
         "display": "Tue 10:55 PM EDT",
         "trigger": "scheduled",
-        "ok": null,
+        "ok": true,
         "error": "",
         "ingested": null
       },
@@ -71595,22 +73490,6 @@
         "ok": true,
         "error": "",
         "ingested": null
-      },
-      {
-        "started": "2026-10-28T02:53:08.960723+00:00",
-        "display": "Tue 10:53 PM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T02:52:29.426380+00:00",
-        "display": "Tue 10:52 PM EDT",
-        "trigger": "manual-test",
-        "ok": true,
-        "error": "",
-        "ingested": 166
       }
     ],
     "note": "published is when the source put it out; ingested is when this system saw it; market data is what the price feed is as of. They are three different clocks."

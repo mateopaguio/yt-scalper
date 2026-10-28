@@ -23,6 +23,7 @@ from scalper import (
     catalysts as cat,
     changes,
     health,
+    radar,
     creators,
     config as cfgmod,
     feeds,
@@ -167,6 +168,8 @@ def build_digest(
     }
     # Built last: it reads the finished digest (price feed state, scanner
     # diagnostics, source timestamps) to answer "is any of this current?"
+    digest["radar"] = radar.build(
+        catalyst_events or [], changes=digest.get("catalyst_changes"))
     digest["health"] = health.snapshot(digest, videos)
     return digest
 

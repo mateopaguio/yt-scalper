@@ -711,14 +711,27 @@ def test_css_has_no_invalid_font_shorthand():
     """`font: 600 12px inherit` is invalid - the family slot cannot be
     `inherit`. WebKit drops the WHOLE declaration, so the element falls
     back to UA defaults on iOS while looking fine in Chromium."""
+    import glob
     import re
-    from scalper.app_css import APP_CSS
-    bad = re.findall(r"font\s*:\s*[^;{}]*\binherit\b[^;{}]*;", APP_CSS)
-    assert not bad, f"invalid font shorthand: {bad}"
-    # a bare `font: inherit` IS valid, so only flag it with other components
-    for m in re.findall(r"font\s*:\s*([^;{}]+);", APP_CSS):
-        if "inherit" in m and m.strip() != "inherit":
-            raise AssertionError(f"font shorthand mixes inherit: {m!r}")
+
+    # Every module that emits CSS, not just the stylesheet. The first
+    # version of this test read app_css.APP_CSS only, so an identical
+    # `font:600 12.5px inherit` sitting in an inline style in
+    # app_render.py went on shipping to iOS unchecked.
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    bad = []
+    for path in sorted(glob.glob(os.path.join(root, "scalper", "*.py"))):
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        for m in re.finditer(r"font\s*:\s*([^;{}\"']+)", text):
+            decl = m.group(1).strip()
+            # A bare `font: inherit` is valid; `inherit` in the family
+            # slot of a multi-part shorthand is not, and WebKit drops
+            # the whole declaration rather than the one bad component.
+            if "inherit" in decl and decl != "inherit":
+                line = text[:m.start()].count("\n") + 1
+                bad.append(f"{os.path.basename(path)}:{line}  font:{decl}")
+    assert not bad, "invalid font shorthand:\n  " + "\n  ".join(bad)
 
 
 def test_relevance_is_conservative():
@@ -1025,6 +1038,120 @@ def test_a_crashed_run_is_recorded_as_an_attempt():
     finally:
         health.PATH = original
 
+
+def test_no_font_below_the_readability_floor():
+    """11px is this project's floor. I have now broken it three times.
+
+    Each time the fix was correct and the font size was a detail
+    carried along with it: 9.5px in a narrow-screen rule, 10.5px
+    carried across from the invalid font shorthand, 10.5px again on a
+    new unit label. A rule that depends on remembering is not a rule.
+    """
+    import re
+
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    css = os.path.join(root, "scalper", "app_css.py")
+    with open(css, encoding="utf-8") as fh:
+        text = fh.read()
+
+    bad = []
+    for m in re.finditer(r"font-size:\s*([0-9.]+)px", text):
+        if float(m.group(1)) < 11:
+            line = text[:m.start()].count("\n") + 1
+            ctx = text.splitlines()[line - 1].strip()[:70]
+            bad.append(f"line {line}: {m.group(0)}  ({ctx})")
+    assert not bad, "below the 11px floor:\n  " + "\n  ".join(bad)
+
+
+def test_radar_requires_a_verified_public_company():
+    """A headline naming a private company is not a catalyst.
+
+    The screen was 73 FDA notices out of 75 events, 55 at materiality
+    1/5, two with a ticker. "NeilMed Pharmaceuticals" and "Pfizer" look
+    identical in a findings dict; only one of them is listed.
+    """
+    from datetime import datetime, timezone
+    from scalper import radar
+
+    now = datetime(2026, 10, 28, 2, 0, tzinfo=timezone.utc)
+    master = {"map": {"pfizer": "PFE"}}
+
+    def ev(eid, company, ticker="", mat=3, rel=True, pub="2026-10-27T12:00:00+00:00",
+           title=None, sched=None):
+        f = {"companies": [{"company": company, "ticker": ticker}],
+             "materiality": mat, "is_market_relevant": rel,
+             "event_type": "recall", "direction": "down",
+             "summary": "s"}
+        if sched:
+            f["scheduled_date"] = sched
+        return {"event_id": eid, "title": title or f"{company} notice",
+                "published": pub, "source": "FDA Drugs", "findings": f}
+
+    out = radar.build([
+        ev("1", "Pfizer"),                       # resolves -> promoted
+        ev("2", "Beaute Bounty"),                # private -> archived
+        ev("3", "Amgen Inc.", ticker="AMGN"),    # stated ticker -> promoted
+    ], now=now, changes=None)
+
+    promoted = {c["ticker"] for c in
+                [x for e in out["priority"] + out["upcoming"]
+                 for x in e["_radar"]["verified"]]}
+    assert "AMGN" in promoted
+    assert not any(e["event_id"] == "2" for e in out["priority"]), \
+        "promoted an event with no listed company behind it"
+    assert any(e["event_id"] == "2" for e in out["archive"])
+    assert all(e["_radar"]["reason"] for e in out["archive"]), \
+        "archived without saying why"
+
+    # An old filing is archived, and says how old.
+    old = radar.build([ev("4", "Amgen Inc.", ticker="AMGN",
+                          pub="2026-01-01T00:00:00+00:00")], now=now)
+    assert old["counts"]["archive"] == 1
+    assert "days ago" in old["archive"][0]["_radar"]["reason"]
+
+    # ...unless the event it announces is still ahead of us.
+    ahead = radar.build([ev("5", "Amgen Inc.", ticker="AMGN",
+                            pub="2026-01-01T00:00:00+00:00",
+                            sched="2026-12-01")], now=now)
+    assert ahead["counts"]["upcoming"] == 1, "dropped a future dated event"
+
+
+def test_radar_collapses_duplicate_filings_without_merging_distinct_ones():
+    """The FDA reposts identical notices across feeds.
+
+    The first implementation keyed dedup on changes.fingerprint(),
+    which hashes event_type, materiality, direction and relevance -
+    right for "has this known event changed?", badly wrong for "are
+    these the same event?". Every low-materiality unmapped recall
+    shares those four values, so it collapsed 75 events into 24 and
+    silently discarded 51 distinct stories.
+    """
+    from datetime import datetime, timezone
+    from scalper import radar
+
+    now = datetime(2026, 10, 28, 2, 0, tzinfo=timezone.utc)
+
+    def ev(eid, title, company="Acme Labs"):
+        return {"event_id": eid, "title": title,
+                "published": "2026-10-27T12:00:00+00:00", "source": "FDA",
+                "findings": {"companies": [{"company": company, "ticker": ""}],
+                             "materiality": 1, "is_market_relevant": False,
+                             "event_type": "recall", "direction": "down",
+                             "summary": "s"}}
+
+    out = radar.build([ev("1", "Drugs FDA data files"),
+                       ev("2", "Drugs FDA data files"),       # true duplicate
+                       ev("3", "Supplement X may be harmful"),
+                       ev("4", "Supplement Y may be harmful")], now=now)
+
+    assert out["duplicates_collapsed"] == 1, out["duplicates_collapsed"]
+    total = sum(out["counts"].values()) + out["duplicates_collapsed"]
+    assert total == 4, f"events went missing: {total} of 4"
+    titles = {e["title"] for e in out["archive"]}
+    assert "Supplement X may be harmful" in titles
+    assert "Supplement Y may be harmful" in titles, \
+        "two distinct stories were merged into one"
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -1122,6 +1249,12 @@ def main() -> int:
           test_health_separates_publication_from_ingestion)
     check("P0: a crashed run is recorded as an attempt",
           test_a_crashed_run_is_recorded_as_an_attempt)
+    check("css: nothing below the 11px readability floor",
+          test_no_font_below_the_readability_floor)
+    check("P2: radar requires a verified public company",
+          test_radar_requires_a_verified_public_company)
+    check("P2: duplicate filings collapse, distinct ones do not",
+          test_radar_collapses_duplicate_filings_without_merging_distinct_ones)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
