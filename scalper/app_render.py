@@ -556,7 +556,7 @@ def _health_strip(h: dict) -> str:
             f'<a href="#" data-go="scalp" class="hlink">details</a></div>')
 
 
-def _health_panel(h: dict) -> str:
+def _health_panel(h: dict, digest_dq: dict | None = None) -> str:
     """The three clocks, the run record, and the errors behind them."""
     if not h:
         return '<div class="empty">No health record yet.</div>'
@@ -608,6 +608,17 @@ def _health_panel(h: dict) -> str:
                     'consecutive failed run(s)</div>')
     if h.get("stale") and h.get("stale_message"):
         body.append(f'<div class="herr">{e(h["stale_message"])}</div>')
+
+    dq = (digest_dq or {})
+    per = dq.get("per_ticker") or {}
+    if per:
+        counts = dq.get("counts") or {}
+        body.append(row("Price data",
+                        ", ".join(f"{v} {k}" for k, v in counts.items()),
+                        f"{len(per)} ticker(s) checked"))
+        bad = [(t, v) for t, v in per.items() if v["status"] != "usable"]
+        for tk, v in bad[:6]:
+            body.append(f'<div class="herr">{e(tk)}: {e(v["detail"])}</div>')
 
     recent = h.get("recent") or []
     if recent:
@@ -702,7 +713,8 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
     scalp = (
         '<h2 class="sec">Paper setups</h2>' + scalp_body
         + _scalp_sections(digest)
-        + '<h2 class="sec">Data health</h2>' + _health_panel(digest.get("health") or {})
+        + '<h2 class="sec">Data health</h2>' + _health_panel(digest.get("health") or {},
+                        digest.get("data_quality") or {})
         + '<div class="note"><b>Paper only.</b> No broker is connected and '
           'no order can be placed. Options are not priced &mdash; no chain '
           'data is configured, and an invented spread would defeat the point '

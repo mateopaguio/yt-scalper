@@ -19,11 +19,14 @@ from __future__ import annotations
 
 import csv
 import os
+import time
 import io
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
 import requests
+
+from . import dataquality
 
 STOOQ = "https://stooq.com/q/d/l/"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; yt-scalper/1.1)"}
@@ -217,69 +220,160 @@ def alpaca_configured() -> bool:
                 and os.environ.get("ALPACA_SECRET_KEY"))
 
 
+_ENTITLEMENT_CACHE: dict[str, str] = {}
+
+
+def alpaca_feed(timeout: int = 15, force: bool = False) -> tuple[str, str]:
+    """Which Alpaca feed this account may actually use.
+
+    Probed, never assumed. SIP is the consolidated tape and is what you
+    want for daily bars; IEX is a single venue carrying a few percent
+    of volume, so its daily OHLC can differ from the real session. But
+    SIP is a paid entitlement on many accounts, and asking for it
+    without the entitlement returns 403 rather than quietly degrading.
+
+    ALPACA_FEED overrides the probe. Returns (feed, how_we_know).
+    """
+    forced = (os.environ.get("ALPACA_FEED") or "").strip().lower()
+    if forced in ("iex", "sip"):
+        return forced, "set by ALPACA_FEED"
+    if not force and "feed" in _ENTITLEMENT_CACHE:
+        return _ENTITLEMENT_CACHE["feed"], _ENTITLEMENT_CACHE.get("why", "cached")
+
+    key = os.environ.get("ALPACA_KEY_ID")
+    secret = os.environ.get("ALPACA_SECRET_KEY")
+    if not (key and secret):
+        return "iex", "no credentials; nothing probed"
+
+    headers = {"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": secret,
+               "Accept": "application/json"}
+    try:
+        resp = requests.get(
+            f"{ALPACA_DATA}SPY/bars",
+            params={"timeframe": "1Day", "limit": 1, "feed": "sip"},
+            headers=headers, timeout=timeout)
+        if resp.status_code == 200 and (resp.json().get("bars") or []):
+            feed, why = "sip", "probed: the account is entitled to SIP"
+        elif resp.status_code in (401, 403):
+            feed, why = "iex", f"probed: SIP refused ({resp.status_code}); using IEX"
+        else:
+            feed, why = "iex", f"probed: SIP returned {resp.status_code}; using IEX"
+    except requests.RequestException as exc:
+        feed, why = "iex", f"probe failed ({type(exc).__name__}); defaulting to IEX"
+
+    _ENTITLEMENT_CACHE.update({"feed": feed, "why": why})
+    return feed, why
+
+
 def _from_alpaca(ticker: str, timeout: int, years: int = 7,
-                 timeframe: str = "1Day") -> list[dict] | None:
+                 timeframe: str = "1Day",
+                 report: dict | None = None) -> list[dict] | None:
     """Alpaca market data. A real API with a key, not a scraped page.
 
     Preferred when configured: stooq answers automated clients with a
     JavaScript challenge and Yahoo's raw endpoint 429s them, because
     neither wants to be read by a program. Alpaca does.
 
-    The free tier serves the IEX feed, which is one exchange and a small
-    share of total US volume. Fine for testing whether a pattern has
-    directional edge; NOT a basis for claiming a precise fill. That
-    distinction is recorded on every row via `feed` so a later analysis
-    cannot forget which data it was built on.
+    Bars are requested ADJUSTED. Raw bars show a 2-for-1 split as an
+    overnight halving, which every pattern rule here reads as a
+    textbook breakdown that never happened, and which makes the return
+    from any entry before the split wrong by the split factor.
 
-    Keys come from the environment (.notify.env, gitignored). Absent,
-    this provider stands aside.
+    `report` collects an error class and the feed actually used, so a
+    caller can tell a wrong key from a rate limit from an outage.
     """
     key = os.environ.get("ALPACA_KEY_ID")
     secret = os.environ.get("ALPACA_SECRET_KEY")
     if not (key and secret):
+        if report is not None:
+            report["error"] = dataquality.NOT_CONFIGURED
         return None
 
-    feed = os.environ.get("ALPACA_FEED", "iex")
+    feed, why = alpaca_feed(timeout=timeout)
+    if report is not None:
+        report.update({"feed": feed, "feed_reason": why})
+
     start = (datetime.now(timezone.utc) - timedelta(days=365 * years)).date()
     headers = {"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": secret,
                "Accept": "application/json"}
 
     rows: list[dict] = []
+    dropped = 0
     page_token = None
     for _ in range(40):                       # bounded: never loop forever
         params = {"timeframe": timeframe, "start": start.isoformat(),
-                  "limit": 10000, "adjustment": "raw", "feed": feed}
+                  "limit": 10000, "adjustment": "all", "feed": feed}
         if page_token:
             params["page_token"] = page_token
-        try:
-            resp = requests.get(f"{ALPACA_DATA}{ticker.upper()}/bars",
-                                params=params, headers=headers, timeout=timeout)
-            if resp.status_code in (401, 403):
-                print(f"    - alpaca rejected the key ({resp.status_code}) "
-                      "- check ALPACA_KEY_ID / ALPACA_SECRET_KEY")
+
+        payload = None
+        for attempt in range(3):              # retry ONLY what is retryable
+            try:
+                resp = requests.get(f"{ALPACA_DATA}{ticker.upper()}/bars",
+                                    params=params, headers=headers,
+                                    timeout=timeout)
+                if resp.status_code == 200:
+                    payload = resp.json()
+                    break
+                kind = dataquality.classify_error(status=resp.status_code)
+                if kind in dataquality.RETRYABLE and attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+                if report is not None:
+                    report["error"] = kind
+                    report["status_code"] = resp.status_code
+                print(f"    - alpaca {kind} for {ticker} "
+                      f"(HTTP {resp.status_code})")
                 return None
-            resp.raise_for_status()
-            payload = resp.json()
-        except (requests.RequestException, ValueError) as exc:
-            print(f"    - alpaca unavailable for {ticker}: {str(exc)[:70]}")
+            except (requests.RequestException, ValueError) as exc:
+                kind = dataquality.classify_error(exc=exc)
+                if kind in dataquality.RETRYABLE and attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+                if report is not None:
+                    report["error"] = kind
+                print(f"    - alpaca {kind} for {ticker}: {str(exc)[:60]}")
+                return None
+        if payload is None:
+            if report is not None:
+                report.setdefault("error", dataquality.UNREACHABLE)
             return None
 
         for b in payload.get("bars") or []:
             try:
-                rows.append({
+                row = {
                     "date": datetime.fromisoformat(
                         b["t"].replace("Z", "+00:00")).date(),
                     "open": float(b["o"]), "high": float(b["h"]),
                     "low": float(b["l"]), "close": float(b["c"]),
                     "volume": float(b.get("v") or 0),
                     "feed": feed,
-                })
+                    "adjusted": True,
+                }
             except (KeyError, ValueError, TypeError):
+                # Counted, never repaired. A bar invented from its
+                # neighbours is a lie that backtests cannot see.
+                dropped += 1
                 continue
+            # Parseable is not the same as possible. A bar whose high
+            # sits below its low is structurally fine and arithmetically
+            # nonsense, and it reaches the pattern rules as a real
+            # range. Rejected here, at the boundary, rather than noticed
+            # later by whatever happens to look.
+            if not dataquality.ohlc_valid(row):
+                dropped += 1
+                continue
+            rows.append(row)
 
         page_token = payload.get("next_page_token")
         if not page_token:
             break
+
+    if report is not None:
+        report["dropped_bars"] = dropped
+        report["error"] = dataquality.OK if rows else dataquality.EMPTY
+    if dropped:
+        print(f"    - alpaca dropped {dropped} malformed bar(s) for {ticker}")
 
     rows.sort(key=lambda r: r["date"])
     return rows or None
@@ -295,16 +389,94 @@ PROVIDERS = (("alpaca", _from_alpaca),
              ("yahoo", _from_yahoo))
 
 
-def fetch_history(ticker: str, timeout: int = 25) -> list[dict] | None:
-    """Daily OHLCV for a ticker, oldest first. None if no provider works."""
+LAST_QUALITY: dict[str, dict] = {}
+
+
+def fetch_history(ticker: str, timeout: int = 25,
+                  quality: bool = True) -> list[dict] | None:
+    """Daily OHLCV for a ticker, oldest first. None if no provider works.
+
+    Every attempt is classified, and the winning series is assessed
+    before it is handed back. The verdict is kept in LAST_QUALITY so
+    the dashboard can show a per-ticker status instead of one global
+    "price feed healthy" flag that is true right up until it is not.
+
+    A DEGRADED series is still returned - with its caveat recorded -
+    because refusing usable data over a single missing session helps
+    nobody. An UNUSABLE one is never silently swapped for another
+    provider's: the next provider is tried, and if none is usable the
+    answer is None.
+    """
+    attempts: list[dict] = []
     for name, fn in PROVIDERS:
-        rows = fn(ticker, timeout)
-        if rows:
-            if name != PROVIDERS[0][0]:
-                print(f"    (price data for {ticker} from {name})")
-            return rows
-    print(f"    ! no price data for {ticker} from any provider")
+        report: dict = {"provider": name}
+        try:
+            rows = fn(ticker, timeout, report=report) \
+                if _accepts_report(fn) else fn(ticker, timeout)
+        except Exception as exc:                        # noqa: BLE001
+            report["error"] = dataquality.classify_error(exc=exc)
+            rows = None
+        # Only an adapter that reports back may be said to have
+        # answered "empty"; the others simply did not say.
+        report.setdefault(
+            "error",
+            dataquality.OK if rows
+            else (dataquality.EMPTY if _accepts_report(fn)
+                  else dataquality.UNKNOWN))
+        attempts.append(report)
+
+        if not rows:
+            continue
+
+        verdict = dataquality.assess(
+            ticker, rows, feed=report.get("feed", name),
+            error=dataquality.OK)
+        verdict["provider"] = name
+        verdict["attempts"] = attempts
+        if quality:
+            LAST_QUALITY[ticker.upper()] = verdict
+
+        if verdict["status"] == dataquality.UNUSABLE:
+            print(f"    - {name} data for {ticker} unusable: {verdict['detail']}")
+            continue
+        if name != PROVIDERS[0][0]:
+            print(f"    (price data for {ticker} from {name})")
+        if verdict["status"] == dataquality.DEGRADED:
+            print(f"    ~ {ticker} degraded: {verdict['detail']}")
+        return rows
+
+    # Nothing usable. Record WHY, per provider, rather than one flat line.
+    worst = next((a for a in attempts
+                  if a.get("error") not in (dataquality.OK,
+                                            dataquality.NOT_CONFIGURED)),
+                 attempts[0] if attempts else {})
+    if quality:
+        LAST_QUALITY[ticker.upper()] = dataquality.assess(
+            ticker, None, error=worst.get("error") or dataquality.UNKNOWN)
+        LAST_QUALITY[ticker.upper()]["attempts"] = attempts
+    reasons = ", ".join(f"{a['provider']}={a.get('error')}" for a in attempts)
+    print(f"    ! no usable price data for {ticker} ({reasons})")
     return None
+
+
+def _accepts_report(fn) -> bool:
+    try:
+        import inspect
+        return "report" in inspect.signature(fn).parameters
+    except (TypeError, ValueError):
+        return False
+
+
+def quality_report() -> dict:
+    """Per-ticker data quality from the most recent fetches."""
+    reports = list(LAST_QUALITY.values())
+    out = dataquality.summarise(reports)
+    out["per_ticker"] = {k: {"status": v["status"], "detail": v["detail"],
+                             "bars": v.get("bars", 0),
+                             "feed": v.get("feed", ""),
+                             "provider": v.get("provider", "")}
+                         for k, v in LAST_QUALITY.items()}
+    return out
 
 
 def _first_close_on_or_after(rows: list[dict], when) -> tuple[int, dict] | None:

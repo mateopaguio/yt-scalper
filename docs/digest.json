@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:55:21.245408+00:00",
+  "generated_at": "2026-10-28T07:32:47.887710+00:00",
   "video_count": 166,
   "videos": [
     {
@@ -68679,7 +68679,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-28T04:55:21.333741+00:00",
+    "last_run": "2026-10-28T07:32:47.972802+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -72138,6 +72138,73 @@
   "blocked_count": 0,
   "skipped_count": 0,
   "pending_count": 0,
+  "data_quality": {
+    "counts": {
+      "unusable": 5
+    },
+    "usable": [],
+    "degraded": [],
+    "unusable": [
+      {
+        "ticker": "META",
+        "detail": "the adapter returned nothing without reporting a reason"
+      },
+      {
+        "ticker": "NVDA",
+        "detail": "the adapter returned nothing without reporting a reason"
+      },
+      {
+        "ticker": "TSLA",
+        "detail": "the adapter returned nothing without reporting a reason"
+      },
+      {
+        "ticker": "SPY",
+        "detail": "the adapter returned nothing without reporting a reason"
+      },
+      {
+        "ticker": "QQQ",
+        "detail": "the adapter returned nothing without reporting a reason"
+      }
+    ],
+    "note": "A degraded series is still used, with the caveat shown. An unusable one is never silently replaced.",
+    "per_ticker": {
+      "META": {
+        "status": "unusable",
+        "detail": "the adapter returned nothing without reporting a reason",
+        "bars": 0,
+        "feed": "",
+        "provider": ""
+      },
+      "NVDA": {
+        "status": "unusable",
+        "detail": "the adapter returned nothing without reporting a reason",
+        "bars": 0,
+        "feed": "",
+        "provider": ""
+      },
+      "TSLA": {
+        "status": "unusable",
+        "detail": "the adapter returned nothing without reporting a reason",
+        "bars": 0,
+        "feed": "",
+        "provider": ""
+      },
+      "SPY": {
+        "status": "unusable",
+        "detail": "the adapter returned nothing without reporting a reason",
+        "bars": 0,
+        "feed": "",
+        "provider": ""
+      },
+      "QQQ": {
+        "status": "unusable",
+        "detail": "the adapter returned nothing without reporting a reason",
+        "bars": 0,
+        "feed": "",
+        "provider": ""
+      }
+    }
+  },
   "radar": {
     "upcoming": [],
     "priority": [
@@ -72182,7 +72249,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.3910871659375
+          "age_days": 0.5004235409375
         }
       },
       {
@@ -72226,7 +72293,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.348101054826389
+          "age_days": 1.4574374298263888
         }
       },
       {
@@ -72285,7 +72352,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 1.5131357770486111
+          "age_days": 1.6224721520486112
         }
       },
       {
@@ -72329,7 +72396,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.6716079992708335
+          "age_days": 1.7809443742708333
         }
       }
     ],
@@ -72363,7 +72430,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.2934598511226852
+          "age_days": 0.4027962261226852
         }
       },
       {
@@ -72399,7 +72466,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.4517005918634259
+          "age_days": 0.5610369668634259
         }
       },
       {
@@ -72431,7 +72498,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5438649437152778
+          "age_days": 0.6532013187152778
         }
       },
       {
@@ -72466,7 +72533,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.5704042955671296
+          "age_days": 0.6797406705671296
         }
       },
       {
@@ -72499,7 +72566,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5734829992708333
+          "age_days": 0.6828193742708333
         }
       },
       {
@@ -72531,7 +72598,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5740269807523148
+          "age_days": 0.6833633557523148
         }
       },
       {
@@ -72569,7 +72636,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6495130918634259
+          "age_days": 0.7588494668634259
         }
       },
       {
@@ -72607,7 +72674,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6495130918634259
+          "age_days": 0.7588494668634259
         }
       },
       {
@@ -72649,7 +72716,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.6495246659375
+          "age_days": 0.7588610409375
         }
       },
       {
@@ -72687,7 +72754,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6495246659375
+          "age_days": 0.7588610409375
         }
       },
       {
@@ -72725,7 +72792,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6495246659375
+          "age_days": 0.7588610409375
         }
       },
       {
@@ -72763,7 +72830,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6495362400115741
+          "age_days": 0.7588726150115741
         }
       },
       {
@@ -72801,7 +72868,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.6495593881597223
+          "age_days": 0.7588957631597222
         }
       },
       {
@@ -72839,7 +72906,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.6498718881597222
+          "age_days": 0.7592082631597222
         }
       },
       {
@@ -72871,7 +72938,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6620130918634259
+          "age_days": 0.7713494668634259
         }
       },
       {
@@ -72907,7 +72974,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.6676843881597222
+          "age_days": 0.7770207631597222
         }
       },
       {
@@ -72949,7 +73016,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.0384829992708333
+          "age_days": 1.1478193742708334
         }
       },
       {
@@ -72981,7 +73048,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.339061702974537
+          "age_days": 1.448398077974537
         }
       },
       {
@@ -73013,7 +73080,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.3705200363078704
+          "age_days": 1.4798564113078703
         }
       },
       {
@@ -73045,7 +73112,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.3709829992708333
+          "age_days": 1.4803193742708334
         }
       },
       {
@@ -73087,7 +73154,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.438564017789352
+          "age_days": 1.5479003927893518
         }
       },
       {
@@ -73122,7 +73189,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5393279066782408
+          "age_days": 1.6486642816782406
         }
       },
       {
@@ -73154,7 +73221,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5423950363078704
+          "age_days": 1.6517314113078703
         }
       },
       {
@@ -73186,7 +73253,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5449644807523149
+          "age_days": 1.654300855752315
         }
       },
       {
@@ -73218,7 +73285,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5493857770486112
+          "age_days": 1.658722152048611
         }
       },
       {
@@ -73250,7 +73317,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5815154066782409
+          "age_days": 1.6908517816782407
         }
       },
       {
@@ -73282,7 +73349,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6472098511226854
+          "age_days": 1.7565462261226852
         }
       },
       {
@@ -73316,7 +73383,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6563996659375
+          "age_days": 1.7657360409375
         }
       },
       {
@@ -73352,7 +73419,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6710177214930557
+          "age_days": 1.7803540964930555
         }
       },
       {
@@ -73384,7 +73451,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.671075591863426
+          "age_days": 1.780411966863426
         }
       },
       {
@@ -73416,7 +73483,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6715732770486111
+          "age_days": 1.7809096520486112
         }
       },
       {
@@ -73453,7 +73520,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.6716427214930556
+          "age_days": 1.7809790964930556
         }
       },
       {
@@ -73485,7 +73552,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6760177214930556
+          "age_days": 1.7853540964930554
         }
       },
       {
@@ -73518,7 +73585,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6806473511226854
+          "age_days": 1.7899837261226852
         }
       },
       {
@@ -73550,7 +73617,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.685300128900463
+          "age_days": 1.794636503900463
         }
       },
       {
@@ -73582,7 +73649,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6888070733449074
+          "age_days": 1.7981434483449075
         }
       },
       {
@@ -73615,7 +73682,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.347418184456019
+          "age_days": 4.4567545594560185
         }
       },
       {
@@ -73647,7 +73714,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.44833253630787
+          "age_days": 4.5576689113078706
         }
       },
       {
@@ -73679,7 +73746,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.452325591863426
+          "age_days": 4.561661966863427
         }
       },
       {
@@ -73715,7 +73782,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 4.452776980752315
+          "age_days": 4.562113355752315
         }
       },
       {
@@ -73751,7 +73818,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.487117258530092
+          "age_days": 4.596453633530093
         }
       },
       {
@@ -73786,7 +73853,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.487568647418981
+          "age_days": 4.596905022418982
         }
       },
       {
@@ -73824,7 +73891,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.525728369641204
+          "age_days": 4.635064744641204
         }
       },
       {
@@ -73856,7 +73923,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.545601054826388
+          "age_days": 4.654937429826389
         }
       },
       {
@@ -73888,7 +73955,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.553448277048611
+          "age_days": 4.662784652048612
         }
       },
       {
@@ -73920,7 +73987,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.579200591863426
+          "age_days": 4.688536966863426
         }
       },
       {
@@ -73952,7 +74019,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.614871888159722
+          "age_days": 4.724208263159722
         }
       },
       {
@@ -73984,7 +74051,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.626596425196759
+          "age_days": 4.7359328001967596
         }
       },
       {
@@ -74019,7 +74086,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.636168184456018
+          "age_days": 4.745504559456019
         }
       },
       {
@@ -74057,7 +74124,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.662163554826389
+          "age_days": 4.77149992982639
         }
       },
       {
@@ -74089,7 +74156,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.703135777048611
+          "age_days": 4.812472152048612
         }
       },
       {
@@ -74124,7 +74191,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.7115038326041665
+          "age_days": 4.820840207604167
         }
       },
       {
@@ -74159,7 +74226,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.357013091863426
+          "age_days": 5.466349466863426
         }
       },
       {
@@ -74191,7 +74258,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.363841795567129
+          "age_days": 5.47317817056713
         }
       },
       {
@@ -74226,7 +74293,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.382985314085648
+          "age_days": 5.4923216890856486
         }
       },
       {
@@ -74258,7 +74325,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.383401980752314
+          "age_days": 5.492738355752315
         }
       },
       {
@@ -74290,7 +74357,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.384061702974536
+          "age_days": 5.493398077974537
         }
       },
       {
@@ -74322,7 +74389,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.384547814085648
+          "age_days": 5.493884189085648
         }
       },
       {
@@ -74354,7 +74421,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.415508462233796
+          "age_days": 5.524844837233797
         }
       },
       {
@@ -74397,7 +74464,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.335809388159722
+          "age_days": 6.445145763159722
         }
       },
       {
@@ -74422,7 +74489,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.417198277048611
+          "age_days": 6.526534652048611
         }
       },
       {
@@ -74447,7 +74514,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.426214480752314
+          "age_days": 6.535550855752315
         }
       },
       {
@@ -74472,7 +74539,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.429698277048611
+          "age_days": 6.539034652048612
         }
       },
       {
@@ -74497,7 +74564,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.434084851122685
+          "age_days": 6.543421226122685
         }
       },
       {
@@ -74522,7 +74589,7 @@
             "why": "announcement text retrieved"
           },
           "materiality": 0,
-          "age_days": 6.522557073344907
+          "age_days": 6.631893448344908
         }
       }
     ],
@@ -74541,18 +74608,18 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-10-28T04:55:21.077519+00:00",
-      "display": "Oct 28, 12:55 AM EDT",
+      "at": "2026-10-28T07:32:47.729714+00:00",
+      "display": "Oct 28, 3:32 AM EDT",
       "trigger": "scheduled",
       "ok": null,
       "error": "",
-      "age_hours": 0.0010709072222222222
+      "age_hours": 0.0010738477777777777
     },
     "last_success": {
-      "at": "2026-10-28T04:20:19.257046+00:00",
-      "display": "Oct 28, 12:20 AM EDT",
+      "at": "2026-10-28T04:55:21.077519+00:00",
+      "display": "Oct 28, 12:55 AM EDT",
       "trigger": "scheduled",
-      "age_hours": 0.5849099274999999,
+      "age_hours": 2.6251439019444445,
       "ingested": null
     },
     "stale": false,
@@ -74570,10 +74637,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-10-28T04:55:21.333741+00:00",
+      "attempted": "2026-10-28T07:32:47.972802+00:00",
       "as_of": null,
       "as_of_display": "unavailable - feed down",
-      "attempted_display": "Oct 28, 12:55 AM EDT",
+      "attempted_display": "Oct 28, 3:32 AM EDT",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 0,
@@ -74589,10 +74656,18 @@
     },
     "recent": [
       {
+        "started": "2026-10-28T07:32:47.729714+00:00",
+        "display": "Wed 3:32 AM EDT",
+        "trigger": "scheduled",
+        "ok": null,
+        "error": "",
+        "ingested": null
+      },
+      {
         "started": "2026-10-28T04:55:21.077519+00:00",
         "display": "Wed 12:55 AM EDT",
         "trigger": "scheduled",
-        "ok": null,
+        "ok": true,
         "error": "",
         "ingested": null
       },
@@ -74638,14 +74713,6 @@
       },
       {
         "started": "2026-10-28T04:17:39.586161+00:00",
-        "display": "Wed 12:17 AM EDT",
-        "trigger": "scheduled",
-        "ok": false,
-        "error": "ValueError: tuple.index(x): x not in tuple",
-        "ingested": null
-      },
-      {
-        "started": "2026-10-28T04:17:31.317296+00:00",
         "display": "Wed 12:17 AM EDT",
         "trigger": "scheduled",
         "ok": false,

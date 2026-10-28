@@ -1883,6 +1883,233 @@ def test_failed_catalyst_analysis_is_not_recorded_as_seen():
         "a failed analysis still stores the event"
     assert "continue" in failure, "a failed analysis still falls through"
 
+
+# --------------------------------------------------------------------
+# Part B: price adapters, offline.
+#
+# Every provider fails from this sandbox because its egress allowlist
+# does not resolve their hostnames - which looks exactly like four
+# broken providers. These tests use recorded Alpaca-shaped payloads so
+# adapter behaviour is verified without a network or a key.
+# --------------------------------------------------------------------
+
+def _fixture(name):
+    import json
+    root = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(root, "fixtures", f"{name}.json"), encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def _fake_alpaca(payload, status=200, raises=None):
+    """Stand in for requests.get against the Alpaca bars endpoint."""
+    class _Resp:
+        status_code = status
+
+        def json(self):
+            return payload
+
+        def raise_for_status(self):
+            pass
+
+    def get(*a, **k):
+        if raises:
+            raise raises
+        return _Resp()
+    return get
+
+
+def _run_alpaca(payload, status=200, raises=None, env=None):
+    import requests
+    from scalper import prices
+    saved_get, saved_env = requests.get, {}
+    base = {"ALPACA_KEY_ID": "k", "ALPACA_SECRET_KEY": "s",
+            "ALPACA_FEED": "iex"}
+    base.update(env or {})
+    try:
+        for k, v in base.items():
+            saved_env[k] = os.environ.get(k)
+            os.environ[k] = v
+        requests.get = _fake_alpaca(payload, status, raises)
+        report = {}
+        rows = prices._from_alpaca("TEST", timeout=5, report=report)
+        return rows, report
+    finally:
+        requests.get = saved_get
+        for k, v in saved_env.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+
+def test_alpaca_requests_adjusted_bars():
+    """Raw bars make a 2-for-1 split look like a 50% crash.
+
+    Every pattern rule here reads that as a textbook breakdown, and
+    every return measured from an entry before the split is wrong by
+    the split factor. The adapter asked for adjustment=raw.
+    """
+    import requests
+    from scalper import prices
+
+    seen = {}
+    saved = requests.get
+
+    class _Resp:
+        status_code = 200
+
+        def json(self):
+            return {"bars": [], "next_page_token": None}
+
+        def raise_for_status(self):
+            pass
+
+    def spy(*a, **k):
+        seen.update(k.get("params") or {})
+        return _Resp()
+
+    env = {"ALPACA_KEY_ID": "k", "ALPACA_SECRET_KEY": "s", "ALPACA_FEED": "iex"}
+    old = {k: os.environ.get(k) for k in env}
+    try:
+        os.environ.update(env)
+        requests.get = spy
+        prices._from_alpaca("TEST", timeout=5, report={})
+    finally:
+        requests.get = saved
+        for k, v in old.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+    assert seen.get("adjustment") == "all", \
+        f"asked for {seen.get('adjustment')!r} bars, not split-adjusted ones"
+
+
+def test_alpaca_parses_clean_bars_and_marks_the_feed():
+    rows, report = _run_alpaca(_fixture("alpaca_clean"))
+    assert rows and len(rows) == 457
+    assert report["error"] == "ok"
+    first = rows[0]
+    for field in ("date", "open", "high", "low", "close", "volume"):
+        assert field in first, f"missing {field}"
+    assert first["feed"] == "iex", "provenance not recorded on the row"
+    assert first["adjusted"] is True
+    assert rows == sorted(rows, key=lambda r: r["date"]), "not oldest-first"
+
+
+def test_alpaca_drops_malformed_bars_without_inventing_them():
+    """A bar invented from its neighbours is a lie a backtest cannot see."""
+    from scalper import dataquality as dq
+
+    rows, report = _run_alpaca(_fixture("alpaca_malformed"))
+    assert rows, "every bar was discarded"
+    assert report["dropped_bars"] >= 1, "malformed bars were not counted"
+    # The impossible bar (high below low) must not survive assessment.
+    verdict = dq.assess("TEST", rows)
+    for r in rows:
+        assert r["low"] <= min(r["open"], r["close"]), "kept an impossible bar"
+        assert r["high"] >= max(r["open"], r["close"]), "kept an impossible bar"
+    assert verdict["status"] in (dq.USABLE, dq.DEGRADED)
+
+
+def test_error_classes_are_distinguished():
+    """Retrying a 401 forever is as wrong as giving up on a 429."""
+    import requests
+    from scalper import dataquality as dq
+
+    _, auth = _run_alpaca({}, status=403)
+    assert auth["error"] == dq.AUTH
+
+    _, miss = _run_alpaca({}, env={"ALPACA_KEY_ID": "", "ALPACA_SECRET_KEY": ""})
+    assert miss["error"] == dq.NOT_CONFIGURED
+
+    _, down = _run_alpaca({}, raises=requests.ConnectionError("refused"))
+    assert down["error"] == dq.UNREACHABLE
+
+    assert dq.RATE_LIMIT in dq.RETRYABLE and dq.UNREACHABLE in dq.RETRYABLE
+    assert dq.AUTH not in dq.RETRYABLE, "a bad key would be retried forever"
+
+
+def test_quality_flags_gaps_splits_and_short_series():
+    from scalper import dataquality as dq
+
+    clean, _ = _run_alpaca(_fixture("alpaca_clean"))
+    assert dq.assess("TEST", clean)["status"] == dq.USABLE
+
+    gapped, _ = _run_alpaca(_fixture("alpaca_gaps"))
+    g = dq.assess("TEST", gapped)
+    assert g["checks"]["missing_sessions"] == 3, g["checks"]
+    assert g["checks"]["absent_dates"], "missing sessions were not named"
+
+    split, _ = _run_alpaca(_fixture("alpaca_split_raw"))
+    sp = dq.assess("TEST", split)
+    assert sp["status"] == dq.DEGRADED
+    assert sp["checks"]["possible_splits"], "an unadjusted split was not flagged"
+
+    short = dq.assess("TEST", clean[:10])
+    assert short["status"] == dq.UNUSABLE, "a 10-bar series was called usable"
+
+
+def test_holidays_are_not_reported_as_missing_data():
+    """A holiday and a dropped bar are not the same thing."""
+    from datetime import date
+    from scalper import dataquality as dq, market_calendar as mcal
+
+    assert not mcal.is_session(date(2026, 11, 26)), "Thanksgiving 2026"
+    assert not mcal.is_session(date(2026, 4, 3)), "Good Friday 2026"
+    assert not mcal.is_session(date(2026, 7, 3)), "Jul 4 2026 observed"
+    assert mcal.is_session(date(2026, 10, 27))
+
+    days = mcal.sessions(date(2026, 1, 2), date(2026, 10, 27))
+    rows = [{"date": d, "open": 10, "high": 11, "low": 9, "close": 10.5,
+             "volume": 1e6} for d in days]
+    v = dq.assess("TEST", rows)
+    assert v["checks"]["missing_sessions"] == 0, \
+        f"holidays counted as missing: {v['checks']}"
+
+
+def test_feed_entitlement_is_probed_not_assumed():
+    """SIP is not free on every account, and asking without the
+    entitlement returns 403 rather than quietly degrading."""
+    import requests
+    from scalper import prices
+
+    saved = requests.get
+    old = {k: os.environ.get(k)
+           for k in ("ALPACA_KEY_ID", "ALPACA_SECRET_KEY", "ALPACA_FEED")}
+    try:
+        os.environ.update({"ALPACA_KEY_ID": "k", "ALPACA_SECRET_KEY": "s"})
+        os.environ.pop("ALPACA_FEED", None)
+
+        class _R:
+            def __init__(self, code, bars):
+                self.status_code = code
+                self._b = bars
+
+            def json(self):
+                return {"bars": self._b}
+
+        requests.get = lambda *a, **k: _R(200, [{"t": "x"}])
+        feed, why = prices.alpaca_feed(force=True)
+        assert feed == "sip", why
+
+        requests.get = lambda *a, **k: _R(403, [])
+        feed, why = prices.alpaca_feed(force=True)
+        assert feed == "iex", "fell back to a feed the account cannot use"
+        assert "403" in why
+
+        os.environ["ALPACA_FEED"] = "iex"
+        feed, why = prices.alpaca_feed(force=True)
+        assert feed == "iex" and "ALPACA_FEED" in why
+    finally:
+        requests.get = saved
+        for k, v in old.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -2020,6 +2247,20 @@ def main() -> int:
           test_failed_legacy_send_does_not_consume_the_ids)
     check("state: a failed catalyst analysis is not recorded as seen",
           test_failed_catalyst_analysis_is_not_recorded_as_seen)
+    check("B: alpaca requests split-adjusted bars",
+          test_alpaca_requests_adjusted_bars)
+    check("B: alpaca parses clean bars and records the feed",
+          test_alpaca_parses_clean_bars_and_marks_the_feed)
+    check("B: malformed bars are dropped, never invented",
+          test_alpaca_drops_malformed_bars_without_inventing_them)
+    check("B: error classes are distinguished",
+          test_error_classes_are_distinguished)
+    check("B: quality flags gaps, splits and short series",
+          test_quality_flags_gaps_splits_and_short_series)
+    check("B: holidays are not reported as missing data",
+          test_holidays_are_not_reported_as_missing_data)
+    check("B: feed entitlement is probed, not assumed",
+          test_feed_entitlement_is_probed_not_assumed)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0

@@ -24,6 +24,7 @@ from scalper import (
     changes,
     health,
     alert_state,
+    prices,
     radar,
     creators,
     config as cfgmod,
@@ -184,6 +185,9 @@ def build_digest(
     }
     # Built last: it reads the finished digest (price feed state, scanner
     # diagnostics, source timestamps) to answer "is any of this current?"
+    # Per-ticker price-data status, not one global "feed healthy" flag
+    # that stays true right up until it is not.
+    digest["data_quality"] = prices.quality_report()
     digest["radar"] = radar.build(
         catalyst_events or [], changes=digest.get("catalyst_changes"))
     digest["health"] = health.snapshot(
