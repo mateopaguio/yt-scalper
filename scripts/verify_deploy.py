@@ -30,6 +30,16 @@ DOCS = ROOT / "docs"
 MAX_RUN_AGE_HOURS = 6
 
 
+def _et(dt) -> str:
+    """Show times in market time, like the pages do."""
+    try:
+        sys.path.insert(0, str(ROOT))
+        from scalper import clock
+        return clock.stamp(dt, "%Y-%m-%d %-I:%M %p")
+    except Exception:                                   # noqa: BLE001
+        return f"{dt:%Y-%m-%d %H:%M UTC}"
+
+
 def _sh(*args):
     try:
         return subprocess.run(args, cwd=ROOT, capture_output=True,
@@ -252,7 +262,7 @@ def main() -> int:
     if last_success:
         ok_h = (now - last_success).total_seconds() / 3600
         notes.append(f"last SUCCESS  : {ok_h:.1f}h ago "
-                     f"({last_success:%Y-%m-%d %H:%M UTC})")
+                     f"({_et(last_success)})")
         if ok_h > MAX_RUN_AGE_HOURS:
             problems.append(f"no successful run in {ok_h:.1f}h "
                             f"(expected within {MAX_RUN_AGE_HOURS}h)")

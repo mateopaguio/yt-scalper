@@ -14,6 +14,7 @@ import json
 from datetime import datetime, timezone
 from typing import Any
 
+from . import clock
 from .app_css import APP_CSS
 from . import ticker_rows as TR
 
@@ -312,7 +313,7 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
     agg = digest.get("aggregate") or {}
     gen = digest.get("generated_at", "")
     try:
-        stamp = datetime.fromisoformat(gen).strftime("%b %d, %H:%M UTC")
+        stamp = clock.stamp(gen)
     except ValueError:
         stamp = gen
 
@@ -414,7 +415,7 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
     if cal:
         radar_body += '<h3 class="sub2">Dated ahead</h3>' + "".join(
             f'<div class="trow"><div style="padding:11px 12px">'
-            f'<b>{e(c.get("_when") or c.get("date") or "")}</b> '
+            f'<b>{e(clock.day(c.get("_when") or c.get("date") or ""))}</b> '
             f'<span style="color:var(--muted);font-size:13px">'
             f'{e(((c.get("findings") or {}).get("summary") or c.get("title", ""))[:160])}'
             f'</span></div></div>'

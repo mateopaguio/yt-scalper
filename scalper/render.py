@@ -6,6 +6,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from . import clock
 from .config import DOCS_DIR
 
 DIRECTION_STYLE = {
@@ -356,7 +357,7 @@ def _calendar_row(event: dict) -> str:
     ]
     who = ", ".join(n for n in names if n) or "macro"
     return (
-        f'<div class="cal"><span class="d">{_esc(event.get("_when", ""))}</span>'
+        f'<div class="cal"><span class="d">{_esc(clock.day(event.get("_when", "")))}</span>'
         f'<span>{_esc(who)} — {_esc(findings.get("summary", ""))}</span></div>'
     )
 
@@ -826,7 +827,7 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None,
     generated = digest.get("generated_at", datetime.now(timezone.utc).isoformat())
 
     try:
-        stamp = datetime.fromisoformat(generated).strftime("%b %d, %Y at %H:%M UTC")
+        stamp = clock.stamp(generated, "%b %d, %Y at %-I:%M %p")
     except ValueError:
         stamp = generated
 

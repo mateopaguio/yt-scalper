@@ -18,7 +18,7 @@ from anthropic import Anthropic, APIError
 
 from .analyze import clean_ticker
 from .sites import fetch_feed
-from . import security_master
+from . import clock, security_master
 
 # SEC asks automated clients to declare who they are and stay under
 # 10 requests/second. We poll a handful of feeds hourly, far below that.
@@ -245,7 +245,10 @@ def analyze_catalyst(
 
 def upcoming(events: list[dict], days: int = 30) -> list[dict]:
     """Events carrying a future scheduled date, soonest first -- the calendar."""
-    today = datetime.now(timezone.utc).date()
+    # Eastern, not UTC. After 20:00 ET the UTC calendar has already
+    # rolled over, so a UTC "today" silently drops the current trading
+    # day from the calendar every evening.
+    today = clock.today()
     horizon = today + timedelta(days=days)
     dated = []
 

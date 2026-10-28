@@ -12,6 +12,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from . import clock
+
 EV_RANK = {"data": 3, "reasoned": 2, "speculation": 1, "none": 0}
 EV_LABEL = {"data": "cites data", "reasoned": "reasoned",
             "speculation": "speculation", "none": "unsupported"}
@@ -185,7 +187,7 @@ def render_page(brief: dict, out_dir: Path, site_url: str = "") -> Path:
     if not body:
         body = "<p>No theses recorded yet.</p>"
 
-    stamp = datetime.now(timezone.utc).strftime("%b %d, %Y %H:%M UTC")
+    stamp = clock.stamp(datetime.now(timezone.utc), "%b %d, %Y %-I:%M %p")
     home = (site_url or "../") + ("" if site_url else "index.html")
     page = """<!doctype html><html lang="en"><head>
 <meta charset="utf-8">

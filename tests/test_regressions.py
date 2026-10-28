@@ -882,6 +882,46 @@ def test_commit_does_not_write_when_given_a_state():
     if after:
         assert "unit-test-must-not-persist" not in after
 
+
+def test_calendar_day_is_eastern_not_utc():
+    """After 20:00 ET the UTC calendar has already rolled over.
+
+    catalysts.upcoming() keyed its horizon to datetime.now(timezone.utc)
+    .date(), so every evening between 20:00 ET and midnight ET the
+    calendar dropped the current trading day: an earnings event dated
+    today stopped matching `today <= when` because UTC already called
+    it yesterday.
+    """
+    from datetime import datetime, timezone
+    from scalper import clock
+
+    # 02:16 UTC on the 28th is 22:16 ET on the 27th.
+    evening = datetime(2026, 10, 28, 2, 16, tzinfo=timezone.utc)
+    et = clock.to_et(evening)
+    assert et.date().isoformat() == "2026-10-27", et
+    assert evening.date().isoformat() == "2026-10-28", "premise check"
+
+    # A bare scheduled date is a market date, not an instant: formatting
+    # it must not move it across a day boundary.
+    assert clock.day("2026-10-30") == "Oct 30"
+    assert clock.day("2026-01-01") == "Jan 01"
+
+    # Stamps name the zone they are in, so no reader has to guess.
+    text = clock.stamp(evening)
+    assert text.endswith(("EDT", "EST", "UTC")), text
+    assert "10:16 PM" in text, text
+
+
+def test_rendered_pages_are_not_labelled_utc():
+    """The pages are read by a US equities trader; show market time."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    index = os.path.join(root, "docs", "index.html")
+    if not os.path.exists(index):
+        return
+    with open(index, encoding="utf-8") as fh:
+        head = fh.read(4000)
+    assert "UTC" not in head, "header still shows UTC"
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -968,6 +1008,10 @@ def main() -> int:
           test_no_unresolvable_module_level_names)
     check("review1: commit() never writes a caller-supplied state",
           test_commit_does_not_write_when_given_a_state)
+    check("time: calendar day is Eastern, not UTC",
+          test_calendar_day_is_eastern_not_utc)
+    check("time: rendered pages show market time",
+          test_rendered_pages_are_not_labelled_utc)
 
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
