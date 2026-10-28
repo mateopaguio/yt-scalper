@@ -10,12 +10,12 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video"
     },
-    "attempts": 3,
+    "attempts": 4,
     "throttled": 1,
     "first_seen": "2026-10-27T08:11:46.758261+00:00",
     "eligible_since": "2026-10-28T08:09:53.265955+00:00",
-    "last_attempt": "2026-10-28T08:09:53.265955+00:00",
-    "reason": "YouTube blocked the request from this IP"
+    "last_attempt": "2026-10-28T08:26:46.716627+00:00",
+    "reason": "no captions yet (TranscriptsDisabled)"
   },
   {
     "video": {
@@ -28,119 +28,11 @@
       "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
       "source_type": "video"
     },
-    "attempts": 2,
+    "attempts": 3,
     "throttled": 1,
     "first_seen": "2026-10-27T12:00:33.396093+00:00",
     "eligible_since": "2026-10-28T08:10:17.490295+00:00",
-    "last_attempt": "2026-10-28T08:10:17.490295+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "RObykGssieA",
-      "title": "Josh’s “Dirty Dozen” Stock Charts | WAYT?",
-      "channel": "The Compound",
-      "published": "2026-10-27T22:02:45+00:00",
-      "url": "https://www.youtube.com/watch?v=RObykGssieA",
-      "tier": 1,
-      "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
-      "source_type": "video"
-    },
-    "attempts": 1,
-    "throttled": 1,
-    "first_seen": "2026-10-27T22:10:51.868799+00:00",
-    "eligible_since": "2026-10-28T08:10:41.775779+00:00",
-    "last_attempt": "2026-10-28T08:10:41.775779+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "VISHdWP2DeU",
-      "title": "AI Agents Coming To A Restaurant Near You 10/28/26",
-      "channel": "CNBC Television",
-      "published": "2026-10-28T07:00:29+00:00",
-      "url": "https://www.youtube.com/watch?v=VISHdWP2DeU",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video"
-    },
-    "attempts": 0,
-    "throttled": 1,
-    "first_seen": "2026-10-28T08:11:06.425614+00:00",
-    "eligible_since": "2026-10-28T08:11:06.425614+00:00",
-    "last_attempt": "2026-10-28T08:11:06.425614+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "lXvls9rWQCQ",
-      "title": "Anthropic’s S1 Just Crushed the Biggest Bear Case",
-      "channel": "The Compound",
-      "published": "2026-10-28T02:29:37+00:00",
-      "url": "https://www.youtube.com/watch?v=lXvls9rWQCQ",
-      "tier": 1,
-      "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
-      "source_type": "video"
-    },
-    "attempts": 0,
-    "throttled": 1,
-    "first_seen": "2026-10-28T08:11:30.239389+00:00",
-    "eligible_since": "2026-10-28T08:11:30.239389+00:00",
-    "last_attempt": "2026-10-28T08:11:30.239389+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "yr3t-N_DjAw",
-      "title": "Why Anthropic’s IPO is risky business",
-      "channel": "CNBC Television",
-      "published": "2026-10-28T02:08:25+00:00",
-      "url": "https://www.youtube.com/watch?v=yr3t-N_DjAw",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video"
-    },
-    "attempts": 0,
-    "throttled": 1,
-    "first_seen": "2026-10-28T08:11:54.424399+00:00",
-    "eligible_since": "2026-10-28T08:11:54.424399+00:00",
-    "last_attempt": "2026-10-28T08:11:54.424399+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "Hz1oTEI4up0",
-      "title": "Treasurys offer asymmetric returns ahead of Fed decision, says UBS's Evan Brown",
-      "channel": "CNBC Television",
-      "published": "2026-10-28T00:22:46+00:00",
-      "url": "https://www.youtube.com/watch?v=Hz1oTEI4up0",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video"
-    },
-    "attempts": 0,
-    "throttled": 1,
-    "first_seen": "2026-10-28T08:12:18.703287+00:00",
-    "eligible_since": "2026-10-28T08:12:18.703287+00:00",
-    "last_attempt": "2026-10-28T08:12:18.703287+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "KlTOz0RwfGE",
-      "title": "Crypto's \"Knowledge Gap:\" Ali Tager on Biggest Questions, Growing Use Cases",
-      "channel": "Schwab Network",
-      "published": "2026-10-28T00:00:03+00:00",
-      "url": "https://www.youtube.com/watch?v=KlTOz0RwfGE",
-      "tier": 1,
-      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
-      "source_type": "video"
-    },
-    "attempts": 0,
-    "throttled": 1,
-    "first_seen": "2026-10-28T08:12:42.838705+00:00",
-    "eligible_since": "2026-10-28T08:12:42.838705+00:00",
-    "last_attempt": "2026-10-28T08:12:42.838705+00:00",
-    "reason": "YouTube blocked the request from this IP"
+    "last_attempt": "2026-10-28T08:26:52.367140+00:00",
+    "reason": "no captions yet (TranscriptsDisabled)"
   }
 ]

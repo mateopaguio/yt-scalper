@@ -1,5 +1,430 @@
 [
   {
+    "video_id": "VISHdWP2DeU",
+    "title": "AI Agents Coming To A Restaurant Near You 10/28/26",
+    "channel": "CNBC Television",
+    "published": "2026-10-28T07:00:29+00:00",
+    "url": "https://www.youtube.com/watch?v=VISHdWP2DeU",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short",
+    "ingested_at": "2026-10-28T08:28:00.399756+00:00"
+  },
+  {
+    "video_id": "lXvls9rWQCQ",
+    "title": "Anthropic’s S1 Just Crushed the Biggest Bear Case",
+    "channel": "The Compound",
+    "published": "2026-10-28T02:29:37+00:00",
+    "url": "https://www.youtube.com/watch?v=lXvls9rWQCQ",
+    "tier": 1,
+    "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
+    "source_type": "video",
+    "findings": {
+      "summary": "The hosts discuss Anthropic's S1 filing as good news for the market, saying many short-term bear questions have been answered while longer-term concerns about contracts and customer concentration remain open. They cite customer-count figures from the filing (over 11,900 customers spending $100K+, about 1,900 spending $1M+, about 250 spending $10M+ over 12 months) and a figure attributed to Gavin Baker that Fortune 500 spend averages under 0.1% of their total expenses, which they read as a large runway for growth. The video is largely an enthusiastic reaction with little discussion of risks.",
+      "overall_stance": "bullish",
+      "hype_level": 3,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "The market is described as having needed good news, per the hosts."
+      ],
+      "red_flags": [
+        "No discussion of the risks the hosts themselves acknowledge: longer-term contract concerns, whether some contracts are guaranteed, and customer concentration (a bear point about only a few buyers is raised and then dismissed without analysis).",
+        "Key penetration claim relies on a second-hand figure attributed to Gavin Baker, not verified in the video.",
+        "Host says the bear concerns are 'answered' with no detail on how.",
+        "Enthusiastic reaction ('crushed the biggest bear case') with no counterarguments presented."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "bullish",
+          "thesis": "Hosts read the S1 customer figures as strong evidence of traction, and cite a claim that enterprise spend on the product is a small share of customers' budgets, implying a long growth runway. A bear argument about customer concentration (only a few buyers) is raised and dismissed without much analysis. Anthropic is private and the S1 filing is referenced, so no ticker is assigned.",
+          "conviction": "high",
+          "evidence": "data",
+          "timestamp": "0:00",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "S1 filing disclosures",
+          "price_target": "",
+          "sector": "ai infrastructure",
+          "timeframe": ""
+        }
+      ]
+    },
+    "ingested_at": "2026-10-28T08:28:00.399756+00:00"
+  },
+  {
+    "video_id": "yr3t-N_DjAw",
+    "title": "Why Anthropic’s IPO is risky business",
+    "channel": "CNBC Television",
+    "published": "2026-10-28T02:08:25+00:00",
+    "url": "https://www.youtube.com/watch?v=yr3t-N_DjAw",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "The video summarizes risk factors from Anthropic's IPO filing (S-1-style prospectus, over 90 pages): existential and safety risks, dependence on data centers and scarce/costly electricity amid local opposition and state moratoriums, a current clash with the Trump administration, child safety exposure as adoption grows, and the risk that customers slow AI spending or switch to cheaper open-weight models. It is a risk-disclosure recap and does not offer a price view or valuation.",
+      "overall_stance": "neutral",
+      "hype_level": 1,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Electricity supply for AI data centers could be scarce and costly.",
+        "State-level moratoriums and local opposition could slow data center buildout."
+      ],
+      "red_flags": [
+        "Anthropic is a private company in this video's context; the IPO is pending, so no trading price or valuation is discussed.",
+        "No valuation, price target, or financial figures are given, so investment merit cannot be assessed from this video."
+      ],
+      "tickers": []
+    },
+    "ingested_at": "2026-10-28T08:28:00.399756+00:00"
+  },
+  {
+    "video_id": "Hz1oTEI4up0",
+    "title": "Treasurys offer asymmetric returns ahead of Fed decision, says UBS's Evan Brown",
+    "channel": "CNBC Television",
+    "published": "2026-10-28T00:22:46+00:00",
+    "url": "https://www.youtube.com/watch?v=Hz1oTEI4up0",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": {
+      "summary": "UBS multi-asset PM Evan Brown previews the upcoming Fed decision, saying the Fed is likely to hold rates with 2-3 dissents possibly favoring a hike given hot inflation, and that Chair Warsh avoids forward guidance. He argues Treasurys are attractive now: with a roughly 5% 10-year yield, a 100bp rise in yields would leave total return about flat or slightly negative over a year, while a 100bp fall would produce double-digit returns. He also says tech has de-rated (forward multiple from over 30x to about 19x) and that financing concerns are settling. The transcript cuts off during a discussion of an Anthropic IPO, where he cites a potential valuation of $1.5-2 trillion.",
+      "overall_stance": "mixed",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "red_flags": [
+        "Asymmetric-return framing on Treasuries rests on a single rate scenario; the downside case is described as only flat or slightly negative, with no discussion of inflation-driven sell-off risk beyond brief mention",
+        "No disclosure of whether the host's firm or guest holds the positions discussed",
+        "Forecast of 2-3 Fed dissents and a possible hike is an opinion with no supporting data shown",
+        "Anthropic IPO valuation range ($1.5-2T) is a figure floated in the conversation, not a sourced estimate; the discussion is incomplete in the transcript"
+      ],
+      "macro_points": [
+        "Fed expected to hold at its upcoming meeting, with 2-3 dissents possibly favoring a hike",
+        "Latest inflation print described as hot, with energy prices rising and some pressure from supply",
+        "Broad financial conditions tightening somewhat and credit weakening, per the guest",
+        "Fed Chair Warsh reportedly does not give forward guidance; markets seeking clues from the press conference"
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "unclear",
+          "thesis": "Guest was asked how important a successful IPO would be and mentioned a potential valuation of $1.5-2 trillion, saying it could help settle the market. No clear personal view was stated before the transcript ends.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "3:13",
+          "sector": "software",
+          "catalyst": "Anthropic IPO",
+          "timeframe": ""
+        },
+        {
+          "ticker": "",
+          "company": "Mag-7 / large-cap tech",
+          "stance": "bullish",
+          "thesis": "Guest says tech has de-rated from over 30x forward earnings to about 19x while earnings improve, and sentiment has washed out, so valuations look better; also says financing worries are easing. Supported by a multiple figure but no detail on specific companies or earnings.",
+          "conviction": "medium",
+          "evidence": "data",
+          "timestamp": "2:24",
+          "sector": "technology",
+          "catalyst": "",
+          "timeframe": ""
+        }
+      ]
+    },
+    "ingested_at": "2026-10-28T08:28:00.399756+00:00"
+  },
+  {
+    "video_id": "KlTOz0RwfGE",
+    "title": "Crypto's \"Knowledge Gap:\" Ali Tager on Biggest Questions, Growing Use Cases",
+    "channel": "Schwab Network",
+    "published": "2026-10-28T00:00:03+00:00",
+    "url": "https://www.youtube.com/watch?v=KlTOz0RwfGE",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": {
+      "summary": "Interview with Ali Tager, VP of external affairs at the National Cryptocurrency Association (an industry group), presenting its survey data on US crypto ownership: about 67 million adults (one in four) own or use crypto, with 12 million new holders this year. She argues the main barrier to ownership is a knowledge gap rather than regulation, cites rising everyday use (sending money, donations, merchant acceptance), and downplays Bitcoin's stalled price as not representative of the broader market. No specific securities were recommended.",
+      "overall_stance": "bullish",
+      "hype_level": 2,
+      "discloses_position": false,
+      "promotional": false,
+      "macro_points": [
+        "Crypto price has stayed flat at current levels, which the guest attributes partly to macro uncertainty.",
+        "The Clarity Act, federal digital asset legislation, did not advance in the Senate; the guest says regulatory uncertainty is a smaller barrier than the knowledge gap.",
+        "Institutional adoption by banks and brands (stablecoins, cross-border payments, tokenized stocks and deposits) is a major driver of new holders, per the guest."
+      ],
+      "red_flags": [
+        "Source is an industry trade group promoting crypto adoption; survey methodology and sample were not described.",
+        "Adoption and usage figures are self-reported survey results presented without independent verification.",
+        "No discussion of price risk, volatility, or downside; the segment is one-sided promotion of the asset class.",
+        "Host cites a bullish outlook from another commentator (Michael Saylor) without any counterpoint from the guest."
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Bitcoin",
+          "stance": "neutral",
+          "thesis": "Guest says Bitcoin's flat price should not be read as representing the whole crypto market, since many tokens serve different roles. No view on Bitcoin's direction is given.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "4:54",
+          "sector": "crypto",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "",
+          "company": "XRP",
+          "stance": "bullish",
+          "thesis": "Guest describes XRP as well suited to business-to-business transactions and cross-border payments. Only a use-case description, no price view.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "5:02",
+          "sector": "crypto",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        },
+        {
+          "ticker": "",
+          "company": "Ethereum",
+          "stance": "bullish",
+          "thesis": "Guest describes Ethereum as useful for developers building applications. Only a use-case description, no price view.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "5:06",
+          "sector": "crypto",
+          "breakout_signal": "none",
+          "catalyst": "",
+          "price_target": "",
+          "timeframe": ""
+        }
+      ]
+    },
+    "ingested_at": "2026-10-28T08:28:00.399756+00:00"
+  },
+  {
+    "video_id": "RObykGssieA",
+    "title": "Josh’s “Dirty Dozen” Stock Charts | WAYT?",
+    "channel": "The Compound",
+    "published": "2026-10-27T22:02:45+00:00",
+    "url": "https://www.youtube.com/watch?v=RObykGssieA",
+    "tier": 1,
+    "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
+    "source_type": "video",
+    "findings": {
+      "summary": "Hosts (Josh and Michael of The Compound) discuss the Anthropic S1 filing, which they read as encouraging: large customer counts, operating losses that fell sharply, and no single customer above 10% of revenue. They debate the $500-900B in compute commitments, the planned ~$100B+ public raise at a ~$1.5-2T valuation, and dilution from Meta's large equity raise. They then present a \"Dirty Dozen\" list of technically screened stocks (higher highs/higher lows), plus a Sphere and Robinhood discussion, and preview Amazon earnings as a favorable setup. Most claims rest on chart reading and assertion; the hosts state they own Amazon and that Josh is long Amazon, while the Sphere and other stocks have no clear position disclosure.",
+      "overall_stance": "bullish",
+      "hype_level": 4,
+      "discloses_position": true,
+      "promotional": true,
+      "macro_points": [
+        "Fed meeting due the next day was described as largely ignored; interest rate relief was credited with lifting stocks.",
+        "Median stock has underperformed the index to a historically wide degree over the past decade, per the hosts' chart.",
+        "Debt markets described as tight for neoclouds, with equity issuance increasingly used to fund AI buildout and dilution rising.",
+        "AI leaders basket reportedly gave back its first-half gains in the second half of the year."
+      ],
+      "red_flags": [
+        "Heavy reliance on technical chart reading with no fundamental valuation or downside scenario for most picks",
+        "Guessed price targets with no stated basis (e.g., Amazon possibly at $275; Anthropic raise upsized to $120B; Sphere fill-the-gap target near 213-235)",
+        "Host claims to own Amazon personally; Josh says he is 'levered long' on Knicks-related exposure, and the stock segments are presented as the show's best picks",
+        "Promotional content: a paid sponsor (Betterment) read on air and a CNBC Pro reference where stop losses are provided to subscribers",
+        "Hosts dismiss bearish views (e.g., 'nobody's watching', 'Bill Miller worrying about nothing') and say they cannot handicap outcomes, yet call the setup favorable",
+        "Claims about Anthropic financials are read from the S1 and partly from third-party posts; some quotes are secondhand (Gavin Baker, Ben Thompson, Seeking Alpha author)",
+        "Stop-loss and risk management mentioned but not spelled out for most names",
+        "'Dirty Dozen' list screening is partly proprietary and not reproducible by viewers"
+      ],
+      "tickers": [
+        {
+          "ticker": "",
+          "company": "Anthropic",
+          "stance": "bullish",
+          "thesis": "Hosts read the S1 as strong: many large customers, operating losses down sharply, no single customer above 10% of revenue, and a potentially long runway. They are less sure about the large compute commitments and whether LLMs have durable moats.",
+          "conviction": "high",
+          "evidence": "data",
+          "timestamp": "02:50",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Public IPO expected to upsize before November 16",
+          "price_target": "Hosts expect valuation around $1.5T, with $2T viewed as high"
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon",
+          "stance": "bullish",
+          "thesis": "Host argues Amazon trades at a lower cloud-peer multiple because it is more capital-intensive. He expects AWS growth plus a large backlog to outpace capex spending, citing a seeking-alpha author's history of how the stock reacts to AWS growth versus capex.",
+          "conviction": "high",
+          "evidence": "data",
+          "timestamp": "23:50",
+          "breakout_signal": "catalyst_driven",
+          "catalyst": "Q3 earnings Thursday",
+          "price_target": "Possibly $275 if guidance holds"
+        },
+        {
+          "ticker": "CRWV",
+          "company": "CoreWeave",
+          "stance": "neutral",
+          "thesis": "Mentioned as a neocloud that rose about 8% after a big drawdown, and as a possible acquisition target for Anthropic. Hosts describe neocloud financing as strained.",
+          "conviction": "low",
+          "evidence": "speculation",
+          "timestamp": "08:50"
+        },
+        {
+          "ticker": "NBIS",
+          "company": "Nebius",
+          "stance": "neutral",
+          "thesis": "Discussed as a neocloud whose CEO said capital sources are tighter but it has alternative financing; hosts note a $3.5B bridge facility. No firm view.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "32:30"
+        },
+        {
+          "ticker": "META",
+          "company": "Meta Platforms",
+          "stance": "bearish",
+          "thesis": "Hosts see a large equity raise (around $95B, including a $60B at-the-market program) as creating dilution and supply overhang, making the stock less attractive near term. They also note the stock's volatility.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "30:40"
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft",
+          "stance": "bullish",
+          "thesis": "Host says it screens in the top 12 on the list (higher lows, higher highs) despite earnings risk the next day.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "44:44"
+        },
+        {
+          "ticker": "PSX",
+          "company": "Phillips 66",
+          "stance": "bullish",
+          "thesis": "Refiner included in the Dirty Dozen on chart structure; host notes the crack spread has been rolling over and the stock was sold off that day.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "43:36"
+        },
+        {
+          "ticker": "VLO",
+          "company": "Valero Energy",
+          "stance": "bullish",
+          "thesis": "Refiner on the list for chart structure; hosts cite it as one of the top energy performers of 2026.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "44:00"
+        },
+        {
+          "ticker": "MPC",
+          "company": "Marathon Petroleum",
+          "stance": "bullish",
+          "thesis": "Refiner on the list for chart structure; hosts cite it as one of the top energy performers of 2026.",
+          "conviction": "medium",
+          "evidence": "reasoned",
+          "timestamp": "44:00"
+        },
+        {
+          "ticker": "TMO",
+          "company": "Thermo Fisher Scientific",
+          "stance": "bullish",
+          "thesis": "Chart described as a steady uptrend in life sciences tools; host cites healthcare sector strength.",
+          "conviction": "medium",
+          "evidence": "none",
+          "timestamp": "45:47"
+        },
+        {
+          "ticker": "ABBV",
+          "company": "AbbVie",
+          "stance": "bullish",
+          "thesis": "Host praises the retest of the 50-day moving average as a strong technical bounce.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "46:10"
+        },
+        {
+          "ticker": "FTNT",
+          "company": "Fortinet",
+          "stance": "bullish",
+          "thesis": "Support has held after repeated false breakdowns below a rising 50-day average; host sees that as accumulation.",
+          "conviction": "medium",
+          "evidence": "none",
+          "timestamp": "46:35"
+        },
+        {
+          "ticker": "EXPD",
+          "company": "Expeditors International",
+          "stance": "bullish",
+          "thesis": "Host says the stock reliably buys near its 50-day line and benefits from tariff and customs confusion.",
+          "conviction": "medium",
+          "evidence": "none",
+          "timestamp": "47:18"
+        },
+        {
+          "ticker": "WAT",
+          "company": "Waters Corporation",
+          "stance": "bullish",
+          "thesis": "Host calls it a healthcare play at an all-time high, holding up well on selloffs.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "48:02"
+        },
+        {
+          "ticker": "IQV",
+          "company": "IQVIA",
+          "stance": "neutral",
+          "thesis": "Co-host is skeptical of the chart; host says the pharma data business is important. Host calls it a trade with a stop at the July gap.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "49:00"
+        },
+        {
+          "ticker": "A",
+          "company": "Agilent Technologies",
+          "stance": "bullish",
+          "thesis": "Host says the chart looks strong and that the stock is under-followed; technicals used as a starting point for fundamental research.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "49:46"
+        },
+        {
+          "ticker": "SPHR",
+          "company": "Sphere Entertainment",
+          "stance": "bullish",
+          "thesis": "Host sees a bounce-off-$100 setup and a gap that has been erased. He acknowledges losses, a slowing Wizard of Oz show, and funding overhang for a new build.",
+          "conviction": "medium",
+          "evidence": "speculation",
+          "timestamp": "51:42"
+        },
+        {
+          "ticker": "HOOD",
+          "company": "Robinhood Markets",
+          "stance": "neutral",
+          "thesis": "Host notes a weak chart and a crypto-dependent revenue mix, but thinks the core customer base is sticky. He says he would not buy the stock.",
+          "conviction": "low",
+          "evidence": "reasoned",
+          "timestamp": "56:47"
+        },
+        {
+          "ticker": "",
+          "company": "Madison Square Garden Sports (Knicks spin-off)",
+          "stance": "neutral",
+          "thesis": "Brief mention of a new trading listing for a spun-off Knicks entity; hosts joke about it without a clear view.",
+          "conviction": "low",
+          "evidence": "none",
+          "timestamp": "02:37"
+        }
+      ]
+    },
+    "ingested_at": "2026-10-28T08:28:00.399756+00:00"
+  },
+  {
     "video_id": "_dCKQePDyyM",
     "title": "Bank of America's Bhave: Fed should hike rates Wednesday",
     "channel": "CNBC Television",

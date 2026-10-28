@@ -1,5 +1,11 @@
 [
   {
+    "generated_at": "2026-10-28T08:28:03.624395+00:00",
+    "video_count": 6,
+    "ticker_count": 137,
+    "trigger": "scheduled"
+  },
+  {
     "generated_at": "2026-10-28T08:12:43.645956+00:00",
     "video_count": 0,
     "ticker_count": 128,

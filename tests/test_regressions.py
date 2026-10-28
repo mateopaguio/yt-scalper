@@ -2342,6 +2342,82 @@ def test_ad_hoc_market_closures_are_known():
     # The count that caught it: five years against a real provider.
     assert mcal.expected_count(date(2021, 10, 28), date(2026, 10, 27)) == 1254
 
+
+def test_transcript_fetches_cannot_block_forever():
+    """The hang that silently stopped the scheduler for 20 hours.
+
+    YouTubeTranscriptApi sets no timeout on its HTTP calls. On
+    2026-10-27 one of them blocked on a socket read for 20h27m using
+    1.9 seconds of CPU, and because launchd will not start a second
+    copy of a StartInterval job while one runs, every hourly run
+    behind it silently did not happen.
+    """
+    import requests
+    from scalper import transcripts
+
+    assert issubclass(transcripts._BoundedSession, requests.Session)
+    assert transcripts.TRANSCRIPT_TIMEOUT > 0
+
+    captured = {}
+
+    class _Spy(transcripts._BoundedSession):
+        def request(self, *a, **k):                     # noqa: ANN001
+            # Record what the parent injected, without going near a socket.
+            k.setdefault("timeout", transcripts.TRANSCRIPT_TIMEOUT)
+            captured.update(k)
+            raise RuntimeError("stop before any network call")
+
+    try:
+        _Spy().request("GET", "http://example.invalid")
+    except RuntimeError:
+        pass
+    assert captured.get("timeout") == transcripts.TRANSCRIPT_TIMEOUT
+
+    # Every construction path must carry it, not just the default one.
+    import inspect
+    src = inspect.getsource(transcripts._client)
+    assert src.count("_BoundedSession()") == 3, \
+        "a client path builds an unbounded session"
+
+
+def test_a_run_cannot_outlive_the_schedule():
+    """A hung run blocks every run behind it, and looks idle doing it."""
+    import signal
+    import run as runmod
+
+    assert runmod.MAX_RUN_MINUTES > 0
+
+    runmod._install_watchdog()
+    armed = signal.alarm(0)             # read it back, then disarm
+    assert armed > 0, "no alarm was armed"
+    assert armed <= runmod.MAX_RUN_MINUTES * 60
+
+    runmod._install_watchdog()
+    runmod._cancel_watchdog()
+    assert signal.alarm(0) == 0, "the watchdog was not cancelled"
+
+    # SIGALRM must interrupt a BLOCKING syscall - the state a hung
+    # socket read is in - not merely a busy loop.
+    import time
+    fired = []
+
+    def _bang(signum, frame):                           # noqa: ARG001
+        fired.append(True)
+        raise TimeoutError("watchdog")
+
+    old = signal.signal(signal.SIGALRM, _bang)
+    try:
+        signal.setitimer(signal.ITIMER_REAL, 0.3)
+        try:
+            time.sleep(5)
+            raise AssertionError("a blocking sleep was not interrupted")
+        except TimeoutError:
+            pass
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, old)
+    assert fired
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -2493,6 +2569,10 @@ def main() -> int:
           test_holidays_are_not_reported_as_missing_data)
     check("B: ad-hoc market closures are known",
           test_ad_hoc_market_closures_are_known)
+    check("ops: transcript fetches cannot block forever",
+          test_transcript_fetches_cannot_block_forever)
+    check("ops: a run cannot outlive the schedule",
+          test_a_run_cannot_outlive_the_schedule)
     check("B: feed entitlement is probed, not assumed",
           test_feed_entitlement_is_probed_not_assumed)
     check("C: signal states are never merged",

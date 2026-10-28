@@ -757,6 +757,47 @@ def main() -> int:
     return 0
 
 
+MAX_RUN_MINUTES = int(os.environ.get("BYRDE_MAX_RUN_MINUTES", "20"))
+
+
+def _install_watchdog() -> None:
+    """Hard ceiling on a run, so a hang can never block the schedule.
+
+    launchd will not start a second copy of a StartInterval job while
+    one is still running. On 2026-10-27 a transcript fetch blocked on
+    a socket read for 20 hours and 27 minutes, and every hourly run
+    behind it silently did not happen - no error, no log line, nothing
+    to notice. The job looked idle rather than broken.
+
+    A per-call timeout fixes the call we found. This bounds the ones
+    we have not. SIGALRM fires even while a thread is blocked in a
+    syscall, which is exactly the state a hung socket read is in.
+    """
+    try:
+        import signal
+    except ImportError:                                 # pragma: no cover
+        return
+
+    def _bail(signum, frame):                           # noqa: ARG001
+        raise TimeoutError(
+            f"run exceeded {MAX_RUN_MINUTES} minutes and was stopped; "
+            "a hung run blocks every scheduled run behind it")
+
+    try:
+        signal.signal(signal.SIGALRM, _bail)
+        signal.alarm(MAX_RUN_MINUTES * 60)
+    except (AttributeError, ValueError):
+        pass            # not a Unix main thread; nothing to install
+
+
+def _cancel_watchdog() -> None:
+    try:
+        import signal
+        signal.alarm(0)
+    except Exception:                                   # noqa: BLE001
+        pass
+
+
 def _guarded() -> int:
     """Record every invocation, whatever happens to it.
 
@@ -766,9 +807,12 @@ def _guarded() -> int:
     the Data Health panel reports it as one.
     """
     rid = health.heartbeat(_trigger())
+    _install_watchdog()
     try:
         code = main()
+        _cancel_watchdog()
     except BaseException as exc:                        # noqa: BLE001
+        _cancel_watchdog()
         health.finish(rid, False, f"{type(exc).__name__}: {exc}")
         raise
     ingested = globals().get("_LAST_INGESTED")

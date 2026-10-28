@@ -9,6 +9,8 @@ you hit it often. See the README.
 from __future__ import annotations
 
 import os
+
+import requests
 import time
 from dataclasses import dataclass
 
@@ -47,6 +49,30 @@ class Transcript:
         return bool(self.text) and not self.error
 
 
+TRANSCRIPT_TIMEOUT = 30          # seconds, per HTTP request
+
+
+class _BoundedSession(requests.Session):
+    """A session that refuses to wait forever.
+
+    YouTubeTranscriptApi makes its HTTP calls through a requests
+    Session and sets no timeout, so a connection that is accepted and
+    then never answered blocks the whole pipeline indefinitely.
+
+    That is not hypothetical. The hourly job sat in this call for 20
+    hours and 27 minutes using 1.9 seconds of CPU - blocked on a
+    socket read, not working - and because launchd will not start a
+    second copy of a StartInterval job while one is still running, it
+    silently blocked every scheduled run behind it. A job that fails
+    is visible; a job that hangs looks exactly like a job that is
+    simply not due yet.
+    """
+
+    def request(self, *args, **kwargs):
+        kwargs.setdefault("timeout", TRANSCRIPT_TIMEOUT)
+        return super().request(*args, **kwargs)
+
+
 def _client(proxy_url: str | None) -> YouTubeTranscriptApi:
     """Build a client, routing through a residential proxy when configured.
 
@@ -65,13 +91,16 @@ def _client(proxy_url: str | None) -> YouTubeTranscriptApi:
                 proxy_username=user,
                 proxy_password=pw,
                 retries_when_blocked=10,
-            )
+            ),
+            http_client=_BoundedSession(),
         )
     if proxy_url:
         return YouTubeTranscriptApi(
-            proxy_config=GenericProxyConfig(http_url=proxy_url, https_url=proxy_url)
+            proxy_config=GenericProxyConfig(http_url=proxy_url,
+                                            https_url=proxy_url),
+            http_client=_BoundedSession(),
         )
-    return YouTubeTranscriptApi()
+    return YouTubeTranscriptApi(http_client=_BoundedSession())
 
 
 def _stamp(seconds: float) -> str:
