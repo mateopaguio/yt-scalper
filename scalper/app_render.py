@@ -269,12 +269,15 @@ def _changed_since(digest: dict, history: list[dict]) -> str:
     created = sl.get("created") or []
     updated = sl.get("updated") or []
     unchanged = sl.get("unchanged", 0)
-    cats = digest.get("catalysts") or []
-    fresh_cats = [c for c in cats if _ts(c.get("published", "")).endswith(("m ago", "h ago"))]
+    # Freshness comes from our own record (scalper.changes), never from
+    # how recently something was published.
+    cc = (digest.get("catalyst_changes") or {}).get("counts") or {}
+    new_cats, upd_cats = cc.get("new", 0), cc.get("updated", 0)
 
-    if not (created or updated or fresh_cats):
-        return ('<div class="empty">Nothing new since the last run. '
-                f'{unchanged} signal(s) repeated without material change.</div>')
+    if not (created or updated or new_cats or upd_cats):
+        return ('<div class="empty">Nothing new since the last run.<br>'
+                f'{unchanged} signal(s) and {cc.get("unchanged", 0)} catalyst(s) '
+                'repeated without material change.</div>')
 
     bits = []
     if created:
@@ -283,10 +286,20 @@ def _changed_since(digest: dict, history: list[dict]) -> str:
     if updated:
         bits.append(f'<span class="kv"><span>Materially changed</span>'
                     f'<b>{len(updated)}</b></span>')
-    if fresh_cats:
+    if new_cats:
         bits.append(f'<span class="kv"><span>New catalysts</span>'
-                    f'<b>{len(fresh_cats)}</b></span>')
-    bits.append(f'<span class="kv"><span>Repeated</span><b>{unchanged}</b></span>')
+                    f'<b>{new_cats}</b></span>')
+    if upd_cats:
+        bits.append(f'<span class="kv"><span>Catalysts updated</span>'
+                    f'<b>{upd_cats}</b></span>')
+    # "Repeated" alone sat beside the catalyst counts and read as a
+    # catalyst number; it is signals. Name both, so neither is mistaken
+    # for the other.
+    bits.append(f'<span class="kv"><span>Signals repeated</span>'
+                f'<b>{unchanged}</b></span>')
+    if cc.get("unchanged"):
+        bits.append(f'<span class="kv"><span>Catalysts repeated</span>'
+                    f'<b>{cc["unchanged"]}</b></span>')
 
     names = ", ".join(c["ticker"] for c in created[:6])
     detail = (f'<div style="color:var(--muted);font-size:12.5px;margin-top:6px">'
@@ -304,10 +317,12 @@ def build_page(digest: dict, history: list[dict], rows: list[dict]) -> str:
         stamp = gen
 
     # ---- Today
+    # Filter FIRST, then take five. Slicing to five and then skipping
+    # vetoed rows produced fewer than five entries with gaps in the
+    # numbering (1, 3, 5) whenever a rejected ticker scored highly.
+    eligible = [r for r in rows if "vetoed" not in r["tags"]]
     lead = []
-    for n, r in enumerate(rows[:5], 1):
-        if "vetoed" in r["tags"]:
-            continue
+    for n, r in enumerate(eligible[:5], 1):
         why = [f'{r["independent"]} independent']
         if r["catalyst_count"]:
             why.append(f'{r["catalyst_count"]} filed event')

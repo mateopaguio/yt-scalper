@@ -10,6 +10,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -19,8 +20,8 @@ from anthropic import Anthropic
 from scalper import (
     alerts as alerting,
     analyze,
-    briefs,
     catalysts as cat,
+    changes,
     creators,
     config as cfgmod,
     feeds,
@@ -143,6 +144,9 @@ def build_digest(
         "rank_meta": aggregate.get("rank_meta", {}),
         # Where ideas died and why. A funnel without reasons is just a
         # shrinking number.
+        # New / updated / unchanged against our own stored record, not
+        # against publication dates.
+        "catalyst_changes": changes.classify(catalyst_events),
         "funnel": funnel.build(aggregate),
         # Creator performance, every figure relative to SPY. Rates are
         # withheld below 10 resolved calls rather than shown with a caveat.
@@ -360,6 +364,22 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
     )
 
 
+def _trigger() -> str:
+    """Best guess at what started this run: scheduled, or a human."""
+    explicit = os.environ.get("BYRDE_TRIGGER", "").strip()
+    if explicit:
+        return explicit
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        return "github-actions"
+    # launchd and cron give the process no controlling terminal.
+    try:
+        if not sys.stdin.isatty():
+            return "scheduled"
+    except Exception:                                   # noqa: BLE001
+        pass
+    return "manual"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
@@ -377,7 +397,10 @@ def main() -> int:
         digest = build_digest(
             recent, cfg, catalyst_events=store.recent_catalysts(days=cfg.window_days)
         )
-        path = render.render(digest, store.load_digests())
+        path = render.render(digest, store.load_digests(), cfg=cfg)
+        # Seen only after a page was produced; a crashed run
+        # must not consume a catalyst's novelty.
+        changes.commit(digest.get('catalysts') or [])
         print(f"Rebuilt {path} from {len(recent)} stored items")
         return 0
 
@@ -397,7 +420,10 @@ def main() -> int:
         digest = build_digest(
             window, cfg, stats, store.recent_catalysts(days=cfg.window_days)
         )
-        render.render(digest, store.load_digests())
+        render.render(digest, store.load_digests(), cfg=cfg)
+        # Seen only after a page was produced; a crashed run
+        # must not consume a catalyst's novelty.
+        changes.commit(digest.get('catalysts') or [])
         notify_if_new(cfg, [], digest, args)
         return 0
 
@@ -482,23 +508,17 @@ def main() -> int:
         "generated_at": digest["generated_at"],
         "video_count": len(processed),
         "ticker_count": digest["aggregate"]["total_tickers"],
+        # Who fired this run. Without it the history cannot answer
+        # "is the scheduler alive?", because a developer running the
+        # pipeline by hand looks exactly like a healthy cron job.
+        "trigger": _trigger(),
     })
 
-    path = render.render(digest, store.load_digests())
+    path = render.render(digest, store.load_digests(), cfg=cfg)
+    # Seen only after a page was produced; a crashed run
+    # must not consume a catalyst's novelty.
+    changes.commit(digest.get('catalysts') or [])
     print(f"\nRendered {path}")
-
-    # Per-ticker briefs: a page per name, with bull and bear side by side.
-    brief_dir = cfgmod.DOCS_DIR / "ticker"
-    watch = set(cfg.watchlist)
-    made = []
-    for entry in digest["aggregate"]["tickers"]:
-        if watch and entry["ticker"] not in watch:
-            continue
-        b = briefs.build(entry)
-        briefs.render_page(b, brief_dir, cfg.site_url)
-        made.append(b)
-    if made:
-        print(f"Built {len(made)} ticker brief(s) in docs/ticker/")
 
     if tokens_in or tokens_out:
         cost = tokens_in / 1_000_000 * 0.10 + tokens_out / 1_000_000 * 0.50

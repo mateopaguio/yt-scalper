@@ -815,7 +815,8 @@ def _perf_html(digest: dict) -> str:
         'read as a working edge.</div>')
     return "".join(out)
 
-def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Path:
+def render(digest: dict, history: list[dict], out_dir: Path | None = None,
+           cfg=None) -> Path:
     out_dir = out_dir or DOCS_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -962,7 +963,7 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
             under_radar=digest.get("under_the_radar"),
             signals=digest.get("signals"),
             setups=digest.get("setups"),
-            watchlist=list(getattr(digest.get("_cfg", None), "watchlist", []) or []),
+            watchlist=list(getattr(cfg, "watchlist", []) or []),
         )
         page = app_render.build_page(digest, history, rows)
     except Exception as exc:  # noqa: BLE001
@@ -978,4 +979,43 @@ def render(digest: dict, history: list[dict], out_dir: Path | None = None) -> Pa
         json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8"
     )
     (out_dir / ".nojekyll").write_text("", encoding="utf-8")
+
+    # The per-ticker briefs are written HERE, not by the caller.
+    #
+    # They used to be rendered in run.py after this function returned,
+    # which meant --rebuild regenerated index.html and digest.json but
+    # left all 128 ticker pages untouched. Nothing looked wrong: the
+    # index was current, every link resolved, and the briefs served
+    # whatever content and CSS they happened to have been built with
+    # hours or days earlier. Publishing the three together is the only
+    # way they cannot drift apart.
+    _render_briefs(digest, out_dir, cfg)
     return out_path
+
+
+def _render_briefs(digest: dict, out_dir: Path, cfg=None) -> int:
+    """Write one brief per ticker. Returns how many were written."""
+    from . import briefs
+
+    watch = set(getattr(cfg, "watchlist", []) or [])
+    site_url = getattr(cfg, "site_url", "") or ""
+    brief_dir = out_dir / "ticker"
+
+    made = failed = 0
+    for entry in (digest.get("aggregate") or {}).get("tickers", []):
+        if watch and entry["ticker"] not in watch:
+            continue
+        try:
+            briefs.render_page(briefs.build(entry), brief_dir, site_url)
+            made += 1
+        except Exception as exc:                        # noqa: BLE001
+            # One bad ticker must not cost the other 127 their page,
+            # but it must not pass unnoticed either.
+            failed += 1
+            print(f"  ! brief failed for {entry.get('ticker','?')}: "
+                  f"{type(exc).__name__}: {exc}")
+    if made:
+        print(f"Built {made} ticker brief(s) in {brief_dir.parent.name}/ticker/")
+    if failed:
+        print(f"  ! {failed} brief(s) could not be written")
+    return made

@@ -645,6 +645,243 @@ def test_scanner_reports_unusable_bars_instead_of_raising():
 
 
 
+
+# --------------------------------------------------------------------
+# REVIEW FINDINGS (2026-10-27). Each is a real defect found in review,
+# not a hypothetical.
+# --------------------------------------------------------------------
+def test_catalyst_freshness_uses_identity_not_publication_date():
+    """An event we have never seen is NEW even if published years ago,
+    and one we have seen is not new just because it is recent."""
+    from scalper import changes
+    old_but_unseen = {"event_id": "z", "published": "2019-01-01T00:00:00+00:00",
+                      "findings": {"materiality": 4, "event_type": "approval"}}
+    state = {"events": {}}
+    r = changes.classify([old_but_unseen], state)
+    assert r["counts"]["new"] == 1, "a never-seen old event was not counted new"
+
+    state = changes.commit([old_but_unseen], state)
+    r = changes.classify([old_but_unseen], state)
+    assert r["counts"] == {"new": 0, "updated": 0, "unchanged": 1}
+
+
+def test_catalyst_update_detected_on_material_change_only():
+    from scalper import changes
+    ev = {"event_id": "a", "findings": {"materiality": 2, "event_type": "x",
+                                        "direction": "up", "companies": []}}
+    state = changes.commit([ev], {"events": {}})
+    # a cosmetic change must NOT register
+    ev2 = {**ev, "findings": {**ev["findings"]}, "title": "reworded title",
+           "published": "2026-10-27T00:00:00+00:00"}
+    assert changes.classify([ev2], state)["counts"]["unchanged"] == 1
+    # a material change must
+    ev3 = {**ev, "findings": {**ev["findings"], "materiality": 5}}
+    assert changes.classify([ev3], state)["counts"]["updated"] == 1
+
+
+def test_top_five_excludes_vetoed_and_still_returns_five():
+    """Slicing to five and then dropping vetoed rows produced three
+    entries numbered 1, 3, 5."""
+    from scalper import app_render
+    rows = []
+    for i in range(10):
+        vetoed = i in (0, 2, 4)        # high scorers are rejected
+        rows.append({
+            "ticker": f"T{i}", "company": "", "tags": ["vetoed"] if vetoed else [],
+            "sentiment": "bullish", "bulls": 1, "bears": 0,
+            "independent": 2, "independent_channels": ["a", "b"], "reprints": 0,
+            "mentions": 1, "intelligence": 90 - i, "intelligence_raw": 5.0,
+            "scalp": {"state": "no_data", "label": "no setup", "detail": ""},
+            "freshness": "", "catalyst_count": 0, "catalyst_title": "",
+            "verification": "", "vetoes": ["x"] if vetoed else [], "entry": {},
+        })
+    digest = {"aggregate": {}, "generated_at": "2026-10-27T00:00:00+00:00",
+              "videos": [], "signal_log": {}, "catalyst_changes": {"counts": {}}}
+    page = app_render.build_page(digest, [], rows)
+    import re
+    lead = re.findall(r'<span class="n">(\d+)</span>\s*<h3>([A-Z0-9]+)</h3>', page)
+    nums = [n for n, _ in lead]
+    names = [t for _, t in lead]
+    assert nums == ["1", "2", "3", "4", "5"], f"numbering has gaps: {nums}"
+    for bad in ("T0", "T2", "T4"):
+        assert bad not in names, f"vetoed ticker {bad} reached the top five"
+
+
+def test_css_has_no_invalid_font_shorthand():
+    """`font: 600 12px inherit` is invalid - the family slot cannot be
+    `inherit`. WebKit drops the WHOLE declaration, so the element falls
+    back to UA defaults on iOS while looking fine in Chromium."""
+    import re
+    from scalper.app_css import APP_CSS
+    bad = re.findall(r"font\s*:\s*[^;{}]*\binherit\b[^;{}]*;", APP_CSS)
+    assert not bad, f"invalid font shorthand: {bad}"
+    # a bare `font: inherit` IS valid, so only flag it with other components
+    for m in re.findall(r"font\s*:\s*([^;{}]+);", APP_CSS):
+        if "inherit" in m and m.strip() != "inherit":
+            raise AssertionError(f"font shorthand mixes inherit: {m!r}")
+
+
+def test_relevance_is_conservative():
+    """Uncertain content must stay visible, not be archived."""
+    from scalper import relevance
+    unanalysed = {"title": "Some market video", "findings": {}}
+    assert relevance.classify(unanalysed)["bucket"] == relevance.MARKET_CONTEXT
+    macro = {"title": "Fed holds rates", "findings": {"summary": "fed decision",
+             "tickers": [], "macro_points": ["rates"]}}
+    assert relevance.classify(macro)["bucket"] == relevance.MARKET_CONTEXT
+    traded = {"title": "NVDA", "findings": {"tickers": [
+        {"ticker": "NVDA", "thesis": "data centre demand"}]}}
+    assert relevance.classify(traded)["bucket"] == relevance.TRADE_RELEVANT
+    offtopic = {"title": "My apartment tour", "findings": {"summary": "a flat",
+                "tickers": [], "macro_points": []}}
+    assert relevance.classify(offtopic)["bucket"] == relevance.ARCHIVE
+
+
+def test_canonical_ticker_appears_once():
+    from scalper import ticker_rows
+    agg = {"tickers": [
+        {"ticker": "AAA", "company": "A", "items": [],
+         "basis": {"independent_channels": ["x", "y"]},
+         "score": {"total": 4.0, "vetoed": False}, "catalyst_events": [],
+         "freshness": {"state": "developing"}, "byrde": {"score": 70}},
+    ], "echo_chamber": []}
+    rows = ticker_rows.build(agg, under_radar=[{"ticker": "AAA"}],
+                             signals={"momentum": [{"ticker": "AAA"}]})
+    assert len(rows) == 1, "ticker duplicated across categories"
+    assert {"corroborated", "under_radar", "heating"} <= set(rows[0]["tags"])
+    assert rows[0]["scalp"]["state"] == "no_data"
+
+
+
+def test_no_orphaned_tests():
+    """Every test defined in this file must actually be registered.
+
+    Six review tests were written and never run; the suite reported
+    "all passed" because it only executes what main() registers. A
+    suite that silently skips tests is worse than no suite - it
+    produces confidence without coverage.
+    """
+    import ast as _ast
+    src = open(__file__).read()
+    tree = _ast.parse(src)
+    defined = {n.name for n in _ast.walk(tree)
+               if isinstance(n, _ast.FunctionDef) and n.name.startswith("test_")}
+    referenced = {n.id for n in _ast.walk(tree)
+                  if isinstance(n, _ast.Name) and n.id.startswith("test_")}
+    orphans = sorted(defined - referenced)
+    assert not orphans, f"defined but never run: {orphans}"
+
+
+
+def test_no_unresolvable_module_level_names():
+    """The NameError class that has now caused three outages here.
+
+    run.py called signals.compute() with no `signals` import; scanner.py
+    read a local `last` that a refactor had deleted; run.py called
+    os.environ with no `os` import. Every one of them imported cleanly,
+    passed every test that did not execute that exact line, and died in
+    production.
+
+    test_every_name_used_in_run_is_importable covers run.py only. This
+    walks every function in every module and checks that each
+    module-level name it loads actually resolves, without running it.
+    """
+    import ast
+    import builtins
+    import glob
+    import importlib
+
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    files = sorted(glob.glob(os.path.join(root, "scalper", "*.py")))
+    files.append(os.path.join(root, "run.py"))
+    bad = []
+
+    for path in files:
+        base = os.path.basename(path)
+        if base == "__init__.py":
+            continue
+        stem = base[:-3]
+        name = ("scalper." + stem) if os.path.basename(
+            os.path.dirname(path)) == "scalper" else stem
+        try:
+            mod = importlib.import_module(name)
+        except Exception as exc:                        # noqa: BLE001
+            bad.append(f"{base}: will not import ({type(exc).__name__}: {exc})")
+            continue
+
+        with open(path, encoding="utf-8") as fh:
+            tree = ast.parse(fh.read())
+        bound = set(dir(mod)) | set(dir(builtins))
+
+        def bindings(fn):
+            """Every name this function body binds, nested scopes included."""
+            got = set()
+            for n in ast.walk(fn):
+                if isinstance(n, ast.arg):
+                    got.add(n.arg)
+                elif isinstance(n, ast.Name) and isinstance(n.ctx, ast.Store):
+                    got.add(n.id)
+                elif isinstance(n, (ast.Import, ast.ImportFrom)):
+                    for a in n.names:
+                        got.add((a.asname or a.name).split(".")[0])
+                elif isinstance(n, ast.ExceptHandler) and n.name:
+                    got.add(n.name)
+                elif isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef,
+                                    ast.ClassDef)):
+                    got.add(n.name)
+                elif isinstance(n, ast.Global) or isinstance(n, ast.Nonlocal):
+                    got.update(n.names)
+            return got
+
+        # A closure sees its enclosing function's locals, so each function
+        # is checked against its whole scope chain. Checking a nested
+        # function in isolation reports every captured variable as
+        # undefined - prices.py's history() closure over `cache`, say.
+        funcs = [n for n in ast.walk(tree)
+                 if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))]
+        enclosing = {}
+        for fn in funcs:
+            for kid in ast.walk(fn):
+                if (isinstance(kid, (ast.FunctionDef, ast.AsyncFunctionDef))
+                        and kid is not fn):
+                    enclosing.setdefault(kid, []).append(fn)
+
+        for fn in funcs:
+            scope = set(bound) | bindings(fn)
+            for outer in enclosing.get(fn, []):
+                scope |= bindings(outer)
+            for n in ast.walk(fn):
+                if (isinstance(n, ast.Name) and isinstance(n.ctx, ast.Load)
+                        and n.id not in scope):
+                    bad.append(f"{base}:{n.lineno} {fn.name}() -> {n.id}")
+
+    assert not bad, "unresolvable names:\n  " + "\n  ".join(sorted(set(bad)))
+
+
+def test_commit_does_not_write_when_given_a_state():
+    """A test must not be able to overwrite the live catalyst record.
+
+    changes.commit() used to call _save() unconditionally, so passing a
+    hand-built state wrote that state to data/catalyst_state.json. A
+    test event with the id "a" reached the production file that way,
+    and any test whose state held a single event would have replaced
+    the whole record - silently resetting every catalyst to "new".
+    """
+    from scalper import changes
+
+    before = changes.PATH.read_text(encoding="utf-8") if changes.PATH.exists() else None
+
+    ev = {"event_id": "unit-test-must-not-persist", "event_type": "guidance",
+          "materiality": "high", "direction": "up", "is_market_relevant": True,
+          "companies": ["TEST"]}
+    out = changes.commit([ev], {"events": {}})
+
+    assert out["events"]["unit-test-must-not-persist"], "should update the dict"
+    after = changes.PATH.read_text(encoding="utf-8") if changes.PATH.exists() else None
+    assert after == before, "commit() wrote to the live state file"
+    if after:
+        assert "unit-test-must-not-persist" not in after
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -713,6 +950,25 @@ def main() -> int:
     # (a full build_digest with recording on takes ~47s - too slow for a
     #  suite people will actually run. The scanner test above catches the
     #  same bug in 0.0s by injecting bars into the real function.)
+    check("review1: catalyst freshness uses identity, not publication date",
+          test_catalyst_freshness_uses_identity_not_publication_date)
+    check("review1: catalyst update only on material change",
+          test_catalyst_update_detected_on_material_change_only)
+    check("review2: top five excludes vetoed and returns five",
+          test_top_five_excludes_vetoed_and_still_returns_five)
+    check("review3: no invalid font shorthand",
+          test_css_has_no_invalid_font_shorthand)
+    check("review4: relevance stays conservative",
+          test_relevance_is_conservative)
+    check("review4: canonical ticker appears once",
+          test_canonical_ticker_appears_once)
+    check("meta: no test is defined but left unregistered",
+          test_no_orphaned_tests)
+    check("meta: every module-level name resolves",
+          test_no_unresolvable_module_level_names)
+    check("review1: commit() never writes a caller-supplied state",
+          test_commit_does_not_write_when_given_a_state)
+
     print(f"\n{'FAILED: ' + ', '.join(FAILED) if FAILED else 'all regression tests passed'}")
     return 1 if FAILED else 0
 

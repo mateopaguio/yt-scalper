@@ -3,6 +3,11 @@
 #   bash ~/Downloads/yt-scalper/START_HERE.sh
 # Reads your API key from ~/Downloads/anthropic-key.txt
 
+
+# Labels the digest history so verify_deploy.py can tell a
+# scheduled run from one a human started.
+export BYRDE_TRIGGER="${BYRDE_TRIGGER:-scheduled}"
+
 set -u
 cd "$(dirname "$0")" || exit 1
 HERE_KEY="$(pwd)/.anthropic-key"

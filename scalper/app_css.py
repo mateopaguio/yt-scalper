@@ -10,7 +10,12 @@ APP_CSS = """
 *{box-sizing:border-box;min-width:0}
 html,body{max-width:100%;overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);
-  font:15px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;
+  /* explicit properties, not shorthand: a shorthand whose family slot is
+     'inherit' is invalid CSS, and WebKit drops the WHOLE declaration
+     rather than the one bad component - so the element silently falls
+     back to UA defaults on iOS while looking correct in Chromium. */
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;
+  font-size:15px;line-height:1.5;
   -webkit-font-smoothing:antialiased;
   padding-bottom:calc(var(--nav-h) + env(safe-area-inset-bottom) + 12px)}
 .wrap{max-width:900px;margin:0 auto;
@@ -27,13 +32,21 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;
   border-top:1px solid var(--line);display:flex;
   padding-bottom:env(safe-area-inset-bottom)}
 nav.tabs button{flex:1 1 0;min-width:0;background:none;border:0;color:var(--dim);
-  font:600 10.5px/1.25 inherit;letter-spacing:0;
-  padding:9px 2px 7px;cursor:pointer;min-height:var(--nav-h);
+  /* 11px is the readability floor for this project. The font-shorthand
+     fix replaced an invalid shorthand with explicit properties and
+     carried 10.5px across with it, putting all five tabs below the
+     floor on every phone width. Space is bought back from padding and
+     letter-spacing, never from legibility: at 320px the labels
+     ellipsis, which is the correct trade. */
+  font-family:inherit;font-weight:600;font-size:11px;line-height:1.2;
+  letter-spacing:-0.1px;
+  padding:9px 1px 7px;cursor:pointer;min-height:var(--nav-h);
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
 nav.tabs button .ic{font-size:16px;line-height:1}
 nav.tabs button span:last-child{max-width:100%;overflow:hidden;
   text-overflow:ellipsis;white-space:nowrap}
-@media(max-width:360px){nav.tabs button{padding-left:0;padding-right:0;gap:3px}}
+@media(max-width:360px){nav.tabs button{padding-left:0;padding-right:0;
+  gap:3px;letter-spacing:-0.2px}}
 nav.tabs button[aria-selected="true"]{color:var(--accent)}
 nav.tabs button[aria-selected="true"] .ic{transform:translateY(-1px)}
 @media(min-width:760px){
@@ -90,7 +103,8 @@ h3.sub2{font-size:13.5px;margin:20px 0 9px;font-weight:650}
 .controls{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:11px}
 .controls button,.controls select{background:var(--panel2);color:var(--ink);
   border:1px solid var(--line);border-radius:8px;padding:9px 12px;
-  font:600 12.5px inherit;min-height:44px;cursor:pointer}
+  font-family:inherit;font-weight:600;font-size:12.5px;
+  min-height:44px;cursor:pointer}
 .controls button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
 
 /* --- video card --- */
