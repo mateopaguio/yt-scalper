@@ -140,7 +140,8 @@ def creator_stats(ledger: dict[str, Any], min_tickers: int = 3) -> list[dict]:
     return out
 
 
-def under_the_radar(aggregate: dict, ledger: dict, max_channels: int = 1) -> list[dict]:
+def under_the_radar(aggregate: dict, ledger: dict, max_channels: int = 1,
+                    max_per_video: int = 3) -> list[dict]:
     """Tickers with real evidence but almost no coverage across your set.
 
     This is the opposite of the consensus view: names where someone made
@@ -150,11 +151,29 @@ def under_the_radar(aggregate: dict, ledger: dict, max_channels: int = 1) -> lis
     for entry in aggregate.get("tickers", []):
         if entry.get("speculative_only"):
             continue
-        if len(entry.get("corroborating_channels", [])) > max_channels:
+        basis = entry.get("basis") or {}
+        # Count channels that did their OWN work. A name covered only by
+        # a wire reprint is not an undiscovered opportunity - it is thin
+        # coverage of somebody else's story.
+        indep = basis.get("independent_channels")
+        n_cov = len(indep) if indep is not None else len(
+            entry.get("corroborating_channels", []))
+        if n_cov > max_channels or n_cov < 1:
+            continue
+        if basis.get("wire_only"):
+            continue
+        # the supporting evidence must come from an original/primary claim,
+        # not from a reprint that happened to cite a number
+        own = [it for it in (entry.get("items") or [])
+               if it.get("basis") in ("primary", "original")]
+        if not any(it.get("evidence") in ("data", "reasoned") for it in own):
+            continue
+        # An under-the-radar OPPORTUNITY needs someone making a positive
+        # case. "Strong business but the rally leaves no margin for
+        # error" is a reason to pass, and was being listed as a find.
+        if not any((it.get("stance") or "").lower() == "bullish" for it in own):
             continue
         counts = entry.get("evidence_counts") or {}
-        if not (counts.get("data") or counts.get("reasoned")):
-            continue
         record = ledger.get(entry["ticker"]) or {}
         out.append({
             **entry,
@@ -169,7 +188,25 @@ def under_the_radar(aggregate: dict, ledger: dict, max_channels: int = 1) -> lis
         ),
         reverse=True,
     )
-    return out
+
+    # One video reviewing eight holdings is one piece of research, not
+    # eight discoveries. Measured: a single Dividend Talks watchlist
+    # review supplied 8 of the top 12 here and crowded out everything
+    # else. Cap how much any one video can contribute.
+    seen_video: dict[str, int] = {}
+    capped = []
+    for e in out:
+        own = [it for it in (e.get("items") or [])
+               if it.get("basis") in ("primary", "original")]
+        vid = (own[0].get("video_id") or own[0].get("url") or "") if own else ""
+        k = vid or "unknown"
+        if k != "unknown":
+            seen_video[k] = seen_video.get(k, 0) + 1
+            if seen_video[k] > max_per_video:
+                continue
+        e["_source_video_names"] = seen_video.get(k, 1)
+        capped.append(e)
+    return capped
 
 
 def tier4_candidates(

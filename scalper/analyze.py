@@ -12,6 +12,8 @@ from typing import Any
 
 from anthropic import Anthropic, APIError
 
+from . import validate
+
 _TICKER_OK = __import__("re").compile(r"^[A-Z]{1,6}(?:[.\-][A-Z]{1,2})?$")
 
 
@@ -278,11 +280,31 @@ def aggregate(
     consensus_tiers = consensus_tiers if consensus_tiers is not None else {1, 2, 3}
     by_ticker: dict[str, dict[str, Any]] = {}
 
+    rejected: list[dict] = []
+
     for video in videos:
         findings = video.get("findings") or {}
         for item in findings.get("tickers") or []:
             symbol = clean_ticker(item.get("ticker", ""))
             if not symbol:
+                continue
+
+            # The schema tells the model not to invent symbols for private
+            # companies; it does anyway. SpaceX arrived tagged SPCE, which
+            # is Virgin Galactic - a real company somebody could buy by
+            # mistake. Checked here rather than at write time so it applies
+            # to everything already stored, and so the raw model output is
+            # preserved for audit instead of being edited after the fact.
+            ok, why = validate.check(symbol, item.get("company", ""))
+            if not ok:
+                rejected.append({
+                    "ticker": symbol,
+                    "company": item.get("company", ""),
+                    "reason": why,
+                    "channel": video.get("channel", ""),
+                    "video_id": video.get("video_id", ""),
+                    "thesis": (item.get("thesis") or "")[:200],
+                })
                 continue
 
             entry = by_ticker.setdefault(
@@ -381,4 +403,8 @@ def aggregate(
         # Named only by speculative channels — shown, but never as consensus.
         "speculative_only": [t for t in ranked if t["speculative_only"]],
         "total_tickers": len(ranked),
+        # Symbols the model produced that do not belong to the company it
+        # named. Surfaced rather than silently dropped, so a bad extraction
+        # is visible instead of just absent.
+        "rejected_tickers": rejected,
     }

@@ -49,9 +49,20 @@ def save_videos(videos: list[dict]) -> None:
 
 
 def add_videos(new: list[dict]) -> list[dict]:
+    """Store newly processed items, stamped with when WE saw them.
+
+    `published` is when the source put it out; `ingested_at` is when it
+    entered this system. They are different questions and were being
+    answered by the same field - a three-day-old video processed this
+    morning looked three days stale, and a run that ingested nothing
+    looked identical to one that ingested everything.
+    """
     existing = load_videos()
     known = {v["video_id"] for v in existing}
-    merged = existing + [v for v in new if v["video_id"] not in known]
+    now = datetime.now(timezone.utc).isoformat()
+    fresh = [{**v, "ingested_at": v.get("ingested_at") or now}
+             for v in new if v["video_id"] not in known]
+    merged = existing + fresh
     save_videos(merged)
     return merged
 
@@ -140,8 +151,15 @@ def due_pending(max_attempts: int = 12, give_up_hours: int = 30) -> tuple[list[d
         too_old = False
         try:
             too_old = datetime.fromisoformat(clock) < cutoff
-        except ValueError:
-            too_old = True
+        except (ValueError, TypeError):
+            # An unreadable or missing timestamp means UNKNOWN age, not old
+            # age. Expiring on a parse failure silently destroys a video we
+            # have simply lost the clock for - the same shape as the bug
+            # that dropped 20 good videos during the throttling incident.
+            # Keep it; attempts >= max_attempts still retires it eventually.
+            too_old = False
+            print(f"  ! unreadable retry timestamp for "
+                  f"{item.get('video_id', '?')} ({clock!r}) - keeping it")
 
         if item.get("attempts", 0) >= max_attempts or too_old:
             expired.append(item)
@@ -248,3 +266,32 @@ def load_performance() -> list[dict]:
 
 def save_performance(records: list[dict]) -> None:
     _write(PERFORMANCE_PATH, records[:2000])
+
+
+# --- tiered alert cooldowns -------------------------------------------
+ALERT_LOG_PATH = DATA_DIR / "alert_log.json"
+
+
+def alert_log() -> dict:
+    """key -> ISO timestamp of when that alert last fired."""
+    return _read(ALERT_LOG_PATH, {})
+
+
+def record_alerts(keys: list[str], when: str | None = None) -> None:
+    """Persist fire times so a cooldown survives a restart.
+
+    Without this the cooldown lives only in memory and every run is the
+    first run, which is how an alerting system teaches its owner to
+    ignore it.
+    """
+    if not keys:
+        return
+    when = when or datetime.now(timezone.utc).isoformat()
+    log = alert_log()
+    for k in keys:
+        log[k] = when
+    # bounded: drop the oldest beyond 5000 rather than growing forever
+    if len(log) > 5000:
+        for k in sorted(log, key=lambda x: log[x])[: len(log) - 5000]:
+            log.pop(k, None)
+    _write(ALERT_LOG_PATH, log)

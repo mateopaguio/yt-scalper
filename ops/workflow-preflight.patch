@@ -1,0 +1,50 @@
+--- .github/workflows/digest.yml	2026-10-28 03:21:00.208372652 +0000
++++ ops/digest.yml.proposed	2026-10-28 04:53:35.585723757 +0000
+@@ -33,8 +33,47 @@
+       - name: Install dependencies
+         run: pip install -r requirements.txt
+ 
++      # Names and presence only. A secret's VALUE is never printed, and
++      # GitHub masks it anyway. This exists so the cause of a failure
++      # is visible in the log instead of inferred from an exit code:
++      # eight runs failed in a row before the cause could be stated
++      # with certainty.
++      - name: Preflight - which inputs are present
++        env:
++          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
++          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
++          YT_PROXY_URL: ${{ secrets.YT_PROXY_URL }}
++          WEBSHARE_USER: ${{ secrets.WEBSHARE_USER }}
++        run: |
++          fail=0
++          check() {
++            if [ -n "${2:-}" ]; then
++              echo "  present  $1 (${#2} chars)"
++            else
++              echo "  MISSING  $1 $3"
++              [ "$3" = "(required)" ] && fail=1
++            fi
++          }
++          echo "Repository secrets visible to this workflow:"
++          check ANTHROPIC_API_KEY "$ANTHROPIC_API_KEY" "(required)"
++          check NTFY_TOPIC        "$NTFY_TOPIC"        "(optional - no push alerts without it)"
++          check YT_PROXY_URL      "$YT_PROXY_URL"      "(optional)"
++          check WEBSHARE_USER     "$WEBSHARE_USER"     "(optional)"
++          if [ "$fail" = "1" ]; then
++            echo ""
++            echo "The digest cannot run without ANTHROPIC_API_KEY."
++            echo "Add it at: Settings -> Secrets and variables -> Actions."
++            exit 1
++          fi
++
+       - name: Run digest
+         env:
++          # Explicit, and deliberately 'local' until this branch has run
++          # green here. The cloud runner computes alerts and records them
++          # as suppressed_not_owner; the Mac sends. Flip the repository
++          # variable BYRDE_NOTIFY_OWNER to github-actions to hand over.
++          BYRDE_NOTIFY_OWNER: ${{ vars.BYRDE_NOTIFY_OWNER || 'local' }}
++          BYRDE_TRIGGER: github-actions
+           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+           # Optional - only needed if GitHub's datacenter IP gets blocked
+           # by YouTube, which is likely without one of these.

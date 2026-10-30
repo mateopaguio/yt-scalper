@@ -11,3 +11,7 @@ byrde-proxy.env
 .anthropic-key
 .proxy.env
 .notify.env
+
+# quarantined bad output - safe to delete by hand
+_to_delete/
+.byrde-gh-token

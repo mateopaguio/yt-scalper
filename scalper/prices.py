@@ -18,11 +18,15 @@ Honesty constraints baked in here:
 from __future__ import annotations
 
 import csv
+import os
+import time
 import io
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
 import requests
+
+from . import dataquality
 
 STOOQ = "https://stooq.com/q/d/l/"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; yt-scalper/1.1)"}
@@ -45,47 +49,479 @@ def _stooq_symbol(ticker: str) -> str:
     return ticker.lower().replace(".", "-") + ".us"
 
 
-def fetch_history(ticker: str, timeout: int = 25) -> list[dict] | None:
-    """Daily OHLCV for a ticker, oldest first. None if unavailable."""
+# A browser signature. Stooq began answering plain clients with a
+# JavaScript challenge ("This site requires JavaScript to verify your
+# browser"), which is HTML where CSV was expected. requests cannot run
+# JS, so that provider simply stops working and we move to the next one.
+BROWSER = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/129.0.0.0 Safari/537.36"),
+    "Accept": "text/csv,application/json,text/plain,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+YAHOO = "https://query1.finance.yahoo.com/v8/finance/chart/"
+
+
+def _looks_like_challenge(text: str) -> bool:
+    head = (text or "")[:400].lower()
+    return ("<!doctype html" in head or "<html" in head
+            or "requires javascript" in head or "enable javascript" in head)
+
+
+def _from_stooq(ticker: str, timeout: int) -> list[dict] | None:
     try:
         resp = requests.get(
-            STOOQ,
-            params={"s": _stooq_symbol(ticker), "i": "d"},
-            headers=UA,
-            timeout=timeout,
+            STOOQ, params={"s": _stooq_symbol(ticker), "i": "d"},
+            headers=BROWSER, timeout=timeout,
         )
         resp.raise_for_status()
     except requests.RequestException as exc:
-        print(f"    ! price fetch failed for {ticker}: {exc}")
+        print(f"    - stooq unavailable for {ticker}: {str(exc)[:70]}")
         return None
 
     text = resp.text.strip()
-    # Stooq answers an unknown symbol with a short plain-text message.
+    if _looks_like_challenge(text):
+        print(f"    - stooq served a browser challenge for {ticker}")
+        return None
     if not text or "," not in text.splitlines()[0]:
-        print(f"    ! no price data for {ticker} ({text[:60]!r})")
+        print(f"    - stooq has no data for {ticker}")
         return None
 
     reader = csv.DictReader(io.StringIO(text))
     if not reader.fieldnames:
         return None
-
-    cols = {name.strip().lower(): name for name in reader.fieldnames}
+    cols = {n.strip().lower(): n for n in reader.fieldnames}
     if "date" not in cols or "close" not in cols:
-        print(f"    ! unexpected price columns for {ticker}: {reader.fieldnames}")
+        print(f"    - stooq columns unusable for {ticker}: {reader.fieldnames[:2]}")
         return None
 
-    rows: list[dict] = []
+    rows = []
     for raw in reader:
         try:
-            rows.append({
+            row = {
                 "date": datetime.strptime(raw[cols["date"]], "%Y-%m-%d").date(),
                 "close": float(raw[cols["close"]]),
-            })
+            }
+            # Full OHLCV where available: the pattern scanner needs high,
+            # low and volume, and a close-only row silently breaks it.
+            for field in ("open", "high", "low"):
+                if field in cols and raw.get(cols[field]) not in (None, "", "-"):
+                    row[field] = float(raw[cols[field]])
+            if "volume" in cols and raw.get(cols["volume"]) not in (None, "", "-"):
+                row["volume"] = float(raw[cols["volume"]])
+            rows.append(row)
         except (ValueError, KeyError, TypeError):
             continue
+    rows.sort(key=lambda r: r["date"])
+    return rows or None
+
+
+def _from_yahoo(ticker: str, timeout: int, rng: str = "5y") -> list[dict] | None:
+    """Yahoo's chart endpoint. JSON, no API key, full OHLCV."""
+    try:
+        resp = requests.get(
+            YAHOO + ticker.upper(),
+            params={"range": rng, "interval": "1d"},
+            headers=BROWSER, timeout=timeout,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+    except (requests.RequestException, ValueError) as exc:
+        print(f"    - yahoo unavailable for {ticker}: {str(exc)[:70]}")
+        return None
+
+    chart = (payload or {}).get("chart") or {}
+    if chart.get("error"):
+        print(f"    - yahoo error for {ticker}: {str(chart['error'])[:70]}")
+        return None
+    results = chart.get("result") or []
+    if not results:
+        return None
+    res = results[0]
+    stamps = res.get("timestamp") or []
+    quote = ((res.get("indicators") or {}).get("quote") or [{}])[0]
+    closes = quote.get("close") or []
+    if not stamps or not closes:
+        return None
+
+    rows = []
+    for i, ts in enumerate(stamps):
+        c = closes[i] if i < len(closes) else None
+        if c is None:
+            continue                      # holiday / missing bar, never filled in
+        row = {"date": datetime.fromtimestamp(ts, tz=timezone.utc).date(),
+               "close": float(c)}
+        for field in ("open", "high", "low", "volume"):
+            seq = quote.get(field) or []
+            if i < len(seq) and seq[i] is not None:
+                row[field] = float(seq[i])
+        rows.append(row)
+    rows.sort(key=lambda r: r["date"])
+    return rows or None
+
+
+def _from_yfinance(ticker: str, timeout: int, period: str = "5y") -> list[dict] | None:
+    """Yahoo via yfinance, which handles the cookie/crumb handshake.
+
+    The raw chart endpoint now answers unauthenticated clients with 429
+    on the very first request: it wants a session cookie and a crumb.
+    Reimplementing that by hand means chasing a moving target, which is
+    the problem yfinance already solves and keeps solving.
+
+    Optional dependency. Absent, this provider stands aside quietly and
+    the others are tried.
+    """
+    try:
+        import yfinance
+    except ImportError:
+        return None
+
+    try:
+        df = yfinance.Ticker(ticker.upper()).history(period=period,
+                                                     interval="1d",
+                                                     auto_adjust=False)
+    except Exception as exc:  # noqa: BLE001 - library raises many types
+        print(f"    - yfinance failed for {ticker}: {str(exc)[:70]}")
+        return None
+
+    if df is None or df.empty:
+        return None
+
+    rows = []
+    for stamp, rec in df.iterrows():
+        try:
+            close = float(rec["Close"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if close != close:               # NaN - a missing bar, never filled in
+            continue
+        row = {"date": stamp.date() if hasattr(stamp, "date") else stamp,
+               "close": close}
+        for src, dst in (("Open", "open"), ("High", "high"),
+                         ("Low", "low"), ("Volume", "volume")):
+            try:
+                v = float(rec[src])
+                if v == v:
+                    row[dst] = v
+            except (KeyError, TypeError, ValueError):
+                pass
+        rows.append(row)
+    rows.sort(key=lambda r: r["date"])
+    return rows or None
+
+
+ALPACA_DATA = "https://data.alpaca.markets/v2/stocks/"
+
+
+def alpaca_configured() -> bool:
+    return bool(os.environ.get("ALPACA_KEY_ID")
+                and os.environ.get("ALPACA_SECRET_KEY"))
+
+
+ADJUSTED = "adjusted"      # for RETURNS: comparable across splits
+AS_TRADED = "as_traded"    # for EXECUTION: what the tape actually showed
+
+_ENTITLEMENT_CACHE: dict[str, str] = {}
+
+
+def fetch_pair(ticker: str, timeout: int = 25) -> dict:
+    """Both series, and whether a corporate action separates them.
+
+    They answer different questions and must not be swapped:
+
+      ADJUSTED prices make returns comparable across a split or a
+      dividend. A 2-for-1 split in an unadjusted series looks like a
+      50% loss that nobody suffered.
+
+      AS-TRADED prices are what you could actually have transacted at.
+      paper.py sizes a position as equity/price and charges spread and
+      slippage PER SHARE, so a pre-split $200 stock carried in an
+      adjusted series as $100 doubles the share count and doubles the
+      modelled cost - a fill at a price that never existed.
+
+    Where no corporate action falls inside the window the two series
+    are identical and the distinction costs nothing. Where one does,
+    using the wrong one manufactures an executable history.
+    """
+    adj = fetch_history(ticker, timeout=timeout, series=ADJUSTED)
+    raw = fetch_history(ticker, timeout=timeout, series=AS_TRADED,
+                        quality=False)
+    action = None
+    if adj and raw:
+        by_date = {r["date"]: r for r in raw}
+        diffs = [d for d in (r["date"] for r in adj)
+                 if d in by_date
+                 and abs(by_date[d]["close"]
+                         - next(x["close"] for x in adj if x["date"] == d))
+                 > 0.005 * max(by_date[d]["close"], 0.01)]
+        action = bool(diffs)
+    return {"adjusted": adj, "as_traded": raw,
+            "corporate_action_in_window": action,
+            "note": ("Returns are measured on the adjusted series; fills "
+                     "are simulated on the as-traded series. Where they "
+                     "differ, a corporate action falls inside the window.")}
+
+
+def alpaca_feed(timeout: int = 15, force: bool = False) -> tuple[str, str]:
+    """Which Alpaca feed this account may actually use.
+
+    Probed, never assumed. SIP is the consolidated tape and is what you
+    want for daily bars; IEX is a single venue carrying a few percent
+    of volume, so its daily OHLC can differ from the real session. But
+    SIP is a paid entitlement on many accounts, and asking for it
+    without the entitlement returns 403 rather than quietly degrading.
+
+    ALPACA_FEED overrides the probe. Returns (feed, how_we_know).
+    """
+    forced = (os.environ.get("ALPACA_FEED") or "").strip().lower()
+    if forced in ("iex", "sip"):
+        return forced, "set by ALPACA_FEED"
+    if not force and "feed" in _ENTITLEMENT_CACHE:
+        return _ENTITLEMENT_CACHE["feed"], _ENTITLEMENT_CACHE.get("why", "cached")
+
+    key = os.environ.get("ALPACA_KEY_ID")
+    secret = os.environ.get("ALPACA_SECRET_KEY")
+    if not (key and secret):
+        return "iex", "no credentials; nothing probed"
+
+    headers = {"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": secret,
+               "Accept": "application/json"}
+    try:
+        resp = requests.get(
+            f"{ALPACA_DATA}SPY/bars",
+            params={"timeframe": "1Day", "limit": 1, "feed": "sip"},
+            headers=headers, timeout=timeout)
+        if resp.status_code == 200 and (resp.json().get("bars") or []):
+            feed, why = "sip", "probed: the account is entitled to SIP"
+        elif resp.status_code in (401, 403):
+            feed, why = "iex", f"probed: SIP refused ({resp.status_code}); using IEX"
+        else:
+            feed, why = "iex", f"probed: SIP returned {resp.status_code}; using IEX"
+    except requests.RequestException as exc:
+        feed, why = "iex", f"probe failed ({type(exc).__name__}); defaulting to IEX"
+
+    _ENTITLEMENT_CACHE.update({"feed": feed, "why": why})
+    return feed, why
+
+
+def _from_alpaca(ticker: str, timeout: int, years: int = 7,
+                 timeframe: str = "1Day",
+                 report: dict | None = None,
+                 series: str = ADJUSTED) -> list[dict] | None:
+    """Alpaca market data. A real API with a key, not a scraped page.
+
+    Preferred when configured: stooq answers automated clients with a
+    JavaScript challenge and Yahoo's raw endpoint 429s them, because
+    neither wants to be read by a program. Alpaca does.
+
+    Bars are requested ADJUSTED. Raw bars show a 2-for-1 split as an
+    overnight halving, which every pattern rule here reads as a
+    textbook breakdown that never happened, and which makes the return
+    from any entry before the split wrong by the split factor.
+
+    `report` collects an error class and the feed actually used, so a
+    caller can tell a wrong key from a rate limit from an outage.
+    """
+    key = os.environ.get("ALPACA_KEY_ID")
+    secret = os.environ.get("ALPACA_SECRET_KEY")
+    if not (key and secret):
+        if report is not None:
+            report["error"] = dataquality.NOT_CONFIGURED
+        return None
+
+    feed, why = alpaca_feed(timeout=timeout)
+    if report is not None:
+        report.update({"feed": feed, "feed_reason": why})
+
+    start = (datetime.now(timezone.utc) - timedelta(days=365 * years)).date()
+    headers = {"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": secret,
+               "Accept": "application/json"}
+
+    rows: list[dict] = []
+    dropped = 0
+    page_token = None
+    for _ in range(40):                       # bounded: never loop forever
+        params = {"timeframe": timeframe, "start": start.isoformat(),
+                  "limit": 10000, "feed": feed,
+                  "adjustment": "all" if series == ADJUSTED else "raw"}
+        if page_token:
+            params["page_token"] = page_token
+
+        payload = None
+        for attempt in range(3):              # retry ONLY what is retryable
+            try:
+                resp = requests.get(f"{ALPACA_DATA}{ticker.upper()}/bars",
+                                    params=params, headers=headers,
+                                    timeout=timeout)
+                if resp.status_code == 200:
+                    payload = resp.json()
+                    break
+                kind = dataquality.classify_error(status=resp.status_code)
+                if kind in dataquality.RETRYABLE and attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+                if report is not None:
+                    report["error"] = kind
+                    report["status_code"] = resp.status_code
+                print(f"    - alpaca {kind} for {ticker} "
+                      f"(HTTP {resp.status_code})")
+                return None
+            except (requests.RequestException, ValueError) as exc:
+                kind = dataquality.classify_error(exc=exc)
+                if kind in dataquality.RETRYABLE and attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+                if report is not None:
+                    report["error"] = kind
+                print(f"    - alpaca {kind} for {ticker}: {str(exc)[:60]}")
+                return None
+        if payload is None:
+            if report is not None:
+                report.setdefault("error", dataquality.UNREACHABLE)
+            return None
+
+        for b in payload.get("bars") or []:
+            try:
+                row = {
+                    "date": datetime.fromisoformat(
+                        b["t"].replace("Z", "+00:00")).date(),
+                    "open": float(b["o"]), "high": float(b["h"]),
+                    "low": float(b["l"]), "close": float(b["c"]),
+                    "volume": float(b.get("v") or 0),
+                    "feed": feed,
+                    "series": series,
+                    "adjusted": series == ADJUSTED,
+                }
+            except (KeyError, ValueError, TypeError):
+                # Counted, never repaired. A bar invented from its
+                # neighbours is a lie that backtests cannot see.
+                dropped += 1
+                continue
+            # Parseable is not the same as possible. A bar whose high
+            # sits below its low is structurally fine and arithmetically
+            # nonsense, and it reaches the pattern rules as a real
+            # range. Rejected here, at the boundary, rather than noticed
+            # later by whatever happens to look.
+            if not dataquality.ohlc_valid(row):
+                dropped += 1
+                continue
+            rows.append(row)
+
+        page_token = payload.get("next_page_token")
+        if not page_token:
+            break
+
+    if report is not None:
+        report["dropped_bars"] = dropped
+        report["error"] = dataquality.OK if rows else dataquality.EMPTY
+    if dropped:
+        print(f"    - alpaca dropped {dropped} malformed bar(s) for {ticker}")
 
     rows.sort(key=lambda r: r["date"])
     return rows or None
+
+
+# Tried in order. One dying should degrade the system, not stop it -
+# which is exactly what happened when stooq put up a JS challenge.
+# Alpaca first when configured: it is the only one of these that is
+# actually meant to be read by a program.
+PROVIDERS = (("alpaca", _from_alpaca),
+             ("yfinance", _from_yfinance),
+             ("stooq", _from_stooq),
+             ("yahoo", _from_yahoo))
+
+
+LAST_QUALITY: dict[str, dict] = {}
+
+
+def fetch_history(ticker: str, timeout: int = 25,
+                  quality: bool = True,
+                  series: str = ADJUSTED) -> list[dict] | None:
+    """Daily OHLCV for a ticker, oldest first. None if no provider works.
+
+    Every attempt is classified, and the winning series is assessed
+    before it is handed back. The verdict is kept in LAST_QUALITY so
+    the dashboard can show a per-ticker status instead of one global
+    "price feed healthy" flag that is true right up until it is not.
+
+    A DEGRADED series is still returned - with its caveat recorded -
+    because refusing usable data over a single missing session helps
+    nobody. An UNUSABLE one is never silently swapped for another
+    provider's: the next provider is tried, and if none is usable the
+    answer is None.
+    """
+    attempts: list[dict] = []
+    for name, fn in PROVIDERS:
+        report: dict = {"provider": name}
+        try:
+            rows = fn(ticker, timeout, report=report, series=series) \
+                if _accepts_report(fn) else fn(ticker, timeout)
+        except Exception as exc:                        # noqa: BLE001
+            report["error"] = dataquality.classify_error(exc=exc)
+            rows = None
+        # Only an adapter that reports back may be said to have
+        # answered "empty"; the others simply did not say.
+        report.setdefault(
+            "error",
+            dataquality.OK if rows
+            else (dataquality.EMPTY if _accepts_report(fn)
+                  else dataquality.UNKNOWN))
+        attempts.append(report)
+
+        if not rows:
+            continue
+
+        verdict = dataquality.assess(
+            ticker, rows, feed=report.get("feed", name),
+            error=dataquality.OK)
+        verdict["provider"] = name
+        verdict["attempts"] = attempts
+        if quality:
+            LAST_QUALITY[ticker.upper()] = verdict
+
+        if verdict["status"] == dataquality.UNUSABLE:
+            print(f"    - {name} data for {ticker} unusable: {verdict['detail']}")
+            continue
+        if name != PROVIDERS[0][0]:
+            print(f"    (price data for {ticker} from {name})")
+        if verdict["status"] == dataquality.DEGRADED:
+            print(f"    ~ {ticker} degraded: {verdict['detail']}")
+        return rows
+
+    # Nothing usable. Record WHY, per provider, rather than one flat line.
+    worst = next((a for a in attempts
+                  if a.get("error") not in (dataquality.OK,
+                                            dataquality.NOT_CONFIGURED)),
+                 attempts[0] if attempts else {})
+    if quality:
+        LAST_QUALITY[ticker.upper()] = dataquality.assess(
+            ticker, None, error=worst.get("error") or dataquality.UNKNOWN)
+        LAST_QUALITY[ticker.upper()]["attempts"] = attempts
+    reasons = ", ".join(f"{a['provider']}={a.get('error')}" for a in attempts)
+    print(f"    ! no usable price data for {ticker} ({reasons})")
+    return None
+
+
+def _accepts_report(fn) -> bool:
+    try:
+        import inspect
+        return "series" in inspect.signature(fn).parameters
+    except (TypeError, ValueError):
+        return False
+
+
+def quality_report() -> dict:
+    """Per-ticker data quality from the most recent fetches."""
+    reports = list(LAST_QUALITY.values())
+    out = dataquality.summarise(reports)
+    out["per_ticker"] = {k: {"status": v["status"], "detail": v["detail"],
+                             "bars": v.get("bars", 0),
+                             "feed": v.get("feed", ""),
+                             "provider": v.get("provider", "")}
+                         for k, v in LAST_QUALITY.items()}
+    return out
 
 
 def _first_close_on_or_after(rows: list[dict], when) -> tuple[int, dict] | None:

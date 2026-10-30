@@ -1,0 +1,28 @@
+{
+  "alerts": {
+    "notify_owner": "local",
+    "expected_interval_hours": 6,
+    "ops_failure_threshold": 3,
+    "ops_cooldown_hours": 12,
+    "critical_require_primary_evidence": true,
+    "critical_require_market_relevant": true,
+    "critical_min_independent": 2,
+    "critical_min_materiality": 4,
+    "catalyst_min_materiality": 3,
+    "catalyst_allowed_freshness": [
+      "new",
+      "updated"
+    ],
+    "watchlist_min_independent": 2,
+    "cooldown_hours": {
+      "critical": 12,
+      "watchlist": 24,
+      "digest": 6
+    },
+    "max_per_run": {
+      "critical": 3,
+      "watchlist": 5,
+      "digest": 1
+    }
+  }
+}

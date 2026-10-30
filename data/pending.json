@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "video": {
+      "video_id": "0smo8bnn_to",
+      "title": "$1,000 Nvidia Investment After 20 Years!",
+      "channel": "Benzinga",
+      "published": "2026-10-29T18:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=0smo8bnn_to",
+      "tier": 1,
+      "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
+      "source_type": "video"
+    },
+    "attempts": 8,
+    "throttled": 0,
+    "first_seen": "2026-10-29T18:22:50.563576+00:00",
+    "eligible_since": "2026-10-29T18:22:50.563576+00:00",
+    "last_attempt": "2026-10-30T11:11:13.064606+00:00",
+    "reason": "no captions yet (TranscriptsDisabled)"
+  }
+]

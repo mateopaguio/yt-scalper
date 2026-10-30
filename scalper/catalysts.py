@@ -18,6 +18,7 @@ from anthropic import Anthropic, APIError
 
 from .analyze import clean_ticker
 from .sites import fetch_feed
+from . import clock, security_master
 
 # SEC asks automated clients to declare who they are and stay under
 # 10 requests/second. We poll a handful of feeds hourly, far below that.
@@ -244,7 +245,10 @@ def analyze_catalyst(
 
 def upcoming(events: list[dict], days: int = 30) -> list[dict]:
     """Events carrying a future scheduled date, soonest first -- the calendar."""
-    today = datetime.now(timezone.utc).date()
+    # Eastern, not UTC. After 20:00 ET the UTC calendar has already
+    # rolled over, so a UTC "today" silently drops the current trading
+    # day from the calendar every evening.
+    today = clock.today()
     horizon = today + timedelta(days=days)
     dated = []
 
@@ -267,12 +271,21 @@ def upcoming(events: list[dict], days: int = 30) -> list[dict]:
 def by_ticker(events: list[dict]) -> dict[str, list[dict]]:
     """Group catalyst events by ticker so they can be joined to the digest."""
     grouped: dict[str, list[dict]] = {}
+    master = security_master._load()
     for event in events:
         findings = event.get("findings") or {}
         if not findings.get("is_market_relevant"):
             continue
         for company in findings.get("companies") or []:
             ticker = clean_ticker(company.get("ticker", ""))
+            if not ticker:
+                # The extractor is told never to guess a symbol, which is
+                # right - it is what stopped SpaceX being filed under
+                # SPCE - but it left well-known names unresolved and no
+                # catalyst could join to a ticker. A deterministic lookup
+                # either knows the name or does not; it never invents.
+                ticker = clean_ticker(
+                    security_master.resolve(company.get("company", ""), master))
             if not ticker:
                 continue
             grouped.setdefault(ticker, []).append({
@@ -285,5 +298,15 @@ def by_ticker(events: list[dict]) -> dict[str, list[dict]]:
                 "materiality": findings.get("materiality", 1),
                 "summary": findings.get("summary", ""),
                 "role": company.get("role", "subject"),
+                # Carried through so the alert path can tell a filing
+                # somebody read from a headline nobody did. Without
+                # these the evidence gate in alerts.classify() would
+                # see no evidence on any event and block every
+                # CRITICAL permanently - a gate that always says no is
+                # as wrong as one that always says yes.
+                "has_body": event.get("has_body"),
+                "body_chars": event.get("body_chars"),
+                "event_id": event.get("event_id"),
+                "_state": event.get("_state", "seen"),
             })
     return grouped
