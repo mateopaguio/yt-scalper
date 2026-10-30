@@ -435,3 +435,43 @@ def catalyst_alerts(radar_result: dict, config: dict | None = None) -> list[dict
 
     out.sort(key=lambda a: (ALL_TIERS.index(a["tier"]), -a["score"]))
     return out
+
+
+def digest_alert(digest: dict, fresh_count: int, config: dict | None = None,
+                 now: datetime | None = None) -> list[dict]:
+    """The quiet one: routine movement, at ntfy priority 1.
+
+    classify() only ever emitted CRITICAL and WATCHLIST, so the DIGEST
+    tier existed in name only and the legacy push was filling the role
+    - at full volume, in the old format, on every single run.
+
+    Silent by design and rate-limited by its own cooldown, so it
+    summarises a stretch of time rather than narrating each run.
+    """
+    now = now or datetime.now(timezone.utc)
+    agg = digest.get("aggregate") or {}
+    tickers = agg.get("tickers") or []
+    if not fresh_count and not tickers:
+        return []
+
+    top = sorted(tickers,
+                 key=lambda e: -((e.get("score") or {}).get("total") or 0))
+    names = [t.get("ticker") for t in top[:5] if not (t.get("score") or {}).get("vetoed")]
+    counts = (digest.get("validation") or {}).get("census") or {}
+
+    bits = [f"{fresh_count} new item(s)"] if fresh_count else []
+    bits.append(f"{len(tickers)} ticker(s) tracked")
+    if counts.get("resolved"):
+        bits.append(f"{counts['resolved']} signal(s) resolved")
+
+    # Content-based: an identical day produces an identical key and is
+    # suppressed rather than repeated.
+    return [{
+        "tier": DIGEST,
+        "ticker": ", ".join(n for n in names if n),
+        "headline": " / ".join(bits),
+        "detail": ("Top: " + ", ".join(n for n in names if n)) if names else "",
+        "score": 0.0,
+        "key": key_for("digest", "all", f"{fresh_count}|{len(tickers)}|"
+                                        f"{','.join(str(n) for n in names)}"),
+    }]

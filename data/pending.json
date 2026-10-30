@@ -1,38 +1,20 @@
 [
   {
     "video": {
-      "video_id": "vKIGNdZWoTA",
-      "title": "The Duo might finally bring OpenAI and Anthropic together",
-      "channel": "Yahoo Finance",
-      "published": "2026-10-26T21:00:07+00:00",
-      "url": "https://www.youtube.com/watch?v=vKIGNdZWoTA",
+      "video_id": "0smo8bnn_to",
+      "title": "$1,000 Nvidia Investment After 20 Years!",
+      "channel": "Benzinga",
+      "published": "2026-10-29T18:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=0smo8bnn_to",
       "tier": 1,
-      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
       "source_type": "video"
     },
-    "attempts": 4,
-    "throttled": 1,
-    "first_seen": "2026-10-27T08:11:46.758261+00:00",
-    "eligible_since": "2026-10-28T08:09:53.265955+00:00",
-    "last_attempt": "2026-10-28T08:26:46.716627+00:00",
-    "reason": "no captions yet (TranscriptsDisabled)"
-  },
-  {
-    "video": {
-      "video_id": "4D9Ki-TCV2Q",
-      "title": "Brazil’s election rocks its stock market after Lula da Silva wins",
-      "channel": "Yahoo Finance",
-      "published": "2026-10-26T20:47:13+00:00",
-      "url": "https://www.youtube.com/watch?v=4D9Ki-TCV2Q",
-      "tier": 1,
-      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
-      "source_type": "video"
-    },
-    "attempts": 3,
-    "throttled": 1,
-    "first_seen": "2026-10-27T12:00:33.396093+00:00",
-    "eligible_since": "2026-10-28T08:10:17.490295+00:00",
-    "last_attempt": "2026-10-28T08:26:52.367140+00:00",
+    "attempts": 8,
+    "throttled": 0,
+    "first_seen": "2026-10-29T18:22:50.563576+00:00",
+    "eligible_since": "2026-10-29T18:22:50.563576+00:00",
+    "last_attempt": "2026-10-30T11:11:13.064606+00:00",
     "reason": "no captions yet (TranscriptsDisabled)"
   }
 ]

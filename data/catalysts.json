@@ -1,5 +1,812 @@
 [
   {
+    "event_id": "cat_b333ce1d859be0",
+    "title": "Procleix Babesia Assay",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T16:24:12-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/procleix-babesia-assay",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines posted a page titled \"Procleix Babesia Assay\" on 2026-10-29. No body text was retrieved, so the nature of the action is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_4d58730148c1a0",
+    "title": "GDUFA III Changes for Facilities",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T15:44:28-04:00",
+    "url": "http://www.fda.gov/industry/generic-drug-user-fee-amendments/gdufa-iii-changes-facilities",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a page titled \"GDUFA III Changes for Facilities\" under its generic drug user fee amendments program. No body text was retrieved, so the content of the changes is not known.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_c02e870e70faee",
+    "title": "Advancing Product Quality",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T15:33:09-04:00",
+    "url": "http://www.fda.gov/drugs/pharmaceutical-quality-resources/advancing-product-quality",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs published a headline titled \"Advancing Product Quality\" on its pharmaceutical quality resources page. No body text was retrieved, so the content and any specific actions are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_85f2ba1efe4f9a",
+    "title": "Pharmaceutical Inspections and Compliance",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T15:24:32-04:00",
+    "url": "http://www.fda.gov/drugs/guidance-compliance-regulatory-information/pharmaceutical-inspections-and-compliance",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs page titled \"Pharmaceutical Inspections and Compliance\" was published with no body text retrieved, so no specific action, company, or date is identifiable.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_d10210c43e7a70",
+    "title": "West Nile Virus (WNV)",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T15:10:45-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/west-nile-virus-wnv",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines page titled \"West Nile Virus (WNV)\" was published on 2026-10-29, with no body text retrieved. The content gives no specific action, company, or product.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_2e21c1b7de68b1",
+    "title": "Infectious Disease Tests",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T15:05:24-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/infectious-disease-tests",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "summary": "FDA Biologics and Vaccines published a page titled 'Infectious Disease Tests' with no body text retrieved, so no specific action, approval, or company is identified.",
+      "is_market_relevant": false,
+      "event_type": "other",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_7933f480099c34",
+    "title": "Importing Human Drugs",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T14:23:14-04:00",
+    "url": "http://www.fda.gov/industry/importing-fda-regulated-products/importing-human-drugs",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a web page titled \"Importing Human Drugs\" under its importing FDA-regulated products section. No body text was retrieved, so the content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_338bbf6e16f8d0",
+    "title": "Expanded Access | Information for Patients",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T14:11:50-04:00",
+    "url": "http://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA published a general informational web page titled \"Expanded Access | Information for Patients\"; no body text was retrieved, so no specific action or company is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_338bbf6e16f8d0",
+    "title": "Expanded Access | Information for Patients",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T14:11:50-04:00",
+    "url": "http://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines published a general information page titled \"Expanded Access | Information for Patients.\" No body text was retrieved, and no specific company, product, or action is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_cb942d48316e3f",
+    "title": "Competitive Generic Therapy Approvals",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T14:11:46-04:00",
+    "url": "http://www.fda.gov/drugs/generic-drugs/competitive-generic-therapy-approvals",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a routine listing headlined \"Competitive Generic Therapy Approvals\" with no body text retrieved, so no specific drug, company, or approval details are available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_85aa0b30bd65cd",
+    "title": "Table of Surrogate Endpoints That Were the Basis of Drug Approval or Licensure",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T13:29:30-04:00",
+    "url": "http://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs published a reference table listing surrogate endpoints that were the basis of drug approval or licensure. Only the headline was retrieved; no body text or specific drugs or companies were available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_b7f5de20036347",
+    "title": "Project Orbis",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T12:47:50-04:00",
+    "url": "http://www.fda.gov/about-fda/oncology-center-excellence/project-orbis",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a page titled \"Project Orbis,\" an international oncology review collaboration program page. No body text was retrieved, so no specific action, company, or product is identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_63ade08e1b4d90",
+    "title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
+    "source": "SEC Press Releases",
+    "published": "2026-10-29T12:42:37-04:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "affected_sectors": [
+        "financial services"
+      ],
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "enforcement",
+      "is_market_relevant": true,
+      "materiality": 3,
+      "scheduled_date": "",
+      "summary": "The SEC announced charges against two unnamed entities over an alleged $130 million fraud scheme that used false SEC filings to boost investor confidence. The announcement body was not retrieved, so the named companies and details are unknown."
+    }
+  },
+  {
+    "event_id": "cat_938419fa1173bb",
+    "title": "Procleix Ultrio Elite Assay",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T12:26:51-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/blood-blood-products/procleix-ultrio-elite-assay",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "summary": "FDA Biologics and Vaccines published a page titled \"Procleix Ultrio Elite Assay\" under blood products; no body text was retrieved, so the nature of the action is unknown.",
+      "companies": [
+        {
+          "company": "Procleix Ultrio Elite Assay (Grifols/Hologic-related blood screening assay; manufacturer not named in announcement)",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 1,
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "affected_sectors": [
+        "blood products",
+        "diagnostics"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_fa2fdeac6be9b8",
+    "title": "Webinar for Stakeholder Engagement on the New Final Guideline on General Principles for Model-Informed Drug Development (ICH M15) - 10/29/2026",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T11:09:40-04:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/webinar-stakeholder-engagement-new-final-guideline-general-principles-model-informed-drug",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA announced a stakeholder engagement webinar on the new final guideline on general principles for model-informed drug development (ICH M15), with the webinar dated 10/29/2026. Only the headline was retrieved; no body text was available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false,
+      "scheduled_date": "2026-10-29"
+    }
+  },
+  {
+    "event_id": "cat_a6b247de4b710a",
+    "title": "Newly Added Guidance Documents",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T10:05:27-04:00",
+    "url": "http://www.fda.gov/drugs/guidances-drugs/newly-added-guidance-documents",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs page listing newly added guidance documents was published; the retrieved item contains only the headline with no body text, so the specific guidances are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_03cf16f266258b",
+    "title": "PROCLEIX WNV ASSAY",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T09:41:58-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/procleix-wnv-assay",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines posted a page titled \"PROCLEIX WNV ASSAY\" with no retrievable body text, so the nature of the action is unknown. It appears to concern a West Nile virus blood-screening assay (Procleix, a Grifols/Hologic-type diagnostic product line).",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_3f0ecb31b71c86",
+    "title": "Biological Approvals by Year",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T09:38:42-04:00",
+    "url": "http://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biological-approvals-year",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA CBER posted a page titled \"Biological Approvals by Year\" with no body text retrieved, so no specific approval or company action can be identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_685863a30834e0",
+    "title": "Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T09:16:11-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/essential-drug-delivery-performance-characteristics-devices-intended-deliver-drugs-and-biological",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "summary": "FDA published a guidance document headlined \"Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products.\" Only the headline was retrieved; no body text describing the content was available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_685863a30834e0",
+    "title": "Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-29T09:16:11-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/essential-drug-delivery-performance-characteristics-devices-intended-deliver-drugs-and-biological",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "FDA Biologics and Vaccines posted a guidance document titled \"Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products.\" Only the headline was retrieved, so the guidance content and any company impact are not described.",
+      "companies": [],
+      "direction": "unclear",
+      "affected_sectors": [
+        "medical devices",
+        "drug delivery",
+        "biologics"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_b5c4ee0eccda49",
+    "title": "Submit an eCTD v4.0 or Standardized Data Sample to the FDA",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T08:28:19-04:00",
+    "url": "http://www.fda.gov/drugs/electronic-regulatory-submission-and-review/submit-ectd-v40-or-standardized-data-sample-fda",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs page titled \"Submit an eCTD v4.0 or Standardized Data Sample to the FDA\" was published, with no body text retrieved. It appears to be an administrative guidance page on electronic regulatory submission formats.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_49a33ac57feb27",
+    "title": "eCTD Important Notices",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T08:26:08-04:00",
+    "url": "http://www.fda.gov/drugs/electronic-regulatory-submission-and-review/ectd-important-notices",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA posted a generic 'eCTD Important Notices' page on its drugs site; no body text was retrieved, so the content is unknown. It appears to be an administrative notice about electronic regulatory submission formatting.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_cd0d4ac48f6b1d",
+    "title": "Electronic Common Technical Document (eCTD)",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T08:25:15-04:00",
+    "url": "http://www.fda.gov/drugs/electronic-regulatory-submission-and-review/electronic-common-technical-document-ectd",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs page titled \"Electronic Common Technical Document (eCTD)\" was published, with no body text retrieved. The item is a general informational page on electronic drug submission standards and names no company or product.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_aea354b954607e",
+    "title": "eCTD Submission Standards for eCTD v4.0 and Regional M1",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T08:24:34-04:00",
+    "url": "http://www.fda.gov/drugs/electronic-regulatory-submission-and-review/ectd-submission-standards-ectd-v40-and-regional-m1",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs posted a headline about eCTD submission standards for eCTD v4.0 and Regional M1. No body text was retrieved, so the content is unknown beyond the title.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_fafa41eeaf27c7",
+    "title": "eCTD Submission Standards for eCTD v3.2.2 and Regional M1",
+    "source": "FDA Drugs",
+    "published": "2026-10-29T08:23:57-04:00",
+    "url": "http://www.fda.gov/drugs/electronic-regulatory-submission-and-review/ectd-submission-standards-ectd-v322-and-regional-m1",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs posted a notice titled \"eCTD Submission Standards for eCTD v3.2.2 and Regional M1\" about electronic regulatory submission standards. No body text was retrieved, so the content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_18509e2e5cd0ab",
+    "title": "Early Alert: Medline Removes or Corrects All Medline Brand Beds and Accessories",
+    "source": "FDA MedWatch Safety Alerts",
+    "published": "2026-10-29T00:00:00-04:00",
+    "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-medline-removes-or-corrects-all-medline-brand-beds-and-accessories",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "recall_safety",
+      "summary": "FDA posted an early alert that Medline removes or corrects all Medline-brand beds and accessories. Only the headline was retrieved; no body text, reason, or scope details are available.",
+      "companies": [
+        {
+          "company": "Medline Industries",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 3,
+      "affected_sectors": [
+        "medical devices"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_54e5a49a9978a2",
+    "title": "Ort-Flx may be harmful due to hidden ingredients",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T19:48:14-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/ort-flx-may-be-harmful-due-hidden-ingredients",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "recall_safety",
+      "summary": "FDA issued a consumer notification that the product \"Ort-Flx\" may be harmful due to hidden ingredients. Only the headline was retrieved; no body text, company name, or ticker was available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2
+    }
+  },
+  {
+    "event_id": "cat_d6f6194381db1d",
+    "title": "RX7 Articulaciones may be harmful due to hidden ingredients",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T19:48:10-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/rx7-articulaciones-may-be-harmful-due-hidden-ingredients",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "recall_safety",
+      "summary": "FDA issued a health fraud notification that the RX7 Articulaciones product may be harmful due to hidden ingredients. The notice names no company and the body text was not retrieved.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_847a7abc272692",
+    "title": "Federal Reserve issues FOMC statement",
+    "source": "Fed Monetary Policy",
+    "published": "2026-10-28T18:00:00+00:00",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "category": "macro",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "macro_rates",
+      "summary": "The Federal Reserve published an FOMC policy statement on 2026-10-28. Only the headline was retrieved, so the content of the decision, including any rate change, is not known from this item.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 4,
+      "is_market_relevant": true
+    }
+  },
+  {
+    "event_id": "cat_f4bbc81b65abd3",
+    "title": "FDA Drug Info Rounds Video",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T16:25:30-04:00",
+    "url": "http://www.fda.gov/drugs/information-health-care-professionals-drugs/fda-drug-info-rounds-video",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA posted a Drug Info Rounds video page for health care professionals. The retrieved item contains only a headline with no body text, so no substantive content is known.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_10fb29b178477a",
+    "title": "Search for Regulatory References | Drugs",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T15:38:46-04:00",
+    "url": "http://www.fda.gov/drugs/cder-small-business-industry-assistance-sbia/search-regulatory-references-drugs",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA CDER Small Business and Industry Assistance page titled \"Search for Regulatory References | Drugs\" was published with no body text retrieved. It appears to be a routine reference search page with no specific company or market event.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_54b489eba68945",
+    "title": "Quality and Regulatory Predictability: Shaping USP Standards - 12/11/2025",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T15:34:23-04:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/quality-and-regulatory-predictability-shaping-usp-standards-12112025",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs posted a news item titled \"Quality and Regulatory Predictability: Shaping USP Standards,\" dated 12/11/2025, with no body text retrieved. The content concerns drug quality standards and does not name any company or announce a specific action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_4c9b132581280e",
+    "title": "Biosimilar Product Information",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T15:12:11-04:00",
+    "url": "http://www.fda.gov/drugs/biosimilars/biosimilar-product-information",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "summary": "FDA Drugs published a page titled \"Biosimilar Product Information\" at the listed URL. No body text was retrieved, so the content of any update cannot be determined.",
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "companies": [],
+      "direction": "unclear"
+    }
+  },
+  {
+    "event_id": "cat_4c9b132581280e",
+    "title": "Biosimilar Product Information",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-28T15:12:11-04:00",
+    "url": "http://www.fda.gov/drugs/biosimilars/biosimilar-product-information",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a generic-headline page titled \"Biosimilar Product Information\" with no body text retrieved, so no specific product, company, or action can be identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_47547273b49b4c",
+    "title": "Counterfeit Versions of Eye Drops Found in Several States",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T14:52:47-04:00",
+    "url": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "recall_safety",
+      "summary": "FDA announced that counterfeit versions of eye drops have been found in several states. No body text was retrieved, so the specific products and companies involved are not identified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "is_market_relevant": true,
+      "affected_sectors": [
+        "pharmaceuticals",
+        "ophthalmic products"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_98b8e3e547992d",
+    "title": "Questions and Answers: Reumofan Plus and Reumofan Plus Premium",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T13:48:21-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud/questions-and-answers-reumofan-plus-and-reumofan-plus-premium",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "enforcement",
+      "summary": "FDA published a consumer Questions and Answers page about Reumofan Plus and Reumofan Plus Premium, products listed under FDA's medication health fraud section. No body text was retrieved, so the specific concern is not stated.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_33283813666855",
+    "title": "Fraudulent Products",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T13:12:12-04:00",
+    "url": "http://www.fda.gov/drugs/medication-health-fraud/fraudulent-products",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA Drugs published a generic 'Fraudulent Products' page headline on 2026-10-28 with no body text retrieved. It names no company and describes no specific action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_ed5571f2dcae3b",
+    "title": "Rare Disease Framework",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T12:05:28-04:00",
+    "url": "http://www.fda.gov/industry/fda-rare-disease-innovation-hub/rare-disease-framework",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "summary": "FDA published a page titled \"Rare Disease Framework\" under its Rare Disease Innovation Hub. No body text was retrieved, so the content of any framework is unknown.",
+      "event_type": "other",
+      "is_market_relevant": false,
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_ed5571f2dcae3b",
+    "title": "Rare Disease Framework",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-28T12:05:28-04:00",
+    "url": "http://www.fda.gov/industry/fda-rare-disease-innovation-hub/rare-disease-framework",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Biologics and Vaccines published an item headlined \"Rare Disease Framework\" on the Rare Disease Innovation Hub page. No body text was retrieved, so the content and any specific actions are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_cdb6ec6deac2fa",
+    "title": "Frequently Requested or Proactively Posted Compliance Records",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T11:33:14-04:00",
+    "url": "http://www.fda.gov/drugs/cder-foia-electronic-reading-room/frequently-requested-or-proactively-posted-compliance-records",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA Drugs posted a web page headlined \"Frequently Requested or Proactively Posted Compliance Records\" on its CDER FOIA electronic reading room. No body text was retrieved, so the content is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_4997387fccdbb8",
+    "title": "Drug Approvals and Databases",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T10:50:28-04:00",
+    "url": "http://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a generic \"Drug Approvals and Databases\" index page headline with no body text retrieved; it does not name any specific approval, company, or action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_1c90f24cac4858",
+    "title": "21st Century Cures Act: MCM-Related Cures Provisions",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T10:44:02-04:00",
+    "url": "http://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/21st-century-cures-act-mcm-related-cures-provisions",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published a page titled \"21st Century Cures Act: MCM-Related Cures Provisions\" on its emergency preparedness pages, with no body text retrieved. The item appears to be a general regulatory framework reference rather than a specific action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_5161cacdba9084",
+    "title": "Tropical Disease Priority Review Vouchers",
+    "source": "FDA Drugs",
+    "published": "2026-10-28T09:42:08-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/tropical-disease-priority-review-vouchers",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA published a page titled \"Tropical Disease Priority Review Vouchers\" on its guidance documents section; no body text was retrieved, so the content of any update is unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
     "event_id": "cat_532eef7991ab18",
     "title": "Peripheral and Central Nervous System Drugs Advisory Committee Charter",
     "source": "FDA Drugs",
@@ -550,7 +1357,7 @@
   },
   {
     "event_id": "cat_3f13862c1b7957",
-    "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-na\u00efve or -sensitive prostate cancer with HRR gene mutations",
+    "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations",
     "source": "FDA Drugs",
     "published": "2026-10-26T12:36:30-04:00",
     "url": "http://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive",
@@ -1529,7 +2336,7 @@
   },
   {
     "event_id": "cat_3c3e82bc6cb61f",
-    "title": "What\u2019s New for Biologics",
+    "title": "What’s New for Biologics",
     "source": "FDA Biologics and Vaccines",
     "published": "2026-10-21T14:30:20-04:00",
     "url": "http://www.fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",

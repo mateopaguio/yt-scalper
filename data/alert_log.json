@@ -4,19 +4,43 @@
       "at": "2026-10-27T22:13:39.516304+00:00"
     },
     "watch:AAPL:4433340496": {
-      "at": "2026-10-27T22:13:39.516304+00:00"
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AAPL",
+      "delivered": true,
+      "reason": "",
+      "headline": "AAPL — 4 channels did own work"
     },
     "watch:NVDA:26ebbb4f37": {
-      "at": "2026-10-27T22:13:39.516304+00:00"
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": true,
+      "reason": "",
+      "headline": "NVDA — 9 channels did own work"
     },
     "watch:CRWD:aeb34e4b1c": {
-      "at": "2026-10-27T22:13:39.516304+00:00"
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWD",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWD — 3 channels did own work"
     },
     "watch:WDC:b7576b365c": {
-      "at": "2026-10-27T22:13:39.516304+00:00"
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "WDC",
+      "delivered": true,
+      "reason": "",
+      "headline": "WDC — 2 channels did own work"
     },
     "watch:AMZN:08ca1d2c65": {
-      "at": "2026-10-28T08:29:12.057425+00:00",
+      "at": "2026-10-29T09:30:39.771905+00:00",
       "runner": "local",
       "tier": "watchlist",
       "ticker": "AMZN",
@@ -43,7 +67,7 @@
       "headline": "MSFT — 6 channels did own work"
     },
     "watch:NFLX:42c976e74d": {
-      "at": "2026-10-28T08:29:12.057425+00:00",
+      "at": "2026-10-29T09:30:39.771905+00:00",
       "runner": "local",
       "tier": "watchlist",
       "ticker": "NFLX",
@@ -52,13 +76,490 @@
       "headline": "NFLX — 4 channels did own work"
     },
     "watch:VZ:fc66d1dda7": {
-      "at": "2026-10-28T08:29:12.057425+00:00",
+      "at": "2026-10-29T09:30:39.771905+00:00",
       "runner": "local",
       "tier": "watchlist",
       "ticker": "VZ",
       "delivered": true,
       "reason": "",
-      "headline": "VZ — 3 channels did own work, developing"
+      "headline": "VZ — 3 channels did own work"
+    },
+    "watch:GOOGL:0527b2761f": {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 3 channels did own work, developing"
+    },
+    "watch:TSLA:7ca8906d01": {
+      "at": "2026-10-29T14:32:06.901472+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TSLA",
+      "delivered": true,
+      "reason": "",
+      "headline": "TSLA — 7 channels did own work"
+    },
+    "watch:VRT:9c9440e631": {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "VRT",
+      "delivered": true,
+      "reason": "",
+      "headline": "VRT — 2 channels did own work, developing"
+    },
+    "watch:TMO:b2871c407a": {
+      "at": "2026-10-29T14:32:06.901472+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TMO",
+      "delivered": true,
+      "reason": "",
+      "headline": "TMO — 2 channels did own work, developing"
+    },
+    "watch:CRWV:eee8b1a23c": {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWV",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWV — 6 channels did own work"
+    },
+    "watch:GOOGL:6fb3bd1cc5": {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 4 channels did own work"
+    },
+    "watch:AXP:5cc83aa8d9": {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AXP",
+      "delivered": true,
+      "reason": "",
+      "headline": "AXP — 2 channels did own work"
+    },
+    "watch:BE:54e2d1b82b": {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "BE",
+      "delivered": true,
+      "reason": "",
+      "headline": "BE — 2 channels did own work"
+    },
+    "watch:IBM:30f778ef07": {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "IBM",
+      "delivered": true,
+      "reason": "",
+      "headline": "IBM — 3 channels did own work"
+    },
+    "watch:HOOD:823ea6157c": {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": true,
+      "reason": "",
+      "headline": "HOOD — 2 channels did own work, developing"
+    },
+    "watch:VRT:eb6356b8d4": {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "VRT",
+      "delivered": true,
+      "reason": "",
+      "headline": "VRT — 3 channels did own work"
+    },
+    "watch:RKLB:17de1fedde": {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RKLB",
+      "delivered": true,
+      "reason": "",
+      "headline": "RKLB — 2 channels did own work, developing"
+    },
+    "watch:META:4bb110483f": {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": true,
+      "reason": "",
+      "headline": "META — 9 channels did own work"
+    },
+    "watch:NBIS:3cd2455960": {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NBIS",
+      "delivered": true,
+      "reason": "",
+      "headline": "NBIS — 7 channels did own work"
+    },
+    "watch:GOOGL:896ed30593": {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 6 channels did own work"
+    },
+    "watch:MSFT:9dd90ac09a": {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "MSFT",
+      "delivered": true,
+      "reason": "",
+      "headline": "MSFT — 8 channels did own work"
+    },
+    "watch:CRWV:8a976f3d46": {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWV",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWV — 7 channels did own work"
+    },
+    "watch:NFLX:fccebef02d": {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NFLX",
+      "delivered": true,
+      "reason": "",
+      "headline": "NFLX — 3 channels did own work"
+    },
+    "watch:NOW:07b97d7b03": {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 2 channels did own work, developing"
+    },
+    "watch:HOOD:5b66537264": {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": true,
+      "reason": "",
+      "headline": "HOOD — 3 channels did own work"
+    },
+    "watch:GEV:96b9d38f30": {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GEV",
+      "delivered": true,
+      "reason": "",
+      "headline": "GEV — 2 channels did own work"
+    },
+    "watch:AMD:d28c2ef24e": {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMD",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMD — 4 channels did own work"
+    },
+    "watch:ORCL:b173b76e9c": {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "ORCL",
+      "delivered": true,
+      "reason": "",
+      "headline": "ORCL — 3 channels did own work"
+    },
+    "watch:UBER:f33fed9026": {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "UBER",
+      "delivered": true,
+      "reason": "",
+      "headline": "UBER — 2 channels did own work, developing"
+    },
+    "watch:SOFI:dc423237ce": {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SOFI",
+      "delivered": true,
+      "reason": "",
+      "headline": "SOFI — 2 channels did own work, developing"
+    },
+    "watch:NOK:e5c6d2b906": {
+      "at": "2026-10-29T11:29:08.586096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOK",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOK — 2 channels did own work, developing"
+    },
+    "watch:EWZ:1cd058510a": {
+      "at": "2026-10-29T11:29:08.586096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "EWZ",
+      "delivered": true,
+      "reason": "",
+      "headline": "EWZ — 2 channels did own work, developing"
+    },
+    "watch:NOW:2ba182134e": {
+      "at": "2026-10-29T11:29:08.586096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 3 channels did own work"
+    },
+    "watch:AMZN:43c6bba213": {
+      "at": "2026-10-29T12:41:35.467539+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMZN — 6 channels did own work, forward catalyst"
+    },
+    "watch:GOOGL:334fd9c4af": {
+      "at": "2026-10-29T12:41:35.467539+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 7 channels did own work"
+    },
+    "watch:HOOD:e35321c5dd": {
+      "at": "2026-10-29T12:41:35.467539+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": true,
+      "reason": "",
+      "headline": "HOOD — 4 channels did own work"
+    },
+    "watch:LLY:b7c887db7b": {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 2 channels did own work, developing"
+    },
+    "watch:INTC:fdb0bc13e1": {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": true,
+      "reason": "",
+      "headline": "INTC — 4 channels did own work, forward catalyst"
+    },
+    "watch:SBUX:9f3a841da4": {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SBUX",
+      "delivered": true,
+      "reason": "",
+      "headline": "SBUX — 3 channels did own work, developing"
+    },
+    "watch:SNDK:f3b2a4ab5d": {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SNDK",
+      "delivered": true,
+      "reason": "",
+      "headline": "SNDK — 2 channels did own work, developing"
+    },
+    "watch:RDDT:e7fb1e6794": {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RDDT",
+      "delivered": true,
+      "reason": "",
+      "headline": "RDDT — 2 channels did own work, developing"
+    },
+    "watch:CAT:0929af974e": {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CAT",
+      "delivered": true,
+      "reason": "",
+      "headline": "CAT — 2 channels did own work, developing"
+    },
+    "watch:NOW:d2d8f898df": {
+      "at": "2026-10-29T22:19:52.860079+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 4 channels did own work, forward catalyst"
+    },
+    "watch:LLY:daddd3224c": {
+      "at": "2026-10-29T22:19:52.860079+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 3 channels did own work, developing"
+    },
+    "watch:TMO:5646509fef": {
+      "at": "2026-10-29T22:19:52.860079+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TMO",
+      "delivered": true,
+      "reason": "",
+      "headline": "TMO — 3 channels did own work"
+    },
+    "watch:NOW:b7fcf6cc65": {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 6 channels did own work, forward catalyst"
+    },
+    "watch:LLY:936f281c70": {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 4 channels did own work, developing"
+    },
+    "watch:ORCL:4641f7b14a": {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "ORCL",
+      "delivered": true,
+      "reason": "",
+      "headline": "ORCL — 5 channels did own work"
+    },
+    "watch:AMD:2e08744908": {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMD",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMD — 5 channels did own work"
+    },
+    "watch:IOVA:07980c9203": {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "IOVA",
+      "delivered": true,
+      "reason": "",
+      "headline": "IOVA — 2 channels did own work, developing"
+    },
+    "watch:INTC:8af171a8b6": {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": true,
+      "reason": "",
+      "headline": "INTC — 5 channels did own work, forward catalyst"
+    },
+    "watch:SBUX:534322bb96": {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SBUX",
+      "delivered": true,
+      "reason": "",
+      "headline": "SBUX — 4 channels did own work, developing"
+    },
+    "watch:LLY:ae9d79694c": {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 5 channels did own work, forward catalyst"
+    },
+    "watch:META:e36ea00a0a": {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": true,
+      "reason": "",
+      "headline": "META — 8 channels did own work"
+    },
+    "watch:RDDT:06ddefbf79": {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RDDT",
+      "delivered": true,
+      "reason": "",
+      "headline": "RDDT — 3 channels did own work, developing"
+    },
+    "watch:TSLA:1f40645bde": {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TSLA",
+      "delivered": true,
+      "reason": "",
+      "headline": "TSLA — 6 channels did own work"
+    },
+    "watch:SNDK:a11d7ae88c": {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SNDK",
+      "delivered": true,
+      "reason": "",
+      "headline": "SNDK — 4 channels did own work"
+    },
+    "watch:AMD:8cbb97ed04": {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMD",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMD — 6 channels did own work"
     }
   },
   "history": [
@@ -161,12 +662,799 @@
       "reason": "",
       "headline": "VZ — 3 channels did own work, developing",
       "key": "watch:VZ:fc66d1dda7"
+    },
+    {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 3 channels did own work, developing",
+      "key": "watch:GOOGL:0527b2761f"
+    },
+    {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TSLA",
+      "delivered": true,
+      "reason": "",
+      "headline": "TSLA — 7 channels did own work",
+      "key": "watch:TSLA:7ca8906d01"
+    },
+    {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "VRT",
+      "delivered": true,
+      "reason": "",
+      "headline": "VRT — 2 channels did own work, developing",
+      "key": "watch:VRT:9c9440e631"
+    },
+    {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TMO",
+      "delivered": true,
+      "reason": "",
+      "headline": "TMO — 2 channels did own work, developing",
+      "key": "watch:TMO:b2871c407a"
+    },
+    {
+      "at": "2026-10-28T14:20:15.347204+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWV",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWV — 6 channels did own work",
+      "key": "watch:CRWV:eee8b1a23c"
+    },
+    {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 4 channels did own work",
+      "key": "watch:GOOGL:6fb3bd1cc5"
+    },
+    {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AXP",
+      "delivered": true,
+      "reason": "",
+      "headline": "AXP — 2 channels did own work",
+      "key": "watch:AXP:5cc83aa8d9"
+    },
+    {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "BE",
+      "delivered": true,
+      "reason": "",
+      "headline": "BE — 2 channels did own work",
+      "key": "watch:BE:54e2d1b82b"
+    },
+    {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "IBM",
+      "delivered": true,
+      "reason": "",
+      "headline": "IBM — 3 channels did own work",
+      "key": "watch:IBM:30f778ef07"
+    },
+    {
+      "at": "2026-10-28T17:10:07.141230+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": true,
+      "reason": "",
+      "headline": "HOOD — 2 channels did own work, developing",
+      "key": "watch:HOOD:823ea6157c"
+    },
+    {
+      "at": "2026-10-28T18:21:50.264957+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "VRT",
+      "delivered": true,
+      "reason": "",
+      "headline": "VRT — 3 channels did own work",
+      "key": "watch:VRT:eb6356b8d4"
+    },
+    {
+      "at": "2026-10-28T18:21:50.264957+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RKLB",
+      "delivered": true,
+      "reason": "",
+      "headline": "RKLB — 2 channels did own work, developing",
+      "key": "watch:RKLB:17de1fedde"
+    },
+    {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": true,
+      "reason": "",
+      "headline": "META — 9 channels did own work",
+      "key": "watch:META:4bb110483f"
+    },
+    {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": true,
+      "reason": "",
+      "headline": "NVDA — 9 channels did own work",
+      "key": "watch:NVDA:26ebbb4f37"
+    },
+    {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NBIS",
+      "delivered": true,
+      "reason": "",
+      "headline": "NBIS — 7 channels did own work",
+      "key": "watch:NBIS:3cd2455960"
+    },
+    {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 6 channels did own work",
+      "key": "watch:GOOGL:896ed30593"
+    },
+    {
+      "at": "2026-10-29T01:30:18.961096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "MSFT",
+      "delivered": true,
+      "reason": "",
+      "headline": "MSFT — 8 channels did own work",
+      "key": "watch:MSFT:9dd90ac09a"
+    },
+    {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AAPL",
+      "delivered": true,
+      "reason": "",
+      "headline": "AAPL — 4 channels did own work",
+      "key": "watch:AAPL:4433340496"
+    },
+    {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWV",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWV — 7 channels did own work",
+      "key": "watch:CRWV:8a976f3d46"
+    },
+    {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWD",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWD — 3 channels did own work",
+      "key": "watch:CRWD:aeb34e4b1c"
+    },
+    {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NFLX",
+      "delivered": true,
+      "reason": "",
+      "headline": "NFLX — 3 channels did own work",
+      "key": "watch:NFLX:fccebef02d"
+    },
+    {
+      "at": "2026-10-29T02:51:23.679785+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 2 channels did own work, developing",
+      "key": "watch:NOW:07b97d7b03"
+    },
+    {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": true,
+      "reason": "",
+      "headline": "HOOD — 3 channels did own work",
+      "key": "watch:HOOD:5b66537264"
+    },
+    {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "WDC",
+      "delivered": true,
+      "reason": "",
+      "headline": "WDC — 2 channels did own work",
+      "key": "watch:WDC:b7576b365c"
+    },
+    {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GEV",
+      "delivered": true,
+      "reason": "",
+      "headline": "GEV — 2 channels did own work",
+      "key": "watch:GEV:96b9d38f30"
+    },
+    {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMD",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMD — 4 channels did own work",
+      "key": "watch:AMD:d28c2ef24e"
+    },
+    {
+      "at": "2026-10-29T03:52:43.203997+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "ORCL",
+      "delivered": true,
+      "reason": "",
+      "headline": "ORCL — 3 channels did own work",
+      "key": "watch:ORCL:b173b76e9c"
+    },
+    {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMZN — 5 channels did own work, forward catalyst",
+      "key": "watch:AMZN:08ca1d2c65"
+    },
+    {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NFLX",
+      "delivered": true,
+      "reason": "",
+      "headline": "NFLX — 4 channels did own work",
+      "key": "watch:NFLX:42c976e74d"
+    },
+    {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "VZ",
+      "delivered": true,
+      "reason": "",
+      "headline": "VZ — 3 channels did own work",
+      "key": "watch:VZ:fc66d1dda7"
+    },
+    {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "UBER",
+      "delivered": true,
+      "reason": "",
+      "headline": "UBER — 2 channels did own work, developing",
+      "key": "watch:UBER:f33fed9026"
+    },
+    {
+      "at": "2026-10-29T09:30:39.771905+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SOFI",
+      "delivered": true,
+      "reason": "",
+      "headline": "SOFI — 2 channels did own work, developing",
+      "key": "watch:SOFI:dc423237ce"
+    },
+    {
+      "at": "2026-10-29T11:29:08.586096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOK",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOK — 2 channels did own work, developing",
+      "key": "watch:NOK:e5c6d2b906"
+    },
+    {
+      "at": "2026-10-29T11:29:08.586096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "EWZ",
+      "delivered": true,
+      "reason": "",
+      "headline": "EWZ — 2 channels did own work, developing",
+      "key": "watch:EWZ:1cd058510a"
+    },
+    {
+      "at": "2026-10-29T11:29:08.586096+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 3 channels did own work",
+      "key": "watch:NOW:2ba182134e"
+    },
+    {
+      "at": "2026-10-29T12:41:35.467539+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMZN — 6 channels did own work, forward catalyst",
+      "key": "watch:AMZN:43c6bba213"
+    },
+    {
+      "at": "2026-10-29T12:41:35.467539+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 7 channels did own work",
+      "key": "watch:GOOGL:334fd9c4af"
+    },
+    {
+      "at": "2026-10-29T12:41:35.467539+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": true,
+      "reason": "",
+      "headline": "HOOD — 4 channels did own work",
+      "key": "watch:HOOD:e35321c5dd"
+    },
+    {
+      "at": "2026-10-29T14:32:06.901472+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TSLA",
+      "delivered": true,
+      "reason": "",
+      "headline": "TSLA — 7 channels did own work",
+      "key": "watch:TSLA:7ca8906d01"
+    },
+    {
+      "at": "2026-10-29T14:32:06.901472+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TMO",
+      "delivered": true,
+      "reason": "",
+      "headline": "TMO — 2 channels did own work, developing",
+      "key": "watch:TMO:b2871c407a"
+    },
+    {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 2 channels did own work, developing",
+      "key": "watch:LLY:b7c887db7b"
+    },
+    {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "VRT",
+      "delivered": true,
+      "reason": "",
+      "headline": "VRT — 3 channels did own work",
+      "key": "watch:VRT:eb6356b8d4"
+    },
+    {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AXP",
+      "delivered": true,
+      "reason": "",
+      "headline": "AXP — 2 channels did own work",
+      "key": "watch:AXP:5cc83aa8d9"
+    },
+    {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "BE",
+      "delivered": true,
+      "reason": "",
+      "headline": "BE — 2 channels did own work",
+      "key": "watch:BE:54e2d1b82b"
+    },
+    {
+      "at": "2026-10-29T18:31:53.050288+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RKLB",
+      "delivered": true,
+      "reason": "",
+      "headline": "RKLB — 2 channels did own work, developing",
+      "key": "watch:RKLB:17de1fedde"
+    },
+    {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": true,
+      "reason": "",
+      "headline": "INTC — 4 channels did own work, forward catalyst",
+      "key": "watch:INTC:fdb0bc13e1"
+    },
+    {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SBUX",
+      "delivered": true,
+      "reason": "",
+      "headline": "SBUX — 3 channels did own work, developing",
+      "key": "watch:SBUX:9f3a841da4"
+    },
+    {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SNDK",
+      "delivered": true,
+      "reason": "",
+      "headline": "SNDK — 2 channels did own work, developing",
+      "key": "watch:SNDK:f3b2a4ab5d"
+    },
+    {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RDDT",
+      "delivered": true,
+      "reason": "",
+      "headline": "RDDT — 2 channels did own work, developing",
+      "key": "watch:RDDT:e7fb1e6794"
+    },
+    {
+      "at": "2026-10-29T21:18:11.606524+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CAT",
+      "delivered": true,
+      "reason": "",
+      "headline": "CAT — 2 channels did own work, developing",
+      "key": "watch:CAT:0929af974e"
+    },
+    {
+      "at": "2026-10-29T22:19:52.860079+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 4 channels did own work, forward catalyst",
+      "key": "watch:NOW:d2d8f898df"
+    },
+    {
+      "at": "2026-10-29T22:19:52.860079+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 3 channels did own work, developing",
+      "key": "watch:LLY:daddd3224c"
+    },
+    {
+      "at": "2026-10-29T22:19:52.860079+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TMO",
+      "delivered": true,
+      "reason": "",
+      "headline": "TMO — 3 channels did own work",
+      "key": "watch:TMO:5646509fef"
+    },
+    {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 6 channels did own work, forward catalyst",
+      "key": "watch:NOW:b7fcf6cc65"
+    },
+    {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 4 channels did own work, developing",
+      "key": "watch:LLY:936f281c70"
+    },
+    {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "ORCL",
+      "delivered": true,
+      "reason": "",
+      "headline": "ORCL — 5 channels did own work",
+      "key": "watch:ORCL:4641f7b14a"
+    },
+    {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMD",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMD — 5 channels did own work",
+      "key": "watch:AMD:2e08744908"
+    },
+    {
+      "at": "2026-10-30T00:05:06.822636+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "IOVA",
+      "delivered": true,
+      "reason": "",
+      "headline": "IOVA — 2 channels did own work, developing",
+      "key": "watch:IOVA:07980c9203"
+    },
+    {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": true,
+      "reason": "",
+      "headline": "INTC — 5 channels did own work, forward catalyst",
+      "key": "watch:INTC:8af171a8b6"
+    },
+    {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": true,
+      "reason": "",
+      "headline": "META — 9 channels did own work",
+      "key": "watch:META:4bb110483f"
+    },
+    {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": true,
+      "reason": "",
+      "headline": "NVDA — 9 channels did own work",
+      "key": "watch:NVDA:26ebbb4f37"
+    },
+    {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NBIS",
+      "delivered": true,
+      "reason": "",
+      "headline": "NBIS — 7 channels did own work",
+      "key": "watch:NBIS:3cd2455960"
+    },
+    {
+      "at": "2026-10-30T04:19:14.146498+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SBUX",
+      "delivered": true,
+      "reason": "",
+      "headline": "SBUX — 4 channels did own work, developing",
+      "key": "watch:SBUX:534322bb96"
+    },
+    {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": true,
+      "reason": "",
+      "headline": "LLY — 5 channels did own work, forward catalyst",
+      "key": "watch:LLY:ae9d79694c"
+    },
+    {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": true,
+      "reason": "",
+      "headline": "META — 8 channels did own work",
+      "key": "watch:META:e36ea00a0a"
+    },
+    {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AAPL",
+      "delivered": true,
+      "reason": "",
+      "headline": "AAPL — 4 channels did own work",
+      "key": "watch:AAPL:4433340496"
+    },
+    {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "RDDT",
+      "delivered": true,
+      "reason": "",
+      "headline": "RDDT — 3 channels did own work, developing",
+      "key": "watch:RDDT:06ddefbf79"
+    },
+    {
+      "at": "2026-10-30T07:17:27.487241+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWV",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWV — 7 channels did own work",
+      "key": "watch:CRWV:8a976f3d46"
+    },
+    {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "TSLA",
+      "delivered": true,
+      "reason": "",
+      "headline": "TSLA — 6 channels did own work",
+      "key": "watch:TSLA:1f40645bde"
+    },
+    {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "CRWD",
+      "delivered": true,
+      "reason": "",
+      "headline": "CRWD — 3 channels did own work",
+      "key": "watch:CRWD:aeb34e4b1c"
+    },
+    {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "SNDK",
+      "delivered": true,
+      "reason": "",
+      "headline": "SNDK — 4 channels did own work",
+      "key": "watch:SNDK:a11d7ae88c"
+    },
+    {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AMD",
+      "delivered": true,
+      "reason": "",
+      "headline": "AMD — 6 channels did own work",
+      "key": "watch:AMD:8cbb97ed04"
+    },
+    {
+      "at": "2026-10-30T09:29:36.861048+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "WDC",
+      "delivered": true,
+      "reason": "",
+      "headline": "WDC — 2 channels did own work",
+      "key": "watch:WDC:b7576b365c"
     }
   ],
   "ops": {},
-  "watch:AMZN:08ca1d2c65": "2026-10-28T08:29:12.062391+00:00",
+  "watch:AMZN:08ca1d2c65": "2026-10-29T09:30:39.773274+00:00",
   "watch:NBIS:ec39e70deb": "2026-10-28T08:29:12.062391+00:00",
   "watch:MSFT:1ae659faeb": "2026-10-28T08:29:12.062391+00:00",
-  "watch:NFLX:42c976e74d": "2026-10-28T08:29:12.062391+00:00",
-  "watch:VZ:fc66d1dda7": "2026-10-28T08:29:12.062391+00:00"
+  "watch:NFLX:42c976e74d": "2026-10-29T09:30:39.773274+00:00",
+  "watch:VZ:fc66d1dda7": "2026-10-29T09:30:39.773274+00:00",
+  "watch:GOOGL:0527b2761f": "2026-10-28T14:20:15.351627+00:00",
+  "watch:TSLA:7ca8906d01": "2026-10-29T14:32:06.908475+00:00",
+  "watch:VRT:9c9440e631": "2026-10-28T14:20:15.351627+00:00",
+  "watch:TMO:b2871c407a": "2026-10-29T14:32:06.908475+00:00",
+  "watch:CRWV:eee8b1a23c": "2026-10-28T14:20:15.351627+00:00",
+  "watch:GOOGL:6fb3bd1cc5": "2026-10-28T17:10:07.143087+00:00",
+  "watch:AXP:5cc83aa8d9": "2026-10-29T18:31:53.051479+00:00",
+  "watch:BE:54e2d1b82b": "2026-10-29T18:31:53.051479+00:00",
+  "watch:IBM:30f778ef07": "2026-10-28T17:10:07.143087+00:00",
+  "watch:HOOD:823ea6157c": "2026-10-28T17:10:07.143087+00:00",
+  "watch:VRT:eb6356b8d4": "2026-10-29T18:31:53.051479+00:00",
+  "watch:RKLB:17de1fedde": "2026-10-29T18:31:53.051479+00:00",
+  "watch:META:4bb110483f": "2026-10-30T04:19:14.148660+00:00",
+  "watch:NVDA:26ebbb4f37": "2026-10-30T04:19:14.148660+00:00",
+  "watch:NBIS:3cd2455960": "2026-10-30T04:19:14.148660+00:00",
+  "watch:GOOGL:896ed30593": "2026-10-29T01:30:18.963197+00:00",
+  "watch:MSFT:9dd90ac09a": "2026-10-29T01:30:18.963197+00:00",
+  "watch:AAPL:4433340496": "2026-10-30T07:17:27.491054+00:00",
+  "watch:CRWV:8a976f3d46": "2026-10-30T07:17:27.491054+00:00",
+  "watch:CRWD:aeb34e4b1c": "2026-10-30T09:29:36.864686+00:00",
+  "watch:NFLX:fccebef02d": "2026-10-29T02:51:23.684261+00:00",
+  "watch:NOW:07b97d7b03": "2026-10-29T02:51:23.684261+00:00",
+  "watch:HOOD:5b66537264": "2026-10-29T03:52:43.205875+00:00",
+  "watch:WDC:b7576b365c": "2026-10-30T09:29:36.864686+00:00",
+  "watch:GEV:96b9d38f30": "2026-10-29T03:52:43.205875+00:00",
+  "watch:AMD:d28c2ef24e": "2026-10-29T03:52:43.205875+00:00",
+  "watch:ORCL:b173b76e9c": "2026-10-29T03:52:43.205875+00:00",
+  "watch:UBER:f33fed9026": "2026-10-29T09:30:39.773274+00:00",
+  "watch:SOFI:dc423237ce": "2026-10-29T09:30:39.773274+00:00",
+  "watch:NOK:e5c6d2b906": "2026-10-29T11:29:08.588684+00:00",
+  "watch:EWZ:1cd058510a": "2026-10-29T11:29:08.588684+00:00",
+  "watch:NOW:2ba182134e": "2026-10-29T11:29:08.588684+00:00",
+  "watch:AMZN:43c6bba213": "2026-10-29T12:41:35.470392+00:00",
+  "watch:GOOGL:334fd9c4af": "2026-10-29T12:41:35.470392+00:00",
+  "watch:HOOD:e35321c5dd": "2026-10-29T12:41:35.470392+00:00",
+  "watch:LLY:b7c887db7b": "2026-10-29T18:31:53.051479+00:00",
+  "watch:INTC:fdb0bc13e1": "2026-10-29T21:18:11.610426+00:00",
+  "watch:SBUX:9f3a841da4": "2026-10-29T21:18:11.610426+00:00",
+  "watch:SNDK:f3b2a4ab5d": "2026-10-29T21:18:11.610426+00:00",
+  "watch:RDDT:e7fb1e6794": "2026-10-29T21:18:11.610426+00:00",
+  "watch:CAT:0929af974e": "2026-10-29T21:18:11.610426+00:00",
+  "watch:NOW:d2d8f898df": "2026-10-29T22:19:52.863378+00:00",
+  "watch:LLY:daddd3224c": "2026-10-29T22:19:52.863378+00:00",
+  "watch:TMO:5646509fef": "2026-10-29T22:19:52.863378+00:00",
+  "watch:NOW:b7fcf6cc65": "2026-10-30T00:05:06.830243+00:00",
+  "watch:LLY:936f281c70": "2026-10-30T00:05:06.830243+00:00",
+  "watch:ORCL:4641f7b14a": "2026-10-30T00:05:06.830243+00:00",
+  "watch:AMD:2e08744908": "2026-10-30T00:05:06.830243+00:00",
+  "watch:IOVA:07980c9203": "2026-10-30T00:05:06.830243+00:00",
+  "watch:INTC:8af171a8b6": "2026-10-30T04:19:14.148660+00:00",
+  "watch:SBUX:534322bb96": "2026-10-30T04:19:14.148660+00:00",
+  "watch:LLY:ae9d79694c": "2026-10-30T07:17:27.491054+00:00",
+  "watch:META:e36ea00a0a": "2026-10-30T07:17:27.491054+00:00",
+  "watch:RDDT:06ddefbf79": "2026-10-30T07:17:27.491054+00:00",
+  "watch:TSLA:1f40645bde": "2026-10-30T09:29:36.864686+00:00",
+  "watch:SNDK:a11d7ae88c": "2026-10-30T09:29:36.864686+00:00",
+  "watch:AMD:8cbb97ed04": "2026-10-30T09:29:36.864686+00:00"
 }

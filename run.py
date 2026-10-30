@@ -406,7 +406,9 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
     # information even when no video was processed this run.
     candidates = alerting.classify(digest.get("aggregate") or {}, cfg.raw)
     candidates = alerting.merge(
-        alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw), candidates)
+        alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw),
+        candidates,
+        alerting.digest_alert(digest, len(fresh), cfg.raw))
     picked = alerting.select(candidates, alert_state.sent_map(), cfg.raw)
     tier_msgs = alerting.render(picked["send"], cfg.site_url)
 
@@ -489,20 +491,26 @@ def notify_if_new(cfg, processed, digest, args, catalyst_events=None) -> None:
               "(cooldown or per-run cap) - still eligible next run")
 
     if legacy_due:
-        print(f"\nAlerting: {len(fresh)} item(s), {len(hot)} filing(s)")
-        alert, message = _legacy_message()
-        res = notify.dispatch(cfg, alert, message=message)
-        # Consume the ids only if something was actually delivered, or
-        # if there was nothing to deliver. A failed send used to mark
-        # them seen anyway, which lost the alert for good.
-        if res.get("delivered") or not res.get("attempted"):
-            store.mark_notified(
-                [r["video_id"] for r in fresh]
-                + [c["event_id"] for c in hot] + unseen
-            )
-        else:
-            print(f"  legacy digest not delivered ({res.get('reason')}) - "
-                  "ids left unconsumed, will retry next run")
+        # The legacy digest no longer PUSHES. It kept firing on every
+        # run alongside the tiered alert, so one set of facts arrived
+        # twice, minutes apart, in two different formats - the second
+        # one the pre-Milestone-D "+METAx9ch" style. The tiered system
+        # covers everything it carried, and routine movement is now
+        # the DIGEST tier at priority 1 instead.
+        #
+        # Its bookkeeping stays: marking these ids seen is what stops
+        # the same videos being re-alerted next hour.
+        print(f"\nSeen: {len(fresh)} item(s), {len(hot)} filing(s)")
+        if cfg.raw.get("alerts", {}).get("legacy_push", False):
+            alert, message = _legacy_message()
+            res = notify.dispatch(cfg, alert, message=message)
+            if not (res.get("delivered") or not res.get("attempted")):
+                print(f"  legacy digest not delivered ({res.get('reason')})")
+                return
+        store.mark_notified(
+            [r["video_id"] for r in fresh]
+            + [c["event_id"] for c in hot] + unseen
+        )
 
     _ops_alert(cfg, digest, allowed)
 
@@ -597,8 +605,12 @@ def main() -> int:
         digest = build_digest(
             recent, cfg, catalyst_events=store.recent_catalysts(days=cfg.window_days))
         cands = alerting.classify(digest.get("aggregate") or {}, cfg.raw)
+        # Same three sources as the real path, or the rehearsal is
+        # rehearsing something else.
         cands = alerting.merge(
-            alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw), cands)
+            alerting.catalyst_alerts(digest.get("radar") or {}, cfg.raw),
+            cands,
+            alerting.digest_alert(digest, 0, cfg.raw))
         picked = alerting.select(cands, alert_state.sent_map(), cfg.raw)
         allowed, why = alert_state.may_send(cfg.raw)
         print(f"\nnotifications: {'ALLOWED' if allowed else 'SUPPRESSED'} - {why}")

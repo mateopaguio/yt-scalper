@@ -1817,6 +1817,10 @@ def test_failed_legacy_send_does_not_consume_the_ids():
     dispatch() returned None, so the caller could not tell a delivered
     push from a failed one and marked the ids either way - the alert
     was consumed and never reconsidered.
+
+    The legacy push is off by default now, so this enables it
+    explicitly: the guarantee has to keep holding for anyone who turns
+    it back on, or re-enabling the flag quietly reintroduces the bug.
     """
     import tempfile as _tf
     from pathlib import Path as _P
@@ -1839,13 +1843,16 @@ def test_failed_legacy_send_does_not_consume_the_ids():
         os.environ["BYRDE_NOTIFY_OWNER"] = "local"
         os.environ.pop("GITHUB_ACTIONS", None)
 
+        cfg = _Cfg()
+        cfg.raw.setdefault("alerts", {})["legacy_push"] = True
+
         processed = [_processed_video()]
 
         # Every channel failed.
         notify.dispatch = lambda *a, **k: {"attempted": True,
                                            "delivered": False,
                                            "reason": "ntfy 503"}
-        runmod.notify_if_new(_Cfg(), processed,
+        runmod.notify_if_new(cfg, processed,
                              _digest_with_verified_catalyst(), _Args(), [])
         assert not marked, "a failed send consumed the ids"
 
@@ -1853,7 +1860,7 @@ def test_failed_legacy_send_does_not_consume_the_ids():
         notify.dispatch = lambda *a, **k: {"attempted": False,
                                            "delivered": False,
                                            "reason": "no channel enabled"}
-        runmod.notify_if_new(_Cfg(), processed,
+        runmod.notify_if_new(cfg, processed,
                              _digest_with_verified_catalyst(), _Args(), [])
         assert marked, "ids were held back when there was nothing to deliver"
     finally:
@@ -2418,6 +2425,83 @@ def test_a_run_cannot_outlive_the_schedule():
         signal.signal(signal.SIGALRM, old)
     assert fired
 
+
+def test_one_set_of_facts_sends_one_push():
+    """The same news arrived twice, in two different formats.
+
+    The tiered alert went out, then the legacy digest went out moments
+    later carrying the same run in the pre-Milestone-D "+METAx9ch"
+    style. Gating the legacy path behind ownership was not enough: the
+    question was whether it should fire at all once the tiered system
+    covered it.
+    """
+    import tempfile as _tf
+    from pathlib import Path as _P
+    import run as runmod
+    from scalper import alert_state, notify, store
+
+    sent = []
+    saved = (notify.send_tiered, notify.dispatch, notify.build_signal_alert,
+             store.mark_notified, store.record_alerts, store.notified_ids,
+             alert_state.PATH)
+    was = os.environ.get("BYRDE_NOTIFY_OWNER")
+    try:
+        alert_state.PATH = _P(_tf.mkdtemp()) / "alert_log.json"
+        notify.send_tiered = lambda cfg, msgs, dry_run=False: (
+            sent.append(("tiered", sorted(msgs)))
+            or {t: {"sent": True, "count": 1} for t in msgs})
+        notify.dispatch = lambda *a, **k: (sent.append(("legacy", None))
+                                           or {"attempted": True,
+                                               "delivered": True})
+        notify.build_signal_alert = lambda *a, **k: ("", [])
+        marked = []
+        store.mark_notified = lambda ids: marked.append(ids)
+        store.record_alerts = lambda ks: None
+        store.notified_ids = lambda: set()
+        os.environ["BYRDE_NOTIFY_OWNER"] = "local"
+        os.environ.pop("GITHUB_ACTIONS", None)
+
+        runmod.notify_if_new(_Cfg(), [_processed_video()],
+                             _digest_with_verified_catalyst(), _Args(), [])
+
+        kinds = [k for k, _ in sent]
+        assert "legacy" not in kinds, \
+            "the legacy digest pushed alongside the tiered alert"
+        assert "tiered" in kinds, "nothing was sent at all"
+        # The bookkeeping must survive: it is what stops the same
+        # videos being re-alerted on the next run.
+        assert marked, "ids were not marked seen, so they will re-alert"
+    finally:
+        (notify.send_tiered, notify.dispatch, notify.build_signal_alert,
+         store.mark_notified, store.record_alerts, store.notified_ids,
+         alert_state.PATH) = saved
+        if was is None:
+            os.environ.pop("BYRDE_NOTIFY_OWNER", None)
+        else:
+            os.environ["BYRDE_NOTIFY_OWNER"] = was
+
+
+def test_digest_tier_is_actually_produced():
+    """It existed in name only; nothing ever emitted it."""
+    from scalper import alerts
+
+    d = {"aggregate": {"tickers": [
+            {"ticker": "AAA", "score": {"total": 5.0, "vetoed": False}},
+            {"ticker": "BBB", "score": {"total": 4.0, "vetoed": False}},
+            {"ticker": "CCC", "score": {"total": 9.0, "vetoed": True}}]},
+         "validation": {"census": {"resolved": 12}}}
+
+    rows = alerts.digest_alert(d, fresh_count=3)
+    assert rows, "the digest tier produced nothing"
+    assert rows[0]["tier"] == alerts.DIGEST
+    assert alerts.NTFY_PRIORITY[alerts.DIGEST] == 1, "a digest must be silent"
+    assert "AAA" in rows[0]["ticker"] and "CCC" not in rows[0]["ticker"], \
+        "a vetoed ticker reached the digest"
+
+    # Identical state must produce an identical key, or it repeats.
+    assert rows[0]["key"] == alerts.digest_alert(d, 3)[0]["key"]
+    assert rows[0]["key"] != alerts.digest_alert(d, 9)[0]["key"]
+
 def main() -> int:
     print("\nregression tests\n")
     check("bug1: build_digest() executes (missing import)", test_build_digest_executes)
@@ -2573,6 +2657,10 @@ def main() -> int:
           test_transcript_fetches_cannot_block_forever)
     check("ops: a run cannot outlive the schedule",
           test_a_run_cannot_outlive_the_schedule)
+    check("alerts: one set of facts sends one push",
+          test_one_set_of_facts_sends_one_push)
+    check("alerts: the digest tier is actually produced",
+          test_digest_tier_is_actually_produced)
     check("B: feed entitlement is probed, not assumed",
           test_feed_entitlement_is_probed_not_assumed)
     check("C: signal states are never merged",
