@@ -1538,6 +1538,66 @@
       "reason": "suppressed_not_owner",
       "headline": "175 ticker(s) tracked / 93 signal(s) resolved",
       "key": "digest:all:7183f1654f"
+    },
+    {
+      "at": "2026-10-30T21:22:10.612496+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "META \u2014 7 channels did own work",
+      "key": "watch:META:05baebbe2a"
+    },
+    {
+      "at": "2026-10-30T21:22:10.612496+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "CRWD",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "CRWD \u2014 2 channels did own work, forward catalyst",
+      "key": "watch:CRWD:877e2fe0a4"
+    },
+    {
+      "at": "2026-10-30T21:22:10.612496+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "GOOGL \u2014 6 channels did own work",
+      "key": "watch:GOOGL:896ed30593"
+    },
+    {
+      "at": "2026-10-30T21:22:10.612496+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "AMZN \u2014 6 channels did own work",
+      "key": "watch:AMZN:43c6bba213"
+    },
+    {
+      "at": "2026-10-30T21:22:10.612496+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NBIS",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NBIS \u2014 6 channels did own work",
+      "key": "watch:NBIS:ec39e70deb"
+    },
+    {
+      "at": "2026-10-30T21:22:10.612496+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "NOW, INTC, LLY, AAPL, NVDA",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "160 ticker(s) tracked / 93 signal(s) resolved",
+      "key": "digest:all:38a15ab52f"
     }
   ],
   "ops": {},

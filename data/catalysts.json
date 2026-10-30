@@ -1,5 +1,28 @@
 [
   {
+    "event_id": "cat_64d7e687de2f74",
+    "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+    "source": "SEC Press Releases",
+    "published": "2026-10-30T15:30:00-04:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "regulatory_action",
+      "summary": "The SEC announced exemptive relief from Treasury clearing requirements for certain inter-affiliate and non-U.S. repo transactions. Only the headline was retrieved; no body text was available to confirm details.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "affected_sectors": [
+        "broker-dealers",
+        "banking",
+        "Treasury securities market"
+      ]
+    }
+  },
+  {
     "event_id": "cat_c2f7dd8abd0c4f",
     "title": "S7B Nonclinical Evaluation of the Potential for Delayed Ventricular Repolarization (QT Interval Prolongation) by Human Pharmaceuticals",
     "source": "FDA Drugs",
