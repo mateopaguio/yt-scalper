@@ -10,7 +10,7 @@
       "ticker": "AAPL",
       "delivered": true,
       "reason": "",
-      "headline": "AAPL — 4 channels did own work"
+      "headline": "AAPL \u2014 4 channels did own work"
     },
     "watch:NVDA:26ebbb4f37": {
       "at": "2026-10-30T04:19:14.146498+00:00",
@@ -19,7 +19,7 @@
       "ticker": "NVDA",
       "delivered": true,
       "reason": "",
-      "headline": "NVDA — 9 channels did own work"
+      "headline": "NVDA \u2014 9 channels did own work"
     },
     "watch:CRWD:aeb34e4b1c": {
       "at": "2026-10-30T09:29:36.861048+00:00",
@@ -28,7 +28,7 @@
       "ticker": "CRWD",
       "delivered": true,
       "reason": "",
-      "headline": "CRWD — 3 channels did own work"
+      "headline": "CRWD \u2014 3 channels did own work"
     },
     "watch:WDC:b7576b365c": {
       "at": "2026-10-30T09:29:36.861048+00:00",
@@ -37,7 +37,7 @@
       "ticker": "WDC",
       "delivered": true,
       "reason": "",
-      "headline": "WDC — 2 channels did own work"
+      "headline": "WDC \u2014 2 channels did own work"
     },
     "watch:AMZN:08ca1d2c65": {
       "at": "2026-10-29T09:30:39.771905+00:00",
@@ -46,7 +46,7 @@
       "ticker": "AMZN",
       "delivered": true,
       "reason": "",
-      "headline": "AMZN — 5 channels did own work, forward catalyst"
+      "headline": "AMZN \u2014 5 channels did own work, forward catalyst"
     },
     "watch:NBIS:ec39e70deb": {
       "at": "2026-10-28T08:29:12.057425+00:00",
@@ -55,7 +55,7 @@
       "ticker": "NBIS",
       "delivered": true,
       "reason": "",
-      "headline": "NBIS — 6 channels did own work"
+      "headline": "NBIS \u2014 6 channels did own work"
     },
     "watch:MSFT:1ae659faeb": {
       "at": "2026-10-28T08:29:12.057425+00:00",
@@ -64,7 +64,7 @@
       "ticker": "MSFT",
       "delivered": true,
       "reason": "",
-      "headline": "MSFT — 6 channels did own work"
+      "headline": "MSFT \u2014 6 channels did own work"
     },
     "watch:NFLX:42c976e74d": {
       "at": "2026-10-29T09:30:39.771905+00:00",
@@ -73,7 +73,7 @@
       "ticker": "NFLX",
       "delivered": true,
       "reason": "",
-      "headline": "NFLX — 4 channels did own work"
+      "headline": "NFLX \u2014 4 channels did own work"
     },
     "watch:VZ:fc66d1dda7": {
       "at": "2026-10-29T09:30:39.771905+00:00",
@@ -82,7 +82,7 @@
       "ticker": "VZ",
       "delivered": true,
       "reason": "",
-      "headline": "VZ — 3 channels did own work"
+      "headline": "VZ \u2014 3 channels did own work"
     },
     "watch:GOOGL:0527b2761f": {
       "at": "2026-10-28T14:20:15.347204+00:00",
@@ -91,7 +91,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 3 channels did own work, developing"
+      "headline": "GOOGL \u2014 3 channels did own work, developing"
     },
     "watch:TSLA:7ca8906d01": {
       "at": "2026-10-29T14:32:06.901472+00:00",
@@ -100,7 +100,7 @@
       "ticker": "TSLA",
       "delivered": true,
       "reason": "",
-      "headline": "TSLA — 7 channels did own work"
+      "headline": "TSLA \u2014 7 channels did own work"
     },
     "watch:VRT:9c9440e631": {
       "at": "2026-10-28T14:20:15.347204+00:00",
@@ -109,7 +109,7 @@
       "ticker": "VRT",
       "delivered": true,
       "reason": "",
-      "headline": "VRT — 2 channels did own work, developing"
+      "headline": "VRT \u2014 2 channels did own work, developing"
     },
     "watch:TMO:b2871c407a": {
       "at": "2026-10-29T14:32:06.901472+00:00",
@@ -118,7 +118,7 @@
       "ticker": "TMO",
       "delivered": true,
       "reason": "",
-      "headline": "TMO — 2 channels did own work, developing"
+      "headline": "TMO \u2014 2 channels did own work, developing"
     },
     "watch:CRWV:eee8b1a23c": {
       "at": "2026-10-28T14:20:15.347204+00:00",
@@ -127,7 +127,7 @@
       "ticker": "CRWV",
       "delivered": true,
       "reason": "",
-      "headline": "CRWV — 6 channels did own work"
+      "headline": "CRWV \u2014 6 channels did own work"
     },
     "watch:GOOGL:6fb3bd1cc5": {
       "at": "2026-10-28T17:10:07.141230+00:00",
@@ -136,7 +136,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 4 channels did own work"
+      "headline": "GOOGL \u2014 4 channels did own work"
     },
     "watch:AXP:5cc83aa8d9": {
       "at": "2026-10-29T18:31:53.050288+00:00",
@@ -145,7 +145,7 @@
       "ticker": "AXP",
       "delivered": true,
       "reason": "",
-      "headline": "AXP — 2 channels did own work"
+      "headline": "AXP \u2014 2 channels did own work"
     },
     "watch:BE:54e2d1b82b": {
       "at": "2026-10-29T18:31:53.050288+00:00",
@@ -154,7 +154,7 @@
       "ticker": "BE",
       "delivered": true,
       "reason": "",
-      "headline": "BE — 2 channels did own work"
+      "headline": "BE \u2014 2 channels did own work"
     },
     "watch:IBM:30f778ef07": {
       "at": "2026-10-28T17:10:07.141230+00:00",
@@ -163,7 +163,7 @@
       "ticker": "IBM",
       "delivered": true,
       "reason": "",
-      "headline": "IBM — 3 channels did own work"
+      "headline": "IBM \u2014 3 channels did own work"
     },
     "watch:HOOD:823ea6157c": {
       "at": "2026-10-28T17:10:07.141230+00:00",
@@ -172,7 +172,7 @@
       "ticker": "HOOD",
       "delivered": true,
       "reason": "",
-      "headline": "HOOD — 2 channels did own work, developing"
+      "headline": "HOOD \u2014 2 channels did own work, developing"
     },
     "watch:VRT:eb6356b8d4": {
       "at": "2026-10-29T18:31:53.050288+00:00",
@@ -181,7 +181,7 @@
       "ticker": "VRT",
       "delivered": true,
       "reason": "",
-      "headline": "VRT — 3 channels did own work"
+      "headline": "VRT \u2014 3 channels did own work"
     },
     "watch:RKLB:17de1fedde": {
       "at": "2026-10-29T18:31:53.050288+00:00",
@@ -190,7 +190,7 @@
       "ticker": "RKLB",
       "delivered": true,
       "reason": "",
-      "headline": "RKLB — 2 channels did own work, developing"
+      "headline": "RKLB \u2014 2 channels did own work, developing"
     },
     "watch:META:4bb110483f": {
       "at": "2026-10-30T04:19:14.146498+00:00",
@@ -199,7 +199,7 @@
       "ticker": "META",
       "delivered": true,
       "reason": "",
-      "headline": "META — 9 channels did own work"
+      "headline": "META \u2014 9 channels did own work"
     },
     "watch:NBIS:3cd2455960": {
       "at": "2026-10-30T04:19:14.146498+00:00",
@@ -208,7 +208,7 @@
       "ticker": "NBIS",
       "delivered": true,
       "reason": "",
-      "headline": "NBIS — 7 channels did own work"
+      "headline": "NBIS \u2014 7 channels did own work"
     },
     "watch:GOOGL:896ed30593": {
       "at": "2026-10-29T01:30:18.961096+00:00",
@@ -217,7 +217,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 6 channels did own work"
+      "headline": "GOOGL \u2014 6 channels did own work"
     },
     "watch:MSFT:9dd90ac09a": {
       "at": "2026-10-29T01:30:18.961096+00:00",
@@ -226,7 +226,7 @@
       "ticker": "MSFT",
       "delivered": true,
       "reason": "",
-      "headline": "MSFT — 8 channels did own work"
+      "headline": "MSFT \u2014 8 channels did own work"
     },
     "watch:CRWV:8a976f3d46": {
       "at": "2026-10-30T07:17:27.487241+00:00",
@@ -235,7 +235,7 @@
       "ticker": "CRWV",
       "delivered": true,
       "reason": "",
-      "headline": "CRWV — 7 channels did own work"
+      "headline": "CRWV \u2014 7 channels did own work"
     },
     "watch:NFLX:fccebef02d": {
       "at": "2026-10-29T02:51:23.679785+00:00",
@@ -244,7 +244,7 @@
       "ticker": "NFLX",
       "delivered": true,
       "reason": "",
-      "headline": "NFLX — 3 channels did own work"
+      "headline": "NFLX \u2014 3 channels did own work"
     },
     "watch:NOW:07b97d7b03": {
       "at": "2026-10-29T02:51:23.679785+00:00",
@@ -253,7 +253,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 2 channels did own work, developing"
+      "headline": "NOW \u2014 2 channels did own work, developing"
     },
     "watch:HOOD:5b66537264": {
       "at": "2026-10-29T03:52:43.203997+00:00",
@@ -262,7 +262,7 @@
       "ticker": "HOOD",
       "delivered": true,
       "reason": "",
-      "headline": "HOOD — 3 channels did own work"
+      "headline": "HOOD \u2014 3 channels did own work"
     },
     "watch:GEV:96b9d38f30": {
       "at": "2026-10-29T03:52:43.203997+00:00",
@@ -271,7 +271,7 @@
       "ticker": "GEV",
       "delivered": true,
       "reason": "",
-      "headline": "GEV — 2 channels did own work"
+      "headline": "GEV \u2014 2 channels did own work"
     },
     "watch:AMD:d28c2ef24e": {
       "at": "2026-10-29T03:52:43.203997+00:00",
@@ -280,7 +280,7 @@
       "ticker": "AMD",
       "delivered": true,
       "reason": "",
-      "headline": "AMD — 4 channels did own work"
+      "headline": "AMD \u2014 4 channels did own work"
     },
     "watch:ORCL:b173b76e9c": {
       "at": "2026-10-29T03:52:43.203997+00:00",
@@ -289,7 +289,7 @@
       "ticker": "ORCL",
       "delivered": true,
       "reason": "",
-      "headline": "ORCL — 3 channels did own work"
+      "headline": "ORCL \u2014 3 channels did own work"
     },
     "watch:UBER:f33fed9026": {
       "at": "2026-10-29T09:30:39.771905+00:00",
@@ -298,7 +298,7 @@
       "ticker": "UBER",
       "delivered": true,
       "reason": "",
-      "headline": "UBER — 2 channels did own work, developing"
+      "headline": "UBER \u2014 2 channels did own work, developing"
     },
     "watch:SOFI:dc423237ce": {
       "at": "2026-10-29T09:30:39.771905+00:00",
@@ -307,7 +307,7 @@
       "ticker": "SOFI",
       "delivered": true,
       "reason": "",
-      "headline": "SOFI — 2 channels did own work, developing"
+      "headline": "SOFI \u2014 2 channels did own work, developing"
     },
     "watch:NOK:e5c6d2b906": {
       "at": "2026-10-29T11:29:08.586096+00:00",
@@ -316,7 +316,7 @@
       "ticker": "NOK",
       "delivered": true,
       "reason": "",
-      "headline": "NOK — 2 channels did own work, developing"
+      "headline": "NOK \u2014 2 channels did own work, developing"
     },
     "watch:EWZ:1cd058510a": {
       "at": "2026-10-29T11:29:08.586096+00:00",
@@ -325,7 +325,7 @@
       "ticker": "EWZ",
       "delivered": true,
       "reason": "",
-      "headline": "EWZ — 2 channels did own work, developing"
+      "headline": "EWZ \u2014 2 channels did own work, developing"
     },
     "watch:NOW:2ba182134e": {
       "at": "2026-10-29T11:29:08.586096+00:00",
@@ -334,7 +334,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 3 channels did own work"
+      "headline": "NOW \u2014 3 channels did own work"
     },
     "watch:AMZN:43c6bba213": {
       "at": "2026-10-29T12:41:35.467539+00:00",
@@ -343,7 +343,7 @@
       "ticker": "AMZN",
       "delivered": true,
       "reason": "",
-      "headline": "AMZN — 6 channels did own work, forward catalyst"
+      "headline": "AMZN \u2014 6 channels did own work, forward catalyst"
     },
     "watch:GOOGL:334fd9c4af": {
       "at": "2026-10-30T13:27:24.525068+00:00",
@@ -352,7 +352,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 7 channels did own work"
+      "headline": "GOOGL \u2014 7 channels did own work"
     },
     "watch:HOOD:e35321c5dd": {
       "at": "2026-10-29T12:41:35.467539+00:00",
@@ -361,7 +361,7 @@
       "ticker": "HOOD",
       "delivered": true,
       "reason": "",
-      "headline": "HOOD — 4 channels did own work"
+      "headline": "HOOD \u2014 4 channels did own work"
     },
     "watch:LLY:b7c887db7b": {
       "at": "2026-10-29T18:31:53.050288+00:00",
@@ -370,7 +370,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 2 channels did own work, developing"
+      "headline": "LLY \u2014 2 channels did own work, developing"
     },
     "watch:INTC:fdb0bc13e1": {
       "at": "2026-10-29T21:18:11.606524+00:00",
@@ -379,7 +379,7 @@
       "ticker": "INTC",
       "delivered": true,
       "reason": "",
-      "headline": "INTC — 4 channels did own work, forward catalyst"
+      "headline": "INTC \u2014 4 channels did own work, forward catalyst"
     },
     "watch:SBUX:9f3a841da4": {
       "at": "2026-10-29T21:18:11.606524+00:00",
@@ -388,7 +388,7 @@
       "ticker": "SBUX",
       "delivered": true,
       "reason": "",
-      "headline": "SBUX — 3 channels did own work, developing"
+      "headline": "SBUX \u2014 3 channels did own work, developing"
     },
     "watch:SNDK:f3b2a4ab5d": {
       "at": "2026-10-29T21:18:11.606524+00:00",
@@ -397,7 +397,7 @@
       "ticker": "SNDK",
       "delivered": true,
       "reason": "",
-      "headline": "SNDK — 2 channels did own work, developing"
+      "headline": "SNDK \u2014 2 channels did own work, developing"
     },
     "watch:RDDT:e7fb1e6794": {
       "at": "2026-10-29T21:18:11.606524+00:00",
@@ -406,7 +406,7 @@
       "ticker": "RDDT",
       "delivered": true,
       "reason": "",
-      "headline": "RDDT — 2 channels did own work, developing"
+      "headline": "RDDT \u2014 2 channels did own work, developing"
     },
     "watch:CAT:0929af974e": {
       "at": "2026-10-29T21:18:11.606524+00:00",
@@ -415,7 +415,7 @@
       "ticker": "CAT",
       "delivered": true,
       "reason": "",
-      "headline": "CAT — 2 channels did own work, developing"
+      "headline": "CAT \u2014 2 channels did own work, developing"
     },
     "watch:NOW:d2d8f898df": {
       "at": "2026-10-29T22:19:52.860079+00:00",
@@ -424,7 +424,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 4 channels did own work, forward catalyst"
+      "headline": "NOW \u2014 4 channels did own work, forward catalyst"
     },
     "watch:LLY:daddd3224c": {
       "at": "2026-10-29T22:19:52.860079+00:00",
@@ -433,7 +433,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 3 channels did own work, developing"
+      "headline": "LLY \u2014 3 channels did own work, developing"
     },
     "watch:TMO:5646509fef": {
       "at": "2026-10-29T22:19:52.860079+00:00",
@@ -442,7 +442,7 @@
       "ticker": "TMO",
       "delivered": true,
       "reason": "",
-      "headline": "TMO — 3 channels did own work"
+      "headline": "TMO \u2014 3 channels did own work"
     },
     "watch:NOW:b7fcf6cc65": {
       "at": "2026-10-30T00:05:06.822636+00:00",
@@ -451,7 +451,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 6 channels did own work, forward catalyst"
+      "headline": "NOW \u2014 6 channels did own work, forward catalyst"
     },
     "watch:LLY:936f281c70": {
       "at": "2026-10-30T00:05:06.822636+00:00",
@@ -460,7 +460,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 4 channels did own work, developing"
+      "headline": "LLY \u2014 4 channels did own work, developing"
     },
     "watch:ORCL:4641f7b14a": {
       "at": "2026-10-30T00:05:06.822636+00:00",
@@ -469,7 +469,7 @@
       "ticker": "ORCL",
       "delivered": true,
       "reason": "",
-      "headline": "ORCL — 5 channels did own work"
+      "headline": "ORCL \u2014 5 channels did own work"
     },
     "watch:AMD:2e08744908": {
       "at": "2026-10-30T00:05:06.822636+00:00",
@@ -478,7 +478,7 @@
       "ticker": "AMD",
       "delivered": true,
       "reason": "",
-      "headline": "AMD — 5 channels did own work"
+      "headline": "AMD \u2014 5 channels did own work"
     },
     "watch:IOVA:07980c9203": {
       "at": "2026-10-30T00:05:06.822636+00:00",
@@ -487,7 +487,7 @@
       "ticker": "IOVA",
       "delivered": true,
       "reason": "",
-      "headline": "IOVA — 2 channels did own work, developing"
+      "headline": "IOVA \u2014 2 channels did own work, developing"
     },
     "watch:INTC:8af171a8b6": {
       "at": "2026-10-30T04:19:14.146498+00:00",
@@ -496,7 +496,7 @@
       "ticker": "INTC",
       "delivered": true,
       "reason": "",
-      "headline": "INTC — 5 channels did own work, forward catalyst"
+      "headline": "INTC \u2014 5 channels did own work, forward catalyst"
     },
     "watch:SBUX:534322bb96": {
       "at": "2026-10-30T04:19:14.146498+00:00",
@@ -505,7 +505,7 @@
       "ticker": "SBUX",
       "delivered": true,
       "reason": "",
-      "headline": "SBUX — 4 channels did own work, developing"
+      "headline": "SBUX \u2014 4 channels did own work, developing"
     },
     "watch:LLY:ae9d79694c": {
       "at": "2026-10-30T07:17:27.487241+00:00",
@@ -514,7 +514,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 5 channels did own work, forward catalyst"
+      "headline": "LLY \u2014 5 channels did own work, forward catalyst"
     },
     "watch:META:e36ea00a0a": {
       "at": "2026-10-30T07:17:27.487241+00:00",
@@ -523,7 +523,7 @@
       "ticker": "META",
       "delivered": true,
       "reason": "",
-      "headline": "META — 8 channels did own work"
+      "headline": "META \u2014 8 channels did own work"
     },
     "watch:RDDT:06ddefbf79": {
       "at": "2026-10-30T07:17:27.487241+00:00",
@@ -532,7 +532,7 @@
       "ticker": "RDDT",
       "delivered": true,
       "reason": "",
-      "headline": "RDDT — 3 channels did own work, developing"
+      "headline": "RDDT \u2014 3 channels did own work, developing"
     },
     "watch:TSLA:1f40645bde": {
       "at": "2026-10-30T09:29:36.861048+00:00",
@@ -541,7 +541,7 @@
       "ticker": "TSLA",
       "delivered": true,
       "reason": "",
-      "headline": "TSLA — 6 channels did own work"
+      "headline": "TSLA \u2014 6 channels did own work"
     },
     "watch:SNDK:a11d7ae88c": {
       "at": "2026-10-30T09:29:36.861048+00:00",
@@ -550,7 +550,7 @@
       "ticker": "SNDK",
       "delivered": true,
       "reason": "",
-      "headline": "SNDK — 4 channels did own work"
+      "headline": "SNDK \u2014 4 channels did own work"
     },
     "watch:AMD:8cbb97ed04": {
       "at": "2026-10-30T09:29:36.861048+00:00",
@@ -559,7 +559,7 @@
       "ticker": "AMD",
       "delivered": true,
       "reason": "",
-      "headline": "AMD — 6 channels did own work"
+      "headline": "AMD \u2014 6 channels did own work"
     },
     "watch:NOW:3dbf15cd28": {
       "at": "2026-10-30T13:27:24.525068+00:00",
@@ -568,7 +568,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 7 channels did own work, forward catalyst"
+      "headline": "NOW \u2014 7 channels did own work, forward catalyst"
     },
     "watch:INTC:012bbb3b36": {
       "at": "2026-10-30T13:27:24.525068+00:00",
@@ -577,7 +577,7 @@
       "ticker": "INTC",
       "delivered": true,
       "reason": "",
-      "headline": "INTC — 7 channels did own work, forward catalyst"
+      "headline": "INTC \u2014 7 channels did own work, forward catalyst"
     },
     "watch:NVDA:463968e6dc": {
       "at": "2026-10-30T13:27:24.525068+00:00",
@@ -586,7 +586,7 @@
       "ticker": "NVDA",
       "delivered": true,
       "reason": "",
-      "headline": "NVDA — 10 channels did own work"
+      "headline": "NVDA \u2014 10 channels did own work"
     },
     "watch:AAPL:6608eda309": {
       "at": "2026-10-30T13:27:24.525068+00:00",
@@ -595,7 +595,7 @@
       "ticker": "AAPL",
       "delivered": true,
       "reason": "",
-      "headline": "AAPL — 5 channels did own work"
+      "headline": "AAPL \u2014 5 channels did own work"
     }
   },
   "history": [
@@ -606,7 +606,7 @@
       "ticker": "AMZN",
       "delivered": false,
       "reason": "suppressed_not_owner",
-      "headline": "AMZN — 4 channels did own work, forward catalyst",
+      "headline": "AMZN \u2014 4 channels did own work, forward catalyst",
       "key": "watch:AMZN:b1a1b3bbe9"
     },
     {
@@ -616,7 +616,7 @@
       "ticker": "NFLX",
       "delivered": false,
       "reason": "suppressed_not_owner",
-      "headline": "NFLX — 4 channels did own work",
+      "headline": "NFLX \u2014 4 channels did own work",
       "key": "watch:NFLX:42c976e74d"
     },
     {
@@ -626,7 +626,7 @@
       "ticker": "VZ",
       "delivered": false,
       "reason": "suppressed_not_owner",
-      "headline": "VZ — 3 channels did own work, developing",
+      "headline": "VZ \u2014 3 channels did own work, developing",
       "key": "watch:VZ:fc66d1dda7"
     },
     {
@@ -636,7 +636,7 @@
       "ticker": "GOOGL",
       "delivered": false,
       "reason": "suppressed_not_owner",
-      "headline": "GOOGL — 3 channels did own work, developing",
+      "headline": "GOOGL \u2014 3 channels did own work, developing",
       "key": "watch:GOOGL:0527b2761f"
     },
     {
@@ -646,7 +646,7 @@
       "ticker": "TSLA",
       "delivered": false,
       "reason": "suppressed_not_owner",
-      "headline": "TSLA — 7 channels did own work",
+      "headline": "TSLA \u2014 7 channels did own work",
       "key": "watch:TSLA:7ca8906d01"
     },
     {
@@ -656,7 +656,7 @@
       "ticker": "AMZN",
       "delivered": true,
       "reason": "",
-      "headline": "AMZN — 5 channels did own work, forward catalyst",
+      "headline": "AMZN \u2014 5 channels did own work, forward catalyst",
       "key": "watch:AMZN:08ca1d2c65"
     },
     {
@@ -666,7 +666,7 @@
       "ticker": "NBIS",
       "delivered": true,
       "reason": "",
-      "headline": "NBIS — 6 channels did own work",
+      "headline": "NBIS \u2014 6 channels did own work",
       "key": "watch:NBIS:ec39e70deb"
     },
     {
@@ -676,7 +676,7 @@
       "ticker": "MSFT",
       "delivered": true,
       "reason": "",
-      "headline": "MSFT — 6 channels did own work",
+      "headline": "MSFT \u2014 6 channels did own work",
       "key": "watch:MSFT:1ae659faeb"
     },
     {
@@ -686,7 +686,7 @@
       "ticker": "NFLX",
       "delivered": true,
       "reason": "",
-      "headline": "NFLX — 4 channels did own work",
+      "headline": "NFLX \u2014 4 channels did own work",
       "key": "watch:NFLX:42c976e74d"
     },
     {
@@ -696,7 +696,7 @@
       "ticker": "VZ",
       "delivered": true,
       "reason": "",
-      "headline": "VZ — 3 channels did own work, developing",
+      "headline": "VZ \u2014 3 channels did own work, developing",
       "key": "watch:VZ:fc66d1dda7"
     },
     {
@@ -706,7 +706,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 3 channels did own work, developing",
+      "headline": "GOOGL \u2014 3 channels did own work, developing",
       "key": "watch:GOOGL:0527b2761f"
     },
     {
@@ -716,7 +716,7 @@
       "ticker": "TSLA",
       "delivered": true,
       "reason": "",
-      "headline": "TSLA — 7 channels did own work",
+      "headline": "TSLA \u2014 7 channels did own work",
       "key": "watch:TSLA:7ca8906d01"
     },
     {
@@ -726,7 +726,7 @@
       "ticker": "VRT",
       "delivered": true,
       "reason": "",
-      "headline": "VRT — 2 channels did own work, developing",
+      "headline": "VRT \u2014 2 channels did own work, developing",
       "key": "watch:VRT:9c9440e631"
     },
     {
@@ -736,7 +736,7 @@
       "ticker": "TMO",
       "delivered": true,
       "reason": "",
-      "headline": "TMO — 2 channels did own work, developing",
+      "headline": "TMO \u2014 2 channels did own work, developing",
       "key": "watch:TMO:b2871c407a"
     },
     {
@@ -746,7 +746,7 @@
       "ticker": "CRWV",
       "delivered": true,
       "reason": "",
-      "headline": "CRWV — 6 channels did own work",
+      "headline": "CRWV \u2014 6 channels did own work",
       "key": "watch:CRWV:eee8b1a23c"
     },
     {
@@ -756,7 +756,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 4 channels did own work",
+      "headline": "GOOGL \u2014 4 channels did own work",
       "key": "watch:GOOGL:6fb3bd1cc5"
     },
     {
@@ -766,7 +766,7 @@
       "ticker": "AXP",
       "delivered": true,
       "reason": "",
-      "headline": "AXP — 2 channels did own work",
+      "headline": "AXP \u2014 2 channels did own work",
       "key": "watch:AXP:5cc83aa8d9"
     },
     {
@@ -776,7 +776,7 @@
       "ticker": "BE",
       "delivered": true,
       "reason": "",
-      "headline": "BE — 2 channels did own work",
+      "headline": "BE \u2014 2 channels did own work",
       "key": "watch:BE:54e2d1b82b"
     },
     {
@@ -786,7 +786,7 @@
       "ticker": "IBM",
       "delivered": true,
       "reason": "",
-      "headline": "IBM — 3 channels did own work",
+      "headline": "IBM \u2014 3 channels did own work",
       "key": "watch:IBM:30f778ef07"
     },
     {
@@ -796,7 +796,7 @@
       "ticker": "HOOD",
       "delivered": true,
       "reason": "",
-      "headline": "HOOD — 2 channels did own work, developing",
+      "headline": "HOOD \u2014 2 channels did own work, developing",
       "key": "watch:HOOD:823ea6157c"
     },
     {
@@ -806,7 +806,7 @@
       "ticker": "VRT",
       "delivered": true,
       "reason": "",
-      "headline": "VRT — 3 channels did own work",
+      "headline": "VRT \u2014 3 channels did own work",
       "key": "watch:VRT:eb6356b8d4"
     },
     {
@@ -816,7 +816,7 @@
       "ticker": "RKLB",
       "delivered": true,
       "reason": "",
-      "headline": "RKLB — 2 channels did own work, developing",
+      "headline": "RKLB \u2014 2 channels did own work, developing",
       "key": "watch:RKLB:17de1fedde"
     },
     {
@@ -826,7 +826,7 @@
       "ticker": "META",
       "delivered": true,
       "reason": "",
-      "headline": "META — 9 channels did own work",
+      "headline": "META \u2014 9 channels did own work",
       "key": "watch:META:4bb110483f"
     },
     {
@@ -836,7 +836,7 @@
       "ticker": "NVDA",
       "delivered": true,
       "reason": "",
-      "headline": "NVDA — 9 channels did own work",
+      "headline": "NVDA \u2014 9 channels did own work",
       "key": "watch:NVDA:26ebbb4f37"
     },
     {
@@ -846,7 +846,7 @@
       "ticker": "NBIS",
       "delivered": true,
       "reason": "",
-      "headline": "NBIS — 7 channels did own work",
+      "headline": "NBIS \u2014 7 channels did own work",
       "key": "watch:NBIS:3cd2455960"
     },
     {
@@ -856,7 +856,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 6 channels did own work",
+      "headline": "GOOGL \u2014 6 channels did own work",
       "key": "watch:GOOGL:896ed30593"
     },
     {
@@ -866,7 +866,7 @@
       "ticker": "MSFT",
       "delivered": true,
       "reason": "",
-      "headline": "MSFT — 8 channels did own work",
+      "headline": "MSFT \u2014 8 channels did own work",
       "key": "watch:MSFT:9dd90ac09a"
     },
     {
@@ -876,7 +876,7 @@
       "ticker": "AAPL",
       "delivered": true,
       "reason": "",
-      "headline": "AAPL — 4 channels did own work",
+      "headline": "AAPL \u2014 4 channels did own work",
       "key": "watch:AAPL:4433340496"
     },
     {
@@ -886,7 +886,7 @@
       "ticker": "CRWV",
       "delivered": true,
       "reason": "",
-      "headline": "CRWV — 7 channels did own work",
+      "headline": "CRWV \u2014 7 channels did own work",
       "key": "watch:CRWV:8a976f3d46"
     },
     {
@@ -896,7 +896,7 @@
       "ticker": "CRWD",
       "delivered": true,
       "reason": "",
-      "headline": "CRWD — 3 channels did own work",
+      "headline": "CRWD \u2014 3 channels did own work",
       "key": "watch:CRWD:aeb34e4b1c"
     },
     {
@@ -906,7 +906,7 @@
       "ticker": "NFLX",
       "delivered": true,
       "reason": "",
-      "headline": "NFLX — 3 channels did own work",
+      "headline": "NFLX \u2014 3 channels did own work",
       "key": "watch:NFLX:fccebef02d"
     },
     {
@@ -916,7 +916,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 2 channels did own work, developing",
+      "headline": "NOW \u2014 2 channels did own work, developing",
       "key": "watch:NOW:07b97d7b03"
     },
     {
@@ -926,7 +926,7 @@
       "ticker": "HOOD",
       "delivered": true,
       "reason": "",
-      "headline": "HOOD — 3 channels did own work",
+      "headline": "HOOD \u2014 3 channels did own work",
       "key": "watch:HOOD:5b66537264"
     },
     {
@@ -936,7 +936,7 @@
       "ticker": "WDC",
       "delivered": true,
       "reason": "",
-      "headline": "WDC — 2 channels did own work",
+      "headline": "WDC \u2014 2 channels did own work",
       "key": "watch:WDC:b7576b365c"
     },
     {
@@ -946,7 +946,7 @@
       "ticker": "GEV",
       "delivered": true,
       "reason": "",
-      "headline": "GEV — 2 channels did own work",
+      "headline": "GEV \u2014 2 channels did own work",
       "key": "watch:GEV:96b9d38f30"
     },
     {
@@ -956,7 +956,7 @@
       "ticker": "AMD",
       "delivered": true,
       "reason": "",
-      "headline": "AMD — 4 channels did own work",
+      "headline": "AMD \u2014 4 channels did own work",
       "key": "watch:AMD:d28c2ef24e"
     },
     {
@@ -966,7 +966,7 @@
       "ticker": "ORCL",
       "delivered": true,
       "reason": "",
-      "headline": "ORCL — 3 channels did own work",
+      "headline": "ORCL \u2014 3 channels did own work",
       "key": "watch:ORCL:b173b76e9c"
     },
     {
@@ -976,7 +976,7 @@
       "ticker": "AMZN",
       "delivered": true,
       "reason": "",
-      "headline": "AMZN — 5 channels did own work, forward catalyst",
+      "headline": "AMZN \u2014 5 channels did own work, forward catalyst",
       "key": "watch:AMZN:08ca1d2c65"
     },
     {
@@ -986,7 +986,7 @@
       "ticker": "NFLX",
       "delivered": true,
       "reason": "",
-      "headline": "NFLX — 4 channels did own work",
+      "headline": "NFLX \u2014 4 channels did own work",
       "key": "watch:NFLX:42c976e74d"
     },
     {
@@ -996,7 +996,7 @@
       "ticker": "VZ",
       "delivered": true,
       "reason": "",
-      "headline": "VZ — 3 channels did own work",
+      "headline": "VZ \u2014 3 channels did own work",
       "key": "watch:VZ:fc66d1dda7"
     },
     {
@@ -1006,7 +1006,7 @@
       "ticker": "UBER",
       "delivered": true,
       "reason": "",
-      "headline": "UBER — 2 channels did own work, developing",
+      "headline": "UBER \u2014 2 channels did own work, developing",
       "key": "watch:UBER:f33fed9026"
     },
     {
@@ -1016,7 +1016,7 @@
       "ticker": "SOFI",
       "delivered": true,
       "reason": "",
-      "headline": "SOFI — 2 channels did own work, developing",
+      "headline": "SOFI \u2014 2 channels did own work, developing",
       "key": "watch:SOFI:dc423237ce"
     },
     {
@@ -1026,7 +1026,7 @@
       "ticker": "NOK",
       "delivered": true,
       "reason": "",
-      "headline": "NOK — 2 channels did own work, developing",
+      "headline": "NOK \u2014 2 channels did own work, developing",
       "key": "watch:NOK:e5c6d2b906"
     },
     {
@@ -1036,7 +1036,7 @@
       "ticker": "EWZ",
       "delivered": true,
       "reason": "",
-      "headline": "EWZ — 2 channels did own work, developing",
+      "headline": "EWZ \u2014 2 channels did own work, developing",
       "key": "watch:EWZ:1cd058510a"
     },
     {
@@ -1046,7 +1046,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 3 channels did own work",
+      "headline": "NOW \u2014 3 channels did own work",
       "key": "watch:NOW:2ba182134e"
     },
     {
@@ -1056,7 +1056,7 @@
       "ticker": "AMZN",
       "delivered": true,
       "reason": "",
-      "headline": "AMZN — 6 channels did own work, forward catalyst",
+      "headline": "AMZN \u2014 6 channels did own work, forward catalyst",
       "key": "watch:AMZN:43c6bba213"
     },
     {
@@ -1066,7 +1066,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 7 channels did own work",
+      "headline": "GOOGL \u2014 7 channels did own work",
       "key": "watch:GOOGL:334fd9c4af"
     },
     {
@@ -1076,7 +1076,7 @@
       "ticker": "HOOD",
       "delivered": true,
       "reason": "",
-      "headline": "HOOD — 4 channels did own work",
+      "headline": "HOOD \u2014 4 channels did own work",
       "key": "watch:HOOD:e35321c5dd"
     },
     {
@@ -1086,7 +1086,7 @@
       "ticker": "TSLA",
       "delivered": true,
       "reason": "",
-      "headline": "TSLA — 7 channels did own work",
+      "headline": "TSLA \u2014 7 channels did own work",
       "key": "watch:TSLA:7ca8906d01"
     },
     {
@@ -1096,7 +1096,7 @@
       "ticker": "TMO",
       "delivered": true,
       "reason": "",
-      "headline": "TMO — 2 channels did own work, developing",
+      "headline": "TMO \u2014 2 channels did own work, developing",
       "key": "watch:TMO:b2871c407a"
     },
     {
@@ -1106,7 +1106,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 2 channels did own work, developing",
+      "headline": "LLY \u2014 2 channels did own work, developing",
       "key": "watch:LLY:b7c887db7b"
     },
     {
@@ -1116,7 +1116,7 @@
       "ticker": "VRT",
       "delivered": true,
       "reason": "",
-      "headline": "VRT — 3 channels did own work",
+      "headline": "VRT \u2014 3 channels did own work",
       "key": "watch:VRT:eb6356b8d4"
     },
     {
@@ -1126,7 +1126,7 @@
       "ticker": "AXP",
       "delivered": true,
       "reason": "",
-      "headline": "AXP — 2 channels did own work",
+      "headline": "AXP \u2014 2 channels did own work",
       "key": "watch:AXP:5cc83aa8d9"
     },
     {
@@ -1136,7 +1136,7 @@
       "ticker": "BE",
       "delivered": true,
       "reason": "",
-      "headline": "BE — 2 channels did own work",
+      "headline": "BE \u2014 2 channels did own work",
       "key": "watch:BE:54e2d1b82b"
     },
     {
@@ -1146,7 +1146,7 @@
       "ticker": "RKLB",
       "delivered": true,
       "reason": "",
-      "headline": "RKLB — 2 channels did own work, developing",
+      "headline": "RKLB \u2014 2 channels did own work, developing",
       "key": "watch:RKLB:17de1fedde"
     },
     {
@@ -1156,7 +1156,7 @@
       "ticker": "INTC",
       "delivered": true,
       "reason": "",
-      "headline": "INTC — 4 channels did own work, forward catalyst",
+      "headline": "INTC \u2014 4 channels did own work, forward catalyst",
       "key": "watch:INTC:fdb0bc13e1"
     },
     {
@@ -1166,7 +1166,7 @@
       "ticker": "SBUX",
       "delivered": true,
       "reason": "",
-      "headline": "SBUX — 3 channels did own work, developing",
+      "headline": "SBUX \u2014 3 channels did own work, developing",
       "key": "watch:SBUX:9f3a841da4"
     },
     {
@@ -1176,7 +1176,7 @@
       "ticker": "SNDK",
       "delivered": true,
       "reason": "",
-      "headline": "SNDK — 2 channels did own work, developing",
+      "headline": "SNDK \u2014 2 channels did own work, developing",
       "key": "watch:SNDK:f3b2a4ab5d"
     },
     {
@@ -1186,7 +1186,7 @@
       "ticker": "RDDT",
       "delivered": true,
       "reason": "",
-      "headline": "RDDT — 2 channels did own work, developing",
+      "headline": "RDDT \u2014 2 channels did own work, developing",
       "key": "watch:RDDT:e7fb1e6794"
     },
     {
@@ -1196,7 +1196,7 @@
       "ticker": "CAT",
       "delivered": true,
       "reason": "",
-      "headline": "CAT — 2 channels did own work, developing",
+      "headline": "CAT \u2014 2 channels did own work, developing",
       "key": "watch:CAT:0929af974e"
     },
     {
@@ -1206,7 +1206,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 4 channels did own work, forward catalyst",
+      "headline": "NOW \u2014 4 channels did own work, forward catalyst",
       "key": "watch:NOW:d2d8f898df"
     },
     {
@@ -1216,7 +1216,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 3 channels did own work, developing",
+      "headline": "LLY \u2014 3 channels did own work, developing",
       "key": "watch:LLY:daddd3224c"
     },
     {
@@ -1226,7 +1226,7 @@
       "ticker": "TMO",
       "delivered": true,
       "reason": "",
-      "headline": "TMO — 3 channels did own work",
+      "headline": "TMO \u2014 3 channels did own work",
       "key": "watch:TMO:5646509fef"
     },
     {
@@ -1236,7 +1236,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 6 channels did own work, forward catalyst",
+      "headline": "NOW \u2014 6 channels did own work, forward catalyst",
       "key": "watch:NOW:b7fcf6cc65"
     },
     {
@@ -1246,7 +1246,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 4 channels did own work, developing",
+      "headline": "LLY \u2014 4 channels did own work, developing",
       "key": "watch:LLY:936f281c70"
     },
     {
@@ -1256,7 +1256,7 @@
       "ticker": "ORCL",
       "delivered": true,
       "reason": "",
-      "headline": "ORCL — 5 channels did own work",
+      "headline": "ORCL \u2014 5 channels did own work",
       "key": "watch:ORCL:4641f7b14a"
     },
     {
@@ -1266,7 +1266,7 @@
       "ticker": "AMD",
       "delivered": true,
       "reason": "",
-      "headline": "AMD — 5 channels did own work",
+      "headline": "AMD \u2014 5 channels did own work",
       "key": "watch:AMD:2e08744908"
     },
     {
@@ -1276,7 +1276,7 @@
       "ticker": "IOVA",
       "delivered": true,
       "reason": "",
-      "headline": "IOVA — 2 channels did own work, developing",
+      "headline": "IOVA \u2014 2 channels did own work, developing",
       "key": "watch:IOVA:07980c9203"
     },
     {
@@ -1286,7 +1286,7 @@
       "ticker": "INTC",
       "delivered": true,
       "reason": "",
-      "headline": "INTC — 5 channels did own work, forward catalyst",
+      "headline": "INTC \u2014 5 channels did own work, forward catalyst",
       "key": "watch:INTC:8af171a8b6"
     },
     {
@@ -1296,7 +1296,7 @@
       "ticker": "META",
       "delivered": true,
       "reason": "",
-      "headline": "META — 9 channels did own work",
+      "headline": "META \u2014 9 channels did own work",
       "key": "watch:META:4bb110483f"
     },
     {
@@ -1306,7 +1306,7 @@
       "ticker": "NVDA",
       "delivered": true,
       "reason": "",
-      "headline": "NVDA — 9 channels did own work",
+      "headline": "NVDA \u2014 9 channels did own work",
       "key": "watch:NVDA:26ebbb4f37"
     },
     {
@@ -1316,7 +1316,7 @@
       "ticker": "NBIS",
       "delivered": true,
       "reason": "",
-      "headline": "NBIS — 7 channels did own work",
+      "headline": "NBIS \u2014 7 channels did own work",
       "key": "watch:NBIS:3cd2455960"
     },
     {
@@ -1326,7 +1326,7 @@
       "ticker": "SBUX",
       "delivered": true,
       "reason": "",
-      "headline": "SBUX — 4 channels did own work, developing",
+      "headline": "SBUX \u2014 4 channels did own work, developing",
       "key": "watch:SBUX:534322bb96"
     },
     {
@@ -1336,7 +1336,7 @@
       "ticker": "LLY",
       "delivered": true,
       "reason": "",
-      "headline": "LLY — 5 channels did own work, forward catalyst",
+      "headline": "LLY \u2014 5 channels did own work, forward catalyst",
       "key": "watch:LLY:ae9d79694c"
     },
     {
@@ -1346,7 +1346,7 @@
       "ticker": "META",
       "delivered": true,
       "reason": "",
-      "headline": "META — 8 channels did own work",
+      "headline": "META \u2014 8 channels did own work",
       "key": "watch:META:e36ea00a0a"
     },
     {
@@ -1356,7 +1356,7 @@
       "ticker": "AAPL",
       "delivered": true,
       "reason": "",
-      "headline": "AAPL — 4 channels did own work",
+      "headline": "AAPL \u2014 4 channels did own work",
       "key": "watch:AAPL:4433340496"
     },
     {
@@ -1366,7 +1366,7 @@
       "ticker": "RDDT",
       "delivered": true,
       "reason": "",
-      "headline": "RDDT — 3 channels did own work, developing",
+      "headline": "RDDT \u2014 3 channels did own work, developing",
       "key": "watch:RDDT:06ddefbf79"
     },
     {
@@ -1376,7 +1376,7 @@
       "ticker": "CRWV",
       "delivered": true,
       "reason": "",
-      "headline": "CRWV — 7 channels did own work",
+      "headline": "CRWV \u2014 7 channels did own work",
       "key": "watch:CRWV:8a976f3d46"
     },
     {
@@ -1386,7 +1386,7 @@
       "ticker": "TSLA",
       "delivered": true,
       "reason": "",
-      "headline": "TSLA — 6 channels did own work",
+      "headline": "TSLA \u2014 6 channels did own work",
       "key": "watch:TSLA:1f40645bde"
     },
     {
@@ -1396,7 +1396,7 @@
       "ticker": "CRWD",
       "delivered": true,
       "reason": "",
-      "headline": "CRWD — 3 channels did own work",
+      "headline": "CRWD \u2014 3 channels did own work",
       "key": "watch:CRWD:aeb34e4b1c"
     },
     {
@@ -1406,7 +1406,7 @@
       "ticker": "SNDK",
       "delivered": true,
       "reason": "",
-      "headline": "SNDK — 4 channels did own work",
+      "headline": "SNDK \u2014 4 channels did own work",
       "key": "watch:SNDK:a11d7ae88c"
     },
     {
@@ -1416,7 +1416,7 @@
       "ticker": "AMD",
       "delivered": true,
       "reason": "",
-      "headline": "AMD — 6 channels did own work",
+      "headline": "AMD \u2014 6 channels did own work",
       "key": "watch:AMD:8cbb97ed04"
     },
     {
@@ -1426,7 +1426,7 @@
       "ticker": "WDC",
       "delivered": true,
       "reason": "",
-      "headline": "WDC — 2 channels did own work",
+      "headline": "WDC \u2014 2 channels did own work",
       "key": "watch:WDC:b7576b365c"
     },
     {
@@ -1436,7 +1436,7 @@
       "ticker": "NOW",
       "delivered": true,
       "reason": "",
-      "headline": "NOW — 7 channels did own work, forward catalyst",
+      "headline": "NOW \u2014 7 channels did own work, forward catalyst",
       "key": "watch:NOW:3dbf15cd28"
     },
     {
@@ -1446,7 +1446,7 @@
       "ticker": "INTC",
       "delivered": true,
       "reason": "",
-      "headline": "INTC — 7 channels did own work, forward catalyst",
+      "headline": "INTC \u2014 7 channels did own work, forward catalyst",
       "key": "watch:INTC:012bbb3b36"
     },
     {
@@ -1456,7 +1456,7 @@
       "ticker": "NVDA",
       "delivered": true,
       "reason": "",
-      "headline": "NVDA — 10 channels did own work",
+      "headline": "NVDA \u2014 10 channels did own work",
       "key": "watch:NVDA:463968e6dc"
     },
     {
@@ -1466,7 +1466,7 @@
       "ticker": "GOOGL",
       "delivered": true,
       "reason": "",
-      "headline": "GOOGL — 7 channels did own work",
+      "headline": "GOOGL \u2014 7 channels did own work",
       "key": "watch:GOOGL:334fd9c4af"
     },
     {
@@ -1476,8 +1476,68 @@
       "ticker": "AAPL",
       "delivered": true,
       "reason": "",
-      "headline": "AAPL — 5 channels did own work",
+      "headline": "AAPL \u2014 5 channels did own work",
       "key": "watch:AAPL:6608eda309"
+    },
+    {
+      "at": "2026-10-30T16:29:09.013422+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "AMZN \u2014 6 channels did own work",
+      "key": "watch:AMZN:43c6bba213"
+    },
+    {
+      "at": "2026-10-30T16:29:09.013422+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NFLX",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NFLX \u2014 4 channels did own work",
+      "key": "watch:NFLX:42c976e74d"
+    },
+    {
+      "at": "2026-10-30T16:29:09.013422+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "MRNA",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "MRNA \u2014 3 channels did own work, forward catalyst",
+      "key": "watch:MRNA:3429ac78bf"
+    },
+    {
+      "at": "2026-10-30T16:29:09.013422+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "VZ",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "VZ \u2014 3 channels did own work",
+      "key": "watch:VZ:fc66d1dda7"
+    },
+    {
+      "at": "2026-10-30T16:29:09.013422+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "HOOD",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "HOOD \u2014 4 channels did own work",
+      "key": "watch:HOOD:e35321c5dd"
+    },
+    {
+      "at": "2026-10-30T16:29:09.013422+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "NOW, INTC, LLY, NVDA, META",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "175 ticker(s) tracked / 93 signal(s) resolved",
+      "key": "digest:all:7183f1654f"
     }
   ],
   "ops": {},

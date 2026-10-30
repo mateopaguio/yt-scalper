@@ -11,10 +11,136 @@
       "source_type": "video"
     },
     "attempts": 8,
-    "throttled": 0,
+    "throttled": 1,
     "first_seen": "2026-10-29T18:22:50.563576+00:00",
-    "eligible_since": "2026-10-29T18:22:50.563576+00:00",
-    "last_attempt": "2026-10-30T11:11:13.064606+00:00",
-    "reason": "no captions yet (TranscriptsDisabled)"
+    "eligible_since": "2026-10-30T16:25:11.505428+00:00",
+    "last_attempt": "2026-10-30T16:25:11.505428+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "5JcJ4ITZxAY",
+      "title": "Beware SPX Trap Door if Selling Steepens, GOOGL \"Death Cross\"",
+      "channel": "Schwab Network",
+      "published": "2026-10-30T16:00:37+00:00",
+      "url": "https://www.youtube.com/watch?v=5JcJ4ITZxAY",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:25:36.056930+00:00",
+    "eligible_since": "2026-10-30T16:25:36.056930+00:00",
+    "last_attempt": "2026-10-30T16:25:36.056930+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "q7HB8-UZTzY",
+      "title": "$6.3 billion Binance hack is largest crypto theft on record",
+      "channel": "CNBC Television",
+      "published": "2026-10-30T16:00:27+00:00",
+      "url": "https://www.youtube.com/watch?v=q7HB8-UZTzY",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:26:01.060358+00:00",
+    "eligible_since": "2026-10-30T16:26:01.060358+00:00",
+    "last_attempt": "2026-10-30T16:26:01.060358+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "tdpioilSqOI",
+      "title": "ExxonMobil CEO Darren Woods: 'Refining capacity is very tight today'",
+      "channel": "CNBC Television",
+      "published": "2026-10-30T15:45:17+00:00",
+      "url": "https://www.youtube.com/watch?v=tdpioilSqOI",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:26:27.320735+00:00",
+    "eligible_since": "2026-10-30T16:26:27.320735+00:00",
+    "last_attempt": "2026-10-30T16:26:27.320735+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "qdtKiFU2Pns",
+      "title": "Binance loses $6.3 billion in the biggest crypto heist ever | The 8:30",
+      "channel": "Yahoo Finance",
+      "published": "2026-10-30T15:43:26+00:00",
+      "url": "https://www.youtube.com/watch?v=qdtKiFU2Pns",
+      "tier": 1,
+      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:26:52.849673+00:00",
+    "eligible_since": "2026-10-30T16:26:52.849673+00:00",
+    "last_attempt": "2026-10-30T16:26:52.849673+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "1ddmTN2PZJc",
+      "title": "Apple's MacBook Pro PROLED XDR Display is reportedly the lightest laptop Apple has made yet. 💻",
+      "channel": "Yahoo Finance",
+      "published": "2026-10-30T15:30:54+00:00",
+      "url": "https://www.youtube.com/watch?v=1ddmTN2PZJc",
+      "tier": 1,
+      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:27:18.018771+00:00",
+    "eligible_since": "2026-10-30T16:27:18.018771+00:00",
+    "last_attempt": "2026-10-30T16:27:18.018771+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "Qii6wbOnA7M",
+      "title": "The best way to carve a pumpkin, according to Jackolanterns.com president",
+      "channel": "CNBC Television",
+      "published": "2026-10-30T15:30:33+00:00",
+      "url": "https://www.youtube.com/watch?v=Qii6wbOnA7M",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:27:43.121498+00:00",
+    "eligible_since": "2026-10-30T16:27:43.121498+00:00",
+    "last_attempt": "2026-10-30T16:27:43.121498+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "16NvieQPEDE",
+      "title": "INTC Hits 6-Month Lows: Why Earnings Sparked Stock Selloff",
+      "channel": "Schwab Network",
+      "published": "2026-10-30T15:30:13+00:00",
+      "url": "https://www.youtube.com/watch?v=16NvieQPEDE",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-10-30T16:28:08.274306+00:00",
+    "eligible_since": "2026-10-30T16:28:08.274306+00:00",
+    "last_attempt": "2026-10-30T16:28:08.274306+00:00",
+    "reason": "YouTube blocked the request from this IP"
   }
 ]
