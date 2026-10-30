@@ -171,15 +171,21 @@ def main() -> int:
     idx_m = index.stat().st_mtime
     tickers_dir = DOCS / "ticker"
     pages = sorted(tickers_dir.glob("*.html")) if tickers_dir.exists() else []
+    # Only pages the index LINKS to. A ticker that drops out of the
+    # coverage window keeps its page, and those orphans are as old as
+    # the day they fell off - measuring them reported a 43-hour drift
+    # while every live page was current.
+    linked_now = set(re.findall(r'href="ticker/([^"]+)\.html"', html))
+    live = [p for p in pages if p.stem in linked_now] or pages
     if pages:
-        oldest = min(p.stat().st_mtime for p in pages)
+        oldest = min(p.stat().st_mtime for p in live)
         drift_h = (idx_m - oldest) / 3600
-        notes.append(f"ticker pages  : {len(pages)}, oldest is "
-                     f"{drift_h:.1f}h behind index.html")
+        notes.append(f"ticker pages  : {len(live)} live / {len(pages)} on "
+                     f"disk, oldest live is {drift_h:.1f}h behind index.html")
         if drift_h > 2:
             problems.append(
-                f"{len(pages)} ticker page(s) up to {drift_h:.1f}h older than "
-                "index.html - --rebuild does not regenerate briefs")
+                f"{len(live)} live ticker page(s) up to {drift_h:.1f}h older "
+                "than index.html - they were not regenerated with it")
     else:
         problems.append("no ticker pages found")
 

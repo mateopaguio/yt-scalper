@@ -346,7 +346,7 @@
       "headline": "AMZN — 6 channels did own work, forward catalyst"
     },
     "watch:GOOGL:334fd9c4af": {
-      "at": "2026-10-29T12:41:35.467539+00:00",
+      "at": "2026-10-30T13:27:24.525068+00:00",
       "runner": "local",
       "tier": "watchlist",
       "ticker": "GOOGL",
@@ -560,6 +560,42 @@
       "delivered": true,
       "reason": "",
       "headline": "AMD — 6 channels did own work"
+    },
+    "watch:NOW:3dbf15cd28": {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 7 channels did own work, forward catalyst"
+    },
+    "watch:INTC:012bbb3b36": {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": true,
+      "reason": "",
+      "headline": "INTC — 7 channels did own work, forward catalyst"
+    },
+    "watch:NVDA:463968e6dc": {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": true,
+      "reason": "",
+      "headline": "NVDA — 10 channels did own work"
+    },
+    "watch:AAPL:6608eda309": {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AAPL",
+      "delivered": true,
+      "reason": "",
+      "headline": "AAPL — 5 channels did own work"
     }
   },
   "history": [
@@ -1392,6 +1428,56 @@
       "reason": "",
       "headline": "WDC — 2 channels did own work",
       "key": "watch:WDC:b7576b365c"
+    },
+    {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": true,
+      "reason": "",
+      "headline": "NOW — 7 channels did own work, forward catalyst",
+      "key": "watch:NOW:3dbf15cd28"
+    },
+    {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": true,
+      "reason": "",
+      "headline": "INTC — 7 channels did own work, forward catalyst",
+      "key": "watch:INTC:012bbb3b36"
+    },
+    {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": true,
+      "reason": "",
+      "headline": "NVDA — 10 channels did own work",
+      "key": "watch:NVDA:463968e6dc"
+    },
+    {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": true,
+      "reason": "",
+      "headline": "GOOGL — 7 channels did own work",
+      "key": "watch:GOOGL:334fd9c4af"
+    },
+    {
+      "at": "2026-10-30T13:27:24.525068+00:00",
+      "runner": "local",
+      "tier": "watchlist",
+      "ticker": "AAPL",
+      "delivered": true,
+      "reason": "",
+      "headline": "AAPL — 5 channels did own work",
+      "key": "watch:AAPL:6608eda309"
     }
   ],
   "ops": {},
@@ -1433,7 +1519,7 @@
   "watch:EWZ:1cd058510a": "2026-10-29T11:29:08.588684+00:00",
   "watch:NOW:2ba182134e": "2026-10-29T11:29:08.588684+00:00",
   "watch:AMZN:43c6bba213": "2026-10-29T12:41:35.470392+00:00",
-  "watch:GOOGL:334fd9c4af": "2026-10-29T12:41:35.470392+00:00",
+  "watch:GOOGL:334fd9c4af": "2026-10-30T13:27:24.527448+00:00",
   "watch:HOOD:e35321c5dd": "2026-10-29T12:41:35.470392+00:00",
   "watch:LLY:b7c887db7b": "2026-10-29T18:31:53.051479+00:00",
   "watch:INTC:fdb0bc13e1": "2026-10-29T21:18:11.610426+00:00",
@@ -1456,5 +1542,9 @@
   "watch:RDDT:06ddefbf79": "2026-10-30T07:17:27.491054+00:00",
   "watch:TSLA:1f40645bde": "2026-10-30T09:29:36.864686+00:00",
   "watch:SNDK:a11d7ae88c": "2026-10-30T09:29:36.864686+00:00",
-  "watch:AMD:8cbb97ed04": "2026-10-30T09:29:36.864686+00:00"
+  "watch:AMD:8cbb97ed04": "2026-10-30T09:29:36.864686+00:00",
+  "watch:NOW:3dbf15cd28": "2026-10-30T13:27:24.527448+00:00",
+  "watch:INTC:012bbb3b36": "2026-10-30T13:27:24.527448+00:00",
+  "watch:NVDA:463968e6dc": "2026-10-30T13:27:24.527448+00:00",
+  "watch:AAPL:6608eda309": "2026-10-30T13:27:24.527448+00:00"
 }

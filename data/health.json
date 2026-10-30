@@ -463,10 +463,10 @@
       "id": "2026-10-30T11:10:57.608358+00:00|12146",
       "started": "2026-10-30T11:10:57.608547+00:00",
       "trigger": "scheduled",
-      "finished": null,
-      "ok": null,
-      "error": null,
-      "ingested": null
+      "finished": "2026-10-30T13:27:24.888577+00:00",
+      "ok": true,
+      "error": "",
+      "ingested": 7
     },
     {
       "id": "2026-10-30T13:24:21.414841+00:00|9",

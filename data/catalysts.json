@@ -1,5 +1,77 @@
 [
   {
+    "event_id": "cat_c2f7dd8abd0c4f",
+    "title": "S7B Nonclinical Evaluation of the Potential for Delayed Ventricular Repolarization (QT Interval Prolongation) by Human Pharmaceuticals",
+    "source": "FDA Drugs",
+    "published": "2026-10-30T08:51:27-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/s7b-nonclinical-evaluation-potential-delayed-ventricular-repolarization-qt-interval-prolongation",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "regulatory_action",
+      "summary": "FDA published a guidance document titled S7B Nonclinical Evaluation of the Potential for Delayed Ventricular Repolarization (QT Interval Prolongation) by Human Pharmaceuticals. Only the headline was retrieved, so the body text and any specific content are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_c2f7dd8abd0c4f",
+    "title": "S7B Nonclinical Evaluation of the Potential for Delayed Ventricular Repolarization (QT Interval Prolongation) by Human Pharmaceuticals",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-10-30T08:51:27-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/s7b-nonclinical-evaluation-potential-delayed-ventricular-repolarization-qt-interval-prolongation",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "is_market_relevant": false,
+      "summary": "FDA published a guidance document page for S7B, a nonclinical evaluation of delayed ventricular repolarization (QT interval prolongation) for human pharmaceuticals. Only the headline was retrieved; no body text was available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_e7f8bcebfb9e1c",
+    "title": "E14 Clinical Evaluation of QT/QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs",
+    "source": "FDA Drugs",
+    "published": "2026-10-30T08:51:05-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/e14-clinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic-potential-non-antiarrhythmic-0",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "regulatory_action",
+      "summary": "FDA posted a guidance document page titled \"E14 Clinical Evaluation of QT/QTc Interval Prolongation and Proarrhythmic Potential for Non-Antiarrhythmic Drugs.\" Only the headline was retrieved, so the content and any substantive changes are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_ba2c6f56b15d6f",
+    "title": "E14 and S7B Clinical and Nonclinical Evaluation of QT/QTc Interval Prolongation and Proarrhythmic Potential--Questions and Answers (R1)",
+    "source": "FDA Drugs",
+    "published": "2026-10-30T08:47:34-04:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/e14-and-s7b-clinical-and-nonclinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "summary": "FDA published a revised (R1) Questions and Answers guidance document on clinical and nonclinical evaluation of QT/QTc interval prolongation and proarrhythmic potential (ICH E14 and S7B). Only the headline was retrieved, so the content is unverified.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
     "event_id": "cat_b333ce1d859be0",
     "title": "Procleix Babesia Assay",
     "source": "FDA Biologics and Vaccines",
