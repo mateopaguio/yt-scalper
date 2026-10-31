@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T01:21:40.129256+00:00",
-  "video_count": 149,
+  "generated_at": "2026-10-31T07:54:04.953305+00:00",
+  "video_count": 145,
   "videos": [
     {
       "video_id": "muRRx9tfNyU",
@@ -10447,126 +10447,6 @@
           "macro_points": 4,
           "off_topic_title": false,
           "macro_language": false,
-          "analysed": true
-        },
-        "reason": "market commentary without a specific name"
-      }
-    },
-    {
-      "video_id": "3fCwRW87470",
-      "title": "Power On: Apple’s iPhone Duo Is Here — But Good Luck Finding One",
-      "channel": "Bloomberg Television",
-      "published": "2026-10-24T06:45:11+00:00",
-      "url": "https://www.youtube.com/watch?v=3fCwRW87470",
-      "tier": 1,
-      "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-      "source_type": "video",
-      "findings": null,
-      "skip_reason": "content too short",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 0,
-          "off_topic_title": false,
-          "macro_language": false,
-          "analysed": false
-        },
-        "reason": "not analysed yet - unknown, not irrelevant"
-      }
-    },
-    {
-      "video_id": "77w1_D1k-BA",
-      "title": "America's Changing Image in India",
-      "channel": "Bloomberg Television",
-      "published": "2026-10-24T05:45:09+00:00",
-      "url": "https://www.youtube.com/watch?v=77w1_D1k-BA",
-      "tier": 1,
-      "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-      "source_type": "video",
-      "findings": null,
-      "skip_reason": "content too short",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 0,
-          "off_topic_title": false,
-          "macro_language": false,
-          "analysed": false
-        },
-        "reason": "not analysed yet - unknown, not irrelevant"
-      }
-    },
-    {
-      "video_id": "yiKknSMnKQc",
-      "title": "Michael Palin on Still Traveling the World at 83",
-      "channel": "Bloomberg Television",
-      "published": "2026-10-24T04:00:20+00:00",
-      "url": "https://www.youtube.com/watch?v=yiKknSMnKQc",
-      "tier": 1,
-      "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-      "source_type": "video",
-      "findings": null,
-      "skip_reason": "content too short",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 0,
-          "off_topic_title": false,
-          "macro_language": false,
-          "analysed": false
-        },
-        "reason": "not analysed yet - unknown, not irrelevant"
-      }
-    },
-    {
-      "video_id": "dMS_umblaFU",
-      "title": "Canary in the Coal Mine: Is $CRWV Warning the AI Trade? | PreMarket Playbook | October 23, 2026",
-      "channel": "Benzinga",
-      "published": "2026-10-24T02:26:17+00:00",
-      "url": "https://www.youtube.com/watch?v=dMS_umblaFU",
-      "tier": 1,
-      "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
-      "source_type": "video",
-      "findings": {
-        "summary": "A pre-market trading show (Benzinga \"PreMarket Prep\") that recaps Thursday's Nasdaq selloff, the day's movers, and a chatty, real-time trading session. The hosts discuss CoreWeave as a \"canary in the coal mine\" for AI-related trades, Meta and Micron technicals, SpaceX's reported push into cell-tower leasing, and Moderna's phase three melanoma news. Much of the content is intraday options trades the hosts made or recommended (including a Moderna call trade and an APLD put \"hedge\"), plus discussion of Fed timing and election-cycle volatility mostly as opinion, with little supporting data.",
-        "overall_stance": "mixed",
-        "hype_level": 4,
-        "discloses_position": true,
-        "promotional": true,
-        "macro_points": [
-          "Nasdaq fell more than 2.5% the prior day while the Dow rose, which the hosts read as a flight to safety.",
-          "Oil above $110 amid Middle East tensions; hosts discuss possible US military action against Iran.",
-          "10-year Treasury yield around 4.98% and 2-year around 4.67%; the bond move was described as a big flow out of equities.",
-          "Markets priced roughly 90% odds the Fed holds rates at its October meeting; hosts expect no hike and see the Fed announcement as a volatility event.",
-          "Hosts argue the election cycle is not pricing in much volatility and expect a divided government outcome after the November 3 election.",
-          "Hosts see the AI data center build-out financing (e.g., CoreWeave debt) as a systemic risk; one host compares it to a Ponzi-style dependence on continuing inflows, while acknowledging he is not claiming it is one."
-        ],
-        "red_flags": [
-          "Host is a paid-subscription service operator ('I do have a subscription', a trading room with '50 eyes') and recommends trades live to chat followers, making the show promotional.",
-          "Host and guests repeatedly disclose positions taken in the same stocks they discuss (Moderna calls and shares, Meta call spread, APLD puts, SpaceX long, Netflix calls, BKYI), creating conflict of interest.",
-          "Heavy options speculation on intraday moves, including 0DTE and weekly calls, with the host saying he sometimes breaks his own rules.",
-          "Penny-stock promotion: BKYI (trading at about $0.42, market cap about $5.5 million), YMAT, and TANH were discussed as movers, with an explicit 'maybe I'll grab some' comment, and a guest discussed a penny-stock volume pattern.",
-          "Host openly admits he 'can't trade scared' and was chasing moves intraday, with losses on several trades (e.g., ASTS puts, Moderna shares).",
-          "Claims of past profits ('thousands of dollars', 'best trade', '$4,000') are anecdotal and unverified, with no risk discussion on position sizing for options.",
-          "A 'trade with conviction' talk alongside a repeated dismissal of risk ('don't do anything dumb') without any stated stop or sizing framework for the listed options trades.",
-          "Speculative and unsupported macro claims, such as the military-background theory of congressional behavior and suggestions about the Fed 'rattling the sack', are opinion presented as analysis.",
-          "Non-financial commentary (politics, personal anecdotes) takes up a large share of the runtime."
-        ]
-      },
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 6,
-          "off_topic_title": false,
-          "macro_language": true,
           "analysed": true
         },
         "reason": "market commentary without a specific name"
@@ -84583,21 +84463,6 @@
         "is_new": false
       },
       {
-        "ticker": "LLY",
-        "recent_mentions": 1,
-        "prior_per_day": 0.67,
-        "lift": 0.33,
-        "channels": [
-          "Benzinga"
-        ],
-        "evidence_counts": {
-          "data": 3,
-          "reasoned": 2
-        },
-        "quality": 8.0,
-        "is_new": false
-      },
-      {
         "ticker": "AMD",
         "recent_mentions": 1,
         "prior_per_day": 1.0,
@@ -84831,19 +84696,6 @@
         "sector": "financials",
         "channel": "Schwab Network",
         "thesis": "The CEO argues the firm's commitment to registered investment advisors, its breadth of capabilities, and its growing retail trading and new-investor base position it well. He credits its AI tools as complementing human advisors and says the firm is ready for market volatility.",
-        "breakout_signal": "none"
-      },
-      {
-        "ticker": "AS",
-        "first_seen": "2026-10-29T03:59:42+00:00",
-        "quality": 2.0,
-        "evidence_counts": {
-          "data": 1
-        },
-        "company": "Amer Sports",
-        "sector": "consumer discretionary",
-        "channel": "Benzinga",
-        "thesis": "Host discusses a short 40 put position he covered for a small gain after a brief test of lower levels; no forward view stated.",
         "breakout_signal": "none"
       },
       {
@@ -85474,86 +85326,19 @@
   },
   "signal_log": {
     "created": [],
-    "updated": [
-      {
-        "ticker": "CRWV",
-        "id": "CRWV-ed10bd92e4b5",
-        "reason": "freshness state changed",
-        "score": 3.913
-      },
-      {
-        "ticker": "AAPL",
-        "id": "AAPL-e501d0c4260b",
-        "reason": "score moved +5.87 -> +4.67",
-        "score": 4.674
-      },
-      {
-        "ticker": "LRCX",
-        "id": "LRCX-9ae7ddba1d34",
-        "reason": "veto status flipped",
-        "score": 3.0
-      },
-      {
-        "ticker": "ETH",
-        "id": "ETH-79fd3d70b979",
-        "reason": "freshness state changed",
-        "score": 3.0
-      },
-      {
-        "ticker": "SMH",
-        "id": "SMH-ac15a4cf2a7e",
-        "reason": "freshness state changed",
-        "score": 2.0
-      },
-      {
-        "ticker": "BTC",
-        "id": "BTC-50bd877ab4ae",
-        "reason": "freshness state changed",
-        "score": 2.0
-      },
-      {
-        "ticker": "GE",
-        "id": "GE-bf66309a0c08",
-        "reason": "freshness state changed",
-        "score": 1.0
-      },
-      {
-        "ticker": "TTWO",
-        "id": "TTWO-de063c004421",
-        "reason": "score moved +2.00 -> +0.50",
-        "score": 0.5
-      },
-      {
-        "ticker": "HYPE",
-        "id": "HYPE-d058c4c3a6ac",
-        "reason": "freshness state changed",
-        "score": -1.0
-      },
-      {
-        "ticker": "RTX",
-        "id": "RTX-7b54caa79ed7",
-        "reason": "freshness state changed",
-        "score": -1.0
-      },
-      {
-        "ticker": "EQIX",
-        "id": "EQIX-d7225c7e84c5",
-        "reason": "freshness state changed",
-        "score": -1.0
-      }
-    ],
-    "unchanged": 146,
+    "updated": [],
+    "unchanged": 157,
     "total": 352
   },
   "outcomes": {
-    "measured": 93,
-    "skipped": 3,
+    "measured": 120,
+    "skipped": 0,
     "fetch_failed": 0,
-    "no_entry_day": 31,
+    "no_entry_day": 4,
     "tickers_fetched": 40,
     "tickers_failed": [],
     "deferred": 222,
-    "benchmarked": 93,
+    "benchmarked": 120,
     "benchmarks_used": [
       "QQQ",
       "SPY"
@@ -85562,19 +85347,19 @@
   },
   "price_health": {
     "total_signals": 352,
-    "measured": 93,
-    "fetch_failed": 31,
+    "measured": 120,
+    "fetch_failed": 4,
     "skipped_non_equity": 6,
     "never_attempted": 222,
     "resolved_by_horizon": {
-      "1": 61,
+      "1": 93,
       "7": 0,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-10-31T01:21:40.195218+00:00",
+    "last_run": "2026-10-31T07:54:05.019861+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -89432,21 +89217,20 @@
     {
       "channel": "Benzinga",
       "current_tier": 1,
-      "videos": 9,
-      "promotional": 4,
-      "red_flags": 58,
+      "videos": 8,
+      "promotional": 3,
+      "red_flags": 49,
       "claims": 58,
       "unsupported_claims": 37,
       "no_disclosure": 5,
-      "avg_hype": 2.56,
-      "promotional_rate": 0.44,
-      "red_flags_per_video": 6.44,
+      "avg_hype": 2.38,
+      "promotional_rate": 0.38,
+      "red_flags_per_video": 6.12,
       "unsupported_rate": 0.64,
       "enough_data": true,
       "reasons": [
         "64% of claims unsupported",
-        "44% promotional",
-        "6.44 red flags per video"
+        "6.12 red flags per video"
       ],
       "nominated": true
     },
@@ -89640,245 +89424,245 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 400,
+        "bars": 401,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 508,
+        "bars": 509,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -89935,11 +89719,11 @@
   },
   "validation": {
     "census": {
-      "resolved": 61,
-      "unresolved": 254,
+      "resolved": 93,
+      "unresolved": 249,
       "stale": 0,
       "unpriceable": 6,
-      "failed": 31
+      "failed": 4
     },
     "buckets": {
       "resolved": [
@@ -90227,43 +90011,13 @@
       ],
       "failed": [
         {
-          "ticker": "MSFT",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 1
-        },
-        {
-          "ticker": "ORCL",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 1
-        },
-        {
-          "ticker": "AMD",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 1
-        },
-        {
-          "ticker": "LLY",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 1
-        },
-        {
-          "ticker": "SBUX",
+          "ticker": "CRWV",
           "state": "failed",
           "why": "no trading day at or after the recommendation date",
           "age_days": 0
         },
         {
-          "ticker": "AMD",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 0
-        },
-        {
-          "ticker": "LLY",
+          "ticker": "AAPL",
           "state": "failed",
           "why": "no trading day at or after the recommendation date",
           "age_days": 0
@@ -90275,25 +90029,7 @@
           "age_days": 0
         },
         {
-          "ticker": "IBM",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 0
-        },
-        {
-          "ticker": "WDC",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 0
-        },
-        {
-          "ticker": "BE",
-          "state": "failed",
-          "why": "no trading day at or after the recommendation date",
-          "age_days": 0
-        },
-        {
-          "ticker": "NVDA",
+          "ticker": "TTWO",
           "state": "failed",
           "why": "no trading day at or after the recommendation date",
           "age_days": 0
@@ -90301,60 +90037,61 @@
       ]
     },
     "concentration": {
-      "observations": 93,
-      "distinct_days": 4,
+      "observations": 120,
+      "distinct_days": 5,
       "by_day": {
         "2026-10-26": 47,
         "2026-10-27": 5,
         "2026-10-28": 8,
-        "2026-10-29": 33
+        "2026-10-29": 33,
+        "2026-10-30": 27
       },
-      "largest_day_share": 0.505,
-      "effective_n": 4,
+      "largest_day_share": 0.392,
+      "effective_n": 5,
       "concentrated": false,
       "note": "Observations clustered on a few sessions share one market regime. The effective sample size is closer to the number of distinct days than to the number of signals."
     },
     "vs_spy_clustered": {
-      "mean": 0.465,
+      "mean": 0.097,
       "low": null,
       "high": null,
       "sessions": 4,
-      "observations": 61,
+      "observations": 93,
       "reportable": false,
       "note": "4 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
     },
     "raw_clustered": {
-      "mean": 0.846,
+      "mean": -0.263,
       "low": null,
       "high": null,
       "sessions": 4,
-      "observations": 61,
+      "observations": 93,
       "reportable": false,
       "note": "4 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
     },
     "raw": {
-      "mean": 0.846,
-      "low": -0.293,
-      "high": 1.955,
-      "n": 61,
+      "mean": -0.263,
+      "low": -1.229,
+      "high": 0.718,
+      "n": 93,
       "reportable": true,
       "straddles_zero": true,
       "note": "the interval includes zero, so this is consistent with no effect"
     },
     "vs_spy": {
-      "mean": 0.465,
-      "low": -0.622,
-      "high": 1.52,
-      "n": 61,
+      "mean": 0.097,
+      "low": -0.801,
+      "high": 0.983,
+      "n": 93,
       "reportable": true,
       "straddles_zero": true,
       "note": "the interval includes zero, so this is consistent with no effect"
     },
     "beat_spy": {
-      "rate": 54.1,
-      "low": 41.7,
-      "high": 66.0,
-      "n": 61,
+      "rate": 57.0,
+      "low": 46.8,
+      "high": 66.6,
+      "n": 93,
       "reportable": true,
       "note": ""
     },
@@ -90418,14 +90155,14 @@
       "out_of_sample": 106
     },
     "verdict": {
-      "claim": "Indicative only. 61 resolved; 100+ before any claim of edge.",
-      "resolved": 61,
+      "claim": "Indicative only. 93 resolved; 100+ before any claim of edge.",
+      "resolved": 93,
       "census": {
-        "resolved": 61,
-        "unresolved": 254,
+        "resolved": 93,
+        "unresolved": 249,
         "stale": 0,
         "unpriceable": 6,
-        "failed": 31
+        "failed": 4
       },
       "is_edge_claim": false
     }
@@ -90474,7 +90211,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.243327435659722
+          "age_days": 3.5158356603819447
         }
       },
       {
@@ -90518,7 +90255,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.200341324548611
+          "age_days": 4.472849549270833
         }
       },
       {
@@ -90577,7 +90314,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 4.365376046770833
+          "age_days": 4.637884271493056
         }
       },
       {
@@ -90621,7 +90358,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 4.5238482689930555
+          "age_days": 4.796356493715278
         }
       }
     ],
@@ -90659,7 +90396,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.24488993565972225
+          "age_days": 0.5173981603819444
         }
       },
       {
@@ -90693,7 +90430,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5216607689930556
+          "age_days": 0.7941689937152777
         }
       },
       {
@@ -90724,7 +90461,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5219153986226852
+          "age_days": 0.7944236233449073
         }
       },
       {
@@ -90755,7 +90492,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5243575282523149
+          "age_days": 0.796865752974537
         }
       },
       {
@@ -90786,7 +90523,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2072510467708333
+          "age_days": 1.4797592714930556
         }
       },
       {
@@ -90817,7 +90554,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.234843639363426
+          "age_days": 1.507351864085648
         }
       },
       {
@@ -90848,7 +90585,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2427024356597223
+          "age_days": 1.5152106603819444
         }
       },
       {
@@ -90879,7 +90616,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2486862319560186
+          "age_days": 1.5211944566782407
         }
       },
       {
@@ -90910,7 +90647,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2582579912152778
+          "age_days": 1.5307662159375
         }
       },
       {
@@ -90941,7 +90678,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2619732689930556
+          "age_days": 1.5344814937152778
         }
       },
       {
@@ -90972,7 +90709,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.291255676400463
+          "age_days": 1.5637639011226852
         }
       },
       {
@@ -91006,7 +90743,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2991723430671296
+          "age_days": 1.5716805677893517
         }
       },
       {
@@ -91037,7 +90774,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.299218639363426
+          "age_days": 1.571726864085648
         }
       },
       {
@@ -91068,7 +90805,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.3285704912152778
+          "age_days": 1.6010787159375
         }
       },
       {
@@ -91099,7 +90836,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.357505676400463
+          "age_days": 1.630013901122685
         }
       },
       {
@@ -91134,7 +90871,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.3611283615856482
+          "age_days": 1.6336365863078703
         }
       },
       {
@@ -91175,7 +90912,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.3720774356597223
+          "age_days": 1.6445856603819444
         }
       },
       {
@@ -91207,7 +90944,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4256769726967593
+          "age_days": 1.6981851974189814
         }
       },
       {
@@ -91238,7 +90975,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4702718801041668
+          "age_days": 1.742780104826389
         }
       },
       {
@@ -91269,7 +91006,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.486579750474537
+          "age_days": 1.7590879751967592
         }
       },
       {
@@ -91300,7 +91037,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.4888482689930556
+          "age_days": 1.7613564937152777
         }
       },
       {
@@ -91334,7 +91071,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5044848430671296
+          "age_days": 1.7769930677893517
         }
       },
       {
@@ -91365,7 +91102,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5377255838078705
+          "age_days": 1.8102338085300926
         }
       },
       {
@@ -91396,7 +91133,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.539241787511574
+          "age_days": 1.8117500122337962
         }
       },
       {
@@ -91427,7 +91164,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5398552134375
+          "age_days": 1.8123634381597222
         }
       },
       {
@@ -91458,7 +91195,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.540329750474537
+          "age_days": 1.8128379751967592
         }
       },
       {
@@ -91489,7 +91226,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5407579912152778
+          "age_days": 1.8132662159375
         }
       },
       {
@@ -91529,7 +91266,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 1.8907232689930555
+          "age_days": 2.1632314937152777
         }
       },
       {
@@ -91560,7 +91297,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 2.0655612319560186
+          "age_days": 2.3380694566782405
         }
       },
       {
@@ -91591,7 +91328,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.0656075282523148
+          "age_days": 2.338115752974537
         }
       },
       {
@@ -91622,7 +91359,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 2.3073899356597223
+          "age_days": 2.5798981603819446
         }
       },
       {
@@ -91653,7 +91390,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.2063482689930556
+          "age_days": 2.478856493715278
         }
       },
       {
@@ -91684,7 +91421,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.238801972696759
+          "age_days": 2.5113101974189815
         }
       },
       {
@@ -91715,7 +91452,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.241845954178241
+          "age_days": 2.514354178900463
         }
       },
       {
@@ -91749,7 +91486,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.2572626208449074
+          "age_days": 2.5297708455671297
         }
       },
       {
@@ -91784,7 +91521,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 2.2707348430671295
+          "age_days": 2.543243067789352
         }
       },
       {
@@ -91815,7 +91552,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3154802134375
+          "age_days": 2.587988438159722
         }
       },
       {
@@ -91846,7 +91583,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3405843801041666
+          "age_days": 2.613092604826389
         }
       },
       {
@@ -91880,7 +91617,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3869269726967595
+          "age_days": 2.6594351974189814
         }
       },
       {
@@ -91911,7 +91648,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.4093112319560186
+          "age_days": 2.6818194566782405
         }
       },
       {
@@ -91942,7 +91679,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.4390103060300925
+          "age_days": 2.711518530752315
         }
       },
       {
@@ -91973,7 +91710,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.4434778986226853
+          "age_days": 2.715986123344907
         }
       },
       {
@@ -92004,7 +91741,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.486464009733796
+          "age_days": 2.7589722344560186
         }
       },
       {
@@ -92036,7 +91773,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.145700120844907
+          "age_days": 3.41820834556713
         }
       },
       {
@@ -92072,7 +91809,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.303940861585648
+          "age_days": 3.576449086307871
         }
       },
       {
@@ -92104,7 +91841,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.3961052134374996
+          "age_days": 3.6686134381597224
         }
       },
       {
@@ -92139,7 +91876,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.4226445652893513
+          "age_days": 3.6951527900115746
         }
       },
       {
@@ -92172,7 +91909,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.4257232689930555
+          "age_days": 3.6982314937152783
         }
       },
       {
@@ -92204,7 +91941,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.426267250474537
+          "age_days": 3.6987754751967596
         }
       },
       {
@@ -92242,7 +91979,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.501753361585648
+          "age_days": 3.774261586307871
         }
       },
       {
@@ -92280,7 +92017,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.501753361585648
+          "age_days": 3.774261586307871
         }
       },
       {
@@ -92322,7 +92059,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.501764935659722
+          "age_days": 3.7742731603819446
         }
       },
       {
@@ -92360,7 +92097,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.501764935659722
+          "age_days": 3.7742731603819446
         }
       },
       {
@@ -92398,7 +92135,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.501764935659722
+          "age_days": 3.7742731603819446
         }
       },
       {
@@ -92436,7 +92173,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.501776509733796
+          "age_days": 3.774284734456019
         }
       },
       {
@@ -92474,7 +92211,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.501799657881944
+          "age_days": 3.774307882604167
         }
       },
       {
@@ -92512,7 +92249,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.5021121578819443
+          "age_days": 3.774620382604167
         }
       },
       {
@@ -92544,7 +92281,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.5142533615856477
+          "age_days": 3.7867615863078705
         }
       },
       {
@@ -92580,7 +92317,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.519924657881944
+          "age_days": 3.792432882604167
         }
       },
       {
@@ -92622,7 +92359,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.8907232689930553
+          "age_days": 4.163231493715278
         }
       },
       {
@@ -92654,7 +92391,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.191301972696759
+          "age_days": 4.463810197418982
         }
       },
       {
@@ -92686,7 +92423,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.222760306030092
+          "age_days": 4.495268530752315
         }
       },
       {
@@ -92718,7 +92455,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.223223268993055
+          "age_days": 4.495731493715278
         }
       },
       {
@@ -92760,7 +92497,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.290804287511574
+          "age_days": 4.5633125122337965
         }
       },
       {
@@ -92795,7 +92532,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.391568176400463
+          "age_days": 4.664076401122686
         }
       },
       {
@@ -92827,7 +92564,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.394635306030092
+          "age_days": 4.667143530752315
         }
       },
       {
@@ -92859,7 +92596,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.397204750474537
+          "age_days": 4.669712975196759
         }
       },
       {
@@ -92891,7 +92628,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.401626046770833
+          "age_days": 4.674134271493056
         }
       },
       {
@@ -92923,7 +92660,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.433755676400462
+          "age_days": 4.706263901122686
         }
       },
       {
@@ -92955,7 +92692,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.499450120844907
+          "age_days": 4.77195834556713
         }
       },
       {
@@ -92989,7 +92726,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.508639935659722
+          "age_days": 4.781148160381945
         }
       },
       {
@@ -93025,7 +92762,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.523257991215277
+          "age_days": 4.7957662159375
         }
       },
       {
@@ -93057,7 +92794,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.5233158615856475
+          "age_days": 4.795824086307871
         }
       },
       {
@@ -93089,7 +92826,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.523813546770833
+          "age_days": 4.796321771493056
         }
       },
       {
@@ -93126,7 +92863,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 4.523882991215277
+          "age_days": 4.796391215937501
         }
       },
       {
@@ -93158,7 +92895,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.528257991215278
+          "age_days": 4.8007662159375
         }
       },
       {
@@ -93191,7 +92928,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.532887620844907
+          "age_days": 4.80539584556713
         }
       },
       {
@@ -93223,7 +92960,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.537540398622685
+          "age_days": 4.810048623344907
         }
       },
       {
@@ -93255,7 +92992,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.541047343067129
+          "age_days": 4.8135555677893525
         }
       }
     ],
@@ -93274,28 +93011,28 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-10-31T01:18:21.156512+00:00",
-      "display": "Oct 30, 9:18 PM EDT",
+      "at": "2026-10-31T07:50:46.845048+00:00",
+      "display": "Oct 31, 3:50 AM EDT",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07148201083333333
+      "age_hours": 0.07121038416666667
     },
     "last_success": {
-      "at": "2026-10-30T21:17:39.942308+00:00",
-      "display": "Oct 30, 5:17 PM EDT",
+      "at": "2026-10-31T01:18:21.156512+00:00",
+      "display": "Oct 30, 9:18 PM EDT",
       "trigger": "github-actions",
-      "age_hours": 4.082930400833333,
+      "age_hours": 6.611679421944444,
       "ingested": 0
     },
-    "stale": false,
+    "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.0,
-    "stale_message": "",
+    "overdue_hours": 0.6,
+    "stale_message": "No successful ingestion in 6.6h - 0.6h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
-      "count": 149,
+      "count": 145,
       "channels": 16,
       "newest_published": "2026-10-30T11:00:16+00:00",
       "newest_published_display": "Oct 30, 7:00 AM EDT",
@@ -93303,10 +93040,10 @@
       "newest_ingested_display": "Oct 30, 9:26 AM EDT"
     },
     "market_data": {
-      "attempted": "2026-10-31T01:21:40.195218+00:00",
-      "as_of": "2026-10-31T01:21:40.195218+00:00",
-      "as_of_display": "Oct 30, 9:21 PM EDT",
-      "attempted_display": "Oct 30, 9:21 PM EDT",
+      "attempted": "2026-10-31T07:54:05.019861+00:00",
+      "as_of": "2026-10-31T07:54:05.019861+00:00",
+      "as_of_display": "Oct 31, 3:54 AM EDT",
+      "attempted_display": "Oct 31, 3:54 AM EDT",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -93317,12 +93054,20 @@
     },
     "recent": [
       {
-        "started": "2026-10-31T01:18:21.156512+00:00",
-        "display": "Fri 9:18 PM EDT",
+        "started": "2026-10-31T07:50:46.845048+00:00",
+        "display": "Sat 3:50 AM EDT",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-10-31T01:18:21.156512+00:00",
+        "display": "Fri 9:18 PM EDT",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-10-30T21:17:39.942308+00:00",
@@ -93371,14 +93116,6 @@
         "ok": true,
         "error": "",
         "ingested": 0
-      },
-      {
-        "started": "2026-10-30T07:14:41.221084+00:00",
-        "display": "Fri 3:14 AM EDT",
-        "trigger": "scheduled",
-        "ok": true,
-        "error": "",
-        "ingested": 7
       }
     ],
     "alerting": {
@@ -93388,17 +93125,17 @@
       "why": "local owns notifications, this is github-actions",
       "recent": [
         {
-          "at": "2026-10-30T21:22:10.612496+00:00",
+          "at": "2026-10-31T01:22:38.679750+00:00",
           "runner": "github-actions",
           "tier": "digest",
-          "ticker": "NOW, INTC, LLY, AAPL, NVDA",
+          "ticker": "NOW, INTC, LLY, NVDA, META",
           "delivered": false,
           "reason": "suppressed_not_owner",
-          "headline": "160 ticker(s) tracked / 93 signal(s) resolved",
-          "key": "digest:all:38a15ab52f"
+          "headline": "157 ticker(s) tracked / 61 signal(s) resolved",
+          "key": "digest:all:f23492a412"
         },
         {
-          "at": "2026-10-30T21:22:10.612496+00:00",
+          "at": "2026-10-31T01:22:38.679750+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "NBIS",
@@ -93408,7 +93145,7 @@
           "key": "watch:NBIS:ec39e70deb"
         },
         {
-          "at": "2026-10-30T21:22:10.612496+00:00",
+          "at": "2026-10-31T01:22:38.679750+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "AMZN",
@@ -93418,7 +93155,7 @@
           "key": "watch:AMZN:43c6bba213"
         },
         {
-          "at": "2026-10-30T21:22:10.612496+00:00",
+          "at": "2026-10-31T01:22:38.679750+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "GOOGL",
@@ -93428,7 +93165,7 @@
           "key": "watch:GOOGL:896ed30593"
         },
         {
-          "at": "2026-10-30T21:22:10.612496+00:00",
+          "at": "2026-10-31T01:22:38.679750+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "CRWD",
@@ -93438,7 +93175,7 @@
           "key": "watch:CRWD:877e2fe0a4"
         },
         {
-          "at": "2026-10-30T21:22:10.612496+00:00",
+          "at": "2026-10-31T01:22:38.679750+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "META",

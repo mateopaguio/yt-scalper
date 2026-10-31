@@ -1658,6 +1658,66 @@
       "reason": "suppressed_not_owner",
       "headline": "157 ticker(s) tracked / 61 signal(s) resolved",
       "key": "digest:all:f23492a412"
+    },
+    {
+      "at": "2026-10-31T07:55:03.389856+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "LLY \u2014 5 channels did own work, forward catalyst",
+      "key": "watch:LLY:ae9d79694c"
+    },
+    {
+      "at": "2026-10-31T07:55:03.389856+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NVDA \u2014 9 channels did own work",
+      "key": "watch:NVDA:26ebbb4f37"
+    },
+    {
+      "at": "2026-10-31T07:55:03.389856+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "META \u2014 7 channels did own work",
+      "key": "watch:META:05baebbe2a"
+    },
+    {
+      "at": "2026-10-31T07:55:03.389856+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "CRWD",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "CRWD \u2014 2 channels did own work, forward catalyst",
+      "key": "watch:CRWD:877e2fe0a4"
+    },
+    {
+      "at": "2026-10-31T07:55:03.389856+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "SBUX",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "SBUX \u2014 4 channels did own work, developing",
+      "key": "watch:SBUX:534322bb96"
+    },
+    {
+      "at": "2026-10-31T07:55:03.389856+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "NOW, INTC, LLY, NVDA, META",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "157 ticker(s) tracked / 93 signal(s) resolved",
+      "key": "digest:all:f23492a412"
     }
   ],
   "ops": {},
