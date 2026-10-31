@@ -1778,6 +1778,66 @@
       "reason": "suppressed_not_owner",
       "headline": "153 ticker(s) tracked / 93 signal(s) resolved",
       "key": "digest:all:d346a82fac"
+    },
+    {
+      "at": "2026-10-31T19:02:40.261449+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NOW \u2014 7 channels did own work, forward catalyst",
+      "key": "watch:NOW:3dbf15cd28"
+    },
+    {
+      "at": "2026-10-31T19:02:40.261449+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "INTC \u2014 7 channels did own work, forward catalyst",
+      "key": "watch:INTC:012bbb3b36"
+    },
+    {
+      "at": "2026-10-31T19:02:40.261449+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "META \u2014 6 channels did own work, forward catalyst",
+      "key": "watch:META:1be9669b73"
+    },
+    {
+      "at": "2026-10-31T19:02:40.261449+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "LLY \u2014 5 channels did own work, forward catalyst",
+      "key": "watch:LLY:ae9d79694c"
+    },
+    {
+      "at": "2026-10-31T19:02:40.261449+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "AAPL",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "AAPL \u2014 3 channels did own work, forward catalyst",
+      "key": "watch:AAPL:4cec557107"
+    },
+    {
+      "at": "2026-10-31T19:02:40.261449+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "NOW, INTC, META, LLY, AAPL",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "153 ticker(s) tracked / 93 signal(s) resolved",
+      "key": "digest:all:d346a82fac"
     }
   ],
   "ops": {},
