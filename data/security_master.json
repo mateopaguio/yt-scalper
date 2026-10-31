@@ -1,5 +1,5 @@
 {
- "learned": 155,
+ "learned": 152,
  "map": {
   "abbott": "ABT",
   "abbott laboratories": "ABT",
@@ -60,7 +60,6 @@
   "eli lilly": "LLY",
   "energy transfer": "ET",
   "enovix": "ENVX",
-  "enphase energy": "ENPH",
   "equinix": "EQIX",
   "expeditors": "EXPD",
   "exxon": "XOM",
@@ -133,10 +132,8 @@
   "pfizer": "PFE",
   "phillips 66": "PSX",
   "placeholder": "SATS_PLACEHOLDER",
-  "procter gamble": "PG",
   "qualcomm": "QCOM",
   "quantum related ibm backed": "QUBT",
-  "quantumscape": "QS",
   "rayonier": "RYN",
   "redbox": "RDBX",
   "reddit": "RDDT",
