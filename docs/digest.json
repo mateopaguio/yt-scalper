@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:47:51.743740+00:00",
+  "generated_at": "2026-11-01T08:34:06.184453+00:00",
   "video_count": 129,
   "videos": [
     {
@@ -81220,7 +81220,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-01T01:47:51.820699+00:00",
+    "last_run": "2026-11-01T08:34:06.230410+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -86033,7 +86033,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.261494207789352
+          "age_days": 4.5436673873495375
         }
       },
       {
@@ -86077,7 +86077,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.2185080966782404
+          "age_days": 5.500681276238426
         }
       },
       {
@@ -86136,7 +86136,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 5.383542818900463
+          "age_days": 5.665715998460648
         }
       },
       {
@@ -86180,7 +86180,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 5.542015041122685
+          "age_days": 5.824188220682871
         }
       }
     ],
@@ -86218,7 +86218,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.2630567077893518
+          "age_days": 1.545229887349537
         }
       },
       {
@@ -86252,7 +86252,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5398275411226852
+          "age_days": 1.8220007206828703
         }
       },
       {
@@ -86283,7 +86283,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.540082170752315
+          "age_days": 1.8222553503124999
         }
       },
       {
@@ -86314,7 +86314,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.5425243003819444
+          "age_days": 1.8246974799421296
         }
       },
       {
@@ -86345,7 +86345,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.225417818900463
+          "age_days": 2.507590998460648
         }
       },
       {
@@ -86376,7 +86376,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.253010411493056
+          "age_days": 2.5351835910532405
         }
       },
       {
@@ -86407,7 +86407,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.260869207789352
+          "age_days": 2.543042387349537
         }
       },
       {
@@ -86438,7 +86438,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.266853004085648
+          "age_days": 2.549026183645833
         }
       },
       {
@@ -86469,7 +86469,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.2764247633449073
+          "age_days": 2.5585979429050925
         }
       },
       {
@@ -86500,7 +86500,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.280140041122685
+          "age_days": 2.5623132206828703
         }
       },
       {
@@ -86531,7 +86531,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3094224485300927
+          "age_days": 2.5915956280902774
         }
       },
       {
@@ -86565,7 +86565,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3173391151967593
+          "age_days": 2.5995122947569445
         }
       },
       {
@@ -86596,7 +86596,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3173854114930554
+          "age_days": 2.5995585910532406
         }
       },
       {
@@ -86627,7 +86627,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3467372633449073
+          "age_days": 2.6289104429050925
         }
       },
       {
@@ -86658,7 +86658,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.375672448530093
+          "age_days": 2.6578456280902776
         }
       },
       {
@@ -86693,7 +86693,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 2.379295133715278
+          "age_days": 2.6614683132754626
         }
       },
       {
@@ -86734,7 +86734,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.390244207789352
+          "age_days": 2.6724173873495367
         }
       },
       {
@@ -86766,7 +86766,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.4438437448263888
+          "age_days": 2.726016924386574
         }
       },
       {
@@ -86797,7 +86797,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.4884386522337962
+          "age_days": 2.7706118317939814
         }
       },
       {
@@ -86828,7 +86828,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.504746522604167
+          "age_days": 2.7869197021643517
         }
       },
       {
@@ -86859,7 +86859,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.5070150411226853
+          "age_days": 2.7891882206828704
         }
       },
       {
@@ -86893,7 +86893,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.5226516151967595
+          "age_days": 2.8048247947569442
         }
       },
       {
@@ -86924,7 +86924,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.5558923559375
+          "age_days": 2.838065535497685
         }
       },
       {
@@ -86955,7 +86955,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.5574085596412037
+          "age_days": 2.839581739201389
         }
       },
       {
@@ -86986,7 +86986,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.55802198556713
+          "age_days": 2.8401951651273145
         }
       },
       {
@@ -87017,7 +87017,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.558496522604167
+          "age_days": 2.8406697021643517
         }
       },
       {
@@ -87048,7 +87048,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.5589247633449075
+          "age_days": 2.8410979429050927
         }
       },
       {
@@ -87088,7 +87088,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 2.9088900411226852
+          "age_days": 3.1910632206828704
         }
       },
       {
@@ -87119,7 +87119,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.083728004085648
+          "age_days": 3.3659011836458337
         }
       },
       {
@@ -87150,7 +87150,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.0837743003819447
+          "age_days": 3.36594747994213
         }
       },
       {
@@ -87181,7 +87181,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 3.3255567077893518
+          "age_days": 3.6077298873495374
         }
       },
       {
@@ -87212,7 +87212,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.224515041122685
+          "age_days": 3.5066882206828707
         }
       },
       {
@@ -87243,7 +87243,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.256968744826389
+          "age_days": 3.5391419243865743
         }
       },
       {
@@ -87274,7 +87274,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.2600127263078704
+          "age_days": 3.5421859058680556
         }
       },
       {
@@ -87308,7 +87308,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.2754293929745373
+          "age_days": 3.5576025725347225
         }
       },
       {
@@ -87343,7 +87343,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.2889016151967594
+          "age_days": 3.5710747947569446
         }
       },
       {
@@ -87374,7 +87374,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.3336469855671296
+          "age_days": 3.615820165127315
         }
       },
       {
@@ -87405,7 +87405,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.3587511522337965
+          "age_days": 3.6409243317939817
         }
       },
       {
@@ -87439,7 +87439,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.405093744826389
+          "age_days": 3.687266924386574
         }
       },
       {
@@ -87470,7 +87470,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.427478004085648
+          "age_days": 3.7096511836458337
         }
       },
       {
@@ -87501,7 +87501,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.4571770781597224
+          "age_days": 3.7393502577199076
         }
       },
       {
@@ -87532,7 +87532,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.4616446707523147
+          "age_days": 3.7438178503125004
         }
       },
       {
@@ -87563,7 +87563,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.504630781863426
+          "age_days": 3.7868039614236113
         }
       },
       {
@@ -87595,7 +87595,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.1638668929745375
+          "age_days": 4.446040072534722
         }
       },
       {
@@ -87631,7 +87631,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.3221076337152775
+          "age_days": 4.604280813275463
         }
       },
       {
@@ -87663,7 +87663,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.4142719855671295
+          "age_days": 4.696445165127315
         }
       },
       {
@@ -87698,7 +87698,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.440811337418982
+          "age_days": 4.722984516979167
         }
       },
       {
@@ -87731,7 +87731,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.443890041122685
+          "age_days": 4.726063220682871
         }
       },
       {
@@ -87763,7 +87763,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.444434022604167
+          "age_days": 4.726607202164352
         }
       },
       {
@@ -87801,7 +87801,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.519920133715278
+          "age_days": 4.8020933132754635
         }
       },
       {
@@ -87839,7 +87839,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.519920133715278
+          "age_days": 4.8020933132754635
         }
       },
       {
@@ -87881,7 +87881,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.519931707789352
+          "age_days": 4.802104887349537
         }
       },
       {
@@ -87919,7 +87919,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.519931707789352
+          "age_days": 4.802104887349537
         }
       },
       {
@@ -87957,7 +87957,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.519931707789352
+          "age_days": 4.802104887349537
         }
       },
       {
@@ -87995,7 +87995,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.519943281863426
+          "age_days": 4.802116461423611
         }
       },
       {
@@ -88033,7 +88033,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.519966430011574
+          "age_days": 4.80213960957176
         }
       },
       {
@@ -88071,7 +88071,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.520278930011574
+          "age_days": 4.802452109571759
         }
       },
       {
@@ -88103,7 +88103,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.532420133715278
+          "age_days": 4.814593313275463
         }
       },
       {
@@ -88139,7 +88139,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.5380914300115744
+          "age_days": 4.820264609571759
         }
       },
       {
@@ -88181,7 +88181,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.908890041122685
+          "age_days": 5.191063220682871
         }
       },
       {
@@ -88213,7 +88213,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.209468744826389
+          "age_days": 5.491641924386574
         }
       },
       {
@@ -88245,7 +88245,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.240927078159722
+          "age_days": 5.523100257719908
         }
       },
       {
@@ -88277,7 +88277,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.241390041122686
+          "age_days": 5.52356322068287
         }
       },
       {
@@ -88319,7 +88319,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.308971059641204
+          "age_days": 5.591144239201389
         }
       },
       {
@@ -88354,7 +88354,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.409734948530093
+          "age_days": 5.691908128090278
         }
       },
       {
@@ -88386,7 +88386,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.412802078159722
+          "age_days": 5.694975257719908
         }
       },
       {
@@ -88418,7 +88418,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.4153715226041665
+          "age_days": 5.697544702164352
         }
       },
       {
@@ -88450,7 +88450,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.419792818900463
+          "age_days": 5.701965998460649
         }
       },
       {
@@ -88482,7 +88482,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.451922448530093
+          "age_days": 5.734095628090278
         }
       },
       {
@@ -88514,7 +88514,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.517616892974537
+          "age_days": 5.799790072534722
         }
       },
       {
@@ -88548,7 +88548,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.526806707789352
+          "age_days": 5.808979887349537
         }
       },
       {
@@ -88584,7 +88584,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.541424763344907
+          "age_days": 5.823597942905093
         }
       },
       {
@@ -88616,7 +88616,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.541482633715278
+          "age_days": 5.8236558132754634
         }
       },
       {
@@ -88648,7 +88648,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.541980318900463
+          "age_days": 5.824153498460649
         }
       },
       {
@@ -88685,7 +88685,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 5.542049763344908
+          "age_days": 5.8242229429050925
         }
       },
       {
@@ -88717,7 +88717,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.546424763344907
+          "age_days": 5.828597942905093
         }
       },
       {
@@ -88750,7 +88750,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.551054392974537
+          "age_days": 5.833227572534723
         }
       },
       {
@@ -88782,7 +88782,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.5557071707523145
+          "age_days": 5.8378803503125
         }
       },
       {
@@ -88814,7 +88814,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.55921411519676
+          "age_days": 5.841387294756944
         }
       }
     ],
@@ -88833,24 +88833,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-01T01:44:32.499425+00:00",
-      "display": "Oct 31, 9:44 PM EDT",
+      "at": "2026-11-01T08:30:42.622050+00:00",
+      "display": "Nov 01, 3:30 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07100040694444444
+      "age_hours": 0.07367811833333333
     },
     "last_success": {
-      "at": "2026-10-31T22:14:55.278035+00:00",
-      "display": "Oct 31, 6:14 PM EDT",
+      "at": "2026-11-01T01:44:32.499425+00:00",
+      "display": "Oct 31, 9:44 PM EDT",
       "trigger": "github-actions",
-      "age_hours": 3.5646730152777777,
+      "age_hours": 6.843156625277778,
       "ingested": 0
     },
-    "stale": false,
+    "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.0,
-    "stale_message": "",
+    "overdue_hours": 0.8,
+    "stale_message": "No successful ingestion in 6.8h - 0.8h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -88862,10 +88862,10 @@
       "newest_ingested_display": "Oct 30, 9:26 AM EDT"
     },
     "market_data": {
-      "attempted": "2026-11-01T01:47:51.820699+00:00",
-      "as_of": "2026-11-01T01:47:51.820699+00:00",
-      "as_of_display": "Oct 31, 9:47 PM EDT",
-      "attempted_display": "Oct 31, 9:47 PM EDT",
+      "attempted": "2026-11-01T08:34:06.230410+00:00",
+      "as_of": "2026-11-01T08:34:06.230410+00:00",
+      "as_of_display": "Nov 01, 3:34 AM EST",
+      "attempted_display": "Nov 01, 3:34 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -88876,12 +88876,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-01T01:44:32.499425+00:00",
-        "display": "Sat 9:44 PM EDT",
+        "started": "2026-11-01T08:30:42.622050+00:00",
+        "display": "Sun 3:30 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-01T01:44:32.499425+00:00",
+        "display": "Sat 9:44 PM EDT",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-10-31T22:14:55.278035+00:00",
@@ -88930,14 +88938,6 @@
         "ok": true,
         "error": "",
         "ingested": 0
-      },
-      {
-        "started": "2026-10-30T16:24:42.829795+00:00",
-        "display": "Fri 12:24 PM EDT",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
       }
     ],
     "alerting": {
@@ -88947,7 +88947,7 @@
       "why": "local owns notifications, this is github-actions",
       "recent": [
         {
-          "at": "2026-10-31T22:19:19.687900+00:00",
+          "at": "2026-11-01T01:48:48.288144+00:00",
           "runner": "github-actions",
           "tier": "digest",
           "ticker": "NVDA, NOW, INTC, META, GOOGL",
@@ -88957,7 +88957,7 @@
           "key": "digest:all:1d9f44cfba"
         },
         {
-          "at": "2026-10-31T22:19:19.687900+00:00",
+          "at": "2026-11-01T01:48:48.288144+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "GOOGL",
@@ -88967,7 +88967,7 @@
           "key": "watch:GOOGL:896ed30593"
         },
         {
-          "at": "2026-10-31T22:19:19.687900+00:00",
+          "at": "2026-11-01T01:48:48.288144+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "META",
@@ -88977,7 +88977,7 @@
           "key": "watch:META:1be9669b73"
         },
         {
-          "at": "2026-10-31T22:19:19.687900+00:00",
+          "at": "2026-11-01T01:48:48.288144+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "INTC",
@@ -88987,7 +88987,7 @@
           "key": "watch:INTC:012bbb3b36"
         },
         {
-          "at": "2026-10-31T22:19:19.687900+00:00",
+          "at": "2026-11-01T01:48:48.288144+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "NOW",
@@ -88997,7 +88997,7 @@
           "key": "watch:NOW:3dbf15cd28"
         },
         {
-          "at": "2026-10-31T22:19:19.687900+00:00",
+          "at": "2026-11-01T01:48:48.288144+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "NVDA",
