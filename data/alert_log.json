@@ -1898,6 +1898,66 @@
       "reason": "suppressed_not_owner",
       "headline": "150 ticker(s) tracked / 93 signal(s) resolved",
       "key": "digest:all:1d9f44cfba"
+    },
+    {
+      "at": "2026-11-01T01:48:48.288144+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NVDA",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NVDA \u2014 8 channels did own work",
+      "key": "watch:NVDA:b30383d793"
+    },
+    {
+      "at": "2026-11-01T01:48:48.288144+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NOW \u2014 7 channels did own work",
+      "key": "watch:NOW:3dbf15cd28"
+    },
+    {
+      "at": "2026-11-01T01:48:48.288144+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "INTC \u2014 7 channels did own work",
+      "key": "watch:INTC:012bbb3b36"
+    },
+    {
+      "at": "2026-11-01T01:48:48.288144+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "META",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "META \u2014 6 channels did own work",
+      "key": "watch:META:1be9669b73"
+    },
+    {
+      "at": "2026-11-01T01:48:48.288144+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "GOOGL",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "GOOGL \u2014 6 channels did own work",
+      "key": "watch:GOOGL:896ed30593"
+    },
+    {
+      "at": "2026-11-01T01:48:48.288144+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "NVDA, NOW, INTC, META, GOOGL",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "150 ticker(s) tracked / 93 signal(s) resolved",
+      "key": "digest:all:1d9f44cfba"
     }
   ],
   "ops": {},
