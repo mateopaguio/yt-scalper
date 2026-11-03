@@ -11,10 +11,10 @@
       "source_type": "video"
     },
     "attempts": 8,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-29T18:22:50.563576+00:00",
-    "eligible_since": "2026-11-03T07:27:05.717489+00:00",
-    "last_attempt": "2026-11-03T07:27:05.717489+00:00",
+    "eligible_since": "2026-11-03T15:41:09.001880+00:00",
+    "last_attempt": "2026-11-03T15:41:09.001880+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -29,10 +29,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:25:36.056930+00:00",
-    "eligible_since": "2026-11-03T07:27:30.067041+00:00",
-    "last_attempt": "2026-11-03T07:27:30.067041+00:00",
+    "eligible_since": "2026-11-03T15:41:33.688227+00:00",
+    "last_attempt": "2026-11-03T15:41:33.688227+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -47,10 +47,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:26:01.060358+00:00",
-    "eligible_since": "2026-11-03T07:27:56.353775+00:00",
-    "last_attempt": "2026-11-03T07:27:56.353775+00:00",
+    "eligible_since": "2026-11-03T15:41:58.423947+00:00",
+    "last_attempt": "2026-11-03T15:41:58.423947+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -65,10 +65,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:26:27.320735+00:00",
-    "eligible_since": "2026-11-03T07:28:20.673641+00:00",
-    "last_attempt": "2026-11-03T07:28:20.673641+00:00",
+    "eligible_since": "2026-11-03T15:42:22.969434+00:00",
+    "last_attempt": "2026-11-03T15:42:22.969434+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -83,10 +83,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:26:52.849673+00:00",
-    "eligible_since": "2026-11-03T07:28:45.869125+00:00",
-    "last_attempt": "2026-11-03T07:28:45.869125+00:00",
+    "eligible_since": "2026-11-03T15:42:47.875248+00:00",
+    "last_attempt": "2026-11-03T15:42:47.875248+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -101,10 +101,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:27:18.018771+00:00",
-    "eligible_since": "2026-11-03T07:29:10.073615+00:00",
-    "last_attempt": "2026-11-03T07:29:10.073615+00:00",
+    "eligible_since": "2026-11-03T15:43:13.033423+00:00",
+    "last_attempt": "2026-11-03T15:43:13.033423+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -119,10 +119,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:27:43.121498+00:00",
-    "eligible_since": "2026-11-03T07:29:34.669586+00:00",
-    "last_attempt": "2026-11-03T07:29:34.669586+00:00",
+    "eligible_since": "2026-11-03T15:43:37.582495+00:00",
+    "last_attempt": "2026-11-03T15:43:37.582495+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -137,10 +137,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 16,
+    "throttled": 17,
     "first_seen": "2026-10-30T16:28:08.274306+00:00",
-    "eligible_since": "2026-11-03T07:29:59.490800+00:00",
-    "last_attempt": "2026-11-03T07:29:59.490800+00:00",
+    "eligible_since": "2026-11-03T15:44:01.924561+00:00",
+    "last_attempt": "2026-11-03T15:44:01.924561+00:00",
     "reason": "YouTube blocked the request from this IP"
   }
 ]

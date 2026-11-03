@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:30:00.889250+00:00",
+  "generated_at": "2026-11-03T15:44:03.672638+00:00",
   "video_count": 72,
   "videos": [
     {
@@ -46414,7 +46414,7 @@
         "no_claim": 55,
         "not_verifiable": 3
       },
-      "tickers_with_filed_events": 1,
+      "tickers_with_filed_events": 0,
       "covered_event_types": [
         "clinical_trial",
         "enforcement",
@@ -46437,7 +46437,7 @@
         "product_launch"
       ],
       "note": "'unconfirmed' means the configured feeds cover that event type but nothing matching was filed in the window - not that the claim is false. 'outside_coverage' means the feeds cannot see that kind of event at all (no 8-K/10-Q/earnings source is configured), so absence there proves nothing.",
-      "limitation": ""
+      "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
     }
   },
   "catalysts": [
@@ -47405,413 +47405,6 @@
         "companies": [],
         "direction": "unclear",
         "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_cc341228df055c",
-      "title": "Amgen Inc. - 739641 - 08/12/2026",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T15:32:15-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amgen-inc-739641-08122026",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "enforcement",
-        "summary": "FDA posted a warning letter addressed to Amgen Inc. (reference 739641, dated 08/12/2026, published 2026-10-27). Only the headline was retrieved; the letter body, cited violations, and scope are not available.",
-        "companies": [
-          {
-            "company": "Amgen Inc.",
-            "ticker": "AMGN",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 2,
-        "is_market_relevant": true
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_fa476862124889",
-      "title": "Manual of Compliance Policy Guides",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T14:04:58-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA posted a headline-only item titled \"Manual of Compliance Policy Guides\" on its compliance manuals page. No body text was retrieved, so the content and any specific company impact are unknown.",
-        "companies": [],
-        "direction": "unclear",
-        "affected_sectors": []
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_fa476862124889",
-      "title": "Manual of Compliance Policy Guides",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-10-27T14:04:58-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA posted a headline titled \"Manual of Compliance Policy Guides\" on its compliance manuals page; no body text was retrieved, so the content is unknown. It appears to be a routine reference-page update with no identifiable company or specific action.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_4ebe25d7d08e1f",
-      "title": "Cellular & Gene Therapy Guidances",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-10-27T11:52:15-04:00",
-      "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA Biologics and Vaccines posted a page headlined \"Cellular & Gene Therapy Guidances\" on 2026-10-27. No body text was retrieved, so the specific guidance content is unknown.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_79eda1c730c453",
-      "title": "ZUBB Dietary Supplement may be harmful due to hidden ingredient",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T11:14:02-04:00",
-      "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/zubb-dietary-supplement-may-be-harmful-due-hidden-ingredient",
-      "category": "regulatory",
-      "findings": {
-        "affected_sectors": [
-          "dietary supplements"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "recall_safety",
-        "is_market_relevant": true,
-        "materiality": 2,
-        "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_01606e6659b297",
-      "title": "Weight Loss Product Notifications",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T11:09:36-04:00",
-      "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/weight-loss-product-notifications",
-      "category": "regulatory",
-      "findings": {
-        "summary": "FDA posted a 'Weight Loss Product Notifications' page under its medication health fraud notifications section. No body text was retrieved, so the specific products or actions are unknown.",
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "regulatory_action",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "affected_sectors": []
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_80ecfe151ded0a",
-      "title": "Demograss Premier may be harmful due to hidden ingredient",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T11:08:49-04:00",
-      "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/demograss-premier-may-be-harmful-due-hidden-ingredient",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "recall_safety",
-        "summary": "FDA issued a health fraud notification that the product Demograss Premier may be harmful due to a hidden ingredient. The announcement body text was not retrieved, so the ingredient and company are unspecified.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_0e02ce5fdb657a",
-      "title": "Best Chinese Medicines LLC - 738556 - 10/23/2026",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T09:20:07-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/best-chinese-medicines-llc-738556-10232026",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "enforcement",
-        "summary": "FDA posted a warning letter dated 10/23/2026 addressed to Best Chinese Medicines LLC. Only the headline was retrieved, so the violations cited are not known.",
-        "companies": [
-          {
-            "company": "Best Chinese Medicines LLC",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_59f6ab2a04cca9",
-      "title": "TSP Solutions Pte. Ltd. - 735071 - 10/22/2026",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T09:20:07-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/tsp-solutions-pte-ltd-735071-10222026",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "enforcement",
-        "summary": "FDA posted a warning letter dated 10/22/2026 addressed to TSP Solutions Pte. Ltd. The announcement text was not retrieved, so the nature of the violations is unknown.",
-        "companies": [
-          {
-            "company": "TSP Solutions Pte. Ltd.",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_598edff6629535",
-      "title": "Sanrace Biotechnology Co., Ltd. - 737549 - 10/22/2026",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T09:20:06-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/sanrace-biotechnology-co-ltd-737549-10222026",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "enforcement",
-        "is_market_relevant": true,
-        "materiality": 2,
-        "summary": "FDA posted a warning letter dated 10/22/2026 to Sanrace Biotechnology Co., Ltd. (file 737549). Only the headline was retrieved, so the specific violations are not known.",
-        "companies": [
-          {
-            "company": "Sanrace Biotechnology Co., Ltd.",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "affected_sectors": [
-          "pharmaceuticals",
-          "biotechnology"
-        ]
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_c619f73bb02581",
-      "title": "Northland Nuclear Medicine, LLC - 736893 - 10/22/2026",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T09:20:06-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/northland-nuclear-medicine-llc-736893-10222026",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "enforcement",
-        "summary": "FDA posted a warning letter dated 10/22/2026 to Northland Nuclear Medicine, LLC. Only the headline was retrieved; no body text describes the specific violations.",
-        "companies": [
-          {
-            "company": "Northland Nuclear Medicine, LLC",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_97d8e87af1c600",
-      "title": "Calibrate IV Hydration - 729846 - 10/13/2026",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-10-27T09:20:06-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/calibrate-iv-hydration-729846-10132026",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "enforcement",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA posted a warning letter headlined \"Calibrate IV Hydration - 729846 - 10/13/2026\" dated 10/13/2026. No body text was retrieved, so the specific violations are unknown.",
-        "companies": [
-          {
-            "company": "Calibrate IV Hydration",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "unclear"
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_4fd44e79665887",
-      "title": "Beaute Bounty - 729163 - 09/25/2026",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-10-27T09:20:05-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/beaute-bounty-729163-09252026",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "enforcement",
-        "summary": "FDA posted a warning letter to Beaute Bounty (dated 09/25/2026, published 2026-10-27), but no body text was retrieved, so the violations and any market relevance cannot be determined from the headline alone.",
-        "companies": [
-          {
-            "company": "Beaute Bounty",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_90087a20d328dc",
-      "title": "NeilMed Pharmaceuticals Inc. - 650263 - 10/19/2026",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T09:20:03-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-10192026",
-      "category": "regulatory",
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "enforcement",
-        "summary": "FDA posted a warning letter dated 10/19/2026 to NeilMed Pharmaceuticals Inc. (reference 650263). Only the headline was retrieved, so the specific violations are not stated.",
-        "companies": [
-          {
-            "company": "NeilMed Pharmaceuticals Inc.",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 2
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_cac20d08832a39",
-      "title": "NeilMed Pharmaceuticals Inc. - 650263 - 05/26/2023",
-      "source": "FDA Drugs",
-      "published": "2026-10-27T09:19:36-04:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-05262023",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "enforcement",
-        "is_market_relevant": true,
-        "summary": "FDA posted a warning letter to NeilMed Pharmaceuticals Inc., dated 05/26/2023 per the headline, based on an inspection. Only the headline was retrieved, so the specific violations are not known.",
-        "companies": [
-          {
-            "company": "NeilMed Pharmaceuticals Inc.",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 2
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_78db511ed13223",
-      "title": "Electronic Submission Template for Investigational Device Exemption (IDE) Applications",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-10-27T09:02:07-04:00",
-      "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-submission-template-investigational-device-exemption-ide-applications",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA Biologics and Vaccines posted a notice titled \"Electronic Submission Template for Investigational Device Exemption (IDE) Applications.\" No body text was retrieved, so the content is unknown beyond the headline.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "has_body": false,
-      "body_chars": null,
-      "body_backfilled": true,
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_23719750710537",
-      "title": "Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-10-27T08:53:57-04:00",
-      "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
-      "category": "regulatory",
-      "findings": {
-        "event_type": "regulatory_action",
-        "summary": "FDA Biologics and Vaccines published a guidance document headlined \"Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management.\" Only the headline was retrieved, so the document's content is not confirmed.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 2,
-        "is_market_relevant": true,
-        "affected_sectors": [
-          "biotechnology",
-          "gene therapy"
-        ]
       },
       "has_body": false,
       "body_chars": null,
@@ -53768,14 +53361,14 @@
     "skipped_non_equity": 6,
     "never_attempted": 331,
     "resolved_by_horizon": {
-      "1": 120,
+      "1": 159,
       "7": 0,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-03T07:30:00.945041+00:00",
+    "last_run": "2026-11-03T15:44:03.752467+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -53789,8 +53382,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1254,
-        "range": "2021-11-03 .. 2026-11-02",
+        "bars": 1255,
+        "range": "2021-11-03 .. 2026-11-03",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -53801,8 +53394,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1254,
-        "range": "2021-11-03 .. 2026-11-02",
+        "bars": 1255,
+        "range": "2021-11-03 .. 2026-11-03",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -55142,419 +54735,12 @@
         "body_chars": null,
         "body_backfilled": true,
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_cc341228df055c",
-        "title": "Amgen Inc. - 739641 - 08/12/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T15:32:15-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amgen-inc-739641-08122026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter addressed to Amgen Inc. (reference 739641, dated 08/12/2026, published 2026-10-27). Only the headline was retrieved; the letter body, cited violations, and scope are not available.",
-          "companies": [
-            {
-              "company": "Amgen Inc.",
-              "ticker": "AMGN",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2,
-          "is_market_relevant": true
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_fa476862124889",
-        "title": "Manual of Compliance Policy Guides",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T14:04:58-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA posted a headline-only item titled \"Manual of Compliance Policy Guides\" on its compliance manuals page. No body text was retrieved, so the content and any specific company impact are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": []
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_fa476862124889",
-        "title": "Manual of Compliance Policy Guides",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T14:04:58-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA posted a headline titled \"Manual of Compliance Policy Guides\" on its compliance manuals page; no body text was retrieved, so the content is unknown. It appears to be a routine reference-page update with no identifiable company or specific action.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_4ebe25d7d08e1f",
-        "title": "Cellular & Gene Therapy Guidances",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T11:52:15-04:00",
-        "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA Biologics and Vaccines posted a page headlined \"Cellular & Gene Therapy Guidances\" on 2026-10-27. No body text was retrieved, so the specific guidance content is unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_79eda1c730c453",
-        "title": "ZUBB Dietary Supplement may be harmful due to hidden ingredient",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T11:14:02-04:00",
-        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/zubb-dietary-supplement-may-be-harmful-due-hidden-ingredient",
-        "category": "regulatory",
-        "findings": {
-          "affected_sectors": [
-            "dietary supplements"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "recall_safety",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_01606e6659b297",
-        "title": "Weight Loss Product Notifications",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T11:09:36-04:00",
-        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/weight-loss-product-notifications",
-        "category": "regulatory",
-        "findings": {
-          "summary": "FDA posted a 'Weight Loss Product Notifications' page under its medication health fraud notifications section. No body text was retrieved, so the specific products or actions are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "affected_sectors": []
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_80ecfe151ded0a",
-        "title": "Demograss Premier may be harmful due to hidden ingredient",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T11:08:49-04:00",
-        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/demograss-premier-may-be-harmful-due-hidden-ingredient",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "recall_safety",
-          "summary": "FDA issued a health fraud notification that the product Demograss Premier may be harmful due to a hidden ingredient. The announcement body text was not retrieved, so the ingredient and company are unspecified.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_0e02ce5fdb657a",
-        "title": "Best Chinese Medicines LLC - 738556 - 10/23/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:07-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/best-chinese-medicines-llc-738556-10232026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/23/2026 addressed to Best Chinese Medicines LLC. Only the headline was retrieved, so the violations cited are not known.",
-          "companies": [
-            {
-              "company": "Best Chinese Medicines LLC",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_59f6ab2a04cca9",
-        "title": "TSP Solutions Pte. Ltd. - 735071 - 10/22/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:07-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/tsp-solutions-pte-ltd-735071-10222026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/22/2026 addressed to TSP Solutions Pte. Ltd. The announcement text was not retrieved, so the nature of the violations is unknown.",
-          "companies": [
-            {
-              "company": "TSP Solutions Pte. Ltd.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_598edff6629535",
-        "title": "Sanrace Biotechnology Co., Ltd. - 737549 - 10/22/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:06-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/sanrace-biotechnology-co-ltd-737549-10222026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "summary": "FDA posted a warning letter dated 10/22/2026 to Sanrace Biotechnology Co., Ltd. (file 737549). Only the headline was retrieved, so the specific violations are not known.",
-          "companies": [
-            {
-              "company": "Sanrace Biotechnology Co., Ltd.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology"
-          ]
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_c619f73bb02581",
-        "title": "Northland Nuclear Medicine, LLC - 736893 - 10/22/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:06-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/northland-nuclear-medicine-llc-736893-10222026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/22/2026 to Northland Nuclear Medicine, LLC. Only the headline was retrieved; no body text describes the specific violations.",
-          "companies": [
-            {
-              "company": "Northland Nuclear Medicine, LLC",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_97d8e87af1c600",
-        "title": "Calibrate IV Hydration - 729846 - 10/13/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T09:20:06-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/calibrate-iv-hydration-729846-10132026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA posted a warning letter headlined \"Calibrate IV Hydration - 729846 - 10/13/2026\" dated 10/13/2026. No body text was retrieved, so the specific violations are unknown.",
-          "companies": [
-            {
-              "company": "Calibrate IV Hydration",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear"
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_4fd44e79665887",
-        "title": "Beaute Bounty - 729163 - 09/25/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T09:20:05-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/beaute-bounty-729163-09252026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter to Beaute Bounty (dated 09/25/2026, published 2026-10-27), but no body text was retrieved, so the violations and any market relevance cannot be determined from the headline alone.",
-          "companies": [
-            {
-              "company": "Beaute Bounty",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_90087a20d328dc",
-        "title": "NeilMed Pharmaceuticals Inc. - 650263 - 10/19/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:03-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-10192026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/19/2026 to NeilMed Pharmaceuticals Inc. (reference 650263). Only the headline was retrieved, so the specific violations are not stated.",
-          "companies": [
-            {
-              "company": "NeilMed Pharmaceuticals Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_cac20d08832a39",
-        "title": "NeilMed Pharmaceuticals Inc. - 650263 - 05/26/2023",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:19:36-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-05262023",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "summary": "FDA posted a warning letter to NeilMed Pharmaceuticals Inc., dated 05/26/2023 per the headline, based on an inspection. Only the headline was retrieved, so the specific violations are not known.",
-          "companies": [
-            {
-              "company": "NeilMed Pharmaceuticals Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_78db511ed13223",
-        "title": "Electronic Submission Template for Investigational Device Exemption (IDE) Applications",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T09:02:07-04:00",
-        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-submission-template-investigational-device-exemption-ide-applications",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA Biologics and Vaccines posted a notice titled \"Electronic Submission Template for Investigational Device Exemption (IDE) Applications.\" No body text was retrieved, so the content is unknown beyond the headline.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_23719750710537",
-        "title": "Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T08:53:57-04:00",
-        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "regulatory_action",
-          "summary": "FDA Biologics and Vaccines published a guidance document headlined \"Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management.\" Only the headline was retrieved, so the document's content is not confirmed.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "is_market_relevant": true,
-          "affected_sectors": [
-            "biotechnology",
-            "gene therapy"
-          ]
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
       "updated": 1,
-      "unchanged": 65
+      "unchanged": 48
     },
     "known_events": 112,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -56513,7 +55699,7 @@
       "no_claim": 55,
       "not_verifiable": 3
     },
-    "tickers_with_filed_events": 1,
+    "tickers_with_filed_events": 0,
     "covered_event_types": [
       "clinical_trial",
       "enforcement",
@@ -56536,7 +55722,7 @@
       "product_launch"
     ],
     "note": "'unconfirmed' means the configured feeds cover that event type but nothing matching was filed in the window - not that the claim is false. 'outside_coverage' means the feeds cannot see that kind of event at all (no 8-K/10-Q/earnings source is configured), so absence there proves nothing.",
-    "limitation": ""
+    "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
   },
   "tier4_candidates": [
     {
@@ -56618,16 +55804,14 @@
     }
   ],
   "calendar": [],
-  "orphan_catalysts": [
-    "AMGN"
-  ],
+  "orphan_catalysts": [],
   "blocked_count": 8,
   "skipped_count": 0,
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 34,
-      "degraded": 8
+      "usable": 33,
+      "degraded": 9
     },
     "usable": [
       "META",
@@ -56658,7 +55842,6 @@
       "KLAC",
       "CAT",
       "V",
-      "SPGI",
       "ADP",
       "COR",
       "NOK",
@@ -56687,8 +55870,12 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
+        "ticker": "SPGI",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
         "ticker": "VRT",
-        "detail": "1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "CGNX",
@@ -56705,237 +55892,237 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 402,
+        "bars": 403,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 510,
+        "bars": 511,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
-        "status": "usable",
-        "detail": "complete",
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
         "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
@@ -56943,13 +56130,13 @@
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
-        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
         "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
@@ -56957,42 +56144,42 @@
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -57000,8 +56187,8 @@
   },
   "validation": {
     "census": {
-      "resolved": 120,
-      "unresolved": 370,
+      "resolved": 159,
+      "unresolved": 331,
       "stale": 0,
       "unpriceable": 6,
       "failed": 0
@@ -57012,7 +56199,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -57026,7 +56213,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -57040,7 +56227,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -57054,7 +56241,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -57068,7 +56255,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -57082,7 +56269,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -57096,7 +56283,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -57110,7 +56297,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -57124,7 +56311,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -57138,7 +56325,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -57152,7 +56339,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -57166,7 +56353,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 7,
+          "age_days": 8,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -57182,73 +56369,73 @@
           "ticker": "SOFI",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "RDDT",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "NOW",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "SNDK",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "SMH",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "QS",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "CRWD",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "CPAY",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "MRNA",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "DECK",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "NEM",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "OMC",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 7
+          "age_days": 8
         }
       ],
       "stale": [],
@@ -57257,19 +56444,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 7
+          "age_days": 8
         },
         {
           "ticker": "ETH",
@@ -57309,46 +56496,46 @@
       "note": "Observations clustered on a few sessions share one market regime. The effective sample size is closer to the number of distinct days than to the number of signals."
     },
     "vs_spy_clustered": {
-      "mean": -0.557,
+      "mean": -0.063,
       "low": null,
       "high": null,
-      "sessions": 5,
-      "observations": 120,
+      "sessions": 6,
+      "observations": 159,
       "reportable": false,
-      "note": "5 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
+      "note": "6 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
     },
     "raw_clustered": {
-      "mean": -0.944,
+      "mean": -0.272,
       "low": null,
       "high": null,
-      "sessions": 5,
-      "observations": 120,
+      "sessions": 6,
+      "observations": 159,
       "reportable": false,
-      "note": "5 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
+      "note": "6 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
     },
     "raw": {
-      "mean": -0.944,
-      "low": -1.814,
-      "high": -0.111,
-      "n": 120,
+      "mean": -0.272,
+      "low": -0.962,
+      "high": 0.449,
+      "n": 159,
       "reportable": true,
-      "straddles_zero": false,
-      "note": ""
+      "straddles_zero": true,
+      "note": "the interval includes zero, so this is consistent with no effect"
     },
     "vs_spy": {
-      "mean": -0.557,
-      "low": -1.392,
-      "high": 0.2,
-      "n": 120,
+      "mean": -0.063,
+      "low": -0.718,
+      "high": 0.607,
+      "n": 159,
       "reportable": true,
       "straddles_zero": true,
       "note": "the interval includes zero, so this is consistent with no effect"
     },
     "beat_spy": {
-      "rate": 51.7,
-      "low": 42.8,
+      "rate": 52.8,
+      "low": 45.1,
       "high": 60.4,
-      "n": 120,
+      "n": 159,
       "reportable": true,
       "note": ""
     },
@@ -57413,10 +56600,10 @@
     },
     "verdict": {
       "claim": "No edge demonstrated: the interval around the mean includes zero.",
-      "resolved": 120,
+      "resolved": 159,
       "census": {
-        "resolved": 120,
-        "unresolved": 370,
+        "resolved": 159,
+        "unresolved": 331,
         "stale": 0,
         "unpriceable": 6,
         "failed": 0
@@ -57426,52 +56613,7 @@
   },
   "radar": {
     "upcoming": [],
-    "priority": [
-      {
-        "event_id": "cat_cc341228df055c",
-        "title": "Amgen Inc. - 739641 - 08/12/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T15:32:15-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amgen-inc-739641-08122026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter addressed to Amgen Inc. (reference 739641, dated 08/12/2026, published 2026-10-27). Only the headline was retrieved; the letter body, cited violations, and scope are not available.",
-          "companies": [
-            {
-              "company": "Amgen Inc.",
-              "ticker": "AMGN",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2,
-          "is_market_relevant": true
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "priority",
-          "reason": "",
-          "verified": [
-            {
-              "ticker": "AMGN",
-              "company": "Amgen Inc.",
-              "source": "stated"
-            }
-          ],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.49915815806713
-        }
-      }
-    ],
+    "priority": [],
     "archive": [
       {
         "event_id": "cat_64d7e687de2f74",
@@ -57506,7 +56648,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.5007206580671295
+          "age_days": 3.8437975304629632
         }
       },
       {
@@ -57540,7 +56682,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.7774914914004625
+          "age_days": 4.120568363796297
         }
       },
       {
@@ -57571,7 +56713,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.777746121030092
+          "age_days": 4.120822993425926
         }
       },
       {
@@ -57602,7 +56744,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.7801882506597217
+          "age_days": 4.123265123055556
         }
       },
       {
@@ -57633,7 +56775,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.46308176917824
+          "age_days": 4.806158641574074
         }
       },
       {
@@ -57664,7 +56806,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.490674361770833
+          "age_days": 4.833751234166667
         }
       },
       {
@@ -57695,7 +56837,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.498533158067129
+          "age_days": 4.841610030462963
         }
       },
       {
@@ -57726,7 +56868,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.504516954363425
+          "age_days": 4.847593826759259
         }
       },
       {
@@ -57757,7 +56899,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.514088713622685
+          "age_days": 4.857165586018518
         }
       },
       {
@@ -57788,7 +56930,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.517803991400463
+          "age_days": 4.860880863796297
         }
       },
       {
@@ -57819,7 +56961,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.5470863988078705
+          "age_days": 4.890163271203704
         }
       },
       {
@@ -57853,7 +56995,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.555003065474537
+          "age_days": 4.898079937870371
         }
       },
       {
@@ -57884,7 +57026,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.555049361770833
+          "age_days": 4.898126234166667
         }
       },
       {
@@ -57915,7 +57057,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.584401213622685
+          "age_days": 4.927478086018518
         }
       },
       {
@@ -57946,7 +57088,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.61333639880787
+          "age_days": 4.9564132712037035
         }
       },
       {
@@ -57981,7 +57123,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 4.616959083993056
+          "age_days": 4.960035956388889
         }
       },
       {
@@ -58022,7 +57164,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.62790815806713
+          "age_days": 4.9709850304629635
         }
       },
       {
@@ -58054,7 +57196,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.681507695104166
+          "age_days": 5.0245845675
         }
       },
       {
@@ -58085,7 +57227,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.726102602511574
+          "age_days": 5.069179474907408
         }
       },
       {
@@ -58116,7 +57258,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.742410472881944
+          "age_days": 5.085487345277778
         }
       },
       {
@@ -58147,7 +57289,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.744678991400463
+          "age_days": 5.087755863796296
         }
       },
       {
@@ -58181,7 +57323,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.760315565474537
+          "age_days": 5.103392437870371
         }
       },
       {
@@ -58212,7 +57354,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.793556306215278
+          "age_days": 5.1366331786111115
         }
       },
       {
@@ -58243,7 +57385,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.795072509918981
+          "age_days": 5.138149382314815
         }
       },
       {
@@ -58274,7 +57416,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.795685935844907
+          "age_days": 5.138762808240741
         }
       },
       {
@@ -58305,7 +57447,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.796160472881944
+          "age_days": 5.1392373452777775
         }
       },
       {
@@ -58336,7 +57478,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.796588713622685
+          "age_days": 5.139665586018519
         }
       },
       {
@@ -58376,7 +57518,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 5.146553991400463
+          "age_days": 5.489630863796297
         }
       },
       {
@@ -58407,7 +57549,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.321391954363426
+          "age_days": 5.66446882675926
         }
       },
       {
@@ -58438,7 +57580,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.321438250659722
+          "age_days": 5.664515123055556
         }
       },
       {
@@ -58469,7 +57611,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 5.563220658067129
+          "age_days": 5.906297530462963
         }
       },
       {
@@ -58500,7 +57642,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.462178991400463
+          "age_days": 5.8052558637962965
         }
       },
       {
@@ -58531,7 +57673,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.494632695104166
+          "age_days": 5.8377095675
         }
       },
       {
@@ -58562,7 +57704,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.497676676585648
+          "age_days": 5.840753548981482
         }
       },
       {
@@ -58596,7 +57738,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.513093343252314
+          "age_days": 5.856170215648148
         }
       },
       {
@@ -58631,7 +57773,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.526565565474537
+          "age_days": 5.869642437870371
         }
       },
       {
@@ -58662,7 +57804,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.571310935844907
+          "age_days": 5.914387808240741
         }
       },
       {
@@ -58693,7 +57835,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.596415102511574
+          "age_days": 5.9394919749074075
         }
       },
       {
@@ -58727,7 +57869,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.642757695104167
+          "age_days": 5.9858345675
         }
       },
       {
@@ -58758,7 +57900,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.665141954363426
+          "age_days": 6.00821882675926
         }
       },
       {
@@ -58789,7 +57931,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.6948410284375
+          "age_days": 6.0379179008333335
         }
       },
       {
@@ -58820,7 +57962,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.6993086210300925
+          "age_days": 6.042385493425926
         }
       },
       {
@@ -58851,7 +57993,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.742294732141203
+          "age_days": 6.085371604537037
         }
       },
       {
@@ -58883,587 +58025,43 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.401530843252314
-        }
-      },
-      {
-        "event_id": "cat_fa476862124889",
-        "title": "Manual of Compliance Policy Guides",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T14:04:58-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-manuals/manual-compliance-policy-guides",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA posted a headline-only item titled \"Manual of Compliance Policy Guides\" on its compliance manuals page. No body text was retrieved, so the content and any specific company impact are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": []
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_duplicates": [
-          "FDA Biologics and Vaccines"
-        ],
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.559771583993055
-        }
-      },
-      {
-        "event_id": "cat_4ebe25d7d08e1f",
-        "title": "Cellular & Gene Therapy Guidances",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T11:52:15-04:00",
-        "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA Biologics and Vaccines posted a page headlined \"Cellular & Gene Therapy Guidances\" on 2026-10-27. No body text was retrieved, so the specific guidance content is unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.651935935844907
-        }
-      },
-      {
-        "event_id": "cat_79eda1c730c453",
-        "title": "ZUBB Dietary Supplement may be harmful due to hidden ingredient",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T11:14:02-04:00",
-        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/zubb-dietary-supplement-may-be-harmful-due-hidden-ingredient",
-        "category": "regulatory",
-        "findings": {
-          "affected_sectors": [
-            "dietary supplements"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "recall_safety",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "summary": "FDA published a health fraud notification that the ZUBB dietary supplement may be harmful due to a hidden ingredient. No body text was retrieved, and no company is named in the headline."
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.678475287696759
-        }
-      },
-      {
-        "event_id": "cat_01606e6659b297",
-        "title": "Weight Loss Product Notifications",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T11:09:36-04:00",
-        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/weight-loss-product-notifications",
-        "category": "regulatory",
-        "findings": {
-          "summary": "FDA posted a 'Weight Loss Product Notifications' page under its medication health fraud notifications section. No body text was retrieved, so the specific products or actions are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "affected_sectors": []
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.681553991400462
-        }
-      },
-      {
-        "event_id": "cat_80ecfe151ded0a",
-        "title": "Demograss Premier may be harmful due to hidden ingredient",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T11:08:49-04:00",
-        "url": "http://www.fda.gov/drugs/medication-health-fraud-notifications/demograss-premier-may-be-harmful-due-hidden-ingredient",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "recall_safety",
-          "summary": "FDA issued a health fraud notification that the product Demograss Premier may be harmful due to a hidden ingredient. The announcement body text was not retrieved, so the ingredient and company are unspecified.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.6820979728819445
-        }
-      },
-      {
-        "event_id": "cat_0e02ce5fdb657a",
-        "title": "Best Chinese Medicines LLC - 738556 - 10/23/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:07-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/best-chinese-medicines-llc-738556-10232026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/23/2026 addressed to Best Chinese Medicines LLC. Only the headline was retrieved, so the violations cited are not known.",
-          "companies": [
-            {
-              "company": "Best Chinese Medicines LLC",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.757584083993056
-        }
-      },
-      {
-        "event_id": "cat_59f6ab2a04cca9",
-        "title": "TSP Solutions Pte. Ltd. - 735071 - 10/22/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:07-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/tsp-solutions-pte-ltd-735071-10222026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/22/2026 addressed to TSP Solutions Pte. Ltd. The announcement text was not retrieved, so the nature of the violations is unknown.",
-          "companies": [
-            {
-              "company": "TSP Solutions Pte. Ltd.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.757584083993056
-        }
-      },
-      {
-        "event_id": "cat_598edff6629535",
-        "title": "Sanrace Biotechnology Co., Ltd. - 737549 - 10/22/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:06-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/sanrace-biotechnology-co-ltd-737549-10222026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "summary": "FDA posted a warning letter dated 10/22/2026 to Sanrace Biotechnology Co., Ltd. (file 737549). Only the headline was retrieved, so the specific violations are not known.",
-          "companies": [
-            {
-              "company": "Sanrace Biotechnology Co., Ltd.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology"
-          ]
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.757595658067129
-        }
-      },
-      {
-        "event_id": "cat_c619f73bb02581",
-        "title": "Northland Nuclear Medicine, LLC - 736893 - 10/22/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:06-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/northland-nuclear-medicine-llc-736893-10222026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/22/2026 to Northland Nuclear Medicine, LLC. Only the headline was retrieved; no body text describes the specific violations.",
-          "companies": [
-            {
-              "company": "Northland Nuclear Medicine, LLC",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.757595658067129
-        }
-      },
-      {
-        "event_id": "cat_97d8e87af1c600",
-        "title": "Calibrate IV Hydration - 729846 - 10/13/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T09:20:06-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/calibrate-iv-hydration-729846-10132026",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA posted a warning letter headlined \"Calibrate IV Hydration - 729846 - 10/13/2026\" dated 10/13/2026. No body text was retrieved, so the specific violations are unknown.",
-          "companies": [
-            {
-              "company": "Calibrate IV Hydration",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear"
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.757595658067129
-        }
-      },
-      {
-        "event_id": "cat_4fd44e79665887",
-        "title": "Beaute Bounty - 729163 - 09/25/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T09:20:05-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/beaute-bounty-729163-09252026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter to Beaute Bounty (dated 09/25/2026, published 2026-10-27), but no body text was retrieved, so the violations and any market relevance cannot be determined from the headline alone.",
-          "companies": [
-            {
-              "company": "Beaute Bounty",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.757607232141203
-        }
-      },
-      {
-        "event_id": "cat_90087a20d328dc",
-        "title": "NeilMed Pharmaceuticals Inc. - 650263 - 10/19/2026",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:20:03-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-10192026",
-        "category": "regulatory",
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "enforcement",
-          "summary": "FDA posted a warning letter dated 10/19/2026 to NeilMed Pharmaceuticals Inc. (reference 650263). Only the headline was retrieved, so the specific violations are not stated.",
-          "companies": [
-            {
-              "company": "NeilMed Pharmaceuticals Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.757630380289352
-        }
-      },
-      {
-        "event_id": "cat_cac20d08832a39",
-        "title": "NeilMed Pharmaceuticals Inc. - 650263 - 05/26/2023",
-        "source": "FDA Drugs",
-        "published": "2026-10-27T09:19:36-04:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neilmed-pharmaceuticals-inc-650263-05262023",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "summary": "FDA posted a warning letter to NeilMed Pharmaceuticals Inc., dated 05/26/2023 per the headline, based on an inspection. Only the headline was retrieved, so the specific violations are not known.",
-          "companies": [
-            {
-              "company": "NeilMed Pharmaceuticals Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.7579428802893515
-        }
-      },
-      {
-        "event_id": "cat_78db511ed13223",
-        "title": "Electronic Submission Template for Investigational Device Exemption (IDE) Applications",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T09:02:07-04:00",
-        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-submission-template-investigational-device-exemption-ide-applications",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA Biologics and Vaccines posted a notice titled \"Electronic Submission Template for Investigational Device Exemption (IDE) Applications.\" No body text was retrieved, so the content is unknown beyond the headline.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.770084083993055
-        }
-      },
-      {
-        "event_id": "cat_23719750710537",
-        "title": "Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-10-27T08:53:57-04:00",
-        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval",
-        "category": "regulatory",
-        "findings": {
-          "event_type": "regulatory_action",
-          "summary": "FDA Biologics and Vaccines published a guidance document headlined \"Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management.\" Only the headline was retrieved, so the document's content is not confirmed.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "is_market_relevant": true,
-          "affected_sectors": [
-            "biotechnology",
-            "gene therapy"
-          ]
-        },
-        "has_body": false,
-        "body_chars": null,
-        "body_backfilled": true,
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.775755380289351
+          "age_days": 6.744607715648147
         }
       }
     ],
     "counts": {
       "upcoming": 0,
-      "priority": 1,
-      "archive": 59
+      "priority": 0,
+      "archive": 44
     },
-    "duplicates_collapsed": 6,
-    "headline_only_promoted": 1,
+    "duplicates_collapsed": 5,
+    "headline_only_promoted": 0,
     "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 59
+      "no verified public company behind it": 44
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-03T07:26:39.929852+00:00",
-      "display": "Nov 03, 2:26 AM EST",
+      "at": "2026-11-03T15:40:39.705146+00:00",
+      "display": "Nov 03, 10:40 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07287108
+      "age_hours": 0.07344508611111111
     },
     "last_success": {
-      "at": "2026-11-03T00:15:43.433837+00:00",
-      "display": "Nov 02, 7:15 PM EST",
+      "at": "2026-11-03T07:26:39.929852+00:00",
+      "display": "Nov 03, 2:26 AM EST",
       "trigger": "github-actions",
-      "age_hours": 7.255231084166666,
+      "age_hours": 8.306716001111111,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 1.3,
-    "stale_message": "No successful ingestion in 7.3h - 1.3h past the expected 6h schedule",
+    "overdue_hours": 2.3,
+    "stale_message": "No successful ingestion in 8.3h - 2.3h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -59475,10 +58073,10 @@
       "newest_ingested_display": "Oct 30, 9:26 AM EDT"
     },
     "market_data": {
-      "attempted": "2026-11-03T07:30:00.945041+00:00",
-      "as_of": "2026-11-03T07:30:00.945041+00:00",
-      "as_of_display": "Nov 03, 2:30 AM EST",
-      "attempted_display": "Nov 03, 2:30 AM EST",
+      "attempted": "2026-11-03T15:44:03.752467+00:00",
+      "as_of": "2026-11-03T15:44:03.752467+00:00",
+      "as_of_display": "Nov 03, 10:44 AM EST",
+      "attempted_display": "Nov 03, 10:44 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -59489,12 +58087,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-03T07:26:39.929852+00:00",
-        "display": "Tue 2:26 AM EST",
+        "started": "2026-11-03T15:40:39.705146+00:00",
+        "display": "Tue 10:40 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-03T07:26:39.929852+00:00",
+        "display": "Tue 2:26 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-03T00:15:43.433837+00:00",
@@ -59543,14 +58149,6 @@
         "ok": true,
         "error": "",
         "ingested": 0
-      },
-      {
-        "started": "2026-11-01T08:30:42.622050+00:00",
-        "display": "Sun 3:30 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
       }
     ],
     "alerting": {
@@ -59560,17 +58158,17 @@
       "why": "local owns notifications, this is github-actions",
       "recent": [
         {
-          "at": "2026-11-03T00:20:02.050737+00:00",
+          "at": "2026-11-03T07:31:02.363967+00:00",
           "runner": "github-actions",
           "tier": "digest",
           "ticker": "INTC, NOW, LLY, AMD, AMZN",
           "delivered": false,
           "reason": "suppressed_not_owner",
-          "headline": "106 ticker(s) tracked / 120 signal(s) resolved",
-          "key": "digest:all:f2a88021be"
+          "headline": "105 ticker(s) tracked / 120 signal(s) resolved",
+          "key": "digest:all:17ceb3d099"
         },
         {
-          "at": "2026-11-03T00:20:02.050737+00:00",
+          "at": "2026-11-03T07:31:02.363967+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "AMZN",
@@ -59580,7 +58178,7 @@
           "key": "watch:AMZN:08ca1d2c65"
         },
         {
-          "at": "2026-11-03T00:20:02.050737+00:00",
+          "at": "2026-11-03T07:31:02.363967+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "AMD",
@@ -59590,7 +58188,7 @@
           "key": "watch:AMD:caa8d80700"
         },
         {
-          "at": "2026-11-03T00:20:02.050737+00:00",
+          "at": "2026-11-03T07:31:02.363967+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "LLY",
@@ -59600,7 +58198,7 @@
           "key": "watch:LLY:936f281c70"
         },
         {
-          "at": "2026-11-03T00:20:02.050737+00:00",
+          "at": "2026-11-03T07:31:02.363967+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "NOW",
@@ -59610,7 +58208,7 @@
           "key": "watch:NOW:b7fcf6cc65"
         },
         {
-          "at": "2026-11-03T00:20:02.050737+00:00",
+          "at": "2026-11-03T07:31:02.363967+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "INTC",
