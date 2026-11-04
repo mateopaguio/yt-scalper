@@ -1,5 +1,28 @@
 [
   {
+    "event_id": "cat_fbf83c3d91598e",
+    "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+    "source": "SEC Press Releases",
+    "published": "2026-11-04T11:28:00-05:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "affected_sectors": [
+        "asset management",
+        "investment advisers",
+        "investment companies"
+      ],
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "The SEC adopted amendments updating the definitions of \"small entity\" for investment companies and investment advisers, per the headline. No body text was retrieved, so the specifics are unknown."
+    }
+  },
+  {
     "event_id": "cat_64d7e687de2f74",
     "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
     "source": "SEC Press Releases",

@@ -2678,6 +2678,66 @@
       "reason": "suppressed_not_owner",
       "headline": "89 ticker(s) tracked / 159 signal(s) resolved",
       "key": "digest:all:15be612662"
+    },
+    {
+      "at": "2026-11-04T16:47:31.406248+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "LLY \u2014 4 channels did own work, forward catalyst",
+      "key": "watch:LLY:936f281c70"
+    },
+    {
+      "at": "2026-11-04T16:47:31.406248+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "AMZN \u2014 5 channels did own work, developing",
+      "key": "watch:AMZN:08ca1d2c65"
+    },
+    {
+      "at": "2026-11-04T16:47:31.406248+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "INTC \u2014 6 channels did own work",
+      "key": "watch:INTC:973962d823"
+    },
+    {
+      "at": "2026-11-04T16:47:31.406248+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "NOW",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "NOW \u2014 6 channels did own work",
+      "key": "watch:NOW:b7fcf6cc65"
+    },
+    {
+      "at": "2026-11-04T16:47:31.406248+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "SNDK",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "SNDK \u2014 3 channels did own work, developing",
+      "key": "watch:SNDK:ee62158744"
+    },
+    {
+      "at": "2026-11-04T16:47:31.406248+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "LLY, AMZN, INTC, NOW, SNDK",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "77 ticker(s) tracked / 159 signal(s) resolved",
+      "key": "digest:all:9a82f30965"
     }
   ],
   "ops": {},
