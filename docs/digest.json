@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T01:50:14.143289+00:00",
-  "video_count": 64,
+  "generated_at": "2026-11-04T08:27:00.765353+00:00",
+  "video_count": 61,
   "videos": [
     {
       "video_id": "muRRx9tfNyU",
@@ -4929,125 +4929,6 @@
           "macro_points": 2,
           "off_topic_title": false,
           "macro_language": false,
-          "analysed": true
-        },
-        "reason": "market commentary without a specific name"
-      }
-    },
-    {
-      "video_id": "VISHdWP2DeU",
-      "title": "AI Agents Coming To A Restaurant Near You 10/28/26",
-      "channel": "CNBC Television",
-      "published": "2026-10-28T07:00:29+00:00",
-      "url": "https://www.youtube.com/watch?v=VISHdWP2DeU",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video",
-      "findings": null,
-      "skip_reason": "content too short",
-      "ingested_at": "2026-10-28T08:28:00.399756+00:00",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 0,
-          "off_topic_title": false,
-          "macro_language": false,
-          "analysed": false
-        },
-        "reason": "not analysed yet - unknown, not irrelevant"
-      }
-    },
-    {
-      "video_id": "lXvls9rWQCQ",
-      "title": "Anthropic’s S1 Just Crushed the Biggest Bear Case",
-      "channel": "The Compound",
-      "published": "2026-10-28T02:29:37+00:00",
-      "url": "https://www.youtube.com/watch?v=lXvls9rWQCQ",
-      "tier": 1,
-      "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
-      "source_type": "video",
-      "findings": {
-        "summary": "The hosts discuss Anthropic's S1 filing as good news for the market, saying many short-term bear questions have been answered while longer-term concerns about contracts and customer concentration remain open. They cite customer-count figures from the filing (over 11,900 customers spending $100K+, about 1,900 spending $1M+, about 250 spending $10M+ over 12 months) and a figure attributed to Gavin Baker that Fortune 500 spend averages under 0.1% of their total expenses, which they read as a large runway for growth. The video is largely an enthusiastic reaction with little discussion of risks.",
-        "overall_stance": "bullish",
-        "hype_level": 3,
-        "discloses_position": false,
-        "promotional": false,
-        "macro_points": [
-          "The market is described as having needed good news, per the hosts."
-        ],
-        "red_flags": [
-          "No discussion of the risks the hosts themselves acknowledge: longer-term contract concerns, whether some contracts are guaranteed, and customer concentration (a bear point about only a few buyers is raised and then dismissed without analysis).",
-          "Key penetration claim relies on a second-hand figure attributed to Gavin Baker, not verified in the video.",
-          "Host says the bear concerns are 'answered' with no detail on how.",
-          "Enthusiastic reaction ('crushed the biggest bear case') with no counterarguments presented."
-        ],
-        "tickers": [
-          {
-            "ticker": "",
-            "company": "Anthropic",
-            "stance": "bullish",
-            "thesis": "Hosts read the S1 customer figures as strong evidence of traction, and cite a claim that enterprise spend on the product is a small share of customers' budgets, implying a long growth runway. A bear argument about customer concentration (only a few buyers) is raised and dismissed without much analysis. Anthropic is private and the S1 filing is referenced, so no ticker is assigned.",
-            "conviction": "high",
-            "evidence": "data",
-            "timestamp": "0:00",
-            "breakout_signal": "catalyst_driven",
-            "catalyst": "S1 filing disclosures",
-            "price_target": "",
-            "sector": "ai infrastructure",
-            "timeframe": ""
-          }
-        ]
-      },
-      "ingested_at": "2026-10-28T08:28:00.399756+00:00",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 1,
-          "substantive_tickers": 0,
-          "macro_points": 1,
-          "off_topic_title": false,
-          "macro_language": false,
-          "analysed": true
-        },
-        "reason": "market commentary without a specific name"
-      }
-    },
-    {
-      "video_id": "yr3t-N_DjAw",
-      "title": "Why Anthropic’s IPO is risky business",
-      "channel": "CNBC Television",
-      "published": "2026-10-28T02:08:25+00:00",
-      "url": "https://www.youtube.com/watch?v=yr3t-N_DjAw",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video",
-      "findings": {
-        "summary": "The video summarizes risk factors from Anthropic's IPO filing (S-1-style prospectus, over 90 pages): existential and safety risks, dependence on data centers and scarce/costly electricity amid local opposition and state moratoriums, a current clash with the Trump administration, child safety exposure as adoption grows, and the risk that customers slow AI spending or switch to cheaper open-weight models. It is a risk-disclosure recap and does not offer a price view or valuation.",
-        "overall_stance": "neutral",
-        "hype_level": 1,
-        "discloses_position": false,
-        "promotional": false,
-        "macro_points": [
-          "Electricity supply for AI data centers could be scarce and costly.",
-          "State-level moratoriums and local opposition could slow data center buildout."
-        ],
-        "red_flags": [
-          "Anthropic is a private company in this video's context; the IPO is pending, so no trading price or valuation is discussed.",
-          "No valuation, price target, or financial figures are given, so investment merit cannot be assessed from this video."
-        ],
-        "tickers": []
-      },
-      "ingested_at": "2026-10-28T08:28:00.399756+00:00",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 2,
-          "off_topic_title": false,
-          "macro_language": true,
           "analysed": true
         },
         "reason": "market commentary without a specific name"
@@ -45865,26 +45746,6 @@
         "tilt": "bullish"
       },
       {
-        "sector": "ai infrastructure",
-        "mentions": 13,
-        "tickers": [
-          "CRWV",
-          "NBIS",
-          "ORCL"
-        ],
-        "channels": 5,
-        "bull": 4,
-        "bear": 6,
-        "evidence_counts": {
-          "reasoned": 6,
-          "speculation": 4,
-          "data": 2,
-          "none": 1
-        },
-        "quality": 7.0,
-        "tilt": "bearish"
-      },
-      {
         "sector": "financials",
         "mentions": 9,
         "tickers": [
@@ -45906,6 +45767,26 @@
         },
         "quality": 7.0,
         "tilt": "bullish"
+      },
+      {
+        "sector": "ai infrastructure",
+        "mentions": 12,
+        "tickers": [
+          "CRWV",
+          "NBIS",
+          "ORCL"
+        ],
+        "channels": 5,
+        "bull": 3,
+        "bear": 6,
+        "evidence_counts": {
+          "reasoned": 6,
+          "speculation": 4,
+          "data": 1,
+          "none": 1
+        },
+        "quality": 5.0,
+        "tilt": "bearish"
       },
       {
         "sector": "industrials",
@@ -46045,213 +45926,8 @@
   },
   "signal_log": {
     "created": [],
-    "updated": [
-      {
-        "ticker": "INTC",
-        "id": "INTC-f01573861d09",
-        "reason": "score moved +6.36 -> +5.16",
-        "score": 5.163
-      },
-      {
-        "ticker": "NOW",
-        "id": "NOW-d5085d1a0277",
-        "reason": "score moved +6.36 -> +5.16",
-        "score": 5.163
-      },
-      {
-        "ticker": "GOOGL",
-        "id": "GOOGL-dbd2099a00a4",
-        "reason": "freshness state changed",
-        "score": 4.943
-      },
-      {
-        "ticker": "AMZN",
-        "id": "AMZN-d87941d6cb97",
-        "reason": "freshness state changed",
-        "score": 5.243
-      },
-      {
-        "ticker": "ORCL",
-        "id": "ORCL-4f309fa6405d",
-        "reason": "freshness state changed",
-        "score": 3.674
-      },
-      {
-        "ticker": "NVDA",
-        "id": "NVDA-c43d9fc57f5d",
-        "reason": "freshness state changed",
-        "score": 3.326
-      },
-      {
-        "ticker": "AMD",
-        "id": "AMD-2c24d177c5b3",
-        "reason": "score moved +5.53 -> +4.33",
-        "score": 4.326
-      },
-      {
-        "ticker": "GEV",
-        "id": "GEV-118326b78f01",
-        "reason": "freshness state changed",
-        "score": 3.837
-      },
-      {
-        "ticker": "IWM",
-        "id": "IWM-77b569b83c18",
-        "reason": "freshness state changed",
-        "score": 1.037
-      },
-      {
-        "ticker": "VRT",
-        "id": "VRT-a51c1a990d8c",
-        "reason": "freshness state changed",
-        "score": 3.837
-      },
-      {
-        "ticker": "IOVA",
-        "id": "IOVA-08bad3221abd",
-        "reason": "freshness state changed",
-        "score": 2.837
-      },
-      {
-        "ticker": "MU",
-        "id": "MU-a9b4319988cf",
-        "reason": "freshness state changed",
-        "score": -0.463
-      },
-      {
-        "ticker": "EAT",
-        "id": "EAT-8f5c5140f5ac",
-        "reason": "score moved +4.20 -> +3.00",
-        "score": 3.0
-      },
-      {
-        "ticker": "MEDP",
-        "id": "MEDP-ef547b6ac8da",
-        "reason": "freshness state changed",
-        "score": 2.0
-      },
-      {
-        "ticker": "LAZR",
-        "id": "LAZR-7dd586da18b4",
-        "reason": "freshness state changed",
-        "score": 2.0
-      },
-      {
-        "ticker": "META",
-        "id": "META-ac7bcba8e83e",
-        "reason": "score moved +3.84 -> +3.00",
-        "score": 3.0
-      },
-      {
-        "ticker": "EBAY",
-        "id": "EBAY-66a750455b33",
-        "reason": "freshness state changed",
-        "score": 1.0
-      },
-      {
-        "ticker": "GKOS",
-        "id": "GKOS-314dcb1f0ea2",
-        "reason": "freshness state changed",
-        "score": 2.0
-      },
-      {
-        "ticker": "KLAC",
-        "id": "KLAC-2243fef84eb6",
-        "reason": "freshness state changed",
-        "score": -1.0
-      },
-      {
-        "ticker": "BYDDY",
-        "id": "BYDDY-16b366222722",
-        "reason": "freshness state changed",
-        "score": 1.0
-      },
-      {
-        "ticker": "ETN",
-        "id": "ETN-43e0be1cb272",
-        "reason": "freshness state changed",
-        "score": 1.0
-      },
-      {
-        "ticker": "WMB",
-        "id": "WMB-c926492809ed",
-        "reason": "freshness state changed",
-        "score": 1.0
-      },
-      {
-        "ticker": "GM",
-        "id": "GM-9b38def01636",
-        "reason": "freshness state changed",
-        "score": 2.0
-      },
-      {
-        "ticker": "ET",
-        "id": "ET-a9cd1e633165",
-        "reason": "freshness state changed",
-        "score": -0.5
-      },
-      {
-        "ticker": "TSLA",
-        "id": "TSLA-5fb3509614d0",
-        "reason": "freshness state changed",
-        "score": -0.5
-      },
-      {
-        "ticker": "SOC",
-        "id": "SOC-d0d9bf921edc",
-        "reason": "freshness state changed",
-        "score": 0.5
-      },
-      {
-        "ticker": "NBIS",
-        "id": "NBIS-d2c9318d10bf",
-        "reason": "score moved +0.34 -> -0.50",
-        "score": -0.5
-      },
-      {
-        "ticker": "JPM",
-        "id": "JPM-4446f7f4d543",
-        "reason": "freshness state changed",
-        "score": 0.5
-      },
-      {
-        "ticker": "SKHY",
-        "id": "SKHY-10cb67f307c2",
-        "reason": "freshness state changed",
-        "score": -0.3
-      },
-      {
-        "ticker": "TMO",
-        "id": "TMO-4ea151279a31",
-        "reason": "score moved -0.16 -> -1.00",
-        "score": -1.0
-      },
-      {
-        "ticker": "WAT",
-        "id": "WAT-de56779b49f6",
-        "reason": "score moved -0.16 -> -1.00",
-        "score": -1.0
-      },
-      {
-        "ticker": "ENVX",
-        "id": "ENVX-09b045983490",
-        "reason": "freshness state changed",
-        "score": -1.0
-      },
-      {
-        "ticker": "FTNT",
-        "id": "FTNT-85075b5d88d9",
-        "reason": "score moved +0.84 -> +0.00",
-        "score": 0.0
-      },
-      {
-        "ticker": "WEN",
-        "id": "WEN-da3dcdf78d76",
-        "reason": "freshness state changed",
-        "score": 0.0
-      }
-    ],
-    "unchanged": 55,
+    "updated": [],
+    "unchanged": 89,
     "total": 530
   },
   "outcomes": {
@@ -46276,14 +45952,14 @@
     "skipped_non_equity": 6,
     "never_attempted": 365,
     "resolved_by_horizon": {
-      "1": 120,
+      "1": 159,
       "7": 0,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-04T01:50:14.241235+00:00",
+    "last_run": "2026-11-04T08:27:00.842336+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 0."
   },
@@ -46297,8 +45973,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1253,
-        "range": "2021-11-04 .. 2026-11-02",
+        "bars": 1254,
+        "range": "2021-11-04 .. 2026-11-03",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -46309,8 +45985,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1253,
-        "range": "2021-11-04 .. 2026-11-02",
+        "bars": 1254,
+        "range": "2021-11-04 .. 2026-11-03",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -48456,19 +48132,19 @@
     {
       "channel": "CNBC Television",
       "current_tier": 1,
-      "videos": 12,
+      "videos": 11,
       "promotional": 0,
-      "red_flags": 52,
+      "red_flags": 50,
       "claims": 22,
       "unsupported_claims": 8,
-      "no_disclosure": 8,
-      "avg_hype": 2.42,
+      "no_disclosure": 7,
+      "avg_hype": 2.55,
       "promotional_rate": 0.0,
-      "red_flags_per_video": 4.33,
+      "red_flags_per_video": 4.55,
       "unsupported_rate": 0.36,
       "enough_data": true,
       "reasons": [
-        "4.33 red flags per video"
+        "4.55 red flags per video"
       ],
       "nominated": true
     },
@@ -48617,294 +48293,294 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 402,
+        "bars": 403,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 510,
+        "bars": 511,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1253,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -48912,8 +48588,8 @@
   },
   "validation": {
     "census": {
-      "resolved": 120,
-      "unresolved": 404,
+      "resolved": 159,
+      "unresolved": 365,
       "stale": 0,
       "unpriceable": 6,
       "failed": 0
@@ -49221,46 +48897,46 @@
       "note": "Observations clustered on a few sessions share one market regime. The effective sample size is closer to the number of distinct days than to the number of signals."
     },
     "vs_spy_clustered": {
-      "mean": -0.557,
+      "mean": -0.08,
       "low": null,
       "high": null,
-      "sessions": 5,
-      "observations": 120,
+      "sessions": 6,
+      "observations": 159,
       "reportable": false,
-      "note": "5 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
+      "note": "6 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
     },
     "raw_clustered": {
-      "mean": -0.944,
+      "mean": -0.299,
       "low": null,
       "high": null,
-      "sessions": 5,
-      "observations": 120,
+      "sessions": 6,
+      "observations": 159,
       "reportable": false,
-      "note": "5 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
+      "note": "6 distinct session(s); 20 are needed before a clustered interval means anything. The mean is shown because it is what happened, not because it supports inference."
     },
     "raw": {
-      "mean": -0.944,
-      "low": -1.814,
-      "high": -0.111,
-      "n": 120,
+      "mean": -0.299,
+      "low": -0.986,
+      "high": 0.416,
+      "n": 159,
       "reportable": true,
-      "straddles_zero": false,
-      "note": ""
+      "straddles_zero": true,
+      "note": "the interval includes zero, so this is consistent with no effect"
     },
     "vs_spy": {
-      "mean": -0.557,
-      "low": -1.392,
-      "high": 0.2,
-      "n": 120,
+      "mean": -0.08,
+      "low": -0.734,
+      "high": 0.567,
+      "n": 159,
       "reportable": true,
       "straddles_zero": true,
       "note": "the interval includes zero, so this is consistent with no effect"
     },
     "beat_spy": {
-      "rate": 51.7,
-      "low": 42.8,
-      "high": 60.4,
-      "n": 120,
+      "rate": 56.0,
+      "low": 48.2,
+      "high": 63.5,
+      "n": 159,
       "reportable": true,
       "note": ""
     },
@@ -49325,10 +49001,10 @@
     },
     "verdict": {
       "claim": "No edge demonstrated: the interval around the mean includes zero.",
-      "resolved": 120,
+      "resolved": 159,
       "census": {
-        "resolved": 120,
-        "unresolved": 404,
+        "resolved": 159,
+        "unresolved": 365,
         "stale": 0,
         "unpriceable": 6,
         "failed": 0
@@ -49373,7 +49049,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.264728600393519
+          "age_days": 4.540253168113426
         }
       },
       {
@@ -49407,7 +49083,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.541499433726852
+          "age_days": 4.817024001446759
         }
       },
       {
@@ -49438,7 +49114,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.541754063356482
+          "age_days": 4.817278631076389
         }
       },
       {
@@ -49469,7 +49145,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.544196192986111
+          "age_days": 4.819720760706018
         }
       },
       {
@@ -49500,7 +49176,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.22708971150463
+          "age_days": 5.502614279224537
         }
       },
       {
@@ -49531,7 +49207,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.254682304097223
+          "age_days": 5.530206871817129
         }
       },
       {
@@ -49562,7 +49238,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.262541100393519
+          "age_days": 5.538065668113426
         }
       },
       {
@@ -49593,7 +49269,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.268524896689815
+          "age_days": 5.5440494644097225
         }
       },
       {
@@ -49624,7 +49300,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.278096655949074
+          "age_days": 5.553621223668982
         }
       },
       {
@@ -49655,7 +49331,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.281811933726852
+          "age_days": 5.557336501446759
         }
       },
       {
@@ -49686,7 +49362,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.311094341134259
+          "age_days": 5.586618908854167
         }
       },
       {
@@ -49720,7 +49396,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.319011007800926
+          "age_days": 5.594535575520833
         }
       },
       {
@@ -49751,7 +49427,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.319057304097222
+          "age_days": 5.594581871817129
         }
       },
       {
@@ -49782,7 +49458,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.348409155949074
+          "age_days": 5.623933723668982
         }
       },
       {
@@ -49813,7 +49489,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.377344341134259
+          "age_days": 5.652868908854167
         }
       },
       {
@@ -49848,7 +49524,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 5.3809670263194445
+          "age_days": 5.656491594039352
         }
       },
       {
@@ -49889,7 +49565,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.3919161003935185
+          "age_days": 5.667440668113426
         }
       },
       {
@@ -49921,7 +49597,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.445515637430556
+          "age_days": 5.721040205150463
         }
       },
       {
@@ -49952,7 +49628,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.490110544837963
+          "age_days": 5.76563511255787
         }
       },
       {
@@ -49983,7 +49659,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.5064184152083335
+          "age_days": 5.781942982928241
         }
       },
       {
@@ -50014,7 +49690,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.508686933726852
+          "age_days": 5.78421150144676
         }
       },
       {
@@ -50048,7 +49724,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.5243235078009265
+          "age_days": 5.799848075520833
         }
       },
       {
@@ -50079,7 +49755,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.5575642485416665
+          "age_days": 5.833088816261574
         }
       },
       {
@@ -50110,7 +49786,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.559080452245371
+          "age_days": 5.834605019965278
         }
       },
       {
@@ -50141,7 +49817,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.559693878171297
+          "age_days": 5.835218445891204
         }
       },
       {
@@ -50172,7 +49848,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.5601684152083335
+          "age_days": 5.835692982928241
         }
       },
       {
@@ -50203,7 +49879,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.560596655949074
+          "age_days": 5.8361212236689815
         }
       },
       {
@@ -50243,7 +49919,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 3,
-          "age_days": 5.910561933726852
+          "age_days": 6.186086501446758
         }
       },
       {
@@ -50274,7 +49950,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.085399896689815
+          "age_days": 6.360924464409722
         }
       },
       {
@@ -50305,7 +49981,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.085446192986111
+          "age_days": 6.360970760706018
         }
       },
       {
@@ -50336,7 +50012,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 4,
-          "age_days": 6.327228600393518
+          "age_days": 6.602753168113425
         }
       },
       {
@@ -50367,7 +50043,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.226186933726852
+          "age_days": 6.501711501446759
         }
       },
       {
@@ -50398,7 +50074,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.258640637430555
+          "age_days": 6.534165205150463
         }
       },
       {
@@ -50429,7 +50105,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.261684618912037
+          "age_days": 6.5372091866319435
         }
       },
       {
@@ -50463,7 +50139,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.277101285578703
+          "age_days": 6.55262585329861
         }
       },
       {
@@ -50498,7 +50174,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.290573507800925
+          "age_days": 6.5660980755208325
         }
       },
       {
@@ -50529,7 +50205,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.335318878171296
+          "age_days": 6.610843445891203
         }
       },
       {
@@ -50560,7 +50236,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.360423044837963
+          "age_days": 6.63594761255787
         }
       },
       {
@@ -50594,7 +50270,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.4067656374305555
+          "age_days": 6.682290205150462
         }
       },
       {
@@ -50625,7 +50301,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.429149896689815
+          "age_days": 6.704674464409722
         }
       },
       {
@@ -50656,7 +50332,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.4588489707638885
+          "age_days": 6.734373538483796
         }
       },
       {
@@ -50687,7 +50363,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.463316563356481
+          "age_days": 6.738841131076389
         }
       },
       {
@@ -50718,7 +50394,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 6.506302674467592
+          "age_days": 6.781827242187499
         }
       }
     ],
@@ -50737,28 +50413,28 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-04T01:46:54.207023+00:00",
-      "display": "Nov 03, 8:46 PM EST",
+      "at": "2026-11-04T08:23:42.923820+00:00",
+      "display": "Nov 04, 3:23 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07176246055555555
+      "age_hours": 0.07081965138888889
     },
     "last_success": {
-      "at": "2026-11-03T21:23:51.752291+00:00",
-      "display": "Nov 03, 4:23 PM EST",
+      "at": "2026-11-04T01:46:54.207023+00:00",
+      "display": "Nov 03, 8:46 PM EST",
       "trigger": "github-actions",
-      "age_hours": 4.455777663888889,
+      "age_hours": 6.6843520949999995,
       "ingested": 0
     },
-    "stale": false,
+    "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.0,
-    "stale_message": "",
+    "overdue_hours": 0.7,
+    "stale_message": "No successful ingestion in 6.7h - 0.7h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
-      "count": 64,
+      "count": 61,
       "channels": 6,
       "newest_published": "2026-10-30T11:00:16+00:00",
       "newest_published_display": "Oct 30, 7:00 AM EDT",
@@ -50766,10 +50442,10 @@
       "newest_ingested_display": "Oct 30, 9:26 AM EDT"
     },
     "market_data": {
-      "attempted": "2026-11-04T01:50:14.241235+00:00",
-      "as_of": "2026-11-04T01:50:14.241235+00:00",
-      "as_of_display": "Nov 03, 8:50 PM EST",
-      "attempted_display": "Nov 03, 8:50 PM EST",
+      "attempted": "2026-11-04T08:27:00.842336+00:00",
+      "as_of": "2026-11-04T08:27:00.842336+00:00",
+      "as_of_display": "Nov 04, 3:27 AM EST",
+      "attempted_display": "Nov 04, 3:27 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -50780,12 +50456,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-04T01:46:54.207023+00:00",
-        "display": "Tue 8:46 PM EST",
+        "started": "2026-11-04T08:23:42.923820+00:00",
+        "display": "Wed 3:23 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-04T01:46:54.207023+00:00",
+        "display": "Tue 8:46 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-03T21:23:51.752291+00:00",
@@ -50834,14 +50518,6 @@
         "ok": true,
         "error": "",
         "ingested": 0
-      },
-      {
-        "started": "2026-11-02T00:05:15.050952+00:00",
-        "display": "Sun 7:05 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
       }
     ],
     "alerting": {
@@ -50851,37 +50527,57 @@
       "why": "local owns notifications, this is github-actions",
       "recent": [
         {
-          "at": "2026-11-03T21:28:18.673522+00:00",
+          "at": "2026-11-04T01:51:12.668376+00:00",
           "runner": "github-actions",
           "tier": "digest",
-          "ticker": "INTC, NOW, LLY, AMD, AMZN",
+          "ticker": "LLY, AMZN, INTC, NOW, GOOGL",
           "delivered": false,
           "reason": "suppressed_not_owner",
-          "headline": "98 ticker(s) tracked / 159 signal(s) resolved",
-          "key": "digest:all:7e5cc88571"
+          "headline": "89 ticker(s) tracked / 120 signal(s) resolved",
+          "key": "digest:all:15be612662"
         },
         {
-          "at": "2026-11-03T21:28:18.673522+00:00",
+          "at": "2026-11-04T01:51:12.668376+00:00",
+          "runner": "github-actions",
+          "tier": "watchlist",
+          "ticker": "GOOGL",
+          "delivered": false,
+          "reason": "suppressed_not_owner",
+          "headline": "GOOGL — 5 channels did own work",
+          "key": "watch:GOOGL:d72e30cd47"
+        },
+        {
+          "at": "2026-11-04T01:51:12.668376+00:00",
+          "runner": "github-actions",
+          "tier": "watchlist",
+          "ticker": "NOW",
+          "delivered": false,
+          "reason": "suppressed_not_owner",
+          "headline": "NOW — 6 channels did own work",
+          "key": "watch:NOW:b7fcf6cc65"
+        },
+        {
+          "at": "2026-11-04T01:51:12.668376+00:00",
+          "runner": "github-actions",
+          "tier": "watchlist",
+          "ticker": "INTC",
+          "delivered": false,
+          "reason": "suppressed_not_owner",
+          "headline": "INTC — 6 channels did own work",
+          "key": "watch:INTC:973962d823"
+        },
+        {
+          "at": "2026-11-04T01:51:12.668376+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "AMZN",
           "delivered": false,
           "reason": "suppressed_not_owner",
-          "headline": "AMZN — 5 channels did own work",
+          "headline": "AMZN — 5 channels did own work, developing",
           "key": "watch:AMZN:08ca1d2c65"
         },
         {
-          "at": "2026-11-03T21:28:18.673522+00:00",
-          "runner": "github-actions",
-          "tier": "watchlist",
-          "ticker": "AMD",
-          "delivered": false,
-          "reason": "suppressed_not_owner",
-          "headline": "AMD — 3 channels did own work, forward catalyst",
-          "key": "watch:AMD:caa8d80700"
-        },
-        {
-          "at": "2026-11-03T21:28:18.673522+00:00",
+          "at": "2026-11-04T01:51:12.668376+00:00",
           "runner": "github-actions",
           "tier": "watchlist",
           "ticker": "LLY",
@@ -50889,26 +50585,6 @@
           "reason": "suppressed_not_owner",
           "headline": "LLY — 4 channels did own work, forward catalyst",
           "key": "watch:LLY:936f281c70"
-        },
-        {
-          "at": "2026-11-03T21:28:18.673522+00:00",
-          "runner": "github-actions",
-          "tier": "watchlist",
-          "ticker": "NOW",
-          "delivered": false,
-          "reason": "suppressed_not_owner",
-          "headline": "NOW — 6 channels did own work, forward catalyst",
-          "key": "watch:NOW:b7fcf6cc65"
-        },
-        {
-          "at": "2026-11-03T21:28:18.673522+00:00",
-          "runner": "github-actions",
-          "tier": "watchlist",
-          "ticker": "INTC",
-          "delivered": false,
-          "reason": "suppressed_not_owner",
-          "headline": "INTC — 6 channels did own work, forward catalyst",
-          "key": "watch:INTC:973962d823"
         }
       ]
     },
