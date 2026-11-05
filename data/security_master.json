@@ -1,5 +1,5 @@
 {
- "learned": 67,
+ "learned": 59,
  "map": {
   "abbott": "ABT",
   "abbott laboratories": "ABT",
@@ -8,7 +8,6 @@
   "alphabet": "GOOGL",
   "amazon": "AMZN",
   "amazon com": "AMZN",
-  "amer sports": "AS",
   "amgen": "AMGN",
   "apple": "AAPL",
   "arcutis biosciences": "ARQT",
@@ -48,9 +47,7 @@
   "invesco s p 500 equal weight etf": "RSP",
   "ionq": "IONQ",
   "iovance biotherapeutics": "IOVA",
-  "ishares msci brazil etf": "EWZ",
   "ishares russell 2000 etf": "IWM",
-  "ishares silver trust": "SLV",
   "johnson johnson": "JNJ",
   "kraft heinz": "KHC",
   "life storage type insurer": "LIFE",
@@ -63,7 +60,6 @@
   "microsoft": "MSFT",
   "moderna": "MRNA",
   "netflix": "NFLX",
-  "nokia": "NOK",
   "novartis": "NVS",
   "novo nordisk": "NVO",
   "nuran wireless": "NURAN",
@@ -79,8 +75,6 @@
   "sandisk": "SNDK",
   "sanofi": "SNY",
   "servicenow": "NOW",
-  "sk hynix": "SKHY",
-  "sofi": "SOFI",
   "spdr s p 500 etf trust": "SPY",
   "spdr s p midcap 400 etf": "MDY",
   "spdr s p retail etf": "XRT",
@@ -89,14 +83,12 @@
   "takeda": "TAK",
   "takeda pharmaceutical": "TAK",
   "thermo fisher scientific": "TMO",
-  "uber": "UBER",
   "vertex pharmaceuticals": "VRTX",
   "vicor": "VRT",
   "viking therapeutics": "VKTX",
   "w r berkley": "WRB",
   "walmart": "WMT",
-  "waters": "WAT",
-  "wendy s": "WEN"
+  "waters": "WAT"
  },
  "rejected": {
   "sharkninja": [
