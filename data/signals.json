@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-05T10:34:52.606587+00:00",
- "outcomes_last_run": "2026-11-05T10:34:52.701481+00:00",
+ "last_run": "2026-11-05T18:29:22.461505+00:00",
+ "outcomes_last_run": "2026-11-05T18:29:22.556127+00:00",
  "signals": [
   {
    "basis_counts": {
@@ -76,11 +76,11 @@
    "last_seen": "2026-10-26T15:14:54.805934+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 630.56,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -3.78,
+    "max_drawdown_pct": -4.46,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -115,7 +115,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "Couch Investor"
@@ -398,11 +398,11 @@
    "last_seen": "2026-10-30T13:26:16.791768+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 216.0,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -8.17,
+    "max_drawdown_pct": -16.08,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -437,7 +437,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -729,11 +729,11 @@
    "last_seen": "2026-10-27T08:11:59.020461+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 391.62,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -5.47,
+    "max_drawdown_pct": -16.29,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -768,7 +768,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1019,11 +1019,11 @@
    "last_seen": "2026-10-28T08:28:03.628259+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 55.19,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -24.26,
+    "max_drawdown_pct": -33.05,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -1058,7 +1058,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1217,8 +1217,8 @@
    "last_seen": "2026-10-29T01:22:27.353757+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 343.91,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -4.88,
@@ -1256,7 +1256,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1480,11 +1480,11 @@
    "last_seen": "2026-10-30T07:16:20.939604+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 237.5,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -12.96,
+    "max_drawdown_pct": -24.68,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -1519,7 +1519,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1667,8 +1667,8 @@
    "last_seen": "2026-10-29T09:27:52.230264+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 63.9,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -2.99,
@@ -1706,7 +1706,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -1852,8 +1852,8 @@
    "last_seen": "2026-10-27T01:15:05.688902+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 532.6,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -4.78,
@@ -1891,7 +1891,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2036,11 +2036,11 @@
    "last_seen": "2026-10-30T07:16:20.939801+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 253.44,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -3.19,
+    "max_drawdown_pct": -3.87,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -2075,7 +2075,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2207,11 +2207,11 @@
    "last_seen": "2026-10-26T15:14:54.806012+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -22.46,
+    "max_drawdown_pct": -34.74,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -2246,7 +2246,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2378,11 +2378,11 @@
    "last_seen": "2026-10-29T01:22:27.353776+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 531.28,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -19.29,
+    "max_drawdown_pct": -28.35,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -2417,7 +2417,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2551,8 +2551,8 @@
    "last_seen": "2026-10-28T17:08:58.531127+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 316.8,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -14.13,
@@ -2590,7 +2590,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -2720,8 +2720,8 @@
    "last_seen": "2026-10-29T01:22:27.353851+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 20.85,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -1.15,
@@ -2759,7 +2759,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -2907,8 +2907,8 @@
    "last_seen": "2026-10-29T01:22:27.353867+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 146.93,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -3.58,
@@ -2946,7 +2946,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -3095,11 +3095,11 @@
    "last_seen": "2026-10-29T01:22:27.353890+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 356.13,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -18.31,
+    "max_drawdown_pct": -30.81,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3134,7 +3134,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3278,11 +3278,11 @@
    "last_seen": "2026-10-29T01:22:27.353902+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 315.05,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -1.42,
+    "max_drawdown_pct": -1.71,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3317,7 +3317,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3448,11 +3448,11 @@
    "last_seen": "2026-10-29T01:22:27.353913+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 203.92,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -13.96,
+    "max_drawdown_pct": -26.25,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3487,7 +3487,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3604,11 +3604,11 @@
    "last_seen": "2026-10-29T09:27:52.230349+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 66.13,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -1.33,
+    "max_drawdown_pct": -2.02,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3643,7 +3643,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "Couch Investor"
@@ -3765,11 +3765,11 @@
    "last_seen": "2026-10-29T01:22:27.353946+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 15.25,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -4.39,
+    "max_drawdown_pct": -5.38,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3804,7 +3804,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -3922,11 +3922,11 @@
    "last_seen": "2026-10-28T08:28:03.628403+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 92.84,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -11.34,
+    "max_drawdown_pct": -18.2,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3961,7 +3961,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4079,8 +4079,8 @@
    "last_seen": "2026-10-26T22:26:42.878901+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -5.6,
@@ -4118,7 +4118,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4235,8 +4235,8 @@
    "last_seen": "2026-10-27T01:15:05.689041+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 232.01,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -7.88,
@@ -4274,7 +4274,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "Schwab Network"
@@ -4397,11 +4397,11 @@
    "last_seen": "2026-10-29T01:22:27.353840+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 126.06,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -17.52,
+    "max_drawdown_pct": -20.6,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -4436,7 +4436,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4553,8 +4553,8 @@
    "last_seen": "2026-10-26T15:14:54.806040+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -1.71,
@@ -4592,7 +4592,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "CNBC Television"
@@ -4714,11 +4714,11 @@
    "last_seen": "2026-10-27T01:15:05.689001+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 184.54,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -9.6,
+    "max_drawdown_pct": -9.68,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -4753,7 +4753,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -4870,8 +4870,8 @@
    "last_seen": "2026-10-26T22:26:42.878988+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -6.48,
@@ -4909,7 +4909,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5026,11 +5026,11 @@
    "last_seen": "2026-10-29T01:22:27.354058+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 644.21,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -20.47,
+    "max_drawdown_pct": -32.11,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -5065,7 +5065,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5182,11 +5182,11 @@
    "last_seen": "2026-10-29T21:17:00.821214+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 102.69,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -1.74,
+    "max_drawdown_pct": -2.05,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -5221,7 +5221,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5325,11 +5325,11 @@
    "last_seen": "2026-10-29T18:27:48.631487+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 1279.14,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -0.58,
+    "max_drawdown_pct": -2.11,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -5364,7 +5364,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5468,8 +5468,8 @@
    "last_seen": "2026-10-31T22:18:21.049848+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 92.7,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -1.64,
@@ -5507,7 +5507,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5611,11 +5611,11 @@
    "last_seen": "2026-10-29T01:22:27.353922+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 149.21,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -10.54,
+    "max_drawdown_pct": -19.7,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -5650,7 +5650,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5754,11 +5754,11 @@
    "last_seen": "2026-10-29T21:17:00.821295+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 692.13,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -17.11,
+    "max_drawdown_pct": -21.29,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -5793,7 +5793,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -5897,11 +5897,11 @@
    "last_seen": "2026-10-31T22:18:21.049863+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 404.16,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -1.2,
+    "max_drawdown_pct": -2.23,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -5936,7 +5936,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6040,11 +6040,11 @@
    "last_seen": "2026-10-31T22:18:21.049881+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 450.65,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -1.92,
+    "max_drawdown_pct": -2.35,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6079,7 +6079,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6183,8 +6183,8 @@
    "last_seen": "2026-10-31T22:18:21.049895+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 301.12,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -5.23,
@@ -6222,7 +6222,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6326,11 +6326,11 @@
    "last_seen": "2026-10-26T18:45:21.900436+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -16.42,
+    "max_drawdown_pct": -28.61,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6365,7 +6365,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6469,11 +6469,11 @@
    "last_seen": "2026-10-31T22:18:21.049914+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 330.0,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -1.71,
+    "max_drawdown_pct": -3.35,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6508,7 +6508,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6612,11 +6612,11 @@
    "last_seen": "2026-10-31T22:18:21.049929+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 55.63,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -10.02,
+    "max_drawdown_pct": -18.6,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6651,7 +6651,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6755,11 +6755,11 @@
    "last_seen": "2026-10-29T09:27:52.230389+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 8.64,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -11.28,
+    "max_drawdown_pct": -19.5,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6794,7 +6794,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -6893,11 +6893,11 @@
    "last_seen": "2026-11-01T15:42:23.973338+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 8.24,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -8.93,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6932,7 +6932,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T09:12:01.560675+00:00",
@@ -13227,11 +13227,11 @@
    "last_seen": "2026-10-31T14:11:58.092708+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 630.56,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -3.78,
+    "max_drawdown_pct": -4.46,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -13266,7 +13266,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "Couch Investor"
@@ -13558,11 +13558,11 @@
    "last_seen": "2026-10-26T18:45:21.900378+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -22.46,
+    "max_drawdown_pct": -34.74,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -13597,7 +13597,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T15:14:54.805900+00:00",
@@ -13743,8 +13743,8 @@
    "last_seen": "2026-10-29T01:22:27.353810+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -1.71,
@@ -13782,7 +13782,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [
     "CNBC Television"
@@ -14235,11 +14235,11 @@
    "last_seen": "2026-10-28T08:28:03.628295+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -22.46,
+    "max_drawdown_pct": -34.74,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -14274,7 +14274,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T18:45:21.900344+00:00",
@@ -14432,11 +14432,11 @@
    "last_seen": "2026-10-28T18:20:39.589332+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -16.42,
+    "max_drawdown_pct": -28.61,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -14471,7 +14471,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T18:45:21.900344+00:00",
@@ -14707,8 +14707,8 @@
    "last_seen": "2026-10-27T01:15:05.688963+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -5.6,
@@ -14746,7 +14746,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T22:26:42.878835+00:00",
@@ -14993,8 +14993,8 @@
    "last_seen": "2026-10-29T01:22:27.354046+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 7,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 8,
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
     "max_drawdown_pct": -6.48,
@@ -15032,7 +15032,7 @@
      },
      "90": null
     },
-    "trading_days_available": 7
+    "trading_days_available": 8
    },
    "reprint_channels": [],
    "run_id": "2026-10-26T22:26:42.878835+00:00",
@@ -15270,8 +15270,8 @@
    "last_seen": "2026-10-28T08:28:03.628317+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 6,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 7,
     "entry_close": 531.33,
     "entry_date": "2026-10-27",
     "max_drawdown_pct": -4.56,
@@ -15285,7 +15285,13 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "qqq_pct": -9.701,
+      "raw_pct": 1.03,
+      "spy_pct": -4.347,
+      "vs_qqq": 10.731,
+      "vs_spy": 5.377
+     },
      "90": null
     },
     "returns": {
@@ -15296,10 +15302,14 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "close": 536.8,
+      "date": "2026-11-05",
+      "return_pct": 1.03
+     },
      "90": null
     },
-    "trading_days_available": 6
+    "trading_days_available": 7
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -15459,8 +15469,8 @@
    "last_seen": "2026-10-28T08:28:03.628337+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 6,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 7,
     "entry_close": 253.1,
     "entry_date": "2026-10-27",
     "max_drawdown_pct": -5.6,
@@ -15474,7 +15484,13 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "qqq_pct": -9.701,
+      "raw_pct": 2.62,
+      "spy_pct": -4.347,
+      "vs_qqq": 12.321,
+      "vs_spy": 6.967
+     },
      "90": null
     },
     "returns": {
@@ -15485,10 +15501,14 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "close": 259.74,
+      "date": "2026-11-05",
+      "return_pct": 2.62
+     },
      "90": null
     },
-    "trading_days_available": 6
+    "trading_days_available": 7
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -15764,11 +15784,11 @@
    "last_seen": "2026-10-29T01:22:27.353878+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 6,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 7,
     "entry_close": 179.91,
     "entry_date": "2026-10-27",
-    "max_drawdown_pct": -9.6,
+    "max_drawdown_pct": -9.68,
     "relative": {
      "1": {
       "qqq_pct": 0.605,
@@ -15779,7 +15799,13 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "qqq_pct": -9.701,
+      "raw_pct": -5.99,
+      "spy_pct": -4.347,
+      "vs_qqq": 3.711,
+      "vs_spy": -1.643
+     },
      "90": null
     },
     "returns": {
@@ -15790,10 +15816,14 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "close": 169.13,
+      "date": "2026-11-05",
+      "return_pct": -5.99
+     },
      "90": null
     },
-    "trading_days_available": 6
+    "trading_days_available": 7
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T01:15:05.688852+00:00",
@@ -16044,8 +16074,8 @@
    "last_seen": "2026-10-29T01:22:27.354018+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 6,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 7,
     "entry_close": 228.23,
     "entry_date": "2026-10-27",
     "max_drawdown_pct": -7.88,
@@ -16059,7 +16089,13 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "qqq_pct": -9.701,
+      "raw_pct": -4.78,
+      "spy_pct": -4.347,
+      "vs_qqq": 4.921,
+      "vs_spy": -0.433
+     },
      "90": null
     },
     "returns": {
@@ -16070,10 +16106,14 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "close": 217.31,
+      "date": "2026-11-05",
+      "return_pct": -4.78
+     },
      "90": null
     },
-    "trading_days_available": 6
+    "trading_days_available": 7
    },
    "reprint_channels": [
     "Schwab Network"
@@ -17646,11 +17686,11 @@
    "last_seen": "2026-10-29T01:22:27.353668+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 6,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 7,
     "entry_close": 407.46,
     "entry_date": "2026-10-27",
-    "max_drawdown_pct": -5.47,
+    "max_drawdown_pct": -16.29,
     "relative": {
      "1": {
       "qqq_pct": 0.605,
@@ -17661,7 +17701,13 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "qqq_pct": -9.701,
+      "raw_pct": -16.29,
+      "spy_pct": -4.347,
+      "vs_qqq": -6.589,
+      "vs_spy": -11.943
+     },
      "90": null
     },
     "returns": {
@@ -17672,10 +17718,14 @@
      },
      "180": null,
      "30": null,
-     "7": null,
+     "7": {
+      "close": 341.105,
+      "date": "2026-11-05",
+      "return_pct": -16.29
+     },
      "90": null
     },
-    "trading_days_available": 6
+    "trading_days_available": 7
    },
    "reprint_channels": [],
    "run_id": "2026-10-27T08:11:59.020404+00:00",
@@ -19080,11 +19130,11 @@
    "last_seen": "2026-10-29T01:22:27.353693+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 63.93,
     "entry_date": "2026-10-28",
-    "max_drawdown_pct": -24.26,
+    "max_drawdown_pct": -33.05,
     "relative": {
      "1": {
       "qqq_pct": -1.415,
@@ -19109,7 +19159,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T08:28:03.628201+00:00",
@@ -19310,11 +19360,11 @@
    "last_seen": "2026-10-29T01:22:27.353711+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 182.34,
     "entry_date": "2026-10-28",
-    "max_drawdown_pct": -22.46,
+    "max_drawdown_pct": -34.74,
     "relative": {
      "1": {
       "qqq_pct": -1.415,
@@ -19339,7 +19389,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T08:28:03.628201+00:00",
@@ -19514,8 +19564,8 @@
    "last_seen": "2026-10-29T01:22:27.353622+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 531.01,
     "entry_date": "2026-10-28",
     "max_drawdown_pct": -4.5,
@@ -19543,7 +19593,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T08:28:03.628201+00:00",
@@ -19717,8 +19767,8 @@
    "last_seen": "2026-10-29T12:40:30.563428+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 254.6,
     "entry_date": "2026-10-28",
     "max_drawdown_pct": -5.6,
@@ -19746,7 +19796,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T08:28:03.628201+00:00",
@@ -19904,11 +19954,11 @@
    "last_seen": "2026-10-29T01:22:27.353826+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 91.43,
     "entry_date": "2026-10-28",
-    "max_drawdown_pct": -8.46,
+    "max_drawdown_pct": -15.55,
     "relative": {
      "1": {
       "qqq_pct": -1.415,
@@ -19933,7 +19983,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T08:28:03.628201+00:00",
@@ -21220,8 +21270,8 @@
    "last_seen": "2026-10-28T18:20:39.589306+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 324.89,
     "entry_date": "2026-10-28",
     "max_drawdown_pct": -14.13,
@@ -21249,7 +21299,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T17:08:58.531022+00:00",
@@ -21396,8 +21446,8 @@
    "last_seen": "2026-10-29T01:22:27.353733+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 324.89,
     "entry_date": "2026-10-28",
     "max_drawdown_pct": -14.13,
@@ -21425,7 +21475,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T18:20:39.589232+00:00",
@@ -21584,11 +21634,11 @@
    "last_seen": "2026-10-31T22:18:21.049510+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 5,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 6,
     "entry_close": 242.94,
     "entry_date": "2026-10-28",
-    "max_drawdown_pct": -16.42,
+    "max_drawdown_pct": -28.61,
     "relative": {
      "1": {
       "qqq_pct": -1.415,
@@ -21613,7 +21663,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 5
+    "trading_days_available": 6
    },
    "reprint_channels": [],
    "run_id": "2026-10-28T18:20:39.589232+00:00",
@@ -22172,8 +22222,8 @@
    "last_seen": "2026-10-30T00:03:48.671312+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 530.14,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": -4.34,
@@ -22201,7 +22251,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -22429,11 +22479,11 @@
    "last_seen": "2026-10-31T14:11:58.092792+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 403.3,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -4.61,
+    "max_drawdown_pct": -15.53,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -22458,7 +22508,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -22725,11 +22775,11 @@
    "last_seen": "2026-10-31T01:21:40.139748+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 60.74,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -20.28,
+    "max_drawdown_pct": -29.54,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -22754,7 +22804,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -22969,11 +23019,11 @@
    "last_seen": "2026-10-30T21:21:08.459089+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 171.99,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -17.79,
+    "max_drawdown_pct": -30.81,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -22998,7 +23048,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -23186,11 +23236,11 @@
    "last_seen": "2026-10-29T12:40:30.563361+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 283.82,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -1.7,
+    "max_drawdown_pct": -1.97,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -23215,7 +23265,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -23401,8 +23451,8 @@
    "last_seen": "2026-10-30T13:26:16.791892+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 348.91,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": -4.88,
@@ -23430,7 +23480,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -23668,11 +23718,11 @@
    "last_seen": "2026-10-30T00:03:48.671429+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 566.42,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -17.58,
+    "max_drawdown_pct": -26.83,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -23697,7 +23747,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -23973,8 +24023,8 @@
    "last_seen": "2026-10-30T16:28:09.342894+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 43.66,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": 0.0,
@@ -24002,7 +24052,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "CNBC Television"
@@ -24163,11 +24213,11 @@
    "last_seen": "2026-10-29T12:40:30.563454+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 91.59,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -8.46,
+    "max_drawdown_pct": -15.55,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -24192,7 +24242,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -24338,11 +24388,11 @@
    "last_seen": "2026-10-30T00:03:48.671410+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 139.56,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -14.57,
+    "max_drawdown_pct": -17.77,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -24367,7 +24417,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -24493,11 +24543,11 @@
    "last_seen": "2026-10-30T16:28:09.343060+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 20.92,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -0.23,
+    "max_drawdown_pct": -0.25,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -24522,7 +24572,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -24671,8 +24721,8 @@
    "last_seen": "2026-10-29T12:40:30.563473+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 147.29,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": -3.58,
@@ -24700,7 +24750,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -24851,11 +24901,11 @@
    "last_seen": "2026-10-30T21:21:08.459322+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 183.29,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -9.6,
+    "max_drawdown_pct": -9.68,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -24880,7 +24930,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -25012,11 +25062,11 @@
    "last_seen": "2026-10-30T13:24:21.672592+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 395.41,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -18.1,
+    "max_drawdown_pct": -30.63,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -25041,7 +25091,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -25181,11 +25231,11 @@
    "last_seen": "2026-10-30T13:26:16.791978+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 323.71,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -1.42,
+    "max_drawdown_pct": -1.71,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -25210,7 +25260,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -25342,11 +25392,11 @@
    "last_seen": "2026-10-30T13:24:21.672683+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 222.3,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -11.72,
+    "max_drawdown_pct": -24.34,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -25371,7 +25421,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -25489,11 +25539,11 @@
    "last_seen": "2026-10-31T22:18:21.049629+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 167.43,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -10.54,
+    "max_drawdown_pct": -19.7,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -25518,7 +25568,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Investor's Business Daily"
@@ -25757,11 +25807,11 @@
    "last_seen": "2026-10-30T16:28:09.343335+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 18.22,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -4.39,
+    "max_drawdown_pct": -5.38,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -25786,7 +25836,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -26488,8 +26538,8 @@
    "last_seen": "2026-10-30T21:21:08.459830+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 231.46,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": -7.88,
@@ -26517,7 +26567,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Schwab Network"
@@ -26887,8 +26937,8 @@
    "last_seen": "2026-10-31T01:21:40.140260+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 193.39,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": -1.67,
@@ -26916,7 +26966,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -27042,11 +27092,11 @@
    "last_seen": "2026-10-30T16:28:09.343076+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 700.47,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -20.47,
+    "max_drawdown_pct": -32.11,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -27071,7 +27121,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T01:22:27.353568+00:00",
@@ -30363,11 +30413,11 @@
    "last_seen": "2026-10-30T21:21:08.459375+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 62.05,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -1.68,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -30392,7 +30442,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T09:27:52.230182+00:00",
@@ -30798,11 +30848,11 @@
    "last_seen": "2026-10-31T22:18:21.049564+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 65.74,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -0.75,
+    "max_drawdown_pct": -2.02,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -30827,7 +30877,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Couch Investor"
@@ -31077,11 +31127,11 @@
    "last_seen": "2026-10-31T22:18:21.049613+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 9.31,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -11.28,
+    "max_drawdown_pct": -19.5,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -31106,7 +31156,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T09:27:52.230182+00:00",
@@ -31914,11 +31964,11 @@
    "last_seen": "2026-10-30T21:21:08.458995+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 283.82,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -1.7,
+    "max_drawdown_pct": -1.97,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -31943,7 +31993,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Yahoo Finance"
@@ -32172,11 +32222,11 @@
    "last_seen": "2026-10-29T18:27:48.631406+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 243.79,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -1.41,
+    "max_drawdown_pct": -2.36,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -32201,7 +32251,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T12:40:30.563270+00:00",
@@ -32374,11 +32424,11 @@
    "last_seen": "2026-10-31T22:18:21.049442+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 91.59,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -8.46,
+    "max_drawdown_pct": -15.55,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -32403,7 +32453,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T12:40:30.563270+00:00",
@@ -32561,8 +32611,8 @@
    "last_seen": "2026-10-30T16:28:09.342945+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 147.29,
     "entry_date": "2026-10-29",
     "max_drawdown_pct": -3.58,
@@ -32590,7 +32640,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -32957,11 +33007,11 @@
    "last_seen": "2026-10-31T22:18:21.049256+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 243.79,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -1.41,
+    "max_drawdown_pct": -2.36,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -32986,7 +33036,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T18:27:48.631316+00:00",
@@ -33170,11 +33220,11 @@
    "last_seen": "2026-10-29T22:18:45.468554+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 1373.7,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -0.58,
+    "max_drawdown_pct": -2.11,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -33199,7 +33249,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T18:27:48.631316+00:00",
@@ -33583,11 +33633,11 @@
    "last_seen": "2026-10-30T04:17:54.749476+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 105.51,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -1.74,
+    "max_drawdown_pct": -2.05,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -33612,7 +33662,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T21:17:00.820957+00:00",
@@ -33976,11 +34026,11 @@
    "last_seen": "2026-10-31T22:18:21.049660+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 647.39,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -8.66,
+    "max_drawdown_pct": -13.26,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -34005,7 +34055,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T21:17:00.820957+00:00",
@@ -34370,11 +34420,11 @@
    "last_seen": "2026-10-30T00:03:48.671452+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 4,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 5,
     "entry_close": 1373.7,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -0.58,
+    "max_drawdown_pct": -2.11,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -34399,7 +34449,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 4
+    "trading_days_available": 5
    },
    "reprint_channels": [],
    "run_id": "2026-10-29T22:18:45.468392+00:00",
@@ -34871,7 +34921,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606953+00:00",
+   "last_seen": "2026-11-05T18:29:22.461883+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-29T22:18:45.468392+00:00",
@@ -34900,7 +34950,7 @@
    "status": "PASS",
    "supersedes": "CRM-eb4a9a17dc78",
    "ticker": "CRM",
-   "times_seen": 32,
+   "times_seen": 33,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -34965,6 +35015,11 @@
      "at": "2026-10-30T00:03:48.671333+00:00",
      "reason": "veto status flipped",
      "status": "PASS"
+    },
+    {
+     "at": "2026-11-05T18:29:22.461644+00:00",
+     "reason": "superseded: veto status flipped",
+     "status": "EXPIRED"
     }
    ],
    "id": "MSFT-734cea608b5b",
@@ -34978,14 +35033,14 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606703+00:00",
+   "last_seen": "2026-11-05T18:29:22.461644+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 521.91,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -2.83,
+    "max_drawdown_pct": -3.42,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -35010,7 +35065,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [
     "Schwab Network"
@@ -35246,7 +35301,7 @@
     "bullish": 9,
     "neutral": 5
    },
-   "status": "PASS",
+   "status": "EXPIRED",
    "supersedes": "MSFT-f7f46796c797",
    "ticker": "MSFT",
    "times_seen": 31,
@@ -35516,11 +35571,11 @@
    "last_seen": "2026-10-30T21:21:08.459210+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 130.67,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -8.76,
+    "max_drawdown_pct": -12.18,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -35545,7 +35600,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T00:03:48.671247+00:00",
@@ -35719,11 +35774,11 @@
    "last_seen": "2026-10-30T07:16:20.939463+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -7.52,
+    "max_drawdown_pct": -17.89,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -35748,7 +35803,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T00:03:48.671247+00:00",
@@ -35908,11 +35963,11 @@
    "last_seen": "2026-10-30T07:16:20.939517+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 1417.54,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -0.58,
+    "max_drawdown_pct": -2.11,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -35937,7 +35992,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T00:03:48.671247+00:00",
@@ -38599,11 +38654,11 @@
    "last_seen": "2026-10-31T22:18:21.049421+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 103.67,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -2.05,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -38628,7 +38683,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T04:17:54.749312+00:00",
@@ -39193,11 +39248,11 @@
    "last_seen": "2026-10-30T13:26:16.791877+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -7.52,
+    "max_drawdown_pct": -17.89,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -39222,7 +39277,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T07:16:20.939363+00:00",
@@ -39396,11 +39451,11 @@
    "last_seen": "2026-10-31T22:18:21.049348+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 1417.54,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -0.58,
+    "max_drawdown_pct": -2.11,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -39425,7 +39480,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T07:16:20.939363+00:00",
@@ -39727,11 +39782,11 @@
    "last_seen": "2026-10-31T01:21:40.139998+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 239.11,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -7.39,
+    "max_drawdown_pct": -19.87,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -39756,7 +39811,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T07:16:20.939363+00:00",
@@ -39871,11 +39926,11 @@
    "last_seen": "2026-10-30T09:28:29.651820+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 257.81,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -3.01,
+    "max_drawdown_pct": -3.69,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -39900,7 +39955,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T07:16:20.939363+00:00",
@@ -40005,11 +40060,11 @@
    "last_seen": "2026-10-30T21:21:08.459501+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 366.11,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -11.55,
+    "max_drawdown_pct": -25.08,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -40034,7 +40089,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T13:24:21.672354+00:00",
@@ -40160,11 +40215,11 @@
    "last_seen": "2026-10-30T16:28:09.343163+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 203.17,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -6.36,
+    "max_drawdown_pct": -21.41,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -40189,7 +40244,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T13:24:21.672354+00:00",
@@ -40303,11 +40358,11 @@
    "last_seen": "2026-10-31T14:11:58.092645+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 204.64,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -3.17,
+    "max_drawdown_pct": -11.51,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -40332,7 +40387,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -41100,11 +41155,11 @@
    "last_seen": "2026-10-30T21:21:08.459137+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -7.52,
+    "max_drawdown_pct": -17.89,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -41129,7 +41184,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -41329,8 +41384,8 @@
    "last_seen": "2026-10-30T21:21:08.459185+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 344.63,
     "entry_date": "2026-10-30",
     "max_drawdown_pct": -3.69,
@@ -41358,7 +41413,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -41875,7 +41930,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606796+00:00",
+   "last_seen": "2026-11-05T18:29:22.461714+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -41903,7 +41958,7 @@
    },
    "status": "RESEARCH",
    "ticker": "LIFE",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -41971,7 +42026,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606801+00:00",
+   "last_seen": "2026-11-05T18:29:22.461717+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -41999,7 +42054,7 @@
    },
    "status": "RESEARCH",
    "ticker": "DDOG",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42067,7 +42122,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606805+00:00",
+   "last_seen": "2026-11-05T18:29:22.461721+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42095,7 +42150,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GRAL",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42163,7 +42218,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606808+00:00",
+   "last_seen": "2026-11-05T18:29:22.461724+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42191,7 +42246,7 @@
    },
    "status": "RESEARCH",
    "ticker": "NET",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42259,7 +42314,7 @@
    "independent_channels": [
     "Benzinga"
    ],
-   "last_seen": "2026-11-05T10:34:52.606812+00:00",
+   "last_seen": "2026-11-05T18:29:22.461756+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42287,7 +42342,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GILD",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42355,7 +42410,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606831+00:00",
+   "last_seen": "2026-11-05T18:29:22.461764+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42383,7 +42438,7 @@
    },
    "status": "RESEARCH",
    "ticker": "BKNG",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42451,7 +42506,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606834+00:00",
+   "last_seen": "2026-11-05T18:29:22.461767+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42479,7 +42534,7 @@
    },
    "status": "PASS",
    "ticker": "ANET",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42549,7 +42604,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606837+00:00",
+   "last_seen": "2026-11-05T18:29:22.461770+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42577,7 +42632,7 @@
    },
    "status": "RESEARCH",
    "ticker": "ARQT",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42645,7 +42700,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606840+00:00",
+   "last_seen": "2026-11-05T18:29:22.461773+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42673,7 +42728,7 @@
    },
    "status": "RESEARCH",
    "ticker": "QCOM",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42741,7 +42796,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606843+00:00",
+   "last_seen": "2026-11-05T18:29:22.461777+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42769,7 +42824,7 @@
    },
    "status": "RESEARCH",
    "ticker": "SN",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42837,7 +42892,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606846+00:00",
+   "last_seen": "2026-11-05T18:29:22.461780+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-10-30T13:26:16.791688+00:00",
@@ -42865,7 +42920,7 @@
    },
    "status": "RESEARCH",
    "ticker": "GH",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -42931,7 +42986,7 @@
    ],
    "id": "LITE-8c33ec1ef32d",
    "independent_channels": [],
-   "last_seen": "2026-11-05T10:34:52.606884+00:00",
+   "last_seen": "2026-11-05T18:29:22.461844+00:00",
    "outcome": null,
    "reprint_channels": [
     "Investor's Business Daily"
@@ -42961,7 +43016,7 @@
    },
    "status": "PASS",
    "ticker": "LITE",
-   "times_seen": 25,
+   "times_seen": 26,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -43042,8 +43097,8 @@
    "last_seen": "2026-11-02T00:08:38.132908+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 44.73,
     "entry_date": "2026-10-30",
     "max_drawdown_pct": 0.0,
@@ -43071,7 +43126,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T16:28:09.342727+00:00",
@@ -43202,8 +43257,8 @@
    "last_seen": "2026-10-30T21:21:08.459423+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 156.44,
     "entry_date": "2026-10-30",
     "max_drawdown_pct": -3.58,
@@ -43231,7 +43286,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [
     "Bloomberg Television",
@@ -43594,11 +43649,11 @@
    "last_seen": "2026-10-30T16:28:09.343338+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 17.57,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -2.9,
+    "max_drawdown_pct": -5.38,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -43623,7 +43678,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T16:28:09.342727+00:00",
@@ -43733,11 +43788,11 @@
    "last_seen": "2026-10-31T22:18:21.049210+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 279.84,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -0.3,
+    "max_drawdown_pct": -1.97,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -43762,7 +43817,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [
     "CNBC Television",
@@ -44097,11 +44152,11 @@
    "last_seen": "2026-10-31T22:18:21.049326+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 154.14,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -8.27,
+    "max_drawdown_pct": -22.8,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -44126,7 +44181,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -44300,11 +44355,11 @@
    "last_seen": "2026-10-31T22:18:21.049373+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -7.52,
+    "max_drawdown_pct": -17.89,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -44329,7 +44384,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -44515,8 +44570,8 @@
    "last_seen": "2026-10-31T01:21:40.139831+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 344.63,
     "entry_date": "2026-10-30",
     "max_drawdown_pct": -3.69,
@@ -44544,7 +44599,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -44691,11 +44746,11 @@
    "last_seen": "2026-11-04T01:50:14.156516+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 130.67,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -8.76,
+    "max_drawdown_pct": -12.18,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -44720,7 +44775,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -44981,11 +45036,11 @@
    "last_seen": "2026-10-31T22:18:21.049728+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 187.25,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -9.6,
+    "max_drawdown_pct": -9.68,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -45010,7 +45065,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -45271,11 +45326,11 @@
    "last_seen": "2026-10-31T22:18:21.049749+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 62.08,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -1.68,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -45300,7 +45355,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -45431,8 +45486,8 @@
    "last_seen": "2026-11-05T03:03:43.351030+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 156.44,
     "entry_date": "2026-10-30",
     "max_drawdown_pct": -3.58,
@@ -45460,7 +45515,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -45565,11 +45620,11 @@
    "last_seen": "2026-10-31T22:18:21.049944+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 366.11,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -11.55,
+    "max_drawdown_pct": -25.08,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -45594,7 +45649,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -45916,8 +45971,8 @@
    "last_seen": "2026-11-02T00:08:38.133752+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 3,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 4,
     "entry_close": 235.52,
     "entry_date": "2026-10-30",
     "max_drawdown_pct": -7.88,
@@ -45945,7 +46000,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 3
+    "trading_days_available": 4
    },
    "reprint_channels": [],
    "run_id": "2026-10-30T21:21:08.458870+00:00",
@@ -46057,11 +46112,11 @@
    "last_seen": "2026-10-31T22:18:21.049295+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 50.15,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -9.9,
+    "max_drawdown_pct": -20.36,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -46086,7 +46141,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T01:21:40.139630+00:00",
@@ -46298,11 +46353,11 @@
    "last_seen": "2026-10-31T14:11:58.092817+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 338.32,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -1.9,
+    "max_drawdown_pct": -1.92,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -46327,7 +46382,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T01:21:40.139630+00:00",
@@ -46471,11 +46526,11 @@
    "last_seen": "2026-11-02T00:08:38.133293+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 227.56,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -4.03,
+    "max_drawdown_pct": -16.96,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -46500,7 +46555,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T01:21:40.139630+00:00",
@@ -47001,8 +47056,8 @@
    "last_seen": "2026-11-02T00:08:38.133569+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 192.1,
     "entry_date": "2026-11-02",
     "max_drawdown_pct": 0.0,
@@ -47030,7 +47085,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T01:21:40.139630+00:00",
@@ -47443,11 +47498,11 @@
    "last_seen": "2026-10-31T22:18:21.049009+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 202.06,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -3.17,
+    "max_drawdown_pct": -11.51,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -47472,7 +47527,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T14:11:58.092572+00:00",
@@ -47712,11 +47767,11 @@
    "last_seen": "2026-10-31T22:18:21.049099+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 606.73,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -4.37,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -47741,7 +47796,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [
     "Couch Investor"
@@ -47981,11 +48036,11 @@
    "last_seen": "2026-10-31T22:18:21.049472+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 403.82,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -4.61,
+    "max_drawdown_pct": -15.53,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -48010,7 +48065,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T14:11:58.092572+00:00",
@@ -48169,11 +48224,11 @@
    "last_seen": "2026-10-31T22:18:21.049532+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 338.32,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -1.9,
+    "max_drawdown_pct": -1.92,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -48198,7 +48253,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T14:11:58.092572+00:00",
@@ -48336,11 +48391,11 @@
    "last_seen": "2026-11-01T15:42:23.972860+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 202.06,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -3.17,
+    "max_drawdown_pct": -11.51,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -48365,7 +48420,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -48605,11 +48660,11 @@
    "last_seen": "2026-11-01T20:04:14.276535+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 606.73,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -4.37,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -48634,7 +48689,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [
     "Couch Investor"
@@ -49300,11 +49355,11 @@
    "last_seen": "2026-11-01T15:42:23.973039+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 278.99,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -1.97,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -49329,7 +49384,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [
     "CNBC Television",
@@ -49664,11 +49719,11 @@
    "last_seen": "2026-11-01T15:42:23.973009+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 245.63,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -2.36,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -49693,7 +49748,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -49959,11 +50014,11 @@
    "last_seen": "2026-11-01T15:42:23.973085+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 50.15,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -9.9,
+    "max_drawdown_pct": -20.36,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -49988,7 +50043,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -50202,11 +50257,11 @@
    "last_seen": "2026-11-01T15:42:23.973106+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 141.39,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -6.67,
+    "max_drawdown_pct": -21.52,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -50231,7 +50286,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -50405,11 +50460,11 @@
    "last_seen": "2026-11-01T20:04:14.276630+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 1410.99,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -0.11,
+    "max_drawdown_pct": -2.11,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -50434,7 +50489,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -50595,11 +50650,11 @@
    "last_seen": "2026-11-02T00:08:38.132926+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 466.84,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -15.2,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -50624,7 +50679,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -50954,11 +51009,11 @@
    "last_seen": "2026-11-01T20:04:14.276675+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 104.4,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -2.05,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -50983,7 +51038,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -51130,11 +51185,11 @@
    "last_seen": "2026-11-02T00:08:38.132887+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 83.84,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -11.51,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -51159,7 +51214,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -51319,11 +51374,11 @@
    "last_seen": "2026-11-01T20:04:14.276720+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 403.82,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -4.61,
+    "max_drawdown_pct": -15.53,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -51348,7 +51403,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -51637,11 +51692,11 @@
    "last_seen": "2026-11-01T20:04:14.276757+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 224.24,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -12.89,
+    "max_drawdown_pct": -25.6,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -51666,7 +51721,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -51812,11 +51867,11 @@
    "last_seen": "2026-11-01T15:42:23.973177+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 338.32,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -1.9,
+    "max_drawdown_pct": -1.92,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -51841,7 +51896,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -51973,11 +52028,11 @@
    "last_seen": "2026-11-01T20:04:14.277125+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 66.71,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -0.16,
+    "max_drawdown_pct": -2.02,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -52002,7 +52057,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [
     "Couch Investor"
@@ -52252,11 +52307,11 @@
    "last_seen": "2026-11-01T20:04:14.276842+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 8.3,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -2.59,
+    "max_drawdown_pct": -11.62,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -52281,7 +52336,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -52399,11 +52454,11 @@
    "last_seen": "2026-11-01T20:04:14.276949+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 153.11,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -4.1,
+    "max_drawdown_pct": -13.93,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -52428,7 +52483,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [
     "Investor's Business Daily"
@@ -52551,11 +52606,11 @@
    "last_seen": "2026-11-01T20:04:14.277096+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 613.62,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -5.23,
+    "max_drawdown_pct": -10.0,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -52580,7 +52635,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -52931,11 +52986,11 @@
    "last_seen": "2026-11-01T15:42:23.973602+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 179.67,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -5.79,
+    "max_drawdown_pct": -5.87,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -52960,7 +53015,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53079,11 +53134,11 @@
    "last_seen": "2026-11-01T15:42:23.973637+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 62.34,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -1.68,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -53108,7 +53163,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53234,8 +53289,8 @@
    "last_seen": "2026-11-01T15:42:23.973317+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 95.83,
     "entry_date": "2026-11-02",
     "max_drawdown_pct": -1.07,
@@ -53263,7 +53318,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53363,11 +53418,11 @@
    "last_seen": "2026-11-01T15:42:23.973320+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 425.51,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -1.2,
+    "max_drawdown_pct": -2.23,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -53392,7 +53447,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53492,11 +53547,11 @@
    "last_seen": "2026-11-01T15:42:23.973324+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 475.17,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -1.92,
+    "max_drawdown_pct": -2.35,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -53521,7 +53576,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53621,8 +53676,8 @@
    "last_seen": "2026-11-01T15:42:23.973326+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 298.78,
     "entry_date": "2026-11-02",
     "max_drawdown_pct": -0.93,
@@ -53650,7 +53705,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53750,11 +53805,11 @@
    "last_seen": "2026-11-01T15:42:23.973329+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 337.84,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -3.35,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -53779,7 +53834,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -53879,11 +53934,11 @@
    "last_seen": "2026-11-01T15:42:23.973332+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 56.41,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -8.69,
+    "max_drawdown_pct": -17.4,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -53908,7 +53963,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -54008,11 +54063,11 @@
    "last_seen": "2026-11-01T15:42:23.973335+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 338.59,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -6.77,
+    "max_drawdown_pct": -21.03,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -54037,7 +54092,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-10-31T22:18:21.048906+00:00",
@@ -55029,11 +55084,11 @@
    "last_seen": "2026-11-02T07:04:30.551598+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 202.06,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -3.17,
+    "max_drawdown_pct": -11.51,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -55058,7 +55113,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-11-01T15:42:23.972776+00:00",
@@ -55667,11 +55722,11 @@
    "last_seen": "2026-11-02T00:08:38.132702+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 245.63,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -2.36,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -55696,7 +55751,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-11-01T15:42:23.972776+00:00",
@@ -55935,11 +55990,11 @@
    "last_seen": "2026-11-04T01:50:14.156443+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 278.99,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": 0.0,
+    "max_drawdown_pct": -1.97,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -55964,7 +56019,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [
     "CNBC Television",
@@ -56285,11 +56340,11 @@
    "last_seen": "2026-11-02T00:08:38.132814+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 50.15,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -9.9,
+    "max_drawdown_pct": -20.36,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -56314,7 +56369,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-11-01T15:42:23.972776+00:00",
@@ -56501,11 +56556,11 @@
    "last_seen": "2026-11-02T00:08:38.132842+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-05T10:34:52.701481+00:00",
-    "drawdown_window_days": 2,
+    "checked_at": "2026-11-05T18:29:22.556127+00:00",
+    "drawdown_window_days": 3,
     "entry_close": 141.39,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -6.67,
+    "max_drawdown_pct": -21.52,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -56530,7 +56585,7 @@
      "7": null,
      "90": null
     },
-    "trading_days_available": 2
+    "trading_days_available": 3
    },
    "reprint_channels": [],
    "run_id": "2026-11-01T15:42:23.972776+00:00",
@@ -65095,7 +65150,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606751+00:00",
+   "last_seen": "2026-11-05T18:29:22.461707+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-03T00:19:02.917244+00:00",
@@ -65124,7 +65179,7 @@
    "status": "RESEARCH",
    "supersedes": "AAPL-ee0e37a8f735",
    "ticker": "AAPL",
-   "times_seen": 10,
+   "times_seen": 11,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -71336,7 +71391,7 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606709+00:00",
+   "last_seen": "2026-11-05T18:29:22.461637+00:00",
    "outcome": null,
    "reprint_channels": [
     "CNBC Television",
@@ -71538,7 +71593,7 @@
    "status": "PASS",
    "supersedes": "GOOGL-dbd2099a00a4",
    "ticker": "GOOGL",
-   "times_seen": 4,
+   "times_seen": 5,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -73433,7 +73488,7 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606692+00:00",
+   "last_seen": "2026-11-05T18:29:22.461631+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -73553,7 +73608,7 @@
    "status": "WATCHLIST",
    "supersedes": "AMZN-d87941d6cb97",
    "ticker": "AMZN",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -73625,7 +73680,7 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606713+00:00",
+   "last_seen": "2026-11-05T18:29:22.461620+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -73732,7 +73787,7 @@
    "status": "WATCHLIST",
    "supersedes": "INTC-9baa6b5fd92c",
    "ticker": "INTC",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -73803,7 +73858,7 @@
     "Investor's Business Daily",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606718+00:00",
+   "last_seen": "2026-11-05T18:29:22.461684+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -73871,7 +73926,7 @@
    "status": "WATCHLIST",
    "supersedes": "LLY-7e89156144a3",
    "ticker": "LLY",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -73942,7 +73997,7 @@
     "The Compound",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606721+00:00",
+   "last_seen": "2026-11-05T18:29:22.461689+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74036,7 +74091,7 @@
    "status": "WATCHLIST",
    "supersedes": "NOW-8720049955c4",
    "ticker": "NOW",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -74106,7 +74161,7 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606724+00:00",
+   "last_seen": "2026-11-05T18:29:22.461641+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74161,7 +74216,7 @@
    "status": "WATCHLIST",
    "supersedes": "SNDK-e288093b7418",
    "ticker": "SNDK",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -74231,7 +74286,7 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606728+00:00",
+   "last_seen": "2026-11-05T18:29:22.461693+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74286,7 +74341,7 @@
    "status": "WATCHLIST",
    "supersedes": "SBUX-bd75c16cd16b",
    "ticker": "SBUX",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -74356,7 +74411,7 @@
     "CNBC Television",
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606731+00:00",
+   "last_seen": "2026-11-05T18:29:22.461697+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74424,7 +74479,7 @@
    "status": "WATCHLIST",
    "supersedes": "AMD-e30163376522",
    "ticker": "AMD",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -74494,7 +74549,7 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606735+00:00",
+   "last_seen": "2026-11-05T18:29:22.461704+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74549,7 +74604,7 @@
    "status": "RESEARCH",
    "supersedes": "ORCL-e168c3d6b64e",
    "ticker": "ORCL",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -74618,7 +74673,7 @@
     "Schwab Network",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606738+00:00",
+   "last_seen": "2026-11-05T18:29:22.461700+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74660,7 +74715,7 @@
    "status": "RESEARCH",
    "supersedes": "RDDT-e021943aaac7",
    "ticker": "RDDT",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -74838,6 +74893,11 @@
      "at": "2026-11-05T03:03:43.350958+00:00",
      "reason": "freshness state changed",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-11-05T18:29:22.461783+00:00",
+     "reason": "superseded: score moved +1.84 -> +1.00",
+     "status": "EXPIRED"
     }
    ],
    "id": "CRWV-716cbee39908",
@@ -74845,7 +74905,7 @@
     "Benzinga",
     "The Compound"
    ],
-   "last_seen": "2026-11-05T10:34:52.606741+00:00",
+   "last_seen": "2026-11-05T18:29:22.461783+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -74884,7 +74944,7 @@
     "bullish": 0,
     "neutral": 0
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "supersedes": "CRWV-87dc5a9ac643",
    "ticker": "CRWV",
    "times_seen": 2,
@@ -75065,6 +75125,11 @@
      "at": "2026-11-05T03:03:43.350979+00:00",
      "reason": "freshness state changed",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-11-05T18:29:22.461732+00:00",
+     "reason": "superseded: score moved +2.84 -> +2.00",
+     "status": "EXPIRED"
     }
    ],
    "id": "NVDA-058e7ac49872",
@@ -75072,7 +75137,7 @@
     "CNBC Television",
     "The Compound"
    ],
-   "last_seen": "2026-11-05T10:34:52.606744+00:00",
+   "last_seen": "2026-11-05T18:29:22.461732+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -75111,7 +75176,7 @@
     "bullish": 0,
     "neutral": 1
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "supersedes": "NVDA-67f938810815",
    "ticker": "NVDA",
    "times_seen": 2,
@@ -75176,6 +75241,11 @@
      "at": "2026-11-05T03:03:43.350992+00:00",
      "reason": "freshness state changed",
      "status": "RESEARCH"
+    },
+    {
+     "at": "2026-11-05T18:29:22.461849+00:00",
+     "reason": "superseded: veto status flipped",
+     "status": "EXPIRED"
     }
    ],
    "id": "MU-d5568b8d383b",
@@ -75183,7 +75253,7 @@
     "Benzinga",
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606748+00:00",
+   "last_seen": "2026-11-05T18:29:22.461849+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -75235,7 +75305,7 @@
     "bullish": 0,
     "neutral": 2
    },
-   "status": "RESEARCH",
+   "status": "EXPIRED",
    "supersedes": "MU-de1365579ef1",
    "ticker": "MU",
    "times_seen": 2,
@@ -75306,7 +75376,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-11-05T10:34:52.606815+00:00",
+   "last_seen": "2026-11-05T18:29:22.461760+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -75335,7 +75405,7 @@
    "status": "RESEARCH",
    "supersedes": "COIN-b08ea4af735e",
    "ticker": "COIN",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -75985,7 +76055,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606850+00:00",
+   "last_seen": "2026-11-05T18:29:22.461808+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76014,7 +76084,7 @@
    "status": "RESEARCH",
    "supersedes": "RSP-b87859802cc6",
    "ticker": "RSP",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76082,7 +76152,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606853+00:00",
+   "last_seen": "2026-11-05T18:29:22.461812+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76111,7 +76181,7 @@
    "status": "RESEARCH",
    "supersedes": "IWM-497edb8ee7f8",
    "ticker": "IWM",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76179,7 +76249,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606856+00:00",
+   "last_seen": "2026-11-05T18:29:22.461815+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76208,7 +76278,7 @@
    "status": "RESEARCH",
    "supersedes": "MDY-d455d0bc1976",
    "ticker": "MDY",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76276,7 +76346,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606859+00:00",
+   "last_seen": "2026-11-05T18:29:22.461818+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76305,7 +76375,7 @@
    "status": "RESEARCH",
    "supersedes": "SNJ-693ab1100327",
    "ticker": "SNJ",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76373,7 +76443,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606862+00:00",
+   "last_seen": "2026-11-05T18:29:22.461822+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76402,7 +76472,7 @@
    "status": "RESEARCH",
    "supersedes": "XRT-f25b41764cd0",
    "ticker": "XRT",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76470,7 +76540,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606865+00:00",
+   "last_seen": "2026-11-05T18:29:22.461825+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76499,7 +76569,7 @@
    "status": "RESEARCH",
    "supersedes": "XLF-3a7eb748d690",
    "ticker": "XLF",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76567,7 +76637,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606868+00:00",
+   "last_seen": "2026-11-05T18:29:22.461828+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76596,7 +76666,7 @@
    "status": "RESEARCH",
    "supersedes": "XLV-16a1620de4f9",
    "ticker": "XLV",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76664,7 +76734,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606871+00:00",
+   "last_seen": "2026-11-05T18:29:22.461831+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76693,7 +76763,7 @@
    "status": "RESEARCH",
    "supersedes": "EQAL-b3ff6338ee94",
    "ticker": "EQAL",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76761,7 +76831,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-11-05T10:34:52.606874+00:00",
+   "last_seen": "2026-11-05T18:29:22.461834+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76790,7 +76860,7 @@
    "status": "RESEARCH",
    "supersedes": "WRB-36daf5a6bb61",
    "ticker": "WRB",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76858,7 +76928,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-11-05T10:34:52.606877+00:00",
+   "last_seen": "2026-11-05T18:29:22.461837+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76887,7 +76957,7 @@
    "status": "RESEARCH",
    "supersedes": "RYN-57815a6b9285",
    "ticker": "RYN",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -76955,7 +77025,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606880+00:00",
+   "last_seen": "2026-11-05T18:29:22.461840+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -76984,7 +77054,7 @@
    "status": "RESEARCH",
    "supersedes": "VKTX-4fb688523cde",
    "ticker": "VKTX",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -77731,7 +77801,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606934+00:00",
+   "last_seen": "2026-11-05T18:29:22.461864+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -77760,7 +77830,7 @@
    "status": "PASS",
    "supersedes": "FTNT-d30c4a894678",
    "ticker": "FTNT",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -77830,7 +77900,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606937+00:00",
+   "last_seen": "2026-11-05T18:29:22.461868+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -77859,7 +77929,7 @@
    "status": "PASS",
    "supersedes": "CAKE-0c76016246fc",
    "ticker": "CAKE",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -77929,7 +77999,7 @@
    "independent_channels": [
     "Schwab Network"
    ],
-   "last_seen": "2026-11-05T10:34:52.606941+00:00",
+   "last_seen": "2026-11-05T18:29:22.461871+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -77958,7 +78028,7 @@
    "status": "PASS",
    "supersedes": "VRT-895f78099f66",
    "ticker": "VRT",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -78028,7 +78098,7 @@
    "independent_channels": [
     "CNBC Television"
    ],
-   "last_seen": "2026-11-05T10:34:52.606944+00:00",
+   "last_seen": "2026-11-05T18:29:22.461874+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -78057,7 +78127,7 @@
    "status": "PASS",
    "supersedes": "CAT-9502ec97e02e",
    "ticker": "CAT",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -78127,7 +78197,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606947+00:00",
+   "last_seen": "2026-11-05T18:29:22.461877+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -78156,7 +78226,7 @@
    "status": "PASS",
    "supersedes": "TMO-4ea151279a31",
    "ticker": "TMO",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -78226,7 +78296,7 @@
    "independent_channels": [
     "Yahoo Finance"
    ],
-   "last_seen": "2026-11-05T10:34:52.606950+00:00",
+   "last_seen": "2026-11-05T18:29:22.461880+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T03:03:43.350618+00:00",
@@ -78255,7 +78325,7 @@
    "status": "PASS",
    "supersedes": "WAT-de56779b49f6",
    "ticker": "WAT",
-   "times_seen": 2,
+   "times_seen": 3,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -79229,7 +79299,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606766+00:00",
+   "last_seen": "2026-11-05T18:29:22.461711+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T10:34:52.606587+00:00",
@@ -79258,7 +79328,7 @@
    "status": "RESEARCH",
    "supersedes": "PLTR-aa7e4b576851",
    "ticker": "PLTR",
-   "times_seen": 1,
+   "times_seen": 2,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
     "options_quality": "no options-chain feed configured",
@@ -79326,7 +79396,7 @@
    "independent_channels": [
     "Investor's Business Daily"
    ],
-   "last_seen": "2026-11-05T10:34:52.606892+00:00",
+   "last_seen": "2026-11-05T18:29:22.461847+00:00",
    "outcome": null,
    "reprint_channels": [],
    "run_id": "2026-11-05T10:34:52.606587+00:00",
@@ -79355,6 +79425,131 @@
    "status": "RESEARCH",
    "supersedes": "MRNA-ebcbe4cbc6e0",
    "ticker": "MRNA",
+   "times_seen": 2,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 2
+   },
+   "company": "Microsoft",
+   "components": {
+    "catalyst_present": {
+     "contribution": 1.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 1.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 1.326,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.442,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 2,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": true,
+   "freshness_state": "unknown",
+   "generated_at": "2026-11-05T18:29:22.461650+00:00",
+   "history": [
+    {
+     "at": "2026-11-05T18:29:22.461650+00:00",
+     "reason": "veto status flipped",
+     "status": "WATCHLIST"
+    }
+   ],
+   "id": "MSFT-8527e312b0cb",
+   "independent_channels": [
+    "CNBC Television",
+    "The Compound",
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-11-05T18:29:22.461650+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-11-05T18:29:22.461505+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 4.326,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "earnings",
+     "channel": "The Compound",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Cited as an example of strong cloud revenue acceleration and operating cash flow, with the speaker questioning how the heavy capex spending will pay off. Stock fell after the earnings day despite the strong numbers.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=E5CTwZKN_OI",
+     "video_id": ""
+    },
+    {
+     "basis": "primary",
+     "catalyst": "Quarterly results and commentary that cash flow will stay positive through the rest of the year",
+     "channel": "CNBC Television",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Host sees Microsoft as disciplined, cash-flow positive with sticky software and cloud customers, and expects its stock to soar and lead the big tech group. He says it runs data centers efficiently and spends within its means.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=iyFux9B9KZk",
+     "video_id": ""
+    },
+    {
+     "basis": "primary",
+     "catalyst": "Q1 earnings report (reported the day of recording)",
+     "channel": "Yahoo Finance",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bullish",
+     "thesis": "Described as having beaten across the board and as holding up because it stayed free-cash-flow positive while spending less on capex than peers; a guest called the CEO's leadership excellent.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=jKmxb7VTxdU",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 2,
+    "neutral": 1
+   },
+   "status": "WATCHLIST",
+   "supersedes": "MSFT-734cea608b5b",
+   "ticker": "MSFT",
    "times_seen": 1,
    "unavailable_components": {
     "liquidity": "no market-data feed configured",
@@ -79365,8 +79560,301 @@
    },
    "vetoed": false,
    "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Nvidia",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 2.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 1.0,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-11-05T18:29:22.461737+00:00",
+   "history": [
+    {
+     "at": "2026-11-05T18:29:22.461737+00:00",
+     "reason": "score moved +2.84 -> +2.00",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "NVDA-dd8305cd5e7d",
+   "independent_channels": [
+    "The Compound"
+   ],
+   "last_seen": "2026-11-05T18:29:22.461737+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-11-05T18:29:22.461505+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 2.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "The Compound",
+     "evidence": "data",
+     "price_target": "",
+     "published": "",
+     "stance": "neutral",
+     "thesis": "Cited as an example of a stock trading at a low forward multiple despite its large index weight, and as a central player in the AI ecosystem whose chief might step in to support a stressed partner. These are scenarios and observations, not a recommendation.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=E5CTwZKN_OI",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 0,
+    "bullish": 0,
+    "neutral": 1
+   },
+   "status": "RESEARCH",
+   "supersedes": "NVDA-058e7ac49872",
+   "ticker": "NVDA",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "CoreWeave",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": 1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": 0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": false,
+   "freshness_state": "single_sighting",
+   "generated_at": "2026-11-05T18:29:22.461787+00:00",
+   "history": [
+    {
+     "at": "2026-11-05T18:29:22.461787+00:00",
+     "reason": "score moved +1.84 -> +1.00",
+     "status": "RESEARCH"
+    }
+   ],
+   "id": "CRWV-e26543f14137",
+   "independent_channels": [
+    "The Compound"
+   ],
+   "last_seen": "2026-11-05T18:29:22.461787+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-11-05T18:29:22.461505+00:00",
+   "score_max_possible": 7.5,
+   "score_total": 1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "The Compound",
+     "evidence": "reasoned",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "Presented as an early sign of stress in AI financing, with its stock and debt cited as showing cracks in the levered AI compute space. Speaker says the market priced this risk before it reached the hyperscalers.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=E5CTwZKN_OI",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "RESEARCH",
+   "supersedes": "CRWV-716cbee39908",
+   "ticker": "CRWV",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": false,
+   "vetoes": []
+  },
+  {
+   "basis_counts": {
+    "derivative": 0,
+    "original": 1,
+    "primary": 0
+   },
+   "company": "Micron",
+   "components": {
+    "catalyst_present": {
+     "contribution": 0.0,
+     "measures": "an identifiable event behind the claim",
+     "raw": 0.0,
+     "weight": 1.0
+    },
+    "evidence_quality": {
+     "contribution": -1.0,
+     "measures": "strongest evidence grade among those channels",
+     "raw": -0.5,
+     "weight": 2.0
+    },
+    "freshness": {
+     "contribution": 0.0,
+     "measures": "new information vs. commentary on an old move",
+     "raw": 0.0,
+     "weight": 1.5
+    },
+    "hype_penalty": {
+     "contribution": -0.0,
+     "measures": "promotional framing, unsupported claims",
+     "raw": -0.0,
+     "weight": 2.0
+    },
+    "independent_consensus": {
+     "contribution": 0.0,
+     "measures": "channels that did their own work on this name",
+     "raw": 0.0,
+     "weight": 3.0
+    }
+   },
+   "days_covered": 1,
+   "derivative_share": 0.0,
+   "engine": "creator_consensus",
+   "entry_price": null,
+   "freshness_censored": true,
+   "freshness_state": "unknown",
+   "generated_at": "2026-11-05T18:29:22.461852+00:00",
+   "history": [
+    {
+     "at": "2026-11-05T18:29:22.461852+00:00",
+     "reason": "veto status flipped",
+     "status": "PASS"
+    }
+   ],
+   "id": "MU-bd96f0fee0d2",
+   "independent_channels": [
+    "Yahoo Finance"
+   ],
+   "last_seen": "2026-11-05T18:29:22.461852+00:00",
+   "outcome": null,
+   "reprint_channels": [],
+   "run_id": "2026-11-05T18:29:22.461505+00:00",
+   "score_max_possible": 7.5,
+   "score_total": -1.0,
+   "sources": [
+    {
+     "basis": "original",
+     "catalyst": "",
+     "channel": "Yahoo Finance",
+     "evidence": "none",
+     "price_target": "",
+     "published": "",
+     "stance": "bearish",
+     "thesis": "Shown falling around 4-5% with the semiconductor group during the day; no view was expressed beyond the price move.",
+     "timeframe": "",
+     "url": "https://www.youtube.com/watch?v=4FvmtlSN6mg",
+     "video_id": ""
+    }
+   ],
+   "stance_mix": {
+    "bearish": 1,
+    "bullish": 0,
+    "neutral": 0
+   },
+   "status": "PASS",
+   "supersedes": "MU-d5568b8d383b",
+   "ticker": "MU",
+   "times_seen": 1,
+   "unavailable_components": {
+    "liquidity": "no market-data feed configured",
+    "options_quality": "no options-chain feed configured",
+    "price_action": "no market-data feed configured",
+    "relative_volume": "no market-data feed configured",
+    "sector_alignment": "no sector index data configured"
+   },
+   "vetoed": true,
+   "vetoes": [
+    "no supporting evidence in any original claim"
+   ]
   }
  ],
- "total_signals": 602,
+ "total_signals": 606,
  "version": 1
 }

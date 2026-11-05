@@ -2918,6 +2918,66 @@
       "reason": "suppressed_not_owner",
       "headline": "63 ticker(s) tracked / 159 signal(s) resolved",
       "key": "digest:all:a8c962296a"
+    },
+    {
+      "at": "2026-11-05T18:30:21.833651+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "INTC",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "INTC \u2014 5 channels did own work",
+      "key": "watch:INTC:8af171a8b6"
+    },
+    {
+      "at": "2026-11-05T18:30:21.833651+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "AMZN",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "AMZN \u2014 4 channels did own work",
+      "key": "watch:AMZN:b1a1b3bbe9"
+    },
+    {
+      "at": "2026-11-05T18:30:21.833651+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "SNDK",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "SNDK \u2014 3 channels did own work",
+      "key": "watch:SNDK:ee62158744"
+    },
+    {
+      "at": "2026-11-05T18:30:21.833651+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "MSFT",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "MSFT \u2014 3 channels did own work",
+      "key": "watch:MSFT:6f7b51d330"
+    },
+    {
+      "at": "2026-11-05T18:30:21.833651+00:00",
+      "runner": "github-actions",
+      "tier": "watchlist",
+      "ticker": "LLY",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "LLY \u2014 3 channels did own work",
+      "key": "watch:LLY:daddd3224c"
+    },
+    {
+      "at": "2026-11-05T18:30:21.833651+00:00",
+      "runner": "github-actions",
+      "tier": "digest",
+      "ticker": "INTC, AMZN, SNDK, MSFT, LLY",
+      "delivered": false,
+      "reason": "suppressed_not_owner",
+      "headline": "48 ticker(s) tracked / 159 signal(s) resolved",
+      "key": "digest:all:3c14804a8c"
     }
   ],
   "ops": {},
