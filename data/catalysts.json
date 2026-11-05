@@ -1,5 +1,263 @@
 [
   {
+    "event_id": "cat_fcae91cb16bfe9",
+    "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T15:24:12-05:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-modernizing-bioequivalence-approaches-topical-transdermal",
+    "category": "regulatory",
+    "body_chars": 5831,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA announced a half-day virtual workshop on September 10, 2026, covering bioequivalence approaches for topical and transdermal generic drug products. The event is an educational session with no company-specific subject.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "scheduled_date": "2026-09-10",
+      "affected_sectors": [
+        "generic pharmaceuticals"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_162ef21ca72148",
+    "title": "Expedited IND Rolling Submission Process and Program Structure",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T15:12:42-05:00",
+    "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
+    "category": "regulatory",
+    "body_chars": 4240,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "regulatory_action",
+      "summary": "FDA published program structure for an Expedited IND Pilot, describing a rolling pre-IND submission process using qualified research institutions (QRIs) and a final IND submission that starts the 30-day review window. The pilot is intended to shorten the time to first-in-human trials.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_162ef21ca72148",
+    "title": "Expedited IND Rolling Submission Process and Program Structure",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-11-04T15:12:42-05:00",
+    "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
+    "category": "regulatory",
+    "body_chars": 4240,
+    "has_body": true,
+    "findings": {
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals"
+      ],
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "regulatory_action",
+      "is_market_relevant": true,
+      "materiality": 2,
+      "scheduled_date": "",
+      "summary": "FDA published the program structure for its Expedited IND Pilot, describing rolling submission of pre-IND components through the ESG gateway, a role for qualified research institutions (QRIs), and a final IND submission that starts the 30-day review window. The pilot focuses on the pre-IND phase before first-in-human trials."
+    }
+  },
+  {
+    "event_id": "cat_fa0c05e81af880",
+    "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T15:11:58-05:00",
+    "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
+    "category": "regulatory",
+    "body_chars": 24045,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received. FDA plans to notify selected participants by December 18, 2026.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "is_market_relevant": true,
+      "scheduled_date": "2026-12-18",
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_fa0c05e81af880",
+    "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-11-04T15:11:58-05:00",
+    "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
+    "category": "regulatory",
+    "body_chars": 24045,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "regulatory_action",
+      "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received, and that it will notify selected participants by December 18. The pilot tests a rolling IND review model with qualified research institutions (QRIs) for first-in-human Phase 1 trials under HHS Operation TrialBlazer.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "scheduled_date": "2026-12-18",
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals",
+        "clinical research"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_91ddc74371f338",
+    "title": "Search List of Extended Use Dates to Assist with Drug Shortages",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T14:14:56-05:00",
+    "url": "http://www.fda.gov/drugs/drug-shortages/search-list-extended-use-dates-assist-drug-shortages",
+    "category": "regulatory",
+    "body_chars": 6631,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "regulatory_action",
+      "summary": "FDA published a searchable list of extended use dates for specific lots of drugs in shortage, including bupivacaine spinal, dextrose 25% syringes, Bicillin L-A, flumazenil, and pentetate calcium/zinc trisodium, based on manufacturer stability data. FDA does not require relabeling; replacement product should be used as it becomes available.",
+      "companies": [
+        {
+          "company": "Hospira, a Pfizer company",
+          "ticker": "",
+          "role": "subject"
+        },
+        {
+          "company": "Pfizer, Inc.",
+          "ticker": "",
+          "role": "subject"
+        },
+        {
+          "company": "Baxter",
+          "ticker": "",
+          "role": "subject"
+        },
+        {
+          "company": "Hameln Pharma GmbH",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "unclear",
+      "materiality": 2,
+      "affected_sectors": [
+        "pharmaceuticals",
+        "healthcare providers",
+        "drug shortages"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_9b3426372a4d86",
+    "title": "Medications for Opioid Use Disorder (MOUD)",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T13:22:06-05:00",
+    "url": "http://www.fda.gov/drugs/food-and-drug-administration-overdose-prevention-framework/medications-opioid-use-disorder-moud",
+    "category": "regulatory",
+    "body_chars": 2566,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA published an informational overview page on medications for opioid use disorder (methadone, buprenorphine, naltrexone), summarizing its awareness campaign, labeling updates, and a list of prior and ongoing MOUD-related actions. No new approval, label change, or company-specific action is announced in this page itself.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_413d6370fe28f6",
+    "title": "Communicating Drug Interaction and QTc Information in the U.S. Prescribing Information - 09/23/2026",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T13:14:00-05:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/communicating-drug-interaction-and-qtc-information-us-prescribing-information-09232026",
+    "category": "regulatory",
+    "body_chars": 3932,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA CDER SBIA webinar page for a September 23, 2026 session on drug interaction and QTc interval information in U.S. prescribing information, covering draft and final labeling guidances. This is an educational event with no company-specific action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_8b3403305fc90a",
+    "title": "Advancing Generic Drug Development: Leveraging Model-Integrated Evidence (MIE) in the Development & Approval of Generic Drugs - 08/27/2026",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T13:02:36-05:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-leveraging-model-integrated-evidence-mie-development-approval",
+    "category": "regulatory",
+    "body_chars": 5936,
+    "has_body": true,
+    "findings": {
+      "summary": "FDA announced a half-day virtual workshop on August 27, 2026, on using Model-Integrated Evidence to support generic drug development and approval, covering MIE submission expectations, PBPK modeling, and ICH M15 guidance.",
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "companies": [],
+      "direction": "unclear",
+      "affected_sectors": [
+        "generic drugs",
+        "pharmaceuticals"
+      ],
+      "scheduled_date": "2026-08-27"
+    }
+  },
+  {
+    "event_id": "cat_7ed432f20ef2a5",
+    "title": "Drug Shortages | Additional News and Information",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T12:24:16-05:00",
+    "url": "http://www.fda.gov/drugs/drug-shortages/drug-shortages-additional-news-and-information",
+    "category": "regulatory",
+    "body_chars": 1796,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA's drug shortages page was updated with links to its Thirteenth Annual Report on Drug Shortages for Calendar Year 2025, along with prior annual reports, strategic plan, and other resources. The page lists no new shortage designations or company-specific actions.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_a211fdcbac7d11",
+    "title": "Opioid Overdose Reversal Medications",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T11:51:37-05:00",
+    "url": "http://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/opioid-overdose-reversal-medications",
+    "category": "regulatory",
+    "body_chars": 2303,
+    "has_body": true,
+    "findings": {
+      "affected_sectors": [
+        "pharmaceuticals",
+        "healthcare"
+      ],
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "scheduled_date": "",
+      "summary": "FDA published a general public-health page summarizing its past actions on opioid overdose reversal medications (naloxone and nalmefene), including prior approvals, shelf-life extensions, guidance, and workshops. It announces no new approval or regulatory action."
+    }
+  },
+  {
     "event_id": "cat_fbf83c3d91598e",
     "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
     "source": "SEC Press Releases",
@@ -20,6 +278,285 @@
       "is_market_relevant": false,
       "materiality": 1,
       "summary": "The SEC adopted amendments updating the definitions of \"small entity\" for investment companies and investment advisers, per the headline. No body text was retrieved, so the specifics are unknown."
+    }
+  },
+  {
+    "event_id": "cat_78caa7b3c1473d",
+    "title": "Reviews of Pediatric Studies Conducted under BPCA and Pediatric Assessments Conducted Under PREA from 2012 – Present",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T10:29:57-05:00",
+    "url": "http://www.fda.gov/drugs/development-resources/reviews-pediatric-studies-conducted-under-bpca-and-pediatric-assessments-conducted-under-prea-2012",
+    "category": "regulatory",
+    "body_chars": 109743,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA posted a periodic index of medical, clinical pharmacology, and statistical reviews of pediatric studies conducted under BPCA and PREA (2012 to present), covering 103 BPCA products, 596 PREA products, and 84 products under both. The listing is a routine administrative posting of existing review documents.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_61fd3c217a9210",
+    "title": "Pritam International Private Limited - 738079 - 10/27/2026",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T10:21:21-05:00",
+    "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/pritam-international-private-limited-738079-10272026",
+    "category": "regulatory",
+    "body_chars": 26599,
+    "has_body": true,
+    "findings": {
+      "affected_sectors": [
+        "Pharmaceuticals",
+        "Consumer Health",
+        "OTC Drugs"
+      ],
+      "companies": [
+        {
+          "company": "Pritam International Private Limited",
+          "role": "subject",
+          "ticker": ""
+        }
+      ],
+      "direction": "likely_negative",
+      "event_type": "enforcement",
+      "is_market_relevant": true,
+      "materiality": 3,
+      "scheduled_date": "",
+      "summary": "FDA CDER issued a warning letter (ref. 320-27-12, dated October 27, 2026) to Pritam International, an Indian OTC toothpaste contract manufacturer, citing CGMP violations, data integrity failures, use of a delisted color additive (Ext. D&C Red No. 10), and inadequate DEG/EG identity testing of sorbitol solution. The letter notes an voluntary recall of in-expiry toothpaste products (September 10, 2026), Import Alert 66-40 placement (September 3, 2026), and requires a written response within 15 business days."
+    }
+  },
+  {
+    "event_id": "cat_345b51f1045428",
+    "title": "Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-11-04T10:17:14-05:00",
+    "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-reducing-risk-transfusion-transmitted-hepatitis-b-virus",
+    "category": "regulatory",
+    "body_chars": 1985,
+    "has_body": true,
+    "findings": {
+      "affected_sectors": [
+        "blood services",
+        "plasma collection",
+        "biologics"
+      ],
+      "companies": [],
+      "direction": "unclear",
+      "event_type": "regulatory_action",
+      "is_market_relevant": true,
+      "materiality": 2,
+      "scheduled_date": "",
+      "summary": "FDA CBER issued draft-style guidance (docket FDA-2024-D-5942) with recommendations for blood establishments, including Source Plasma collectors, on testing donations for hepatitis B virus to reduce transfusion transmission risk. Comments may be submitted at any time."
+    }
+  },
+  {
+    "event_id": "cat_7030686f83d49d",
+    "title": "Untitled Letters",
+    "source": "FDA Drugs",
+    "published": "2026-11-04T08:41:44-05:00",
+    "url": "http://www.fda.gov/drugs/warning-letters-and-notice-violation-letters-pharmaceutical-companies/untitled-letters",
+    "category": "regulatory",
+    "body_chars": 16256,
+    "has_body": true,
+    "findings": {
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "FDA's CDER Freedom of Information Office posted its periodic index of OPDP untitled letters and corresponding promotional communications, listing issued dates, companies, products, and response/close-out letter status. The index covers 1997-2016 archived actions and recent entries through 10/26/2026, and the page itself does not state a new enforcement action.",
+      "companies": [],
+      "direction": "unclear",
+      "affected_sectors": [
+        "pharmaceuticals"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_9224f3bfcf87f5",
+    "title": "Workshop on Integration Site Analysis During Long Term Follow-Up for Gene Therapies with Integrating Viral Vectors - 11/14/2024",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-11-04T07:58:08-05:00",
+    "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops/workshop-integration-site-analysis-during-long-term-follow-gene-therapies-integrating-viral-vectors",
+    "category": "regulatory",
+    "body_chars": 2574,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA CBER's Office of Therapeutic Products posted a recap of a virtual public workshop held November 14, 2024, on integration site analysis for long-term follow-up of gene therapies using integrating viral vectors. The page is a retrospective event listing and does not announce a new policy or product decision.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_73f1e174e48637",
+    "title": "Office of Therapeutic Products (OTP) Events, Meetings, and Workshops",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-11-04T07:57:54-05:00",
+    "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops",
+    "category": "regulatory",
+    "body_chars": 6377,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA's Office of Therapeutic Products posted a general events page listing its event series (RegenMedEd, Virtual Town Halls, workshops) and a chart of past events from 2021 to 2026. No new specific event date, product decision, or company action is announced.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_7b8c9fb2bcda83",
+    "title": "What's New in Regulatory Science",
+    "source": "FDA Drugs",
+    "published": "2026-11-03T18:59:25-05:00",
+    "url": "http://www.fda.gov/drugs/regulatory-science-action/whats-new-regulatory-science",
+    "category": "regulatory",
+    "body_chars": 805,
+    "has_body": true,
+    "findings": {
+      "affected_sectors": [
+        "pharmaceuticals",
+        "biotechnology"
+      ],
+      "direction": "unclear",
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "FDA's CDER page index lists its periodic \"What's New in Regulatory Science\" newsletter issues, including a new Issue I, 2026, with no specific policy, approval, or company action described.",
+      "companies": []
+    }
+  },
+  {
+    "event_id": "cat_58e5d3f3e9ebbd",
+    "title": "Guidance Documents for Rare Disease Drug Development",
+    "source": "FDA Drugs",
+    "published": "2026-11-03T17:15:55-05:00",
+    "url": "http://www.fda.gov/drugs/guidances-drugs/guidance-documents-rare-disease-drug-development",
+    "category": "regulatory",
+    "body_chars": 58372,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "summary": "FDA Drugs page listing selected guidance documents relevant to rare disease drug development, including some newly described draft guidances. The page is a compilation of existing guidance references with no new company-specific action.",
+      "companies": [],
+      "direction": "unclear",
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals"
+      ]
+    }
+  },
+  {
+    "event_id": "cat_9ded14432123fb",
+    "title": "How to Register a Drug Establishment",
+    "source": "FDA Drugs",
+    "published": "2026-11-03T13:37:47-05:00",
+    "url": "http://www.fda.gov/drugs/drug-registration-and-listing-instructions/how-register-drug-establishment",
+    "category": "regulatory",
+    "body_chars": 3909,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA published instructions for drug establishment registration, covering who must register, the five-day and pre-import timing rules, the October 1 to December 31 annual renewal window, and how to submit, update, or de-register via SPL filings. This is procedural guidance with no company-specific or financial content.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_86edb205e3f7bd",
+    "title": "Advancing Generic Drug Development: Bioequivalence Challenges for Patient-Centric Oral Formulations - 06/11/2026",
+    "source": "FDA Drugs",
+    "published": "2026-11-03T13:15:40-05:00",
+    "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-bioequivalence-challenges-patient-centric-oral-formulations",
+    "category": "regulatory",
+    "body_chars": 6078,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "FDA posted a page for a June 11, 2026 CDER workshop on bioequivalence challenges for patient-centric generic oral formulations, covering chewable, orally disintegrating, pellet/granule, suspension, and sublingual products plus pediatric formulations. The page is an educational event notice with no company-specific or product action.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
+    "event_id": "cat_348100dd485a49",
+    "title": "Prescription Drug User Fee Amendments",
+    "source": "FDA Drugs",
+    "published": "2026-11-03T12:50:19-05:00",
+    "url": "http://www.fda.gov/industry/fda-user-fee-programs/prescription-drug-user-fee-amendments",
+    "category": "regulatory",
+    "body_chars": 17860,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "other",
+      "summary": "FDA's PDUFA program page lists FY2027 user fee rates (application fee $4,600,753 with clinical data; $2,300,376 without; program fee $416,857), published in the Federal Register on July 30, 2026, with payment due October 1, 2026. The page also notes the centralized user fee email inbox change and the electronic-payment-only policy, and reiterates that PDUFA VII runs through September 2027.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1
+    }
+  },
+  {
+    "event_id": "cat_665b9552c1f8a2",
+    "title": "FDA Rare Disease Innovation Hub",
+    "source": "FDA Biologics and Vaccines",
+    "published": "2026-11-03T10:47:08-05:00",
+    "url": "http://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/fda-rare-disease-innovation-hub",
+    "category": "regulatory",
+    "body_chars": 1953,
+    "has_body": true,
+    "findings": {
+      "affected_sectors": [
+        "biotechnology",
+        "pharmaceuticals",
+        "medical devices"
+      ],
+      "direction": "unclear",
+      "event_type": "regulatory_action",
+      "is_market_relevant": false,
+      "materiality": 1,
+      "scheduled_date": "",
+      "summary": "FDA describes its Rare Disease Innovation Hub, a cross-center collaboration among CBER, CDER, and CDRH that focuses on rare disease products, and notes the Hub released a Strategic Agenda on February 2, 2026. The page is primarily descriptive and provides program resources and contact information.",
+      "companies": []
+    }
+  },
+  {
+    "event_id": "cat_0ab97d54d50c01",
+    "title": "Early Alert: Compact Medical Removes and Updates Use Instructions for ButterflyBVM Bag-Valve-Mask Resuscitators",
+    "source": "FDA MedWatch Safety Alerts",
+    "published": "2026-11-03T00:00:00-05:00",
+    "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask",
+    "category": "regulatory",
+    "body_chars": 6831,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "recall_safety",
+      "summary": "FDA issued an Early Alert on an Urgent Medical Device Recall by Compact Medical of certain ButterflyBVM bag-valve-mask resuscitator lots. Lots 000109-000117 are to be removed from use and distribution, and lots 000081-000108 (ButterflyBVM, READY, PLUS, and standard models) are subject to a pre-use test and correction, due to possible holes in the bellows that can cause inadequate ventilation. As of November 2, 2026, no serious injuries or deaths had been reported.",
+      "companies": [
+        {
+          "company": "Compact Medical",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 3,
+      "affected_sectors": [
+        "medical devices",
+        "emergency medical equipment"
+      ]
     }
   },
   {
