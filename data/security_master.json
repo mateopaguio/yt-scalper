@@ -1,11 +1,10 @@
 {
- "learned": 22,
+ "learned": 20,
  "map": {
   "abbott": "ABT",
   "abbott laboratories": "ABT",
   "abbvie": "ABBV",
   "advanced micro devices": "AMD",
-  "alphabet": "GOOGL",
   "amazon": "AMZN",
   "amgen": "AMGN",
   "apple": "AAPL",
@@ -44,7 +43,6 @@
   "pfizer": "PFE",
   "qualcomm": "QCOM",
   "regeneron pharmaceuticals": "REGN",
-  "sandisk": "SNDK",
   "sanofi": "SNY",
   "servicenow": "NOW",
   "sharkninja": "SN",
