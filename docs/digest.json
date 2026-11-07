@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T04:00:47.695280+00:00",
+  "generated_at": "2026-11-07T10:56:33.424348+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -697,7 +697,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-07T04:00:47.785090+00:00",
+    "last_run": "2026-11-07T10:56:33.489890+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 60."
   },
@@ -2059,8 +2059,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 387,
-      "stale": 80,
+      "unresolved": 384,
+      "stale": 83,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2070,7 +2070,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -2084,7 +2084,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -2098,7 +2098,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -2112,7 +2112,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -2126,7 +2126,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -2140,7 +2140,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -2154,7 +2154,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -2168,7 +2168,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -2182,7 +2182,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -2196,7 +2196,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -2210,7 +2210,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -2224,7 +2224,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 11,
+          "age_days": 12,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -2236,24 +2236,6 @@
         }
       ],
       "unresolved": [
-        {
-          "ticker": "EWZ",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "BRK.B",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "LMT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
         {
           "ticker": "UPS",
           "state": "unresolved",
@@ -2306,81 +2288,99 @@
           "ticker": "TMO",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 9
+          "age_days": 10
+        },
+        {
+          "ticker": "VLO",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "PSX",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "MPC",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
         }
       ],
       "stale": [
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 11d old",
-          "age_days": 11
+          "why": "never measured, 12d old",
+          "age_days": 12
         }
       ],
       "unpriceable": [
@@ -2388,19 +2388,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 11
+          "age_days": 12
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 11
+          "age_days": 12
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 11
+          "age_days": 12
         },
         {
           "ticker": "ETH",
@@ -2547,8 +2547,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 387,
-        "stale": 80,
+        "unresolved": 384,
+        "stale": 83,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2618,7 +2618,7 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.3658239766319444
+          "age_days": 2.654625253472222
         }
       }
     ],
@@ -2655,7 +2655,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.3177221247800923
+          "age_days": 2.6065234016203704
         }
       },
       {
@@ -2693,7 +2693,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.3257082358912036
+          "age_days": 2.6145095127314812
         }
       },
       {
@@ -2732,7 +2732,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.326217495150463
+          "age_days": 2.6150187719907407
         }
       },
       {
@@ -2763,7 +2763,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.402513791446759
+          "age_days": 2.691315068287037
         }
       },
       {
@@ -2794,7 +2794,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.4081387914467594
+          "age_days": 2.696940068287037
         }
       },
       {
@@ -2830,7 +2830,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.416055458113426
+          "age_days": 2.7048567349537036
         }
       },
       {
@@ -2861,7 +2861,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.442675828483796
+          "age_days": 2.731477105324074
         }
       },
       {
@@ -2897,7 +2897,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.4653494395949074
+          "age_days": 2.754150716435185
         }
       },
       {
@@ -2933,7 +2933,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.4817499025578704
+          "age_days": 2.770551179398148
         }
       },
       {
@@ -2964,7 +2964,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.52206240255787
+          "age_days": 2.8108636793981483
         }
       },
       {
@@ -3007,7 +3007,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 2.5280346247800924
+          "age_days": 2.8168359016203706
         }
       },
       {
@@ -3044,7 +3044,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.5308934210763887
+          "age_days": 2.819694697916667
         }
       },
       {
@@ -3078,7 +3078,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.597212865520833
+          "age_days": 2.886014142361111
         }
       },
       {
@@ -3109,7 +3109,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.627490643298611
+          "age_days": 2.916291920138889
         }
       },
       {
@@ -3140,7 +3140,7 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.627652680335648
+          "age_days": 2.916453957175926
         }
       },
       {
@@ -3175,7 +3175,7 @@
             "why": "805 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.168266106261574
+          "age_days": 3.4570673831018524
         }
       },
       {
@@ -3210,7 +3210,7 @@
             "why": "58372 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.240141106261574
+          "age_days": 3.5289423831018523
         }
       },
       {
@@ -3241,7 +3241,7 @@
             "why": "3909 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.3916225877430555
+          "age_days": 3.6804238645833336
         }
       },
       {
@@ -3272,7 +3272,7 @@
             "why": "6078 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.406981384039352
+          "age_days": 3.69578266087963
         }
       },
       {
@@ -3303,7 +3303,7 @@
             "why": "17860 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.4245855507060186
+          "age_days": 3.7133868275462967
         }
       },
       {
@@ -3340,7 +3340,7 @@
             "why": "1953 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.5101295321875
+          "age_days": 3.798930809027778
         }
       },
       {
@@ -3381,7 +3381,7 @@
             "why": "6831 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 3.959527680335648
+          "age_days": 4.248328957175926
         }
       }
     ],
@@ -3400,24 +3400,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-07T03:57:24.178313+00:00",
-      "display": "Nov 06, 10:57 PM EST",
+      "at": "2026-11-07T10:53:12.408263+00:00",
+      "display": "Nov 07, 5:53 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.0719483425
+      "age_hours": 0.07311509499999999
     },
     "last_success": {
-      "at": "2026-11-06T23:53:58.973868+00:00",
-      "display": "Nov 06, 6:53 PM EST",
+      "at": "2026-11-07T03:57:24.178313+00:00",
+      "display": "Nov 06, 10:57 PM EST",
       "trigger": "github-actions",
-      "age_hours": 4.1289495772222224,
+      "age_hours": 7.0031789700000004,
       "ingested": 0
     },
-    "stale": false,
+    "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.0,
-    "stale_message": "",
+    "overdue_hours": 1.0,
+    "stale_message": "No successful ingestion in 7.0h - 1.0h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3429,10 +3429,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-07T04:00:47.785090+00:00",
-      "as_of": "2026-11-07T04:00:47.785090+00:00",
-      "as_of_display": "Nov 06, 11:00 PM EST",
-      "attempted_display": "Nov 06, 11:00 PM EST",
+      "attempted": "2026-11-07T10:56:33.489890+00:00",
+      "as_of": "2026-11-07T10:56:33.489890+00:00",
+      "as_of_display": "Nov 07, 5:56 AM EST",
+      "attempted_display": "Nov 07, 5:56 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3443,12 +3443,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-07T03:57:24.178313+00:00",
-        "display": "Fri 10:57 PM EST",
+        "started": "2026-11-07T10:53:12.408263+00:00",
+        "display": "Sat 5:53 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-07T03:57:24.178313+00:00",
+        "display": "Fri 10:57 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-06T23:53:58.973868+00:00",
@@ -3493,14 +3501,6 @@
       {
         "started": "2026-11-05T18:26:02.321778+00:00",
         "display": "Thu 1:26 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-05T10:31:30.788839+00:00",
-        "display": "Thu 5:31 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
