@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:57:17.532988+00:00",
+  "generated_at": "2026-11-07T04:00:47.695280+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -697,7 +697,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-06T23:57:17.638804+00:00",
+    "last_run": "2026-11-07T04:00:47.785090+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 60."
   },
@@ -1684,8 +1684,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 33,
-      "degraded": 9
+      "usable": 34,
+      "degraded": 8
     },
     "usable": [
       "META",
@@ -1717,6 +1717,7 @@
       "CAT",
       "V",
       "SPGI",
+      "ADP",
       "COR",
       "NOK",
       "QQQ",
@@ -1741,11 +1742,7 @@
       },
       {
         "ticker": "ORCL",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
-      },
-      {
-        "ticker": "ADP",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+        "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "VRT",
@@ -1919,8 +1916,8 @@
       },
       "ORCL": {
         "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -2002,9 +1999,9 @@
         "provider": "yfinance"
       },
       "ADP": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -2062,8 +2059,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 403,
-      "stale": 64,
+      "unresolved": 387,
+      "stale": 80,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2240,13 +2237,67 @@
       ],
       "unresolved": [
         {
-          "ticker": "CRWD",
+          "ticker": "EWZ",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "MRNA",
+          "ticker": "BRK.B",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "LMT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "UPS",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "BA",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "BAC",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "WFC",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "MS",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "OKLO",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "BK",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "CBRS",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -2255,61 +2306,7 @@
           "ticker": "TMO",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "BB",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "GBCI",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "AMAT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "CELH",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "MNST",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "QUBT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "USAR",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "IBRX",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "CSCO",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
+          "age_days": 9
         }
       ],
       "stale": [
@@ -2409,19 +2406,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 6
+          "age_days": 7
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 6
+          "age_days": 7
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 6
+          "age_days": 7
         }
       ],
       "failed": []
@@ -2550,8 +2547,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 403,
-        "stale": 64,
+        "unresolved": 387,
+        "stale": 80,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2621,7 +2618,7 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.1967757231944445
+          "age_days": 2.3658239766319444
         }
       }
     ],
@@ -2658,7 +2655,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.148673871342593
+          "age_days": 2.3177221247800923
         }
       },
       {
@@ -2696,7 +2693,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.1566599824537036
+          "age_days": 2.3257082358912036
         }
       },
       {
@@ -2735,7 +2732,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.157169241712963
+          "age_days": 2.326217495150463
         }
       },
       {
@@ -2766,7 +2763,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.233465538009259
+          "age_days": 2.402513791446759
         }
       },
       {
@@ -2797,7 +2794,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.2390905380092594
+          "age_days": 2.4081387914467594
         }
       },
       {
@@ -2833,7 +2830,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.247007204675926
+          "age_days": 2.416055458113426
         }
       },
       {
@@ -2864,7 +2861,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.273627575046296
+          "age_days": 2.442675828483796
         }
       },
       {
@@ -2900,7 +2897,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.2963011861574074
+          "age_days": 2.4653494395949074
         }
       },
       {
@@ -2936,7 +2933,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.3127016491203705
+          "age_days": 2.4817499025578704
         }
       },
       {
@@ -2967,7 +2964,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.3530141491203707
+          "age_days": 2.52206240255787
         }
       },
       {
@@ -3010,7 +3007,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 2.358986371342593
+          "age_days": 2.5280346247800924
         }
       },
       {
@@ -3047,7 +3044,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.361845167638889
+          "age_days": 2.5308934210763887
         }
       },
       {
@@ -3081,7 +3078,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.4281646120833336
+          "age_days": 2.597212865520833
         }
       },
       {
@@ -3112,7 +3109,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.458442389861111
+          "age_days": 2.627490643298611
         }
       },
       {
@@ -3143,7 +3140,7 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.458604426898148
+          "age_days": 2.627652680335648
         }
       },
       {
@@ -3178,7 +3175,7 @@
             "why": "805 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.9992178528240743
+          "age_days": 3.168266106261574
         }
       },
       {
@@ -3213,7 +3210,7 @@
             "why": "58372 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.0710928528240737
+          "age_days": 3.240141106261574
         }
       },
       {
@@ -3244,7 +3241,7 @@
             "why": "3909 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.2225743343055555
+          "age_days": 3.3916225877430555
         }
       },
       {
@@ -3275,7 +3272,7 @@
             "why": "6078 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.2379331306018515
+          "age_days": 3.406981384039352
         }
       },
       {
@@ -3306,7 +3303,7 @@
             "why": "17860 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.255537297268518
+          "age_days": 3.4245855507060186
         }
       },
       {
@@ -3343,7 +3340,7 @@
             "why": "1953 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.34108127875
+          "age_days": 3.5101295321875
         }
       },
       {
@@ -3384,7 +3381,7 @@
             "why": "6831 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 3.790479426898148
+          "age_days": 3.959527680335648
         }
       }
     ],
@@ -3403,18 +3400,18 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-06T23:53:58.973868+00:00",
-      "display": "Nov 06, 6:53 PM EST",
+      "at": "2026-11-07T03:57:24.178313+00:00",
+      "display": "Nov 06, 10:57 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07179149472222222
+      "age_hours": 0.0719483425
     },
     "last_success": {
-      "at": "2026-11-06T19:47:28.401747+00:00",
-      "display": "Nov 06, 2:47 PM EST",
+      "at": "2026-11-06T23:53:58.973868+00:00",
+      "display": "Nov 06, 6:53 PM EST",
       "trigger": "github-actions",
-      "age_hours": 4.180283750555556,
+      "age_hours": 4.1289495772222224,
       "ingested": 0
     },
     "stale": false,
@@ -3432,10 +3429,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-06T23:57:17.638804+00:00",
-      "as_of": "2026-11-06T23:57:17.638804+00:00",
-      "as_of_display": "Nov 06, 6:57 PM EST",
-      "attempted_display": "Nov 06, 6:57 PM EST",
+      "attempted": "2026-11-07T04:00:47.785090+00:00",
+      "as_of": "2026-11-07T04:00:47.785090+00:00",
+      "as_of_display": "Nov 06, 11:00 PM EST",
+      "attempted_display": "Nov 06, 11:00 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3446,12 +3443,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-06T23:53:58.973868+00:00",
-        "display": "Fri 6:53 PM EST",
+        "started": "2026-11-07T03:57:24.178313+00:00",
+        "display": "Fri 10:57 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-06T23:53:58.973868+00:00",
+        "display": "Fri 6:53 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-06T19:47:28.401747+00:00",
@@ -3496,14 +3501,6 @@
       {
         "started": "2026-11-05T10:31:30.788839+00:00",
         "display": "Thu 5:31 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-05T02:59:32.474832+00:00",
-        "display": "Wed 9:59 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
