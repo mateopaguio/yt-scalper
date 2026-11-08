@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:03:06.930708+00:00",
+  "generated_at": "2026-11-08T18:46:53.681737+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -697,7 +697,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-08T14:03:07.044021+00:00",
+    "last_run": "2026-11-08T18:46:53.782219+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 60."
   },
@@ -2059,8 +2059,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 365,
-      "stale": 102,
+      "unresolved": 361,
+      "stale": 106,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2237,30 +2237,6 @@
       ],
       "unresolved": [
         {
-          "ticker": "GM",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "GEV",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "LAZR",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "JPM",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
           "ticker": "CRWD",
           "state": "unresolved",
           "why": "not measured yet",
@@ -2304,6 +2280,30 @@
         },
         {
           "ticker": "INTC",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "FTNT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "EAT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "MEDP",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "QS",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -2547,8 +2547,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 365,
-        "stale": 102,
+        "unresolved": 361,
+        "stale": 106,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2618,7 +2618,7 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.7841139251388887
+          "age_days": 3.981265782673611
         }
       }
     ],
@@ -2655,7 +2655,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.736012073287037
+          "age_days": 3.933163930821759
         }
       },
       {
@@ -2693,7 +2693,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.743998184398148
+          "age_days": 3.94115004193287
         }
       },
       {
@@ -2732,7 +2732,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.7445074436574073
+          "age_days": 3.9416593011921295
         }
       },
       {
@@ -2763,7 +2763,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.8208037399537034
+          "age_days": 4.017955597488426
         }
       },
       {
@@ -2794,7 +2794,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.8264287399537036
+          "age_days": 4.023580597488426
         }
       },
       {
@@ -2830,7 +2830,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.83434540662037
+          "age_days": 4.031497264155092
         }
       },
       {
@@ -2861,7 +2861,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.8609657769907404
+          "age_days": 4.058117634525463
         }
       },
       {
@@ -2897,7 +2897,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.8836393881018516
+          "age_days": 4.080791245636574
         }
       },
       {
@@ -2933,7 +2933,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.9000398510648147
+          "age_days": 4.097191708599537
         }
       },
       {
@@ -2964,7 +2964,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.940352351064815
+          "age_days": 4.137504208599537
         }
       },
       {
@@ -3007,7 +3007,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 3.9463245732870367
+          "age_days": 4.143476430821759
         }
       },
       {
@@ -3044,7 +3044,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.9491833695833334
+          "age_days": 4.146335227118056
         }
       },
       {
@@ -3078,7 +3078,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.015502814027777
+          "age_days": 4.2126546715624995
         }
       },
       {
@@ -3109,7 +3109,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.045780591805555
+          "age_days": 4.242932449340278
         }
       },
       {
@@ -3140,7 +3140,7 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.045942628842592
+          "age_days": 4.243094486377315
         }
       },
       {
@@ -3175,7 +3175,7 @@
             "why": "805 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.5865560547685185
+          "age_days": 4.783707912303241
         }
       },
       {
@@ -3210,7 +3210,7 @@
             "why": "58372 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.658431054768518
+          "age_days": 4.85558291230324
         }
       },
       {
@@ -3241,7 +3241,7 @@
             "why": "3909 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.80991253625
+          "age_days": 5.007064393784722
         }
       },
       {
@@ -3272,7 +3272,7 @@
             "why": "6078 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.825271332546296
+          "age_days": 5.022423190081018
         }
       },
       {
@@ -3303,7 +3303,7 @@
             "why": "17860 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.842875499212963
+          "age_days": 5.040027356747685
         }
       },
       {
@@ -3340,7 +3340,7 @@
             "why": "1953 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.928419480694444
+          "age_days": 5.125571338229166
         }
       },
       {
@@ -3381,7 +3381,7 @@
             "why": "6831 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 5.3778176288425925
+          "age_days": 5.574969486377315
         }
       }
     ],
@@ -3400,24 +3400,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-08T13:59:48.150656+00:00",
-      "display": "Nov 08, 8:59 AM EST",
+      "at": "2026-11-08T18:43:31.268140+00:00",
+      "display": "Nov 08, 1:43 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07091482222222223
+      "age_hours": 0.07391563166666666
     },
     "last_success": {
-      "at": "2026-11-08T06:51:27.170898+00:00",
-      "display": "Nov 08, 1:51 AM EST",
+      "at": "2026-11-08T13:59:48.150656+00:00",
+      "display": "Nov 08, 8:59 AM EST",
       "trigger": "github-actions",
-      "age_hours": 7.2100758661111115,
+      "age_hours": 4.802559377222223,
       "ingested": 0
     },
-    "stale": true,
+    "stale": false,
     "expected_hours": 6.0,
-    "overdue_hours": 1.2,
-    "stale_message": "No successful ingestion in 7.2h - 1.2h past the expected 6h schedule",
+    "overdue_hours": 0.0,
+    "stale_message": "",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3429,10 +3429,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-08T14:03:07.044021+00:00",
-      "as_of": "2026-11-08T14:03:07.044021+00:00",
-      "as_of_display": "Nov 08, 9:03 AM EST",
-      "attempted_display": "Nov 08, 9:03 AM EST",
+      "attempted": "2026-11-08T18:46:53.782219+00:00",
+      "as_of": "2026-11-08T18:46:53.782219+00:00",
+      "as_of_display": "Nov 08, 1:46 PM EST",
+      "attempted_display": "Nov 08, 1:46 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3443,12 +3443,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-08T13:59:48.150656+00:00",
-        "display": "Sun 8:59 AM EST",
+        "started": "2026-11-08T18:43:31.268140+00:00",
+        "display": "Sun 1:43 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-08T13:59:48.150656+00:00",
+        "display": "Sun 8:59 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-08T06:51:27.170898+00:00",
@@ -3493,14 +3501,6 @@
       {
         "started": "2026-11-07T03:57:24.178313+00:00",
         "display": "Fri 10:57 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-06T23:53:58.973868+00:00",
-        "display": "Fri 6:53 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
