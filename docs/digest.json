@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:46:48.922732+00:00",
+  "generated_at": "2026-11-09T21:17:21.579110+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -691,15 +691,15 @@
     "never_attempted": 467,
     "resolved_by_horizon": {
       "1": 159,
-      "7": 60,
+      "7": 93,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-09T10:46:49.037632+00:00",
+    "last_run": "2026-11-09T21:17:21.687294+00:00",
     "warning": "",
-    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 60."
+    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 93."
   },
   "setups": {
     "hits": [],
@@ -711,8 +711,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1255,
-        "range": "2021-11-08 .. 2026-11-06",
+        "bars": 1254,
+        "range": "2021-11-10 .. 2026-11-09",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -723,8 +723,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1255,
-        "range": "2021-11-08 .. 2026-11-06",
+        "bars": 1254,
+        "range": "2021-11-10 .. 2026-11-09",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -1408,120 +1408,159 @@
     "benchmark": "SPY",
     "creators": [
       {
-        "channel": "Bloomberg Television",
-        "calls": 38,
-        "resolved": 16,
-        "timeliness_days": 0.12,
-        "uniqueness": 0.444,
-        "reprint_share": 0.184,
+        "channel": "Dividend Talks",
+        "calls": 24,
+        "resolved": 13,
+        "timeliness_days": 2.53,
+        "uniqueness": 0.5,
+        "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 31.2,
-        "edge_mean_pct": -0.123,
-        "edge_median_pct": -0.278
+        "hit_rate_vs_spy": 76.9,
+        "edge_mean_pct": 1.851,
+        "edge_median_pct": 4.937
       },
       {
         "channel": "Yahoo Finance",
         "calls": 245,
-        "resolved": 40,
+        "resolved": 68,
         "timeliness_days": -0.13,
         "uniqueness": 0.326,
         "reprint_share": 0.037,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 50.0,
-        "edge_mean_pct": -0.96,
-        "edge_median_pct": 0.582
+        "hit_rate_vs_spy": 63.2,
+        "edge_mean_pct": 1.268,
+        "edge_median_pct": 2.609
+      },
+      {
+        "channel": "Bloomberg Television",
+        "calls": 38,
+        "resolved": 22,
+        "timeliness_days": 0.12,
+        "uniqueness": 0.444,
+        "reprint_share": 0.184,
+        "sufficient_data": true,
+        "confident": false,
+        "hit_rate_vs_spy": 40.9,
+        "edge_mean_pct": 1.027,
+        "edge_median_pct": -0.278
       },
       {
         "channel": "CNBC Television",
         "calls": 249,
-        "resolved": 27,
+        "resolved": 53,
         "timeliness_days": -0.15,
         "uniqueness": 0.405,
         "reprint_share": 0.088,
         "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 62.3,
+        "edge_mean_pct": 0.605,
+        "edge_median_pct": 4.512
+      },
+      {
+        "channel": "Excess Returns",
+        "calls": 19,
+        "resolved": 12,
+        "timeliness_days": 0.07,
+        "uniqueness": 0.167,
+        "reprint_share": 0.0,
+        "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 51.9,
-        "edge_mean_pct": -1.63,
-        "edge_median_pct": 1.442
+        "hit_rate_vs_spy": 50.0,
+        "edge_mean_pct": -0.105,
+        "edge_median_pct": 0.582
+      },
+      {
+        "channel": "Benzinga",
+        "calls": 235,
+        "resolved": 19,
+        "timeliness_days": -1.26,
+        "uniqueness": 0.42,
+        "reprint_share": 0.009,
+        "sufficient_data": true,
+        "confident": false,
+        "hit_rate_vs_spy": 47.4,
+        "edge_mean_pct": -1.849,
+        "edge_median_pct": -1.918
       },
       {
         "channel": "Ticker Symbol: YOU",
         "calls": 24,
-        "resolved": 10,
+        "resolved": 13,
         "timeliness_days": 0.38,
         "uniqueness": 0.286,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 40.0,
-        "edge_mean_pct": -3.163,
-        "edge_median_pct": -3.208
+        "hit_rate_vs_spy": 38.5,
+        "edge_mean_pct": -2.713,
+        "edge_median_pct": -4.093
       },
       {
         "channel": "Couch Investor",
         "calls": 97,
-        "resolved": 26,
+        "resolved": 39,
         "timeliness_days": 1.23,
         "uniqueness": 0.143,
         "reprint_share": 0.072,
         "sufficient_data": true,
-        "confident": false,
-        "hit_rate_vs_spy": 34.6,
-        "edge_mean_pct": -3.718,
-        "edge_median_pct": -6.377
-      },
-      {
-        "channel": "Schwab Network",
-        "calls": 275,
-        "resolved": 47,
-        "timeliness_days": 0.21,
-        "uniqueness": 0.409,
-        "reprint_share": 0.051,
-        "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 31.9,
-        "edge_mean_pct": -4.387,
-        "edge_median_pct": -6.678
+        "hit_rate_vs_spy": 41.0,
+        "edge_mean_pct": -2.764,
+        "edge_median_pct": -6.038
       },
       {
         "channel": "The Compound",
         "calls": 135,
-        "resolved": 11,
+        "resolved": 21,
         "timeliness_days": -0.45,
         "uniqueness": 0.37,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 36.4,
-        "edge_mean_pct": -4.692,
-        "edge_median_pct": -0.278
+        "hit_rate_vs_spy": 38.1,
+        "edge_mean_pct": -3.729,
+        "edge_median_pct": -6.038
+      },
+      {
+        "channel": "Schwab Network",
+        "calls": 275,
+        "resolved": 76,
+        "timeliness_days": 0.21,
+        "uniqueness": 0.409,
+        "reprint_share": 0.051,
+        "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 39.5,
+        "edge_mean_pct": -4.283,
+        "edge_median_pct": -3.015
       },
       {
         "channel": "Asymmetric Investing",
         "calls": 31,
-        "resolved": 14,
+        "resolved": 20,
         "timeliness_days": 1.16,
         "uniqueness": 0.111,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 0.0,
-        "edge_mean_pct": -8.948,
+        "hit_rate_vs_spy": 10.0,
+        "edge_mean_pct": -8.535,
         "edge_median_pct": -7.858
       },
       {
         "channel": "Jose Najarro Stocks",
         "calls": 35,
-        "resolved": 10,
+        "resolved": 12,
         "timeliness_days": 0.05,
         "uniqueness": 0.286,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
         "hit_rate_vs_spy": 0.0,
-        "edge_mean_pct": -9.79,
+        "edge_mean_pct": -10.89,
         "edge_median_pct": -7.858
       },
       {
@@ -1538,22 +1577,9 @@
         "withheld_reason": "only 3 resolved call(s); rates need 10+ to mean anything"
       },
       {
-        "channel": "Excess Returns",
-        "calls": 19,
-        "resolved": 9,
-        "timeliness_days": 0.07,
-        "uniqueness": 0.167,
-        "reprint_share": 0.0,
-        "sufficient_data": false,
-        "confident": false,
-        "hit_rate_vs_spy": null,
-        "edge_mean_pct": null,
-        "withheld_reason": "only 9 resolved call(s); rates need 10+ to mean anything"
-      },
-      {
         "channel": "manual",
         "calls": 9,
-        "resolved": 6,
+        "resolved": 7,
         "timeliness_days": 0.0,
         "uniqueness": 0.2,
         "reprint_share": 0.0,
@@ -1561,12 +1587,12 @@
         "confident": false,
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
-        "withheld_reason": "only 6 resolved call(s); rates need 10+ to mean anything"
+        "withheld_reason": "only 7 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "Investor's Business Daily",
         "calls": 146,
-        "resolved": 3,
+        "resolved": 9,
         "timeliness_days": -0.59,
         "uniqueness": 0.595,
         "reprint_share": 0.041,
@@ -1574,12 +1600,12 @@
         "confident": false,
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
-        "withheld_reason": "only 3 resolved call(s); rates need 10+ to mean anything"
+        "withheld_reason": "only 9 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "StockedUp",
         "calls": 21,
-        "resolved": 2,
+        "resolved": 3,
         "timeliness_days": 0.67,
         "uniqueness": 0.714,
         "reprint_share": 0.0,
@@ -1587,12 +1613,12 @@
         "confident": false,
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
-        "withheld_reason": "only 2 resolved call(s); rates need 10+ to mean anything"
+        "withheld_reason": "only 3 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "FAST Graphs",
         "calls": 5,
-        "resolved": 2,
+        "resolved": 3,
         "timeliness_days": 0.0,
         "uniqueness": 0.5,
         "reprint_share": 0.0,
@@ -1600,33 +1626,7 @@
         "confident": false,
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
-        "withheld_reason": "only 2 resolved call(s); rates need 10+ to mean anything"
-      },
-      {
-        "channel": "Benzinga",
-        "calls": 235,
-        "resolved": 2,
-        "timeliness_days": -1.26,
-        "uniqueness": 0.42,
-        "reprint_share": 0.009,
-        "sufficient_data": false,
-        "confident": false,
-        "hit_rate_vs_spy": null,
-        "edge_mean_pct": null,
-        "withheld_reason": "only 2 resolved call(s); rates need 10+ to mean anything"
-      },
-      {
-        "channel": "Dividend Talks",
-        "calls": 24,
-        "resolved": 8,
-        "timeliness_days": 2.53,
-        "uniqueness": 0.5,
-        "reprint_share": 0.0,
-        "sufficient_data": false,
-        "confident": false,
-        "hit_rate_vs_spy": null,
-        "edge_mean_pct": null,
-        "withheld_reason": "only 8 resolved call(s); rates need 10+ to mean anything"
+        "withheld_reason": "only 3 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "CNBC",
@@ -1642,10 +1642,10 @@
         "withheld_reason": "only 0 resolved call(s); rates need 10+ to mean anything"
       }
     ],
-    "with_enough_data": 9,
+    "with_enough_data": 12,
     "total_creators": 18,
     "note": "All figures are relative to SPY over the same window. A creator whose picks rose less than the index did not find anything. Rates are withheld below 10 resolved calls rather than shown with a caveat, because a high rate on a tiny sample is the most misleading number this page could print.",
-    "status": "9 creator(s) have 10+ resolved calls"
+    "status": "12 creator(s) have 10+ resolved calls"
   },
   "verification_meta": {
     "by_status": {},
@@ -1763,294 +1763,294 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 406,
+        "bars": 407,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 514,
+        "bars": 515,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -2059,8 +2059,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 311,
-      "stale": 156,
+      "unresolved": 304,
+      "stale": 163,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2237,48 +2237,6 @@
       ],
       "unresolved": [
         {
-          "ticker": "KHC",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "SCHW",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "DASH",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "INTC",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "SNDK",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "RDDT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "COIN",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
           "ticker": "NOW",
           "state": "unresolved",
           "why": "not measured yet",
@@ -2304,6 +2262,48 @@
         },
         {
           "ticker": "CRM",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "NOW",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "IWM",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "IOVA",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "MU",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "MRVL",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "FTNT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "RSP",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -2547,8 +2547,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 311,
-        "stale": 156,
+        "unresolved": 304,
+        "stale": 163,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2618,7 +2618,7 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.647816405243056
+          "age_days": 5.085727449120371
         }
       }
     ],
@@ -2655,7 +2655,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.599714553391204
+          "age_days": 5.037625597268518
         }
       },
       {
@@ -2693,7 +2693,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.607700664502315
+          "age_days": 5.04561170837963
         }
       },
       {
@@ -2732,7 +2732,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.608209923761574
+          "age_days": 5.046120967638889
         }
       },
       {
@@ -2763,7 +2763,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.68450622005787
+          "age_days": 5.122417263935185
         }
       },
       {
@@ -2794,7 +2794,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.690131220057871
+          "age_days": 5.1280422639351855
         }
       },
       {
@@ -2830,7 +2830,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.698047886724537
+          "age_days": 5.135958930601852
         }
       },
       {
@@ -2861,7 +2861,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.7246682570949075
+          "age_days": 5.162579300972222
         }
       },
       {
@@ -2897,7 +2897,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.747341868206019
+          "age_days": 5.1852529120833335
         }
       },
       {
@@ -2933,7 +2933,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.763742331168982
+          "age_days": 5.2016533750462965
         }
       },
       {
@@ -2964,7 +2964,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.8040548311689815
+          "age_days": 5.241965875046296
         }
       },
       {
@@ -3007,7 +3007,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 4.810027053391203
+          "age_days": 5.247938097268519
         }
       },
       {
@@ -3044,7 +3044,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.8128858496875
+          "age_days": 5.250796893564815
         }
       },
       {
@@ -3078,7 +3078,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.879205294131944
+          "age_days": 5.317116338009259
         }
       },
       {
@@ -3109,7 +3109,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.909483071909722
+          "age_days": 5.347394115787037
         }
       },
       {
@@ -3140,7 +3140,7 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.909645108946759
+          "age_days": 5.347556152824074
         }
       },
       {
@@ -3175,7 +3175,7 @@
             "why": "805 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.4502585348726855
+          "age_days": 5.88816957875
         }
       },
       {
@@ -3210,7 +3210,7 @@
             "why": "58372 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.522133534872685
+          "age_days": 5.960044578750001
         }
       },
       {
@@ -3241,7 +3241,7 @@
             "why": "3909 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.673615016354167
+          "age_days": 6.111526060231481
         }
       },
       {
@@ -3272,7 +3272,7 @@
             "why": "6078 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.688973812650463
+          "age_days": 6.126884856527777
         }
       },
       {
@@ -3303,7 +3303,7 @@
             "why": "17860 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.70657797931713
+          "age_days": 6.144489023194444
         }
       },
       {
@@ -3340,7 +3340,7 @@
             "why": "1953 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.792121960798611
+          "age_days": 6.230033004675925
         }
       },
       {
@@ -3381,7 +3381,7 @@
             "why": "6831 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 6.241520108946759
+          "age_days": 6.6794311528240735
         }
       }
     ],
@@ -3400,24 +3400,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-09T10:43:33.094209+00:00",
-      "display": "Nov 09, 5:43 AM EST",
+      "at": "2026-11-09T21:13:58.825978+00:00",
+      "display": "Nov 09, 4:13 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07062336944444444
+      "age_hours": 0.07334067555555555
     },
     "last_success": {
-      "at": "2026-11-09T02:16:53.823993+00:00",
-      "display": "Nov 08, 9:16 PM EST",
+      "at": "2026-11-09T10:43:33.094209+00:00",
+      "display": "Nov 09, 5:43 AM EST",
       "trigger": "github-actions",
-      "age_hours": 8.51486509611111,
+      "age_hours": 10.580488389166666,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 2.5,
-    "stale_message": "No successful ingestion in 8.5h - 2.5h past the expected 6h schedule",
+    "overdue_hours": 4.6,
+    "stale_message": "No successful ingestion in 10.6h - 4.6h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3429,10 +3429,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-09T10:46:49.037632+00:00",
-      "as_of": "2026-11-09T10:46:49.037632+00:00",
-      "as_of_display": "Nov 09, 5:46 AM EST",
-      "attempted_display": "Nov 09, 5:46 AM EST",
+      "attempted": "2026-11-09T21:17:21.687294+00:00",
+      "as_of": "2026-11-09T21:17:21.687294+00:00",
+      "as_of_display": "Nov 09, 4:17 PM EST",
+      "attempted_display": "Nov 09, 4:17 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3443,12 +3443,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-09T10:43:33.094209+00:00",
-        "display": "Mon 5:43 AM EST",
+        "started": "2026-11-09T21:13:58.825978+00:00",
+        "display": "Mon 4:13 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-09T10:43:33.094209+00:00",
+        "display": "Mon 5:43 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-09T02:16:53.823993+00:00",
@@ -3493,14 +3501,6 @@
       {
         "started": "2026-11-08T00:07:15.703565+00:00",
         "display": "Sat 7:07 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-07T20:37:38.090036+00:00",
-        "display": "Sat 3:37 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
