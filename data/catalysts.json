@@ -1,5 +1,23 @@
 [
   {
+    "event_id": "cat_0587802de2991f",
+    "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+    "source": "SEC Press Releases",
+    "published": "2026-11-10T11:15:35-05:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "The SEC published its annual enforcement results for fiscal year 2026. Only the headline was retrieved; no body text or figures were available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
     "event_id": "cat_fcae91cb16bfe9",
     "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
     "source": "FDA Drugs",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:02:35.130146+00:00",
+  "generated_at": "2026-11-10T19:30:45.926255+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -67,6 +67,25 @@
     }
   },
   "catalysts": [
+    {
+      "event_id": "cat_0587802de2991f",
+      "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+      "source": "SEC Press Releases",
+      "published": "2026-11-10T11:15:35-05:00",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+      "category": "regulatory",
+      "body_chars": 0,
+      "has_body": false,
+      "findings": {
+        "event_type": "other",
+        "summary": "The SEC published its annual enforcement results for fiscal year 2026. Only the headline was retrieved; no body text or figures were available.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1,
+        "is_market_relevant": false
+      },
+      "_state": "new"
+    },
     {
       "event_id": "cat_fcae91cb16bfe9",
       "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
@@ -494,109 +513,6 @@
         "is_market_relevant": false
       },
       "_state": "seen"
-    },
-    {
-      "event_id": "cat_7b8c9fb2bcda83",
-      "title": "What's New in Regulatory Science",
-      "source": "FDA Drugs",
-      "published": "2026-11-03T18:59:25-05:00",
-      "url": "http://www.fda.gov/drugs/regulatory-science-action/whats-new-regulatory-science",
-      "category": "regulatory",
-      "body_chars": 805,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "pharmaceuticals",
-          "biotechnology"
-        ],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA's CDER page index lists its periodic \"What's New in Regulatory Science\" newsletter issues, including a new Issue I, 2026, with no specific policy, approval, or company action described.",
-        "companies": []
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_58e5d3f3e9ebbd",
-      "title": "Guidance Documents for Rare Disease Drug Development",
-      "source": "FDA Drugs",
-      "published": "2026-11-03T17:15:55-05:00",
-      "url": "http://www.fda.gov/drugs/guidances-drugs/guidance-documents-rare-disease-drug-development",
-      "category": "regulatory",
-      "body_chars": 58372,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA Drugs page listing selected guidance documents relevant to rare disease drug development, including some newly described draft guidances. The page is a compilation of existing guidance references with no new company-specific action.",
-        "companies": [],
-        "direction": "unclear",
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals"
-        ]
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_9ded14432123fb",
-      "title": "How to Register a Drug Establishment",
-      "source": "FDA Drugs",
-      "published": "2026-11-03T13:37:47-05:00",
-      "url": "http://www.fda.gov/drugs/drug-registration-and-listing-instructions/how-register-drug-establishment",
-      "category": "regulatory",
-      "body_chars": 3909,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA published instructions for drug establishment registration, covering who must register, the five-day and pre-import timing rules, the October 1 to December 31 annual renewal window, and how to submit, update, or de-register via SPL filings. This is procedural guidance with no company-specific or financial content.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_86edb205e3f7bd",
-      "title": "Advancing Generic Drug Development: Bioequivalence Challenges for Patient-Centric Oral Formulations - 06/11/2026",
-      "source": "FDA Drugs",
-      "published": "2026-11-03T13:15:40-05:00",
-      "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-bioequivalence-challenges-patient-centric-oral-formulations",
-      "category": "regulatory",
-      "body_chars": 6078,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA posted a page for a June 11, 2026 CDER workshop on bioequivalence challenges for patient-centric generic oral formulations, covering chewable, orally disintegrating, pellet/granule, suspension, and sublingual products plus pediatric formulations. The page is an educational event notice with no company-specific or product action.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_348100dd485a49",
-      "title": "Prescription Drug User Fee Amendments",
-      "source": "FDA Drugs",
-      "published": "2026-11-03T12:50:19-05:00",
-      "url": "http://www.fda.gov/industry/fda-user-fee-programs/prescription-drug-user-fee-amendments",
-      "category": "regulatory",
-      "body_chars": 17860,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA's PDUFA program page lists FY2027 user fee rates (application fee $4,600,753 with clinical data; $2,300,376 without; program fee $416,857), published in the Federal Register on July 30, 2026, with payment due October 1, 2026. The page also notes the centralized user fee email inbox change and the electronic-payment-only policy, and reiterates that PDUFA VII runs through September 2027.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "_state": "seen"
     }
   ],
   "ledger": {},
@@ -637,15 +553,15 @@
     "never_attempted": 467,
     "resolved_by_horizon": {
       "1": 159,
-      "7": 93,
+      "7": 120,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-10T12:02:35.245186+00:00",
+    "last_run": "2026-11-10T19:30:46.017658+00:00",
     "warning": "",
-    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 93."
+    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 120."
   },
   "setups": {
     "hits": [],
@@ -657,8 +573,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1254,
-        "range": "2021-11-10 .. 2026-11-09",
+        "bars": 1255,
+        "range": "2021-11-10 .. 2026-11-10",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -669,8 +585,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1254,
-        "range": "2021-11-10 .. 2026-11-09",
+        "bars": 1255,
+        "range": "2021-11-10 .. 2026-11-10",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -713,7 +629,27 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [],
+    "new": [
+      {
+        "event_id": "cat_0587802de2991f",
+        "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+        "source": "SEC Press Releases",
+        "published": "2026-11-10T11:15:35-05:00",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+        "category": "regulatory",
+        "body_chars": 0,
+        "has_body": false,
+        "findings": {
+          "event_type": "other",
+          "summary": "The SEC published its annual enforcement results for fiscal year 2026. Only the headline was retrieved; no body text or figures were available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_state": "new"
+      }
+    ],
     "updated": [
       {
         "event_id": "cat_fa0c05e81af880",
@@ -1144,115 +1080,12 @@
           "is_market_relevant": false
         },
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_7b8c9fb2bcda83",
-        "title": "What's New in Regulatory Science",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T18:59:25-05:00",
-        "url": "http://www.fda.gov/drugs/regulatory-science-action/whats-new-regulatory-science",
-        "category": "regulatory",
-        "body_chars": 805,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology"
-          ],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA's CDER page index lists its periodic \"What's New in Regulatory Science\" newsletter issues, including a new Issue I, 2026, with no specific policy, approval, or company action described.",
-          "companies": []
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_58e5d3f3e9ebbd",
-        "title": "Guidance Documents for Rare Disease Drug Development",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T17:15:55-05:00",
-        "url": "http://www.fda.gov/drugs/guidances-drugs/guidance-documents-rare-disease-drug-development",
-        "category": "regulatory",
-        "body_chars": 58372,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA Drugs page listing selected guidance documents relevant to rare disease drug development, including some newly described draft guidances. The page is a compilation of existing guidance references with no new company-specific action.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_9ded14432123fb",
-        "title": "How to Register a Drug Establishment",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T13:37:47-05:00",
-        "url": "http://www.fda.gov/drugs/drug-registration-and-listing-instructions/how-register-drug-establishment",
-        "category": "regulatory",
-        "body_chars": 3909,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA published instructions for drug establishment registration, covering who must register, the five-day and pre-import timing rules, the October 1 to December 31 annual renewal window, and how to submit, update, or de-register via SPL filings. This is procedural guidance with no company-specific or financial content.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_86edb205e3f7bd",
-        "title": "Advancing Generic Drug Development: Bioequivalence Challenges for Patient-Centric Oral Formulations - 06/11/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T13:15:40-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-bioequivalence-challenges-patient-centric-oral-formulations",
-        "category": "regulatory",
-        "body_chars": 6078,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA posted a page for a June 11, 2026 CDER workshop on bioequivalence challenges for patient-centric generic oral formulations, covering chewable, orally disintegrating, pellet/granule, suspension, and sublingual products plus pediatric formulations. The page is an educational event notice with no company-specific or product action.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_348100dd485a49",
-        "title": "Prescription Drug User Fee Amendments",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T12:50:19-05:00",
-        "url": "http://www.fda.gov/industry/fda-user-fee-programs/prescription-drug-user-fee-amendments",
-        "category": "regulatory",
-        "body_chars": 17860,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA's PDUFA program page lists FY2027 user fee rates (application fee $4,600,753 with clinical data; $2,300,376 without; program fee $416,857), published in the Federal Register on July 30, 2026, with payment due October 1, 2026. The page also notes the centralized user fee email inbox change and the electronic-payment-only policy, and reiterates that PDUFA VII runs through September 2027.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
-      "new": 0,
+      "new": 1,
       "updated": 1,
-      "unchanged": 22
+      "unchanged": 17
     },
     "known_events": 135,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -1302,157 +1135,170 @@
       {
         "channel": "Dividend Talks",
         "calls": 24,
-        "resolved": 13,
+        "resolved": 16,
         "timeliness_days": 2.53,
         "uniqueness": 0.5,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 76.9,
-        "edge_mean_pct": 1.852,
-        "edge_median_pct": 4.947
-      },
-      {
-        "channel": "Yahoo Finance",
-        "calls": 245,
-        "resolved": 68,
-        "timeliness_days": -0.13,
-        "uniqueness": 0.326,
-        "reprint_share": 0.037,
-        "sufficient_data": true,
-        "confident": true,
-        "hit_rate_vs_spy": 63.2,
-        "edge_mean_pct": 1.267,
-        "edge_median_pct": 2.609
+        "hit_rate_vs_spy": 81.2,
+        "edge_mean_pct": 2.142,
+        "edge_median_pct": 4.05
       },
       {
         "channel": "Bloomberg Television",
         "calls": 38,
-        "resolved": 22,
+        "resolved": 25,
         "timeliness_days": 0.12,
         "uniqueness": 0.444,
         "reprint_share": 0.184,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 40.9,
-        "edge_mean_pct": 1.026,
+        "hit_rate_vs_spy": 44.0,
+        "edge_mean_pct": 1.127,
         "edge_median_pct": -0.278
       },
       {
         "channel": "CNBC Television",
         "calls": 249,
-        "resolved": 53,
+        "resolved": 76,
         "timeliness_days": -0.15,
         "uniqueness": 0.405,
         "reprint_share": 0.088,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 62.3,
-        "edge_mean_pct": 0.604,
-        "edge_median_pct": 4.512
+        "hit_rate_vs_spy": 65.8,
+        "edge_mean_pct": 0.058,
+        "edge_median_pct": 2.677
+      },
+      {
+        "channel": "Yahoo Finance",
+        "calls": 245,
+        "resolved": 92,
+        "timeliness_days": -0.13,
+        "uniqueness": 0.326,
+        "reprint_share": 0.037,
+        "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 63.0,
+        "edge_mean_pct": 0.049,
+        "edge_median_pct": 2.542
+      },
+      {
+        "channel": "Benzinga",
+        "calls": 235,
+        "resolved": 39,
+        "timeliness_days": -1.26,
+        "uniqueness": 0.42,
+        "reprint_share": 0.009,
+        "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 66.7,
+        "edge_mean_pct": -0.212,
+        "edge_median_pct": 2.546
+      },
+      {
+        "channel": "Investor's Business Daily",
+        "calls": 146,
+        "resolved": 24,
+        "timeliness_days": -0.59,
+        "uniqueness": 0.595,
+        "reprint_share": 0.041,
+        "sufficient_data": true,
+        "confident": false,
+        "hit_rate_vs_spy": 66.7,
+        "edge_mean_pct": -0.319,
+        "edge_median_pct": 2.321
       },
       {
         "channel": "Excess Returns",
         "calls": 19,
-        "resolved": 12,
+        "resolved": 16,
         "timeliness_days": 0.07,
         "uniqueness": 0.167,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 50.0,
-        "edge_mean_pct": -0.105,
-        "edge_median_pct": 0.582
-      },
-      {
-        "channel": "Benzinga",
-        "calls": 235,
-        "resolved": 19,
-        "timeliness_days": -1.26,
-        "uniqueness": 0.42,
-        "reprint_share": 0.009,
-        "sufficient_data": true,
-        "confident": false,
-        "hit_rate_vs_spy": 47.4,
-        "edge_mean_pct": -1.849,
-        "edge_median_pct": -1.918
-      },
-      {
-        "channel": "Ticker Symbol: YOU",
-        "calls": 24,
-        "resolved": 13,
-        "timeliness_days": 0.38,
-        "uniqueness": 0.286,
-        "reprint_share": 0.0,
-        "sufficient_data": true,
-        "confident": false,
-        "hit_rate_vs_spy": 38.5,
-        "edge_mean_pct": -2.713,
-        "edge_median_pct": -4.093
+        "hit_rate_vs_spy": 56.2,
+        "edge_mean_pct": -0.668,
+        "edge_median_pct": 1.769
       },
       {
         "channel": "Couch Investor",
         "calls": 97,
-        "resolved": 39,
+        "resolved": 49,
         "timeliness_days": 1.23,
         "uniqueness": 0.143,
         "reprint_share": 0.072,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 41.0,
-        "edge_mean_pct": -2.764,
-        "edge_median_pct": -6.038
+        "hit_rate_vs_spy": 46.9,
+        "edge_mean_pct": -2.661,
+        "edge_median_pct": -0.278
       },
       {
-        "channel": "The Compound",
-        "calls": 135,
-        "resolved": 21,
-        "timeliness_days": -0.45,
-        "uniqueness": 0.37,
+        "channel": "Ticker Symbol: YOU",
+        "calls": 24,
+        "resolved": 14,
+        "timeliness_days": 0.38,
+        "uniqueness": 0.286,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 38.1,
-        "edge_mean_pct": -3.729,
-        "edge_median_pct": -6.038
+        "hit_rate_vs_spy": 35.7,
+        "edge_mean_pct": -3.739,
+        "edge_median_pct": -4.341
       },
       {
         "channel": "Schwab Network",
         "calls": 275,
-        "resolved": 76,
+        "resolved": 103,
         "timeliness_days": 0.21,
         "uniqueness": 0.409,
         "reprint_share": 0.051,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 39.5,
-        "edge_mean_pct": -4.283,
-        "edge_median_pct": -3.015
+        "hit_rate_vs_spy": 44.7,
+        "edge_mean_pct": -4.391,
+        "edge_median_pct": -1.828
+      },
+      {
+        "channel": "The Compound",
+        "calls": 135,
+        "resolved": 25,
+        "timeliness_days": -0.45,
+        "uniqueness": 0.37,
+        "reprint_share": 0.0,
+        "sufficient_data": true,
+        "confident": false,
+        "hit_rate_vs_spy": 36.0,
+        "edge_mean_pct": -4.4,
+        "edge_median_pct": -6.038
       },
       {
         "channel": "Asymmetric Investing",
         "calls": 31,
-        "resolved": 20,
+        "resolved": 25,
         "timeliness_days": 1.16,
         "uniqueness": 0.111,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 10.0,
-        "edge_mean_pct": -8.535,
+        "hit_rate_vs_spy": 20.0,
+        "edge_mean_pct": -7.582,
         "edge_median_pct": -7.858
       },
       {
         "channel": "Jose Najarro Stocks",
         "calls": 35,
-        "resolved": 12,
+        "resolved": 15,
         "timeliness_days": 0.05,
         "uniqueness": 0.286,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
         "hit_rate_vs_spy": 0.0,
-        "edge_mean_pct": -10.89,
+        "edge_mean_pct": -11.191,
         "edge_median_pct": -7.858
       },
       {
@@ -1482,22 +1328,9 @@
         "withheld_reason": "only 7 resolved call(s); rates need 10+ to mean anything"
       },
       {
-        "channel": "Investor's Business Daily",
-        "calls": 146,
-        "resolved": 9,
-        "timeliness_days": -0.59,
-        "uniqueness": 0.595,
-        "reprint_share": 0.041,
-        "sufficient_data": false,
-        "confident": false,
-        "hit_rate_vs_spy": null,
-        "edge_mean_pct": null,
-        "withheld_reason": "only 9 resolved call(s); rates need 10+ to mean anything"
-      },
-      {
         "channel": "StockedUp",
         "calls": 21,
-        "resolved": 3,
+        "resolved": 8,
         "timeliness_days": 0.67,
         "uniqueness": 0.714,
         "reprint_share": 0.0,
@@ -1505,7 +1338,7 @@
         "confident": false,
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
-        "withheld_reason": "only 3 resolved call(s); rates need 10+ to mean anything"
+        "withheld_reason": "only 8 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "FAST Graphs",
@@ -1534,10 +1367,10 @@
         "withheld_reason": "only 0 resolved call(s); rates need 10+ to mean anything"
       }
     ],
-    "with_enough_data": 12,
+    "with_enough_data": 13,
     "total_creators": 18,
     "note": "All figures are relative to SPY over the same window. A creator whose picks rose less than the index did not find anything. Rates are withheld below 10 resolved calls rather than shown with a caveat, because a high rate on a tiny sample is the most misleading number this page could print.",
-    "status": "12 creator(s) have 10+ resolved calls"
+    "status": "13 creator(s) have 10+ resolved calls"
   },
   "verification_meta": {
     "by_status": {},
@@ -1638,7 +1471,7 @@
       },
       {
         "ticker": "VRT",
-        "detail": "1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "CGNX",
@@ -1655,251 +1488,251 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 407,
+        "bars": 408,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 515,
+        "bars": 516,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
-        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
         "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
@@ -1907,42 +1740,42 @@
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1951,8 +1784,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 271,
-      "stale": 196,
+      "unresolved": 253,
+      "stale": 214,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2129,76 +1962,76 @@
       ],
       "unresolved": [
         {
-          "ticker": "NOW",
+          "ticker": "CRWD",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
+        },
+        {
+          "ticker": "MU",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "GM",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "SKHY",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "SMH",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "GE",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "RTX",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "EQIX",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "NOW",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 9
         },
         {
           "ticker": "INTC",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 10
+          "age_days": 9
         },
         {
-          "ticker": "MRNA",
+          "ticker": "SNDK",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 10
+          "age_days": 9
         },
         {
-          "ticker": "PLTR",
+          "ticker": "RDDT",
           "state": "unresolved",
           "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "LIFE",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "DDOG",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "GRAL",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "NET",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "GILD",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "BKNG",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "ANET",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "ARQT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
+          "age_days": 9
         }
       ],
       "stale": [
@@ -2439,8 +2272,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 271,
-        "stale": 196,
+        "unresolved": 253,
+        "stale": 214,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2510,11 +2343,42 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.700465108807871
+          "age_days": 6.011681874583333
         }
       }
     ],
     "archive": [
+      {
+        "event_id": "cat_0587802de2991f",
+        "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+        "source": "SEC Press Releases",
+        "published": "2026-11-10T11:15:35-05:00",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+        "category": "regulatory",
+        "body_chars": 0,
+        "has_body": false,
+        "findings": {
+          "event_type": "other",
+          "summary": "The SEC published its annual enforcement results for fiscal year 2026. Only the headline was retrieved; no body text or figures were available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": false,
+            "grade": "headline only",
+            "why": "the announcement body was never retrieved; only the headline is known"
+          },
+          "materiality": 1,
+          "age_days": 0.13623048569444446
+        }
+      },
       {
         "event_id": "cat_fcae91cb16bfe9",
         "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
@@ -2547,7 +2411,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.6523632569560185
+          "age_days": 5.963580022731481
         }
       },
       {
@@ -2585,7 +2449,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.66034936806713
+          "age_days": 5.971566133842592
         }
       },
       {
@@ -2624,7 +2488,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.660858627326389
+          "age_days": 5.972075393101852
         }
       },
       {
@@ -2655,7 +2519,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.737154923622685
+          "age_days": 6.048371689398148
         }
       },
       {
@@ -2686,7 +2550,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.7427799236226855
+          "age_days": 6.053996689398148
         }
       },
       {
@@ -2722,7 +2586,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.750696590289352
+          "age_days": 6.061913356064815
         }
       },
       {
@@ -2753,7 +2617,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.777316960659722
+          "age_days": 6.088533726435185
         }
       },
       {
@@ -2789,7 +2653,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.7999905717708335
+          "age_days": 6.111207337546296
         }
       },
       {
@@ -2825,7 +2689,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.816391034733797
+          "age_days": 6.127607800509259
         }
       },
       {
@@ -2856,7 +2720,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.856703534733796
+          "age_days": 6.167920300509259
         }
       },
       {
@@ -2899,7 +2763,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 5.862675756956019
+          "age_days": 6.173892522731482
         }
       },
       {
@@ -2936,7 +2800,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.865534553252315
+          "age_days": 6.176751319027778
         }
       },
       {
@@ -2970,7 +2834,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.931853997696759
+          "age_days": 6.243070763472222
         }
       },
       {
@@ -3001,7 +2865,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.962131775474537
+          "age_days": 6.27334854125
         }
       },
       {
@@ -3032,206 +2896,43 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.962293812511574
-        }
-      },
-      {
-        "event_id": "cat_7b8c9fb2bcda83",
-        "title": "What's New in Regulatory Science",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T18:59:25-05:00",
-        "url": "http://www.fda.gov/drugs/regulatory-science-action/whats-new-regulatory-science",
-        "category": "regulatory",
-        "body_chars": 805,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology"
-          ],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA's CDER page index lists its periodic \"What's New in Regulatory Science\" newsletter issues, including a new Issue I, 2026, with no specific policy, approval, or company action described.",
-          "companies": []
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "805 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.5029072384374995
-        }
-      },
-      {
-        "event_id": "cat_58e5d3f3e9ebbd",
-        "title": "Guidance Documents for Rare Disease Drug Development",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T17:15:55-05:00",
-        "url": "http://www.fda.gov/drugs/guidances-drugs/guidance-documents-rare-disease-drug-development",
-        "category": "regulatory",
-        "body_chars": 58372,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA Drugs page listing selected guidance documents relevant to rare disease drug development, including some newly described draft guidances. The page is a compilation of existing guidance references with no new company-specific action.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "58372 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.5747822384375
-        }
-      },
-      {
-        "event_id": "cat_9ded14432123fb",
-        "title": "How to Register a Drug Establishment",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T13:37:47-05:00",
-        "url": "http://www.fda.gov/drugs/drug-registration-and-listing-instructions/how-register-drug-establishment",
-        "category": "regulatory",
-        "body_chars": 3909,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA published instructions for drug establishment registration, covering who must register, the five-day and pre-import timing rules, the October 1 to December 31 annual renewal window, and how to submit, update, or de-register via SPL filings. This is procedural guidance with no company-specific or financial content.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "3909 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.726263719918981
-        }
-      },
-      {
-        "event_id": "cat_86edb205e3f7bd",
-        "title": "Advancing Generic Drug Development: Bioequivalence Challenges for Patient-Centric Oral Formulations - 06/11/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T13:15:40-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-bioequivalence-challenges-patient-centric-oral-formulations",
-        "category": "regulatory",
-        "body_chars": 6078,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA posted a page for a June 11, 2026 CDER workshop on bioequivalence challenges for patient-centric generic oral formulations, covering chewable, orally disintegrating, pellet/granule, suspension, and sublingual products plus pediatric formulations. The page is an educational event notice with no company-specific or product action.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "6078 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.741622516215277
-        }
-      },
-      {
-        "event_id": "cat_348100dd485a49",
-        "title": "Prescription Drug User Fee Amendments",
-        "source": "FDA Drugs",
-        "published": "2026-11-03T12:50:19-05:00",
-        "url": "http://www.fda.gov/industry/fda-user-fee-programs/prescription-drug-user-fee-amendments",
-        "category": "regulatory",
-        "body_chars": 17860,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA's PDUFA program page lists FY2027 user fee rates (application fee $4,600,753 with clinical data; $2,300,376 without; program fee $416,857), published in the Federal Register on July 30, 2026, with payment due October 1, 2026. The page also notes the centralized user fee email inbox change and the electronic-payment-only policy, and reiterates that PDUFA VII runs through September 2027.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "17860 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.759226682881944
+          "age_days": 6.273510578287037
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 1,
-      "archive": 20
+      "archive": 16
     },
     "duplicates_collapsed": 2,
     "headline_only_promoted": 0,
     "primary_source_backed": 1,
     "archive_reasons": {
-      "no verified public company behind it": 20
+      "no verified public company behind it": 16
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-10T11:59:11.296526+00:00",
-      "display": "Nov 10, 6:59 AM EST",
+      "at": "2026-11-10T19:27:23.970500+00:00",
+      "display": "Nov 10, 2:27 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.0735804775
+      "age_hours": 0.07259560555555555
     },
     "last_success": {
-      "at": "2026-11-10T03:55:23.050029+00:00",
-      "display": "Nov 09, 10:55 PM EST",
+      "at": "2026-11-10T11:59:11.296526+00:00",
+      "display": "Nov 10, 6:59 AM EST",
       "trigger": "github-actions",
-      "age_hours": 8.136982282222222,
+      "age_hours": 7.542782820555556,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 2.1,
-    "stale_message": "No successful ingestion in 8.1h - 2.1h past the expected 6h schedule",
+    "overdue_hours": 1.5,
+    "stale_message": "No successful ingestion in 7.5h - 1.5h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3243,10 +2944,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-10T12:02:35.245186+00:00",
-      "as_of": "2026-11-10T12:02:35.245186+00:00",
-      "as_of_display": "Nov 10, 7:02 AM EST",
-      "attempted_display": "Nov 10, 7:02 AM EST",
+      "attempted": "2026-11-10T19:30:46.017658+00:00",
+      "as_of": "2026-11-10T19:30:46.017658+00:00",
+      "as_of_display": "Nov 10, 2:30 PM EST",
+      "attempted_display": "Nov 10, 2:30 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3257,12 +2958,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-10T11:59:11.296526+00:00",
-        "display": "Tue 6:59 AM EST",
+        "started": "2026-11-10T19:27:23.970500+00:00",
+        "display": "Tue 2:27 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-10T11:59:11.296526+00:00",
+        "display": "Tue 6:59 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-10T03:55:23.050029+00:00",
@@ -3307,14 +3016,6 @@
       {
         "started": "2026-11-08T18:43:31.268140+00:00",
         "display": "Sun 1:43 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-08T13:59:48.150656+00:00",
-        "display": "Sun 8:59 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
