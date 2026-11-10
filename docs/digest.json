@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T03:58:42.406375+00:00",
+  "generated_at": "2026-11-10T12:02:35.130146+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -597,31 +597,6 @@
         "materiality": 1
       },
       "_state": "seen"
-    },
-    {
-      "event_id": "cat_665b9552c1f8a2",
-      "title": "FDA Rare Disease Innovation Hub",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-03T10:47:08-05:00",
-      "url": "http://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/fda-rare-disease-innovation-hub",
-      "category": "regulatory",
-      "body_chars": 1953,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals",
-          "medical devices"
-        ],
-        "direction": "unclear",
-        "event_type": "regulatory_action",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "",
-        "summary": "FDA describes its Rare Disease Innovation Hub, a cross-center collaboration among CBER, CDER, and CDRH that focuses on rare disease products, and notes the Hub released a Strategic Agenda on February 2, 2026. The page is primarily descriptive and provides program resources and contact information.",
-        "companies": []
-      },
-      "_state": "seen"
     }
   ],
   "ledger": {},
@@ -668,7 +643,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-10T03:58:42.475158+00:00",
+    "last_run": "2026-11-10T12:02:35.245186+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 93."
   },
@@ -1272,37 +1247,12 @@
           "materiality": 1
         },
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_665b9552c1f8a2",
-        "title": "FDA Rare Disease Innovation Hub",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-03T10:47:08-05:00",
-        "url": "http://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/fda-rare-disease-innovation-hub",
-        "category": "regulatory",
-        "body_chars": 1953,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals",
-            "medical devices"
-          ],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA describes its Rare Disease Innovation Hub, a cross-center collaboration among CBER, CDER, and CDRH that focuses on rare disease products, and notes the Hub released a Strategic Agenda on February 2, 2026. The page is primarily descriptive and provides program resources and contact information.",
-          "companies": []
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
       "updated": 1,
-      "unchanged": 23
+      "unchanged": 22
     },
     "known_events": 135,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -2001,8 +1951,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 276,
-      "stale": 191,
+      "unresolved": 271,
+      "stale": 196,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2012,7 +1962,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -2026,7 +1976,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -2040,7 +1990,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -2054,7 +2004,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -2068,7 +2018,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -2082,7 +2032,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -2096,7 +2046,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -2110,7 +2060,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -2124,7 +2074,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -2138,7 +2088,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -2152,7 +2102,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -2166,7 +2116,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 14,
+          "age_days": 15,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -2178,36 +2128,6 @@
         }
       ],
       "unresolved": [
-        {
-          "ticker": "INTC",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "SNDK",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "RDDT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "MU",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "SNDK",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
         {
           "ticker": "NOW",
           "state": "unresolved",
@@ -2249,80 +2169,110 @@
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
+        },
+        {
+          "ticker": "NET",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "GILD",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "BKNG",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "ANET",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "ARQT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
         }
       ],
       "stale": [
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 14d old",
-          "age_days": 14
+          "why": "never measured, 15d old",
+          "age_days": 15
         }
       ],
       "unpriceable": [
@@ -2330,19 +2280,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 14
+          "age_days": 15
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 14
+          "age_days": 15
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 14
+          "age_days": 15
         },
         {
           "ticker": "ETH",
@@ -2489,8 +2439,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 276,
-        "stale": 191,
+        "unresolved": 271,
+        "stale": 196,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2560,7 +2510,7 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.3643921312615745
+          "age_days": 5.700465108807871
         }
       }
     ],
@@ -2597,7 +2547,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.316290279409722
+          "age_days": 5.6523632569560185
         }
       },
       {
@@ -2635,7 +2585,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.324276390520834
+          "age_days": 5.66034936806713
         }
       },
       {
@@ -2674,7 +2624,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.324785649780092
+          "age_days": 5.660858627326389
         }
       },
       {
@@ -2705,7 +2655,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.401081946076389
+          "age_days": 5.737154923622685
         }
       },
       {
@@ -2736,7 +2686,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.406706946076389
+          "age_days": 5.7427799236226855
         }
       },
       {
@@ -2772,7 +2722,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.414623612743056
+          "age_days": 5.750696590289352
         }
       },
       {
@@ -2803,7 +2753,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.441243983113426
+          "age_days": 5.777316960659722
         }
       },
       {
@@ -2839,7 +2789,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.4639175942245375
+          "age_days": 5.7999905717708335
         }
       },
       {
@@ -2875,7 +2825,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.4803180571875
+          "age_days": 5.816391034733797
         }
       },
       {
@@ -2906,7 +2856,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.5206305571875
+          "age_days": 5.856703534733796
         }
       },
       {
@@ -2949,7 +2899,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 5.526602779409722
+          "age_days": 5.862675756956019
         }
       },
       {
@@ -2986,7 +2936,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.529461575706018
+          "age_days": 5.865534553252315
         }
       },
       {
@@ -3020,7 +2970,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.595781020150463
+          "age_days": 5.931853997696759
         }
       },
       {
@@ -3051,7 +3001,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.626058797928241
+          "age_days": 5.962131775474537
         }
       },
       {
@@ -3082,7 +3032,7 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.626220834965278
+          "age_days": 5.962293812511574
         }
       },
       {
@@ -3117,7 +3067,7 @@
             "why": "805 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.1668342608912035
+          "age_days": 6.5029072384374995
         }
       },
       {
@@ -3152,7 +3102,7 @@
             "why": "58372 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.238709260891204
+          "age_days": 6.5747822384375
         }
       },
       {
@@ -3183,7 +3133,7 @@
             "why": "3909 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.390190742372686
+          "age_days": 6.726263719918981
         }
       },
       {
@@ -3214,7 +3164,7 @@
             "why": "6078 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.405549538668981
+          "age_days": 6.741622516215277
         }
       },
       {
@@ -3245,80 +3195,43 @@
             "why": "17860 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.423153705335649
-        }
-      },
-      {
-        "event_id": "cat_665b9552c1f8a2",
-        "title": "FDA Rare Disease Innovation Hub",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-03T10:47:08-05:00",
-        "url": "http://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/fda-rare-disease-innovation-hub",
-        "category": "regulatory",
-        "body_chars": 1953,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals",
-            "medical devices"
-          ],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA describes its Rare Disease Innovation Hub, a cross-center collaboration among CBER, CDER, and CDRH that focuses on rare disease products, and notes the Hub released a Strategic Agenda on February 2, 2026. The page is primarily descriptive and provides program resources and contact information.",
-          "companies": []
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "1953 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.50869768681713
+          "age_days": 6.759226682881944
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 1,
-      "archive": 21
+      "archive": 20
     },
     "duplicates_collapsed": 2,
     "headline_only_promoted": 0,
     "primary_source_backed": 1,
     "archive_reasons": {
-      "no verified public company behind it": 21
+      "no verified public company behind it": 20
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-10T03:55:23.050029+00:00",
-      "display": "Nov 09, 10:55 PM EST",
+      "at": "2026-11-10T11:59:11.296526+00:00",
+      "display": "Nov 10, 6:59 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07123079583333333
+      "age_hours": 0.0735804775
     },
     "last_success": {
-      "at": "2026-11-09T21:13:58.825978+00:00",
-      "display": "Nov 09, 4:13 PM EST",
+      "at": "2026-11-10T03:55:23.050029+00:00",
+      "display": "Nov 09, 10:55 PM EST",
       "trigger": "github-actions",
-      "age_hours": 6.761293032222222,
+      "age_hours": 8.136982282222222,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.8,
-    "stale_message": "No successful ingestion in 6.8h - 0.8h past the expected 6h schedule",
+    "overdue_hours": 2.1,
+    "stale_message": "No successful ingestion in 8.1h - 2.1h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3330,10 +3243,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-10T03:58:42.475158+00:00",
-      "as_of": "2026-11-10T03:58:42.475158+00:00",
-      "as_of_display": "Nov 09, 10:58 PM EST",
-      "attempted_display": "Nov 09, 10:58 PM EST",
+      "attempted": "2026-11-10T12:02:35.245186+00:00",
+      "as_of": "2026-11-10T12:02:35.245186+00:00",
+      "as_of_display": "Nov 10, 7:02 AM EST",
+      "attempted_display": "Nov 10, 7:02 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3344,12 +3257,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-10T03:55:23.050029+00:00",
-        "display": "Mon 10:55 PM EST",
+        "started": "2026-11-10T11:59:11.296526+00:00",
+        "display": "Tue 6:59 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-10T03:55:23.050029+00:00",
+        "display": "Mon 10:55 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-09T21:13:58.825978+00:00",
@@ -3394,14 +3315,6 @@
       {
         "started": "2026-11-08T13:59:48.150656+00:00",
         "display": "Sun 8:59 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-08T06:51:27.170898+00:00",
-        "display": "Sun 1:51 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
