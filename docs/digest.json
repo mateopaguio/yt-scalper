@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:17:21.579110+00:00",
+  "generated_at": "2026-11-10T03:58:42.406375+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -622,35 +622,6 @@
         "companies": []
       },
       "_state": "seen"
-    },
-    {
-      "event_id": "cat_0ab97d54d50c01",
-      "title": "Early Alert: Compact Medical Removes and Updates Use Instructions for ButterflyBVM Bag-Valve-Mask Resuscitators",
-      "source": "FDA MedWatch Safety Alerts",
-      "published": "2026-11-03T00:00:00-05:00",
-      "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask",
-      "category": "regulatory",
-      "body_chars": 6831,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "recall_safety",
-        "summary": "FDA issued an Early Alert on an Urgent Medical Device Recall by Compact Medical of certain ButterflyBVM bag-valve-mask resuscitator lots. Lots 000109-000117 are to be removed from use and distribution, and lots 000081-000108 (ButterflyBVM, READY, PLUS, and standard models) are subject to a pre-use test and correction, due to possible holes in the bellows that can cause inadequate ventilation. As of November 2, 2026, no serious injuries or deaths had been reported.",
-        "companies": [
-          {
-            "company": "Compact Medical",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 3,
-        "affected_sectors": [
-          "medical devices",
-          "emergency medical equipment"
-        ]
-      },
-      "_state": "seen"
     }
   ],
   "ledger": {},
@@ -697,7 +668,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-09T21:17:21.687294+00:00",
+    "last_run": "2026-11-10T03:58:42.475158+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 93."
   },
@@ -1326,41 +1297,12 @@
           "companies": []
         },
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_0ab97d54d50c01",
-        "title": "Early Alert: Compact Medical Removes and Updates Use Instructions for ButterflyBVM Bag-Valve-Mask Resuscitators",
-        "source": "FDA MedWatch Safety Alerts",
-        "published": "2026-11-03T00:00:00-05:00",
-        "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask",
-        "category": "regulatory",
-        "body_chars": 6831,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "recall_safety",
-          "summary": "FDA issued an Early Alert on an Urgent Medical Device Recall by Compact Medical of certain ButterflyBVM bag-valve-mask resuscitator lots. Lots 000109-000117 are to be removed from use and distribution, and lots 000081-000108 (ButterflyBVM, READY, PLUS, and standard models) are subject to a pre-use test and correction, due to possible holes in the bellows that can cause inadequate ventilation. As of November 2, 2026, no serious injuries or deaths had been reported.",
-          "companies": [
-            {
-              "company": "Compact Medical",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 3,
-          "affected_sectors": [
-            "medical devices",
-            "emergency medical equipment"
-          ]
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
       "updated": 1,
-      "unchanged": 24
+      "unchanged": 23
     },
     "known_events": 135,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -1417,8 +1359,8 @@
         "sufficient_data": true,
         "confident": false,
         "hit_rate_vs_spy": 76.9,
-        "edge_mean_pct": 1.851,
-        "edge_median_pct": 4.937
+        "edge_mean_pct": 1.852,
+        "edge_median_pct": 4.947
       },
       {
         "channel": "Yahoo Finance",
@@ -1430,7 +1372,7 @@
         "sufficient_data": true,
         "confident": true,
         "hit_rate_vs_spy": 63.2,
-        "edge_mean_pct": 1.268,
+        "edge_mean_pct": 1.267,
         "edge_median_pct": 2.609
       },
       {
@@ -1443,7 +1385,7 @@
         "sufficient_data": true,
         "confident": false,
         "hit_rate_vs_spy": 40.9,
-        "edge_mean_pct": 1.027,
+        "edge_mean_pct": 1.026,
         "edge_median_pct": -0.278
       },
       {
@@ -1456,7 +1398,7 @@
         "sufficient_data": true,
         "confident": true,
         "hit_rate_vs_spy": 62.3,
-        "edge_mean_pct": 0.605,
+        "edge_mean_pct": 0.604,
         "edge_median_pct": 4.512
       },
       {
@@ -2059,8 +2001,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 304,
-      "stale": 163,
+      "unresolved": 276,
+      "stale": 191,
       "unpriceable": 6,
       "failed": 0
     },
@@ -2237,49 +2179,19 @@
       ],
       "unresolved": [
         {
-          "ticker": "NOW",
+          "ticker": "INTC",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "TMO",
+          "ticker": "SNDK",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "WAT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "VKTX",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "CRM",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "NOW",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "IWM",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "IOVA",
+          "ticker": "RDDT",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -2291,19 +2203,49 @@
           "age_days": 10
         },
         {
-          "ticker": "MRVL",
+          "ticker": "SNDK",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "FTNT",
+          "ticker": "NOW",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "RSP",
+          "ticker": "INTC",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "MRNA",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "PLTR",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "LIFE",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "DDOG",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "GRAL",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -2406,19 +2348,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 9
+          "age_days": 10
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 9
+          "age_days": 10
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 9
+          "age_days": 10
         }
       ],
       "failed": []
@@ -2547,8 +2489,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 304,
-        "stale": 163,
+        "unresolved": 276,
+        "stale": 191,
         "unpriceable": 6,
         "failed": 0
       },
@@ -2618,7 +2560,7 @@
             "why": "6631 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.085727449120371
+          "age_days": 5.3643921312615745
         }
       }
     ],
@@ -2655,7 +2597,7 @@
             "why": "5831 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.037625597268518
+          "age_days": 5.316290279409722
         }
       },
       {
@@ -2693,7 +2635,7 @@
             "why": "4240 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.04561170837963
+          "age_days": 5.324276390520834
         }
       },
       {
@@ -2732,7 +2674,7 @@
             "why": "24045 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.046120967638889
+          "age_days": 5.324785649780092
         }
       },
       {
@@ -2763,7 +2705,7 @@
             "why": "2566 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.122417263935185
+          "age_days": 5.401081946076389
         }
       },
       {
@@ -2794,7 +2736,7 @@
             "why": "3932 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.1280422639351855
+          "age_days": 5.406706946076389
         }
       },
       {
@@ -2830,7 +2772,7 @@
             "why": "5936 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.135958930601852
+          "age_days": 5.414623612743056
         }
       },
       {
@@ -2861,7 +2803,7 @@
             "why": "1796 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.162579300972222
+          "age_days": 5.441243983113426
         }
       },
       {
@@ -2897,7 +2839,7 @@
             "why": "2303 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.1852529120833335
+          "age_days": 5.4639175942245375
         }
       },
       {
@@ -2933,7 +2875,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.2016533750462965
+          "age_days": 5.4803180571875
         }
       },
       {
@@ -2964,7 +2906,7 @@
             "why": "109743 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.241965875046296
+          "age_days": 5.5206305571875
         }
       },
       {
@@ -3007,7 +2949,7 @@
             "why": "26599 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 5.247938097268519
+          "age_days": 5.526602779409722
         }
       },
       {
@@ -3044,7 +2986,7 @@
             "why": "1985 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.250796893564815
+          "age_days": 5.529461575706018
         }
       },
       {
@@ -3078,7 +3020,7 @@
             "why": "16256 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.317116338009259
+          "age_days": 5.595781020150463
         }
       },
       {
@@ -3109,7 +3051,7 @@
             "why": "2574 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.347394115787037
+          "age_days": 5.626058797928241
         }
       },
       {
@@ -3140,7 +3082,7 @@
             "why": "6377 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.347556152824074
+          "age_days": 5.626220834965278
         }
       },
       {
@@ -3175,7 +3117,7 @@
             "why": "805 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.88816957875
+          "age_days": 6.1668342608912035
         }
       },
       {
@@ -3210,7 +3152,7 @@
             "why": "58372 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.960044578750001
+          "age_days": 6.238709260891204
         }
       },
       {
@@ -3241,7 +3183,7 @@
             "why": "3909 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.111526060231481
+          "age_days": 6.390190742372686
         }
       },
       {
@@ -3272,7 +3214,7 @@
             "why": "6078 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.126884856527777
+          "age_days": 6.405549538668981
         }
       },
       {
@@ -3303,7 +3245,7 @@
             "why": "17860 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.144489023194444
+          "age_days": 6.423153705335649
         }
       },
       {
@@ -3340,84 +3282,43 @@
             "why": "1953 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.230033004675925
-        }
-      },
-      {
-        "event_id": "cat_0ab97d54d50c01",
-        "title": "Early Alert: Compact Medical Removes and Updates Use Instructions for ButterflyBVM Bag-Valve-Mask Resuscitators",
-        "source": "FDA MedWatch Safety Alerts",
-        "published": "2026-11-03T00:00:00-05:00",
-        "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask",
-        "category": "regulatory",
-        "body_chars": 6831,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "recall_safety",
-          "summary": "FDA issued an Early Alert on an Urgent Medical Device Recall by Compact Medical of certain ButterflyBVM bag-valve-mask resuscitator lots. Lots 000109-000117 are to be removed from use and distribution, and lots 000081-000108 (ButterflyBVM, READY, PLUS, and standard models) are subject to a pre-use test and correction, due to possible holes in the bellows that can cause inadequate ventilation. As of November 2, 2026, no serious injuries or deaths had been reported.",
-          "companies": [
-            {
-              "company": "Compact Medical",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 3,
-          "affected_sectors": [
-            "medical devices",
-            "emergency medical equipment"
-          ]
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "6831 characters of announcement text"
-          },
-          "materiality": 3,
-          "age_days": 6.6794311528240735
+          "age_days": 6.50869768681713
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 1,
-      "archive": 22
+      "archive": 21
     },
     "duplicates_collapsed": 2,
     "headline_only_promoted": 0,
     "primary_source_backed": 1,
     "archive_reasons": {
-      "no verified public company behind it": 22
+      "no verified public company behind it": 21
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-09T21:13:58.825978+00:00",
-      "display": "Nov 09, 4:13 PM EST",
+      "at": "2026-11-10T03:55:23.050029+00:00",
+      "display": "Nov 09, 10:55 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07334067555555555
+      "age_hours": 0.07123079583333333
     },
     "last_success": {
-      "at": "2026-11-09T10:43:33.094209+00:00",
-      "display": "Nov 09, 5:43 AM EST",
+      "at": "2026-11-09T21:13:58.825978+00:00",
+      "display": "Nov 09, 4:13 PM EST",
       "trigger": "github-actions",
-      "age_hours": 10.580488389166666,
+      "age_hours": 6.761293032222222,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 4.6,
-    "stale_message": "No successful ingestion in 10.6h - 4.6h past the expected 6h schedule",
+    "overdue_hours": 0.8,
+    "stale_message": "No successful ingestion in 6.8h - 0.8h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3429,10 +3330,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-09T21:17:21.687294+00:00",
-      "as_of": "2026-11-09T21:17:21.687294+00:00",
-      "as_of_display": "Nov 09, 4:17 PM EST",
-      "attempted_display": "Nov 09, 4:17 PM EST",
+      "attempted": "2026-11-10T03:58:42.475158+00:00",
+      "as_of": "2026-11-10T03:58:42.475158+00:00",
+      "as_of_display": "Nov 09, 10:58 PM EST",
+      "attempted_display": "Nov 09, 10:58 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3443,12 +3344,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-09T21:13:58.825978+00:00",
-        "display": "Mon 4:13 PM EST",
+        "started": "2026-11-10T03:55:23.050029+00:00",
+        "display": "Mon 10:55 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-09T21:13:58.825978+00:00",
+        "display": "Mon 4:13 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-09T10:43:33.094209+00:00",
@@ -3493,14 +3402,6 @@
       {
         "started": "2026-11-08T06:51:27.170898+00:00",
         "display": "Sun 1:51 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-08T00:07:15.703565+00:00",
-        "display": "Sat 7:07 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
