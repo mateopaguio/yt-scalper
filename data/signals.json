@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-11T15:48:04.179279+00:00",
- "outcomes_last_run": "2026-11-11T15:48:04.281652+00:00",
+ "last_run": "2026-11-11T22:27:21.586972+00:00",
+ "outcomes_last_run": "2026-11-11T22:27:21.687086+00:00",
  "signals": [
   {
    "basis_counts": {
@@ -76,7 +76,7 @@
    "last_seen": "2026-10-26T15:14:54.805934+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 630.56,
     "entry_date": "2026-10-26",
@@ -398,7 +398,7 @@
    "last_seen": "2026-10-30T13:26:16.791768+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 216.0,
     "entry_date": "2026-10-26",
@@ -729,7 +729,7 @@
    "last_seen": "2026-10-27T08:11:59.020461+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 391.62,
     "entry_date": "2026-10-26",
@@ -1019,7 +1019,7 @@
    "last_seen": "2026-10-28T08:28:03.628259+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 55.19,
     "entry_date": "2026-10-26",
@@ -1217,7 +1217,7 @@
    "last_seen": "2026-10-29T01:22:27.353757+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 343.91,
     "entry_date": "2026-10-26",
@@ -1480,7 +1480,7 @@
    "last_seen": "2026-10-30T07:16:20.939604+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 237.5,
     "entry_date": "2026-10-26",
@@ -1667,7 +1667,7 @@
    "last_seen": "2026-10-29T09:27:52.230264+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 63.9,
     "entry_date": "2026-10-26",
@@ -1852,11 +1852,11 @@
    "last_seen": "2026-10-27T01:15:05.688902+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 532.6,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -6.0,
+    "max_drawdown_pct": -6.24,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -2036,7 +2036,7 @@
    "last_seen": "2026-10-30T07:16:20.939801+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 253.44,
     "entry_date": "2026-10-26",
@@ -2207,7 +2207,7 @@
    "last_seen": "2026-10-26T15:14:54.806012+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
@@ -2378,7 +2378,7 @@
    "last_seen": "2026-10-29T01:22:27.353776+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 531.28,
     "entry_date": "2026-10-26",
@@ -2551,7 +2551,7 @@
    "last_seen": "2026-10-28T17:08:58.531127+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 316.8,
     "entry_date": "2026-10-26",
@@ -2720,7 +2720,7 @@
    "last_seen": "2026-10-29T01:22:27.353851+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 20.85,
     "entry_date": "2026-10-26",
@@ -2907,7 +2907,7 @@
    "last_seen": "2026-10-29T01:22:27.353867+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 146.93,
     "entry_date": "2026-10-26",
@@ -3095,7 +3095,7 @@
    "last_seen": "2026-10-29T01:22:27.353890+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 356.13,
     "entry_date": "2026-10-26",
@@ -3278,11 +3278,11 @@
    "last_seen": "2026-10-29T01:22:27.353902+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 315.05,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -3.9,
+    "max_drawdown_pct": -3.49,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3448,7 +3448,7 @@
    "last_seen": "2026-10-29T01:22:27.353913+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 203.92,
     "entry_date": "2026-10-26",
@@ -3604,11 +3604,11 @@
    "last_seen": "2026-10-29T09:27:52.230349+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 66.13,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -2.71,
+    "max_drawdown_pct": -1.83,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -3765,7 +3765,7 @@
    "last_seen": "2026-10-29T01:22:27.353946+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 15.25,
     "entry_date": "2026-10-26",
@@ -3922,7 +3922,7 @@
    "last_seen": "2026-10-28T08:28:03.628403+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 92.84,
     "entry_date": "2026-10-26",
@@ -4079,7 +4079,7 @@
    "last_seen": "2026-10-26T22:26:42.878901+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
@@ -4235,7 +4235,7 @@
    "last_seen": "2026-10-27T01:15:05.689041+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 232.01,
     "entry_date": "2026-10-26",
@@ -4397,7 +4397,7 @@
    "last_seen": "2026-10-29T01:22:27.353840+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 126.06,
     "entry_date": "2026-10-26",
@@ -4553,7 +4553,7 @@
    "last_seen": "2026-10-26T15:14:54.806040+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
@@ -4714,7 +4714,7 @@
    "last_seen": "2026-10-27T01:15:05.689001+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 184.54,
     "entry_date": "2026-10-26",
@@ -4870,7 +4870,7 @@
    "last_seen": "2026-10-26T22:26:42.878988+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
@@ -5026,7 +5026,7 @@
    "last_seen": "2026-10-29T01:22:27.354058+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 644.21,
     "entry_date": "2026-10-26",
@@ -5182,7 +5182,7 @@
    "last_seen": "2026-10-29T21:17:00.821214+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 102.69,
     "entry_date": "2026-10-26",
@@ -5325,7 +5325,7 @@
    "last_seen": "2026-10-29T18:27:48.631487+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 1279.14,
     "entry_date": "2026-10-26",
@@ -5468,7 +5468,7 @@
    "last_seen": "2026-10-31T22:18:21.049848+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 92.7,
     "entry_date": "2026-10-26",
@@ -5611,7 +5611,7 @@
    "last_seen": "2026-10-29T01:22:27.353922+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 149.21,
     "entry_date": "2026-10-26",
@@ -5754,7 +5754,7 @@
    "last_seen": "2026-10-29T21:17:00.821295+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 692.13,
     "entry_date": "2026-10-26",
@@ -5897,11 +5897,11 @@
    "last_seen": "2026-10-31T22:18:21.049863+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 404.16,
     "entry_date": "2026-10-26",
-    "max_drawdown_pct": -3.45,
+    "max_drawdown_pct": -3.3,
     "relative": {
      "1": {
       "qqq_pct": 1.271,
@@ -6040,7 +6040,7 @@
    "last_seen": "2026-10-31T22:18:21.049881+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 450.65,
     "entry_date": "2026-10-26",
@@ -6183,7 +6183,7 @@
    "last_seen": "2026-10-31T22:18:21.049895+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 301.12,
     "entry_date": "2026-10-26",
@@ -6326,7 +6326,7 @@
    "last_seen": "2026-10-26T18:45:21.900436+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
@@ -6469,7 +6469,7 @@
    "last_seen": "2026-10-31T22:18:21.049914+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 330.0,
     "entry_date": "2026-10-26",
@@ -6612,7 +6612,7 @@
    "last_seen": "2026-10-31T22:18:21.049929+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 55.63,
     "entry_date": "2026-10-26",
@@ -6755,7 +6755,7 @@
    "last_seen": "2026-10-29T09:27:52.230389+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 8.64,
     "entry_date": "2026-10-26",
@@ -6893,7 +6893,7 @@
    "last_seen": "2026-11-01T15:42:23.973338+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 8.24,
     "entry_date": "2026-10-26",
@@ -13227,7 +13227,7 @@
    "last_seen": "2026-10-31T14:11:58.092708+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 630.56,
     "entry_date": "2026-10-26",
@@ -13558,7 +13558,7 @@
    "last_seen": "2026-10-26T18:45:21.900378+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
@@ -13743,7 +13743,7 @@
    "last_seen": "2026-10-29T01:22:27.353810+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 43.1,
     "entry_date": "2026-10-26",
@@ -14235,7 +14235,7 @@
    "last_seen": "2026-10-28T08:28:03.628295+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 153.27,
     "entry_date": "2026-10-26",
@@ -14432,7 +14432,7 @@
    "last_seen": "2026-10-28T18:20:39.589332+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 199.78,
     "entry_date": "2026-10-26",
@@ -14707,7 +14707,7 @@
    "last_seen": "2026-10-27T01:15:05.688963+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 249.09,
     "entry_date": "2026-10-26",
@@ -14993,7 +14993,7 @@
    "last_seen": "2026-10-29T01:22:27.354046+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 12,
     "entry_close": 203.35,
     "entry_date": "2026-10-26",
@@ -15270,11 +15270,11 @@
    "last_seen": "2026-10-28T08:28:03.628317+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 11,
     "entry_close": 531.33,
     "entry_date": "2026-10-27",
-    "max_drawdown_pct": -6.0,
+    "max_drawdown_pct": -6.24,
     "relative": {
      "1": {
       "qqq_pct": 0.605,
@@ -15469,7 +15469,7 @@
    "last_seen": "2026-10-28T08:28:03.628337+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 11,
     "entry_close": 253.1,
     "entry_date": "2026-10-27",
@@ -15784,7 +15784,7 @@
    "last_seen": "2026-10-29T01:22:27.353878+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 11,
     "entry_close": 179.91,
     "entry_date": "2026-10-27",
@@ -16074,7 +16074,7 @@
    "last_seen": "2026-10-29T01:22:27.354018+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 11,
     "entry_close": 228.23,
     "entry_date": "2026-10-27",
@@ -17686,7 +17686,7 @@
    "last_seen": "2026-10-29T01:22:27.353668+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 11,
     "entry_close": 407.46,
     "entry_date": "2026-10-27",
@@ -19130,7 +19130,7 @@
    "last_seen": "2026-10-29T01:22:27.353693+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 63.93,
     "entry_date": "2026-10-28",
@@ -19370,7 +19370,7 @@
    "last_seen": "2026-10-29T01:22:27.353711+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 182.34,
     "entry_date": "2026-10-28",
@@ -19584,11 +19584,11 @@
    "last_seen": "2026-10-29T01:22:27.353622+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 531.01,
     "entry_date": "2026-10-28",
-    "max_drawdown_pct": -6.0,
+    "max_drawdown_pct": -6.24,
     "relative": {
      "1": {
       "qqq_pct": -1.415,
@@ -19797,7 +19797,7 @@
    "last_seen": "2026-10-29T12:40:30.563428+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 254.6,
     "entry_date": "2026-10-28",
@@ -19994,7 +19994,7 @@
    "last_seen": "2026-10-29T01:22:27.353826+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 91.43,
     "entry_date": "2026-10-28",
@@ -21320,7 +21320,7 @@
    "last_seen": "2026-10-28T18:20:39.589306+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 324.89,
     "entry_date": "2026-10-28",
@@ -21506,7 +21506,7 @@
    "last_seen": "2026-10-29T01:22:27.353733+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 324.89,
     "entry_date": "2026-10-28",
@@ -21704,7 +21704,7 @@
    "last_seen": "2026-10-31T22:18:21.049510+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 10,
     "entry_close": 242.94,
     "entry_date": "2026-10-28",
@@ -22302,11 +22302,11 @@
    "last_seen": "2026-10-30T00:03:48.671312+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 530.14,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -6.0,
+    "max_drawdown_pct": -6.24,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -22569,7 +22569,7 @@
    "last_seen": "2026-10-31T14:11:58.092792+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 403.3,
     "entry_date": "2026-10-29",
@@ -22875,7 +22875,7 @@
    "last_seen": "2026-10-31T01:21:40.139748+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 60.74,
     "entry_date": "2026-10-29",
@@ -23129,7 +23129,7 @@
    "last_seen": "2026-10-30T21:21:08.459089+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 171.99,
     "entry_date": "2026-10-29",
@@ -23356,7 +23356,7 @@
    "last_seen": "2026-10-29T12:40:30.563361+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 283.82,
     "entry_date": "2026-10-29",
@@ -23581,7 +23581,7 @@
    "last_seen": "2026-10-30T13:26:16.791892+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 348.91,
     "entry_date": "2026-10-29",
@@ -23858,7 +23858,7 @@
    "last_seen": "2026-10-30T00:03:48.671429+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 566.42,
     "entry_date": "2026-10-29",
@@ -24173,7 +24173,7 @@
    "last_seen": "2026-10-30T16:28:09.342894+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 43.66,
     "entry_date": "2026-10-29",
@@ -24373,7 +24373,7 @@
    "last_seen": "2026-10-29T12:40:30.563454+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 91.59,
     "entry_date": "2026-10-29",
@@ -24558,7 +24558,7 @@
    "last_seen": "2026-10-30T00:03:48.671410+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 139.56,
     "entry_date": "2026-10-29",
@@ -24723,7 +24723,7 @@
    "last_seen": "2026-10-30T16:28:09.343060+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 20.92,
     "entry_date": "2026-10-29",
@@ -24911,7 +24911,7 @@
    "last_seen": "2026-10-29T12:40:30.563473+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 147.29,
     "entry_date": "2026-10-29",
@@ -25101,7 +25101,7 @@
    "last_seen": "2026-10-30T21:21:08.459322+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 183.29,
     "entry_date": "2026-10-29",
@@ -25272,7 +25272,7 @@
    "last_seen": "2026-10-30T13:24:21.672592+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 395.41,
     "entry_date": "2026-10-29",
@@ -25451,11 +25451,11 @@
    "last_seen": "2026-10-30T13:26:16.791978+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 323.71,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -3.9,
+    "max_drawdown_pct": -3.49,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -25622,7 +25622,7 @@
    "last_seen": "2026-10-30T13:24:21.672683+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 222.3,
     "entry_date": "2026-10-29",
@@ -25779,7 +25779,7 @@
    "last_seen": "2026-10-31T22:18:21.049629+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 167.43,
     "entry_date": "2026-10-29",
@@ -26057,7 +26057,7 @@
    "last_seen": "2026-10-30T16:28:09.343335+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 18.22,
     "entry_date": "2026-10-29",
@@ -26798,7 +26798,7 @@
    "last_seen": "2026-10-30T21:21:08.459830+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 231.46,
     "entry_date": "2026-10-29",
@@ -27207,7 +27207,7 @@
    "last_seen": "2026-10-31T01:21:40.140260+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 193.39,
     "entry_date": "2026-10-29",
@@ -27372,7 +27372,7 @@
    "last_seen": "2026-10-30T16:28:09.343076+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 700.47,
     "entry_date": "2026-10-29",
@@ -30703,7 +30703,7 @@
    "last_seen": "2026-10-30T21:21:08.459375+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 62.05,
     "entry_date": "2026-10-29",
@@ -31148,11 +31148,11 @@
    "last_seen": "2026-10-31T22:18:21.049564+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 65.74,
     "entry_date": "2026-10-29",
-    "max_drawdown_pct": -2.71,
+    "max_drawdown_pct": -1.83,
     "relative": {
      "1": {
       "qqq_pct": -3.474,
@@ -31437,7 +31437,7 @@
    "last_seen": "2026-10-31T22:18:21.049613+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 9.31,
     "entry_date": "2026-10-29",
@@ -32284,7 +32284,7 @@
    "last_seen": "2026-10-30T21:21:08.458995+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 283.82,
     "entry_date": "2026-10-29",
@@ -32552,7 +32552,7 @@
    "last_seen": "2026-10-29T18:27:48.631406+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 243.79,
     "entry_date": "2026-10-29",
@@ -32764,7 +32764,7 @@
    "last_seen": "2026-10-31T22:18:21.049442+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 91.59,
     "entry_date": "2026-10-29",
@@ -32961,7 +32961,7 @@
    "last_seen": "2026-10-30T16:28:09.342945+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 147.29,
     "entry_date": "2026-10-29",
@@ -33367,7 +33367,7 @@
    "last_seen": "2026-10-31T22:18:21.049256+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 243.79,
     "entry_date": "2026-10-29",
@@ -33590,7 +33590,7 @@
    "last_seen": "2026-10-29T22:18:45.468554+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 1373.7,
     "entry_date": "2026-10-29",
@@ -34013,7 +34013,7 @@
    "last_seen": "2026-10-30T04:17:54.749476+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 105.51,
     "entry_date": "2026-10-29",
@@ -34416,7 +34416,7 @@
    "last_seen": "2026-10-31T22:18:21.049660+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 647.39,
     "entry_date": "2026-10-29",
@@ -34820,7 +34820,7 @@
    "last_seen": "2026-10-30T00:03:48.671452+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 9,
     "entry_close": 1373.7,
     "entry_date": "2026-10-29",
@@ -35446,11 +35446,11 @@
    "last_seen": "2026-11-05T18:29:22.461644+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 521.91,
     "entry_date": "2026-10-30",
-    "max_drawdown_pct": -6.0,
+    "max_drawdown_pct": -6.24,
     "relative": {
      "1": {
       "qqq_pct": -1.361,
@@ -35991,7 +35991,7 @@
    "last_seen": "2026-10-30T21:21:08.459210+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 130.67,
     "entry_date": "2026-10-30",
@@ -36204,7 +36204,7 @@
    "last_seen": "2026-10-30T07:16:20.939463+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
@@ -36403,7 +36403,7 @@
    "last_seen": "2026-10-30T07:16:20.939517+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 1417.54,
     "entry_date": "2026-10-30",
@@ -39104,7 +39104,7 @@
    "last_seen": "2026-10-31T22:18:21.049421+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 103.67,
     "entry_date": "2026-10-30",
@@ -39708,7 +39708,7 @@
    "last_seen": "2026-10-30T13:26:16.791877+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
@@ -39921,7 +39921,7 @@
    "last_seen": "2026-10-31T22:18:21.049348+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 1417.54,
     "entry_date": "2026-10-30",
@@ -40262,7 +40262,7 @@
    "last_seen": "2026-10-31T01:21:40.139998+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 239.11,
     "entry_date": "2026-10-30",
@@ -40416,7 +40416,7 @@
    "last_seen": "2026-10-30T09:28:29.651820+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 257.81,
     "entry_date": "2026-10-30",
@@ -40560,7 +40560,7 @@
    "last_seen": "2026-10-30T21:21:08.459501+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 366.11,
     "entry_date": "2026-10-30",
@@ -40725,7 +40725,7 @@
    "last_seen": "2026-10-30T16:28:09.343163+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 203.17,
     "entry_date": "2026-10-30",
@@ -40878,7 +40878,7 @@
    "last_seen": "2026-10-31T14:11:58.092645+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 204.64,
     "entry_date": "2026-10-30",
@@ -41685,7 +41685,7 @@
    "last_seen": "2026-10-30T21:21:08.459137+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
@@ -41924,7 +41924,7 @@
    "last_seen": "2026-10-30T21:21:08.459185+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 344.63,
     "entry_date": "2026-10-30",
@@ -43702,7 +43702,7 @@
    "last_seen": "2026-11-02T00:08:38.132908+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 44.73,
     "entry_date": "2026-10-30",
@@ -43872,7 +43872,7 @@
    "last_seen": "2026-10-30T21:21:08.459423+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 156.44,
     "entry_date": "2026-10-30",
@@ -44274,7 +44274,7 @@
    "last_seen": "2026-10-30T16:28:09.343338+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 17.57,
     "entry_date": "2026-10-30",
@@ -44423,7 +44423,7 @@
    "last_seen": "2026-10-31T22:18:21.049210+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 279.84,
     "entry_date": "2026-10-30",
@@ -44797,7 +44797,7 @@
    "last_seen": "2026-10-31T22:18:21.049326+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 154.14,
     "entry_date": "2026-10-30",
@@ -45010,7 +45010,7 @@
    "last_seen": "2026-10-31T22:18:21.049373+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 504.8,
     "entry_date": "2026-10-30",
@@ -45235,7 +45235,7 @@
    "last_seen": "2026-10-31T01:21:40.139831+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 344.63,
     "entry_date": "2026-10-30",
@@ -45421,7 +45421,7 @@
    "last_seen": "2026-11-04T01:50:14.156516+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 130.67,
     "entry_date": "2026-10-30",
@@ -45721,7 +45721,7 @@
    "last_seen": "2026-10-31T22:18:21.049728+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 187.25,
     "entry_date": "2026-10-30",
@@ -46021,7 +46021,7 @@
    "last_seen": "2026-10-31T22:18:21.049749+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 62.08,
     "entry_date": "2026-10-30",
@@ -46191,7 +46191,7 @@
    "last_seen": "2026-11-05T03:03:43.351030+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 156.44,
     "entry_date": "2026-10-30",
@@ -46335,7 +46335,7 @@
    "last_seen": "2026-10-31T22:18:21.049944+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 366.11,
     "entry_date": "2026-10-30",
@@ -46696,7 +46696,7 @@
    "last_seen": "2026-11-02T00:08:38.133752+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 8,
     "entry_close": 235.52,
     "entry_date": "2026-10-30",
@@ -46847,7 +46847,7 @@
    "last_seen": "2026-10-31T22:18:21.049295+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 50.15,
     "entry_date": "2026-11-02",
@@ -46863,11 +46863,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 18.76,
-      "spy_pct": 0.686,
-      "vs_qqq": 17.537,
-      "vs_spy": 18.074
+      "qqq_pct": 1.364,
+      "raw_pct": 21.18,
+      "spy_pct": 1.025,
+      "vs_qqq": 19.816,
+      "vs_spy": 20.155
      },
      "90": null
     },
@@ -46880,9 +46880,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 59.56,
+      "close": 60.77,
       "date": "2026-11-11",
-      "return_pct": 18.76
+      "return_pct": 21.18
      },
      "90": null
     },
@@ -47098,7 +47098,7 @@
    "last_seen": "2026-10-31T14:11:58.092817+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 338.32,
     "entry_date": "2026-11-02",
@@ -47114,11 +47114,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.4,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.177,
-      "vs_spy": 3.714
+      "qqq_pct": 1.364,
+      "raw_pct": 5.12,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.756,
+      "vs_spy": 4.095
      },
      "90": null
     },
@@ -47131,9 +47131,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 353.22,
+      "close": 355.63,
       "date": "2026-11-11",
-      "return_pct": 4.4
+      "return_pct": 5.12
      },
      "90": null
     },
@@ -47281,7 +47281,7 @@
    "last_seen": "2026-11-02T00:08:38.133293+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 227.56,
     "entry_date": "2026-11-02",
@@ -47297,11 +47297,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.19,
-      "spy_pct": 0.686,
-      "vs_qqq": 2.967,
-      "vs_spy": 3.504
+      "qqq_pct": 1.364,
+      "raw_pct": 3.66,
+      "spy_pct": 1.025,
+      "vs_qqq": 2.296,
+      "vs_spy": 2.635
      },
      "90": null
     },
@@ -47314,9 +47314,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 237.095,
+      "close": 235.88,
       "date": "2026-11-11",
-      "return_pct": 4.19
+      "return_pct": 3.66
      },
      "90": null
     },
@@ -47821,7 +47821,7 @@
    "last_seen": "2026-11-02T00:08:38.133569+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 192.1,
     "entry_date": "2026-11-02",
@@ -47837,11 +47837,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 21.52,
-      "spy_pct": 0.686,
-      "vs_qqq": 20.297,
-      "vs_spy": 20.834
+      "qqq_pct": 1.364,
+      "raw_pct": 20.41,
+      "spy_pct": 1.025,
+      "vs_qqq": 19.046,
+      "vs_spy": 19.385
      },
      "90": null
     },
@@ -47854,9 +47854,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 233.435,
+      "close": 231.31,
       "date": "2026-11-11",
-      "return_pct": 21.52
+      "return_pct": 20.41
      },
      "90": null
     },
@@ -48273,7 +48273,7 @@
    "last_seen": "2026-10-31T22:18:21.049009+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 202.06,
     "entry_date": "2026-11-02",
@@ -48289,11 +48289,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -13.67,
-      "spy_pct": 0.686,
-      "vs_qqq": -14.893,
-      "vs_spy": -14.356
+      "qqq_pct": 1.364,
+      "raw_pct": -14.02,
+      "spy_pct": 1.025,
+      "vs_qqq": -15.384,
+      "vs_spy": -15.045
      },
      "90": null
     },
@@ -48306,9 +48306,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 174.44,
+      "close": 173.73,
       "date": "2026-11-11",
-      "return_pct": -13.67
+      "return_pct": -14.02
      },
      "90": null
     },
@@ -48552,7 +48552,7 @@
    "last_seen": "2026-10-31T22:18:21.049099+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 606.73,
     "entry_date": "2026-11-02",
@@ -48568,11 +48568,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 5.04,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.817,
-      "vs_spy": 4.354
+      "qqq_pct": 1.364,
+      "raw_pct": 3.63,
+      "spy_pct": 1.025,
+      "vs_qqq": 2.266,
+      "vs_spy": 2.605
      },
      "90": null
     },
@@ -48585,9 +48585,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 637.315,
+      "close": 628.77,
       "date": "2026-11-11",
-      "return_pct": 5.04
+      "return_pct": 3.63
      },
      "90": null
     },
@@ -48831,7 +48831,7 @@
    "last_seen": "2026-10-31T22:18:21.049472+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 403.82,
     "entry_date": "2026-11-02",
@@ -48847,11 +48847,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -2.42,
-      "spy_pct": 0.686,
-      "vs_qqq": -3.643,
-      "vs_spy": -3.106
+      "qqq_pct": 1.364,
+      "raw_pct": -3.21,
+      "spy_pct": 1.025,
+      "vs_qqq": -4.574,
+      "vs_spy": -4.235
      },
      "90": null
     },
@@ -48864,9 +48864,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 394.055,
+      "close": 390.84,
       "date": "2026-11-11",
-      "return_pct": -2.42
+      "return_pct": -3.21
      },
      "90": null
     },
@@ -49029,7 +49029,7 @@
    "last_seen": "2026-10-31T22:18:21.049532+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 338.32,
     "entry_date": "2026-11-02",
@@ -49045,11 +49045,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.4,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.177,
-      "vs_spy": 3.714
+      "qqq_pct": 1.364,
+      "raw_pct": 5.12,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.756,
+      "vs_spy": 4.095
      },
      "90": null
     },
@@ -49062,9 +49062,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 353.22,
+      "close": 355.63,
       "date": "2026-11-11",
-      "return_pct": 4.4
+      "return_pct": 5.12
      },
      "90": null
     },
@@ -49206,7 +49206,7 @@
    "last_seen": "2026-11-01T15:42:23.972860+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 202.06,
     "entry_date": "2026-11-02",
@@ -49222,11 +49222,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -13.67,
-      "spy_pct": 0.686,
-      "vs_qqq": -14.893,
-      "vs_spy": -14.356
+      "qqq_pct": 1.364,
+      "raw_pct": -14.02,
+      "spy_pct": 1.025,
+      "vs_qqq": -15.384,
+      "vs_spy": -15.045
      },
      "90": null
     },
@@ -49239,9 +49239,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 174.44,
+      "close": 173.73,
       "date": "2026-11-11",
-      "return_pct": -13.67
+      "return_pct": -14.02
      },
      "90": null
     },
@@ -49485,7 +49485,7 @@
    "last_seen": "2026-11-01T20:04:14.276535+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 606.73,
     "entry_date": "2026-11-02",
@@ -49501,11 +49501,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 5.04,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.817,
-      "vs_spy": 4.354
+      "qqq_pct": 1.364,
+      "raw_pct": 3.63,
+      "spy_pct": 1.025,
+      "vs_qqq": 2.266,
+      "vs_spy": 2.605
      },
      "90": null
     },
@@ -49518,9 +49518,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 637.315,
+      "close": 628.77,
       "date": "2026-11-11",
-      "return_pct": 5.04
+      "return_pct": 3.63
      },
      "90": null
     },
@@ -50190,7 +50190,7 @@
    "last_seen": "2026-11-01T15:42:23.973039+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 278.99,
     "entry_date": "2026-11-02",
@@ -50206,11 +50206,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.43,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.207,
-      "vs_spy": 3.744
+      "qqq_pct": 1.364,
+      "raw_pct": 5.18,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.816,
+      "vs_spy": 4.155
      },
      "90": null
     },
@@ -50223,9 +50223,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 291.35,
+      "close": 293.45,
       "date": "2026-11-11",
-      "return_pct": 4.43
+      "return_pct": 5.18
      },
      "90": null
     },
@@ -50564,7 +50564,7 @@
    "last_seen": "2026-11-01T15:42:23.973009+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 245.63,
     "entry_date": "2026-11-02",
@@ -50580,11 +50580,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 8.61,
-      "spy_pct": 0.686,
-      "vs_qqq": 7.387,
-      "vs_spy": 7.924
+      "qqq_pct": 1.364,
+      "raw_pct": 8.36,
+      "spy_pct": 1.025,
+      "vs_qqq": 6.996,
+      "vs_spy": 7.335
      },
      "90": null
     },
@@ -50597,9 +50597,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 266.78,
+      "close": 266.17,
       "date": "2026-11-11",
-      "return_pct": 8.61
+      "return_pct": 8.36
      },
      "90": null
     },
@@ -50869,7 +50869,7 @@
    "last_seen": "2026-11-01T15:42:23.973085+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 50.15,
     "entry_date": "2026-11-02",
@@ -50885,11 +50885,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 18.76,
-      "spy_pct": 0.686,
-      "vs_qqq": 17.537,
-      "vs_spy": 18.074
+      "qqq_pct": 1.364,
+      "raw_pct": 21.18,
+      "spy_pct": 1.025,
+      "vs_qqq": 19.816,
+      "vs_spy": 20.155
      },
      "90": null
     },
@@ -50902,9 +50902,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 59.56,
+      "close": 60.77,
       "date": "2026-11-11",
-      "return_pct": 18.76
+      "return_pct": 21.18
      },
      "90": null
     },
@@ -51122,7 +51122,7 @@
    "last_seen": "2026-11-01T15:42:23.973106+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 141.39,
     "entry_date": "2026-11-02",
@@ -51138,11 +51138,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 10.62,
-      "spy_pct": 0.686,
-      "vs_qqq": 9.397,
-      "vs_spy": 9.934
+      "qqq_pct": 1.364,
+      "raw_pct": 9.41,
+      "spy_pct": 1.025,
+      "vs_qqq": 8.046,
+      "vs_spy": 8.385
      },
      "90": null
     },
@@ -51155,9 +51155,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 156.41,
+      "close": 154.69,
       "date": "2026-11-11",
-      "return_pct": 10.62
+      "return_pct": 9.41
      },
      "90": null
     },
@@ -51335,7 +51335,7 @@
    "last_seen": "2026-11-01T20:04:14.276630+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 1410.99,
     "entry_date": "2026-11-02",
@@ -51351,11 +51351,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 0.48,
-      "spy_pct": 0.686,
-      "vs_qqq": -0.743,
-      "vs_spy": -0.206
+      "qqq_pct": 1.364,
+      "raw_pct": 1.86,
+      "spy_pct": 1.025,
+      "vs_qqq": 0.496,
+      "vs_spy": 0.835
      },
      "90": null
     },
@@ -51368,9 +51368,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 1417.8,
+      "close": 1437.29,
       "date": "2026-11-11",
-      "return_pct": 0.48
+      "return_pct": 1.86
      },
      "90": null
     },
@@ -51535,7 +51535,7 @@
    "last_seen": "2026-11-02T00:08:38.132926+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 466.84,
     "entry_date": "2026-11-02",
@@ -51551,11 +51551,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 17.49,
-      "spy_pct": 0.686,
-      "vs_qqq": 16.267,
-      "vs_spy": 16.804
+      "qqq_pct": 1.364,
+      "raw_pct": 18.43,
+      "spy_pct": 1.025,
+      "vs_qqq": 17.066,
+      "vs_spy": 17.405
      },
      "90": null
     },
@@ -51568,9 +51568,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 548.475,
+      "close": 552.9,
       "date": "2026-11-11",
-      "return_pct": 17.49
+      "return_pct": 18.43
      },
      "90": null
     },
@@ -51904,7 +51904,7 @@
    "last_seen": "2026-11-01T20:04:14.276675+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 104.4,
     "entry_date": "2026-11-02",
@@ -51920,11 +51920,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.41,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.187,
-      "vs_spy": 3.724
+      "qqq_pct": 1.364,
+      "raw_pct": 5.26,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.896,
+      "vs_spy": 4.235
      },
      "90": null
     },
@@ -51937,9 +51937,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 109.0,
+      "close": 109.89,
       "date": "2026-11-11",
-      "return_pct": 4.41
+      "return_pct": 5.26
      },
      "90": null
     },
@@ -52090,7 +52090,7 @@
    "last_seen": "2026-11-02T00:08:38.132887+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 83.84,
     "entry_date": "2026-11-02",
@@ -52106,11 +52106,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 0.33,
-      "spy_pct": 0.686,
-      "vs_qqq": -0.893,
-      "vs_spy": -0.356
+      "qqq_pct": 1.364,
+      "raw_pct": 0.88,
+      "spy_pct": 1.025,
+      "vs_qqq": -0.484,
+      "vs_spy": -0.145
      },
      "90": null
     },
@@ -52123,9 +52123,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 84.12,
+      "close": 84.58,
       "date": "2026-11-11",
-      "return_pct": 0.33
+      "return_pct": 0.88
      },
      "90": null
     },
@@ -52289,7 +52289,7 @@
    "last_seen": "2026-11-01T20:04:14.276720+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 403.82,
     "entry_date": "2026-11-02",
@@ -52305,11 +52305,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -2.42,
-      "spy_pct": 0.686,
-      "vs_qqq": -3.643,
-      "vs_spy": -3.106
+      "qqq_pct": 1.364,
+      "raw_pct": -3.21,
+      "spy_pct": 1.025,
+      "vs_qqq": -4.574,
+      "vs_spy": -4.235
      },
      "90": null
     },
@@ -52322,9 +52322,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 394.055,
+      "close": 390.84,
       "date": "2026-11-11",
-      "return_pct": -2.42
+      "return_pct": -3.21
      },
      "90": null
     },
@@ -52617,7 +52617,7 @@
    "last_seen": "2026-11-01T20:04:14.276757+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 224.24,
     "entry_date": "2026-11-02",
@@ -52633,11 +52633,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -7.13,
-      "spy_pct": 0.686,
-      "vs_qqq": -8.353,
-      "vs_spy": -7.816
+      "qqq_pct": 1.364,
+      "raw_pct": -7.91,
+      "spy_pct": 1.025,
+      "vs_qqq": -9.274,
+      "vs_spy": -8.935
      },
      "90": null
     },
@@ -52650,9 +52650,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 208.2501,
+      "close": 206.51,
       "date": "2026-11-11",
-      "return_pct": -7.13
+      "return_pct": -7.91
      },
      "90": null
     },
@@ -52802,7 +52802,7 @@
    "last_seen": "2026-11-01T15:42:23.973177+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 338.32,
     "entry_date": "2026-11-02",
@@ -52818,11 +52818,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.4,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.177,
-      "vs_spy": 3.714
+      "qqq_pct": 1.364,
+      "raw_pct": 5.12,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.756,
+      "vs_spy": 4.095
      },
      "90": null
     },
@@ -52835,9 +52835,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 353.22,
+      "close": 355.63,
       "date": "2026-11-11",
-      "return_pct": 4.4
+      "return_pct": 5.12
      },
      "90": null
     },
@@ -52973,11 +52973,11 @@
    "last_seen": "2026-11-01T20:04:14.277125+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 66.71,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -2.71,
+    "max_drawdown_pct": -1.83,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -52989,11 +52989,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 3.79,
-      "spy_pct": 0.686,
-      "vs_qqq": 2.567,
-      "vs_spy": 3.104
+      "qqq_pct": 1.364,
+      "raw_pct": 5.95,
+      "spy_pct": 1.025,
+      "vs_qqq": 4.586,
+      "vs_spy": 4.925
      },
      "90": null
     },
@@ -53006,9 +53006,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 69.24,
+      "close": 70.68,
       "date": "2026-11-11",
-      "return_pct": 3.79
+      "return_pct": 5.95
      },
      "90": null
     },
@@ -53262,7 +53262,7 @@
    "last_seen": "2026-11-01T20:04:14.276842+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 8.3,
     "entry_date": "2026-11-02",
@@ -53278,11 +53278,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 1.87,
-      "spy_pct": 0.686,
-      "vs_qqq": 0.647,
-      "vs_spy": 1.184
+      "qqq_pct": 1.364,
+      "raw_pct": 1.69,
+      "spy_pct": 1.025,
+      "vs_qqq": 0.326,
+      "vs_spy": 0.665
      },
      "90": null
     },
@@ -53295,9 +53295,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 8.455,
+      "close": 8.44,
       "date": "2026-11-11",
-      "return_pct": 1.87
+      "return_pct": 1.69
      },
      "90": null
     },
@@ -53419,7 +53419,7 @@
    "last_seen": "2026-11-01T20:04:14.276949+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 153.11,
     "entry_date": "2026-11-02",
@@ -53435,11 +53435,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.75,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.527,
-      "vs_spy": 4.064
+      "qqq_pct": 1.364,
+      "raw_pct": 5.16,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.796,
+      "vs_spy": 4.135
      },
      "90": null
     },
@@ -53452,9 +53452,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 160.39,
+      "close": 161.01,
       "date": "2026-11-11",
-      "return_pct": 4.75
+      "return_pct": 5.16
      },
      "90": null
     },
@@ -53581,7 +53581,7 @@
    "last_seen": "2026-11-01T20:04:14.277096+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 613.62,
     "entry_date": "2026-11-02",
@@ -53597,11 +53597,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -2.72,
-      "spy_pct": 0.686,
-      "vs_qqq": -3.943,
-      "vs_spy": -3.406
+      "qqq_pct": 1.364,
+      "raw_pct": -1.96,
+      "spy_pct": 1.025,
+      "vs_qqq": -3.324,
+      "vs_spy": -2.985
      },
      "90": null
     },
@@ -53614,9 +53614,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 596.91,
+      "close": 601.61,
       "date": "2026-11-11",
-      "return_pct": -2.72
+      "return_pct": -1.96
      },
      "90": null
     },
@@ -53971,7 +53971,7 @@
    "last_seen": "2026-11-01T15:42:23.973602+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 179.67,
     "entry_date": "2026-11-02",
@@ -53987,11 +53987,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -7.52,
-      "spy_pct": 0.686,
-      "vs_qqq": -8.743,
-      "vs_spy": -8.206
+      "qqq_pct": 1.364,
+      "raw_pct": -7.21,
+      "spy_pct": 1.025,
+      "vs_qqq": -8.574,
+      "vs_spy": -8.235
      },
      "90": null
     },
@@ -54004,9 +54004,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 166.155,
+      "close": 166.71,
       "date": "2026-11-11",
-      "return_pct": -7.52
+      "return_pct": -7.21
      },
      "90": null
     },
@@ -54129,7 +54129,7 @@
    "last_seen": "2026-11-01T15:42:23.973637+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 62.34,
     "entry_date": "2026-11-02",
@@ -54145,11 +54145,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 1.71,
-      "spy_pct": 0.686,
-      "vs_qqq": 0.487,
-      "vs_spy": 1.024
+      "qqq_pct": 1.364,
+      "raw_pct": 3.53,
+      "spy_pct": 1.025,
+      "vs_qqq": 2.166,
+      "vs_spy": 2.505
      },
      "90": null
     },
@@ -54162,9 +54162,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 63.405,
+      "close": 64.54,
       "date": "2026-11-11",
-      "return_pct": 1.71
+      "return_pct": 3.53
      },
      "90": null
     },
@@ -54294,7 +54294,7 @@
    "last_seen": "2026-11-01T15:42:23.973317+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 95.83,
     "entry_date": "2026-11-02",
@@ -54310,11 +54310,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 0.63,
-      "spy_pct": 0.686,
-      "vs_qqq": -0.593,
-      "vs_spy": -0.056
+      "qqq_pct": 1.364,
+      "raw_pct": 1.82,
+      "spy_pct": 1.025,
+      "vs_qqq": 0.456,
+      "vs_spy": 0.795
      },
      "90": null
     },
@@ -54327,9 +54327,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 96.435,
+      "close": 97.57,
       "date": "2026-11-11",
-      "return_pct": 0.63
+      "return_pct": 1.82
      },
      "90": null
     },
@@ -54433,11 +54433,11 @@
    "last_seen": "2026-11-01T15:42:23.973320+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 425.51,
     "entry_date": "2026-11-02",
-    "max_drawdown_pct": -3.45,
+    "max_drawdown_pct": -3.3,
     "relative": {
      "1": {
       "qqq_pct": 0.615,
@@ -54449,11 +54449,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -0.94,
-      "spy_pct": 0.686,
-      "vs_qqq": -2.163,
-      "vs_spy": -1.626
+      "qqq_pct": 1.364,
+      "raw_pct": 0.01,
+      "spy_pct": 1.025,
+      "vs_qqq": -1.354,
+      "vs_spy": -1.015
      },
      "90": null
     },
@@ -54466,9 +54466,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 421.5201,
+      "close": 425.55,
       "date": "2026-11-11",
-      "return_pct": -0.94
+      "return_pct": 0.01
      },
      "90": null
     },
@@ -54572,7 +54572,7 @@
    "last_seen": "2026-11-01T15:42:23.973324+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 475.17,
     "entry_date": "2026-11-02",
@@ -54588,11 +54588,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -0.64,
-      "spy_pct": 0.686,
-      "vs_qqq": -1.863,
-      "vs_spy": -1.326
+      "qqq_pct": 1.364,
+      "raw_pct": -0.01,
+      "spy_pct": 1.025,
+      "vs_qqq": -1.374,
+      "vs_spy": -1.035
      },
      "90": null
     },
@@ -54605,9 +54605,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 472.14,
+      "close": 475.11,
       "date": "2026-11-11",
-      "return_pct": -0.64
+      "return_pct": -0.01
      },
      "90": null
     },
@@ -54711,7 +54711,7 @@
    "last_seen": "2026-11-01T15:42:23.973326+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 298.78,
     "entry_date": "2026-11-02",
@@ -54727,11 +54727,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 2.03,
-      "spy_pct": 0.686,
-      "vs_qqq": 0.807,
-      "vs_spy": 1.344
+      "qqq_pct": 1.364,
+      "raw_pct": 2.54,
+      "spy_pct": 1.025,
+      "vs_qqq": 1.176,
+      "vs_spy": 1.515
      },
      "90": null
     },
@@ -54744,9 +54744,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 304.86,
+      "close": 306.36,
       "date": "2026-11-11",
-      "return_pct": 2.03
+      "return_pct": 2.54
      },
      "90": null
     },
@@ -54850,7 +54850,7 @@
    "last_seen": "2026-11-01T15:42:23.973329+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 337.84,
     "entry_date": "2026-11-02",
@@ -54866,11 +54866,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 2.84,
-      "spy_pct": 0.686,
-      "vs_qqq": 1.617,
-      "vs_spy": 2.154
+      "qqq_pct": 1.364,
+      "raw_pct": 3.56,
+      "spy_pct": 1.025,
+      "vs_qqq": 2.196,
+      "vs_spy": 2.535
      },
      "90": null
     },
@@ -54883,9 +54883,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 347.43,
+      "close": 349.88,
       "date": "2026-11-11",
-      "return_pct": 2.84
+      "return_pct": 3.56
      },
      "90": null
     },
@@ -54989,7 +54989,7 @@
    "last_seen": "2026-11-01T15:42:23.973332+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 56.41,
     "entry_date": "2026-11-02",
@@ -55005,11 +55005,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -7.59,
-      "spy_pct": 0.686,
-      "vs_qqq": -8.813,
-      "vs_spy": -8.276
+      "qqq_pct": 1.364,
+      "raw_pct": -8.31,
+      "spy_pct": 1.025,
+      "vs_qqq": -9.674,
+      "vs_spy": -9.335
      },
      "90": null
     },
@@ -55022,9 +55022,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 52.13,
+      "close": 51.72,
       "date": "2026-11-11",
-      "return_pct": -7.59
+      "return_pct": -8.31
      },
      "90": null
     },
@@ -55128,7 +55128,7 @@
    "last_seen": "2026-11-01T15:42:23.973335+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 338.59,
     "entry_date": "2026-11-02",
@@ -55144,11 +55144,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -7.06,
-      "spy_pct": 0.686,
-      "vs_qqq": -8.283,
-      "vs_spy": -7.746
+      "qqq_pct": 1.364,
+      "raw_pct": -7.47,
+      "spy_pct": 1.025,
+      "vs_qqq": -8.834,
+      "vs_spy": -8.495
      },
      "90": null
     },
@@ -55161,9 +55161,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 314.68,
+      "close": 313.31,
       "date": "2026-11-11",
-      "return_pct": -7.06
+      "return_pct": -7.47
      },
      "90": null
     },
@@ -56159,7 +56159,7 @@
    "last_seen": "2026-11-02T07:04:30.551598+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 202.06,
     "entry_date": "2026-11-02",
@@ -56175,11 +56175,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": -13.67,
-      "spy_pct": 0.686,
-      "vs_qqq": -14.893,
-      "vs_spy": -14.356
+      "qqq_pct": 1.364,
+      "raw_pct": -14.02,
+      "spy_pct": 1.025,
+      "vs_qqq": -15.384,
+      "vs_spy": -15.045
      },
      "90": null
     },
@@ -56192,9 +56192,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 174.44,
+      "close": 173.73,
       "date": "2026-11-11",
-      "return_pct": -13.67
+      "return_pct": -14.02
      },
      "90": null
     },
@@ -56807,7 +56807,7 @@
    "last_seen": "2026-11-02T00:08:38.132702+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 245.63,
     "entry_date": "2026-11-02",
@@ -56823,11 +56823,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 8.61,
-      "spy_pct": 0.686,
-      "vs_qqq": 7.387,
-      "vs_spy": 7.924
+      "qqq_pct": 1.364,
+      "raw_pct": 8.36,
+      "spy_pct": 1.025,
+      "vs_qqq": 6.996,
+      "vs_spy": 7.335
      },
      "90": null
     },
@@ -56840,9 +56840,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 266.78,
+      "close": 266.17,
       "date": "2026-11-11",
-      "return_pct": 8.61
+      "return_pct": 8.36
      },
      "90": null
     },
@@ -57085,7 +57085,7 @@
    "last_seen": "2026-11-04T01:50:14.156443+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 278.99,
     "entry_date": "2026-11-02",
@@ -57101,11 +57101,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 4.43,
-      "spy_pct": 0.686,
-      "vs_qqq": 3.207,
-      "vs_spy": 3.744
+      "qqq_pct": 1.364,
+      "raw_pct": 5.18,
+      "spy_pct": 1.025,
+      "vs_qqq": 3.816,
+      "vs_spy": 4.155
      },
      "90": null
     },
@@ -57118,9 +57118,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 291.35,
+      "close": 293.45,
       "date": "2026-11-11",
-      "return_pct": 4.43
+      "return_pct": 5.18
      },
      "90": null
     },
@@ -57445,7 +57445,7 @@
    "last_seen": "2026-11-02T00:08:38.132814+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 50.15,
     "entry_date": "2026-11-02",
@@ -57461,11 +57461,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 18.76,
-      "spy_pct": 0.686,
-      "vs_qqq": 17.537,
-      "vs_spy": 18.074
+      "qqq_pct": 1.364,
+      "raw_pct": 21.18,
+      "spy_pct": 1.025,
+      "vs_qqq": 19.816,
+      "vs_spy": 20.155
      },
      "90": null
     },
@@ -57478,9 +57478,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 59.56,
+      "close": 60.77,
       "date": "2026-11-11",
-      "return_pct": 18.76
+      "return_pct": 21.18
      },
      "90": null
     },
@@ -57671,7 +57671,7 @@
    "last_seen": "2026-11-02T00:08:38.132842+00:00",
    "outcome": {
     "benchmark_note": "vs_spy / vs_qqq are the return MINUS the benchmark over the same window from the same entry rule. A positive raw return with a negative vs_spy underperformed the index.",
-    "checked_at": "2026-11-11T15:48:04.281652+00:00",
+    "checked_at": "2026-11-11T22:27:21.687086+00:00",
     "drawdown_window_days": 7,
     "entry_close": 141.39,
     "entry_date": "2026-11-02",
@@ -57687,11 +57687,11 @@
      "180": null,
      "30": null,
      "7": {
-      "qqq_pct": 1.223,
-      "raw_pct": 10.62,
-      "spy_pct": 0.686,
-      "vs_qqq": 9.397,
-      "vs_spy": 9.934
+      "qqq_pct": 1.364,
+      "raw_pct": 9.41,
+      "spy_pct": 1.025,
+      "vs_qqq": 8.046,
+      "vs_spy": 8.385
      },
      "90": null
     },
@@ -57704,9 +57704,9 @@
      "180": null,
      "30": null,
      "7": {
-      "close": 156.41,
+      "close": 154.69,
       "date": "2026-11-11",
-      "return_pct": 10.62
+      "return_pct": 9.41
      },
      "90": null
     },
