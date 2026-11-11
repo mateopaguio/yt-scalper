@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T07:28:27.696736+00:00",
+  "generated_at": "2026-11-11T15:48:04.164989+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -40,7 +40,7 @@
     },
     "verification_meta": {
       "by_status": {},
-      "tickers_with_filed_events": 1,
+      "tickers_with_filed_events": 0,
       "covered_event_types": [
         "clinical_trial",
         "enforcement",
@@ -63,7 +63,7 @@
         "product_launch"
       ],
       "note": "'unconfirmed' means the configured feeds cover that event type but nothing matching was filed in the window - not that the claim is false. 'outside_coverage' means the feeds cannot see that kind of event at all (no 8-K/10-Q/earnings source is configured), so absence there proves nothing.",
-      "limitation": ""
+      "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
     }
   },
   "catalysts": [
@@ -79,434 +79,6 @@
       "findings": {
         "event_type": "other",
         "summary": "The SEC published its annual enforcement results for fiscal year 2026. Only the headline was retrieved; no body text or figures were available.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_fcae91cb16bfe9",
-      "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T15:24:12-05:00",
-      "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-modernizing-bioequivalence-approaches-topical-transdermal",
-      "category": "regulatory",
-      "body_chars": 5831,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA announced a half-day virtual workshop on September 10, 2026, covering bioequivalence approaches for topical and transdermal generic drug products. The event is an educational session with no company-specific subject.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "scheduled_date": "2026-09-10",
-        "affected_sectors": [
-          "generic pharmaceuticals"
-        ]
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_162ef21ca72148",
-      "title": "Expedited IND Rolling Submission Process and Program Structure",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T15:12:42-05:00",
-      "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
-      "category": "regulatory",
-      "body_chars": 4240,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "regulatory_action",
-        "summary": "FDA published program structure for an Expedited IND Pilot, describing a rolling pre-IND submission process using qualified research institutions (QRIs) and a final IND submission that starts the 30-day review window. The pilot is intended to shorten the time to first-in-human trials.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 2,
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals"
-        ]
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_162ef21ca72148",
-      "title": "Expedited IND Rolling Submission Process and Program Structure",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-04T15:12:42-05:00",
-      "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
-      "category": "regulatory",
-      "body_chars": 4240,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "regulatory_action",
-        "is_market_relevant": true,
-        "materiality": 2,
-        "scheduled_date": "",
-        "summary": "FDA published the program structure for its Expedited IND Pilot, describing rolling submission of pre-IND components through the ESG gateway, a role for qualified research institutions (QRIs), and a final IND submission that starts the 30-day review window. The pilot focuses on the pre-IND phase before first-in-human trials."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_fa0c05e81af880",
-      "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T15:11:58-05:00",
-      "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
-      "category": "regulatory",
-      "body_chars": 24045,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received. FDA plans to notify selected participants by December 18, 2026.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 2,
-        "is_market_relevant": true,
-        "scheduled_date": "2026-12-18",
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals"
-        ]
-      },
-      "_state": "updated"
-    },
-    {
-      "event_id": "cat_fa0c05e81af880",
-      "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-04T15:11:58-05:00",
-      "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
-      "category": "regulatory",
-      "body_chars": 24045,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "regulatory_action",
-        "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received, and that it will notify selected participants by December 18. The pilot tests a rolling IND review model with qualified research institutions (QRIs) for first-in-human Phase 1 trials under HHS Operation TrialBlazer.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 2,
-        "scheduled_date": "2026-12-18",
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals",
-          "clinical research"
-        ]
-      },
-      "_state": "updated"
-    },
-    {
-      "event_id": "cat_91ddc74371f338",
-      "title": "Search List of Extended Use Dates to Assist with Drug Shortages",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T14:14:56-05:00",
-      "url": "http://www.fda.gov/drugs/drug-shortages/search-list-extended-use-dates-assist-drug-shortages",
-      "category": "regulatory",
-      "body_chars": 6631,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "regulatory_action",
-        "summary": "FDA published a searchable list of extended use dates for specific lots of drugs in shortage, including bupivacaine spinal, dextrose 25% syringes, Bicillin L-A, flumazenil, and pentetate calcium/zinc trisodium, based on manufacturer stability data. FDA does not require relabeling; replacement product should be used as it becomes available.",
-        "companies": [
-          {
-            "company": "Hospira, a Pfizer company",
-            "ticker": "",
-            "role": "subject"
-          },
-          {
-            "company": "Pfizer, Inc.",
-            "ticker": "",
-            "role": "subject"
-          },
-          {
-            "company": "Baxter",
-            "ticker": "",
-            "role": "subject"
-          },
-          {
-            "company": "Hameln Pharma GmbH",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "unclear",
-        "materiality": 2,
-        "affected_sectors": [
-          "pharmaceuticals",
-          "healthcare providers",
-          "drug shortages"
-        ]
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_9b3426372a4d86",
-      "title": "Medications for Opioid Use Disorder (MOUD)",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T13:22:06-05:00",
-      "url": "http://www.fda.gov/drugs/food-and-drug-administration-overdose-prevention-framework/medications-opioid-use-disorder-moud",
-      "category": "regulatory",
-      "body_chars": 2566,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA published an informational overview page on medications for opioid use disorder (methadone, buprenorphine, naltrexone), summarizing its awareness campaign, labeling updates, and a list of prior and ongoing MOUD-related actions. No new approval, label change, or company-specific action is announced in this page itself.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_413d6370fe28f6",
-      "title": "Communicating Drug Interaction and QTc Information in the U.S. Prescribing Information - 09/23/2026",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T13:14:00-05:00",
-      "url": "http://www.fda.gov/drugs/news-events-human-drugs/communicating-drug-interaction-and-qtc-information-us-prescribing-information-09232026",
-      "category": "regulatory",
-      "body_chars": 3932,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA CDER SBIA webinar page for a September 23, 2026 session on drug interaction and QTc interval information in U.S. prescribing information, covering draft and final labeling guidances. This is an educational event with no company-specific action.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_8b3403305fc90a",
-      "title": "Advancing Generic Drug Development: Leveraging Model-Integrated Evidence (MIE) in the Development & Approval of Generic Drugs - 08/27/2026",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T13:02:36-05:00",
-      "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-leveraging-model-integrated-evidence-mie-development-approval",
-      "category": "regulatory",
-      "body_chars": 5936,
-      "has_body": true,
-      "findings": {
-        "summary": "FDA announced a half-day virtual workshop on August 27, 2026, on using Model-Integrated Evidence to support generic drug development and approval, covering MIE submission expectations, PBPK modeling, and ICH M15 guidance.",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "companies": [],
-        "direction": "unclear",
-        "affected_sectors": [
-          "generic drugs",
-          "pharmaceuticals"
-        ],
-        "scheduled_date": "2026-08-27"
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_7ed432f20ef2a5",
-      "title": "Drug Shortages | Additional News and Information",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T12:24:16-05:00",
-      "url": "http://www.fda.gov/drugs/drug-shortages/drug-shortages-additional-news-and-information",
-      "category": "regulatory",
-      "body_chars": 1796,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA's drug shortages page was updated with links to its Thirteenth Annual Report on Drug Shortages for Calendar Year 2025, along with prior annual reports, strategic plan, and other resources. The page lists no new shortage designations or company-specific actions.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_a211fdcbac7d11",
-      "title": "Opioid Overdose Reversal Medications",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T11:51:37-05:00",
-      "url": "http://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/opioid-overdose-reversal-medications",
-      "category": "regulatory",
-      "body_chars": 2303,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "pharmaceuticals",
-          "healthcare"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "",
-        "summary": "FDA published a general public-health page summarizing its past actions on opioid overdose reversal medications (naloxone and nalmefene), including prior approvals, shelf-life extensions, guidance, and workshops. It announces no new approval or regulatory action."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_fbf83c3d91598e",
-      "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
-      "source": "SEC Press Releases",
-      "published": "2026-11-04T11:28:00-05:00",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
-      "category": "regulatory",
-      "body_chars": 0,
-      "has_body": false,
-      "findings": {
-        "affected_sectors": [
-          "asset management",
-          "investment advisers",
-          "investment companies"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "regulatory_action",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "The SEC adopted amendments updating the definitions of \"small entity\" for investment companies and investment advisers, per the headline. No body text was retrieved, so the specifics are unknown."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_78caa7b3c1473d",
-      "title": "Reviews of Pediatric Studies Conducted under BPCA and Pediatric Assessments Conducted Under PREA from 2012 – Present",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T10:29:57-05:00",
-      "url": "http://www.fda.gov/drugs/development-resources/reviews-pediatric-studies-conducted-under-bpca-and-pediatric-assessments-conducted-under-prea-2012",
-      "category": "regulatory",
-      "body_chars": 109743,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA posted a periodic index of medical, clinical pharmacology, and statistical reviews of pediatric studies conducted under BPCA and PREA (2012 to present), covering 103 BPCA products, 596 PREA products, and 84 products under both. The listing is a routine administrative posting of existing review documents.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_61fd3c217a9210",
-      "title": "Pritam International Private Limited - 738079 - 10/27/2026",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T10:21:21-05:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/pritam-international-private-limited-738079-10272026",
-      "category": "regulatory",
-      "body_chars": 26599,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "Pharmaceuticals",
-          "Consumer Health",
-          "OTC Drugs"
-        ],
-        "companies": [
-          {
-            "company": "Pritam International Private Limited",
-            "role": "subject",
-            "ticker": ""
-          }
-        ],
-        "direction": "likely_negative",
-        "event_type": "enforcement",
-        "is_market_relevant": true,
-        "materiality": 3,
-        "scheduled_date": "",
-        "summary": "FDA CDER issued a warning letter (ref. 320-27-12, dated October 27, 2026) to Pritam International, an Indian OTC toothpaste contract manufacturer, citing CGMP violations, data integrity failures, use of a delisted color additive (Ext. D&C Red No. 10), and inadequate DEG/EG identity testing of sorbitol solution. The letter notes an voluntary recall of in-expiry toothpaste products (September 10, 2026), Import Alert 66-40 placement (September 3, 2026), and requires a written response within 15 business days."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_345b51f1045428",
-      "title": "Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-04T10:17:14-05:00",
-      "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-reducing-risk-transfusion-transmitted-hepatitis-b-virus",
-      "category": "regulatory",
-      "body_chars": 1985,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "blood services",
-          "plasma collection",
-          "biologics"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "regulatory_action",
-        "is_market_relevant": true,
-        "materiality": 2,
-        "scheduled_date": "",
-        "summary": "FDA CBER issued draft-style guidance (docket FDA-2024-D-5942) with recommendations for blood establishments, including Source Plasma collectors, on testing donations for hepatitis B virus to reduce transfusion transmission risk. Comments may be submitted at any time."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_7030686f83d49d",
-      "title": "Untitled Letters",
-      "source": "FDA Drugs",
-      "published": "2026-11-04T08:41:44-05:00",
-      "url": "http://www.fda.gov/drugs/warning-letters-and-notice-violation-letters-pharmaceutical-companies/untitled-letters",
-      "category": "regulatory",
-      "body_chars": 16256,
-      "has_body": true,
-      "findings": {
-        "event_type": "regulatory_action",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA's CDER Freedom of Information Office posted its periodic index of OPDP untitled letters and corresponding promotional communications, listing issued dates, companies, products, and response/close-out letter status. The index covers 1997-2016 archived actions and recent entries through 10/26/2026, and the page itself does not state a new enforcement action.",
-        "companies": [],
-        "direction": "unclear",
-        "affected_sectors": [
-          "pharmaceuticals"
-        ]
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_9224f3bfcf87f5",
-      "title": "Workshop on Integration Site Analysis During Long Term Follow-Up for Gene Therapies with Integrating Viral Vectors - 11/14/2024",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-04T07:58:08-05:00",
-      "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops/workshop-integration-site-analysis-during-long-term-follow-gene-therapies-integrating-viral-vectors",
-      "category": "regulatory",
-      "body_chars": 2574,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA CBER's Office of Therapeutic Products posted a recap of a virtual public workshop held November 14, 2024, on integration site analysis for long-term follow-up of gene therapies using integrating viral vectors. The page is a retrospective event listing and does not announce a new policy or product decision.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "is_market_relevant": false
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_73f1e174e48637",
-      "title": "Office of Therapeutic Products (OTP) Events, Meetings, and Workshops",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-04T07:57:54-05:00",
-      "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops",
-      "category": "regulatory",
-      "body_chars": 6377,
-      "has_body": true,
-      "findings": {
-        "event_type": "other",
-        "summary": "FDA's Office of Therapeutic Products posted a general events page listing its event series (RegenMedEd, Virtual Town Halls, workshops) and a chart of past events from 2021 to 2026. No new specific event date, product decision, or company action is announced.",
         "companies": [],
         "direction": "unclear",
         "materiality": 1,
@@ -553,15 +125,15 @@
     "never_attempted": 467,
     "resolved_by_horizon": {
       "1": 159,
-      "7": 120,
+      "7": 159,
       "30": 0,
       "90": 0,
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-11T07:28:27.814817+00:00",
+    "last_run": "2026-11-11T15:48:04.281652+00:00",
     "warning": "",
-    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 120."
+    "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
   "setups": {
     "hits": [],
@@ -573,8 +145,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1254,
-        "range": "2021-11-11 .. 2026-11-10",
+        "bars": 1255,
+        "range": "2021-11-11 .. 2026-11-11",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -585,8 +157,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1254,
-        "range": "2021-11-11 .. 2026-11-10",
+        "bars": 1255,
+        "range": "2021-11-11 .. 2026-11-11",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -630,32 +202,7 @@
   },
   "catalyst_changes": {
     "new": [],
-    "updated": [
-      {
-        "event_id": "cat_fa0c05e81af880",
-        "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T15:11:58-05:00",
-        "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
-        "category": "regulatory",
-        "body_chars": 24045,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received. FDA plans to notify selected participants by December 18, 2026.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "is_market_relevant": true,
-          "scheduled_date": "2026-12-18",
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ]
-        },
-        "_previous": "2f9e04ff89945a44"
-      }
-    ],
+    "updated": [],
     "unchanged": [
       {
         "event_id": "cat_0587802de2991f",
@@ -675,416 +222,12 @@
           "is_market_relevant": false
         },
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_fcae91cb16bfe9",
-        "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T15:24:12-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-modernizing-bioequivalence-approaches-topical-transdermal",
-        "category": "regulatory",
-        "body_chars": 5831,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA announced a half-day virtual workshop on September 10, 2026, covering bioequivalence approaches for topical and transdermal generic drug products. The event is an educational session with no company-specific subject.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "scheduled_date": "2026-09-10",
-          "affected_sectors": [
-            "generic pharmaceuticals"
-          ]
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_162ef21ca72148",
-        "title": "Expedited IND Rolling Submission Process and Program Structure",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T15:12:42-05:00",
-        "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
-        "category": "regulatory",
-        "body_chars": 4240,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "regulatory_action",
-          "summary": "FDA published program structure for an Expedited IND Pilot, describing a rolling pre-IND submission process using qualified research institutions (QRIs) and a final IND submission that starts the 30-day review window. The pilot is intended to shorten the time to first-in-human trials.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_162ef21ca72148",
-        "title": "Expedited IND Rolling Submission Process and Program Structure",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T15:12:42-05:00",
-        "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
-        "category": "regulatory",
-        "body_chars": 4240,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "scheduled_date": "",
-          "summary": "FDA published the program structure for its Expedited IND Pilot, describing rolling submission of pre-IND components through the ESG gateway, a role for qualified research institutions (QRIs), and a final IND submission that starts the 30-day review window. The pilot focuses on the pre-IND phase before first-in-human trials."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_fa0c05e81af880",
-        "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T15:11:58-05:00",
-        "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
-        "category": "regulatory",
-        "body_chars": 24045,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "regulatory_action",
-          "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received, and that it will notify selected participants by December 18. The pilot tests a rolling IND review model with qualified research institutions (QRIs) for first-in-human Phase 1 trials under HHS Operation TrialBlazer.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "scheduled_date": "2026-12-18",
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals",
-            "clinical research"
-          ]
-        },
-        "_state": "updated"
-      },
-      {
-        "event_id": "cat_91ddc74371f338",
-        "title": "Search List of Extended Use Dates to Assist with Drug Shortages",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T14:14:56-05:00",
-        "url": "http://www.fda.gov/drugs/drug-shortages/search-list-extended-use-dates-assist-drug-shortages",
-        "category": "regulatory",
-        "body_chars": 6631,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "regulatory_action",
-          "summary": "FDA published a searchable list of extended use dates for specific lots of drugs in shortage, including bupivacaine spinal, dextrose 25% syringes, Bicillin L-A, flumazenil, and pentetate calcium/zinc trisodium, based on manufacturer stability data. FDA does not require relabeling; replacement product should be used as it becomes available.",
-          "companies": [
-            {
-              "company": "Hospira, a Pfizer company",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Pfizer, Inc.",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Baxter",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Hameln Pharma GmbH",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 2,
-          "affected_sectors": [
-            "pharmaceuticals",
-            "healthcare providers",
-            "drug shortages"
-          ]
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_9b3426372a4d86",
-        "title": "Medications for Opioid Use Disorder (MOUD)",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T13:22:06-05:00",
-        "url": "http://www.fda.gov/drugs/food-and-drug-administration-overdose-prevention-framework/medications-opioid-use-disorder-moud",
-        "category": "regulatory",
-        "body_chars": 2566,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA published an informational overview page on medications for opioid use disorder (methadone, buprenorphine, naltrexone), summarizing its awareness campaign, labeling updates, and a list of prior and ongoing MOUD-related actions. No new approval, label change, or company-specific action is announced in this page itself.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_413d6370fe28f6",
-        "title": "Communicating Drug Interaction and QTc Information in the U.S. Prescribing Information - 09/23/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T13:14:00-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/communicating-drug-interaction-and-qtc-information-us-prescribing-information-09232026",
-        "category": "regulatory",
-        "body_chars": 3932,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA CDER SBIA webinar page for a September 23, 2026 session on drug interaction and QTc interval information in U.S. prescribing information, covering draft and final labeling guidances. This is an educational event with no company-specific action.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_8b3403305fc90a",
-        "title": "Advancing Generic Drug Development: Leveraging Model-Integrated Evidence (MIE) in the Development & Approval of Generic Drugs - 08/27/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T13:02:36-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-leveraging-model-integrated-evidence-mie-development-approval",
-        "category": "regulatory",
-        "body_chars": 5936,
-        "has_body": true,
-        "findings": {
-          "summary": "FDA announced a half-day virtual workshop on August 27, 2026, on using Model-Integrated Evidence to support generic drug development and approval, covering MIE submission expectations, PBPK modeling, and ICH M15 guidance.",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "generic drugs",
-            "pharmaceuticals"
-          ],
-          "scheduled_date": "2026-08-27"
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_7ed432f20ef2a5",
-        "title": "Drug Shortages | Additional News and Information",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T12:24:16-05:00",
-        "url": "http://www.fda.gov/drugs/drug-shortages/drug-shortages-additional-news-and-information",
-        "category": "regulatory",
-        "body_chars": 1796,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA's drug shortages page was updated with links to its Thirteenth Annual Report on Drug Shortages for Calendar Year 2025, along with prior annual reports, strategic plan, and other resources. The page lists no new shortage designations or company-specific actions.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_a211fdcbac7d11",
-        "title": "Opioid Overdose Reversal Medications",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T11:51:37-05:00",
-        "url": "http://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/opioid-overdose-reversal-medications",
-        "category": "regulatory",
-        "body_chars": 2303,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "healthcare"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA published a general public-health page summarizing its past actions on opioid overdose reversal medications (naloxone and nalmefene), including prior approvals, shelf-life extensions, guidance, and workshops. It announces no new approval or regulatory action."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_fbf83c3d91598e",
-        "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
-        "source": "SEC Press Releases",
-        "published": "2026-11-04T11:28:00-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "affected_sectors": [
-            "asset management",
-            "investment advisers",
-            "investment companies"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "The SEC adopted amendments updating the definitions of \"small entity\" for investment companies and investment advisers, per the headline. No body text was retrieved, so the specifics are unknown."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_78caa7b3c1473d",
-        "title": "Reviews of Pediatric Studies Conducted under BPCA and Pediatric Assessments Conducted Under PREA from 2012 – Present",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T10:29:57-05:00",
-        "url": "http://www.fda.gov/drugs/development-resources/reviews-pediatric-studies-conducted-under-bpca-and-pediatric-assessments-conducted-under-prea-2012",
-        "category": "regulatory",
-        "body_chars": 109743,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA posted a periodic index of medical, clinical pharmacology, and statistical reviews of pediatric studies conducted under BPCA and PREA (2012 to present), covering 103 BPCA products, 596 PREA products, and 84 products under both. The listing is a routine administrative posting of existing review documents.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_61fd3c217a9210",
-        "title": "Pritam International Private Limited - 738079 - 10/27/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T10:21:21-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/pritam-international-private-limited-738079-10272026",
-        "category": "regulatory",
-        "body_chars": 26599,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "Pharmaceuticals",
-            "Consumer Health",
-            "OTC Drugs"
-          ],
-          "companies": [
-            {
-              "company": "Pritam International Private Limited",
-              "role": "subject",
-              "ticker": ""
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "materiality": 3,
-          "scheduled_date": "",
-          "summary": "FDA CDER issued a warning letter (ref. 320-27-12, dated October 27, 2026) to Pritam International, an Indian OTC toothpaste contract manufacturer, citing CGMP violations, data integrity failures, use of a delisted color additive (Ext. D&C Red No. 10), and inadequate DEG/EG identity testing of sorbitol solution. The letter notes an voluntary recall of in-expiry toothpaste products (September 10, 2026), Import Alert 66-40 placement (September 3, 2026), and requires a written response within 15 business days."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_345b51f1045428",
-        "title": "Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T10:17:14-05:00",
-        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-reducing-risk-transfusion-transmitted-hepatitis-b-virus",
-        "category": "regulatory",
-        "body_chars": 1985,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "blood services",
-            "plasma collection",
-            "biologics"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "scheduled_date": "",
-          "summary": "FDA CBER issued draft-style guidance (docket FDA-2024-D-5942) with recommendations for blood establishments, including Source Plasma collectors, on testing donations for hepatitis B virus to reduce transfusion transmission risk. Comments may be submitted at any time."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_7030686f83d49d",
-        "title": "Untitled Letters",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T08:41:44-05:00",
-        "url": "http://www.fda.gov/drugs/warning-letters-and-notice-violation-letters-pharmaceutical-companies/untitled-letters",
-        "category": "regulatory",
-        "body_chars": 16256,
-        "has_body": true,
-        "findings": {
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA's CDER Freedom of Information Office posted its periodic index of OPDP untitled letters and corresponding promotional communications, listing issued dates, companies, products, and response/close-out letter status. The index covers 1997-2016 archived actions and recent entries through 10/26/2026, and the page itself does not state a new enforcement action.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_9224f3bfcf87f5",
-        "title": "Workshop on Integration Site Analysis During Long Term Follow-Up for Gene Therapies with Integrating Viral Vectors - 11/14/2024",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T07:58:08-05:00",
-        "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops/workshop-integration-site-analysis-during-long-term-follow-gene-therapies-integrating-viral-vectors",
-        "category": "regulatory",
-        "body_chars": 2574,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA CBER's Office of Therapeutic Products posted a recap of a virtual public workshop held November 14, 2024, on integration site analysis for long-term follow-up of gene therapies using integrating viral vectors. The page is a retrospective event listing and does not announce a new policy or product decision.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_73f1e174e48637",
-        "title": "Office of Therapeutic Products (OTP) Events, Meetings, and Workshops",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T07:57:54-05:00",
-        "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops",
-        "category": "regulatory",
-        "body_chars": 6377,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA's Office of Therapeutic Products posted a general events page listing its event series (RegenMedEd, Virtual Town Halls, workshops) and a chart of past events from 2021 to 2026. No new specific event date, product decision, or company action is announced.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
-      "updated": 1,
-      "unchanged": 18
+      "updated": 0,
+      "unchanged": 1
     },
     "known_events": 136,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -1132,17 +275,56 @@
     "benchmark": "SPY",
     "creators": [
       {
+        "channel": "Benzinga",
+        "calls": 235,
+        "resolved": 65,
+        "timeliness_days": -1.26,
+        "uniqueness": 0.42,
+        "reprint_share": 0.009,
+        "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 73.8,
+        "edge_mean_pct": 3.006,
+        "edge_median_pct": 3.104
+      },
+      {
+        "channel": "Investor's Business Daily",
+        "calls": 146,
+        "resolved": 35,
+        "timeliness_days": -0.59,
+        "uniqueness": 0.595,
+        "reprint_share": 0.041,
+        "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 74.3,
+        "edge_mean_pct": 1.638,
+        "edge_median_pct": 2.827
+      },
+      {
         "channel": "Dividend Talks",
         "calls": 24,
-        "resolved": 16,
+        "resolved": 24,
         "timeliness_days": 2.53,
         "uniqueness": 0.5,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 81.2,
-        "edge_mean_pct": 2.158,
-        "edge_median_pct": 4.05
+        "hit_rate_vs_spy": 66.7,
+        "edge_mean_pct": 1.543,
+        "edge_median_pct": 1.807
+      },
+      {
+        "channel": "CNBC Television",
+        "calls": 249,
+        "resolved": 114,
+        "timeliness_days": -0.15,
+        "uniqueness": 0.405,
+        "reprint_share": 0.088,
+        "sufficient_data": true,
+        "confident": true,
+        "hit_rate_vs_spy": 71.9,
+        "edge_mean_pct": 1.485,
+        "edge_median_pct": 3.744
       },
       {
         "channel": "Bloomberg Television",
@@ -1158,121 +340,108 @@
         "edge_median_pct": -0.278
       },
       {
-        "channel": "CNBC Television",
-        "calls": 249,
-        "resolved": 76,
-        "timeliness_days": -0.15,
-        "uniqueness": 0.405,
-        "reprint_share": 0.088,
+        "channel": "The Compound",
+        "calls": 135,
+        "resolved": 44,
+        "timeliness_days": -0.45,
+        "uniqueness": 0.37,
+        "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 65.8,
-        "edge_mean_pct": 0.08,
-        "edge_median_pct": 2.827
+        "hit_rate_vs_spy": 52.3,
+        "edge_mean_pct": 0.368,
+        "edge_median_pct": 1.544
       },
       {
         "channel": "Yahoo Finance",
         "calls": 245,
-        "resolved": 92,
+        "resolved": 122,
         "timeliness_days": -0.13,
         "uniqueness": 0.326,
         "reprint_share": 0.037,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 63.0,
-        "edge_mean_pct": 0.055,
+        "hit_rate_vs_spy": 60.7,
+        "edge_mean_pct": -0.359,
         "edge_median_pct": 2.542
-      },
-      {
-        "channel": "Benzinga",
-        "calls": 235,
-        "resolved": 39,
-        "timeliness_days": -1.26,
-        "uniqueness": 0.42,
-        "reprint_share": 0.009,
-        "sufficient_data": true,
-        "confident": true,
-        "hit_rate_vs_spy": 66.7,
-        "edge_mean_pct": -0.112,
-        "edge_median_pct": 2.827
-      },
-      {
-        "channel": "Investor's Business Daily",
-        "calls": 146,
-        "resolved": 24,
-        "timeliness_days": -0.59,
-        "uniqueness": 0.595,
-        "reprint_share": 0.041,
-        "sufficient_data": true,
-        "confident": false,
-        "hit_rate_vs_spy": 66.7,
-        "edge_mean_pct": -0.261,
-        "edge_median_pct": 2.362
       },
       {
         "channel": "Excess Returns",
         "calls": 19,
-        "resolved": 16,
+        "resolved": 17,
         "timeliness_days": 0.07,
         "uniqueness": 0.167,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 56.2,
-        "edge_mean_pct": -0.703,
-        "edge_median_pct": 1.669
+        "hit_rate_vs_spy": 58.8,
+        "edge_mean_pct": -0.443,
+        "edge_median_pct": 1.897
       },
       {
         "channel": "Couch Investor",
         "calls": 97,
-        "resolved": 49,
+        "resolved": 63,
         "timeliness_days": 1.23,
         "uniqueness": 0.143,
         "reprint_share": 0.072,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 46.9,
-        "edge_mean_pct": -2.609,
-        "edge_median_pct": -0.278
-      },
-      {
-        "channel": "Ticker Symbol: YOU",
-        "calls": 24,
-        "resolved": 14,
-        "timeliness_days": 0.38,
-        "uniqueness": 0.286,
-        "reprint_share": 0.0,
-        "sufficient_data": true,
-        "confident": false,
-        "hit_rate_vs_spy": 35.7,
-        "edge_mean_pct": -3.712,
-        "edge_median_pct": -4.341
+        "hit_rate_vs_spy": 52.4,
+        "edge_mean_pct": -1.234,
+        "edge_median_pct": 2.667
       },
       {
         "channel": "Schwab Network",
         "calls": 275,
-        "resolved": 103,
+        "resolved": 145,
         "timeliness_days": 0.21,
         "uniqueness": 0.409,
         "reprint_share": 0.051,
         "sufficient_data": true,
         "confident": true,
-        "hit_rate_vs_spy": 44.7,
-        "edge_mean_pct": -4.32,
-        "edge_median_pct": -1.828
+        "hit_rate_vs_spy": 52.4,
+        "edge_mean_pct": -2.239,
+        "edge_median_pct": 1.442
       },
       {
-        "channel": "The Compound",
-        "calls": 135,
-        "resolved": 25,
-        "timeliness_days": -0.45,
-        "uniqueness": 0.37,
+        "channel": "StockedUp",
+        "calls": 21,
+        "resolved": 12,
+        "timeliness_days": 0.67,
+        "uniqueness": 0.714,
         "reprint_share": 0.0,
         "sufficient_data": true,
         "confident": false,
-        "hit_rate_vs_spy": 36.0,
-        "edge_mean_pct": -4.351,
-        "edge_median_pct": -6.038
+        "hit_rate_vs_spy": 41.7,
+        "edge_mean_pct": -4.619,
+        "edge_median_pct": -7.79
+      },
+      {
+        "channel": "Ticker Symbol: YOU",
+        "calls": 24,
+        "resolved": 24,
+        "timeliness_days": 0.38,
+        "uniqueness": 0.286,
+        "reprint_share": 0.0,
+        "sufficient_data": true,
+        "confident": false,
+        "hit_rate_vs_spy": 33.3,
+        "edge_mean_pct": -4.621,
+        "edge_median_pct": -4.341
+      },
+      {
+        "channel": "Jose Najarro Stocks",
+        "calls": 35,
+        "resolved": 26,
+        "timeliness_days": 0.05,
+        "uniqueness": 0.286,
+        "reprint_share": 0.0,
+        "sufficient_data": true,
+        "confident": false,
+        "hit_rate_vs_spy": 30.8,
+        "edge_mean_pct": -4.718,
+        "edge_median_pct": -7.698
       },
       {
         "channel": "Asymmetric Investing",
@@ -1288,22 +457,9 @@
         "edge_median_pct": -7.858
       },
       {
-        "channel": "Jose Najarro Stocks",
-        "calls": 35,
-        "resolved": 15,
-        "timeliness_days": 0.05,
-        "uniqueness": 0.286,
-        "reprint_share": 0.0,
-        "sufficient_data": true,
-        "confident": false,
-        "hit_rate_vs_spy": 0.0,
-        "edge_mean_pct": -11.061,
-        "edge_median_pct": -7.858
-      },
-      {
         "channel": "Parkev Tatevosian, CFA",
         "calls": 5,
-        "resolved": 3,
+        "resolved": 5,
         "timeliness_days": 0.0,
         "uniqueness": 0.5,
         "reprint_share": 0.0,
@@ -1311,7 +467,7 @@
         "confident": false,
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
-        "withheld_reason": "only 3 resolved call(s); rates need 10+ to mean anything"
+        "withheld_reason": "only 5 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "manual",
@@ -1325,19 +481,6 @@
         "hit_rate_vs_spy": null,
         "edge_mean_pct": null,
         "withheld_reason": "only 7 resolved call(s); rates need 10+ to mean anything"
-      },
-      {
-        "channel": "StockedUp",
-        "calls": 21,
-        "resolved": 8,
-        "timeliness_days": 0.67,
-        "uniqueness": 0.714,
-        "reprint_share": 0.0,
-        "sufficient_data": false,
-        "confident": false,
-        "hit_rate_vs_spy": null,
-        "edge_mean_pct": null,
-        "withheld_reason": "only 8 resolved call(s); rates need 10+ to mean anything"
       },
       {
         "channel": "FAST Graphs",
@@ -1366,14 +509,14 @@
         "withheld_reason": "only 0 resolved call(s); rates need 10+ to mean anything"
       }
     ],
-    "with_enough_data": 13,
+    "with_enough_data": 14,
     "total_creators": 18,
     "note": "All figures are relative to SPY over the same window. A creator whose picks rose less than the index did not find anything. Rates are withheld below 10 resolved calls rather than shown with a caveat, because a high rate on a tiny sample is the most misleading number this page could print.",
-    "status": "13 creator(s) have 10+ resolved calls"
+    "status": "14 creator(s) have 10+ resolved calls"
   },
   "verification_meta": {
     "by_status": {},
-    "tickers_with_filed_events": 1,
+    "tickers_with_filed_events": 0,
     "covered_event_types": [
       "clinical_trial",
       "enforcement",
@@ -1396,20 +539,18 @@
       "product_launch"
     ],
     "note": "'unconfirmed' means the configured feeds cover that event type but nothing matching was filed in the window - not that the claim is false. 'outside_coverage' means the feeds cannot see that kind of event at all (no 8-K/10-Q/earnings source is configured), so absence there proves nothing.",
-    "limitation": ""
+    "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
   },
   "tier4_candidates": [],
   "calendar": [],
-  "orphan_catalysts": [
-    "PFE"
-  ],
+  "orphan_catalysts": [],
   "blocked_count": 8,
   "skipped_count": 0,
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 34,
-      "degraded": 8
+      "usable": 33,
+      "degraded": 9
     },
     "usable": [
       "META",
@@ -1439,7 +580,6 @@
       "KO",
       "KLAC",
       "CAT",
-      "V",
       "SPGI",
       "ADP",
       "COR",
@@ -1469,6 +609,10 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
+        "ticker": "V",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
         "ticker": "VRT",
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
@@ -1487,230 +631,230 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 408,
+        "bars": 409,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 516,
+        "bars": 517,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
-        "status": "usable",
-        "detail": "complete",
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
         "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
@@ -1718,63 +862,63 @@
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1254,
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1794,7 +938,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -1808,7 +952,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -1822,7 +966,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -1836,7 +980,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -1850,7 +994,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -1864,7 +1008,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -1878,7 +1022,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -1892,7 +1036,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -1906,7 +1050,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -1920,7 +1064,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -1934,7 +1078,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -1948,7 +1092,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 15,
+          "age_days": 16,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -2037,74 +1181,74 @@
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 15d old",
-          "age_days": 15
+          "why": "never measured, 16d old",
+          "age_days": 16
         }
       ],
       "unpriceable": [
@@ -2112,19 +1256,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 15
+          "age_days": 16
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 15
+          "age_days": 16
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 15
+          "age_days": 16
         },
         {
           "ticker": "ETH",
@@ -2281,71 +1425,7 @@
   },
   "radar": {
     "upcoming": [],
-    "priority": [
-      {
-        "event_id": "cat_91ddc74371f338",
-        "title": "Search List of Extended Use Dates to Assist with Drug Shortages",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T14:14:56-05:00",
-        "url": "http://www.fda.gov/drugs/drug-shortages/search-list-extended-use-dates-assist-drug-shortages",
-        "category": "regulatory",
-        "body_chars": 6631,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "regulatory_action",
-          "summary": "FDA published a searchable list of extended use dates for specific lots of drugs in shortage, including bupivacaine spinal, dextrose 25% syringes, Bicillin L-A, flumazenil, and pentetate calcium/zinc trisodium, based on manufacturer stability data. FDA does not require relabeling; replacement product should be used as it becomes available.",
-          "companies": [
-            {
-              "company": "Hospira, a Pfizer company",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Pfizer, Inc.",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Baxter",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Hameln Pharma GmbH",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "unclear",
-          "materiality": 2,
-          "affected_sectors": [
-            "pharmaceuticals",
-            "healthcare providers",
-            "drug shortages"
-          ]
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "priority",
-          "reason": "",
-          "verified": [
-            {
-              "ticker": "PFE",
-              "company": "Pfizer, Inc.",
-              "source": "resolved"
-            }
-          ],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "6631 characters of announcement text"
-          },
-          "materiality": 2,
-          "age_days": 6.510071171747685
-        }
-      }
-    ],
+    "priority": [],
     "archive": [
       {
         "event_id": "cat_0587802de2991f",
@@ -2375,563 +1455,43 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.6346197828587963
-        }
-      },
-      {
-        "event_id": "cat_fcae91cb16bfe9",
-        "title": "Advancing Generic Drug Development: Modernizing Bioequivalence Approaches for Topical & Transdermal Products - 09/10/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T15:24:12-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-modernizing-bioequivalence-approaches-topical-transdermal",
-        "category": "regulatory",
-        "body_chars": 5831,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA announced a half-day virtual workshop on September 10, 2026, covering bioequivalence approaches for topical and transdermal generic drug products. The event is an educational session with no company-specific subject.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "scheduled_date": "2026-09-10",
-          "affected_sectors": [
-            "generic pharmaceuticals"
-          ]
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "5831 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.461969319895834
-        }
-      },
-      {
-        "event_id": "cat_162ef21ca72148",
-        "title": "Expedited IND Rolling Submission Process and Program Structure",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T15:12:42-05:00",
-        "url": "http://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure",
-        "category": "regulatory",
-        "body_chars": 4240,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "regulatory_action",
-          "summary": "FDA published program structure for an Expedited IND Pilot, describing a rolling pre-IND submission process using qualified research institutions (QRIs) and a final IND submission that starts the 30-day review window. The pilot is intended to shorten the time to first-in-human trials.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "seen",
-        "_duplicates": [
-          "FDA Biologics and Vaccines"
-        ],
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "4240 characters of announcement text"
-          },
-          "materiality": 2,
-          "age_days": 6.469955431006945
-        }
-      },
-      {
-        "event_id": "cat_fa0c05e81af880",
-        "title": "FDA Expedited Investigational New Drug (IND) Pilot Program",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T15:11:58-05:00",
-        "url": "http://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program",
-        "category": "regulatory",
-        "body_chars": 24045,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA announced the application period for its Expedited IND Pilot Program has closed, with over 100 applications received. FDA plans to notify selected participants by December 18, 2026.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 2,
-          "is_market_relevant": true,
-          "scheduled_date": "2026-12-18",
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "updated",
-        "_duplicates": [
-          "FDA Biologics and Vaccines"
-        ],
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "24045 characters of announcement text"
-          },
-          "materiality": 2,
-          "age_days": 6.470464690266204
-        }
-      },
-      {
-        "event_id": "cat_9b3426372a4d86",
-        "title": "Medications for Opioid Use Disorder (MOUD)",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T13:22:06-05:00",
-        "url": "http://www.fda.gov/drugs/food-and-drug-administration-overdose-prevention-framework/medications-opioid-use-disorder-moud",
-        "category": "regulatory",
-        "body_chars": 2566,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA published an informational overview page on medications for opioid use disorder (methadone, buprenorphine, naltrexone), summarizing its awareness campaign, labeling updates, and a list of prior and ongoing MOUD-related actions. No new approval, label change, or company-specific action is announced in this page itself.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "2566 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.546760986562501
-        }
-      },
-      {
-        "event_id": "cat_413d6370fe28f6",
-        "title": "Communicating Drug Interaction and QTc Information in the U.S. Prescribing Information - 09/23/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T13:14:00-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/communicating-drug-interaction-and-qtc-information-us-prescribing-information-09232026",
-        "category": "regulatory",
-        "body_chars": 3932,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA CDER SBIA webinar page for a September 23, 2026 session on drug interaction and QTc interval information in U.S. prescribing information, covering draft and final labeling guidances. This is an educational event with no company-specific action.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "3932 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.5523859865625
-        }
-      },
-      {
-        "event_id": "cat_8b3403305fc90a",
-        "title": "Advancing Generic Drug Development: Leveraging Model-Integrated Evidence (MIE) in the Development & Approval of Generic Drugs - 08/27/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T13:02:36-05:00",
-        "url": "http://www.fda.gov/drugs/news-events-human-drugs/advancing-generic-drug-development-leveraging-model-integrated-evidence-mie-development-approval",
-        "category": "regulatory",
-        "body_chars": 5936,
-        "has_body": true,
-        "findings": {
-          "summary": "FDA announced a half-day virtual workshop on August 27, 2026, on using Model-Integrated Evidence to support generic drug development and approval, covering MIE submission expectations, PBPK modeling, and ICH M15 guidance.",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "generic drugs",
-            "pharmaceuticals"
-          ],
-          "scheduled_date": "2026-08-27"
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "5936 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.560302653229167
-        }
-      },
-      {
-        "event_id": "cat_7ed432f20ef2a5",
-        "title": "Drug Shortages | Additional News and Information",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T12:24:16-05:00",
-        "url": "http://www.fda.gov/drugs/drug-shortages/drug-shortages-additional-news-and-information",
-        "category": "regulatory",
-        "body_chars": 1796,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA's drug shortages page was updated with links to its Thirteenth Annual Report on Drug Shortages for Calendar Year 2025, along with prior annual reports, strategic plan, and other resources. The page lists no new shortage designations or company-specific actions.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "1796 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.586923023599538
-        }
-      },
-      {
-        "event_id": "cat_a211fdcbac7d11",
-        "title": "Opioid Overdose Reversal Medications",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T11:51:37-05:00",
-        "url": "http://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/opioid-overdose-reversal-medications",
-        "category": "regulatory",
-        "body_chars": 2303,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "healthcare"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA published a general public-health page summarizing its past actions on opioid overdose reversal medications (naloxone and nalmefene), including prior approvals, shelf-life extensions, guidance, and workshops. It announces no new approval or regulatory action."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "2303 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.609596634710648
-        }
-      },
-      {
-        "event_id": "cat_fbf83c3d91598e",
-        "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
-        "source": "SEC Press Releases",
-        "published": "2026-11-04T11:28:00-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "affected_sectors": [
-            "asset management",
-            "investment advisers",
-            "investment companies"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "The SEC adopted amendments updating the definitions of \"small entity\" for investment companies and investment advisers, per the headline. No body text was retrieved, so the specifics are unknown."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.625997097673611
-        }
-      },
-      {
-        "event_id": "cat_78caa7b3c1473d",
-        "title": "Reviews of Pediatric Studies Conducted under BPCA and Pediatric Assessments Conducted Under PREA from 2012 – Present",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T10:29:57-05:00",
-        "url": "http://www.fda.gov/drugs/development-resources/reviews-pediatric-studies-conducted-under-bpca-and-pediatric-assessments-conducted-under-prea-2012",
-        "category": "regulatory",
-        "body_chars": 109743,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA posted a periodic index of medical, clinical pharmacology, and statistical reviews of pediatric studies conducted under BPCA and PREA (2012 to present), covering 103 BPCA products, 596 PREA products, and 84 products under both. The listing is a routine administrative posting of existing review documents.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "109743 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.666309597673612
-        }
-      },
-      {
-        "event_id": "cat_61fd3c217a9210",
-        "title": "Pritam International Private Limited - 738079 - 10/27/2026",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T10:21:21-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/pritam-international-private-limited-738079-10272026",
-        "category": "regulatory",
-        "body_chars": 26599,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "Pharmaceuticals",
-            "Consumer Health",
-            "OTC Drugs"
-          ],
-          "companies": [
-            {
-              "company": "Pritam International Private Limited",
-              "role": "subject",
-              "ticker": ""
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "materiality": 3,
-          "scheduled_date": "",
-          "summary": "FDA CDER issued a warning letter (ref. 320-27-12, dated October 27, 2026) to Pritam International, an Indian OTC toothpaste contract manufacturer, citing CGMP violations, data integrity failures, use of a delisted color additive (Ext. D&C Red No. 10), and inadequate DEG/EG identity testing of sorbitol solution. The letter notes an voluntary recall of in-expiry toothpaste products (September 10, 2026), Import Alert 66-40 placement (September 3, 2026), and requires a written response within 15 business days."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "26599 characters of announcement text"
-          },
-          "materiality": 3,
-          "age_days": 6.672281819895834
-        }
-      },
-      {
-        "event_id": "cat_345b51f1045428",
-        "title": "Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T10:17:14-05:00",
-        "url": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-reducing-risk-transfusion-transmitted-hepatitis-b-virus",
-        "category": "regulatory",
-        "body_chars": 1985,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "blood services",
-            "plasma collection",
-            "biologics"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "regulatory_action",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "scheduled_date": "",
-          "summary": "FDA CBER issued draft-style guidance (docket FDA-2024-D-5942) with recommendations for blood establishments, including Source Plasma collectors, on testing donations for hepatitis B virus to reduce transfusion transmission risk. Comments may be submitted at any time."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "1985 characters of announcement text"
-          },
-          "materiality": 2,
-          "age_days": 6.67514061619213
-        }
-      },
-      {
-        "event_id": "cat_7030686f83d49d",
-        "title": "Untitled Letters",
-        "source": "FDA Drugs",
-        "published": "2026-11-04T08:41:44-05:00",
-        "url": "http://www.fda.gov/drugs/warning-letters-and-notice-violation-letters-pharmaceutical-companies/untitled-letters",
-        "category": "regulatory",
-        "body_chars": 16256,
-        "has_body": true,
-        "findings": {
-          "event_type": "regulatory_action",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA's CDER Freedom of Information Office posted its periodic index of OPDP untitled letters and corresponding promotional communications, listing issued dates, companies, products, and response/close-out letter status. The index covers 1997-2016 archived actions and recent entries through 10/26/2026, and the page itself does not state a new enforcement action.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "pharmaceuticals"
-          ]
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "16256 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.741460060636575
-        }
-      },
-      {
-        "event_id": "cat_9224f3bfcf87f5",
-        "title": "Workshop on Integration Site Analysis During Long Term Follow-Up for Gene Therapies with Integrating Viral Vectors - 11/14/2024",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T07:58:08-05:00",
-        "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops/workshop-integration-site-analysis-during-long-term-follow-gene-therapies-integrating-viral-vectors",
-        "category": "regulatory",
-        "body_chars": 2574,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA CBER's Office of Therapeutic Products posted a recap of a virtual public workshop held November 14, 2024, on integration site analysis for long-term follow-up of gene therapies using integrating viral vectors. The page is a retrospective event listing and does not announce a new policy or product decision.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "2574 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.771737838414352
-        }
-      },
-      {
-        "event_id": "cat_73f1e174e48637",
-        "title": "Office of Therapeutic Products (OTP) Events, Meetings, and Workshops",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-04T07:57:54-05:00",
-        "url": "http://www.fda.gov/news-events/office-therapeutic-products-otp-events-meetings-and-workshops",
-        "category": "regulatory",
-        "body_chars": 6377,
-        "has_body": true,
-        "findings": {
-          "event_type": "other",
-          "summary": "FDA's Office of Therapeutic Products posted a general events page listing its event series (RegenMedEd, Virtual Town Halls, workshops) and a chart of past events from 2021 to 2026. No new specific event date, product decision, or company action is announced.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "6377 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.771899875451389
+          "age_days": 0.9816251539699073
         }
       }
     ],
     "counts": {
       "upcoming": 0,
-      "priority": 1,
-      "archive": 16
+      "priority": 0,
+      "archive": 1
     },
-    "duplicates_collapsed": 2,
+    "duplicates_collapsed": 0,
     "headline_only_promoted": 0,
-    "primary_source_backed": 1,
+    "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 16
+      "no verified public company behind it": 1
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-11T07:25:12.064727+00:00",
-      "display": "Nov 11, 2:25 AM EST",
+      "at": "2026-11-11T15:44:42.160913+00:00",
+      "display": "Nov 11, 10:44 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07057925222222222
+      "age_hours": 0.07368135361111111
     },
     "last_success": {
-      "at": "2026-11-11T00:21:34.469031+00:00",
-      "display": "Nov 10, 7:21 PM EST",
+      "at": "2026-11-11T07:25:12.064727+00:00",
+      "display": "Nov 11, 2:25 AM EST",
       "trigger": "github-actions",
-      "age_hours": 7.131022501111111,
+      "age_hours": 8.398708071944444,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 1.1,
-    "stale_message": "No successful ingestion in 7.1h - 1.1h past the expected 6h schedule",
+    "overdue_hours": 2.4,
+    "stale_message": "No successful ingestion in 8.4h - 2.4h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -2943,10 +1503,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-11T07:28:27.814817+00:00",
-      "as_of": "2026-11-11T07:28:27.814817+00:00",
-      "as_of_display": "Nov 11, 2:28 AM EST",
-      "attempted_display": "Nov 11, 2:28 AM EST",
+      "attempted": "2026-11-11T15:48:04.281652+00:00",
+      "as_of": "2026-11-11T15:48:04.281652+00:00",
+      "as_of_display": "Nov 11, 10:48 AM EST",
+      "attempted_display": "Nov 11, 10:48 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -2957,12 +1517,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-11T07:25:12.064727+00:00",
-        "display": "Wed 2:25 AM EST",
+        "started": "2026-11-11T15:44:42.160913+00:00",
+        "display": "Wed 10:44 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-11T07:25:12.064727+00:00",
+        "display": "Wed 2:25 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-11T00:21:34.469031+00:00",
@@ -3007,14 +1575,6 @@
       {
         "started": "2026-11-09T10:43:33.094209+00:00",
         "display": "Mon 5:43 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-09T02:16:53.823993+00:00",
-        "display": "Sun 9:16 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
