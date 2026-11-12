@@ -1,5 +1,24 @@
 [
   {
+    "event_id": "cat_b8182560b02548",
+    "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+    "source": "Fed Monetary Policy",
+    "published": "2026-11-12T17:45:00+00:00",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+    "category": "macro",
+    "body_chars": 939,
+    "has_body": true,
+    "findings": {
+      "event_type": "other",
+      "summary": "The Federal Reserve announced a revised tentative 2027 FOMC meeting schedule, listing nine meetings from January 26-27 through November 16-17, 2027, plus a January 25-26, 2028 meeting. The October 26-27 meeting is dedicated to broad monetary policy strategy discussion rather than a standard policy decision.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "is_market_relevant": true,
+      "scheduled_date": "2027-01-26"
+    }
+  },
+  {
     "event_id": "cat_0587802de2991f",
     "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
     "source": "SEC Press Releases",
