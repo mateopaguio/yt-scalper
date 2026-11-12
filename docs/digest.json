@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:27:21.573352+00:00",
+  "generated_at": "2026-11-12T03:34:21.475364+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -131,7 +131,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-11T22:27:21.687086+00:00",
+    "last_run": "2026-11-12T03:34:21.587233+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -549,8 +549,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 33,
-      "degraded": 9
+      "usable": 34,
+      "degraded": 8
     },
     "usable": [
       "META",
@@ -580,6 +580,7 @@
       "KO",
       "KLAC",
       "CAT",
+      "V",
       "SPGI",
       "ADP",
       "COR",
@@ -607,10 +608,6 @@
       {
         "ticker": "ORCL",
         "detail": "1 move(s) >=35% - possible unadjusted split"
-      },
-      {
-        "ticker": "V",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
       },
       {
         "ticker": "VRT",
@@ -853,9 +850,9 @@
         "provider": "yfinance"
       },
       "V": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1253,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1274,19 +1271,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 11
+          "age_days": 12
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 11
+          "age_days": 12
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 11
+          "age_days": 12
         }
       ],
       "failed": []
@@ -1455,7 +1452,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2588559298148148
+          "age_days": 1.4721020589814815
         }
       }
     ],
@@ -1474,24 +1471,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-11T22:24:01.938744+00:00",
-      "display": "Nov 11, 5:24 PM EST",
+      "at": "2026-11-12T03:30:58.575496+00:00",
+      "display": "Nov 11, 10:30 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07172609972222221
+      "age_hours": 0.07390079305555555
     },
     "last_success": {
-      "at": "2026-11-11T15:44:42.160913+00:00",
-      "display": "Nov 11, 10:44 AM EST",
+      "at": "2026-11-11T22:24:01.938744+00:00",
+      "display": "Nov 11, 5:24 PM EST",
       "trigger": "github-actions",
-      "age_hours": 6.727219941666666,
+      "age_hours": 5.189633224166666,
       "ingested": 0
     },
-    "stale": true,
+    "stale": false,
     "expected_hours": 6.0,
-    "overdue_hours": 0.7,
-    "stale_message": "No successful ingestion in 6.7h - 0.7h past the expected 6h schedule",
+    "overdue_hours": 0.0,
+    "stale_message": "",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1503,10 +1500,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-11T22:27:21.687086+00:00",
-      "as_of": "2026-11-11T22:27:21.687086+00:00",
-      "as_of_display": "Nov 11, 5:27 PM EST",
-      "attempted_display": "Nov 11, 5:27 PM EST",
+      "attempted": "2026-11-12T03:34:21.587233+00:00",
+      "as_of": "2026-11-12T03:34:21.587233+00:00",
+      "as_of_display": "Nov 11, 10:34 PM EST",
+      "attempted_display": "Nov 11, 10:34 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1517,12 +1514,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-11T22:24:01.938744+00:00",
-        "display": "Wed 5:24 PM EST",
+        "started": "2026-11-12T03:30:58.575496+00:00",
+        "display": "Wed 10:30 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-11T22:24:01.938744+00:00",
+        "display": "Wed 5:24 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-11T15:44:42.160913+00:00",
@@ -1567,14 +1572,6 @@
       {
         "started": "2026-11-10T03:55:23.050029+00:00",
         "display": "Mon 10:55 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-09T21:13:58.825978+00:00",
-        "display": "Mon 4:13 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
