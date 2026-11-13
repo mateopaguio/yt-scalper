@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:00:53.711076+00:00",
+  "generated_at": "2026-11-13T22:24:47.041992+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -88,7 +88,7 @@
           "public companies"
         ]
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_b8182560b02548",
@@ -174,7 +174,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-13T17:00:53.804908+00:00",
+    "last_run": "2026-11-13T22:24:47.114089+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -244,7 +244,9 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
+    "new": [],
+    "updated": [],
+    "unchanged": [
       {
         "event_id": "cat_864d97a81cf5e7",
         "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
@@ -266,11 +268,8 @@
             "public companies"
           ]
         },
-        "_state": "new"
-      }
-    ],
-    "updated": [],
-    "unchanged": [
+        "_state": "seen"
+      },
       {
         "event_id": "cat_b8182560b02548",
         "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -312,11 +311,11 @@
       }
     ],
     "counts": {
-      "new": 1,
+      "new": 0,
       "updated": 0,
-      "unchanged": 2
+      "unchanged": 3
     },
-    "known_events": 137,
+    "known_events": 138,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -1014,8 +1013,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 169,
-      "stale": 298,
+      "unresolved": 165,
+      "stale": 302,
       "unpriceable": 6,
       "failed": 0
     },
@@ -1192,30 +1191,6 @@
       ],
       "unresolved": [
         {
-          "ticker": "CRWV",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "VRT",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "NBIS",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "VZ",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
           "ticker": "HOOD",
           "state": "unresolved",
           "why": "not measured yet",
@@ -1259,6 +1234,30 @@
         },
         {
           "ticker": "FTNT",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "AAPL",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "UPS",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "PSX",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "VLO",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -1502,8 +1501,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 169,
-        "stale": 298,
+        "unresolved": 165,
+        "stale": 302,
         "unpriceable": 6,
         "failed": 0
       },
@@ -1535,7 +1534,7 @@
             "public companies"
           ]
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -1546,7 +1545,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.0033844707175925927
+          "age_days": 0.22829040598379632
         }
       },
       {
@@ -1578,7 +1577,7 @@
             "why": "939 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 0.9700511373842592
+          "age_days": 1.194957072650463
         }
       },
       {
@@ -1609,7 +1608,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.0321460447916664
+          "age_days": 3.25705198005787
         }
       }
     ],
@@ -1628,24 +1627,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-13T16:56:10.664824+00:00",
-      "display": "Nov 13, 11:56 AM EST",
+      "at": "2026-11-13T22:21:22.732816+00:00",
+      "display": "Nov 13, 5:21 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.09493165638888888
+      "age_hours": 0.07265521611111111
     },
     "last_success": {
-      "at": "2026-11-13T08:57:11.722150+00:00",
-      "display": "Nov 13, 3:57 AM EST",
+      "at": "2026-11-13T16:56:10.664824+00:00",
+      "display": "Nov 13, 11:56 AM EST",
       "trigger": "github-actions",
-      "age_hours": 8.077971288055556,
+      "age_hours": 5.4926741027777775,
       "ingested": 0
     },
-    "stale": true,
+    "stale": false,
     "expected_hours": 6.0,
-    "overdue_hours": 2.1,
-    "stale_message": "No successful ingestion in 8.1h - 2.1h past the expected 6h schedule",
+    "overdue_hours": 0.0,
+    "stale_message": "",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1657,10 +1656,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-13T17:00:53.804908+00:00",
-      "as_of": "2026-11-13T17:00:53.804908+00:00",
-      "as_of_display": "Nov 13, 12:00 PM EST",
-      "attempted_display": "Nov 13, 12:00 PM EST",
+      "attempted": "2026-11-13T22:24:47.114089+00:00",
+      "as_of": "2026-11-13T22:24:47.114089+00:00",
+      "as_of_display": "Nov 13, 5:24 PM EST",
+      "attempted_display": "Nov 13, 5:24 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1671,12 +1670,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-13T16:56:10.664824+00:00",
-        "display": "Fri 11:56 AM EST",
+        "started": "2026-11-13T22:21:22.732816+00:00",
+        "display": "Fri 5:21 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-13T16:56:10.664824+00:00",
+        "display": "Fri 11:56 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-13T08:57:11.722150+00:00",
@@ -1721,14 +1728,6 @@
       {
         "started": "2026-11-11T22:24:01.938744+00:00",
         "display": "Wed 5:24 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-11T15:44:42.160913+00:00",
-        "display": "Wed 10:44 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
