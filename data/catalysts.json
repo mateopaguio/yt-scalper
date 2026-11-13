@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "cat_864d97a81cf5e7",
+    "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+    "source": "SEC Press Releases",
+    "published": "2026-11-13T11:57:00-05:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "regulatory_action",
+      "summary": "The SEC announced a proposal to reform executive and director compensation disclosure requirements. Only the headline was retrieved; no body text details were available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 2,
+      "affected_sectors": [
+        "financial services",
+        "public companies"
+      ]
+    }
+  },
+  {
     "event_id": "cat_b8182560b02548",
     "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
     "source": "Fed Monetary Policy",
