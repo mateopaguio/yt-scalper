@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:39:10.423489+00:00",
+  "generated_at": "2026-11-13T01:39:59.654153+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -85,7 +85,7 @@
         "is_market_relevant": true,
         "scheduled_date": "2027-01-26"
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_0587802de2991f",
@@ -151,7 +151,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-12T20:39:10.491944+00:00",
+    "last_run": "2026-11-13T01:39:59.732963+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -165,8 +165,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1255,
-        "range": "2021-11-12 .. 2026-11-12",
+        "bars": 1253,
+        "range": "2021-11-15 .. 2026-11-11",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -177,8 +177,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1255,
-        "range": "2021-11-12 .. 2026-11-12",
+        "bars": 1253,
+        "range": "2021-11-15 .. 2026-11-11",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -221,7 +221,9 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
+    "new": [],
+    "updated": [],
+    "unchanged": [
       {
         "event_id": "cat_b8182560b02548",
         "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -240,11 +242,8 @@
           "is_market_relevant": true,
           "scheduled_date": "2027-01-26"
         },
-        "_state": "new"
-      }
-    ],
-    "updated": [],
-    "unchanged": [
+        "_state": "seen"
+      },
       {
         "event_id": "cat_0587802de2991f",
         "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
@@ -266,11 +265,11 @@
       }
     ],
     "counts": {
-      "new": 1,
+      "new": 0,
       "updated": 0,
-      "unchanged": 1
+      "unchanged": 2
     },
-    "known_events": 136,
+    "known_events": 137,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -669,294 +668,294 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 410,
+        "bars": 409,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 518,
+        "bars": 517,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -965,8 +964,8 @@
   "validation": {
     "census": {
       "resolved": 159,
-      "unresolved": 210,
-      "stale": 257,
+      "unresolved": 171,
+      "stale": 296,
       "unpriceable": 6,
       "failed": 0
     },
@@ -1143,13 +1142,13 @@
       ],
       "unresolved": [
         {
-          "ticker": "AMZN",
+          "ticker": "CRWV",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "META",
+          "ticker": "NVDA",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -1161,13 +1160,13 @@
           "age_days": 10
         },
         {
-          "ticker": "NBIS",
+          "ticker": "VRT",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
         },
         {
-          "ticker": "HOOD",
+          "ticker": "NBIS",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -1179,7 +1178,19 @@
           "age_days": 10
         },
         {
-          "ticker": "AMD",
+          "ticker": "HOOD",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "NVDA",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
+          "ticker": "META",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -1191,25 +1202,13 @@
           "age_days": 10
         },
         {
+          "ticker": "NBIS",
+          "state": "unresolved",
+          "why": "not measured yet",
+          "age_days": 10
+        },
+        {
           "ticker": "TMO",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "TSLA",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "AAPL",
-          "state": "unresolved",
-          "why": "not measured yet",
-          "age_days": 10
-        },
-        {
-          "ticker": "PLTR",
           "state": "unresolved",
           "why": "not measured yet",
           "age_days": 10
@@ -1312,19 +1311,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 12
+          "age_days": 13
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 12
+          "age_days": 13
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 12
+          "age_days": 13
         }
       ],
       "failed": []
@@ -1453,8 +1452,8 @@
       "resolved": 159,
       "census": {
         "resolved": 159,
-        "unresolved": 210,
-        "stale": 257,
+        "unresolved": 171,
+        "stale": 296,
         "unpriceable": 6,
         "failed": 0
       },
@@ -1483,7 +1482,7 @@
           "is_market_relevant": true,
           "scheduled_date": "2027-01-26"
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -1494,7 +1493,7 @@
             "why": "939 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 0.12158783362268517
+          "age_days": 0.3304971594675926
         }
       },
       {
@@ -1525,7 +1524,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.1836827410300925
+          "age_days": 2.3925920668750003
         }
       }
     ],
@@ -1544,24 +1543,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-12T20:35:46.699437+00:00",
-      "display": "Nov 12, 3:35 PM EST",
+      "at": "2026-11-13T01:36:34.777789+00:00",
+      "display": "Nov 12, 8:36 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07180274583333333
+      "age_hours": 0.07227143083333333
     },
     "last_success": {
-      "at": "2026-11-12T12:02:07.593087+00:00",
-      "display": "Nov 12, 7:02 AM EST",
+      "at": "2026-11-12T20:35:46.699437+00:00",
+      "display": "Nov 12, 3:35 PM EST",
       "trigger": "github-actions",
-      "age_hours": 8.632665620833334,
+      "age_hours": 5.085626528611111,
       "ingested": 0
     },
-    "stale": true,
+    "stale": false,
     "expected_hours": 6.0,
-    "overdue_hours": 2.6,
-    "stale_message": "No successful ingestion in 8.6h - 2.6h past the expected 6h schedule",
+    "overdue_hours": 0.0,
+    "stale_message": "",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1573,10 +1572,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-12T20:39:10.491944+00:00",
-      "as_of": "2026-11-12T20:39:10.491944+00:00",
-      "as_of_display": "Nov 12, 3:39 PM EST",
-      "attempted_display": "Nov 12, 3:39 PM EST",
+      "attempted": "2026-11-13T01:39:59.732963+00:00",
+      "as_of": "2026-11-13T01:39:59.732963+00:00",
+      "as_of_display": "Nov 12, 8:39 PM EST",
+      "attempted_display": "Nov 12, 8:39 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1587,12 +1586,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-12T20:35:46.699437+00:00",
-        "display": "Thu 3:35 PM EST",
+        "started": "2026-11-13T01:36:34.777789+00:00",
+        "display": "Thu 8:36 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-12T20:35:46.699437+00:00",
+        "display": "Thu 3:35 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-12T12:02:07.593087+00:00",
@@ -1637,14 +1644,6 @@
       {
         "started": "2026-11-11T00:21:34.469031+00:00",
         "display": "Tue 7:21 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-10T19:27:23.970500+00:00",
-        "display": "Tue 2:27 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
