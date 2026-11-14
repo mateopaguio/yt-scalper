@@ -1,5 +1,11 @@
 [
   {
+    "generated_at": "2026-11-14T21:05:29.772344+00:00",
+    "video_count": 0,
+    "ticker_count": 0,
+    "trigger": "github-actions"
+  },
+  {
     "generated_at": "2026-11-14T16:19:51.713601+00:00",
     "video_count": 0,
     "ticker_count": 0,
@@ -672,10 +678,5 @@
     "generated_at": "2026-10-23T05:46:45.911929+00:00",
     "video_count": 8,
     "ticker_count": 8
-  },
-  {
-    "generated_at": "2026-10-23T05:44:09.559876+00:00",
-    "video_count": 1,
-    "ticker_count": 5
   }
 ]
