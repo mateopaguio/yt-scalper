@@ -1,5 +1,18 @@
 [
   {
+    "video_id": "tdpioilSqOI",
+    "title": "ExxonMobil CEO Darren Woods: 'Refining capacity is very tight today'",
+    "channel": "CNBC Television",
+    "published": "2026-10-30T15:45:17+00:00",
+    "url": "https://www.youtube.com/watch?v=tdpioilSqOI",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tdpioilSqOI! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-14T02:53:40.857215+00:00"
+  },
+  {
     "video_id": "muRRx9tfNyU",
     "title": "Apple, AMD, Palantir Lead Big Earnings Week",
     "channel": "Investor's Business Daily",
