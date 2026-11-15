@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T21:05:29.772344+00:00",
+  "generated_at": "2026-11-15T01:31:09.380965+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -174,7 +174,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-14T21:05:29.897209+00:00",
+    "last_run": "2026-11-15T01:31:09.503146+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -1357,19 +1357,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 14
+          "age_days": 15
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 14
+          "age_days": 15
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 14
+          "age_days": 15
         }
       ],
       "failed": []
@@ -1542,7 +1542,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.1732450859259258
+          "age_days": 1.3577308200925926
         }
       },
       {
@@ -1574,7 +1574,7 @@
             "why": "939 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.1399117525925924
+          "age_days": 2.3243974867592594
         }
       },
       {
@@ -1605,7 +1605,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.20200666
+          "age_days": 4.386492394166666
         }
       }
     ],
@@ -1624,18 +1624,18 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-14T21:02:10.841844+00:00",
-      "display": "Nov 14, 4:02 PM EST",
+      "at": "2026-11-15T01:27:50.294668+00:00",
+      "display": "Nov 14, 8:27 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07153726805555555
+      "age_hours": 0.07156911555555556
     },
     "last_success": {
-      "at": "2026-11-14T16:16:43.911405+00:00",
-      "display": "Nov 14, 11:16 AM EST",
+      "at": "2026-11-14T21:02:10.841844+00:00",
+      "display": "Nov 14, 4:02 PM EST",
       "trigger": "github-actions",
-      "age_hours": 4.829017945555556,
+      "age_hours": 4.4991949,
       "ingested": 0
     },
     "stale": false,
@@ -1653,10 +1653,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-14T21:05:29.897209+00:00",
-      "as_of": "2026-11-14T21:05:29.897209+00:00",
-      "as_of_display": "Nov 14, 4:05 PM EST",
-      "attempted_display": "Nov 14, 4:05 PM EST",
+      "attempted": "2026-11-15T01:31:09.503146+00:00",
+      "as_of": "2026-11-15T01:31:09.503146+00:00",
+      "as_of_display": "Nov 14, 8:31 PM EST",
+      "attempted_display": "Nov 14, 8:31 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1667,12 +1667,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-14T21:02:10.841844+00:00",
-        "display": "Sat 4:02 PM EST",
+        "started": "2026-11-15T01:27:50.294668+00:00",
+        "display": "Sat 8:27 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-14T21:02:10.841844+00:00",
+        "display": "Sat 4:02 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-14T16:16:43.911405+00:00",
@@ -1717,14 +1725,6 @@
       {
         "started": "2026-11-13T08:57:11.722150+00:00",
         "display": "Fri 3:57 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-13T01:36:34.777789+00:00",
-        "display": "Thu 8:36 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
