@@ -11,10 +11,10 @@
       "source_type": "video"
     },
     "attempts": 8,
-    "throttled": 71,
+    "throttled": 72,
     "first_seen": "2026-10-29T18:22:50.563576+00:00",
-    "eligible_since": "2026-11-18T01:29:46.280926+00:00",
-    "last_attempt": "2026-11-18T01:29:46.280926+00:00",
+    "eligible_since": "2026-11-18T09:34:30.721444+00:00",
+    "last_attempt": "2026-11-18T09:34:30.721444+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -29,10 +29,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 71,
+    "throttled": 72,
     "first_seen": "2026-10-30T16:25:36.056930+00:00",
-    "eligible_since": "2026-11-18T01:30:10.964988+00:00",
-    "last_attempt": "2026-11-18T01:30:10.964988+00:00",
+    "eligible_since": "2026-11-18T09:34:55.248635+00:00",
+    "last_attempt": "2026-11-18T09:34:55.248635+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -47,10 +47,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 71,
+    "throttled": 72,
     "first_seen": "2026-10-30T16:26:52.849673+00:00",
-    "eligible_since": "2026-11-18T01:31:00.437947+00:00",
-    "last_attempt": "2026-11-18T01:31:00.437947+00:00",
+    "eligible_since": "2026-11-18T09:35:19.790595+00:00",
+    "last_attempt": "2026-11-18T09:35:19.790595+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -65,10 +65,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 71,
+    "throttled": 72,
     "first_seen": "2026-10-30T16:27:18.018771+00:00",
-    "eligible_since": "2026-11-18T01:31:25.576180+00:00",
-    "last_attempt": "2026-11-18T01:31:25.576180+00:00",
+    "eligible_since": "2026-11-18T09:35:43.767546+00:00",
+    "last_attempt": "2026-11-18T09:35:43.767546+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -83,10 +83,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 71,
+    "throttled": 72,
     "first_seen": "2026-10-30T16:27:43.121498+00:00",
-    "eligible_since": "2026-11-18T01:31:51.255883+00:00",
-    "last_attempt": "2026-11-18T01:31:51.255883+00:00",
+    "eligible_since": "2026-11-18T09:36:08.036039+00:00",
+    "last_attempt": "2026-11-18T09:36:08.036039+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -101,10 +101,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 71,
+    "throttled": 72,
     "first_seen": "2026-10-30T16:28:08.274306+00:00",
-    "eligible_since": "2026-11-18T01:32:18.588510+00:00",
-    "last_attempt": "2026-11-18T01:32:18.588510+00:00",
+    "eligible_since": "2026-11-18T09:36:32.420411+00:00",
+    "last_attempt": "2026-11-18T09:36:32.420411+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -119,10 +119,28 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 14,
+    "throttled": 15,
     "first_seen": "2026-11-14T09:44:35.135931+00:00",
-    "eligible_since": "2026-11-18T01:32:43.640829+00:00",
-    "last_attempt": "2026-11-18T01:32:43.640829+00:00",
+    "eligible_since": "2026-11-18T09:36:56.884052+00:00",
+    "last_attempt": "2026-11-18T09:36:56.884052+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "zxP4M7t8xZo",
+      "title": "Year End Job Cuts Coming 11/18/26",
+      "channel": "CNBC Television",
+      "published": "2026-11-18T08:00:39+00:00",
+      "url": "https://www.youtube.com/watch?v=zxP4M7t8xZo",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-18T09:37:21.052964+00:00",
+    "eligible_since": "2026-11-18T09:37:21.052964+00:00",
+    "last_attempt": "2026-11-18T09:37:21.052964+00:00",
     "reason": "YouTube blocked the request from this IP"
   }
 ]
