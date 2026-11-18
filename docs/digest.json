@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:00:21.930165+00:00",
+  "generated_at": "2026-11-18T01:32:44.547820+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -155,7 +155,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-17T19:00:21.993370+00:00",
+    "last_run": "2026-11-18T01:32:44.660830+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -169,8 +169,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1255,
-        "range": "2021-11-17 .. 2026-11-17",
+        "bars": 1253,
+        "range": "2021-11-18 .. 2026-11-16",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -181,8 +181,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1255,
-        "range": "2021-11-17 .. 2026-11-17",
+        "bars": 1253,
+        "range": "2021-11-18 .. 2026-11-16",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -592,13 +592,13 @@
   "tier4_candidates": [],
   "calendar": [],
   "orphan_catalysts": [],
-  "blocked_count": 8,
-  "skipped_count": 0,
-  "pending_count": 8,
+  "blocked_count": 7,
+  "skipped_count": 1,
+  "pending_count": 7,
   "data_quality": {
     "counts": {
-      "usable": 33,
-      "degraded": 9
+      "usable": 34,
+      "degraded": 8
     },
     "usable": [
       "META",
@@ -632,6 +632,7 @@
       "SPGI",
       "ADP",
       "COR",
+      "NOK",
       "QQQ",
       "SPY"
     ],
@@ -665,10 +666,6 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
-        "ticker": "NOK",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "CHPT",
         "detail": "2 move(s) >=35% - possible unadjusted split"
       }
@@ -679,294 +676,294 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 413,
+        "bars": 412,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 521,
+        "bars": 520,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1249,19 +1246,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 17
+          "age_days": 18
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 17
+          "age_days": 18
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 17
+          "age_days": 18
         }
       ],
       "failed": []
@@ -1434,7 +1431,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.086406381377315
+          "age_days": 4.3588345859375
         }
       },
       {
@@ -1466,7 +1463,7 @@
             "why": "939 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.053073048043982
+          "age_days": 5.325501252604166
         }
       }
     ],
@@ -1485,24 +1482,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-17T18:57:00.374116+00:00",
-      "display": "Nov 17, 1:57 PM EST",
+      "at": "2026-11-18T01:29:19.392888+00:00",
+      "display": "Nov 17, 8:29 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.0736493725
+      "age_hours": 0.07330997583333333
     },
     "last_success": {
-      "at": "2026-11-17T09:57:37.700785+00:00",
-      "display": "Nov 17, 4:57 AM EST",
+      "at": "2026-11-17T18:57:00.374116+00:00",
+      "display": "Nov 17, 1:57 PM EST",
       "trigger": "github-actions",
-      "age_hours": 9.063280853333334,
+      "age_hours": 6.611926301388889,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 3.1,
-    "stale_message": "No successful ingestion in 9.1h - 3.1h past the expected 6h schedule",
+    "overdue_hours": 0.6,
+    "stale_message": "No successful ingestion in 6.6h - 0.6h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1514,10 +1511,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-17T19:00:21.993370+00:00",
-      "as_of": "2026-11-17T19:00:21.993370+00:00",
-      "as_of_display": "Nov 17, 2:00 PM EST",
-      "attempted_display": "Nov 17, 2:00 PM EST",
+      "attempted": "2026-11-18T01:32:44.660830+00:00",
+      "as_of": "2026-11-18T01:32:44.660830+00:00",
+      "as_of_display": "Nov 17, 8:32 PM EST",
+      "attempted_display": "Nov 17, 8:32 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1528,12 +1525,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-17T18:57:00.374116+00:00",
-        "display": "Tue 1:57 PM EST",
+        "started": "2026-11-18T01:29:19.392888+00:00",
+        "display": "Tue 8:29 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-17T18:57:00.374116+00:00",
+        "display": "Tue 1:57 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-17T09:57:37.700785+00:00",
@@ -1578,14 +1583,6 @@
       {
         "started": "2026-11-15T20:54:54.769652+00:00",
         "display": "Sun 3:54 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-15T15:59:28.773406+00:00",
-        "display": "Sun 10:59 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",

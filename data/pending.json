@@ -11,10 +11,10 @@
       "source_type": "video"
     },
     "attempts": 8,
-    "throttled": 70,
+    "throttled": 71,
     "first_seen": "2026-10-29T18:22:50.563576+00:00",
-    "eligible_since": "2026-11-17T18:57:26.559049+00:00",
-    "last_attempt": "2026-11-17T18:57:26.559049+00:00",
+    "eligible_since": "2026-11-18T01:29:46.280926+00:00",
+    "last_attempt": "2026-11-18T01:29:46.280926+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -29,28 +29,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 70,
+    "throttled": 71,
     "first_seen": "2026-10-30T16:25:36.056930+00:00",
-    "eligible_since": "2026-11-17T18:57:50.942901+00:00",
-    "last_attempt": "2026-11-17T18:57:50.942901+00:00",
-    "reason": "YouTube blocked the request from this IP"
-  },
-  {
-    "video": {
-      "video_id": "q7HB8-UZTzY",
-      "title": "$6.3 billion Binance hack is largest crypto theft on record",
-      "channel": "CNBC Television",
-      "published": "2026-10-30T16:00:27+00:00",
-      "url": "https://www.youtube.com/watch?v=q7HB8-UZTzY",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video"
-    },
-    "attempts": 0,
-    "throttled": 70,
-    "first_seen": "2026-10-30T16:26:01.060358+00:00",
-    "eligible_since": "2026-11-17T18:58:16.521129+00:00",
-    "last_attempt": "2026-11-17T18:58:16.521129+00:00",
+    "eligible_since": "2026-11-18T01:30:10.964988+00:00",
+    "last_attempt": "2026-11-18T01:30:10.964988+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -65,10 +47,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 70,
+    "throttled": 71,
     "first_seen": "2026-10-30T16:26:52.849673+00:00",
-    "eligible_since": "2026-11-17T18:58:41.765830+00:00",
-    "last_attempt": "2026-11-17T18:58:41.765830+00:00",
+    "eligible_since": "2026-11-18T01:31:00.437947+00:00",
+    "last_attempt": "2026-11-18T01:31:00.437947+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -83,10 +65,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 70,
+    "throttled": 71,
     "first_seen": "2026-10-30T16:27:18.018771+00:00",
-    "eligible_since": "2026-11-17T18:59:06.539693+00:00",
-    "last_attempt": "2026-11-17T18:59:06.539693+00:00",
+    "eligible_since": "2026-11-18T01:31:25.576180+00:00",
+    "last_attempt": "2026-11-18T01:31:25.576180+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -101,10 +83,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 70,
+    "throttled": 71,
     "first_seen": "2026-10-30T16:27:43.121498+00:00",
-    "eligible_since": "2026-11-17T18:59:31.633920+00:00",
-    "last_attempt": "2026-11-17T18:59:31.633920+00:00",
+    "eligible_since": "2026-11-18T01:31:51.255883+00:00",
+    "last_attempt": "2026-11-18T01:31:51.255883+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -119,10 +101,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 70,
+    "throttled": 71,
     "first_seen": "2026-10-30T16:28:08.274306+00:00",
-    "eligible_since": "2026-11-17T18:59:56.203850+00:00",
-    "last_attempt": "2026-11-17T18:59:56.203850+00:00",
+    "eligible_since": "2026-11-18T01:32:18.588510+00:00",
+    "last_attempt": "2026-11-18T01:32:18.588510+00:00",
     "reason": "YouTube blocked the request from this IP"
   },
   {
@@ -137,10 +119,10 @@
       "source_type": "video"
     },
     "attempts": 0,
-    "throttled": 13,
+    "throttled": 14,
     "first_seen": "2026-11-14T09:44:35.135931+00:00",
-    "eligible_since": "2026-11-17T19:00:20.429667+00:00",
-    "last_attempt": "2026-11-17T19:00:20.429667+00:00",
+    "eligible_since": "2026-11-18T01:32:43.640829+00:00",
+    "last_attempt": "2026-11-18T01:32:43.640829+00:00",
     "reason": "YouTube blocked the request from this IP"
   }
 ]

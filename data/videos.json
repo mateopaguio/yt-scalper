@@ -1,5 +1,18 @@
 [
   {
+    "video_id": "q7HB8-UZTzY",
+    "title": "$6.3 billion Binance hack is largest crypto theft on record",
+    "channel": "CNBC Television",
+    "published": "2026-10-30T16:00:27+00:00",
+    "url": "https://www.youtube.com/watch?v=q7HB8-UZTzY",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "content too short",
+    "ingested_at": "2026-11-18T01:32:43.648508+00:00"
+  },
+  {
     "video_id": "tdpioilSqOI",
     "title": "ExxonMobil CEO Darren Woods: 'Refining capacity is very tight today'",
     "channel": "CNBC Television",
