@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "cat_dbea10a75a8483",
+    "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+    "source": "Fed Monetary Policy",
+    "published": "2026-11-18T19:00:00+00:00",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+    "category": "macro",
+    "body_chars": 761,
+    "has_body": true,
+    "findings": {
+      "is_market_relevant": true,
+      "event_type": "macro_rates",
+      "summary": "The Federal Reserve released the minutes of the October 27-28, 2026 FOMC meeting. The minutes describe economic and financial conditions as known to the Committee at that meeting.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 3,
+      "affected_sectors": [
+        "financials",
+        "broad market"
+      ]
+    }
+  },
+  {
     "event_id": "cat_864d97a81cf5e7",
     "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
     "source": "SEC Press Releases",

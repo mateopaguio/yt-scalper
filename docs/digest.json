@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:35:59.793131+00:00",
+  "generated_at": "2026-11-19T00:56:30.655940+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -67,6 +67,29 @@
     }
   },
   "catalysts": [
+    {
+      "event_id": "cat_dbea10a75a8483",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "source": "Fed Monetary Policy",
+      "published": "2026-11-18T19:00:00+00:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "category": "macro",
+      "body_chars": 761,
+      "has_body": true,
+      "findings": {
+        "is_market_relevant": true,
+        "event_type": "macro_rates",
+        "summary": "The Federal Reserve released the minutes of the October 27-28, 2026 FOMC meeting. The minutes describe economic and financial conditions as known to the Committee at that meeting.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 3,
+        "affected_sectors": [
+          "financials",
+          "broad market"
+        ]
+      },
+      "_state": "new"
+    },
     {
       "event_id": "cat_864d97a81cf5e7",
       "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
@@ -155,7 +178,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-18T18:35:59.911906+00:00",
+    "last_run": "2026-11-19T00:56:30.743138+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -169,8 +192,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1255,
-        "range": "2021-11-18 .. 2026-11-18",
+        "bars": 1254,
+        "range": "2021-11-19 .. 2026-11-18",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -181,8 +204,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1255,
-        "range": "2021-11-18 .. 2026-11-18",
+        "bars": 1254,
+        "range": "2021-11-19 .. 2026-11-18",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -225,7 +248,31 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [],
+    "new": [
+      {
+        "event_id": "cat_dbea10a75a8483",
+        "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+        "source": "Fed Monetary Policy",
+        "published": "2026-11-18T19:00:00+00:00",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+        "category": "macro",
+        "body_chars": 761,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "macro_rates",
+          "summary": "The Federal Reserve released the minutes of the October 27-28, 2026 FOMC meeting. The minutes describe economic and financial conditions as known to the Committee at that meeting.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 3,
+          "affected_sectors": [
+            "financials",
+            "broad market"
+          ]
+        },
+        "_state": "new"
+      }
+    ],
     "updated": [],
     "unchanged": [
       {
@@ -273,7 +320,7 @@
       }
     ],
     "counts": {
-      "new": 0,
+      "new": 1,
       "updated": 0,
       "unchanged": 2
     },
@@ -676,21 +723,21 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -704,35 +751,35 @@
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -746,224 +793,224 @@
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1400,6 +1447,41 @@
     "priority": [],
     "archive": [
       {
+        "event_id": "cat_dbea10a75a8483",
+        "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+        "source": "Fed Monetary Policy",
+        "published": "2026-11-18T19:00:00+00:00",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+        "category": "macro",
+        "body_chars": 761,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "macro_rates",
+          "summary": "The Federal Reserve released the minutes of the October 27-28, 2026 FOMC meeting. The minutes describe economic and financial conditions as known to the Committee at that meeting.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 3,
+          "affected_sectors": [
+            "financials",
+            "broad market"
+          ]
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "761 characters of announcement text"
+          },
+          "materiality": 3,
+          "age_days": 0.2482235828009259
+        }
+      },
+      {
         "event_id": "cat_864d97a81cf5e7",
         "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
         "source": "SEC Press Releases",
@@ -1431,7 +1513,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.0694361958796295
+          "age_days": 5.333640249467593
         }
       },
       {
@@ -1463,43 +1545,43 @@
             "why": "939 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 6.036102862546296
+          "age_days": 6.300306916134259
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 0,
-      "archive": 2
+      "archive": 3
     },
     "duplicates_collapsed": 0,
     "headline_only_promoted": 0,
     "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 2
+      "no verified public company behind it": 3
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-18T18:32:41.881884+00:00",
-      "display": "Nov 18, 1:32 PM EST",
+      "at": "2026-11-19T00:52:59.440537+00:00",
+      "display": "Nov 18, 7:52 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07150167888888889
+      "age_hours": 0.07418821472222221
     },
     "last_success": {
-      "at": "2026-11-18T09:34:04.502990+00:00",
-      "display": "Nov 18, 4:34 AM EST",
+      "at": "2026-11-18T18:32:41.881884+00:00",
+      "display": "Nov 18, 1:32 PM EST",
       "trigger": "github-actions",
-      "age_hours": 9.048551371666667,
+      "age_hours": 6.412398951666666,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 3.0,
-    "stale_message": "No successful ingestion in 9.0h - 3.0h past the expected 6h schedule",
+    "overdue_hours": 0.4,
+    "stale_message": "No successful ingestion in 6.4h - 0.4h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1511,10 +1593,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-18T18:35:59.911906+00:00",
-      "as_of": "2026-11-18T18:35:59.911906+00:00",
-      "as_of_display": "Nov 18, 1:35 PM EST",
-      "attempted_display": "Nov 18, 1:35 PM EST",
+      "attempted": "2026-11-19T00:56:30.743138+00:00",
+      "as_of": "2026-11-19T00:56:30.743138+00:00",
+      "as_of_display": "Nov 18, 7:56 PM EST",
+      "attempted_display": "Nov 18, 7:56 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1525,12 +1607,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-18T18:32:41.881884+00:00",
-        "display": "Wed 1:32 PM EST",
+        "started": "2026-11-19T00:52:59.440537+00:00",
+        "display": "Wed 7:52 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-18T18:32:41.881884+00:00",
+        "display": "Wed 1:32 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-18T09:34:04.502990+00:00",
@@ -1575,14 +1665,6 @@
       {
         "started": "2026-11-16T17:43:49.961039+00:00",
         "display": "Mon 12:43 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-16T07:30:41.743853+00:00",
-        "display": "Mon 2:30 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
