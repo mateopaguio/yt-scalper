@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:56:04.233850+00:00",
+  "generated_at": "2026-11-20T00:09:49.485309+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -88,7 +88,7 @@
         "materiality": 2,
         "summary": "The SEC announced action against eight entities that allegedly used fake crypto asset trading platforms to steal more than $37 million from U.S. investors. The headline names no publicly traded companies, and no body text was retrieved."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_dbea10a75a8483",
@@ -181,7 +181,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-19T17:56:04.342041+00:00",
+    "last_run": "2026-11-20T00:09:49.583638+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -195,8 +195,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1255,
-        "range": "2021-11-19 .. 2026-11-19",
+        "bars": 1254,
+        "range": "2021-11-22 .. 2026-11-19",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -207,8 +207,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1255,
-        "range": "2021-11-19 .. 2026-11-19",
+        "bars": 1254,
+        "range": "2021-11-22 .. 2026-11-19",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -251,7 +251,9 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
+    "new": [],
+    "updated": [],
+    "unchanged": [
       {
         "event_id": "cat_3a68823c8daed0",
         "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
@@ -273,11 +275,8 @@
           "materiality": 2,
           "summary": "The SEC announced action against eight entities that allegedly used fake crypto asset trading platforms to steal more than $37 million from U.S. investors. The headline names no publicly traded companies, and no body text was retrieved."
         },
-        "_state": "new"
-      }
-    ],
-    "updated": [],
-    "unchanged": [
+        "_state": "seen"
+      },
       {
         "event_id": "cat_dbea10a75a8483",
         "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
@@ -326,11 +325,11 @@
       }
     ],
     "counts": {
-      "new": 1,
+      "new": 0,
       "updated": 0,
-      "unchanged": 2
+      "unchanged": 3
     },
-    "known_events": 139,
+    "known_events": 140,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -729,21 +728,21 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -757,35 +756,35 @@
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -799,224 +798,224 @@
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1473,7 +1472,7 @@
           "materiality": 2,
           "summary": "The SEC announced action against eight entities that allegedly used fake crypto asset trading platforms to steal more than $37 million from U.S. investors. The headline names no publicly traded companies, and no body text was retrieved."
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -1484,7 +1483,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.13755361744212963
+          "age_days": 0.39710324644675926
         }
       },
       {
@@ -1519,7 +1518,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 0.9563267655902777
+          "age_days": 1.2158763945949074
         }
       },
       {
@@ -1554,7 +1553,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.041743432256944
+          "age_days": 6.301293061261574
         }
       }
     ],
@@ -1573,24 +1572,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-19T17:52:40.478223+00:00",
-      "display": "Nov 19, 12:52 PM EST",
+      "at": "2026-11-20T00:06:25.923075+00:00",
+      "display": "Nov 19, 7:06 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07393190388888889
+      "age_hours": 0.07383275777777779
     },
     "last_success": {
-      "at": "2026-11-19T08:15:16.661586+00:00",
-      "display": "Nov 19, 3:15 AM EST",
+      "at": "2026-11-19T17:52:40.478223+00:00",
+      "display": "Nov 19, 12:52 PM EST",
       "trigger": "github-actions",
-      "age_hours": 9.697214303055555,
+      "age_hours": 6.303122994444444,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 3.7,
-    "stale_message": "No successful ingestion in 9.7h - 3.7h past the expected 6h schedule",
+    "overdue_hours": 0.3,
+    "stale_message": "No successful ingestion in 6.3h - 0.3h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1602,10 +1601,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-19T17:56:04.342041+00:00",
-      "as_of": "2026-11-19T17:56:04.342041+00:00",
-      "as_of_display": "Nov 19, 12:56 PM EST",
-      "attempted_display": "Nov 19, 12:56 PM EST",
+      "attempted": "2026-11-20T00:09:49.583638+00:00",
+      "as_of": "2026-11-20T00:09:49.583638+00:00",
+      "as_of_display": "Nov 19, 7:09 PM EST",
+      "attempted_display": "Nov 19, 7:09 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1616,12 +1615,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-19T17:52:40.478223+00:00",
-        "display": "Thu 12:52 PM EST",
+        "started": "2026-11-20T00:06:25.923075+00:00",
+        "display": "Thu 7:06 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-19T17:52:40.478223+00:00",
+        "display": "Thu 12:52 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-19T08:15:16.661586+00:00",
@@ -1666,14 +1673,6 @@
       {
         "started": "2026-11-17T18:57:00.374116+00:00",
         "display": "Tue 1:57 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-17T09:57:37.700785+00:00",
-        "display": "Tue 4:57 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
