@@ -1,5 +1,24 @@
 [
   {
+    "event_id": "cat_31dfa678a4d112",
+    "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+    "source": "SEC Press Releases",
+    "published": "2026-11-20T13:03:24-05:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "is_market_relevant": false,
+      "event_type": "regulatory_action",
+      "summary": "The SEC announced a proposal to restructure the Consolidated Audit Trail, a market surveillance data system. Only the headline was retrieved, so the proposal's details are unknown.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "affected_sectors": []
+    }
+  },
+  {
     "event_id": "cat_8cf63b9f3cc161",
     "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
     "source": "SEC Press Releases",
