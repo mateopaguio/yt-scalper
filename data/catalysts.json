@@ -1,5 +1,29 @@
 [
   {
+    "event_id": "cat_8cf63b9f3cc161",
+    "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+    "source": "SEC Press Releases",
+    "published": "2026-11-20T09:28:28-05:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "enforcement",
+      "summary": "The SEC announced charges against Indianapolis-based Backward Hat Capital and its co-founders over an alleged $560 million offering fraud, and said it obtained emergency relief. Only the headline was retrieved; no body text was available.",
+      "companies": [
+        {
+          "company": "Backward Hat Capital",
+          "ticker": "",
+          "role": "subject"
+        }
+      ],
+      "direction": "likely_negative",
+      "materiality": 2,
+      "is_market_relevant": true
+    }
+  },
+  {
     "event_id": "cat_3a68823c8daed0",
     "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
     "source": "SEC Press Releases",
