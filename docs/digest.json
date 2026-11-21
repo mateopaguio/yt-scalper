@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:00:03.897312+00:00",
+  "generated_at": "2026-11-21T18:42:14.052062+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -203,7 +203,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-21T12:00:04.014258+00:00",
+    "last_run": "2026-11-21T18:42:14.111926+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -1524,7 +1524,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.748340989525463
+          "age_days": 1.0276900003703704
         }
       },
       {
@@ -1561,7 +1561,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.8976002487847221
+          "age_days": 1.1769492596296296
         }
       },
       {
@@ -1596,7 +1596,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.8902622858217593
+          "age_days": 2.169611296666667
         }
       },
       {
@@ -1631,7 +1631,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 2.7090354339699076
+          "age_days": 2.9883844448148147
         }
       }
     ],
@@ -1650,24 +1650,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-21T11:56:47.747470+00:00",
-      "display": "Nov 21, 6:56 AM EST",
+      "at": "2026-11-21T18:38:53.403487+00:00",
+      "display": "Nov 21, 1:38 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07025404972222223
+      "age_hours": 0.07305913750000001
     },
     "last_success": {
-      "at": "2026-11-21T03:40:42.285062+00:00",
-      "display": "Nov 20, 10:40 PM EST",
+      "at": "2026-11-21T11:56:47.747470+00:00",
+      "display": "Nov 21, 6:56 AM EST",
       "trigger": "github-actions",
-      "age_hours": 8.338438051944445,
+      "age_hours": 6.774630253333334,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 2.3,
-    "stale_message": "No successful ingestion in 8.3h - 2.3h past the expected 6h schedule",
+    "overdue_hours": 0.8,
+    "stale_message": "No successful ingestion in 6.8h - 0.8h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1679,10 +1679,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-21T12:00:04.014258+00:00",
-      "as_of": "2026-11-21T12:00:04.014258+00:00",
-      "as_of_display": "Nov 21, 7:00 AM EST",
-      "attempted_display": "Nov 21, 7:00 AM EST",
+      "attempted": "2026-11-21T18:42:14.111926+00:00",
+      "as_of": "2026-11-21T18:42:14.111926+00:00",
+      "as_of_display": "Nov 21, 1:42 PM EST",
+      "attempted_display": "Nov 21, 1:42 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1693,12 +1693,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-21T11:56:47.747470+00:00",
-        "display": "Sat 6:56 AM EST",
+        "started": "2026-11-21T18:38:53.403487+00:00",
+        "display": "Sat 1:38 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-21T11:56:47.747470+00:00",
+        "display": "Sat 6:56 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-21T03:40:42.285062+00:00",
@@ -1743,14 +1751,6 @@
       {
         "started": "2026-11-19T17:52:40.478223+00:00",
         "display": "Thu 12:52 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-19T08:15:16.661586+00:00",
-        "display": "Thu 3:15 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
