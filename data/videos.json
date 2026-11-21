@@ -1,5 +1,44 @@
 [
   {
+    "video_id": "zxP4M7t8xZo",
+    "title": "Year End Job Cuts Coming 11/18/26",
+    "channel": "CNBC Television",
+    "published": "2026-11-18T08:00:39+00:00",
+    "url": "https://www.youtube.com/watch?v=zxP4M7t8xZo",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=zxP4M7t8xZo! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
+  },
+  {
+    "video_id": "-c13FfurvKQ",
+    "title": "Box CEO Aaron Levie on Whether Nvidia’s Dominance Is Ending",
+    "channel": "Yahoo Finance",
+    "published": "2026-11-14T02:00:20+00:00",
+    "url": "https://www.youtube.com/watch?v=-c13FfurvKQ",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=-c13FfurvKQ! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
+  },
+  {
+    "video_id": "5JcJ4ITZxAY",
+    "title": "Beware SPX Trap Door if Selling Steepens, GOOGL \"Death Cross\"",
+    "channel": "Schwab Network",
+    "published": "2026-10-30T16:00:37+00:00",
+    "url": "https://www.youtube.com/watch?v=5JcJ4ITZxAY",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=5JcJ4ITZxAY! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
+  },
+  {
     "video_id": "q7HB8-UZTzY",
     "title": "$6.3 billion Binance hack is largest crypto theft on record",
     "channel": "CNBC Television",
@@ -24,6 +63,58 @@
     "findings": null,
     "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tdpioilSqOI! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
     "ingested_at": "2026-11-14T02:53:40.857215+00:00"
+  },
+  {
+    "video_id": "qdtKiFU2Pns",
+    "title": "Binance loses $6.3 billion in the biggest crypto heist ever | The 8:30",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-30T15:43:26+00:00",
+    "url": "https://www.youtube.com/watch?v=qdtKiFU2Pns",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=qdtKiFU2Pns! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
+  },
+  {
+    "video_id": "1ddmTN2PZJc",
+    "title": "Apple's MacBook Pro PROLED XDR Display is reportedly the lightest laptop Apple has made yet. 💻",
+    "channel": "Yahoo Finance",
+    "published": "2026-10-30T15:30:54+00:00",
+    "url": "https://www.youtube.com/watch?v=1ddmTN2PZJc",
+    "tier": 1,
+    "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=1ddmTN2PZJc! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
+  },
+  {
+    "video_id": "Qii6wbOnA7M",
+    "title": "The best way to carve a pumpkin, according to Jackolanterns.com president",
+    "channel": "CNBC Television",
+    "published": "2026-10-30T15:30:33+00:00",
+    "url": "https://www.youtube.com/watch?v=Qii6wbOnA7M",
+    "tier": 1,
+    "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Qii6wbOnA7M! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
+  },
+  {
+    "video_id": "16NvieQPEDE",
+    "title": "INTC Hits 6-Month Lows: Why Earnings Sparked Stock Selloff",
+    "channel": "Schwab Network",
+    "published": "2026-10-30T15:30:13+00:00",
+    "url": "https://www.youtube.com/watch?v=16NvieQPEDE",
+    "tier": 1,
+    "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=16NvieQPEDE! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
   },
   {
     "video_id": "muRRx9tfNyU",
@@ -2075,6 +2166,19 @@
       ]
     },
     "ingested_at": "2026-10-29T18:27:39.624474+00:00"
+  },
+  {
+    "video_id": "0smo8bnn_to",
+    "title": "$1,000 Nvidia Investment After 20 Years!",
+    "channel": "Benzinga",
+    "published": "2026-10-29T18:00:04+00:00",
+    "url": "https://www.youtube.com/watch?v=0smo8bnn_to",
+    "tier": 1,
+    "channel_id": "UCqQs28K2zj2dOsc5NfXUKEg",
+    "source_type": "video",
+    "findings": null,
+    "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=0smo8bnn_to! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+    "ingested_at": "2026-11-21T23:44:21.573033+00:00"
   },
   {
     "video_id": "h4OAApaSPCk",

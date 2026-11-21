@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-11-21T18:42:14.052062+00:00",
-  "video_count": 0,
-  "videos": [],
+  "generated_at": "2026-11-21T23:44:49.981516+00:00",
+  "video_count": 1,
+  "videos": [
+    {
+      "video_id": "zxP4M7t8xZo",
+      "title": "Year End Job Cuts Coming 11/18/26",
+      "channel": "CNBC Television",
+      "published": "2026-11-18T08:00:39+00:00",
+      "url": "https://www.youtube.com/watch?v=zxP4M7t8xZo",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video",
+      "findings": null,
+      "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=zxP4M7t8xZo! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "ingested_at": "2026-11-21T23:44:21.573033+00:00",
+      "relevance": {
+        "bucket": "market_context",
+        "signals": {
+          "tickers": 0,
+          "substantive_tickers": 0,
+          "macro_points": 0,
+          "off_topic_title": false,
+          "macro_language": false,
+          "analysed": false
+        },
+        "reason": "not analysed yet - unknown, not irrelevant"
+      }
+    }
+  ],
   "aggregate": {
     "tickers": [],
     "multi_channel": [],
@@ -12,11 +38,11 @@
     "echo_chamber": [],
     "channel_originality": [],
     "freshness_meta": {
-      "data_floor": null,
-      "data_days": 0,
+      "data_floor": "2026-11-18",
+      "data_days": 1,
       "censored_tickers": 0,
       "age_signal_reliable": false,
-      "days_needed": 21,
+      "days_needed": 20,
       "note": "Tickers first seen on the data floor date have unknown true age. There is no 'new' state: a single sighting cannot be told apart from a name we had not sampled yet. Coverage-age states need >=21 days of history to mean anything; the text-based states (late_to_story, forward_catalyst) are valid immediately."
     },
     "ranked": [],
@@ -68,6 +94,145 @@
   },
   "catalysts": [
     {
+      "event_id": "cat_d450ef37509e8e",
+      "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T18:30:08-05:00",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+      "category": "regulatory",
+      "body_chars": 3418,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "compounded drugs",
+          "pharmacy services",
+          "healthcare"
+        ],
+        "companies": [
+          {
+            "company": "Greenwich Rx",
+            "ticker": "",
+            "role": "subject"
+          },
+          {
+            "company": "Clove Rx",
+            "ticker": "",
+            "role": "partner"
+          }
+        ],
+        "direction": "likely_negative",
+        "event_type": "recall_safety",
+        "is_market_relevant": true,
+        "materiality": 2,
+        "scheduled_date": "",
+        "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_47aeef023a0472",
+      "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-11-20T18:11:20-05:00",
+      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+      "category": "regulatory",
+      "body_chars": 6592,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "biotechnology",
+          "rare disease therapeutics",
+          "cell and gene therapy"
+        ],
+        "companies": [
+          {
+            "company": "Capricor Therapeutics, Inc.",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "event_type": "regulatory_action",
+        "is_market_relevant": true,
+        "materiality": 5,
+        "scheduled_date": "",
+        "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_c11410413280a4",
+      "title": "Report on the State of Pharmaceutical Quality",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T16:16:10-05:00",
+      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
+      "category": "regulatory",
+      "body_chars": 1869,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "pharmaceuticals",
+          "drug manufacturing"
+        ],
+        "direction": "unclear",
+        "event_type": "other",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
+        "companies": []
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_f089159bf084a0",
+      "title": "Generic Drug User Fee Amendments",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T15:59:30-05:00",
+      "url": "http://www.fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+      "category": "regulatory",
+      "body_chars": 39404,
+      "has_body": true,
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "other",
+        "summary": "FDA's GDUFA program page restates GDUFA III reauthorization through September 2027, publishes FY 2026 and FY 2027 user fee rates (FY 2027 ANDA fee $375,684), and provides general fee payment and administrative instructions.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_4401022f6bfe2a",
+      "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T14:05:14-05:00",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+      "category": "regulatory",
+      "body_chars": 3224,
+      "has_body": true,
+      "findings": {
+        "is_market_relevant": true,
+        "event_type": "recall_safety",
+        "summary": "Breckenridge Pharmaceutical is voluntarily recalling to the consumer level one lot (PK25110035, exp. May 2029) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, 100-count bottles, due to potential metal contamination that could cause soft tissue lacerations. No related adverse events reported to date; product was distributed nationwide October 26 to November 4, 2026.",
+        "companies": [
+          {
+            "company": "Breckenridge Pharmaceutical, Inc.",
+            "ticker": "",
+            "role": "subject"
+          },
+          {
+            "company": "Adare Pharma Solutions",
+            "ticker": "",
+            "role": "partner"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 2
+      },
+      "_state": "new"
+    },
+    {
       "event_id": "cat_31dfa678a4d112",
       "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
       "source": "SEC Press Releases",
@@ -86,6 +251,133 @@
         "affected_sectors": []
       },
       "_state": "seen"
+    },
+    {
+      "event_id": "cat_9c7efce6ed3303",
+      "title": "First Generic Drug Approvals",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T12:12:45-05:00",
+      "url": "http://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
+      "category": "regulatory",
+      "body_chars": 26896,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "Pharmaceuticals",
+          "Generic drugs"
+        ],
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "macro_data",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "scheduled_date": "",
+        "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_c383ee587af4bb",
+      "title": "Office of Infectious Diseases Research Activities",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T12:12:05-05:00",
+      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
+      "category": "regulatory",
+      "body_chars": 2540,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "biotechnology",
+          "pharmaceuticals",
+          "antimicrobials"
+        ],
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "other",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "scheduled_date": "2026-12-08",
+        "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_fc5c07d291eaf5",
+      "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T10:20:13-05:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
+      "category": "regulatory",
+      "body_chars": 9018,
+      "has_body": true,
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "enforcement",
+        "summary": "FDA Center for Veterinary Medicine issued a warning letter to Ogle Cattle Company, a Texas cattle feedlot, citing cattle sold for slaughter with drug residues above tolerance and extralabel use of ceftiofur and enrofloxacin drugs, based on inspections in April to June 2025. The letter is dated September 5, 2025, though the published date is November 20, 2026.",
+        "companies": [
+          {
+            "company": "Ogle Cattle Company, Inc.",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 1
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_00dab7299a1253",
+      "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-11-20T10:04:59-05:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
+      "category": "regulatory",
+      "body_chars": 2286,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "biotechnology",
+          "clinical research"
+        ],
+        "companies": [
+          {
+            "company": "Stephen J. Fallon, Ph.D.",
+            "role": "subject",
+            "ticker": ""
+          }
+        ],
+        "direction": "likely_negative",
+        "event_type": "enforcement",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "scheduled_date": "",
+        "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_90dd6bff635198",
+      "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-11-20T10:04:31-05:00",
+      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
+      "category": "regulatory",
+      "body_chars": 12347,
+      "has_body": true,
+      "findings": {
+        "event_type": "enforcement",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "summary": "FDA CBER issued a warning letter to Dr. Stephen J. Fallon, a clinical investigator, citing informed consent, IRB approval, protocol-adherence, and recordkeeping violations found in a June 2025 BIMO inspection of Study CLS-003 (an INSTI HIV Self-Test study). The letter is addressed to an individual investigator and names no public company.",
+        "companies": [],
+        "direction": "unclear",
+        "affected_sectors": [
+          "biotechnology",
+          "diagnostics"
+        ]
+      },
+      "_state": "new"
     },
     {
       "event_id": "cat_8cf63b9f3cc161",
@@ -111,6 +403,172 @@
         "is_market_relevant": true
       },
       "_state": "seen"
+    },
+    {
+      "event_id": "cat_f0ec84d7bd426c",
+      "title": "Office of Health Advancement (OHA) Guidance Documents",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T08:09:38-05:00",
+      "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+      "category": "regulatory",
+      "body_chars": 1915,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "pharmaceuticals",
+          "biotechnology",
+          "medical devices"
+        ],
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "other",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "scheduled_date": "",
+        "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_f0ec84d7bd426c",
+      "title": "Office of Health Advancement (OHA) Guidance Documents",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-11-20T08:09:38-05:00",
+      "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+      "category": "regulatory",
+      "body_chars": 1915,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "pharmaceuticals",
+          "biotechnology",
+          "medical devices"
+        ],
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "other",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "scheduled_date": "",
+        "summary": "FDA's Office of Health Advancement (formerly OCMO) published a general webpage describing its role and the non-binding nature of its guidance documents, covering combination products, pediatric products, rare disease incentives, clinical trials, and medical countermeasures. No specific new guidance or action is announced."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_2d7d92d6ce701b",
+      "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
+      "source": "FDA Biologics and Vaccines",
+      "published": "2026-11-20T07:13:34-05:00",
+      "url": "http://www.fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
+      "category": "regulatory",
+      "body_chars": 2196,
+      "has_body": true,
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "other",
+        "summary": "FDA posted the roster of the Vaccines and Related Biological Products Advisory Committee, noting 8 vacancies and requesting nominations for committee members. The roster lists current members, an alternate industry representative from Merck & Co., and an FDA contact.",
+        "companies": [],
+        "direction": "unclear",
+        "materiality": 1
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_4401022f6bfe2a",
+      "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+      "source": "FDA MedWatch Safety Alerts",
+      "published": "2026-11-20T00:00:00-05:00",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+      "category": "regulatory",
+      "body_chars": 3224,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "Pharmaceuticals",
+          "Generic Drugs"
+        ],
+        "companies": [
+          {
+            "company": "Breckenridge Pharmaceutical, Inc.",
+            "ticker": "",
+            "role": "subject"
+          },
+          {
+            "company": "Adare Pharma Solutions",
+            "ticker": "",
+            "role": "partner"
+          }
+        ],
+        "direction": "likely_negative",
+        "event_type": "recall_safety",
+        "is_market_relevant": true,
+        "materiality": 2,
+        "scheduled_date": "",
+        "summary": "Breckenridge Pharmaceutical voluntarily recalled to the consumer level one lot (PK25110035) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, manufactured by Adare Pharma Solutions, due to potential metal contamination that could cause soft tissue lacerations. No adverse events related to the recall were reported to date; the lot was distributed nationwide between October 26 and November 4, 2026."
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_cb9b882dda5955",
+      "title": "Early Alert: Heraeus Medical Components Removes Vascular Guidewires",
+      "source": "FDA MedWatch Safety Alerts",
+      "published": "2026-11-20T00:00:00-05:00",
+      "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heraeus-medical-components-removes-vascular-guidewires",
+      "category": "regulatory",
+      "body_chars": 4115,
+      "has_body": true,
+      "findings": {
+        "event_type": "recall_safety",
+        "summary": "FDA issued an Early Alert that Heraeus Medevio is voluntarily recalling certain Navilyst, Spectrum, and Arrow Marked vascular guidewire lots due to hydrophilic coating that may swell inconsistently, clump, and flake, risking particle embolization. Heraeus reported no serious injuries or deaths as of November 5, 2026.",
+        "companies": [
+          {
+            "company": "Heraeus Medical Components (Heraeus Medevio)",
+            "ticker": "",
+            "role": "subject"
+          }
+        ],
+        "direction": "likely_negative",
+        "materiality": 2,
+        "is_market_relevant": true,
+        "affected_sectors": [
+          "medical devices"
+        ]
+      },
+      "_state": "new"
+    },
+    {
+      "event_id": "cat_d450ef37509e8e",
+      "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
+      "source": "FDA MedWatch Safety Alerts",
+      "published": "2026-11-20T00:00:00-05:00",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+      "category": "regulatory",
+      "body_chars": 3418,
+      "has_body": true,
+      "findings": {
+        "is_market_relevant": false,
+        "event_type": "recall_safety",
+        "summary": "Greenwich Rx, a Tomball, Texas 503A compounding pharmacy, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates due to potential lack of sterility assurance, following an FDA inspection. No adverse events have been reported to date; the products were dispensed nationwide between August 10 and September 21, 2026.",
+        "companies": [
+          {
+            "company": "Greenwich Rx",
+            "ticker": "",
+            "role": "subject"
+          },
+          {
+            "company": "Clove Rx",
+            "ticker": "",
+            "role": "partner"
+          }
+        ],
+        "direction": "unclear",
+        "materiality": 1,
+        "affected_sectors": [
+          "compounded drugs",
+          "healthcare services"
+        ]
+      },
+      "_state": "new"
     },
     {
       "event_id": "cat_3a68823c8daed0",
@@ -203,7 +661,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-21T18:42:14.111926+00:00",
+    "last_run": "2026-11-21T23:44:50.062552+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -248,11 +706,11 @@
   "shared_events": [],
   "channel_originality": [],
   "freshness_meta": {
-    "data_floor": null,
-    "data_days": 0,
+    "data_floor": "2026-11-18",
+    "data_days": 1,
     "censored_tickers": 0,
     "age_signal_reliable": false,
-    "days_needed": 21,
+    "days_needed": 20,
     "note": "Tickers first seen on the data floor date have unknown true age. There is no 'new' state: a single sighting cannot be told apart from a name we had not sampled yet. Coverage-age states need >=21 days of history to mean anything; the text-based states (late_to_story, forward_catalyst) are valid immediately."
   },
   "rank_meta": {
@@ -273,7 +731,440 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [],
+    "new": [
+      {
+        "event_id": "cat_d450ef37509e8e",
+        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T18:30:08-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+        "category": "regulatory",
+        "body_chars": 3418,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "compounded drugs",
+            "pharmacy services",
+            "healthcare"
+          ],
+          "companies": [
+            {
+              "company": "Greenwich Rx",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Clove Rx",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "scheduled_date": "",
+          "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_47aeef023a0472",
+        "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T18:11:20-05:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+        "category": "regulatory",
+        "body_chars": 6592,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "biotechnology",
+            "rare disease therapeutics",
+            "cell and gene therapy"
+          ],
+          "companies": [
+            {
+              "company": "Capricor Therapeutics, Inc.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "regulatory_action",
+          "is_market_relevant": true,
+          "materiality": 5,
+          "scheduled_date": "",
+          "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_c11410413280a4",
+        "title": "Report on the State of Pharmaceutical Quality",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T16:16:10-05:00",
+        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
+        "category": "regulatory",
+        "body_chars": 1869,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "pharmaceuticals",
+            "drug manufacturing"
+          ],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
+          "companies": []
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_f089159bf084a0",
+        "title": "Generic Drug User Fee Amendments",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T15:59:30-05:00",
+        "url": "http://www.fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+        "category": "regulatory",
+        "body_chars": 39404,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA's GDUFA program page restates GDUFA III reauthorization through September 2027, publishes FY 2026 and FY 2027 user fee rates (FY 2027 ANDA fee $375,684), and provides general fee payment and administrative instructions.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_4401022f6bfe2a",
+        "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T14:05:14-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+        "category": "regulatory",
+        "body_chars": 3224,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "recall_safety",
+          "summary": "Breckenridge Pharmaceutical is voluntarily recalling to the consumer level one lot (PK25110035, exp. May 2029) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, 100-count bottles, due to potential metal contamination that could cause soft tissue lacerations. No related adverse events reported to date; product was distributed nationwide October 26 to November 4, 2026.",
+          "companies": [
+            {
+              "company": "Breckenridge Pharmaceutical, Inc.",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Adare Pharma Solutions",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_9c7efce6ed3303",
+        "title": "First Generic Drug Approvals",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T12:12:45-05:00",
+        "url": "http://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
+        "category": "regulatory",
+        "body_chars": 26896,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "Pharmaceuticals",
+            "Generic drugs"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "macro_data",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_c383ee587af4bb",
+        "title": "Office of Infectious Diseases Research Activities",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T12:12:05-05:00",
+        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
+        "category": "regulatory",
+        "body_chars": 2540,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "biotechnology",
+            "pharmaceuticals",
+            "antimicrobials"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "2026-12-08",
+          "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_fc5c07d291eaf5",
+        "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T10:20:13-05:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
+        "category": "regulatory",
+        "body_chars": 9018,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "enforcement",
+          "summary": "FDA Center for Veterinary Medicine issued a warning letter to Ogle Cattle Company, a Texas cattle feedlot, citing cattle sold for slaughter with drug residues above tolerance and extralabel use of ceftiofur and enrofloxacin drugs, based on inspections in April to June 2025. The letter is dated September 5, 2025, though the published date is November 20, 2026.",
+          "companies": [
+            {
+              "company": "Ogle Cattle Company, Inc.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 1
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_00dab7299a1253",
+        "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T10:04:59-05:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
+        "category": "regulatory",
+        "body_chars": 2286,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "biotechnology",
+            "clinical research"
+          ],
+          "companies": [
+            {
+              "company": "Stephen J. Fallon, Ph.D.",
+              "role": "subject",
+              "ticker": ""
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "enforcement",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_90dd6bff635198",
+        "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T10:04:31-05:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
+        "category": "regulatory",
+        "body_chars": 12347,
+        "has_body": true,
+        "findings": {
+          "event_type": "enforcement",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA CBER issued a warning letter to Dr. Stephen J. Fallon, a clinical investigator, citing informed consent, IRB approval, protocol-adherence, and recordkeeping violations found in a June 2025 BIMO inspection of Study CLS-003 (an INSTI HIV Self-Test study). The letter is addressed to an individual investigator and names no public company.",
+          "companies": [],
+          "direction": "unclear",
+          "affected_sectors": [
+            "biotechnology",
+            "diagnostics"
+          ]
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_f0ec84d7bd426c",
+        "title": "Office of Health Advancement (OHA) Guidance Documents",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T08:09:38-05:00",
+        "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+        "category": "regulatory",
+        "body_chars": 1915,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "pharmaceuticals",
+            "biotechnology",
+            "medical devices"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_f0ec84d7bd426c",
+        "title": "Office of Health Advancement (OHA) Guidance Documents",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T08:09:38-05:00",
+        "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+        "category": "regulatory",
+        "body_chars": 1915,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "pharmaceuticals",
+            "biotechnology",
+            "medical devices"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA's Office of Health Advancement (formerly OCMO) published a general webpage describing its role and the non-binding nature of its guidance documents, covering combination products, pediatric products, rare disease incentives, clinical trials, and medical countermeasures. No specific new guidance or action is announced."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_2d7d92d6ce701b",
+        "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T07:13:34-05:00",
+        "url": "http://www.fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
+        "category": "regulatory",
+        "body_chars": 2196,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted the roster of the Vaccines and Related Biological Products Advisory Committee, noting 8 vacancies and requesting nominations for committee members. The roster lists current members, an alternate industry representative from Merck & Co., and an FDA contact.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_4401022f6bfe2a",
+        "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+        "source": "FDA MedWatch Safety Alerts",
+        "published": "2026-11-20T00:00:00-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+        "category": "regulatory",
+        "body_chars": 3224,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "Pharmaceuticals",
+            "Generic Drugs"
+          ],
+          "companies": [
+            {
+              "company": "Breckenridge Pharmaceutical, Inc.",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Adare Pharma Solutions",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "scheduled_date": "",
+          "summary": "Breckenridge Pharmaceutical voluntarily recalled to the consumer level one lot (PK25110035) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, manufactured by Adare Pharma Solutions, due to potential metal contamination that could cause soft tissue lacerations. No adverse events related to the recall were reported to date; the lot was distributed nationwide between October 26 and November 4, 2026."
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_cb9b882dda5955",
+        "title": "Early Alert: Heraeus Medical Components Removes Vascular Guidewires",
+        "source": "FDA MedWatch Safety Alerts",
+        "published": "2026-11-20T00:00:00-05:00",
+        "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heraeus-medical-components-removes-vascular-guidewires",
+        "category": "regulatory",
+        "body_chars": 4115,
+        "has_body": true,
+        "findings": {
+          "event_type": "recall_safety",
+          "summary": "FDA issued an Early Alert that Heraeus Medevio is voluntarily recalling certain Navilyst, Spectrum, and Arrow Marked vascular guidewire lots due to hydrophilic coating that may swell inconsistently, clump, and flake, risking particle embolization. Heraeus reported no serious injuries or deaths as of November 5, 2026.",
+          "companies": [
+            {
+              "company": "Heraeus Medical Components (Heraeus Medevio)",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2,
+          "is_market_relevant": true,
+          "affected_sectors": [
+            "medical devices"
+          ]
+        },
+        "_state": "new"
+      },
+      {
+        "event_id": "cat_d450ef37509e8e",
+        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
+        "source": "FDA MedWatch Safety Alerts",
+        "published": "2026-11-20T00:00:00-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+        "category": "regulatory",
+        "body_chars": 3418,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "recall_safety",
+          "summary": "Greenwich Rx, a Tomball, Texas 503A compounding pharmacy, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates due to potential lack of sterility assurance, following an FDA inspection. No adverse events have been reported to date; the products were dispensed nationwide between August 10 and September 21, 2026.",
+          "companies": [
+            {
+              "company": "Greenwich Rx",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Clove Rx",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "unclear",
+          "materiality": 1,
+          "affected_sectors": [
+            "compounded drugs",
+            "healthcare services"
+          ]
+        },
+        "_state": "new"
+      }
+    ],
     "updated": [],
     "unchanged": [
       {
@@ -369,7 +1260,7 @@
       }
     ],
     "counts": {
-      "new": 0,
+      "new": 16,
       "updated": 0,
       "unchanged": 4
     },
@@ -686,11 +1577,38 @@
     "limitation": "No catalyst event currently resolves to a ticker, so nothing can be confirmed. Catalyst articles are being summarised from headlines only, which leaves the model unable to identify the company. This is a pipeline gap, not a verdict on any claim."
   },
   "tier4_candidates": [],
-  "calendar": [],
+  "calendar": [
+    {
+      "event_id": "cat_c383ee587af4bb",
+      "title": "Office of Infectious Diseases Research Activities",
+      "source": "FDA Drugs",
+      "published": "2026-11-20T12:12:05-05:00",
+      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
+      "category": "regulatory",
+      "body_chars": 2540,
+      "has_body": true,
+      "findings": {
+        "affected_sectors": [
+          "biotechnology",
+          "pharmaceuticals",
+          "antimicrobials"
+        ],
+        "companies": [],
+        "direction": "unclear",
+        "event_type": "other",
+        "is_market_relevant": false,
+        "materiality": 1,
+        "scheduled_date": "2026-12-08",
+        "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
+      },
+      "_state": "new",
+      "_when": "2026-12-08"
+    }
+  ],
   "orphan_catalysts": [],
-  "blocked_count": 8,
-  "skipped_count": 0,
-  "pending_count": 8,
+  "blocked_count": 0,
+  "skipped_count": 8,
+  "pending_count": 0,
   "data_quality": {
     "counts": {
       "usable": 34,
@@ -1496,6 +2414,211 @@
     "priority": [],
     "archive": [
       {
+        "event_id": "cat_d450ef37509e8e",
+        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T18:30:08-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+        "category": "regulatory",
+        "body_chars": 3418,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "compounded drugs",
+            "pharmacy services",
+            "healthcare"
+          ],
+          "companies": [
+            {
+              "company": "Greenwich Rx",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Clove Rx",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "scheduled_date": "",
+          "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
+        },
+        "_state": "new",
+        "_duplicates": [
+          "FDA MedWatch Safety Alerts"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "3418 characters of announcement text"
+          },
+          "materiality": 2,
+          "age_days": 1.0108611136342591
+        }
+      },
+      {
+        "event_id": "cat_47aeef023a0472",
+        "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T18:11:20-05:00",
+        "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+        "category": "regulatory",
+        "body_chars": 6592,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "biotechnology",
+            "rare disease therapeutics",
+            "cell and gene therapy"
+          ],
+          "companies": [
+            {
+              "company": "Capricor Therapeutics, Inc.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "regulatory_action",
+          "is_market_relevant": true,
+          "materiality": 5,
+          "scheduled_date": "",
+          "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "6592 characters of announcement text"
+          },
+          "materiality": 5,
+          "age_days": 1.0239166691898147
+        }
+      },
+      {
+        "event_id": "cat_c11410413280a4",
+        "title": "Report on the State of Pharmaceutical Quality",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T16:16:10-05:00",
+        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
+        "category": "regulatory",
+        "body_chars": 1869,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "pharmaceuticals",
+            "drug manufacturing"
+          ],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
+          "companies": []
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "1869 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.1038935210416667
+        }
+      },
+      {
+        "event_id": "cat_f089159bf084a0",
+        "title": "Generic Drug User Fee Amendments",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T15:59:30-05:00",
+        "url": "http://www.fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
+        "category": "regulatory",
+        "body_chars": 39404,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA's GDUFA program page restates GDUFA III reauthorization through September 2027, publishes FY 2026 and FY 2027 user fee rates (FY 2027 ANDA fee $375,684), and provides general fee payment and administrative instructions.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "39404 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.1154675951157407
+        }
+      },
+      {
+        "event_id": "cat_4401022f6bfe2a",
+        "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T14:05:14-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
+        "category": "regulatory",
+        "body_chars": 3224,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": true,
+          "event_type": "recall_safety",
+          "summary": "Breckenridge Pharmaceutical is voluntarily recalling to the consumer level one lot (PK25110035, exp. May 2029) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, 100-count bottles, due to potential metal contamination that could cause soft tissue lacerations. No related adverse events reported to date; product was distributed nationwide October 26 to November 4, 2026.",
+          "companies": [
+            {
+              "company": "Breckenridge Pharmaceutical, Inc.",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Adare Pharma Solutions",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2
+        },
+        "_state": "new",
+        "_duplicates": [
+          "FDA MedWatch Safety Alerts"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "3224 characters of announcement text"
+          },
+          "materiality": 2,
+          "age_days": 1.1948194469675926
+        }
+      },
+      {
         "event_id": "cat_31dfa678a4d112",
         "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
         "source": "SEC Press Releases",
@@ -1524,7 +2647,194 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.0276900003703704
+          "age_days": 1.2377592617824074
+        }
+      },
+      {
+        "event_id": "cat_9c7efce6ed3303",
+        "title": "First Generic Drug Approvals",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T12:12:45-05:00",
+        "url": "http://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
+        "category": "regulatory",
+        "body_chars": 26896,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "Pharmaceuticals",
+            "Generic drugs"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "macro_data",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "26896 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.2729328728935185
+        }
+      },
+      {
+        "event_id": "cat_c383ee587af4bb",
+        "title": "Office of Infectious Diseases Research Activities",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T12:12:05-05:00",
+        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
+        "category": "regulatory",
+        "body_chars": 2540,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "biotechnology",
+            "pharmaceuticals",
+            "antimicrobials"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "2026-12-08",
+          "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "2540 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.2733958358564814
+        }
+      },
+      {
+        "event_id": "cat_fc5c07d291eaf5",
+        "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T10:20:13-05:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
+        "category": "regulatory",
+        "body_chars": 9018,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "enforcement",
+          "summary": "FDA Center for Veterinary Medicine issued a warning letter to Ogle Cattle Company, a Texas cattle feedlot, citing cattle sold for slaughter with drug residues above tolerance and extralabel use of ceftiofur and enrofloxacin drugs, based on inspections in April to June 2025. The letter is dated September 5, 2025, though the published date is November 20, 2026.",
+          "companies": [
+            {
+              "company": "Ogle Cattle Company, Inc.",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 1
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "9018 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.3510810210416666
+        }
+      },
+      {
+        "event_id": "cat_00dab7299a1253",
+        "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T10:04:59-05:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
+        "category": "regulatory",
+        "body_chars": 2286,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "biotechnology",
+            "clinical research"
+          ],
+          "companies": [
+            {
+              "company": "Stephen J. Fallon, Ph.D.",
+              "role": "subject",
+              "ticker": ""
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "enforcement",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "2286 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.3616597247453703
+        }
+      },
+      {
+        "event_id": "cat_90dd6bff635198",
+        "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T10:04:31-05:00",
+        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
+        "category": "regulatory",
+        "body_chars": 12347,
+        "has_body": true,
+        "findings": {
+          "event_type": "enforcement",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "summary": "FDA CBER issued a warning letter to Dr. Stephen J. Fallon, a clinical investigator, citing informed consent, IRB approval, protocol-adherence, and recordkeeping violations found in a June 2025 BIMO inspection of Study CLS-003 (an INSTI HIV Self-Test study). The letter is addressed to an individual investigator and names no public company.",
+          "companies": [],
+          "direction": "unclear",
+          "affected_sectors": [
+            "biotechnology",
+            "diagnostics"
+          ]
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "12347 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.3619837988194443
         }
       },
       {
@@ -1561,7 +2871,118 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.1769492596296296
+          "age_days": 1.3870185210416666
+        }
+      },
+      {
+        "event_id": "cat_f0ec84d7bd426c",
+        "title": "Office of Health Advancement (OHA) Guidance Documents",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T08:09:38-05:00",
+        "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
+        "category": "regulatory",
+        "body_chars": 1915,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "pharmaceuticals",
+            "biotechnology",
+            "medical devices"
+          ],
+          "companies": [],
+          "direction": "unclear",
+          "event_type": "other",
+          "is_market_relevant": false,
+          "materiality": 1,
+          "scheduled_date": "",
+          "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
+        },
+        "_state": "new",
+        "_duplicates": [
+          "FDA Biologics and Vaccines"
+        ],
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "1915 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.441763891412037
+        }
+      },
+      {
+        "event_id": "cat_2d7d92d6ce701b",
+        "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
+        "source": "FDA Biologics and Vaccines",
+        "published": "2026-11-20T07:13:34-05:00",
+        "url": "http://www.fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
+        "category": "regulatory",
+        "body_chars": 2196,
+        "has_body": true,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "other",
+          "summary": "FDA posted the roster of the Vaccines and Related Biological Products Advisory Committee, noting 8 vacancies and requesting nominations for committee members. The roster lists current members, an alternate industry representative from Merck & Co., and an FDA contact.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "2196 characters of announcement text"
+          },
+          "materiality": 1,
+          "age_days": 1.480699076597222
+        }
+      },
+      {
+        "event_id": "cat_cb9b882dda5955",
+        "title": "Early Alert: Heraeus Medical Components Removes Vascular Guidewires",
+        "source": "FDA MedWatch Safety Alerts",
+        "published": "2026-11-20T00:00:00-05:00",
+        "url": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heraeus-medical-components-removes-vascular-guidewires",
+        "category": "regulatory",
+        "body_chars": 4115,
+        "has_body": true,
+        "findings": {
+          "event_type": "recall_safety",
+          "summary": "FDA issued an Early Alert that Heraeus Medevio is voluntarily recalling certain Navilyst, Spectrum, and Arrow Marked vascular guidewire lots due to hydrophilic coating that may swell inconsistently, clump, and flake, risking particle embolization. Heraeus reported no serious injuries or deaths as of November 5, 2026.",
+          "companies": [
+            {
+              "company": "Heraeus Medical Components (Heraeus Medevio)",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2,
+          "is_market_relevant": true,
+          "affected_sectors": [
+            "medical devices"
+          ]
+        },
+        "_state": "new",
+        "_radar": {
+          "bucket": "archive",
+          "reason": "no verified public company behind it",
+          "verified": [],
+          "evidence": {
+            "primary": true,
+            "grade": "body read",
+            "why": "4115 characters of announcement text"
+          },
+          "materiality": 2,
+          "age_days": 1.7817870395601851
         }
       },
       {
@@ -1596,7 +3017,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 2.169611296666667
+          "age_days": 2.3796805580787037
         }
       },
       {
@@ -1631,58 +3052,58 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 2.9883844448148147
+          "age_days": 3.198453706226852
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 0,
-      "archive": 4
+      "archive": 17
     },
-    "duplicates_collapsed": 0,
+    "duplicates_collapsed": 3,
     "headline_only_promoted": 0,
     "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 4
+      "no verified public company behind it": 17
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-21T18:38:53.403487+00:00",
-      "display": "Nov 21, 1:38 PM EST",
+      "at": "2026-11-21T23:39:47.276954+00:00",
+      "display": "Nov 21, 6:39 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07305913750000001
+      "age_hours": 0.09975666138888889
     },
     "last_success": {
-      "at": "2026-11-21T11:56:47.747470+00:00",
-      "display": "Nov 21, 6:56 AM EST",
+      "at": "2026-11-21T18:38:53.403487+00:00",
+      "display": "Nov 21, 1:38 PM EST",
       "trigger": "github-actions",
-      "age_hours": 6.774630253333334,
+      "age_hours": 5.114721513333333,
       "ingested": 0
     },
-    "stale": true,
+    "stale": false,
     "expected_hours": 6.0,
-    "overdue_hours": 0.8,
-    "stale_message": "No successful ingestion in 6.8h - 0.8h past the expected 6h schedule",
+    "overdue_hours": 0.0,
+    "stale_message": "",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
-      "count": 0,
-      "channels": 0,
-      "newest_published": null,
-      "newest_published_display": "unknown",
-      "newest_ingested": null,
-      "newest_ingested_display": "not recorded before this release"
+      "count": 1,
+      "channels": 1,
+      "newest_published": "2026-11-18T08:00:39+00:00",
+      "newest_published_display": "Nov 18, 3:00 AM EST",
+      "newest_ingested": "2026-11-21T23:44:21.573033+00:00",
+      "newest_ingested_display": "Nov 21, 6:44 PM EST"
     },
     "market_data": {
-      "attempted": "2026-11-21T18:42:14.111926+00:00",
-      "as_of": "2026-11-21T18:42:14.111926+00:00",
-      "as_of_display": "Nov 21, 1:42 PM EST",
-      "attempted_display": "Nov 21, 1:42 PM EST",
+      "attempted": "2026-11-21T23:44:50.062552+00:00",
+      "as_of": "2026-11-21T23:44:50.062552+00:00",
+      "as_of_display": "Nov 21, 6:44 PM EST",
+      "attempted_display": "Nov 21, 6:44 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1693,12 +3114,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-21T18:38:53.403487+00:00",
-        "display": "Sat 1:38 PM EST",
+        "started": "2026-11-21T23:39:47.276954+00:00",
+        "display": "Sat 6:39 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-21T18:38:53.403487+00:00",
+        "display": "Sat 1:38 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-21T11:56:47.747470+00:00",
@@ -1743,14 +3172,6 @@
       {
         "started": "2026-11-20T00:06:25.923075+00:00",
         "display": "Thu 7:06 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-19T17:52:40.478223+00:00",
-        "display": "Thu 12:52 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
