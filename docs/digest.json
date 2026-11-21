@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:57:23.506433+00:00",
+  "generated_at": "2026-11-21T03:44:04.803924+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -85,7 +85,7 @@
         "materiality": 1,
         "affected_sectors": []
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_8cf63b9f3cc161",
@@ -203,7 +203,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-20T22:57:23.617863+00:00",
+    "last_run": "2026-11-21T03:44:04.913285+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -273,7 +273,9 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
+    "new": [],
+    "updated": [],
+    "unchanged": [
       {
         "event_id": "cat_31dfa678a4d112",
         "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
@@ -292,11 +294,8 @@
           "materiality": 1,
           "affected_sectors": []
         },
-        "_state": "new"
-      }
-    ],
-    "updated": [],
-    "unchanged": [
+        "_state": "seen"
+      },
       {
         "event_id": "cat_8cf63b9f3cc161",
         "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
@@ -370,11 +369,11 @@
       }
     ],
     "counts": {
-      "new": 1,
+      "new": 0,
       "updated": 0,
-      "unchanged": 3
+      "unchanged": 4
     },
-    "known_events": 141,
+    "known_events": 142,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -1343,19 +1342,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 20
+          "age_days": 21
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 20
+          "age_days": 21
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 20
+          "age_days": 21
         }
       ],
       "failed": []
@@ -1514,7 +1513,7 @@
           "materiality": 1,
           "affected_sectors": []
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -1525,7 +1524,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.2048820876273148
+          "age_days": 0.40389595343749995
         }
       },
       {
@@ -1562,7 +1561,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 0.35414134688657406
+          "age_days": 0.5531552126967593
         }
       },
       {
@@ -1597,7 +1596,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.346803383923611
+          "age_days": 1.5458172497337963
         }
       },
       {
@@ -1632,7 +1631,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 2.1655765320717593
+          "age_days": 2.3645903978819445
         }
       }
     ],
@@ -1651,24 +1650,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-20T22:54:01.207240+00:00",
-      "display": "Nov 20, 5:54 PM EST",
+      "at": "2026-11-21T03:40:42.285062+00:00",
+      "display": "Nov 20, 10:40 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07350157638888889
+      "age_hours": 0.0717571886111111
     },
     "last_success": {
-      "at": "2026-11-20T16:38:10.222407+00:00",
-      "display": "Nov 20, 11:38 AM EST",
+      "at": "2026-11-20T22:54:01.207240+00:00",
+      "display": "Nov 20, 5:54 PM EST",
       "trigger": "github-actions",
-      "age_hours": 6.33766403,
+      "age_hours": 4.849834361388889,
       "ingested": 0
     },
-    "stale": true,
+    "stale": false,
     "expected_hours": 6.0,
-    "overdue_hours": 0.3,
-    "stale_message": "No successful ingestion in 6.3h - 0.3h past the expected 6h schedule",
+    "overdue_hours": 0.0,
+    "stale_message": "",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1680,10 +1679,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-20T22:57:23.617863+00:00",
-      "as_of": "2026-11-20T22:57:23.617863+00:00",
-      "as_of_display": "Nov 20, 5:57 PM EST",
-      "attempted_display": "Nov 20, 5:57 PM EST",
+      "attempted": "2026-11-21T03:44:04.913285+00:00",
+      "as_of": "2026-11-21T03:44:04.913285+00:00",
+      "as_of_display": "Nov 20, 10:44 PM EST",
+      "attempted_display": "Nov 20, 10:44 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1694,12 +1693,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-20T22:54:01.207240+00:00",
-        "display": "Fri 5:54 PM EST",
+        "started": "2026-11-21T03:40:42.285062+00:00",
+        "display": "Fri 10:40 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-20T22:54:01.207240+00:00",
+        "display": "Fri 5:54 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-20T16:38:10.222407+00:00",
@@ -1744,14 +1751,6 @@
       {
         "started": "2026-11-19T00:52:59.440537+00:00",
         "display": "Wed 7:52 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-18T18:32:41.881884+00:00",
-        "display": "Wed 1:32 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
