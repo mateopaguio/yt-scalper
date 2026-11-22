@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "video": {
+      "video_id": "Bcse0Rpbecg",
+      "title": "Disney Left Netflix In the Dust",
+      "channel": "The Compound",
+      "published": "2026-11-21T21:36:16+00:00",
+      "url": "https://www.youtube.com/watch?v=Bcse0Rpbecg",
+      "tier": 1,
+      "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:25:11.719653+00:00",
+    "eligible_since": "2026-11-22T04:25:11.719653+00:00",
+    "last_attempt": "2026-11-22T04:25:11.719653+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "GD3ZJDkYDtg",
+      "title": "McAlvany: Gold Hitting $6,000 by End of 2027, Silver \"Dirt Cheap\" with Risk",
+      "channel": "Schwab Network",
+      "published": "2026-11-21T21:00:19+00:00",
+      "url": "https://www.youtube.com/watch?v=GD3ZJDkYDtg",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:25:36.402255+00:00",
+    "eligible_since": "2026-11-22T04:25:36.402255+00:00",
+    "last_attempt": "2026-11-22T04:25:36.402255+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "lHu6H9aE130",
+      "title": "Tech Corner: NVDA’s Blockbuster Quarter vs. a Deepening Sell-Off",
+      "channel": "Schwab Network",
+      "published": "2026-11-21T18:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=lHu6H9aE130",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:26:01.102015+00:00",
+    "eligible_since": "2026-11-22T04:26:01.102015+00:00",
+    "last_attempt": "2026-11-22T04:26:01.102015+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "_omnfc1liuo",
+      "title": "Watch for these signals next to confirm a market bottom.",
+      "channel": "Investor's Business Daily",
+      "published": "2026-11-21T17:09:16+00:00",
+      "url": "https://www.youtube.com/watch?v=_omnfc1liuo",
+      "tier": 1,
+      "channel_id": "UC5fZv7bPcF5j2RsfO-9OiLA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:26:25.427934+00:00",
+    "eligible_since": "2026-11-22T04:26:25.427934+00:00",
+    "last_attempt": "2026-11-22T04:26:25.427934+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "SopfYgUpDBQ",
+      "title": "Don't Wait Until It's Too Late: Crucial Financial Lessons From 25 Experts",
+      "channel": "Yahoo Finance",
+      "published": "2026-11-21T15:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=SopfYgUpDBQ",
+      "tier": 1,
+      "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:26:50.074199+00:00",
+    "eligible_since": "2026-11-22T04:26:50.074199+00:00",
+    "last_attempt": "2026-11-22T04:26:50.074199+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "sxtXz24odps",
+      "title": "A First Look Inside The Fed’s New AI Task Force",
+      "channel": "CNBC",
+      "published": "2026-11-21T15:00:03+00:00",
+      "url": "https://www.youtube.com/watch?v=sxtXz24odps",
+      "tier": 1,
+      "channel_id": "UCvJJ_dzjViJCoLf5uKUTwoA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:27:14.621427+00:00",
+    "eligible_since": "2026-11-22T04:27:14.621427+00:00",
+    "last_attempt": "2026-11-22T04:27:14.621427+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "OR1IJgyFbS0",
+      "title": "Michael Irvin on if the NFL is supersizing the schedule",
+      "channel": "CNBC Television",
+      "published": "2026-11-21T14:30:23+00:00",
+      "url": "https://www.youtube.com/watch?v=OR1IJgyFbS0",
+      "tier": 1,
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:27:39.261458+00:00",
+    "eligible_since": "2026-11-22T04:27:39.261458+00:00",
+    "last_attempt": "2026-11-22T04:27:39.261458+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  },
+  {
+    "video": {
+      "video_id": "MyZuOb6Y9YU",
+      "title": "Mogharabi: NVDA Earnings Surge \"Green Light\" for AI, Gross Margins Key Concern",
+      "channel": "Schwab Network",
+      "published": "2026-11-21T14:30:21+00:00",
+      "url": "https://www.youtube.com/watch?v=MyZuOb6Y9YU",
+      "tier": 1,
+      "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
+      "source_type": "video"
+    },
+    "attempts": 0,
+    "throttled": 1,
+    "first_seen": "2026-11-22T04:28:03.310003+00:00",
+    "eligible_since": "2026-11-22T04:28:03.310003+00:00",
+    "last_attempt": "2026-11-22T04:28:03.310003+00:00",
+    "reason": "YouTube blocked the request from this IP"
+  }
+]

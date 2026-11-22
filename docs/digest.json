@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T23:44:49.981516+00:00",
+  "generated_at": "2026-11-22T04:28:04.904615+00:00",
   "video_count": 1,
   "videos": [
     {
@@ -127,7 +127,7 @@
         "scheduled_date": "",
         "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
       },
-      "_state": "new"
+      "_state": "updated"
     },
     {
       "event_id": "cat_47aeef023a0472",
@@ -158,7 +158,7 @@
         "scheduled_date": "",
         "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_c11410413280a4",
@@ -181,7 +181,7 @@
         "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
         "companies": []
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_f089159bf084a0",
@@ -200,7 +200,7 @@
         "direction": "unclear",
         "materiality": 1
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_4401022f6bfe2a",
@@ -230,7 +230,7 @@
         "direction": "likely_negative",
         "materiality": 2
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_31dfa678a4d112",
@@ -274,7 +274,7 @@
         "scheduled_date": "",
         "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_c383ee587af4bb",
@@ -299,7 +299,7 @@
         "scheduled_date": "2026-12-08",
         "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_fc5c07d291eaf5",
@@ -324,7 +324,7 @@
         "direction": "likely_negative",
         "materiality": 1
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_00dab7299a1253",
@@ -354,7 +354,7 @@
         "scheduled_date": "",
         "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_90dd6bff635198",
@@ -377,7 +377,7 @@
           "diagnostics"
         ]
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_8cf63b9f3cc161",
@@ -427,7 +427,7 @@
         "scheduled_date": "",
         "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_f0ec84d7bd426c",
@@ -452,7 +452,7 @@
         "scheduled_date": "",
         "summary": "FDA's Office of Health Advancement (formerly OCMO) published a general webpage describing its role and the non-binding nature of its guidance documents, covering combination products, pediatric products, rare disease incentives, clinical trials, and medical countermeasures. No specific new guidance or action is announced."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_2d7d92d6ce701b",
@@ -471,7 +471,7 @@
         "direction": "unclear",
         "materiality": 1
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_4401022f6bfe2a",
@@ -506,7 +506,7 @@
         "scheduled_date": "",
         "summary": "Breckenridge Pharmaceutical voluntarily recalled to the consumer level one lot (PK25110035) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, manufactured by Adare Pharma Solutions, due to potential metal contamination that could cause soft tissue lacerations. No adverse events related to the recall were reported to date; the lot was distributed nationwide between October 26 and November 4, 2026."
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_cb9b882dda5955",
@@ -534,7 +534,7 @@
           "medical devices"
         ]
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_d450ef37509e8e",
@@ -568,7 +568,7 @@
           "healthcare services"
         ]
       },
-      "_state": "new"
+      "_state": "updated"
     },
     {
       "event_id": "cat_3a68823c8daed0",
@@ -661,7 +661,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-21T23:44:50.062552+00:00",
+    "last_run": "2026-11-22T04:28:05.017963+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -731,7 +731,8 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
+    "new": [],
+    "updated": [
       {
         "event_id": "cat_d450ef37509e8e",
         "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
@@ -766,8 +767,10 @@
           "scheduled_date": "",
           "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
         },
-        "_state": "new"
-      },
+        "_previous": "e241f5d436cae4ac"
+      }
+    ],
+    "unchanged": [
       {
         "event_id": "cat_47aeef023a0472",
         "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
@@ -797,7 +800,7 @@
           "scheduled_date": "",
           "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_c11410413280a4",
@@ -820,7 +823,7 @@
           "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
           "companies": []
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_f089159bf084a0",
@@ -839,7 +842,7 @@
           "direction": "unclear",
           "materiality": 1
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_4401022f6bfe2a",
@@ -869,7 +872,27 @@
           "direction": "likely_negative",
           "materiality": 2
         },
-        "_state": "new"
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_31dfa678a4d112",
+        "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+        "source": "SEC Press Releases",
+        "published": "2026-11-20T13:03:24-05:00",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+        "category": "regulatory",
+        "body_chars": 0,
+        "has_body": false,
+        "findings": {
+          "is_market_relevant": false,
+          "event_type": "regulatory_action",
+          "summary": "The SEC announced a proposal to restructure the Consolidated Audit Trail, a market surveillance data system. Only the headline was retrieved, so the proposal's details are unknown.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "affected_sectors": []
+        },
+        "_state": "seen"
       },
       {
         "event_id": "cat_9c7efce6ed3303",
@@ -893,7 +916,7 @@
           "scheduled_date": "",
           "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_c383ee587af4bb",
@@ -918,7 +941,7 @@
           "scheduled_date": "2026-12-08",
           "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_fc5c07d291eaf5",
@@ -943,7 +966,7 @@
           "direction": "likely_negative",
           "materiality": 1
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_00dab7299a1253",
@@ -973,7 +996,7 @@
           "scheduled_date": "",
           "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_90dd6bff635198",
@@ -996,7 +1019,32 @@
             "diagnostics"
           ]
         },
-        "_state": "new"
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_8cf63b9f3cc161",
+        "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+        "source": "SEC Press Releases",
+        "published": "2026-11-20T09:28:28-05:00",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+        "category": "regulatory",
+        "body_chars": 0,
+        "has_body": false,
+        "findings": {
+          "event_type": "enforcement",
+          "summary": "The SEC announced charges against Indianapolis-based Backward Hat Capital and its co-founders over an alleged $560 million offering fraud, and said it obtained emergency relief. Only the headline was retrieved; no body text was available.",
+          "companies": [
+            {
+              "company": "Backward Hat Capital",
+              "ticker": "",
+              "role": "subject"
+            }
+          ],
+          "direction": "likely_negative",
+          "materiality": 2,
+          "is_market_relevant": true
+        },
+        "_state": "seen"
       },
       {
         "event_id": "cat_f0ec84d7bd426c",
@@ -1021,7 +1069,7 @@
           "scheduled_date": "",
           "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_f0ec84d7bd426c",
@@ -1046,7 +1094,7 @@
           "scheduled_date": "",
           "summary": "FDA's Office of Health Advancement (formerly OCMO) published a general webpage describing its role and the non-binding nature of its guidance documents, covering combination products, pediatric products, rare disease incentives, clinical trials, and medical countermeasures. No specific new guidance or action is announced."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_2d7d92d6ce701b",
@@ -1065,7 +1113,7 @@
           "direction": "unclear",
           "materiality": 1
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_4401022f6bfe2a",
@@ -1100,7 +1148,7 @@
           "scheduled_date": "",
           "summary": "Breckenridge Pharmaceutical voluntarily recalled to the consumer level one lot (PK25110035) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, manufactured by Adare Pharma Solutions, due to potential metal contamination that could cause soft tissue lacerations. No adverse events related to the recall were reported to date; the lot was distributed nationwide between October 26 and November 4, 2026."
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_cb9b882dda5955",
@@ -1128,7 +1176,7 @@
             "medical devices"
           ]
         },
-        "_state": "new"
+        "_state": "seen"
       },
       {
         "event_id": "cat_d450ef37509e8e",
@@ -1162,55 +1210,7 @@
             "healthcare services"
           ]
         },
-        "_state": "new"
-      }
-    ],
-    "updated": [],
-    "unchanged": [
-      {
-        "event_id": "cat_31dfa678a4d112",
-        "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
-        "source": "SEC Press Releases",
-        "published": "2026-11-20T13:03:24-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "regulatory_action",
-          "summary": "The SEC announced a proposal to restructure the Consolidated Audit Trail, a market surveillance data system. Only the headline was retrieved, so the proposal's details are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "affected_sectors": []
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_8cf63b9f3cc161",
-        "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
-        "source": "SEC Press Releases",
-        "published": "2026-11-20T09:28:28-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "The SEC announced charges against Indianapolis-based Backward Hat Capital and its co-founders over an alleged $560 million offering fraud, and said it obtained emergency relief. Only the headline was retrieved; no body text was available.",
-          "companies": [
-            {
-              "company": "Backward Hat Capital",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2,
-          "is_market_relevant": true
-        },
-        "_state": "seen"
+        "_state": "updated"
       },
       {
         "event_id": "cat_3a68823c8daed0",
@@ -1260,11 +1260,11 @@
       }
     ],
     "counts": {
-      "new": 16,
-      "updated": 0,
-      "unchanged": 4
+      "new": 0,
+      "updated": 1,
+      "unchanged": 19
     },
-    "known_events": 142,
+    "known_events": 155,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -1601,14 +1601,14 @@
         "scheduled_date": "2026-12-08",
         "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
       },
-      "_state": "new",
+      "_state": "seen",
       "_when": "2026-12-08"
     }
   ],
   "orphan_catalysts": [],
-  "blocked_count": 0,
-  "skipped_count": 8,
-  "pending_count": 0,
+  "blocked_count": 8,
+  "skipped_count": 0,
+  "pending_count": 8,
   "data_quality": {
     "counts": {
       "usable": 34,
@@ -2260,19 +2260,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 21
+          "age_days": 22
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 21
+          "age_days": 22
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 21
+          "age_days": 22
         }
       ],
       "failed": []
@@ -2447,7 +2447,7 @@
           "scheduled_date": "",
           "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
         },
-        "_state": "new",
+        "_state": "updated",
         "_duplicates": [
           "FDA MedWatch Safety Alerts"
         ],
@@ -2461,7 +2461,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 1.0108611136342591
+          "age_days": 1.2076159914583333
         }
       },
       {
@@ -2493,7 +2493,7 @@
           "scheduled_date": "",
           "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2504,7 +2504,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 1.0239166691898147
+          "age_days": 1.220671547013889
         }
       },
       {
@@ -2528,7 +2528,7 @@
           "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
           "companies": []
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2539,7 +2539,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.1038935210416667
+          "age_days": 1.3006483988657407
         }
       },
       {
@@ -2559,7 +2559,7 @@
           "direction": "unclear",
           "materiality": 1
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2570,7 +2570,7 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.1154675951157407
+          "age_days": 1.3122224729398149
         }
       },
       {
@@ -2601,7 +2601,7 @@
           "direction": "likely_negative",
           "materiality": 2
         },
-        "_state": "new",
+        "_state": "seen",
         "_duplicates": [
           "FDA MedWatch Safety Alerts"
         ],
@@ -2615,7 +2615,7 @@
             "why": "3224 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 1.1948194469675926
+          "age_days": 1.3915743247916668
         }
       },
       {
@@ -2647,7 +2647,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.2377592617824074
+          "age_days": 1.4345141396064816
         }
       },
       {
@@ -2672,7 +2672,7 @@
           "scheduled_date": "",
           "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2683,7 +2683,7 @@
             "why": "26896 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.2729328728935185
+          "age_days": 1.4696877507175925
         }
       },
       {
@@ -2709,7 +2709,7 @@
           "scheduled_date": "2026-12-08",
           "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2720,7 +2720,7 @@
             "why": "2540 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.2733958358564814
+          "age_days": 1.4701507136805556
         }
       },
       {
@@ -2746,7 +2746,7 @@
           "direction": "likely_negative",
           "materiality": 1
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2757,7 +2757,7 @@
             "why": "9018 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.3510810210416666
+          "age_days": 1.5478358988657408
         }
       },
       {
@@ -2788,7 +2788,7 @@
           "scheduled_date": "",
           "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2799,7 +2799,7 @@
             "why": "2286 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.3616597247453703
+          "age_days": 1.5584146025694445
         }
       },
       {
@@ -2823,7 +2823,7 @@
             "diagnostics"
           ]
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2834,7 +2834,7 @@
             "why": "12347 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.3619837988194443
+          "age_days": 1.5587386766435187
         }
       },
       {
@@ -2871,7 +2871,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 1.3870185210416666
+          "age_days": 1.583773398865741
         }
       },
       {
@@ -2897,7 +2897,7 @@
           "scheduled_date": "",
           "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
         },
-        "_state": "new",
+        "_state": "seen",
         "_duplicates": [
           "FDA Biologics and Vaccines"
         ],
@@ -2911,7 +2911,7 @@
             "why": "1915 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.441763891412037
+          "age_days": 1.6385187692361112
         }
       },
       {
@@ -2931,7 +2931,7 @@
           "direction": "unclear",
           "materiality": 1
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2942,7 +2942,7 @@
             "why": "2196 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.480699076597222
+          "age_days": 1.6774539544212965
         }
       },
       {
@@ -2971,7 +2971,7 @@
             "medical devices"
           ]
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2982,7 +2982,7 @@
             "why": "4115 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 1.7817870395601851
+          "age_days": 1.9785419173842593
         }
       },
       {
@@ -3017,7 +3017,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 2.3796805580787037
+          "age_days": 2.576435435902778
         }
       },
       {
@@ -3052,7 +3052,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 3.198453706226852
+          "age_days": 3.3952085840509256
         }
       }
     ],
@@ -3071,19 +3071,19 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-21T23:39:47.276954+00:00",
-      "display": "Nov 21, 6:39 PM EST",
+      "at": "2026-11-22T04:24:41.976245+00:00",
+      "display": "Nov 21, 11:24 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.09975666138888889
+      "age_hours": 0.07334621166666666
     },
     "last_success": {
-      "at": "2026-11-21T18:38:53.403487+00:00",
-      "display": "Nov 21, 1:38 PM EST",
+      "at": "2026-11-21T23:39:47.276954+00:00",
+      "display": "Nov 21, 6:39 PM EST",
       "trigger": "github-actions",
-      "age_hours": 5.114721513333333,
-      "ingested": 0
+      "age_hours": 4.821873792500001,
+      "ingested": 8
     },
     "stale": false,
     "expected_hours": 6.0,
@@ -3100,10 +3100,10 @@
       "newest_ingested_display": "Nov 21, 6:44 PM EST"
     },
     "market_data": {
-      "attempted": "2026-11-21T23:44:50.062552+00:00",
-      "as_of": "2026-11-21T23:44:50.062552+00:00",
-      "as_of_display": "Nov 21, 6:44 PM EST",
-      "attempted_display": "Nov 21, 6:44 PM EST",
+      "attempted": "2026-11-22T04:28:05.017963+00:00",
+      "as_of": "2026-11-22T04:28:05.017963+00:00",
+      "as_of_display": "Nov 21, 11:28 PM EST",
+      "attempted_display": "Nov 21, 11:28 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3114,12 +3114,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-21T23:39:47.276954+00:00",
-        "display": "Sat 6:39 PM EST",
+        "started": "2026-11-22T04:24:41.976245+00:00",
+        "display": "Sat 11:24 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-21T23:39:47.276954+00:00",
+        "display": "Sat 6:39 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 8
       },
       {
         "started": "2026-11-21T18:38:53.403487+00:00",
@@ -3164,14 +3172,6 @@
       {
         "started": "2026-11-20T07:56:16.669248+00:00",
         "display": "Fri 2:56 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-20T00:06:25.923075+00:00",
-        "display": "Thu 7:06 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
