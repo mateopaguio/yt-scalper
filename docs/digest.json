@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T10:07:47.292263+00:00",
+  "generated_at": "2026-11-23T22:25:00.138166+00:00",
   "video_count": 1,
   "videos": [
     {
@@ -661,7 +661,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-23T10:07:47.387441+00:00",
+    "last_run": "2026-11-23T22:25:00.251532+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -675,8 +675,8 @@
     "diagnostics": [
       {
         "ticker": "SPY",
-        "bars": 1255,
-        "range": "2021-11-22 .. 2026-11-20",
+        "bars": 1254,
+        "range": "2021-11-24 .. 2026-11-23",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -687,8 +687,8 @@
       },
       {
         "ticker": "QQQ",
-        "bars": 1255,
-        "range": "2021-11-22 .. 2026-11-20",
+        "bars": 1254,
+        "range": "2021-11-24 .. 2026-11-23",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -1611,8 +1611,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 34,
-      "degraded": 8
+      "usable": 33,
+      "degraded": 9
     },
     "usable": [
       "META",
@@ -1642,7 +1642,6 @@
       "KO",
       "KLAC",
       "CAT",
-      "V",
       "SPGI",
       "ADP",
       "COR",
@@ -1672,8 +1671,12 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
+        "ticker": "V",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
         "ticker": "VRT",
-        "detail": "1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "CGNX",
@@ -1690,294 +1693,294 @@
       "META": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NVDA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TSLA": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 416,
+        "bars": 417,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AAPL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LRCX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NFLX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "MSFT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "IBM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 524,
+        "bars": 525,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "GOOGL": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "T": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TMUS": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "WDC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AXP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "HOOD": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "AMZN": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CVX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VZ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "XOM": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "TTWO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "STX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SBUX": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "LLY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KLAC": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CAT": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ADP": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "VRT": {
         "status": "degraded",
-        "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
+        "bars": 1253,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CGNX": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NOK": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "QQQ": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPY": {
         "status": "usable",
         "detail": "complete",
-        "bars": 1255,
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -2461,7 +2464,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.4434849997106483
+          "age_days": 2.9554399712268515
         }
       },
       {
@@ -2504,7 +2507,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 2.4565405552662036
+          "age_days": 2.9684955267824074
         }
       },
       {
@@ -2539,7 +2542,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.5365174071180556
+          "age_days": 3.0484723786342593
         }
       },
       {
@@ -2570,7 +2573,7 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.5480914811921296
+          "age_days": 3.0600464527083333
         }
       },
       {
@@ -2615,7 +2618,7 @@
             "why": "3224 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.6274433330439817
+          "age_days": 3.139398304560185
         }
       },
       {
@@ -2647,7 +2650,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.6703831478587965
+          "age_days": 3.1823381193749998
         }
       },
       {
@@ -2683,7 +2686,7 @@
             "why": "26896 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.7055567589699074
+          "age_days": 3.217511730486111
         }
       },
       {
@@ -2720,7 +2723,7 @@
             "why": "2540 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.7060197219328703
+          "age_days": 3.217974693449074
         }
       },
       {
@@ -2757,7 +2760,7 @@
             "why": "9018 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.7837049071180555
+          "age_days": 3.2956598786342592
         }
       },
       {
@@ -2799,7 +2802,7 @@
             "why": "2286 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.7942836108217595
+          "age_days": 3.3062385823379628
         }
       },
       {
@@ -2834,7 +2837,7 @@
             "why": "12347 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.7946076848958334
+          "age_days": 3.3065626564120367
         }
       },
       {
@@ -2871,7 +2874,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 2.8196424071180557
+          "age_days": 3.331597378634259
         }
       },
       {
@@ -2911,7 +2914,7 @@
             "why": "1915 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.874387777488426
+          "age_days": 3.3863427490046294
         }
       },
       {
@@ -2942,7 +2945,7 @@
             "why": "2196 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.913322962673611
+          "age_days": 3.4252779341898147
         }
       },
       {
@@ -2982,7 +2985,7 @@
             "why": "4115 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.2144109256365736
+          "age_days": 3.7263658971527778
         }
       },
       {
@@ -3017,7 +3020,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.8123044441550924
+          "age_days": 4.324259415671296
         }
       },
       {
@@ -3052,7 +3055,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 4.631077592303241
+          "age_days": 5.143032563819444
         }
       }
     ],
@@ -3071,24 +3074,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-23T10:04:32.721822+00:00",
-      "display": "Nov 23, 5:04 AM EST",
+      "at": "2026-11-23T22:21:51.117415+00:00",
+      "display": "Nov 23, 5:21 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07010636916666667
+      "age_hours": 0.06858251833333333
     },
     "last_success": {
-      "at": "2026-11-23T01:18:03.296087+00:00",
-      "display": "Nov 22, 8:18 PM EST",
+      "at": "2026-11-23T10:04:32.721822+00:00",
+      "display": "Nov 23, 5:04 AM EST",
       "trigger": "github-actions",
-      "age_hours": 8.84494685111111,
+      "age_hours": 12.35702573861111,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 2.8,
-    "stale_message": "No successful ingestion in 8.8h - 2.8h past the expected 6h schedule",
+    "overdue_hours": 6.4,
+    "stale_message": "No successful ingestion in 12.4h - 6.4h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3100,10 +3103,10 @@
       "newest_ingested_display": "Nov 21, 6:44 PM EST"
     },
     "market_data": {
-      "attempted": "2026-11-23T10:07:47.387441+00:00",
-      "as_of": "2026-11-23T10:07:47.387441+00:00",
-      "as_of_display": "Nov 23, 5:07 AM EST",
-      "attempted_display": "Nov 23, 5:07 AM EST",
+      "attempted": "2026-11-23T22:25:00.251532+00:00",
+      "as_of": "2026-11-23T22:25:00.251532+00:00",
+      "as_of_display": "Nov 23, 5:25 PM EST",
+      "attempted_display": "Nov 23, 5:25 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3114,12 +3117,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-23T10:04:32.721822+00:00",
-        "display": "Mon 5:04 AM EST",
+        "started": "2026-11-23T22:21:51.117415+00:00",
+        "display": "Mon 5:21 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-23T10:04:32.721822+00:00",
+        "display": "Mon 5:04 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-23T01:18:03.296087+00:00",
@@ -3164,14 +3175,6 @@
       {
         "started": "2026-11-21T18:38:53.403487+00:00",
         "display": "Sat 1:38 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-21T11:56:47.747470+00:00",
-        "display": "Sat 6:56 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
