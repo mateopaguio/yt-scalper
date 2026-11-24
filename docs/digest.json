@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:25:00.138166+00:00",
+  "generated_at": "2026-11-24T06:42:10.056452+00:00",
   "video_count": 1,
   "videos": [
     {
@@ -661,7 +661,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-23T22:25:00.251532+00:00",
+    "last_run": "2026-11-24T06:42:10.175307+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -1611,8 +1611,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 33,
-      "degraded": 9
+      "usable": 34,
+      "degraded": 8
     },
     "usable": [
       "META",
@@ -1642,6 +1642,7 @@
       "KO",
       "KLAC",
       "CAT",
+      "V",
       "SPGI",
       "ADP",
       "COR",
@@ -1671,12 +1672,8 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
-        "ticker": "V",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "VRT",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "CGNX",
@@ -1915,9 +1912,9 @@
         "provider": "yfinance"
       },
       "V": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1253,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1937,8 +1934,8 @@
       },
       "VRT": {
         "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
-        "bars": 1253,
+        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -2263,19 +2260,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 23
+          "age_days": 24
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 23
+          "age_days": 24
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 23
+          "age_days": 24
         }
       ],
       "failed": []
@@ -2464,7 +2461,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 2.9554399712268515
+          "age_days": 3.3007243030787037
         }
       },
       {
@@ -2507,7 +2504,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 2.9684955267824074
+          "age_days": 3.3137798586342595
         }
       },
       {
@@ -2542,7 +2539,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.0484723786342593
+          "age_days": 3.3937567104861115
         }
       },
       {
@@ -2573,7 +2570,7 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.0600464527083333
+          "age_days": 3.4053307845601855
         }
       },
       {
@@ -2618,7 +2615,7 @@
             "why": "3224 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.139398304560185
+          "age_days": 3.484682636412037
         }
       },
       {
@@ -2650,7 +2647,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 3.1823381193749998
+          "age_days": 3.527622451226852
         }
       },
       {
@@ -2686,7 +2683,7 @@
             "why": "26896 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.217511730486111
+          "age_days": 3.5627960623379633
         }
       },
       {
@@ -2723,7 +2720,7 @@
             "why": "2540 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.217974693449074
+          "age_days": 3.563259025300926
         }
       },
       {
@@ -2760,7 +2757,7 @@
             "why": "9018 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.2956598786342592
+          "age_days": 3.6409442104861114
         }
       },
       {
@@ -2802,7 +2799,7 @@
             "why": "2286 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.3062385823379628
+          "age_days": 3.651522914189815
         }
       },
       {
@@ -2837,7 +2834,7 @@
             "why": "12347 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.3065626564120367
+          "age_days": 3.651846988263889
         }
       },
       {
@@ -2874,7 +2871,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 3.331597378634259
+          "age_days": 3.676881710486111
         }
       },
       {
@@ -2914,7 +2911,7 @@
             "why": "1915 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.3863427490046294
+          "age_days": 3.7316270808564815
         }
       },
       {
@@ -2945,7 +2942,7 @@
             "why": "2196 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.4252779341898147
+          "age_days": 3.770562266041667
         }
       },
       {
@@ -2985,7 +2982,7 @@
             "why": "4115 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 3.7263658971527778
+          "age_days": 4.0716502290046295
         }
       },
       {
@@ -3020,7 +3017,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.324259415671296
+          "age_days": 4.669543747523148
         }
       },
       {
@@ -3055,7 +3052,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 5.143032563819444
+          "age_days": 5.488316895671296
         }
       }
     ],
@@ -3074,24 +3071,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-23T22:21:51.117415+00:00",
-      "display": "Nov 23, 5:21 PM EST",
+      "at": "2026-11-24T06:38:50.898119+00:00",
+      "display": "Nov 24, 1:38 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.06858251833333333
+      "age_hours": 0.072134005
     },
     "last_success": {
-      "at": "2026-11-23T10:04:32.721822+00:00",
-      "display": "Nov 23, 5:04 AM EST",
+      "at": "2026-11-23T22:21:51.117415+00:00",
+      "display": "Nov 23, 5:21 PM EST",
       "trigger": "github-actions",
-      "age_hours": 12.35702573861111,
+      "age_hours": 8.355406422777778,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 6.4,
-    "stale_message": "No successful ingestion in 12.4h - 6.4h past the expected 6h schedule",
+    "overdue_hours": 2.4,
+    "stale_message": "No successful ingestion in 8.4h - 2.4h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3103,10 +3100,10 @@
       "newest_ingested_display": "Nov 21, 6:44 PM EST"
     },
     "market_data": {
-      "attempted": "2026-11-23T22:25:00.251532+00:00",
-      "as_of": "2026-11-23T22:25:00.251532+00:00",
-      "as_of_display": "Nov 23, 5:25 PM EST",
-      "attempted_display": "Nov 23, 5:25 PM EST",
+      "attempted": "2026-11-24T06:42:10.175307+00:00",
+      "as_of": "2026-11-24T06:42:10.175307+00:00",
+      "as_of_display": "Nov 24, 1:42 AM EST",
+      "attempted_display": "Nov 24, 1:42 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3117,12 +3114,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-23T22:21:51.117415+00:00",
-        "display": "Mon 5:21 PM EST",
+        "started": "2026-11-24T06:38:50.898119+00:00",
+        "display": "Tue 1:38 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-23T22:21:51.117415+00:00",
+        "display": "Mon 5:21 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-23T10:04:32.721822+00:00",
@@ -3171,14 +3176,6 @@
         "ok": true,
         "error": "",
         "ingested": 8
-      },
-      {
-        "started": "2026-11-21T18:38:53.403487+00:00",
-        "display": "Sat 1:38 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
       }
     ],
     "alerting": {
