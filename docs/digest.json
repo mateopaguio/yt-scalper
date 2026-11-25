@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-11-25T02:56:10.113156+00:00",
-  "video_count": 1,
-  "videos": [
-    {
-      "video_id": "zxP4M7t8xZo",
-      "title": "Year End Job Cuts Coming 11/18/26",
-      "channel": "CNBC Television",
-      "published": "2026-11-18T08:00:39+00:00",
-      "url": "https://www.youtube.com/watch?v=zxP4M7t8xZo",
-      "tier": 1,
-      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-      "source_type": "video",
-      "findings": null,
-      "skip_reason": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=zxP4M7t8xZo! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden for url: https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "ingested_at": "2026-11-21T23:44:21.573033+00:00",
-      "relevance": {
-        "bucket": "market_context",
-        "signals": {
-          "tickers": 0,
-          "substantive_tickers": 0,
-          "macro_points": 0,
-          "off_topic_title": false,
-          "macro_language": false,
-          "analysed": false
-        },
-        "reason": "not analysed yet - unknown, not irrelevant"
-      }
-    }
-  ],
+  "generated_at": "2026-11-25T12:00:53.783033+00:00",
+  "video_count": 0,
+  "videos": [],
   "aggregate": {
     "tickers": [],
     "multi_channel": [],
@@ -38,11 +12,11 @@
     "echo_chamber": [],
     "channel_originality": [],
     "freshness_meta": {
-      "data_floor": "2026-11-18",
-      "data_days": 1,
+      "data_floor": null,
+      "data_days": 0,
       "censored_tickers": 0,
       "age_signal_reliable": false,
-      "days_needed": 20,
+      "days_needed": 21,
       "note": "Tickers first seen on the data floor date have unknown true age. There is no 'new' state: a single sighting cannot be told apart from a name we had not sampled yet. Coverage-age states need >=21 days of history to mean anything; the text-based states (late_to_story, forward_catalyst) are valid immediately."
     },
     "ranked": [],
@@ -110,7 +84,7 @@
         "materiality": 1,
         "is_market_relevant": false
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_d450ef37509e8e",
@@ -680,7 +654,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-25T02:56:10.177504+00:00",
+    "last_run": "2026-11-25T12:00:53.970535+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -725,11 +699,11 @@
   "shared_events": [],
   "channel_originality": [],
   "freshness_meta": {
-    "data_floor": "2026-11-18",
-    "data_days": 1,
+    "data_floor": null,
+    "data_days": 0,
     "censored_tickers": 0,
     "age_signal_reliable": false,
-    "days_needed": 20,
+    "days_needed": 21,
     "note": "Tickers first seen on the data floor date have unknown true age. There is no 'new' state: a single sighting cannot be told apart from a name we had not sampled yet. Coverage-age states need >=21 days of history to mean anything; the text-based states (late_to_story, forward_catalyst) are valid immediately."
   },
   "rank_meta": {
@@ -750,27 +724,7 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
-      {
-        "event_id": "cat_04af64fc022b29",
-        "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-        "source": "Fed Monetary Policy",
-        "published": "2026-11-24T19:00:00+00:00",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
-        "category": "macro",
-        "body_chars": 660,
-        "has_body": true,
-        "findings": {
-          "event_type": "macro_rates",
-          "summary": "The Federal Reserve Board released minutes of its October 19 and October 28, 2026 meetings on the discount rate charged to depository institutions through the discount window. The release notes the discount rate process is separate from the FOMC's federal funds target setting.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false
-        },
-        "_state": "new"
-      }
-    ],
+    "new": [],
     "updated": [
       {
         "event_id": "cat_d450ef37509e8e",
@@ -810,6 +764,25 @@
       }
     ],
     "unchanged": [
+      {
+        "event_id": "cat_04af64fc022b29",
+        "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+        "source": "Fed Monetary Policy",
+        "published": "2026-11-24T19:00:00+00:00",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+        "category": "macro",
+        "body_chars": 660,
+        "has_body": true,
+        "findings": {
+          "event_type": "macro_rates",
+          "summary": "The Federal Reserve Board released minutes of its October 19 and October 28, 2026 meetings on the discount rate charged to depository institutions through the discount window. The release notes the discount rate process is separate from the FOMC's federal funds target setting.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false
+        },
+        "_state": "seen"
+      },
       {
         "event_id": "cat_47aeef023a0472",
         "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
@@ -1299,11 +1272,11 @@
       }
     ],
     "counts": {
-      "new": 1,
+      "new": 0,
       "updated": 1,
-      "unchanged": 19
+      "unchanged": 20
     },
-    "known_events": 155,
+    "known_events": 156,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -2036,7 +2009,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -2050,7 +2023,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -2064,7 +2037,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -2078,7 +2051,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -2092,7 +2065,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -2106,7 +2079,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -2120,7 +2093,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -2134,7 +2107,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -2148,7 +2121,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -2162,7 +2135,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -2176,7 +2149,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -2190,7 +2163,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 29,
+          "age_days": 30,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -2206,74 +2179,74 @@
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 29d old",
-          "age_days": 29
+          "why": "never measured, 30d old",
+          "age_days": 30
         }
       ],
       "unpriceable": [
@@ -2281,19 +2254,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 29
+          "age_days": 30
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 29
+          "age_days": 30
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 29
+          "age_days": 30
         },
         {
           "ticker": "ETH",
@@ -2469,7 +2442,7 @@
           "materiality": 1,
           "is_market_relevant": false
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2480,7 +2453,7 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 0.3313636308912037
+          "age_days": 0.7096410818634259
         }
       },
       {
@@ -2531,7 +2504,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.1437710382986115
+          "age_days": 4.5220484892708335
         }
       },
       {
@@ -2574,7 +2547,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 4.156826593854167
+          "age_days": 4.535104044826388
         }
       },
       {
@@ -2609,7 +2582,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.236803445706019
+          "age_days": 4.615080896678241
         }
       },
       {
@@ -2640,7 +2613,7 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.248377519780093
+          "age_days": 4.626654970752314
         }
       },
       {
@@ -2685,7 +2658,7 @@
             "why": "3224 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.3277293716319445
+          "age_days": 4.7060068226041665
         }
       },
       {
@@ -2717,7 +2690,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 4.37066918644676
+          "age_days": 4.748946637418982
         }
       },
       {
@@ -2753,7 +2726,7 @@
             "why": "26896 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.40584279755787
+          "age_days": 4.784120248530092
         }
       },
       {
@@ -2790,7 +2763,7 @@
             "why": "2540 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.406305760520834
+          "age_days": 4.7845832114930555
         }
       },
       {
@@ -2827,7 +2800,7 @@
             "why": "9018 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.483990945706019
+          "age_days": 4.862268396678241
         }
       },
       {
@@ -2869,7 +2842,7 @@
             "why": "2286 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.494569649409723
+          "age_days": 4.872847100381945
         }
       },
       {
@@ -2904,7 +2877,7 @@
             "why": "12347 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.494893723483797
+          "age_days": 4.873171174456019
         }
       },
       {
@@ -2941,7 +2914,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 4.519928445706019
+          "age_days": 4.898205896678241
         }
       },
       {
@@ -2981,7 +2954,7 @@
             "why": "1915 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.574673816076389
+          "age_days": 4.952951267048611
         }
       },
       {
@@ -3012,7 +2985,7 @@
             "why": "2196 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.613609001261574
+          "age_days": 4.991886452233796
         }
       },
       {
@@ -3052,7 +3025,7 @@
             "why": "4115 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.914696964224538
+          "age_days": 5.292974415196759
         }
       },
       {
@@ -3087,7 +3060,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.512590482743056
+          "age_days": 5.890867933715278
         }
       },
       {
@@ -3122,7 +3095,7 @@
             "why": "761 characters of announcement text"
           },
           "materiality": 3,
-          "age_days": 6.331363630891203
+          "age_days": 6.709641081863427
         }
       }
     ],
@@ -3141,39 +3114,39 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-25T02:52:47.604440+00:00",
-      "display": "Nov 24, 9:52 PM EST",
+      "at": "2026-11-25T11:57:36.031014+00:00",
+      "display": "Nov 25, 6:57 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07283720972222223
+      "age_hours": 0.07137758611111111
     },
     "last_success": {
-      "at": "2026-11-24T18:32:05.777202+00:00",
-      "display": "Nov 24, 1:32 PM EST",
+      "at": "2026-11-25T02:52:47.604440+00:00",
+      "display": "Nov 24, 9:52 PM EST",
       "trigger": "github-actions",
-      "age_hours": 8.417789220277777,
+      "age_hours": 9.15149607888889,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 2.4,
-    "stale_message": "No successful ingestion in 8.4h - 2.4h past the expected 6h schedule",
+    "overdue_hours": 3.2,
+    "stale_message": "No successful ingestion in 9.2h - 3.2h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
-      "count": 1,
-      "channels": 1,
-      "newest_published": "2026-11-18T08:00:39+00:00",
-      "newest_published_display": "Nov 18, 3:00 AM EST",
-      "newest_ingested": "2026-11-21T23:44:21.573033+00:00",
-      "newest_ingested_display": "Nov 21, 6:44 PM EST"
+      "count": 0,
+      "channels": 0,
+      "newest_published": null,
+      "newest_published_display": "unknown",
+      "newest_ingested": null,
+      "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-25T02:56:10.177504+00:00",
-      "as_of": "2026-11-25T02:56:10.177504+00:00",
-      "as_of_display": "Nov 24, 9:56 PM EST",
-      "attempted_display": "Nov 24, 9:56 PM EST",
+      "attempted": "2026-11-25T12:00:53.970535+00:00",
+      "as_of": "2026-11-25T12:00:53.970535+00:00",
+      "as_of_display": "Nov 25, 7:00 AM EST",
+      "attempted_display": "Nov 25, 7:00 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3184,12 +3157,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-25T02:52:47.604440+00:00",
-        "display": "Tue 9:52 PM EST",
+        "started": "2026-11-25T11:57:36.031014+00:00",
+        "display": "Wed 6:57 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-25T02:52:47.604440+00:00",
+        "display": "Tue 9:52 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-24T18:32:05.777202+00:00",
@@ -3234,14 +3215,6 @@
       {
         "started": "2026-11-22T20:10:27.299797+00:00",
         "display": "Sun 3:10 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-22T12:58:18.172212+00:00",
-        "display": "Sun 7:58 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
