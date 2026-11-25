@@ -1,5 +1,24 @@
 [
   {
+    "event_id": "cat_d7ab0029cc21de",
+    "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+    "source": "SEC Press Releases",
+    "published": "2026-11-25T09:10:24-05:00",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+    "category": "regulatory",
+    "body_chars": 0,
+    "has_body": false,
+    "findings": {
+      "event_type": "other",
+      "summary": "The SEC announced that its Investor Advisory Committee will hold a virtual meeting on December 3. Only the headline was retrieved; no body text describing the agenda was available.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false,
+      "scheduled_date": "2026-12-03"
+    }
+  },
+  {
     "event_id": "cat_04af64fc022b29",
     "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
     "source": "Fed Monetary Policy",
