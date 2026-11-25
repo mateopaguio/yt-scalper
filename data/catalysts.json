@@ -1,5 +1,23 @@
 [
   {
+    "event_id": "cat_04af64fc022b29",
+    "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+    "source": "Fed Monetary Policy",
+    "published": "2026-11-24T19:00:00+00:00",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+    "category": "macro",
+    "body_chars": 660,
+    "has_body": true,
+    "findings": {
+      "event_type": "macro_rates",
+      "summary": "The Federal Reserve Board released minutes of its October 19 and October 28, 2026 meetings on the discount rate charged to depository institutions through the discount window. The release notes the discount rate process is separate from the FOMC's federal funds target setting.",
+      "companies": [],
+      "direction": "unclear",
+      "materiality": 1,
+      "is_market_relevant": false
+    }
+  },
+  {
     "event_id": "cat_d450ef37509e8e",
     "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
     "source": "FDA Drugs",
