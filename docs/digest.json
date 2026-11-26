@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:55:41.881385+00:00",
+  "generated_at": "2026-11-26T13:29:11.920640+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -582,29 +582,6 @@
         ]
       },
       "_state": "updated"
-    },
-    {
-      "event_id": "cat_3a68823c8daed0",
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "source": "SEC Press Releases",
-      "published": "2026-11-19T09:39:02-05:00",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-      "category": "regulatory",
-      "body_chars": 0,
-      "has_body": false,
-      "findings": {
-        "affected_sectors": [
-          "cryptocurrency",
-          "financial services"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "enforcement",
-        "is_market_relevant": true,
-        "materiality": 2,
-        "summary": "The SEC announced action against eight entities that allegedly used fake crypto asset trading platforms to steal more than $37 million from U.S. investors. The headline names no publicly traded companies, and no body text was retrieved."
-      },
-      "_state": "seen"
     }
   ],
   "ledger": {},
@@ -651,7 +628,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-26T03:55:41.994586+00:00",
+    "last_run": "2026-11-26T13:29:12.077886+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -1240,35 +1217,12 @@
           ]
         },
         "_state": "updated"
-      },
-      {
-        "event_id": "cat_3a68823c8daed0",
-        "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-        "source": "SEC Press Releases",
-        "published": "2026-11-19T09:39:02-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "affected_sectors": [
-            "cryptocurrency",
-            "financial services"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "summary": "The SEC announced action against eight entities that allegedly used fake crypto asset trading platforms to steal more than $37 million from U.S. investors. The headline names no publicly traded companies, and no body text was retrieved."
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
       "updated": 1,
-      "unchanged": 20
+      "unchanged": 19
     },
     "known_events": 157,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -2024,7 +1978,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -2038,7 +1992,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -2052,7 +2006,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -2066,7 +2020,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -2080,7 +2034,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -2094,7 +2048,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -2108,7 +2062,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -2122,7 +2076,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -2136,7 +2090,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -2150,7 +2104,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -2164,7 +2118,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -2178,7 +2132,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 30,
+          "age_days": 31,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -2194,74 +2148,74 @@
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 30d old",
-          "age_days": 30
+          "why": "never measured, 31d old",
+          "age_days": 31
         }
       ],
       "unpriceable": [
@@ -2269,19 +2223,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 30
+          "age_days": 31
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 30
+          "age_days": 31
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 30
+          "age_days": 31
         },
         {
           "ticker": "ETH",
@@ -2469,7 +2423,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.5738089601736112
+          "age_days": 0.9720542913194445
         }
       },
       {
@@ -2500,7 +2454,7 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.3726978490625
+          "age_days": 1.7709431802083333
         }
       },
       {
@@ -2551,7 +2505,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.185105256469907
+          "age_days": 5.58335058761574
         }
       },
       {
@@ -2594,7 +2548,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 5.1981608120254625
+          "age_days": 5.596406143171296
         }
       },
       {
@@ -2629,7 +2583,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.278137663877314
+          "age_days": 5.676382995023148
         }
       },
       {
@@ -2660,7 +2614,7 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.2897117379513885
+          "age_days": 5.687957069097222
         }
       },
       {
@@ -2705,7 +2659,7 @@
             "why": "3224 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.369063589803241
+          "age_days": 5.767308920949074
         }
       },
       {
@@ -2737,7 +2691,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.412003404618055
+          "age_days": 5.810248735763889
         }
       },
       {
@@ -2773,7 +2727,7 @@
             "why": "26896 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.447177015729166
+          "age_days": 5.845422346875
         }
       },
       {
@@ -2810,7 +2764,7 @@
             "why": "2540 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.44763997869213
+          "age_days": 5.845885309837962
         }
       },
       {
@@ -2847,7 +2801,7 @@
             "why": "9018 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.525325163877315
+          "age_days": 5.923570495023148
         }
       },
       {
@@ -2889,7 +2843,7 @@
             "why": "2286 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.535903867581018
+          "age_days": 5.9341491987268515
         }
       },
       {
@@ -2924,7 +2878,7 @@
             "why": "12347 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.536227941655092
+          "age_days": 5.9344732728009255
         }
       },
       {
@@ -2961,7 +2915,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.561262663877314
+          "age_days": 5.959507995023148
         }
       },
       {
@@ -3001,7 +2955,7 @@
             "why": "1915 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.616008034247685
+          "age_days": 6.014253365393518
         }
       },
       {
@@ -3032,7 +2986,7 @@
             "why": "2196 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.65494321943287
+          "age_days": 6.053188550578703
         }
       },
       {
@@ -3072,78 +3026,43 @@
             "why": "4115 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.956031182395833
-        }
-      },
-      {
-        "event_id": "cat_3a68823c8daed0",
-        "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-        "source": "SEC Press Releases",
-        "published": "2026-11-19T09:39:02-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "affected_sectors": [
-            "cryptocurrency",
-            "financial services"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "enforcement",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "summary": "The SEC announced action against eight entities that allegedly used fake crypto asset trading platforms to steal more than $37 million from U.S. investors. The headline names no publicly traded companies, and no body text was retrieved."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.553924700914352
+          "age_days": 6.3542765135416674
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 0,
-      "archive": 18
+      "archive": 17
     },
     "duplicates_collapsed": 3,
     "headline_only_promoted": 0,
     "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 18
+      "no verified public company behind it": 17
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-26T03:52:24.244401+00:00",
-      "display": "Nov 25, 10:52 PM EST",
+      "at": "2026-11-26T13:25:51.471711+00:00",
+      "display": "Nov 26, 8:25 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07134738666666667
+      "age_hours": 0.07167219444444445
     },
     "last_success": {
-      "at": "2026-11-25T21:04:23.882539+00:00",
-      "display": "Nov 25, 4:04 PM EST",
+      "at": "2026-11-26T03:52:24.244401+00:00",
+      "display": "Nov 25, 10:52 PM EST",
       "trigger": "github-actions",
-      "age_hours": 6.871447903888889,
+      "age_hours": 9.629235336111112,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.9,
-    "stale_message": "No successful ingestion in 6.9h - 0.9h past the expected 6h schedule",
+    "overdue_hours": 3.6,
+    "stale_message": "No successful ingestion in 9.6h - 3.6h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3155,10 +3074,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-26T03:55:41.994586+00:00",
-      "as_of": "2026-11-26T03:55:41.994586+00:00",
-      "as_of_display": "Nov 25, 10:55 PM EST",
-      "attempted_display": "Nov 25, 10:55 PM EST",
+      "attempted": "2026-11-26T13:29:12.077886+00:00",
+      "as_of": "2026-11-26T13:29:12.077886+00:00",
+      "as_of_display": "Nov 26, 8:29 AM EST",
+      "attempted_display": "Nov 26, 8:29 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3169,12 +3088,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-26T03:52:24.244401+00:00",
-        "display": "Wed 10:52 PM EST",
+        "started": "2026-11-26T13:25:51.471711+00:00",
+        "display": "Thu 8:25 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-26T03:52:24.244401+00:00",
+        "display": "Wed 10:52 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-25T21:04:23.882539+00:00",
@@ -3219,14 +3146,6 @@
       {
         "started": "2026-11-23T22:21:51.117415+00:00",
         "display": "Mon 5:21 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-23T10:04:32.721822+00:00",
-        "display": "Mon 5:04 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
