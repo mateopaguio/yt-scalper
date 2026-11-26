@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:07:43.816758+00:00",
+  "generated_at": "2026-11-26T03:55:41.881385+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -85,7 +85,7 @@
         "is_market_relevant": false,
         "scheduled_date": "2026-12-03"
       },
-      "_state": "new"
+      "_state": "seen"
     },
     {
       "event_id": "cat_04af64fc022b29",
@@ -651,7 +651,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-25T21:07:43.906736+00:00",
+    "last_run": "2026-11-26T03:55:41.994586+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -721,28 +721,7 @@
     "caveat": "Research priority order, not a trade signal. No component has been validated against realised outcomes yet."
   },
   "catalyst_changes": {
-    "new": [
-      {
-        "event_id": "cat_d7ab0029cc21de",
-        "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
-        "source": "SEC Press Releases",
-        "published": "2026-11-25T09:10:24-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "event_type": "other",
-          "summary": "The SEC announced that its Investor Advisory Committee will hold a virtual meeting on December 3. Only the headline was retrieved; no body text describing the agenda was available.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "is_market_relevant": false,
-          "scheduled_date": "2026-12-03"
-        },
-        "_state": "new"
-      }
-    ],
+    "new": [],
     "updated": [
       {
         "event_id": "cat_d450ef37509e8e",
@@ -782,6 +761,26 @@
       }
     ],
     "unchanged": [
+      {
+        "event_id": "cat_d7ab0029cc21de",
+        "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+        "source": "SEC Press Releases",
+        "published": "2026-11-25T09:10:24-05:00",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+        "category": "regulatory",
+        "body_chars": 0,
+        "has_body": false,
+        "findings": {
+          "event_type": "other",
+          "summary": "The SEC announced that its Investor Advisory Committee will hold a virtual meeting on December 3. Only the headline was retrieved; no body text describing the agenda was available.",
+          "companies": [],
+          "direction": "unclear",
+          "materiality": 1,
+          "is_market_relevant": false,
+          "scheduled_date": "2026-12-03"
+        },
+        "_state": "seen"
+      },
       {
         "event_id": "cat_04af64fc022b29",
         "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
@@ -1267,11 +1266,11 @@
       }
     ],
     "counts": {
-      "new": 1,
+      "new": 0,
       "updated": 1,
-      "unchanged": 19
+      "unchanged": 20
     },
-    "known_events": 156,
+    "known_events": 157,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
   },
   "funnel": {
@@ -1603,7 +1602,7 @@
         "is_market_relevant": false,
         "scheduled_date": "2026-12-03"
       },
-      "_state": "new",
+      "_state": "seen",
       "_when": "2026-12-03"
     },
     {
@@ -2288,19 +2287,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 25
+          "age_days": 26
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 25
+          "age_days": 26
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 25
+          "age_days": 26
         }
       ],
       "failed": []
@@ -2459,7 +2458,7 @@
           "is_market_relevant": false,
           "scheduled_date": "2026-12-03"
         },
-        "_state": "new",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2470,7 +2469,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 0.2904917102199074
+          "age_days": 0.5738089601736112
         }
       },
       {
@@ -2501,7 +2500,7 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 1.0893805991087964
+          "age_days": 1.3726978490625
         }
       },
       {
@@ -2552,7 +2551,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 4.901788006516203
+          "age_days": 5.185105256469907
         }
       },
       {
@@ -2595,7 +2594,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 4.914843562071759
+          "age_days": 5.1981608120254625
         }
       },
       {
@@ -2630,7 +2629,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 4.994820413923611
+          "age_days": 5.278137663877314
         }
       },
       {
@@ -2661,7 +2660,7 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.006394487997685
+          "age_days": 5.2897117379513885
         }
       },
       {
@@ -2706,7 +2705,7 @@
             "why": "3224 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.085746339849537
+          "age_days": 5.369063589803241
         }
       },
       {
@@ -2738,7 +2737,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 5.128686154664352
+          "age_days": 5.412003404618055
         }
       },
       {
@@ -2774,7 +2773,7 @@
             "why": "26896 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.163859765775463
+          "age_days": 5.447177015729166
         }
       },
       {
@@ -2811,7 +2810,7 @@
             "why": "2540 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.1643227287384255
+          "age_days": 5.44763997869213
         }
       },
       {
@@ -2848,7 +2847,7 @@
             "why": "9018 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.242007913923611
+          "age_days": 5.525325163877315
         }
       },
       {
@@ -2890,7 +2889,7 @@
             "why": "2286 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.252586617627315
+          "age_days": 5.535903867581018
         }
       },
       {
@@ -2925,7 +2924,7 @@
             "why": "12347 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.252910691701389
+          "age_days": 5.536227941655092
         }
       },
       {
@@ -2962,7 +2961,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 5.277945413923611
+          "age_days": 5.561262663877314
         }
       },
       {
@@ -3002,7 +3001,7 @@
             "why": "1915 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.332690784293981
+          "age_days": 5.616008034247685
         }
       },
       {
@@ -3033,7 +3032,7 @@
             "why": "2196 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 5.371625969479167
+          "age_days": 5.65494321943287
         }
       },
       {
@@ -3073,7 +3072,7 @@
             "why": "4115 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 5.67271393244213
+          "age_days": 5.956031182395833
         }
       },
       {
@@ -3108,7 +3107,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 2,
-          "age_days": 6.270607450960648
+          "age_days": 6.553924700914352
         }
       }
     ],
@@ -3127,24 +3126,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-25T21:04:23.882539+00:00",
-      "display": "Nov 25, 4:04 PM EST",
+      "at": "2026-11-26T03:52:24.244401+00:00",
+      "display": "Nov 25, 10:52 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07183388888888888
+      "age_hours": 0.07134738666666667
     },
     "last_success": {
-      "at": "2026-11-25T11:57:36.031014+00:00",
-      "display": "Nov 25, 6:57 AM EST",
+      "at": "2026-11-25T21:04:23.882539+00:00",
+      "display": "Nov 25, 4:04 PM EST",
       "trigger": "github-actions",
-      "age_hours": 9.185125979166665,
+      "age_hours": 6.871447903888889,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 3.2,
-    "stale_message": "No successful ingestion in 9.2h - 3.2h past the expected 6h schedule",
+    "overdue_hours": 0.9,
+    "stale_message": "No successful ingestion in 6.9h - 0.9h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -3156,10 +3155,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-25T21:07:43.906736+00:00",
-      "as_of": "2026-11-25T21:07:43.906736+00:00",
-      "as_of_display": "Nov 25, 4:07 PM EST",
-      "attempted_display": "Nov 25, 4:07 PM EST",
+      "attempted": "2026-11-26T03:55:41.994586+00:00",
+      "as_of": "2026-11-26T03:55:41.994586+00:00",
+      "as_of_display": "Nov 25, 10:55 PM EST",
+      "attempted_display": "Nov 25, 10:55 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -3170,12 +3169,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-25T21:04:23.882539+00:00",
-        "display": "Wed 4:04 PM EST",
+        "started": "2026-11-26T03:52:24.244401+00:00",
+        "display": "Wed 10:52 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-25T21:04:23.882539+00:00",
+        "display": "Wed 4:04 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-25T11:57:36.031014+00:00",
@@ -3220,14 +3227,6 @@
       {
         "started": "2026-11-23T10:04:32.721822+00:00",
         "display": "Mon 5:04 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-23T01:18:03.296087+00:00",
-        "display": "Sun 8:18 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
