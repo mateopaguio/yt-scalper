@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:37:00.874836+00:00",
+  "generated_at": "2026-11-27T23:10:29.790095+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -105,115 +105,6 @@
         "is_market_relevant": false
       },
       "_state": "seen"
-    },
-    {
-      "event_id": "cat_d450ef37509e8e",
-      "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T18:30:08-05:00",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
-      "category": "regulatory",
-      "body_chars": 3418,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "compounded drugs",
-          "pharmacy services",
-          "healthcare"
-        ],
-        "companies": [
-          {
-            "company": "Greenwich Rx",
-            "ticker": "",
-            "role": "subject"
-          },
-          {
-            "company": "Clove Rx",
-            "ticker": "",
-            "role": "partner"
-          }
-        ],
-        "direction": "likely_negative",
-        "event_type": "recall_safety",
-        "is_market_relevant": true,
-        "materiality": 2,
-        "scheduled_date": "",
-        "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_47aeef023a0472",
-      "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-20T18:11:20-05:00",
-      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
-      "category": "regulatory",
-      "body_chars": 6592,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "biotechnology",
-          "rare disease therapeutics",
-          "cell and gene therapy"
-        ],
-        "companies": [
-          {
-            "company": "Capricor Therapeutics, Inc.",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "event_type": "regulatory_action",
-        "is_market_relevant": true,
-        "materiality": 5,
-        "scheduled_date": "",
-        "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_c11410413280a4",
-      "title": "Report on the State of Pharmaceutical Quality",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T16:16:10-05:00",
-      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
-      "category": "regulatory",
-      "body_chars": 1869,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "pharmaceuticals",
-          "drug manufacturing"
-        ],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
-        "companies": []
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_f089159bf084a0",
-      "title": "Generic Drug User Fee Amendments",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T15:59:30-05:00",
-      "url": "http://www.fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
-      "category": "regulatory",
-      "body_chars": 39404,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA's GDUFA program page restates GDUFA III reauthorization through September 2027, publishes FY 2026 and FY 2027 user fee rates (FY 2027 ANDA fee $375,684), and provides general fee payment and administrative instructions.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "_state": "seen"
     }
   ],
   "ledger": {},
@@ -260,7 +151,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-27T14:37:01.064107+00:00",
+    "last_run": "2026-11-27T23:10:29.895819+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -371,121 +262,12 @@
           "is_market_relevant": false
         },
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_d450ef37509e8e",
-        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T18:30:08-05:00",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
-        "category": "regulatory",
-        "body_chars": 3418,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "compounded drugs",
-            "pharmacy services",
-            "healthcare"
-          ],
-          "companies": [
-            {
-              "company": "Greenwich Rx",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Clove Rx",
-              "ticker": "",
-              "role": "partner"
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "recall_safety",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "scheduled_date": "",
-          "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_47aeef023a0472",
-        "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T18:11:20-05:00",
-        "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
-        "category": "regulatory",
-        "body_chars": 6592,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "rare disease therapeutics",
-            "cell and gene therapy"
-          ],
-          "companies": [
-            {
-              "company": "Capricor Therapeutics, Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "regulatory_action",
-          "is_market_relevant": true,
-          "materiality": 5,
-          "scheduled_date": "",
-          "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_c11410413280a4",
-        "title": "Report on the State of Pharmaceutical Quality",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T16:16:10-05:00",
-        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
-        "category": "regulatory",
-        "body_chars": 1869,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "drug manufacturing"
-          ],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
-          "companies": []
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_f089159bf084a0",
-        "title": "Generic Drug User Fee Amendments",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T15:59:30-05:00",
-        "url": "http://www.fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
-        "category": "regulatory",
-        "body_chars": 39404,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA's GDUFA program page restates GDUFA III reauthorization through September 2027, publishes FY 2026 and FY 2027 user fee rates (FY 2027 ANDA fee $375,684), and provides general fee payment and administrative instructions.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
       "updated": 0,
-      "unchanged": 6
+      "unchanged": 2
     },
     "known_events": 157,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -829,8 +611,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 20,
-      "degraded": 22
+      "usable": 32,
+      "degraded": 10
     },
     "usable": [
       "META",
@@ -839,20 +621,32 @@
       "AAPL",
       "LRCX",
       "MSFT",
+      "IBM",
       "AMD",
       "GOOGL",
       "T",
       "TMUS",
       "WDC",
+      "AXP",
+      "UBER",
       "HOOD",
       "AMZN",
+      "CVX",
       "VZ",
+      "XOM",
       "TTWO",
       "STX",
       "SBUX",
+      "LLY",
+      "KO",
       "KLAC",
+      "CAT",
+      "V",
+      "SPGI",
       "ADP",
-      "QQQ"
+      "NOK",
+      "QQQ",
+      "SPY"
     ],
     "degraded": [
       {
@@ -864,64 +658,24 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
-        "ticker": "IBM",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "NBIS",
         "detail": "2 move(s) >=35% - possible unadjusted split"
       },
       {
-        "ticker": "AXP",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "BE",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
-      },
-      {
-        "ticker": "UBER",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+        "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "NCLH",
         "detail": "1 bar(s) dropped: failed the OHLC invariant"
       },
       {
-        "ticker": "CVX",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "ORCL",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
-      },
-      {
-        "ticker": "XOM",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
-        "ticker": "LLY",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
-        "ticker": "KO",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
-        "ticker": "CAT",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
-        "ticker": "V",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
-        "ticker": "SPGI",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+        "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "VRT",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "COR",
@@ -932,16 +686,8 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
-        "ticker": "NOK",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "CHPT",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 2 move(s) >=35% - possible unadjusted split"
-      },
-      {
-        "ticker": "SPY",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+        "detail": "2 move(s) >=35% - possible unadjusted split"
       }
     ],
     "unusable": [],
@@ -1004,9 +750,9 @@
         "provider": "yfinance"
       },
       "IBM": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1053,23 +799,23 @@
         "provider": "yfinance"
       },
       "AXP": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1095,16 +841,16 @@
         "provider": "yfinance"
       },
       "CVX": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1116,9 +862,9 @@
         "provider": "yfinance"
       },
       "XOM": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1144,16 +890,16 @@
         "provider": "yfinance"
       },
       "LLY": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1165,23 +911,23 @@
         "provider": "yfinance"
       },
       "CAT": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1194,8 +940,8 @@
       },
       "VRT": {
         "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "detail": "1 move(s) >=35% - possible unadjusted split",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1214,16 +960,16 @@
         "provider": "yfinance"
       },
       "NOK": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant; 2 move(s) >=35% - possible unadjusted split",
-        "bars": 1254,
+        "detail": "2 move(s) >=35% - possible unadjusted split",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1235,9 +981,9 @@
         "provider": "yfinance"
       },
       "SPY": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1702,7 +1448,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.0191701034375003
+          "age_days": 2.375775280740741
         }
       },
       {
@@ -1733,200 +1479,43 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.818058992326389
-        }
-      },
-      {
-        "event_id": "cat_d450ef37509e8e",
-        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T18:30:08-05:00",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
-        "category": "regulatory",
-        "body_chars": 3418,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "compounded drugs",
-            "pharmacy services",
-            "healthcare"
-          ],
-          "companies": [
-            {
-              "company": "Greenwich Rx",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Clove Rx",
-              "ticker": "",
-              "role": "partner"
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "recall_safety",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "scheduled_date": "",
-          "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "3418 characters of announcement text"
-          },
-          "materiality": 2,
-          "age_days": 6.6304663997337965
-        }
-      },
-      {
-        "event_id": "cat_47aeef023a0472",
-        "title": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T18:11:20-05:00",
-        "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
-        "category": "regulatory",
-        "body_chars": 6592,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "rare disease therapeutics",
-            "cell and gene therapy"
-          ],
-          "companies": [
-            {
-              "company": "Capricor Therapeutics, Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "regulatory_action",
-          "is_market_relevant": true,
-          "materiality": 5,
-          "scheduled_date": "",
-          "summary": "FDA issued a complete response letter to Capricor for the deramiocel BLA for Duchenne muscular dystrophy, citing data integrity deficiencies in Study HOPE-3 and finding the evidence does not meet the approval standard. FDA also issued a Regulatory Responsibility Letter dated November 20, 2026 related to BIMO inspection observations."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "6592 characters of announcement text"
-          },
-          "materiality": 5,
-          "age_days": 6.643521955289352
-        }
-      },
-      {
-        "event_id": "cat_c11410413280a4",
-        "title": "Report on the State of Pharmaceutical Quality",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T16:16:10-05:00",
-        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/report-state-pharmaceutical-quality",
-        "category": "regulatory",
-        "body_chars": 1869,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "drug manufacturing"
-          ],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA's Office of Pharmaceutical Quality published its annual Report on the State of Pharmaceutical Quality, describing U.S. drug supply chain quality data and trends, and linked prior-year editions (2018–2024). The page names no specific company.",
-          "companies": []
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "1869 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.723498807141204
-        }
-      },
-      {
-        "event_id": "cat_f089159bf084a0",
-        "title": "Generic Drug User Fee Amendments",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T15:59:30-05:00",
-        "url": "http://www.fda.gov/industry/fda-user-fee-programs/generic-drug-user-fee-amendments",
-        "category": "regulatory",
-        "body_chars": 39404,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA's GDUFA program page restates GDUFA III reauthorization through September 2027, publishes FY 2026 and FY 2027 user fee rates (FY 2027 ANDA fee $375,684), and provides general fee payment and administrative instructions.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "39404 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.735072881215278
+          "age_days": 3.17466416962963
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 0,
-      "archive": 6
+      "archive": 2
     },
     "duplicates_collapsed": 0,
     "headline_only_promoted": 0,
     "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 6
+      "no verified public company behind it": 2
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-27T14:33:43.085278+00:00",
-      "display": "Nov 27, 9:33 AM EST",
+      "at": "2026-11-27T23:07:07.655894+00:00",
+      "display": "Nov 27, 6:07 PM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07144788499999999
+      "age_hours": 0.0731469336111111
     },
     "last_success": {
-      "at": "2026-11-27T04:41:22.979664+00:00",
-      "display": "Nov 26, 11:41 PM EST",
+      "at": "2026-11-27T14:33:43.085278+00:00",
+      "display": "Nov 27, 9:33 AM EST",
       "trigger": "github-actions",
-      "age_hours": 9.943699444444444,
+      "age_hours": 8.629972104722222,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 3.9,
-    "stale_message": "No successful ingestion in 9.9h - 3.9h past the expected 6h schedule",
+    "overdue_hours": 2.6,
+    "stale_message": "No successful ingestion in 8.6h - 2.6h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1938,10 +1527,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-27T14:37:01.064107+00:00",
-      "as_of": "2026-11-27T14:37:01.064107+00:00",
-      "as_of_display": "Nov 27, 9:37 AM EST",
-      "attempted_display": "Nov 27, 9:37 AM EST",
+      "attempted": "2026-11-27T23:10:29.895819+00:00",
+      "as_of": "2026-11-27T23:10:29.895819+00:00",
+      "as_of_display": "Nov 27, 6:10 PM EST",
+      "attempted_display": "Nov 27, 6:10 PM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1952,12 +1541,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-27T14:33:43.085278+00:00",
-        "display": "Fri 9:33 AM EST",
+        "started": "2026-11-27T23:07:07.655894+00:00",
+        "display": "Fri 6:07 PM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-27T14:33:43.085278+00:00",
+        "display": "Fri 9:33 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-27T04:41:22.979664+00:00",
@@ -2002,14 +1599,6 @@
       {
         "started": "2026-11-25T11:57:36.031014+00:00",
         "display": "Wed 6:57 AM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-25T02:52:47.604440+00:00",
-        "display": "Tue 9:52 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
