@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T04:44:43.479280+00:00",
+  "generated_at": "2026-11-27T14:37:00.874836+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -140,7 +140,7 @@
         "scheduled_date": "",
         "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
       },
-      "_state": "updated"
+      "_state": "seen"
     },
     {
       "event_id": "cat_47aeef023a0472",
@@ -214,277 +214,6 @@
         "materiality": 1
       },
       "_state": "seen"
-    },
-    {
-      "event_id": "cat_4401022f6bfe2a",
-      "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T14:05:14-05:00",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
-      "category": "regulatory",
-      "body_chars": 3224,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": true,
-        "event_type": "recall_safety",
-        "summary": "Breckenridge Pharmaceutical is voluntarily recalling to the consumer level one lot (PK25110035, exp. May 2029) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, 100-count bottles, due to potential metal contamination that could cause soft tissue lacerations. No related adverse events reported to date; product was distributed nationwide October 26 to November 4, 2026.",
-        "companies": [
-          {
-            "company": "Breckenridge Pharmaceutical, Inc.",
-            "ticker": "",
-            "role": "subject"
-          },
-          {
-            "company": "Adare Pharma Solutions",
-            "ticker": "",
-            "role": "partner"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 2
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_31dfa678a4d112",
-      "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
-      "source": "SEC Press Releases",
-      "published": "2026-11-20T13:03:24-05:00",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
-      "category": "regulatory",
-      "body_chars": 0,
-      "has_body": false,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "regulatory_action",
-        "summary": "The SEC announced a proposal to restructure the Consolidated Audit Trail, a market surveillance data system. Only the headline was retrieved, so the proposal's details are unknown.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1,
-        "affected_sectors": []
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_9c7efce6ed3303",
-      "title": "First Generic Drug Approvals",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T12:12:45-05:00",
-      "url": "http://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
-      "category": "regulatory",
-      "body_chars": 26896,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "Pharmaceuticals",
-          "Generic drugs"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "macro_data",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "",
-        "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_c383ee587af4bb",
-      "title": "Office of Infectious Diseases Research Activities",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T12:12:05-05:00",
-      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
-      "category": "regulatory",
-      "body_chars": 2540,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals",
-          "antimicrobials"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "2026-12-08",
-        "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_fc5c07d291eaf5",
-      "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T10:20:13-05:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
-      "category": "regulatory",
-      "body_chars": 9018,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "enforcement",
-        "summary": "FDA Center for Veterinary Medicine issued a warning letter to Ogle Cattle Company, a Texas cattle feedlot, citing cattle sold for slaughter with drug residues above tolerance and extralabel use of ceftiofur and enrofloxacin drugs, based on inspections in April to June 2025. The letter is dated September 5, 2025, though the published date is November 20, 2026.",
-        "companies": [
-          {
-            "company": "Ogle Cattle Company, Inc.",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 1
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_00dab7299a1253",
-      "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-20T10:04:59-05:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
-      "category": "regulatory",
-      "body_chars": 2286,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "biotechnology",
-          "clinical research"
-        ],
-        "companies": [
-          {
-            "company": "Stephen J. Fallon, Ph.D.",
-            "role": "subject",
-            "ticker": ""
-          }
-        ],
-        "direction": "likely_negative",
-        "event_type": "enforcement",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "",
-        "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_90dd6bff635198",
-      "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-20T10:04:31-05:00",
-      "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
-      "category": "regulatory",
-      "body_chars": 12347,
-      "has_body": true,
-      "findings": {
-        "event_type": "enforcement",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "summary": "FDA CBER issued a warning letter to Dr. Stephen J. Fallon, a clinical investigator, citing informed consent, IRB approval, protocol-adherence, and recordkeeping violations found in a June 2025 BIMO inspection of Study CLS-003 (an INSTI HIV Self-Test study). The letter is addressed to an individual investigator and names no public company.",
-        "companies": [],
-        "direction": "unclear",
-        "affected_sectors": [
-          "biotechnology",
-          "diagnostics"
-        ]
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_8cf63b9f3cc161",
-      "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
-      "source": "SEC Press Releases",
-      "published": "2026-11-20T09:28:28-05:00",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
-      "category": "regulatory",
-      "body_chars": 0,
-      "has_body": false,
-      "findings": {
-        "event_type": "enforcement",
-        "summary": "The SEC announced charges against Indianapolis-based Backward Hat Capital and its co-founders over an alleged $560 million offering fraud, and said it obtained emergency relief. Only the headline was retrieved; no body text was available.",
-        "companies": [
-          {
-            "company": "Backward Hat Capital",
-            "ticker": "",
-            "role": "subject"
-          }
-        ],
-        "direction": "likely_negative",
-        "materiality": 2,
-        "is_market_relevant": true
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_f0ec84d7bd426c",
-      "title": "Office of Health Advancement (OHA) Guidance Documents",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T08:09:38-05:00",
-      "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
-      "category": "regulatory",
-      "body_chars": 1915,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "pharmaceuticals",
-          "biotechnology",
-          "medical devices"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "",
-        "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_f0ec84d7bd426c",
-      "title": "Office of Health Advancement (OHA) Guidance Documents",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-20T08:09:38-05:00",
-      "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
-      "category": "regulatory",
-      "body_chars": 1915,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "pharmaceuticals",
-          "biotechnology",
-          "medical devices"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "",
-        "summary": "FDA's Office of Health Advancement (formerly OCMO) published a general webpage describing its role and the non-binding nature of its guidance documents, covering combination products, pediatric products, rare disease incentives, clinical trials, and medical countermeasures. No specific new guidance or action is announced."
-      },
-      "_state": "seen"
-    },
-    {
-      "event_id": "cat_2d7d92d6ce701b",
-      "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
-      "source": "FDA Biologics and Vaccines",
-      "published": "2026-11-20T07:13:34-05:00",
-      "url": "http://www.fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
-      "category": "regulatory",
-      "body_chars": 2196,
-      "has_body": true,
-      "findings": {
-        "is_market_relevant": false,
-        "event_type": "other",
-        "summary": "FDA posted the roster of the Vaccines and Related Biological Products Advisory Committee, noting 8 vacancies and requesting nominations for committee members. The roster lists current members, an alternate industry representative from Merck & Co., and an FDA contact.",
-        "companies": [],
-        "direction": "unclear",
-        "materiality": 1
-      },
-      "_state": "seen"
     }
   ],
   "ledger": {},
@@ -531,7 +260,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-27T04:44:43.592164+00:00",
+    "last_run": "2026-11-27T14:37:01.064107+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -546,7 +275,7 @@
       {
         "ticker": "SPY",
         "bars": 1255,
-        "range": "2021-11-26 .. 2026-11-25",
+        "range": "2021-11-29 .. 2026-11-27",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -558,7 +287,7 @@
       {
         "ticker": "QQQ",
         "bars": 1255,
-        "range": "2021-11-26 .. 2026-11-25",
+        "range": "2021-11-29 .. 2026-11-27",
         "missing_fields": [],
         "usable": true,
         "last_fired": {
@@ -602,44 +331,7 @@
   },
   "catalyst_changes": {
     "new": [],
-    "updated": [
-      {
-        "event_id": "cat_d450ef37509e8e",
-        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T18:30:08-05:00",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
-        "category": "regulatory",
-        "body_chars": 3418,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "compounded drugs",
-            "pharmacy services",
-            "healthcare"
-          ],
-          "companies": [
-            {
-              "company": "Greenwich Rx",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Clove Rx",
-              "ticker": "",
-              "role": "partner"
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "recall_safety",
-          "is_market_relevant": true,
-          "materiality": 2,
-          "scheduled_date": "",
-          "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
-        },
-        "_previous": "e241f5d436cae4ac"
-      }
-    ],
+    "updated": [],
     "unchanged": [
       {
         "event_id": "cat_d7ab0029cc21de",
@@ -677,6 +369,42 @@
           "direction": "unclear",
           "materiality": 1,
           "is_market_relevant": false
+        },
+        "_state": "seen"
+      },
+      {
+        "event_id": "cat_d450ef37509e8e",
+        "title": "Greenwich Rx Issues Voluntary Nationwide Recall  of Compounded Sterile Products Due to Lack of Sterility Assurance",
+        "source": "FDA Drugs",
+        "published": "2026-11-20T18:30:08-05:00",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+        "category": "regulatory",
+        "body_chars": 3418,
+        "has_body": true,
+        "findings": {
+          "affected_sectors": [
+            "compounded drugs",
+            "pharmacy services",
+            "healthcare"
+          ],
+          "companies": [
+            {
+              "company": "Greenwich Rx",
+              "ticker": "",
+              "role": "subject"
+            },
+            {
+              "company": "Clove Rx",
+              "ticker": "",
+              "role": "partner"
+            }
+          ],
+          "direction": "likely_negative",
+          "event_type": "recall_safety",
+          "is_market_relevant": true,
+          "materiality": 2,
+          "scheduled_date": "",
+          "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
         },
         "_state": "seen"
       },
@@ -752,283 +480,12 @@
           "materiality": 1
         },
         "_state": "seen"
-      },
-      {
-        "event_id": "cat_4401022f6bfe2a",
-        "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T14:05:14-05:00",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
-        "category": "regulatory",
-        "body_chars": 3224,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "recall_safety",
-          "summary": "Breckenridge Pharmaceutical is voluntarily recalling to the consumer level one lot (PK25110035, exp. May 2029) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, 100-count bottles, due to potential metal contamination that could cause soft tissue lacerations. No related adverse events reported to date; product was distributed nationwide October 26 to November 4, 2026.",
-          "companies": [
-            {
-              "company": "Breckenridge Pharmaceutical, Inc.",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Adare Pharma Solutions",
-              "ticker": "",
-              "role": "partner"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_31dfa678a4d112",
-        "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
-        "source": "SEC Press Releases",
-        "published": "2026-11-20T13:03:24-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "regulatory_action",
-          "summary": "The SEC announced a proposal to restructure the Consolidated Audit Trail, a market surveillance data system. Only the headline was retrieved, so the proposal's details are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "affected_sectors": []
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_9c7efce6ed3303",
-        "title": "First Generic Drug Approvals",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T12:12:45-05:00",
-        "url": "http://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
-        "category": "regulatory",
-        "body_chars": 26896,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "Pharmaceuticals",
-            "Generic drugs"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "macro_data",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_c383ee587af4bb",
-        "title": "Office of Infectious Diseases Research Activities",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T12:12:05-05:00",
-        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
-        "category": "regulatory",
-        "body_chars": 2540,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals",
-            "antimicrobials"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "2026-12-08",
-          "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_fc5c07d291eaf5",
-        "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T10:20:13-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
-        "category": "regulatory",
-        "body_chars": 9018,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA Center for Veterinary Medicine issued a warning letter to Ogle Cattle Company, a Texas cattle feedlot, citing cattle sold for slaughter with drug residues above tolerance and extralabel use of ceftiofur and enrofloxacin drugs, based on inspections in April to June 2025. The letter is dated September 5, 2025, though the published date is November 20, 2026.",
-          "companies": [
-            {
-              "company": "Ogle Cattle Company, Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 1
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_00dab7299a1253",
-        "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T10:04:59-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
-        "category": "regulatory",
-        "body_chars": 2286,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "clinical research"
-          ],
-          "companies": [
-            {
-              "company": "Stephen J. Fallon, Ph.D.",
-              "role": "subject",
-              "ticker": ""
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "enforcement",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_90dd6bff635198",
-        "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T10:04:31-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
-        "category": "regulatory",
-        "body_chars": 12347,
-        "has_body": true,
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA CBER issued a warning letter to Dr. Stephen J. Fallon, a clinical investigator, citing informed consent, IRB approval, protocol-adherence, and recordkeeping violations found in a June 2025 BIMO inspection of Study CLS-003 (an INSTI HIV Self-Test study). The letter is addressed to an individual investigator and names no public company.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "biotechnology",
-            "diagnostics"
-          ]
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_8cf63b9f3cc161",
-        "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
-        "source": "SEC Press Releases",
-        "published": "2026-11-20T09:28:28-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "The SEC announced charges against Indianapolis-based Backward Hat Capital and its co-founders over an alleged $560 million offering fraud, and said it obtained emergency relief. Only the headline was retrieved; no body text was available.",
-          "companies": [
-            {
-              "company": "Backward Hat Capital",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2,
-          "is_market_relevant": true
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_f0ec84d7bd426c",
-        "title": "Office of Health Advancement (OHA) Guidance Documents",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T08:09:38-05:00",
-        "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
-        "category": "regulatory",
-        "body_chars": 1915,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology",
-            "medical devices"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_f0ec84d7bd426c",
-        "title": "Office of Health Advancement (OHA) Guidance Documents",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T08:09:38-05:00",
-        "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
-        "category": "regulatory",
-        "body_chars": 1915,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology",
-            "medical devices"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA's Office of Health Advancement (formerly OCMO) published a general webpage describing its role and the non-binding nature of its guidance documents, covering combination products, pediatric products, rare disease incentives, clinical trials, and medical countermeasures. No specific new guidance or action is announced."
-        },
-        "_state": "seen"
-      },
-      {
-        "event_id": "cat_2d7d92d6ce701b",
-        "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T07:13:34-05:00",
-        "url": "http://www.fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
-        "category": "regulatory",
-        "body_chars": 2196,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA posted the roster of the Vaccines and Related Biological Products Advisory Committee, noting 8 vacancies and requesting nominations for committee members. The roster lists current members, an alternate industry representative from Merck & Co., and an FDA contact.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen"
       }
     ],
     "counts": {
       "new": 0,
-      "updated": 1,
-      "unchanged": 16
+      "updated": 0,
+      "unchanged": 6
     },
     "known_events": 157,
     "note": "Freshness is measured against our own record, not against a publication date. An event is new because we have never stored it, not because it was published recently."
@@ -1364,32 +821,6 @@
       },
       "_state": "seen",
       "_when": "2026-12-03"
-    },
-    {
-      "event_id": "cat_c383ee587af4bb",
-      "title": "Office of Infectious Diseases Research Activities",
-      "source": "FDA Drugs",
-      "published": "2026-11-20T12:12:05-05:00",
-      "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
-      "category": "regulatory",
-      "body_chars": 2540,
-      "has_body": true,
-      "findings": {
-        "affected_sectors": [
-          "biotechnology",
-          "pharmaceuticals",
-          "antimicrobials"
-        ],
-        "companies": [],
-        "direction": "unclear",
-        "event_type": "other",
-        "is_market_relevant": false,
-        "materiality": 1,
-        "scheduled_date": "2026-12-08",
-        "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
-      },
-      "_state": "seen",
-      "_when": "2026-12-08"
     }
   ],
   "orphan_catalysts": [],
@@ -1398,8 +829,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 34,
-      "degraded": 8
+      "usable": 20,
+      "degraded": 22
     },
     "usable": [
       "META",
@@ -1408,34 +839,20 @@
       "AAPL",
       "LRCX",
       "MSFT",
-      "IBM",
       "AMD",
       "GOOGL",
       "T",
       "TMUS",
       "WDC",
-      "AXP",
-      "UBER",
-      "NCLH",
       "HOOD",
       "AMZN",
-      "CVX",
       "VZ",
-      "XOM",
       "TTWO",
       "STX",
       "SBUX",
-      "LLY",
-      "KO",
       "KLAC",
-      "CAT",
-      "V",
-      "SPGI",
       "ADP",
-      "COR",
-      "NOK",
-      "QQQ",
-      "SPY"
+      "QQQ"
     ],
     "degraded": [
       {
@@ -1447,28 +864,84 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
+        "ticker": "IBM",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
         "ticker": "NBIS",
         "detail": "2 move(s) >=35% - possible unadjusted split"
       },
       {
+        "ticker": "AXP",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
         "ticker": "BE",
-        "detail": "1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
+      },
+      {
+        "ticker": "UBER",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "NCLH",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "CVX",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
       },
       {
         "ticker": "ORCL",
-        "detail": "1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
+      },
+      {
+        "ticker": "XOM",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "LLY",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "KO",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "CAT",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "V",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
+        "ticker": "SPGI",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
       },
       {
         "ticker": "VRT",
-        "detail": "1 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split"
+      },
+      {
+        "ticker": "COR",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
       },
       {
         "ticker": "CGNX",
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
+        "ticker": "NOK",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
+      },
+      {
         "ticker": "CHPT",
-        "detail": "2 move(s) >=35% - possible unadjusted split"
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 2 move(s) >=35% - possible unadjusted split"
+      },
+      {
+        "ticker": "SPY",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant"
       }
     ],
     "unusable": [],
@@ -1498,7 +971,7 @@
       "CRWV": {
         "status": "degraded",
         "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 419,
+        "bars": 420,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1531,16 +1004,16 @@
         "provider": "yfinance"
       },
       "IBM": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NBIS": {
         "status": "degraded",
         "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 527,
+        "bars": 528,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1580,30 +1053,30 @@
         "provider": "yfinance"
       },
       "AXP": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "BE": {
         "status": "degraded",
-        "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "UBER": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "NCLH": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1622,16 +1095,16 @@
         "provider": "yfinance"
       },
       "CVX": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "ORCL": {
         "status": "degraded",
-        "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1643,9 +1116,9 @@
         "provider": "yfinance"
       },
       "XOM": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1671,16 +1144,16 @@
         "provider": "yfinance"
       },
       "LLY": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "KO": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1692,23 +1165,23 @@
         "provider": "yfinance"
       },
       "CAT": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "V": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "SPGI": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1721,15 +1194,15 @@
       },
       "VRT": {
         "status": "degraded",
-        "detail": "1 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 1 move(s) >=35% - possible unadjusted split",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "COR": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1741,16 +1214,16 @@
         "provider": "yfinance"
       },
       "NOK": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
       "CHPT": {
         "status": "degraded",
-        "detail": "2 move(s) >=35% - possible unadjusted split",
-        "bars": 1255,
+        "detail": "1 bar(s) dropped: failed the OHLC invariant; 2 move(s) >=35% - possible unadjusted split",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1762,9 +1235,9 @@
         "provider": "yfinance"
       },
       "SPY": {
-        "status": "usable",
-        "detail": "complete",
-        "bars": 1255,
+        "status": "degraded",
+        "detail": "1 bar(s) dropped: failed the OHLC invariant",
+        "bars": 1254,
         "feed": "yfinance",
         "provider": "yfinance"
       }
@@ -1784,7 +1257,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -1798,7 +1271,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -1812,7 +1285,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -1826,7 +1299,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -1840,7 +1313,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -1854,7 +1327,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -1868,7 +1341,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -1882,7 +1355,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -1896,7 +1369,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -1910,7 +1383,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -1924,7 +1397,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -1938,7 +1411,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 31,
+          "age_days": 32,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -1954,74 +1427,74 @@
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 31d old",
-          "age_days": 31
+          "why": "never measured, 32d old",
+          "age_days": 32
         }
       ],
       "unpriceable": [
@@ -2029,19 +1502,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 31
+          "age_days": 32
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 31
+          "age_days": 32
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 31
+          "age_days": 32
         },
         {
           "ticker": "ETH",
@@ -2229,7 +1702,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 1.6078642346064815
+          "age_days": 2.0191701034375003
         }
       },
       {
@@ -2260,7 +1733,7 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 2.4067531234953705
+          "age_days": 2.818058992326389
         }
       },
       {
@@ -2297,7 +1770,7 @@
           "scheduled_date": "",
           "summary": "Greenwich Rx, a 503A compounding pharmacy in Tomball, Texas, announced a voluntary nationwide recall of specific lots of compounded sterile products within beyond-use dates, citing potential lack of sterility assurance following an FDA inspection. No adverse events have been reported to date; affected products were dispensed nationwide between August 10 and September 21, 2026, including products compounded for Clove Rx."
         },
-        "_state": "updated",
+        "_state": "seen",
         "_radar": {
           "bucket": "archive",
           "reason": "no verified public company behind it",
@@ -2308,7 +1781,7 @@
             "why": "3418 characters of announcement text"
           },
           "materiality": 2,
-          "age_days": 6.219160530902778
+          "age_days": 6.6304663997337965
         }
       },
       {
@@ -2351,7 +1824,7 @@
             "why": "6592 characters of announcement text"
           },
           "materiality": 5,
-          "age_days": 6.232216086458334
+          "age_days": 6.643521955289352
         }
       },
       {
@@ -2386,7 +1859,7 @@
             "why": "1869 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.312192938310186
+          "age_days": 6.723498807141204
         }
       },
       {
@@ -2417,412 +1890,43 @@
             "why": "39404 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 6.32376701238426
-        }
-      },
-      {
-        "event_id": "cat_4401022f6bfe2a",
-        "title": "Breckenridge Pharmaceutical, Inc. Issues Voluntary Nationwide Consumer-Level Recall of One Lot of Propranolol Hydrochloride Extended-Release Capsules, USP, 60 mg, Due to Potential Metal Contamination",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T14:05:14-05:00",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/breckenridge-pharmaceutical-inc-issues-voluntary-nationwide-consumer-level-recall-one-lot",
-        "category": "regulatory",
-        "body_chars": 3224,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": true,
-          "event_type": "recall_safety",
-          "summary": "Breckenridge Pharmaceutical is voluntarily recalling to the consumer level one lot (PK25110035, exp. May 2029) of Propranolol Hydrochloride Extended-Release Capsules USP 60 mg, 100-count bottles, due to potential metal contamination that could cause soft tissue lacerations. No related adverse events reported to date; product was distributed nationwide October 26 to November 4, 2026.",
-          "companies": [
-            {
-              "company": "Breckenridge Pharmaceutical, Inc.",
-              "ticker": "",
-              "role": "subject"
-            },
-            {
-              "company": "Adare Pharma Solutions",
-              "ticker": "",
-              "role": "partner"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "3224 characters of announcement text"
-          },
-          "materiality": 2,
-          "age_days": 6.403118864236111
-        }
-      },
-      {
-        "event_id": "cat_31dfa678a4d112",
-        "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
-        "source": "SEC Press Releases",
-        "published": "2026-11-20T13:03:24-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "regulatory_action",
-          "summary": "The SEC announced a proposal to restructure the Consolidated Audit Trail, a market surveillance data system. Only the headline was retrieved, so the proposal's details are unknown.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1,
-          "affected_sectors": []
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 1,
-          "age_days": 6.446058679050926
-        }
-      },
-      {
-        "event_id": "cat_9c7efce6ed3303",
-        "title": "First Generic Drug Approvals",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T12:12:45-05:00",
-        "url": "http://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals",
-        "category": "regulatory",
-        "body_chars": 26896,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "Pharmaceuticals",
-            "Generic drugs"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "macro_data",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA published its 2026 year-to-date running table of first generic drug approvals (ANDAs), listing 91 entries from January through September 2026 with applicant, brand, and indication details. The table is a periodic compilation of previously issued approvals rather than a new company-specific action."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "26896 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.481232290162037
-        }
-      },
-      {
-        "event_id": "cat_c383ee587af4bb",
-        "title": "Office of Infectious Diseases Research Activities",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T12:12:05-05:00",
-        "url": "http://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-infectious-diseases-research-activities",
-        "category": "regulatory",
-        "body_chars": 2540,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "pharmaceuticals",
-            "antimicrobials"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "2026-12-08",
-          "summary": "FDA's Office of Infectious Diseases page describes antimicrobial resistance research, announces FY2027 Broad Agency Announcement Day on December 8, 2026, and lists BAA submissions due January 22, 2027. No company-specific action or financial effect is stated."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "2540 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.481695253125
-        }
-      },
-      {
-        "event_id": "cat_fc5c07d291eaf5",
-        "title": "Ogle Cattle Company, Inc. - 713311 - 09/05/2025",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T10:20:13-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/ogle-cattle-company-inc-713311-09052025",
-        "category": "regulatory",
-        "body_chars": 9018,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "enforcement",
-          "summary": "FDA Center for Veterinary Medicine issued a warning letter to Ogle Cattle Company, a Texas cattle feedlot, citing cattle sold for slaughter with drug residues above tolerance and extralabel use of ceftiofur and enrofloxacin drugs, based on inspections in April to June 2025. The letter is dated September 5, 2025, though the published date is November 20, 2026.",
-          "companies": [
-            {
-              "company": "Ogle Cattle Company, Inc.",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "9018 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.5593804383101855
-        }
-      },
-      {
-        "event_id": "cat_00dab7299a1253",
-        "title": "Stephen J. Fallon, Ph.D. - 728673 - 11/13/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T10:04:59-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-11132026",
-        "category": "regulatory",
-        "body_chars": 2286,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "biotechnology",
-            "clinical research"
-          ],
-          "companies": [
-            {
-              "company": "Stephen J. Fallon, Ph.D.",
-              "role": "subject",
-              "ticker": ""
-            }
-          ],
-          "direction": "likely_negative",
-          "event_type": "enforcement",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA CBER responded to a clinical investigator's reply to an August 27, 2026 warning letter, stating the September 2, 2026 response did not fully resolve the issues because the corrective action plan was incomplete. The investigator must submit an implemented comprehensive CAPA plan before participating in any future FDA-regulated clinical investigation."
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "2286 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.569959142013889
-        }
-      },
-      {
-        "event_id": "cat_90dd6bff635198",
-        "title": "Stephen J. Fallon, Ph.D. - 728673 - 08/27/2026",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T10:04:31-05:00",
-        "url": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/stephen-j-fallon-phd-728673-08272026",
-        "category": "regulatory",
-        "body_chars": 12347,
-        "has_body": true,
-        "findings": {
-          "event_type": "enforcement",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "summary": "FDA CBER issued a warning letter to Dr. Stephen J. Fallon, a clinical investigator, citing informed consent, IRB approval, protocol-adherence, and recordkeeping violations found in a June 2025 BIMO inspection of Study CLS-003 (an INSTI HIV Self-Test study). The letter is addressed to an individual investigator and names no public company.",
-          "companies": [],
-          "direction": "unclear",
-          "affected_sectors": [
-            "biotechnology",
-            "diagnostics"
-          ]
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "12347 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.570283216087963
-        }
-      },
-      {
-        "event_id": "cat_8cf63b9f3cc161",
-        "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
-        "source": "SEC Press Releases",
-        "published": "2026-11-20T09:28:28-05:00",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
-        "category": "regulatory",
-        "body_chars": 0,
-        "has_body": false,
-        "findings": {
-          "event_type": "enforcement",
-          "summary": "The SEC announced charges against Indianapolis-based Backward Hat Capital and its co-founders over an alleged $560 million offering fraud, and said it obtained emergency relief. Only the headline was retrieved; no body text was available.",
-          "companies": [
-            {
-              "company": "Backward Hat Capital",
-              "ticker": "",
-              "role": "subject"
-            }
-          ],
-          "direction": "likely_negative",
-          "materiality": 2,
-          "is_market_relevant": true
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": false,
-            "grade": "headline only",
-            "why": "the announcement body was never retrieved; only the headline is known"
-          },
-          "materiality": 2,
-          "age_days": 6.595317938310186
-        }
-      },
-      {
-        "event_id": "cat_f0ec84d7bd426c",
-        "title": "Office of Health Advancement (OHA) Guidance Documents",
-        "source": "FDA Drugs",
-        "published": "2026-11-20T08:09:38-05:00",
-        "url": "http://www.fda.gov/about-fda/office-health-advancement/office-health-advancement-oha-guidance-documents",
-        "category": "regulatory",
-        "body_chars": 1915,
-        "has_body": true,
-        "findings": {
-          "affected_sectors": [
-            "pharmaceuticals",
-            "biotechnology",
-            "medical devices"
-          ],
-          "companies": [],
-          "direction": "unclear",
-          "event_type": "other",
-          "is_market_relevant": false,
-          "materiality": 1,
-          "scheduled_date": "",
-          "summary": "FDA's Office of Health Advancement (formerly the Office of the Chief Medical Officer) published a general landing page describing its role and the guidance documents it issues on combination products, pediatric products, rare disease incentive programs, clinical trials, and medical countermeasures. No specific new guidance, decision, or company action is announced."
-        },
-        "_state": "seen",
-        "_duplicates": [
-          "FDA Biologics and Vaccines"
-        ],
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "1915 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.650063308680556
-        }
-      },
-      {
-        "event_id": "cat_2d7d92d6ce701b",
-        "title": "Roster of the Vaccines and Related Biological Products Advisory Committee",
-        "source": "FDA Biologics and Vaccines",
-        "published": "2026-11-20T07:13:34-05:00",
-        "url": "http://www.fda.gov/advisory-committees/vaccines-and-related-biological-products-advisory-committee/roster-vaccines-and-related-biological-products-advisory-committee",
-        "category": "regulatory",
-        "body_chars": 2196,
-        "has_body": true,
-        "findings": {
-          "is_market_relevant": false,
-          "event_type": "other",
-          "summary": "FDA posted the roster of the Vaccines and Related Biological Products Advisory Committee, noting 8 vacancies and requesting nominations for committee members. The roster lists current members, an alternate industry representative from Merck & Co., and an FDA contact.",
-          "companies": [],
-          "direction": "unclear",
-          "materiality": 1
-        },
-        "_state": "seen",
-        "_radar": {
-          "bucket": "archive",
-          "reason": "no verified public company behind it",
-          "verified": [],
-          "evidence": {
-            "primary": true,
-            "grade": "body read",
-            "why": "2196 characters of announcement text"
-          },
-          "materiality": 1,
-          "age_days": 6.688998493865741
+          "age_days": 6.735072881215278
         }
       }
     ],
     "counts": {
       "upcoming": 0,
       "priority": 0,
-      "archive": 16
+      "archive": 6
     },
-    "duplicates_collapsed": 1,
+    "duplicates_collapsed": 0,
     "headline_only_promoted": 0,
     "primary_source_backed": 0,
     "archive_reasons": {
-      "no verified public company behind it": 16
+      "no verified public company behind it": 6
     },
     "note": "Promotion requires a company that resolves to a listed ticker. Archived events are kept, with the reason they were archived."
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-27T04:41:22.979664+00:00",
-      "display": "Nov 26, 11:41 PM EST",
+      "at": "2026-11-27T14:33:43.085278+00:00",
+      "display": "Nov 27, 9:33 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07235862555555556
+      "age_hours": 0.07144788499999999
     },
     "last_success": {
-      "at": "2026-11-26T22:43:41.057577+00:00",
-      "display": "Nov 26, 5:43 PM EST",
+      "at": "2026-11-27T04:41:22.979664+00:00",
+      "display": "Nov 26, 11:41 PM EST",
       "trigger": "github-actions",
-      "age_hours": 6.034003649722222,
+      "age_hours": 9.943699444444444,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.0,
-    "stale_message": "No successful ingestion in 6.0h - 0.0h past the expected 6h schedule",
+    "overdue_hours": 3.9,
+    "stale_message": "No successful ingestion in 9.9h - 3.9h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -2834,10 +1938,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-27T04:44:43.592164+00:00",
-      "as_of": "2026-11-27T04:44:43.592164+00:00",
-      "as_of_display": "Nov 26, 11:44 PM EST",
-      "attempted_display": "Nov 26, 11:44 PM EST",
+      "attempted": "2026-11-27T14:37:01.064107+00:00",
+      "as_of": "2026-11-27T14:37:01.064107+00:00",
+      "as_of_display": "Nov 27, 9:37 AM EST",
+      "attempted_display": "Nov 27, 9:37 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -2848,12 +1952,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-27T04:41:22.979664+00:00",
-        "display": "Thu 11:41 PM EST",
+        "started": "2026-11-27T14:33:43.085278+00:00",
+        "display": "Fri 9:33 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-27T04:41:22.979664+00:00",
+        "display": "Thu 11:41 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-26T22:43:41.057577+00:00",
@@ -2898,14 +2010,6 @@
       {
         "started": "2026-11-25T02:52:47.604440+00:00",
         "display": "Tue 9:52 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-24T18:32:05.777202+00:00",
-        "display": "Tue 1:32 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
