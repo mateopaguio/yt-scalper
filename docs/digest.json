@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:10:29.790095+00:00",
+  "generated_at": "2026-11-28T05:48:01.680051+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -151,7 +151,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-27T23:10:29.895819+00:00",
+    "last_run": "2026-11-28T05:48:01.776528+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -611,8 +611,8 @@
   "pending_count": 8,
   "data_quality": {
     "counts": {
-      "usable": 32,
-      "degraded": 10
+      "usable": 34,
+      "degraded": 8
     },
     "usable": [
       "META",
@@ -629,6 +629,7 @@
       "WDC",
       "AXP",
       "UBER",
+      "NCLH",
       "HOOD",
       "AMZN",
       "CVX",
@@ -644,6 +645,7 @@
       "V",
       "SPGI",
       "ADP",
+      "COR",
       "NOK",
       "QQQ",
       "SPY"
@@ -666,20 +668,12 @@
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
-        "ticker": "NCLH",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
-      },
-      {
         "ticker": "ORCL",
         "detail": "1 move(s) >=35% - possible unadjusted split"
       },
       {
         "ticker": "VRT",
         "detail": "1 move(s) >=35% - possible unadjusted split"
-      },
-      {
-        "ticker": "COR",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant"
       },
       {
         "ticker": "CGNX",
@@ -820,9 +814,9 @@
         "provider": "yfinance"
       },
       "NCLH": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -946,9 +940,9 @@
         "provider": "yfinance"
       },
       "COR": {
-        "status": "degraded",
-        "detail": "1 bar(s) dropped: failed the OHLC invariant",
-        "bars": 1254,
+        "status": "usable",
+        "detail": "complete",
+        "bars": 1255,
         "feed": "yfinance",
         "provider": "yfinance"
       },
@@ -1266,19 +1260,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 27
+          "age_days": 28
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 27
+          "age_days": 28
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 27
+          "age_days": 28
         }
       ],
       "failed": []
@@ -1448,7 +1442,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.375775280740741
+          "age_days": 2.651794123240741
         }
       },
       {
@@ -1479,7 +1473,7 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.17466416962963
+          "age_days": 3.45068301212963
         }
       }
     ],
@@ -1498,24 +1492,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-27T23:07:07.655894+00:00",
-      "display": "Nov 27, 6:07 PM EST",
+      "at": "2026-11-28T05:44:45.822014+00:00",
+      "display": "Nov 28, 12:44 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.0731469336111111
+      "age_hours": 0.07033077833333333
     },
     "last_success": {
-      "at": "2026-11-27T14:33:43.085278+00:00",
-      "display": "Nov 27, 9:33 AM EST",
+      "at": "2026-11-27T23:07:07.655894+00:00",
+      "display": "Nov 27, 6:07 PM EST",
       "trigger": "github-actions",
-      "age_hours": 8.629972104722222,
+      "age_hours": 6.697599145,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 2.6,
-    "stale_message": "No successful ingestion in 8.6h - 2.6h past the expected 6h schedule",
+    "overdue_hours": 0.7,
+    "stale_message": "No successful ingestion in 6.7h - 0.7h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1527,10 +1521,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-27T23:10:29.895819+00:00",
-      "as_of": "2026-11-27T23:10:29.895819+00:00",
-      "as_of_display": "Nov 27, 6:10 PM EST",
-      "attempted_display": "Nov 27, 6:10 PM EST",
+      "attempted": "2026-11-28T05:48:01.776528+00:00",
+      "as_of": "2026-11-28T05:48:01.776528+00:00",
+      "as_of_display": "Nov 28, 12:48 AM EST",
+      "attempted_display": "Nov 28, 12:48 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1541,12 +1535,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-27T23:07:07.655894+00:00",
-        "display": "Fri 6:07 PM EST",
+        "started": "2026-11-28T05:44:45.822014+00:00",
+        "display": "Sat 12:44 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-27T23:07:07.655894+00:00",
+        "display": "Fri 6:07 PM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-27T14:33:43.085278+00:00",
@@ -1591,14 +1593,6 @@
       {
         "started": "2026-11-25T21:04:23.882539+00:00",
         "display": "Wed 4:04 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-25T11:57:36.031014+00:00",
-        "display": "Wed 6:57 AM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
