@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T05:48:01.680051+00:00",
+  "generated_at": "2026-11-28T14:54:16.192974+00:00",
   "video_count": 0,
   "videos": [],
   "aggregate": {
@@ -151,7 +151,7 @@
       "180": 0
     },
     "price_feed_healthy": true,
-    "last_run": "2026-11-28T05:48:01.776528+00:00",
+    "last_run": "2026-11-28T14:54:16.311862+00:00",
     "warning": "",
     "note": "Statistical conclusions need a few hundred resolved signals. At the 7-day horizon there are 159."
   },
@@ -997,7 +997,7 @@
           "ticker": "META",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": -1.64,
           "relative": {
             "qqq_pct": 1.271,
@@ -1011,7 +1011,7 @@
           "ticker": "NVDA",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 0.9,
           "relative": {
             "qqq_pct": 1.271,
@@ -1025,7 +1025,7 @@
           "ticker": "TSLA",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 4.04,
           "relative": {
             "qqq_pct": 1.271,
@@ -1039,7 +1039,7 @@
           "ticker": "CRWV",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 7.94,
           "relative": {
             "qqq_pct": 1.271,
@@ -1053,7 +1053,7 @@
           "ticker": "AAPL",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 0.93,
           "relative": {
             "qqq_pct": 1.271,
@@ -1067,7 +1067,7 @@
           "ticker": "LRCX",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 1.41,
           "relative": {
             "qqq_pct": 1.271,
@@ -1081,7 +1081,7 @@
           "ticker": "NFLX",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": -2.16,
           "relative": {
             "qqq_pct": 1.271,
@@ -1095,7 +1095,7 @@
           "ticker": "MSFT",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": -0.24,
           "relative": {
             "qqq_pct": 1.271,
@@ -1109,7 +1109,7 @@
           "ticker": "IBM",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": -1.26,
           "relative": {
             "qqq_pct": 1.271,
@@ -1123,7 +1123,7 @@
           "ticker": "NBIS",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 11.22,
           "relative": {
             "qqq_pct": 1.271,
@@ -1137,7 +1137,7 @@
           "ticker": "AMD",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 5.45,
           "relative": {
             "qqq_pct": 1.271,
@@ -1151,7 +1151,7 @@
           "ticker": "GOOGL",
           "state": "resolved",
           "why": "",
-          "age_days": 32,
+          "age_days": 33,
           "return_pct": 1.19,
           "relative": {
             "qqq_pct": 1.271,
@@ -1167,74 +1167,74 @@
         {
           "ticker": "SOFI",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "RDDT",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "NOW",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "SNDK",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "SMH",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "QS",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "CRWD",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "CPAY",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "MRNA",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "DECK",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "NEM",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         },
         {
           "ticker": "OMC",
           "state": "stale",
-          "why": "never measured, 32d old",
-          "age_days": 32
+          "why": "never measured, 33d old",
+          "age_days": 33
         }
       ],
       "unpriceable": [
@@ -1242,19 +1242,19 @@
           "ticker": "ETH",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 32
+          "age_days": 33
         },
         {
           "ticker": "BTC",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 32
+          "age_days": 33
         },
         {
           "ticker": "HYPE",
           "state": "unpriceable",
           "why": "not a US equity - no price source configured",
-          "age_days": 32
+          "age_days": 33
         },
         {
           "ticker": "ETH",
@@ -1442,7 +1442,7 @@
             "why": "the announcement body was never retrieved; only the headline is known"
           },
           "materiality": 1,
-          "age_days": 2.651794123240741
+          "age_days": 3.031140347638889
         }
       },
       {
@@ -1473,7 +1473,7 @@
             "why": "660 characters of announcement text"
           },
           "materiality": 1,
-          "age_days": 3.45068301212963
+          "age_days": 3.830029236527778
         }
       }
     ],
@@ -1492,24 +1492,24 @@
   },
   "health": {
     "last_attempt": {
-      "at": "2026-11-28T05:44:45.822014+00:00",
-      "display": "Nov 28, 12:44 AM EST",
+      "at": "2026-11-28T14:50:58.311458+00:00",
+      "display": "Nov 28, 9:50 AM EST",
       "trigger": "github-actions",
       "ok": null,
       "error": "",
-      "age_hours": 0.07033077833333333
+      "age_hours": 0.07117089055555556
     },
     "last_success": {
-      "at": "2026-11-27T23:07:07.655894+00:00",
-      "display": "Nov 27, 6:07 PM EST",
+      "at": "2026-11-28T05:44:45.822014+00:00",
+      "display": "Nov 28, 12:44 AM EST",
       "trigger": "github-actions",
-      "age_hours": 6.697599145,
+      "age_hours": 9.174640180555555,
       "ingested": 0
     },
     "stale": true,
     "expected_hours": 6.0,
-    "overdue_hours": 0.7,
-    "stale_message": "No successful ingestion in 6.7h - 0.7h past the expected 6h schedule",
+    "overdue_hours": 3.2,
+    "stale_message": "No successful ingestion in 9.2h - 3.2h past the expected 6h schedule",
     "consecutive_failures": 0,
     "crashed_runs": 0,
     "sources": {
@@ -1521,10 +1521,10 @@
       "newest_ingested_display": "not recorded before this release"
     },
     "market_data": {
-      "attempted": "2026-11-28T05:48:01.776528+00:00",
-      "as_of": "2026-11-28T05:48:01.776528+00:00",
-      "as_of_display": "Nov 28, 12:48 AM EST",
-      "attempted_display": "Nov 28, 12:48 AM EST",
+      "attempted": "2026-11-28T14:54:16.311862+00:00",
+      "as_of": "2026-11-28T14:54:16.311862+00:00",
+      "as_of_display": "Nov 28, 9:54 AM EST",
+      "attempted_display": "Nov 28, 9:54 AM EST",
       "feed_healthy": true,
       "scanned": 2,
       "usable": 2,
@@ -1535,12 +1535,20 @@
     },
     "recent": [
       {
-        "started": "2026-11-28T05:44:45.822014+00:00",
-        "display": "Sat 12:44 AM EST",
+        "started": "2026-11-28T14:50:58.311458+00:00",
+        "display": "Sat 9:50 AM EST",
         "trigger": "github-actions",
         "ok": null,
         "error": "",
         "ingested": null
+      },
+      {
+        "started": "2026-11-28T05:44:45.822014+00:00",
+        "display": "Sat 12:44 AM EST",
+        "trigger": "github-actions",
+        "ok": true,
+        "error": "",
+        "ingested": 0
       },
       {
         "started": "2026-11-27T23:07:07.655894+00:00",
@@ -1585,14 +1593,6 @@
       {
         "started": "2026-11-26T03:52:24.244401+00:00",
         "display": "Wed 10:52 PM EST",
-        "trigger": "github-actions",
-        "ok": true,
-        "error": "",
-        "ingested": 0
-      },
-      {
-        "started": "2026-11-25T21:04:23.882539+00:00",
-        "display": "Wed 4:04 PM EST",
         "trigger": "github-actions",
         "ok": true,
         "error": "",
